@@ -4,8 +4,8 @@ Genymotion is a x86 emulator however it is possible to run google playstore and 
 
 # Steps
 
-1) Download ARM Translation Installer v1.1
-2) Download the correct GApps for your Android version: (https://itvends.com/gapps/)
+1. Download ARM Translation Installer v1.1
+2. Download the correct GApps for your Android version: (https://itvends.com/gapps/)
 
 Next Open your Genymotion VM and go to the Homescreen
 
