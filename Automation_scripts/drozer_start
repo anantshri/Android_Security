@@ -1,0 +1,5 @@
+#!/bin/bash
+adb wait-for-devices
+adb shell am startservice -n com.mwr.dz/.services.ServerService -c com.mwr.dz.START_EMBEDDED
+adb forward tcp:31415 tcp:31415
+drozer console connect
