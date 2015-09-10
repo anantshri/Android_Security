@@ -1,0 +1,122 @@
+#!/bin/bash
+
+id_gal=""
+start="adb -s 4790201fe8dbafae shell am start -a android.intent.action.VIEW -t image/jpg -d file:///storage//sdcard0//jpg_sample//1.jpg"
+
+restarted=0
+
+# Check if gallery application is still running or if a crash occurred                           
+ 
+function check_gallery {
+    i=$(adb -s 4790201fe8dbafae shell ps | grep com.sec.android.gallery3d)
+    id=$(echo $i | cut -d " " -f 2)
+
+    if [ "$id" != "" ] ;then
+        echo "Gallery running with pid $id"
+	if [ "$id" != "$id_gal" ] ; then
+            echo $id_gal
+            echo "Gallery restarted with pid $id"
+            restarted=1
+        fi;
+    else
+        echo "Gallery not running\n Restarting....\n"
+        $start
+        adb -s 4790201fe8dbafae shell input keyevent 4
+        i=$(adb -s 4790201fe8dbafae shell ps | grep com.sec.android.gallery3d)
+        id=$(echo $i | cut -d " " -f 2)
+	restarted=1
+        echo "Gallery restarted with pid $id...\n"
+        sleep 2
+    fi;
+    id_gal=$id
+}
+
+
+# Check the state of the process and wait until sleeping is reached                                
+function check_state {
+    for i in `seq 0 10`; do
+        state=$(adb -s 4790201fe8dbafae shell cat /proc/$id_gal/status | grep State)
+        get_state=$(echo $state | cut -d " " -f 2)
+        if [ "$get_state" != "S" ]; then
+            echo "Not finished yet... "
+            sleep $1
+        fi;
+    done;
+}
+
+
+
+
+function wait_for_crash {
+    for i in `seq 1 10`;
+    do
+	p=$(adb -s 4790201fe8dbafae shell ps | grep gal)
+	echo $p
+	if [ "$p" == "" ]; then
+	    print $p
+	    return
+	fi;
+	sleep 1
+    done;
+    i=$(adb -s 4790201fe8dbafae shell ps | grep com.sec.android.gallery3d)
+    id=$(echo $i | cut -d " " -f 2)
+    adb -s 4790201fe8dbafae shell su -c kill -9 $id
+}
+
+check_gallery
+for c in `seq 0 5000`;
+do
+    adb -s 4790201fe8dbafae logcat -c
+    adb -s 4790201fe8dbafae shell am start -a android.intent.action.VIEW -t image/jpg -d file:///storage//sdcard0//fuzzed//fuzzfile$c.jpg
+    sleep 0.2
+    check_state 1
+    check_gallery
+    crash=$(adb -s 4790201fe8dbafae shell su -c sh /data/local/tmp/crash_check)
+    if [ "$crash" != "" ] || [ "$restarted" -eq 1 ]; then
+    	echo "Crash detected!"
+	echo header$c.jpg >> log2
+	restarted=0
+    fi;
+    adb -s 4790201fe8dbafae shell input keyevent 4
+    c=$(($c+1))
+
+done
+
+
+check_gallery
+for c in `seq 0 5000`;
+do
+    adb -s 4790201fe8dbafae logcat -c
+    adb -s 4790201fe8dbafae shell am start -a android.intent.action.VIEW -t image/jpg -d file:///storage//sdcard0//fuzzed_corpus//fuzzfile$c.jpg
+    sleep 0.2
+    check_state 1
+    check_gallery
+    crash=$(adb -s 4790201fe8dbafae shell su -c sh /data/local/tmp/crash_check)
+    if [ "$crash" != "" ] || [ "$restarted" -eq 1 ]; then
+    	echo "Crash detected!"
+	echo corpus$c.jpg >> log2
+	restarted=0
+    fi;
+    adb -s 4790201fe8dbafae shell input keyevent 4
+    c=$(($c+1))
+
+done
+
+check_gallery
+for c in `seq 0 5000`;
+do
+    adb -s 4790201fe8dbafae logcat -c
+    adb -s 4790201fe8dbafae shell am start -a android.intent.action.VIEW -t image/jpg -d file:///storage//sdcard0//fuzzed_header//fuzzfile$c.jpg
+    sleep 0.2
+    check_state 1
+    check_gallery
+    crash=$(adb -s 4790201fe8dbafae shell su -c sh /data/local/tmp/crash_check)
+    if [ "$crash" != "" ] || [ "$restarted" -eq 1 ]; then
+    	echo "Crash detected!"
+	echo complete_header$c.jpg >> log2
+	restarted=0
+    fi;
+    adb -s 4790201fe8dbafae shell input keyevent 4
+    c=$(($c+1))
+
+done

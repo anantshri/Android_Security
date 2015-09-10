@@ -1,0 +1,2879 @@
+[    0.000000] sec_dbg_setup: str=@0x88490004
+[    0.000000] sec_dbg_setup: secdbg_paddr = 0x88490004
+[    0.000000] sec_dbg_setup: secdbg_size = 0x40000
+[    0.152510] set_dload_mode <1> ( c0e12148 )
+[    0.182847] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+[    0.183061] MSM_DCVS: msm_dcvs_early_init: Unable to initialize DCVS err=4
+[    0.185777] sec_debug_init: enable=0
+[    0.185808] sec_debug_init: restart_reason : 0xfa00a65c
+[    0.220967] msm_gpiomux_install: write failure: -22
+[    0.220998] msm_gpiomux_install: write failure: -22
+[    0.220998] msm_gpiomux_install: write failure: -22
+[    0.220998] msm_gpiomux_install: write failure: -22
+[    0.227437] pm8xxx-regulator pm8xxx-regulator.3: Failed to set supply 8921_l29
+[    0.227559] pm8xxx_vreg_probe: regulator_register failed: 8921_l29, rc=-16
+[    0.227590] pm8xxx_vreg_probe: error for 8921_l29, rc=-16
+[    0.234976] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235006] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235006] Using interleaved memory by default
+[    0.235189] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235220] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235220] Using interleaved memory by default
+[    0.235434] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235434] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235434] Using interleaved memory by default
+[    0.235617] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235647] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235647] Using interleaved memory by default
+[    0.235830] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235861] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235861] Using interleaved memory by default
+[    0.423836] [CAMERA][msm8930_init_cam:1942] Start
+[    0.424263] [msm_camera_gpio_install:274] [Start]
+[    0.634732] smd_channel_probe_worker: allocation table not initialized
+[    0.655241] msm_iommu_dev: Could not find context <jpegd_src>
+[    0.655363] msm_iommu_dev: Could not find context <jpegd_dst>
+[    0.657256] param_sec_operation: filp_open failed. (-2)
+[    0.657378] sec_open_param PARAM OPEN FAIL
+[    0.845750] tima_uevent_init
+[    0.877460] [mdnie lite] start!
+[    0.877704] [mdnie lite] end!
+[    0.883595] hdmi_msm hdmi_msm.1: external_common_state_create: sysfs group e0157408
+[    0.885151] Inside writeback_driver_init
+[    0.885731] Inside writeback_probe
+[    0.892995] Unknown PM state 0
+[    0.893209] Unknown PM state 3
+[    1.010773] wcd9xxx-i2c-core 8-0077: wcd9xxx_i2c_probe:probe for other slaves
+[    1.010834] devices of codec I2C slave Addr = 77
+[    1.011200] wcd9xxx-i2c-core 8-0066: wcd9xxx_i2c_probe:probe for other slaves
+[    1.011262] devices of codec I2C slave Addr = 66
+[    1.011597] wcd9xxx-i2c-core 8-0055: wcd9xxx_i2c_probe:probe for other slaves
+[    1.011628] devices of codec I2C slave Addr = 55
+[    1.051030] msm_hsusb_host msm_hsusb_host: unable to register with transceiver
+[    1.181413] msm_otg_sm_work 2359: couldn't get usb power supply
+[    1.191271] Atmel MXT336S 3-004a: tsp_atmel/mxt336s_Serrano.fw
+[    1.751838] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[    1.764291] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.779154] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.794475] mpu6050_input_probe: mpu6050 probe failed
+[    1.853837] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.921074] imx175_eeprom_init called 
+[    1.921349] imx175 spi driver probe
+[    1.922020] imx175_spi_read_id: ReadID:0xf8, 0x12
+[    1.922386] imx175_spi_read : Enter - reg_addr : 0x40
+[    1.922813] imx175_spi_read : Enter - reg_addr : 0x1000
+[    1.923302] imx175_spi_read : Enter - reg_addr : 0x2000
+[    1.923882] imx175_spi_read : Enter - reg_addr : 0x300c
+[    1.929620] imx175_spi_read : Enter - reg_addr : 0x1200
+[    1.930199] imx175_spi_read : Enter - reg_addr : 0x1218
+[    1.935968] imx175_format_calibrationdata: is_all_supported= 1
+[    1.936487] [shchang : imx175_format_afdata] Little Endian!!
+[    1.936700] [shchang : imx175_format_wbdata] Little Endian!!
+[    1.938196] msm_sensor_i2c_probe s5k3h5xa probe succeeded
+[    1.938409] [teddy]msm_sensor_i2c_probe s5k3h5xa sensor_create_node
+[    1.938806] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][1]
+[    1.939264] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][2]
+[    1.939874] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][3]
+[    1.940851] msm_eeprom_probe probe_fail
+[    1.942682] msm_sensor_i2c_probe s5k6a3yx probe succeeded
+[    1.942896] msm_eeprom_probe probe_fail
+[    1.989531] mmc0: No card detect facilities available
+[    2.000244] mmc1: No card detect facilities available
+[    2.019227] mmc0: CMD52: Command timeout
+[    2.024782] mmc0: CMD52: Command timeout
+[    2.033602] mmc0: CMD8: Command timeout
+[    2.039188] mmc0: CMD5: Command timeout
+[    2.044712] mmc0: CMD5: Command timeout
+[    2.050236] mmc0: CMD5: Command timeout
+[    2.055821] mmc0: CMD5: Command timeout
+[    2.061345] mmc0: CMD55: Command timeout
+[    2.066870] mmc0: CMD55: Command timeout
+[    2.072485] mmc0: CMD55: Command timeout
+[    2.078010] mmc0: CMD55: Command timeout
+[    2.166122] mmc1: CMD52: Command timeout
+[    2.171738] mmc1: CMD52: Command timeout
+[    2.180589] mmc1: CMD8: Command timeout
+[    2.186143] mmc1: CMD5: Command timeout
+[    2.191698] mmc1: CMD5: Command timeout
+[    2.197222] mmc1: CMD5: Command timeout
+[    2.202746] mmc1: CMD5: Command timeout
+[    2.208362] mmc1: CMD55: Command timeout
+[    2.213886] mmc1: CMD55: Command timeout
+[    2.219410] mmc1: CMD55: Command timeout
+[    2.224996] mmc1: CMD55: Command timeout
+[    2.230581] mmc1: CMD1: Command timeout
+[    2.881519] i2c i2c-21: an30259a_initialize: failure on i2c write (reg = 0x 0)
+[    2.881733] i2c i2c-21: failure on initialization at led channel:0
+[    2.893911] gp2a_setup_irq, start
+[    2.894613] gp2a_setup_irq, success
+[    3.047215] soc-audio soc-audio.0: Failed to add Speaker Function: -16
+[    3.084968] tc360_probe start
+[    3.086860] tc360_init: init done 0
+[    3.088875] read_ocv_trim: program rev reg is 0x19
+[    3.089027] pm8921_is_usb_chg_plugged_in: called before init
+[    3.092812] pm8921_is_usb_chg_plugged_in: called before init
+[    3.093026] pm8921_is_usb_chg_plugged_in: called before init
+[    3.093209] pm8921_is_batfet_closed: called before init
+[    3.122966] pm8921_is_usb_chg_plugged_in: called before init
+[    3.231680] pm8921_is_batfet_closed: called before init
+[    3.263970] pm8921_is_usb_chg_plugged_in: called before init
+[    3.371768] pm8921_is_batfet_closed: called before init
+[    3.403143] pm8921_is_usb_chg_plugged_in: called before init
+[    3.511826] pm8921_is_batfet_closed: called before init
+[    3.543201] pm8921_is_usb_chg_plugged_in: called before init
+[    3.643399] tsu6721 15-0025: dev1: 0x4, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+[    3.643613] tsu6721_callback: fail to get battery ps
+[    3.651793] pm8921_is_batfet_closed: called before init
+[    3.683351] pm8921_is_usb_chg_plugged_in: called before init
+[    3.792095] pm8921_is_batfet_closed: called before init
+[    3.823287] pm8921_is_usb_chg_plugged_in: called before init
+[    3.826827] pm8921_usb_ovp_disable: called before init
+[    3.827041] power_supply usb: driver failed to report `present' property: 4294967274
+[    3.827193] power_supply usb: driver failed to report `present' property: 4294967274
+[    3.827376] power_supply ac: driver failed to report `present' property: 4294967274
+[    3.827559] power_supply ac: driver failed to report `present' property: 4294967274
+[    3.840439] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    3.843125] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    3.844498] pm8921_charger_probe: battery(PM8917) cable_type (1)
+[    3.845658] irda_device_init called!
+[    3.846452] barcode_emul_ice4_8930: probe complete barcode_emul_probe
+[    3.851304] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[    3.851487] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (475mA)--------
+[    3.852220] power_supply usb: driver failed to report `health' property: 4294967274
+[    3.899099] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[    3.910697] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    4.004425] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    4.096932] init: /init.qcom.rc: 641: invalid command '/system/bin/log'
+[    4.097329] init: /init.qcom.rc: 781: invalid command 'kill'
+[    4.097421] init: /init.qcom.rc: 783: invalid command 'kill'
+[    4.097543] init: /init.qcom.rc: 785: invalid command 'kill'
+[    4.097634] init: /init.qcom.rc: 787: invalid command 'kill'
+[    4.099649] init: could not import file 'init.mdm.rc' from 'init.target.rc'
+[    4.100106] init: /init.carrier.rc: 117: ignored duplicate definition of service 'TvoutService_C'
+[    4.100350] init: /init.container.rc: 39: invalid option 'start'
+[    4.101541] init: setsebool: could not set debugfs to 1
+[    4.104501] init: invalid uid 'fm_radio'
+[    4.370425] power_supply usb: driver failed to report `health' property: 4294967274
+[    4.373416] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    4.527117] init: could not open /dev/keychord
+[    5.635617] init: Running /dev/block/platform/msm_sdcc.1/by-name/cache on ext4
+[    5.666534] init: Running /dev/block/platform/msm_sdcc.1/by-name/persist on ext4
+[    5.697787] init: Running /dev/block/platform/msm_sdcc.1/by-name/efs on ext4
+[    5.764108] init: Running /dev/block/platform/msm_sdcc.1/by-name/persdata on ext4
+[    6.088936] init: failed to open '/sys/devices/soc0/soc_id'
+[    6.089119] init: failed to open '/sys/devices/soc0/platform_version'
+[    6.089302] init: failed to open '/sys/devices/soc0/hw_platform'
+[    6.089424] init: Detected MSM SOC ID=154 SOC VER=65536 BOARD TYPE=Unknown
+[    6.106638] healthd: wakealarm_init: timerfd_create failed
+[    6.120036] init: cannot find '/system/bin/sec-ril', disabling 'secril-daemon'
+[    6.156600] init: cannot execve('/system/etc/install-recovery.sh'): Permission denied
+[    6.157485] init: cannot find '/system/bin/sensorhubservice', disabling 'sensorhubservice'
+[    6.180009] init: cannot find '/system/bin/rf4ce', disabling 'rf4ce'
+[    6.180131] init: cannot find '/system/bin/qrngd', disabling 'qrngd'
+[    6.197344] Unknown PM state 0
+[    6.202838] Unknown PM state 3
+[    6.203052] Unknown PM state 0
+[    6.204517] Unknown PM state 3
+[    6.253105] Unknown PM state 0
+[    6.254539] Unknown PM state 3
+[    6.254723] Unknown PM state 0
+[    6.256157] Unknown PM state 3
+[    6.266137] init: property 'sys.powerctl' doesn't exist while expanding '${sys.powerctl}'
+[    6.266290] init: powerctl: cannot expand '${sys.powerctl}'
+[    6.266381] init: property 'sys.sysctl.extra_free_kbytes' doesn't exist while expanding '${sys.sysctl.extra_free_kbytes}'
+[    6.266534] init: cannot expand '${sys.sysctl.extra_free_kbytes}' while writing to '/proc/sys/vm/extra_free_kbytes'
+[    6.288448] init: cannot find '/system/bin/netmgrd', disabling 'netmgrd'
+[    6.532549] init: cannot find '/system/bin/quipc_igsn', disabling 'quipc_igsn'
+[    6.559621] init: cannot find '/system/bin/quipc_main', disabling 'quipc_main'
+[    6.574179] init: cannot find '/system/bin/location-mq', disabling 'location_mq'
+[    6.588280] init: cannot find '/system/bin/lowi-server', disabling 'lowi-server'
+[    6.826461] init: cannot find '/system/bin/battery_monitor', disabling 'battery_monitor'
+[    7.065130] QSEECOM: qseecom_release: Unsupported clnt_handle_type 4
+[    7.114207] init: cannot find '/system/bin/scranton_RD', disabling 'scranton_RD'
+[    7.408881] wcnss: no space available for smd frame
+[    7.443003] wcnss: no space available for smd frame
+[    7.472974] wcnss: no space available for smd frame
+[    7.513047] wcnss: no space available for smd frame
+[    8.322783] [mdnie lite] is negative Mode On = 0
+[    8.322813] [mdnie lite] negative off when resume, tuning again!
+[    8.322844] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[    8.322875] [mdnie lite]  = UI MODE =
+[    8.322875] [mdnie lite]  = STANDARD MODE =
+[    8.322905] [mdnie lite]  send tuning cmd!!
+[    8.356233] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+[    8.607477] diag: proc 1, msg mask update fail -12, tried 419
+[    8.966274] init: sys_prop: permission denied uid:1013  name:audio.country
+[   11.199755] init: untracked pid 658 exited
+[   11.447153] ACDB=> get_hw_delay Invalid delay/ delay entries
+[   11.447276] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[   12.084053] smd_tty_open: DS open failed -19
+[   12.103250] init: untracked pid 442 exited
+[   12.728734] Notify: smsm init
+[   13.103555] smd_tty_open: DS open failed -19
+[   13.887013] diag: proc 0, msg mask update fail -12, tried 419
+[   14.103982] smd_tty_open: DS open failed -19
+[   15.104379] smd_tty_open: DS open failed -19
+[   16.104806] smd_tty_open: DS open failed -19
+[   16.590538] ACDB=> get_hw_delay Invalid delay/ delay entries
+[   16.590630] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[   16.603357] init: sys_prop: permission denied uid:1013  name:audioflinger.bootsnd
+[   18.742926] accel_open_calibration: Can't open calibration file
+[   18.948359] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[   23.200061] pm_chg_usb_trim: trim_orig 40 write 0x28 index=0 value 0x0 to USB_OVP_TRIM
+[   26.897634] msm_pm_mode_attr_store: spc is blocked (1) from [sh]
+[   26.897878] msm_pm_mode_attr_store: spc is blocked (2) from [sh]
+[   28.740973] [mdnie lite] is negative Mode On = 0
+[   28.741126] [mdnie lite] negative off when resume, tuning again!
+[   28.741187] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   28.741339] [mdnie lite]  = UI MODE =
+[   28.741400] [mdnie lite]  = STANDARD MODE =
+[   28.741522] [mdnie lite]  send tuning cmd!!
+[   28.771829] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+[   32.558614] wlan: [1024:E :HDD] hdd_apply_cfg_ini: Reg Parameter gApKeepAlivePeriod > allowed Maximum [30 > 20]. Enforcing Default= 5
+[   32.567465] wlan: [1024:E :VOS] INFO: NV binary file version=1 Driver default NV version=1, continue...
+[   32.567526] 
+[   32.581535] wlan: [1024:E :HDD] hdd_wlan_startup: Invalid MAC address in NV, using MAC from ini file 00:89:ff
+[   32.796459] wlan: [2607:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[   32.818739] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[   32.865924] wlan: [2607:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[   37.694521] init: sys_prop: permission denied uid:2000  name:ro.csc.country_code
+[   37.694948] init: sys_prop: permission denied uid:2000  name:ro.csc.countryiso_code
+[   37.695589] init: sys_prop: permission denied uid:2000  name:ro.csc.sales_code
+[   37.700503] init: sys_prop: permission denied uid:2000  name:ro.setupwizard.mode
+[   38.360323] init: untracked pid 346 exited
+[   39.175705] dtv_pipe is not configured yet
+[   39.744971] [mdnie lite] is negative Mode On = 0
+[   39.745093] [mdnie lite] negative off when resume, tuning again!
+[   39.745154] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   39.745307] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+[   39.747901] [mdnie lite] set background mode : 4
+[   39.748023] [mdnie lite]  mode_store, input background(4)
+[   39.748115] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[   39.748908] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+[   71.231558] init: untracked pid 4501 exited
+[   71.259056] init: untracked pid 4524 exited
+[   71.279444] init: untracked pid 4568 exited
+[   71.333740] init: untracked pid 4572 exited
+[   71.349336] init: untracked pid 4596 exited
+[   71.454570] init: untracked pid 4505 exited
+[   71.482374] init: untracked pid 4527 exited
+[   71.504410] init: untracked pid 4575 exited
+[   71.542560] init: untracked pid 4576 exited
+[   71.576896] init: untracked pid 4600 exited
+[   72.860796] [CAMERA]][s5k3h5xa_sensor_power_up:460] ----Camera power on ----
+[   72.861956] [CAMERA]][s5k3h5xa_sensor_power_up:463] PMIC_MODEL_PM8917
+[   72.863085] [CAMERA]][s5k3h5xa_sensor_power_up:496] [CAM_SENSOR_A2P8]::SET OK
+[   72.868182] [CAMERA]][s5k3h5xa_sensor_power_up:506] [CAM_CORE_EN::CAM_ISP_CORE_1P2::ret::1]::SET OK
+[   72.870196] [CAMERA]][s5k3h5xa_sensor_power_up:525] [CAM_MCLK0::rc::0]::SET Ok
+[   72.876270] [CAMERA]][s5k3h5xa_sensor_power_up:537] [VREG_CAM_AF_2P8]::SET OK
+[   72.879780] [CAMERA]][s5k3h5xa_sensor_power_up:552] [CAM_SENSOR_IO_1P8]::SET OK
+[   72.882313] [CAMERA]][s5k3h5xa_sensor_power_up:561] [GPIO_CAM1_RST_N]::SET OK
+[   72.888905] [CAMERA]][s5k3h5xa_sensor_power_up:591] [return rc::0]::Success
+[   73.870593] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   73.876484] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   73.882862] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   73.897329] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   73.897359] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   73.902182] Failed: ddl_set_property
+[   73.902365]  Setting slice delivery mode failed
+[   73.940546] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   73.947016] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   73.956630] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   73.978208] Failed: ddl_set_property
+[   73.978300]  Setting slice delivery mode failed
+[   73.982878] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   73.983030] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   74.001373] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   74.012696] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   74.018281] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   74.018403] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   74.021974] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   75.065862] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   75.088600] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   75.135449] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   75.166458] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   75.190263] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   75.227346] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   75.247337] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   75.276697] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   75.451396] vid_enc_set_recon_buffers(): get_ION_handle failed
+[   75.451640] setting VEN_IOCTL_SET_RECON_BUFFER failed
+[   75.474530] vid_enc_set_recon_buffers(): get_ION_handle failed
+[   75.474774] setting VEN_IOCTL_SET_RECON_BUFFER failed
+[   75.481336] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   75.502884] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   75.525041] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   75.563039] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   75.568838] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   75.575064] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   75.611963] Failed: ddl_set_property
+[   75.612116] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   75.612299] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   75.623378] 
+[   75.623378]  err: Unsupported API in client state 3
+[   75.623622] setting VEN_IOCTL_CMD_RESUME failed
+[   75.632168] Failed: ddl_set_property
+[   75.632290] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   75.632534] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   75.633145] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   75.652433] 
+[   75.652464]  err: Unsupported API in client state 3
+[   75.652647] setting VEN_IOCTL_CMD_RESUME failed
+[   75.659606] vid_enc_ioctl(): Unsupported ioctl 0
+[   75.660338] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   75.667144] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   75.683656] vid_enc_ioctl(): Unsupported ioctl 0
+[   75.696902] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   75.701785] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   75.712131] vid_enc_ioctl(): Unsupported ioctl 0
+[   75.717381] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   75.729864] vid_enc_free_buffer(): WNG: user_virt_addr = ffff553c has not been set
+[   75.741248] vid_enc_ioctl(): Unsupported ioctl 0
+[   75.749488] vid_enc_free_buffer(): WNG: user_virt_addr = ffff553c has not been set
+[   75.770700] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   75.786113] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   75.786174] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   75.807263] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   75.807843] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   75.827865] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   75.860766] vidc_insert_addr_table(): get_ION_handle failed
+[   75.916099] vidc_insert_addr_table(): get_ION_handle failed
+[   75.920463] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   75.962948] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   75.971616] Failed: ddl_set_property
+[   75.971738] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   75.971890] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   75.981016] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   75.990538] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   76.010102] Failed: ddl_set_property
+[   76.010193] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   76.010376] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   76.012635] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   76.017274] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   76.027743] Failed: ddl_set_property
+[   76.027804] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   76.028017] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   76.032900] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   76.046940] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   76.046970] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   76.055394] Failed: ddl_set_property
+[   76.055486] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   76.055699] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   76.082862] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   76.119792] setting VEN_IOCTL_CMD_FLUSH failed
+[   76.139539] Failed: ddl_set_property
+[   76.139600] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   76.139783] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   76.179948] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   76.194414] setting VEN_IOCTL_CMD_FLUSH failed
+[   76.204150] Failed: ddl_set_property
+[   76.204272] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   76.204394] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   76.237784] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   76.243735] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   76.300106] Failed: ddl_set_property
+[   76.300198] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   76.300320] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   76.318022] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   76.333648] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   76.357301] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   76.364016] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   76.378940] Failed: ddl_set_property
+[   76.379032] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   76.379215] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   76.384159] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   76.389531] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   76.408057] vid_enc_encode_frame(): kernel_vaddr not found
+[   76.414222] 
+[   76.414222]  err: Unsupported API in client state 6
+[   76.414344] setting VEN_IOCTL_CMD_PAUSE failed
+[   76.420570] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   76.442484] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   76.451518] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   76.458477] 
+[   76.458477]  err: Unsupported API in client state 6
+[   76.458629] setting VEN_IOCTL_CMD_PAUSE failed
+[   76.468090] init: untracked pid 4688 exited
+[   76.471783] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   76.480878] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   76.489180] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   76.493331] vid_enc_free_buffer(): WNG: user_virt_addr = b663b000 has not been set
+[   76.493361] vid_enc_encode_frame(): kernel_vaddr not found
+[   76.507065] 
+[   76.507065]  err: Unsupported API in client state 6
+[   76.507218] setting VEN_IOCTL_CMD_PAUSE failed
+[   76.519578] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   76.537677] VEN_IOCTL_GET_SEQUENCE_HDR: Userspace address verification failed.
+[   76.543445] setting VEN_IOCTL_SET_BASE_CFG failed
+[   76.555074] 
+[   76.555074]  err: Unsupported API in client state 6
+[   76.555257] setting VEN_IOCTL_CMD_PAUSE failed
+[   76.561757] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   76.567160] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   76.577201] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   76.587120] vid_enc_free_buffer(): WNG: user_virt_addr = b670d000 has not been set
+[   76.621028] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   76.637784] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   76.650358] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   76.650480] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   76.678803] VEN_IOCTL_GET_SEQUENCE_HDR: Userspace address verification failed.
+[   76.690065] init: untracked pid 4690 exited
+[   76.691500] setting VEN_IOCTL_SET_BASE_CFG failed
+[   76.693911] Failed: ddl_set_property
+[   76.694002] vid_enc_set_get_short_header(): Set VCD_I_SHORT_HEADER Failed
+[   76.694185] setting VEN_IOCTL_(G)SET_SHORT_HDR failed
+[   76.715458] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   76.728399] vid_enc_free_buffer(): WNG: user_virt_addr = 800000d2 has not been set
+[   76.734869] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   76.749763] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   76.749855] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   76.749977] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   76.756508] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   76.756966] Failed: ddl_set_property
+[   76.757057]  Setting slice delivery mode failed
+[   76.778971] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   76.779124] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   76.797894] Failed: ddl_set_property
+[   76.798016] vid_enc_set_get_short_header(): Set VCD_I_SHORT_HEADER Failed
+[   76.798138] setting VEN_IOCTL_(G)SET_SHORT_HDR failed
+[   76.800610] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   76.800701] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   76.818007] setting VEN_IOCTL_SET_BASE_CFG failed
+[   76.823103] 
+[   76.823103]  err: Unsupported API in client state 6
+[   76.823287] setting VEN_IOCTL_CMD_PAUSE failed
+[   76.829452] vid_enc_free_buffer(): WNG: user_virt_addr = 800000d2 has not been set
+[   76.829482]  vid_enc_free_recon_buffers() address  8200dbf3
+[   76.829513]  vid_enc_free_recon_buffers() address not found 8200dbf3
+[   76.829543] VEN_IOCTL_FREE_RECON_BUFFER failed
+[   76.846635] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   76.854814] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   76.854906] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   76.861010] Failed: ddl_set_property
+[   76.861071] Setting sps/pps per IDR failed
+[   76.866442] Failed: ddl_set_property
+[   76.866534]  Setting slice delivery mode failed
+[   76.924706] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   76.924828] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   76.968014] setting VEN_IOCTL_SET_BASE_CFG failed
+[   76.977536] 
+[   76.977536]  err: Unsupported API in client state 6
+[   76.977720] setting VEN_IOCTL_CMD_PAUSE failed
+[   76.988097]  vid_enc_free_recon_buffers() address  8200dbf3
+[   76.988249]  vid_enc_free_recon_buffers() address not found 8200dbf3
+[   76.988402] VEN_IOCTL_FREE_RECON_BUFFER failed
+[   77.002441] vid_enc_ioctl(): Unsupported ioctl 0
+[   77.024935] Failed: ddl_set_property
+[   77.025057] Setting sps/pps per IDR failed
+[   77.065496] vid_enc_free_buffer(): WNG: user_virt_addr = ffffff3d has not been set
+[   77.076697] Failed: ddl_set_property
+[   77.076789]  Setting slice delivery mode failed
+[   77.120585] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   77.136426] vid_enc_ioctl(): Unsupported ioctl 0
+[   77.140851] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   77.159529] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   77.169357] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   77.169540] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   77.179459] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   77.179642] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   77.180009] vid_enc_free_buffer(): WNG: user_virt_addr = ffffff3d has not been set
+[   77.200335] Failed: ddl_set_property
+[   77.200396]  Setting slice delivery mode failed
+[   77.228444] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   77.228567] Failed: ddl_set_property
+[   77.228597] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   77.228628] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   77.235098] Failed: ddl_set_property
+[   77.235251] vid_enc_set_get_headerextension(): Set VCD_I_HEADER_EXTENSION Failed
+[   77.235434] setting VEN_IOCTL_(G)SET_HEC failed
+[   77.248130] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   77.248191] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   77.255760] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   77.261620] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   77.261803] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   77.273920] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   77.274103] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   77.291774] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   77.320799] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   77.327056] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   77.333526] 
+[   77.333526]  err: rc = 0x80000003. Failed: ddl start
+[   77.333740] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   77.334014] setting VEN_IOCTL_CMD_START failed
+[   77.353609] Failed: ddl_set_property
+[   77.353822] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   77.354036] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   77.359224] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   77.365267] Failed: ddl_set_property
+[   77.365450] vid_enc_set_get_headerextension(): Set VCD_I_HEADER_EXTENSION Failed
+[   77.365634] setting VEN_IOCTL_(G)SET_HEC failed
+[   77.370730] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   77.390202] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   77.395513] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   77.400915] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   77.410956] vid_enc_ioctl(): Unsupported ioctl 25356
+[   77.440531] Failed: ddl_set_property
+[   77.440622]  Setting slice delivery mode failed
+[   77.453685] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   77.469067] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   77.474591] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   77.481306] 
+[   77.481306]  err: Unsupported API in client state 1
+[   77.481580] setting VEN_IOCTL_CMD_RESUME failed
+[   77.481641] 
+[   77.481672]  err: rc = 0x80000003. Failed: ddl start
+[   77.481703] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   77.481733] setting VEN_IOCTL_CMD_START failed
+[   77.505356] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   77.511551] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   77.523638] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   77.550801] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   77.553364] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   77.553975] vid_enc_ioctl(): Unsupported ioctl 25356
+[   77.565298] Failed: ddl_set_property
+[   77.565389]  Setting slice delivery mode failed
+[   77.572226] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   77.587639] 
+[   77.587639]  err: Unsupported API in client state 1
+[   77.587791] setting VEN_IOCTL_CMD_RESUME failed
+[   77.598687] 
+[   77.598718]  err: Unsupported API in client state 1
+[   77.598870] setting VEN_IOCTL_CMD_RESUME failed
+[   77.926934] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   77.931451] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   77.941645] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   77.967312] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   77.971799] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   78.080909] 
+[   78.080909]  err: Unsupported API in client state 1
+[   78.081123] setting VEN_IOCTL_CMD_RESUME failed
+[   78.338806] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   78.338928] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   78.437082] 
+[   78.437082]  err: rc = 0x80000003. Failed: ddl start
+[   78.437265] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   78.437479] setting VEN_IOCTL_CMD_START failed
+[   78.445627] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   78.454936] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   78.474439] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   78.475141] 
+[   78.475141]  err: Unsupported API in client state 1
+[   78.475293] setting VEN_IOCTL_CMD_PAUSE failed
+[   78.493697] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   78.493819] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   78.574698] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   78.593560] vidc_insert_addr_table(): get_ION_handle failed
+[   78.622279] 
+[   78.622279]  err: rc = 0x80000003. Failed: ddl start
+[   78.622462] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   78.622676] setting VEN_IOCTL_CMD_START failed
+[   78.668121] 
+[   78.668151]  err: Unsupported API in client state 1
+[   78.668396] setting VEN_IOCTL_CMD_PAUSE failed
+[   78.687685] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   78.724767] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   78.746589] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   78.755562] vidc_insert_addr_table(): get_ION_handle failed
+[   78.792247] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   78.827590] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   78.865344] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   78.883137] Failed: ddl_set_property
+[   78.891652] vid_enc_ioctl(): Unsupported ioctl -1073187328
+[   78.896841] vid_enc_ioctl(): Unsupported ioctl 1977
+[   78.911643] 
+[   78.911643]  err: Unsupported API in client state 1
+[   78.911887] setting VEN_IOCTL_CMD_RESUME failed
+[   78.917106] vid_enc_ioctl(): Unsupported ioctl -1070557436
+[   78.946833] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   78.975492] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   78.975522] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   78.987089] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   78.987242] Failed: ddl_set_property
+[   79.004425] vid_enc_ioctl(): Unsupported ioctl -1073187328
+[   79.009735] vid_enc_ioctl(): Unsupported ioctl 1977
+[   79.024813] 
+[   79.024813]  err: Unsupported API in client state 1
+[   79.024996] setting VEN_IOCTL_CMD_RESUME failed
+[   79.031344] vid_enc_ioctl(): Unsupported ioctl -1070557436
+[   79.047153] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   79.052739] Failed: ddl_set_property
+[   79.052830] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   79.053013] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   79.061010] setting VEN_IOCTL_SET_BASE_CFG failed
+[   79.066473] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   79.078589] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   79.104440] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   79.110636] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   79.116862] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   79.131237] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   79.131359] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   79.141400] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   79.189531] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   79.189592] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   79.195513] Failed: ddl_set_property
+[   79.195605] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   79.195849] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   79.202594] setting VEN_IOCTL_SET_BASE_CFG failed
+[   79.209644] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   79.216236] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   79.247886] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   79.248008] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   79.253685] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   79.260247] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   79.280604] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   79.280695] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   79.281336] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   79.286769] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   79.287440] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   79.304867] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   79.311124] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   79.329558] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   79.347993] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   79.359896] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   79.385777] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   79.385899] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   79.397375] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   79.414191] 
+[   79.414222]  err: Unsupported API in client state 1
+[   79.414466] setting VEN_IOCTL_CMD_RESUME failed
+[   79.426339] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   79.438730] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   79.438791] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   79.444864] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   79.444925] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   79.445170] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   79.450724] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   79.450846] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   79.457164] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   79.474774] setting VEN_IOCTL_SET_BASE_CFG failed
+[   79.482832] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   79.497695] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   79.497756] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   79.512528] 
+[   79.512528]  err: rc = 0x80000003. Failed: ddl start
+[   79.512803] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   79.512986] setting VEN_IOCTL_CMD_START failed
+[   79.529925] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   79.536120] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   79.549305] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   79.589409] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   79.589592] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   79.601403] 
+[   79.601403]  err: Unsupported API in client state 1
+[   79.601617] setting VEN_IOCTL_CMD_RESUME failed
+[   79.608057] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   79.622157] vid_enc_ioctl(): Unsupported ioctl 0
+[   79.628261] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   79.634488] Failed: ddl_set_property
+[   79.634610] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   79.634671] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   79.634671] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   79.635037] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   79.646787] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   79.646970] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   79.652586] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   79.657958] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   79.680940] setting VEN_IOCTL_SET_BASE_CFG failed
+[   79.694155] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   79.700442] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   79.711704] 
+[   79.711735]  err: rc = 0x80000003. Failed: ddl start
+[   79.711948] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   79.712192] setting VEN_IOCTL_CMD_START failed
+[   79.735754] 
+[   79.735754]  err: rc = 0x80000003. Failed: ddl start
+[   79.735998] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   79.736181] setting VEN_IOCTL_CMD_START failed
+[   79.749641] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   79.750221] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   79.768136] vidc_insert_addr_table(): get_ION_handle failed
+[   79.768716] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   79.794384] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   79.794475] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   79.800518] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   79.806867] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   79.819380] vid_enc_ioctl(): Unsupported ioctl 0
+[   79.830734] Failed: ddl_set_property
+[   79.830825] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   79.831069] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   79.837875] vidc_insert_addr_table(): get_ION_handle failed
+[   79.855852] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   79.881336] Failed: ddl_set_property
+[   79.881489] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   79.881641] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   79.924767] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   79.931634] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   79.937677] Failed: ddl_set_property
+[   79.937829] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   79.938013] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   79.954646] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   79.954829] 
+[   79.954829]  err: rc = 0x80000003. Failed: ddl start
+[   79.955074] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   79.955226] setting VEN_IOCTL_CMD_START failed
+[   79.966854] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   79.974118] Failed: ddl_set_property
+[   79.974301] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   79.974454] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   79.980405] vidc_insert_addr_table(): get_ION_handle failed
+[   80.003967] 
+[   80.003967]  err: Unsupported API in client state 1
+[   80.004181] setting VEN_IOCTL_CMD_RESUME failed
+[   80.010712] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   80.027865]  vid_enc_free_recon_buffers() address  0000003b
+[   80.027895] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   80.028109]  vid_enc_free_recon_buffers() address not found 0000003b
+[   80.028261] VEN_IOCTL_FREE_RECON_BUFFER failed
+[   80.041019] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   80.047459] Failed: ddl_set_property
+[   80.047550] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   80.047764] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   80.070959] vidc_insert_addr_table(): get_ION_handle failed
+[   80.093911] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   80.116648] vid_enc_ioctl(): Unsupported ioctl 0
+[   80.130535] 
+[   80.130535]  err: Unsupported API in client state 1
+[   80.130688] setting VEN_IOCTL_CMD_RESUME failed
+[   80.136853] Failed: ddl_set_property
+[   80.136944] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   80.137158] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   80.157485] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   80.158003] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   80.164565] Failed: ddl_set_property
+[   80.164626] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   80.164932] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   80.171432] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   80.177536] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   80.185075] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   80.191698] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   80.191759] Failed: ddl_set_property
+[   80.191759] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   80.191790] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   80.197985] Failed: ddl_set_property
+[   80.198168] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   80.198351] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   80.209552] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   80.209644] 
+[   80.209674]  err: Unsupported API in client state 1
+[   80.209919] setting VEN_IOCTL_CMD_RESUME failed
+[   80.222432] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   80.222493]  vid_enc_free_recon_buffers() address  0000003b
+[   80.222524]  vid_enc_free_recon_buffers() address not found 0000003b
+[   80.222554] VEN_IOCTL_FREE_RECON_BUFFER failed
+[   80.262871] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   80.268548] Failed: ddl_set_property
+[   80.268701] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   80.268884] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   80.282771] setting VEN_IOCTL_SET_BASE_CFG failed
+[   80.312650] 
+[   80.312650]  err: rc = 0x80000003. Failed: ddl start
+[   80.312925] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   80.313108] setting VEN_IOCTL_CMD_START failed
+[   80.319121] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   80.319212] 
+[   80.319243]  err: Unsupported API in client state 1
+[   80.319243] setting VEN_IOCTL_CMD_PAUSE failed
+[   80.325072] vid_enc_free_buffer(): WNG: user_virt_addr = b6d3d000 has not been set
+[   80.346375] vid_enc_ioctl(): Unsupported ioctl 0
+[   80.346558] 
+[   80.346558]  err: rc = 0x80000003. Failed: ddl start
+[   80.346802] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   80.347016] setting VEN_IOCTL_CMD_START failed
+[   80.351991] 
+[   80.351991]  err: Unsupported API in client state 1
+[   80.352174] setting VEN_IOCTL_CMD_RESUME failed
+[   80.402807] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   80.430917] vid_enc_ioctl(): Unsupported ioctl 0
+[   80.436136] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   80.453105] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   80.453990] 
+[   80.453990]  err: Unsupported API in client state 1
+[   80.454204] setting VEN_IOCTL_CMD_PAUSE failed
+[   80.459942] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   80.462414] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   80.467663] Failed: ddl_set_property
+[   80.467755] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   80.467968] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   80.472577] Failed: ddl_set_property
+[   80.472668] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   80.472913] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   80.488539] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   80.506699] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   80.511124] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   80.537463] setting VEN_IOCTL_SET_BASE_CFG failed
+[   80.581596] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   80.597588] 
+[   80.597588]  err: rc = 0x80000003. Failed: ddl start
+[   80.597802] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   80.598077] setting VEN_IOCTL_CMD_START failed
+[   80.621547] 
+[   80.621547]  err: Unsupported API in client state 1
+[   80.621761] setting VEN_IOCTL_CMD_PAUSE failed
+[   80.628933] vid_enc_free_buffer(): WNG: user_virt_addr = b6e0f000 has not been set
+[   80.635434] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   80.641599] 
+[   80.641629]  err: rc = 0x80000003. Failed: ddl start
+[   80.641843] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   80.642118] setting VEN_IOCTL_CMD_START failed
+[   80.681886] vid_enc_set_recon_buffers(): get_ION_handle failed
+[   80.682069] setting VEN_IOCTL_SET_RECON_BUFFER failed
+[   80.687990] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   80.712009] vid_enc_ioctl(): Unsupported ioctl 0
+[   80.718449] vid_enc_ioctl(): Unsupported ioctl 0
+[   80.725866] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   80.732092] Failed: ddl_set_property
+[   80.732244] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   80.732275] 
+[   80.732305]  err: Unsupported API in client state 1
+[   80.732305] setting VEN_IOCTL_CMD_PAUSE failed
+[   80.732794] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   80.738226] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   80.755043] Failed: ddl_set_property
+[   80.755165] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   80.755348] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   80.768869] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   80.790996] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   80.800305] Failed: ddl_set_property
+[   80.800396] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   80.800640] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   80.811139] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   80.830917] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   80.831008] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   80.837112] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   80.867419] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   80.878834] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   80.884846] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   80.891774] Failed: ddl_set_property
+[   80.891896] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   80.892079] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   80.897482] 
+[   80.897482]  err: Unsupported API in client state 1
+[   80.897665] setting VEN_IOCTL_CMD_RESUME failed
+[   80.948756] vid_enc_set_recon_buffers(): get_ION_handle failed
+[   80.948817] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   80.949000] setting VEN_IOCTL_SET_RECON_BUFFER failed
+[   80.957057] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   80.978635] vid_enc_ioctl(): Unsupported ioctl 0
+[   80.990325] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   80.997772] Failed: ddl_set_property
+[   80.997894] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   80.998107] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   81.026094] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   81.033633] setting VEN_IOCTL_SET_BASE_CFG failed
+[   81.041477] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   81.048283] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   81.049107] Failed: ddl_set_property
+[   81.049198] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   81.049412] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   81.076697] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   81.076850] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   81.089974] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   81.097390] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   81.111796] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   81.112345] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   81.119426] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   81.133343] Failed: ddl_set_property
+[   81.133801] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   81.133953] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   81.139447] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   81.139996] 
+[   81.140027]  err: Unsupported API in client state 1
+[   81.140241] setting VEN_IOCTL_CMD_RESUME failed
+[   81.146436] Failed: ddl_set_property
+[   81.146619] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   81.146802] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   81.163467] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   81.174851] Failed: ddl_set_property
+[   81.180741] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   81.202746] 
+[   81.202746]  err: Unsupported API in client state 1
+[   81.202929] setting VEN_IOCTL_CMD_RESUME failed
+[   81.217823] setting VEN_IOCTL_SET_BASE_CFG failed
+[   81.224416] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   81.241904] setting VEN_IOCTL_SET_BASE_CFG failed
+[   81.248191] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   81.267358] setting VEN_IOCTL_SET_BASE_CFG failed
+[   81.271967] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   81.284480] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   81.336395] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   81.347565] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   81.363863] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   81.364016] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   81.364504] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   81.395147] setting VEN_IOCTL_SET_BASE_CFG failed
+[   81.408362] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   81.414710] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   81.419258] vid_enc_encode_frame(): kernel_vaddr not found
+[   81.432870] Failed: ddl_set_property
+[   81.433023] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   81.433175] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   81.437997] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   81.443949] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   81.454356] Failed: ddl_set_property
+[   81.494857] 
+[   81.494857]  err: Unsupported API in client state 1
+[   81.495009] setting VEN_IOCTL_CMD_RESUME failed
+[   81.508408] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   81.514054] setting VEN_IOCTL_SET_BASE_CFG failed
+[   81.520677] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   81.534228] setting VEN_IOCTL_SET_BASE_CFG failed
+[   81.547565] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   81.565206] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   81.565359] Failed: ddl_set_property
+[   81.571005] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   81.571249] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   81.591881] (sec_debug_set_upload_cause) 85
+[   81.599389] accel_open_calibration: Can't open calibration file
+[   81.602960] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   81.625850] Failed: ddl_set_property
+[   81.625942]  Setting slice delivery mode failed************active_reset**************
+[   81.666290] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   81.666412] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   81.672546] setting VEN_IOCTL_SET_BASE_CFG failed
+[   81.686738] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   81.692751] vid_enc_ioctl(): Unsupported ioctl 1977
+[   81.697939] vid_enc_encode_frame(): kernel_vaddr not found
+[   81.708591] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   81.717045] wlan: [2607:E :HDD] hdd_conf_hostarpoffload: 
+[   81.717076] 
+[   81.717442] wlan: [2583:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+[   81.717564] wlan: [2583:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[   81.743201] Failed: ddl_set_property
+[   81.743293] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   81.743506] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   81.761513] (sec_debug_set_upload_cause) cafebabe
+[   81.794231] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   81.798718] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   81.848283] vidc_insert_addr_table(): get_ION_handle failed
+[   81.894582] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   81.894704] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   81.906180] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   81.912650] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   81.925408] Failed: ddl_set_property
+[   81.925469]  Setting slice delivery mode failed
+[   81.932549] [mdnie lite] is negative Mode On = 0
+[   81.932611] [mdnie lite] negative off when resume, tuning again!
+[   81.932733] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[   81.932824] [mdnie lite]  = UI MODE =
+[   81.932977] [mdnie lite]  = AUTO MODE =
+[   81.933038] [mdnie lite]  send tuning cmd!!
+[   81.938318] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   81.938440] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   81.965756] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+[   82.001129] vid_enc_ioctl(): Unsupported ioctl 1977
+[   82.021089] vid_enc_ioctl(): Unsupported ioctl 0
+[   82.021577] Failed: ddl_set_property
+[   82.021638] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   82.021761] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   82.043888] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   82.051121] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   82.067297] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   82.097146] vidc_insert_addr_table(): get_ION_handle failed
+[   82.103250] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   82.152083] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[   82.152418] Failed: ddl_set_property
+[   82.152510] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   82.152723] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   82.163802] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[   82.180802] 
+[   82.180802]  err: rc = 0x80000003. Failed: ddl start
+[   82.180955] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   82.181138] setting VEN_IOCTL_CMD_START failed
+[   82.204211] Failed: ddl_set_property
+[   82.204272] tc360 16-0020: no button press interrupt(0x0)
+[   82.204455]  Setting slice delivery mode failed
+[   82.219990] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   82.225270] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   82.247916] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[   82.277277] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   82.289455] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   82.289516] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   82.290218] Failed: ddl_set_property
+[   82.290370] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   82.290492] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   82.328979] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   82.346314] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   82.379368] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   82.389348] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   82.405981] vid_enc_ioctl(): Unsupported ioctl 0
+[   82.435617] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   82.468243] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   82.500991] Failed: ddl_set_property
+[   82.529925] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   82.555104] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   82.584190] Failed: ddl_set_property
+[   82.584312] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   82.584465] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   82.608271] 
+[   82.608271]  err: Unsupported API in client state 1
+[   82.608423] setting VEN_IOCTL_CMD_RESUME failed
+[   82.631039] 
+[   82.631039]  err: rc = 0x80000003. Failed: ddl start
+[   82.631191] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   82.631374] setting VEN_IOCTL_CMD_START failed
+[   82.645322] Failed: ddl_set_property
+[   82.645444]  Setting slice delivery mode failed
+[   82.681306] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   82.717961] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   82.723149] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   82.723302] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   82.739417] Failed: ddl_set_property
+[   82.739478] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   82.739661] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   82.765573] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   82.776682] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   82.804120] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   82.825118] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   82.825209] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   82.846787] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   82.852006] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   82.864367] init: untracked pid 4764 exited
+[   82.867877] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   82.874622] 
+[   82.874622]  err: rc = 0x80000003. Failed: ddl start
+[   82.874835] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   82.875080] setting VEN_IOCTL_CMD_START failed
+[   82.902945] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   82.920341] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   82.974698] Failed: ddl_set_property
+[   83.003967] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   83.029391] Failed: ddl_set_property
+[   83.029482]  Setting slice delivery mode failed
+[   83.035617] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   83.041812] Failed: ddl_set_property
+[   83.041843]  Setting slice delivery mode failed
+[   83.042087] 
+[   83.042087]  err: Unsupported API in client state 1
+[   83.042270] setting VEN_IOCTL_CMD_RESUME failed
+[   83.060399] 
+[   83.060399]  err: rc = 0x80000003. Failed: ddl start
+[   83.060552] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   83.060735] setting VEN_IOCTL_CMD_START failed
+[   83.073798] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   83.080665] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   83.090157] init: untracked pid 4767 exited
+[   83.097695] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   83.097787] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   83.104410] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   83.138562] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   83.138715] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   83.151930] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   83.161300] 
+[   83.161330]  err: Unsupported API in client state 1
+[   83.161452] setting VEN_IOCTL_CMD_PAUSE failed
+[   83.187547] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   83.207935] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   83.208087] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   83.235128] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   83.246299] 
+[   83.246299]  err: rc = 0x80000003. Failed: ddl start
+[   83.246451] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   83.246635] setting VEN_IOCTL_CMD_START failed
+[   83.247184] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   83.252464] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   83.271875] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   83.317869] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   83.331695] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   83.365542] vid_enc_set_recon_buffers(): get_ION_handle failed
+[   83.365664] setting VEN_IOCTL_SET_RECON_BUFFER failed
+[   83.399481] Failed: ddl_set_property
+[   83.399572]  Setting slice delivery mode failed
+[   83.408667] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   83.408881] 
+[   83.408881]  err: Unsupported API in client state 1
+[   83.409003] setting VEN_IOCTL_CMD_RESUME failed
+[   83.418129] Failed: ddl_set_property
+[   83.418190]  Setting slice delivery mode failed
+[   83.426674] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   83.465649] 
+[   83.465649]  err: rc = 0x80000003. Failed: ddl start
+[   83.465954] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   83.466137] setting VEN_IOCTL_CMD_START failed
+[   83.492751] setting VEN_IOCTL_CMD_FLUSH failed
+[   83.492781] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   83.509995] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   83.542835] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   83.542896] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   83.543018] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   83.567984] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   83.592339] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   83.592400] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   83.610346] 
+[   83.610346]  err: Unsupported API in client state 1
+[   83.610468] setting VEN_IOCTL_CMD_PAUSE failed
+[   83.618312] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   83.677033] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   83.685334] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   83.718724] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   83.739661] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   83.756050] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   83.876850] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   83.876911] Failed: ddl_set_property
+[   83.876941]  Setting slice delivery mode failed
+[   84.067388] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   84.075293] vid_enc_set_recon_buffers(): get_ION_handle failed
+[   84.075446] setting VEN_IOCTL_SET_RECON_BUFFER failed
+[   84.089577] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   84.120036] 
+[   84.120036]  err: Unsupported API in client state 1
+[   84.120189] setting VEN_IOCTL_CMD_RESUME failed
+[   84.140363] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   84.140454] Failed: ddl_set_property
+[   84.140454] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   84.140485] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   84.146192] 
+[   84.146192]  err: Unsupported API in client state 1
+[   84.146314] setting VEN_IOCTL_CMD_RESUME failed
+[   84.201587] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   84.312589] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   84.406561] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   84.406653] setting VEN_IOCTL_CMD_FLUSH failed
+[   84.439066] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   84.469830] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   84.490920] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   84.490981] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   84.559957] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+[   84.559987] 
+[   84.562185] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+[   84.562215] 
+[   84.563375] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+[   84.563406] 
+[   84.783824] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   84.805249] 
+[   84.805249]  err: Unsupported API in client state 1
+[   84.805463] setting VEN_IOCTL_CMD_RESUME failed
+[   84.811139] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   84.811170] vid_enc_ioctl(): Unsupported ioctl 0
+[   84.861529] 
+[   84.861529]  err: rc = 0x80000003. Failed: ddl start
+[   84.861681] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   84.861864] setting VEN_IOCTL_CMD_START failed
+[   84.960537] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   85.090157] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   85.142011] Failed: ddl_set_property
+[   85.142011]  Setting slice delivery mode failed
+[   85.142255] setting VEN_IOCTL_CMD_FLUSH failed
+[   85.153547] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   85.176407] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   85.215748] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   85.221089] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   85.311765] setting VEN_IOCTL_CMD_FLUSH failed
+[   85.345246] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   85.345368] Failed: ddl_set_property
+[   85.345490] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   85.345612] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   85.357240] 
+[   85.357240]  err: Unsupported API in client state 1
+[   85.357363] setting VEN_IOCTL_CMD_RESUME failed
+[   85.362154] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   85.362185] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   85.367862] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   85.374271] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   85.374332] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   85.384343] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   85.384526] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   85.395544] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   85.395696] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   85.433023] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   85.439005] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   85.450816] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   85.450969] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   85.468060] 
+[   85.468060]  err: Unsupported API in client state 1
+[   85.468274] setting VEN_IOCTL_CMD_RESUME failed
+[   85.473340] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   85.478956] vid_enc_ioctl(): Unsupported ioctl 0
+[   85.479017] Failed: ddl_set_property
+[   85.479017] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   85.479047] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   85.492049] vid_enc_ioctl(): Unsupported ioctl 0
+[   85.497054] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   85.497146] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   85.503250] 
+[   85.503250]  err: rc = 0x80000003. Failed: ddl start
+[   85.503464] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   85.503677] setting VEN_IOCTL_CMD_START failed
+[   85.535083] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   85.539844] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   85.606470] setting VEN_IOCTL_CMD_FLUSH failed
+[   85.616664] 
+[   85.616694]  err: Unsupported API in client state 1
+[   85.616816] setting VEN_IOCTL_CMD_RESUME failed
+[   85.617427] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   85.623287] vid_enc_ioctl(): Unsupported ioctl -2146958835
+[   85.645994] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   85.667327] 
+[   85.667358]  err: Unsupported API in client state 1
+[   85.667541] setting VEN_IOCTL_CMD_RESUME failed
+[   85.679566] setting VEN_IOCTL_CMD_FLUSH failed
+[   85.704196] vid_enc_encode_frame(): kernel_vaddr not found
+[   85.709507] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   85.715122] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   85.727544] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   85.735357] vid_enc_ioctl(): Unsupported ioctl 1141395490
+[   85.736334] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[   85.740119] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   85.744056] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   85.744178] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   85.754585] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   85.754738] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   85.770700] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   85.782755] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   85.789867] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   85.804547] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   85.811231] Failed: ddl_set_property
+[   85.811292] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   85.811475] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   85.818251] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   85.818800] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   85.818892] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   85.833297] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   85.839645] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   85.847489] Failed: ddl_set_property
+[   85.847581] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   85.847764] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   85.848100] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   85.853898] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   85.860033] vid_enc_ioctl(): Unsupported ioctl 0
+[   85.867205] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   85.867327] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   85.874500] Failed: ddl_set_property
+[   85.874652] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   85.874774] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   85.886769] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   85.894002] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   85.906577] vid_enc_ioctl(): Unsupported ioctl -1610067867
+[   85.912711] Failed: ddl_set_property
+[   85.912803]  Setting slice delivery mode failed
+[   85.930352] 
+[   85.930352]  err: Unsupported API in client state 1
+[   85.930474] setting VEN_IOCTL_CMD_RESUME failed
+[   85.937585] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   85.937616] vid_enc_ioctl(): Unsupported ioctl -2146958835
+[   85.944147] setting VEN_IOCTL_SET_BASE_CFG failed
+[   85.950831] Failed: ddl_set_property
+[   85.963161] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   85.986998] 
+[   85.987028]  err: Unsupported API in client state 1
+[   85.987181] setting VEN_IOCTL_CMD_RESUME failed
+[   85.993010] 
+[   85.993010]  err: Unsupported API in client state 1
+[   85.993193] setting VEN_IOCTL_CMD_RESUME failed
+[   86.038364] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   86.045688] vid_enc_encode_frame(): kernel_vaddr not found
+[   86.052952] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   86.069494] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   86.106577] vid_enc_ioctl(): Unsupported ioctl 1141395490
+[   86.125774] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   86.134137] 
+[   86.134137]  err: Unsupported API in client state 1
+[   86.134259] setting VEN_IOCTL_CMD_PAUSE failed
+[   86.147199] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   86.147260] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   86.168564] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   86.180466] Failed: ddl_set_property
+[   86.180466] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   86.180650] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   86.180772] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   86.186601] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   86.186693] Failed: ddl_set_property
+[   86.186723] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   86.186754] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   86.192766] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   86.192827] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   86.205615] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   86.213276] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   86.220631] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   86.220692] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   86.227590] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   86.247123] 
+[   86.247123]  err: Unsupported API in client state 1
+[   86.247306] setting VEN_IOCTL_CMD_PAUSE failed
+[   86.254539] Failed: ddl_set_property
+[   86.254631] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   86.254906] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   86.261559] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   86.273309] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   86.285151] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   86.295284] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   86.302243] vid_enc_ioctl(): Unsupported ioctl -1610067867
+[   86.308652] Failed: ddl_set_property
+[   86.308744]  Setting slice delivery mode failed
+[   86.315214] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   86.327910] Failed: ddl_set_property
+[   86.328002] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   86.328277] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   86.334594] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   86.341278] setting VEN_IOCTL_SET_BASE_CFG failed
+[   86.348603] Failed: ddl_set_property
+[   86.355806] Failed: ddl_set_property
+[   86.355898] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   86.356050] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   86.362673] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   86.376102] 
+[   86.376133]  err: Unsupported API in client state 1
+[   86.376377] setting VEN_IOCTL_CMD_RESUME failed
+[   86.382939] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   86.430215] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   86.437234] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   86.444224] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   86.480329] Failed: ddl_set_property
+[   86.480512] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   86.480695] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   86.493483] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   86.506088] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   86.506149] vid_enc_free_buffer(): WNG: user_virt_addr = c0008000 has not been set
+[   86.512284] 
+[   86.512314]  err: Unsupported API in client state 1
+[   86.512467] setting VEN_IOCTL_CMD_PAUSE failed
+[   86.535266] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   86.548908] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   86.556966] 
+[   86.556996]  err: Unsupported API in client state 1
+[   86.557240] setting VEN_IOCTL_CMD_PAUSE failed
+[   86.579795] Failed: ddl_set_property
+[   86.579948] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   86.580161] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   86.593834] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   86.594536] vid_enc_ioctl(): Unsupported ioctl 0
+[   86.628872] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   86.628933] vid_enc_encode_frame(): kernel_vaddr not found
+[   86.635159] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   86.662200] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   86.665038] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   86.670318] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   86.686128] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   86.705325] 
+[   86.705325]  err: Unsupported API in client state 1
+[   86.705478] setting VEN_IOCTL_CMD_PAUSE failed
+[   86.710788] Failed: ddl_set_property
+[   86.710849]  Setting slice delivery mode failed
+[   86.727239] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   86.732427] vid_enc_ioctl(): Unsupported ioctl 17942
+[   86.739050] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   86.744636] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   86.768655] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   86.768777] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   86.788585] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   86.849687] vid_enc_ioctl(): Unsupported ioctl 1977
+[   86.856096] Failed: ddl_set_property
+[   86.856218] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   86.856340] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   86.891316] Failed: ddl_set_property
+[   86.891377]  Setting slice delivery mode failed
+[   86.891439] Failed: ddl_set_property
+[   86.891469] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   86.891530] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   86.919914] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   86.934777] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   86.957515] 
+[   86.957546]  err: Unsupported API in client state 1
+[   86.957546] setting VEN_IOCTL_CMD_RESUME failed
+[   86.976957] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   86.994811] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   87.035495] Failed: ddl_set_property
+[   87.035525] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   87.035556] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   87.053746] vidc_insert_addr_table(): get_ION_handle failed
+[   87.074866] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   87.095925] vid_enc_free_buffer(): WNG: user_virt_addr = c0008000 has not been set
+[   87.100198] 
+[   87.100198]  err: Unsupported API in client state 1
+[   87.100198] setting VEN_IOCTL_CMD_PAUSE failed
+[   87.109842] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   87.168930] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   87.191851] 
+[   87.191881]  err: Unsupported API in client state 1
+[   87.192003] setting VEN_IOCTL_CMD_PAUSE failed
+[   87.206195] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[   87.207904] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[   87.209705] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[   87.226003] dtv_pipe is not configured yet
+[   87.275568] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   87.301144] vid_enc_ioctl(): Unsupported ioctl 0
+[   87.304745] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+[   87.304776] 
+[   87.306119] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+[   87.306149] 
+[   87.307462] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+[   87.307492] 
+[   87.308683] msm_release_ion_client Calling ion_client_destroy
+[   87.316984] vid_enc_encode_frame(): kernel_vaddr not found
+[   87.340973] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   87.395971] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   87.412391] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   87.427804] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   87.436136] Failed: ddl_set_property
+[   87.436197]  Setting slice delivery mode failed
+[   87.460582] vid_enc_ioctl(): Unsupported ioctl 17942
+[   87.469586] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   87.477765] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   87.477857] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   87.510453] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   87.519151] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   87.527208] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   87.562978] vid_enc_ioctl(): Unsupported ioctl 1611137031
+[   87.570975] vid_enc_ioctl(): Unsupported ioctl 1977
+[   87.606134] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   87.630703] Failed: ddl_set_property
+[   87.630825]  Setting slice delivery mode failed
+[   87.639005] 
+[   87.639005]  err: rc = 0x80000003. Failed: ddl start
+[   87.639218] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   87.639340] setting VEN_IOCTL_CMD_START failed
+[   87.647672] 
+[   87.647672]  err: Unsupported API in client state 1
+[   87.647825] setting VEN_IOCTL_CMD_RESUME failed
+[   87.665496] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   87.690523] vid_enc_ioctl(): Unsupported ioctl 0
+[   87.690584] 
+[   87.690614]  err: Unsupported API in client state 1
+[   87.690614] setting VEN_IOCTL_CMD_RESUME failed
+[   87.725774] vid_enc_encode_frame(): kernel_vaddr not found
+[   87.744880] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   87.751991] Failed: ddl_set_property
+[   87.752052]  Setting slice delivery mode failed
+[   87.774942] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   87.782420] vidc_insert_addr_table(): get_ION_handle failed
+[   87.801037] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   87.807599] 
+[   87.807599]  err: Unsupported API in client state 1
+[   87.807721] setting VEN_IOCTL_CMD_PAUSE failed
+[   87.813306] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   87.813917] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   87.862383] 
+[   87.862383]  err: Unsupported API in client state 1
+[   87.862536] setting VEN_IOCTL_CMD_PAUSE failed
+[   87.918113] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   87.928826] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   87.928857] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   87.948847] vid_enc_free_buffer(): WNG: user_virt_addr = c0008000 has not been set
+[   88.004333] 
+[   88.004333]  err: Unsupported API in client state 1
+[   88.004486] setting VEN_IOCTL_CMD_PAUSE failed
+[   88.043491] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   88.062322] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   88.075049] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   88.075141] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   88.100412] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   88.100534] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   88.108621] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   88.121562] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   88.121745] 
+[   88.121745]  err: Unsupported API in client state 1
+[   88.121928] setting VEN_IOCTL_CMD_PAUSE failed
+[   88.133282] vid_enc_free_buffer(): WNG: user_virt_addr = ffffdffc has not been set
+[   88.139844] 
+[   88.139844]  err: Unsupported API in client state 1
+[   88.140027] setting VEN_IOCTL_CMD_PAUSE failed
+[   88.146345] vid_enc_ioctl(): Unsupported ioctl 1611137031
+[   88.146375] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   88.161391] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   88.170914] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   88.214680] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   88.239432] VEN_IOCTL_GET_SEQUENCE_HDR: Userspace address verification failed.
+[   88.250358] 
+[   88.250358]  err: rc = 0x80000003. Failed: ddl start
+[   88.250633] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   88.250816] setting VEN_IOCTL_CMD_START failed
+[   88.256554] 
+[   88.256584]  err: Unsupported API in client state 1
+[   88.256737] setting VEN_IOCTL_CMD_RESUME failed
+[   88.286189] 
+[   88.286220]  err: Unsupported API in client state 1
+[   88.286342] setting VEN_IOCTL_CMD_RESUME failed
+[   88.292568] vid_enc_ioctl(): Unsupported ioctl 0
+[   88.307828] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   88.321379] vid_enc_encode_frame(): kernel_vaddr not found
+[   88.321959] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   88.364077] Failed: ddl_set_property
+[   88.364169]  Setting slice delivery mode failed
+[   88.382755] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   88.382908] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   88.393865] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   88.400122] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   88.406287] 
+[   88.406287]  err: Unsupported API in client state 1
+[   88.406561] setting VEN_IOCTL_CMD_PAUSE failed
+[   88.422096] setting VEN_IOCTL_SET_BASE_CFG failed
+[   88.434060] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   88.434091] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   88.445750] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   88.445872] Failed: ddl_set_property
+[   88.445994] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   88.446238] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   88.469372] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   88.475812] 
+[   88.475812]  err: Unsupported API in client state 1
+[   88.475965] setting VEN_IOCTL_CMD_PAUSE failed
+[   88.543537] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   88.550953] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   88.572653] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   88.580009] 
+[   88.580009]  err: Unsupported API in client state 1
+[   88.580283] setting VEN_IOCTL_CMD_RESUME failed
+[   88.585777] vid_enc_free_buffer(): WNG: user_virt_addr = c0008000 has not been set
+[   88.590813] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   88.609705] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   88.645811] Failed: ddl_set_property
+[   88.645994] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   88.646238] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   88.668243] 
+[   88.668243]  err: Unsupported API in client state 1
+[   88.668487] setting VEN_IOCTL_CMD_PAUSE failed
+[   88.691622] Failed: ddl_set_property
+[   88.691713] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   88.691988] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   88.698733] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   88.706119] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   88.727910] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   88.728734] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   88.737585] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   88.737768] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   88.762948] vid_enc_ioctl(): Unsupported ioctl 0
+[   88.790447] vidc_insert_addr_table(): get_ION_handle failed
+[   88.802136] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   88.807904] 
+[   88.807904]  err: Unsupported API in client state 1
+[   88.808148] setting VEN_IOCTL_CMD_PAUSE failed
+[   88.836838] vid_enc_free_buffer(): WNG: user_virt_addr = ffffdffc has not been set
+[   88.876606] 
+[   88.876606]  err: Unsupported API in client state 1
+[   88.876880] setting VEN_IOCTL_CMD_PAUSE failed
+[   88.889241] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   88.920860] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   88.921867] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   88.942774] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   88.955135] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   88.962490] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   88.977659] VEN_IOCTL_GET_SEQUENCE_HDR: Userspace address verification failed.
+[   88.994017] 
+[   88.994048]  err: Unsupported API in client state 1
+[   88.994231] setting VEN_IOCTL_CMD_PAUSE failed
+[   89.025057] 
+[   89.025087]  err: Unsupported API in client state 1
+[   89.025270] setting VEN_IOCTL_CMD_RESUME failed
+[   89.059270] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   89.085670] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   89.126384] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   89.126567] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   89.148145] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   89.158889] 
+[   89.158889]  err: Unsupported API in client state 1
+[   89.159041] setting VEN_IOCTL_CMD_PAUSE failed
+[   89.169449] setting VEN_IOCTL_SET_BASE_CFG failed
+[   89.203296] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   89.216480] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   89.246787] Failed: ddl_set_property
+[   89.246940] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   89.247092] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   89.309751] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   89.334289] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   89.369113] setting VEN_IOCTL_CMD_FLUSH failed
+[   89.415473] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   89.451243] 
+[   89.451243]  err: Unsupported API in client state 1
+[   89.451457] setting VEN_IOCTL_CMD_RESUME failed
+[   89.457164] 
+[   89.457164]  err: Unsupported API in client state 1
+[   89.457378] setting VEN_IOCTL_CMD_RESUME failed
+[   89.467358] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   89.477094] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   89.595879] init: untracked pid 4867 exited
+[   89.669891] Failed: ddl_set_property
+[   89.669983] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   89.670105] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   89.774027] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   89.774545] Failed: ddl_set_property
+[   89.774698] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   89.774820] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   89.795971] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   89.802929] 
+[   89.802929]  err: rc = 0x80000003. Failed: ddl start
+[   89.803143] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   89.803296] setting VEN_IOCTL_CMD_START failed
+[   89.819929] Failed: ddl_set_property
+[   89.820021] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   89.820051] 
+[   89.820051]  err: Unsupported API in client state 1
+[   89.820082] setting VEN_IOCTL_CMD_RESUME failed
+[   89.820509] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   89.822340] init: untracked pid 4869 exited
+[   89.826094] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   89.826613] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   89.832778] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   89.833236] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   89.853776] 
+[   89.853776]  err: Unsupported API in client state 1
+[   89.853960] setting VEN_IOCTL_CMD_RESUME failed
+[   89.854509] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   89.867602] Failed: ddl_set_property
+[   89.867694] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   89.867938] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   89.997405] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   90.098153] vid_enc_ioctl(): Unsupported ioctl 0
+[   90.098275] Failed: ddl_set_property
+[   90.134961] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   90.146345] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   90.159255] vidc_insert_addr_table(): get_ION_handle failed
+[   90.168655] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   90.168686] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   90.175949] vid_enc_free_buffer(): WNG: user_virt_addr = b583b000 has not been set
+[   90.183488] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   90.410315] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   90.487562] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   90.516404] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   90.535571] 
+[   90.535571]  err: Unsupported API in client state 1
+[   90.535754] setting VEN_IOCTL_CMD_PAUSE failed
+[   90.563436] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   90.790141] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   90.961819] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   90.985136] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   90.990630] 
+[   90.990630]  err: Unsupported API in client state 1
+[   90.990843] setting VEN_IOCTL_CMD_PAUSE failed
+[   91.001953] vid_enc_free_buffer(): WNG: user_virt_addr = c0008000 has not been set
+[   91.019563] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   91.024965] 
+[   91.024996]  err: Unsupported API in client state 1
+[   91.025179] setting VEN_IOCTL_CMD_RESUME failed
+[   91.038089] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   91.042423] setting VEN_IOCTL_CMD_FLUSH failed
+[   91.047886] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   91.053990] setting VEN_IOCTL_CMD_FLUSH failed
+[   91.076300] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   91.093789] 
+[   91.093789]  err: rc = 0x80000003. Failed: ddl start
+[   91.094033] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   91.094307] setting VEN_IOCTL_CMD_START failed
+[   91.099832] 
+[   91.099832]  err: Unsupported API in client state 1
+[   91.099954] setting VEN_IOCTL_CMD_RESUME failed
+[   91.106851] Failed: ddl_set_property
+[   91.106943] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   91.107126] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   91.122142] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   91.127330] Failed: ddl_set_property
+[   91.127422] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   91.127544] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   91.137066] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   91.149458] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   91.149488] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   91.155074] 
+[   91.155074]  err: rc = 0x80000003. Failed: ddl start
+[   91.155287] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   91.155501] setting VEN_IOCTL_CMD_START failed
+[   91.161117] 
+[   91.161147]  err: Unsupported API in client state 1
+[   91.161330] setting VEN_IOCTL_CMD_RESUME failed
+[   91.167251] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   91.174149] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   91.185563] 
+[   91.185563]  err: Unsupported API in client state 1
+[   91.185716] setting VEN_IOCTL_CMD_RESUME failed
+[   91.191484] Failed: ddl_set_property
+[   91.191576] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   91.191759] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   91.206714] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   91.211902] Failed: ddl_set_property
+[   91.221699] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   91.228139] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   91.232778] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   91.243613] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   91.243674] 
+[   91.243674]  err: rc = 0x80000003. Failed: ddl start
+[   91.243705] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   91.243735] setting VEN_IOCTL_CMD_START failed
+[   91.250022] 
+[   91.250022]  err: Unsupported API in client state 1
+[   91.250053] vid_enc_free_buffer(): WNG: user_virt_addr = b590d000 has not been set
+[   91.250358] setting VEN_IOCTL_CMD_RESUME failed
+[   91.255821] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   91.304043] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   91.345643] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   91.362887] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   91.377292] vidc_insert_addr_table(): get_ION_handle failed
+[   91.399175] 
+[   91.399206]  err: Unsupported API in client state 1
+[   91.399389] setting VEN_IOCTL_CMD_PAUSE failed
+[   91.405310] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   91.405463] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   91.421547] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   91.440378] vid_enc_ioctl(): Unsupported ioctl 19720
+[   91.447123] 
+[   91.447153]  err: Unsupported API in client state 1
+[   91.447337] setting VEN_IOCTL_CMD_RESUME failed
+[   91.466473] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   91.476148] 
+[   91.476148]  err: Unsupported API in client state 1
+[   91.476300] setting VEN_IOCTL_CMD_PAUSE failed
+[   91.484968] vid_enc_free_buffer(): WNG: user_virt_addr = c0008000 has not been set
+[   91.491072] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   91.507462] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   91.512589] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   91.518235] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   91.523821] 
+[   91.523821]  err: Unsupported API in client state 1
+[   91.524034] setting VEN_IOCTL_CMD_RESUME failed
+[   91.537341] setting VEN_IOCTL_CMD_FLUSH failed
+[   91.543354] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   91.549855] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   91.572684] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   91.572745] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   91.585411] 
+[   91.585411]  err: rc = 0x80000003. Failed: ddl start
+[   91.585594] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   91.585777] setting VEN_IOCTL_CMD_START failed
+[   91.598840] Failed: ddl_set_property
+[   91.598931] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   91.599145] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   91.606378] vid_enc_encode_frame(): kernel_vaddr not found
+[   91.612299] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   91.624294] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   91.632748] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   91.644651] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   91.650480] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   91.650572] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   91.656218] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   91.661834] Failed: ddl_set_property
+[   91.661986] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   91.662139] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   91.702914] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   91.715458] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   91.715489] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   91.726506] Failed: ddl_set_property
+[   91.726567] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   91.726751] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   91.739539] 
+[   91.739539]  err: rc = 0x80000003. Failed: ddl start
+[   91.739783] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   91.740057] setting VEN_IOCTL_CMD_START failed
+[   91.746284] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   91.746375] 
+[   91.746375]  err: Unsupported API in client state 1
+[   91.746589] setting VEN_IOCTL_CMD_RESUME failed
+[   91.776560] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   91.787974] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   91.831191] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   91.842331] Failed: ddl_set_property
+[   91.842423]  Setting slice delivery mode failed
+[   91.859056] vidc_insert_addr_table(): get_ION_handle failed
+[   91.874072] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   91.885975] 
+[   91.885975]  err: Unsupported API in client state 1
+[   91.886128] setting VEN_IOCTL_CMD_PAUSE failed
+[   91.890645] setting VEN_IOCTL_SET_BASE_CFG failed
+[   91.891286] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   91.891347] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   91.897176] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   91.909690] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   91.920708] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   91.926598] vid_enc_ioctl(): Unsupported ioctl 19720
+[   91.933770] 
+[   91.933770]  err: Unsupported API in client state 1
+[   91.933892] setting VEN_IOCTL_CMD_RESUME failed
+[   91.951442] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   91.967587] 
+[   91.967587]  err: rc = 0x80000003. Failed: ddl start
+[   91.967770] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   91.967923] setting VEN_IOCTL_CMD_START failed
+[   91.972806] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   91.984159] 
+[   91.984159]  err: Unsupported API in client state 1
+[   91.984404] setting VEN_IOCTL_CMD_PAUSE failed
+[   91.991301] Failed: ddl_set_property
+[   91.991393] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   91.991606] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   92.013428] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   92.014069] Failed: ddl_set_property
+[   92.014130]  Setting slice delivery mode failed
+[   92.022249] Failed: ddl_set_property
+[   92.027712] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   92.033999] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   92.039737] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   92.051304] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   92.061590] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   92.066992] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   92.081733] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   92.102853] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   92.103036] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   92.125438] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   92.125499] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   92.154951] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   92.160079] vid_enc_encode_frame(): kernel_vaddr not found
+[   92.162612] vid_enc_ioctl(): Unsupported ioctl 0
+[   92.172195] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   92.179826] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   92.184251] Failed: ddl_set_property
+[   92.184312] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   92.184495] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   92.194414] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   92.201037] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   92.201190] Failed: ddl_set_property
+[   92.207233] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   92.207385] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   92.214405] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   92.220814] Failed: ddl_set_property
+[   92.220906] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   92.221059] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   92.226949] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   92.266595] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   92.271234] 
+[   92.271234]  err: Unsupported API in client state 1
+[   92.271448] setting VEN_IOCTL_CMD_PAUSE failed
+[   92.289851] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   92.318663] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   92.323576] Failed: ddl_set_property
+[   92.323668] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   92.323943] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   92.340973] Failed: ddl_set_property
+[   92.341095] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   92.341217] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   92.349153] 
+[   92.349153]  err: Unsupported API in client state 1
+[   92.349305] setting VEN_IOCTL_CMD_RESUME failed
+[   92.358492] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   92.368808] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   92.402838] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   92.403387] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   92.421822] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   92.469952] 
+[   92.469952]  err: Unsupported API in client state 1
+[   92.470135] setting VEN_IOCTL_CMD_RESUME failed
+[   92.479322] vid_enc_encode_frame(): kernel_vaddr not found
+[   92.495956] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   92.496566] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   92.513718] Failed: ddl_set_property
+[   92.513840]  Setting slice delivery mode failed
+[   92.521776] 
+[   92.521806]  err: Unsupported API in client state 1
+[   92.522020] setting VEN_IOCTL_CMD_PAUSE failed
+[   92.530749] vid_enc_ioctl(): Unsupported ioctl 0
+[   92.605310] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   92.613795] vidc_insert_addr_table(): get_ION_handle failed
+[   92.622951] setting VEN_IOCTL_SET_BASE_CFG failed
+[   92.622981] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   92.632382] Failed: ddl_set_property
+[   92.632534]  Setting slice delivery mode failed
+[   92.633145] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   92.669525] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   92.681458] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   92.709873] Failed: ddl_set_property
+[   92.710056]  Setting slice delivery mode failed
+[   92.728338] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   92.742316] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   92.742408] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   92.753456] 
+[   92.753456]  err: rc = 0x80000003. Failed: ddl start
+[   92.753670] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   92.753883] setting VEN_IOCTL_CMD_START failed
+[   92.772318] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   92.798260] 
+[   92.798260]  err: Unsupported API in client state 1
+[   92.798412] setting VEN_IOCTL_CMD_PAUSE failed
+[   92.803906] Failed: ddl_set_property
+[   92.803998] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   92.804150] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   92.821272] setting VEN_IOCTL_SET_BASE_CFG failed
+[   92.828780] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   92.842453] Failed: ddl_set_property
+[   92.842514] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   92.842697]  Setting slice delivery mode failed
+[   92.849351] Failed: ddl_set_property
+[   92.855882] vid_enc_ioctl(): Unsupported ioctl 0
+[   92.863848] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   92.870990] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   92.876941] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   92.882221] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   92.888203] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   92.893575] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   92.894277] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   92.912314] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   92.918571] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   92.931970] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   92.932061] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   92.932153] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   92.938928] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   92.945246] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   92.949977] Failed: ddl_set_property
+[   92.950129] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   92.950343] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   92.968960] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   92.969082] 
+[   92.969082]  err: Unsupported API in client state 1
+[   92.969327] setting VEN_IOCTL_CMD_PAUSE failed
+[   92.975095] vid_enc_ioctl(): Unsupported ioctl 0
+[   92.975186] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   92.975217] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   93.007172] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   93.013825] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   93.020418] 
+[   93.020418]  err: Unsupported API in client state 1
+[   93.020540] setting VEN_IOCTL_CMD_PAUSE failed
+[   93.020601] Failed: ddl_set_property
+[   93.020601] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   93.020631] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   93.027346] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   93.040775] Failed: ddl_set_property
+[   93.073981] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   93.080238] 
+[   93.080238]  err: Unsupported API in client state 1
+[   93.080421] setting VEN_IOCTL_CMD_RESUME failed
+[   93.092171] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   93.118815] 
+[   93.118815]  err: Unsupported API in client state 1
+[   93.118998] setting VEN_IOCTL_CMD_PAUSE failed
+[   93.139478] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   93.139752] 
+[   93.139752]  err: rc = 0x80000003. Failed: ddl start
+[   93.139966] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   93.140180] setting VEN_IOCTL_CMD_START failed
+[   93.162856] Failed: ddl_set_property
+[   93.162948] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   93.163131] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   93.181718] 
+[   93.181718]  err: Unsupported API in client state 1
+[   93.181901] setting VEN_IOCTL_CMD_RESUME failed
+[   93.192919] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   93.223409] Failed: ddl_set_property
+[   93.223622] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   93.224690] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   93.240500] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   93.246940] Failed: ddl_set_property
+[   93.247062] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   93.247337] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   93.254143] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   93.268029] 
+[   93.268029]  err: rc = 0x80000003. Failed: ddl start
+[   93.268243] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   93.268487] setting VEN_IOCTL_CMD_START failed
+[   93.273340] Failed: ddl_set_property
+[   93.274011]  Setting slice delivery mode failed
+[   93.286830] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   93.287105] 
+[   93.287105]  err: Unsupported API in client state 1
+[   93.287288] setting VEN_IOCTL_CMD_RESUME failed
+[   93.294307] vid_enc_encode_frame(): kernel_vaddr not found
+[   93.314787] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   93.368045] 
+[   93.368045]  err: Unsupported API in client state 1
+[   93.368228] setting VEN_IOCTL_CMD_PAUSE failed
+[   93.374210] vid_enc_free_buffer(): WNG: user_virt_addr = b6d3d000 has not been set
+[   93.374484] vid_enc_ioctl(): Unsupported ioctl 0
+[   93.386906] vid_enc_set_recon_buffers(): get_ION_handle failed
+[   93.387028] setting VEN_IOCTL_SET_RECON_BUFFER failed
+[   93.415077] vidc_insert_addr_table(): get_ION_handle failed
+[   93.421272] vid_enc_ioctl(): Unsupported ioctl 19716
+[   93.421303] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   93.441843] Failed: ddl_set_property
+[   93.441873] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   93.442118]  Setting slice delivery mode failed
+[   93.479597] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   93.482343] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   93.487227] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   93.508774] Failed: ddl_set_property
+[   93.508866]  Setting slice delivery mode failed
+[   93.521410] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   93.527758] setting VEN_IOCTL_SET_BASE_CFG failed
+[   93.527849] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   93.527880] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   93.549946] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   93.561422] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   93.561452] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   93.591881] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   93.592003] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   93.598016] setting VEN_IOCTL_SET_BASE_CFG failed
+[   93.604364] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   93.604608] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   93.610498] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   93.626491] vid_enc_ioctl(): Unsupported ioctl 0
+[   93.626644] 
+[   93.626644]  err: rc = 0x80000003. Failed: ddl start
+[   93.626674] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   93.626735] setting VEN_IOCTL_CMD_START failed
+[   93.638974] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   93.645109] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   93.650969] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   93.668213] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   93.706851] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   93.706912] 
+[   93.706912]  err: Unsupported API in client state 1
+[   93.706943] setting VEN_IOCTL_CMD_PAUSE failed
+[   93.714359] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   93.721440] Failed: ddl_set_property
+[   93.721623] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   93.721806] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   93.744758] 
+[   93.744758]  err: Unsupported API in client state 1
+[   93.744788] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   93.745154] setting VEN_IOCTL_CMD_PAUSE failed
+[   93.751075] Failed: ddl_set_property
+[   93.751197]  Setting slice delivery mode failed
+[   93.751228] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   93.751258] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   93.757637] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   93.768747] Failed: ddl_set_property
+[   93.768899] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   93.769082] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   93.785197] 
+[   93.785197]  err: Unsupported API in client state 1
+[   93.785228] setting VEN_IOCTL_CMD_RESUME failed
+[   93.785563] 
+[   93.785563]  err: Unsupported API in client state 1
+[   93.785808] setting VEN_IOCTL_CMD_PAUSE failed
+[   93.792705] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   93.799389] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   93.805493] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   93.827956] 
+[   93.827956]  err: rc = 0x80000003. Failed: ddl start
+[   93.828170] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   93.828414] setting VEN_IOCTL_CMD_START failed
+[   93.835373] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   93.841782] 
+[   93.841812]  err: Unsupported API in client state 1
+[   93.841996] setting VEN_IOCTL_CMD_RESUME failed
+[   93.864520] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   93.864642] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   93.864825] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   93.916954] 
+[   93.916954]  err: rc = 0x80000003. Failed: ddl start
+[   93.917228] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   93.917503] setting VEN_IOCTL_CMD_START failed
+[   93.926812] Failed: ddl_set_property
+[   93.926903] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   93.927147] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   93.963833] 
+[   93.963863]  err: Unsupported API in client state 1
+[   93.964108] setting VEN_IOCTL_CMD_PAUSE failed
+[   93.976926] 
+[   93.976926]  err: Unsupported API in client state 1
+[   93.977170] setting VEN_IOCTL_CMD_RESUME failed
+[   93.984770] Failed: ddl_set_property
+[   93.984861] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   93.985106] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   93.991301] setting VEN_IOCTL_SET_BASE_CFG failed
+[   93.998168] Failed: ddl_set_property
+[   93.998260]  Setting slice delivery mode failed
+[   94.004791] Failed: ddl_set_property
+[   94.004883] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   94.005066] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   94.010560] setting VEN_IOCTL_CMD_FLUSH failed
+[   94.029513] Failed: ddl_set_property
+[   94.029665] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   94.029848] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   94.067511] 
+[   94.067511]  err: Unsupported API in client state 1
+[   94.067694] setting VEN_IOCTL_CMD_RESUME failed
+[   94.073035] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   94.073096] 
+[   94.073096]  err: rc = 0x80000003. Failed: ddl start
+[   94.073157] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   94.073187] setting VEN_IOCTL_CMD_START failed
+[   94.080573] Failed: ddl_set_property
+[   94.080665]  Setting slice delivery mode failed
+[   94.095742] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   94.101510] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   94.101602] Failed: ddl_set_property
+[   94.101632] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   94.101663] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   94.107920] vid_enc_encode_frame(): kernel_vaddr not found
+[   94.114054] vid_enc_encode_frame(): kernel_vaddr not found
+[   94.139874] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   94.160445] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   94.171585] Failed: ddl_set_property
+[   94.171616] vid_enc_free_buffer(): WNG: user_virt_addr = b6e0f000 has not been set
+[   94.171768] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   94.171951] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   94.177323] vidc_insert_addr_table(): get_ION_handle failed
+[   94.191026] vid_enc_set_recon_buffers(): get_ION_handle failed
+[   94.191210] setting VEN_IOCTL_SET_RECON_BUFFER failed
+[   94.197375] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   94.197558] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   94.203021] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   94.221272] vid_enc_ioctl(): Unsupported ioctl 19716
+[   94.229085] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   94.252586] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   94.262322] vid_enc_ioctl(): Unsupported ioctl 1143492644
+[   94.286677] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   94.286738] Failed: ddl_set_property
+[   94.286769]  Setting slice delivery mode failed
+[   94.292629] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   94.292690] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   94.312803] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   94.318449] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   94.318602] Failed: ddl_set_property
+[   94.324309] setting VEN_IOCTL_SET_BASE_CFG failed
+[   94.330260] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   94.342102] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   94.360140] Failed: ddl_set_property
+[   94.360231]  Setting slice delivery mode failed
+[   94.360292] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   94.360323] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   94.401709] Failed: ddl_set_property
+[   94.401739] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   94.401983] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   94.402075] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   94.430978] 
+[   94.430978]  err: rc = 0x80000003. Failed: ddl start
+[   94.431161] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   94.431435] setting VEN_IOCTL_CMD_START failed
+[   94.465740] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   94.471661] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   94.479444] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   94.495650] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   94.501815] setting VEN_IOCTL_SET_BASE_CFG failed
+[   94.501907] 
+[   94.501907]  err: Unsupported API in client state 1
+[   94.501938] setting VEN_IOCTL_CMD_PAUSE failed
+[   94.529467] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   94.536334] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   94.542743] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   94.542804] Failed: ddl_set_property
+[   94.542835]  Setting slice delivery mode failed
+[   94.559865] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   94.567251] Failed: ddl_set_property
+[   94.567343] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   94.567587] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   94.577750] 
+[   94.577750]  err: Unsupported API in client state 1
+[   94.577781] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   94.578055] setting VEN_IOCTL_CMD_RESUME failed
+[   94.594536] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   94.601434] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   94.611262] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   94.624111] Failed: ddl_set_property
+[   94.624294]  Setting slice delivery mode failed
+[   94.625087] 
+[   94.625087]  err: rc = 0x80000003. Failed: ddl start
+[   94.625301] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   94.625453] setting VEN_IOCTL_CMD_START failed
+[   94.631588] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   94.650297] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   94.650419] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   94.662627] 
+[   94.662627]  err: rc = 0x80000003. Failed: ddl start
+[   94.662841] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   94.662994] setting VEN_IOCTL_CMD_START failed
+[   94.668823] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   94.692018] Failed: ddl_set_property
+[   94.692140] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   94.692354] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   95.000976] 
+[   95.000976]  err: Unsupported API in client state 1
+[   95.001220] setting VEN_IOCTL_CMD_PAUSE failed
+[   95.004028] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   95.018007] 
+[   95.018007]  err: Unsupported API in client state 1
+[   95.018159] setting VEN_IOCTL_CMD_RESUME failed
+[   95.018220] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   95.018251] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   95.024721] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   95.024752] Failed: ddl_set_property
+[   95.024782] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   95.024782] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   95.030489] setting VEN_IOCTL_SET_BASE_CFG failed
+[   95.030550] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   95.044162] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   95.044224] Failed: ddl_set_property
+[   95.044254]  Setting slice delivery mode failed
+[   95.050206] setting VEN_IOCTL_CMD_FLUSH failed
+[   95.290889] 
+[   95.290889]  err: Unsupported API in client state 1
+[   95.291164] setting VEN_IOCTL_CMD_RESUME failed
+[   95.322264] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   95.342133] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   95.342194] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   95.357820] Failed: ddl_set_property
+[   95.357973] vid_enc_set_get_framerate(): Set VCD_I_FRAME_RATE Failed
+[   95.358187] VEN_IOCTL_(G)SET_FRAME_RATE failed
+[   95.549122] vid_enc_encode_frame(): kernel_vaddr not found
+[   95.657500] vid_enc_encode_frame(): kernel_vaddr not found
+[   95.658080] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   95.727056] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   95.740515] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   95.752113] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   95.758553] vid_enc_ioctl(): Unsupported ioctl 1977
+[   95.764962] Failed: ddl_set_property
+[   95.765054] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   95.765237] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   95.831130] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   95.832168] vidc_insert_addr_table(): get_ION_handle failed
+[   96.057652] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   96.057805] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   96.067755] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   96.097726] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   96.184861] init: untracked pid 4931 exited
+[   96.198870] vid_enc_ioctl(): Unsupported ioctl 1143492644
+[   96.215595] vid_enc_free_buffer(): WNG: user_virt_addr = b6d3b000 has not been set
+[   96.221181] Failed: ddl_set_property
+[   96.221272]  Setting slice delivery mode failed
+[   96.227712] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   96.233938] 
+[   96.233969]  err: rc = 0x80000003. Failed: ddl start
+[   96.234274] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   96.234426] setting VEN_IOCTL_CMD_START failed
+[   96.245872] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   96.245963] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   96.245994] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   96.252556] Failed: ddl_set_property
+[   96.270349] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   96.270471] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   96.276178] 
+[   96.276209]  err: rc = 0x80000003. Failed: ddl start
+[   96.276423] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   96.276697] setting VEN_IOCTL_CMD_START failed
+[   96.297115] setting VEN_IOCTL_SET_BASE_CFG failed
+[   96.297176] Failed: ddl_set_property
+[   96.297176]  Setting slice delivery mode failed
+[   96.309995] Failed: ddl_set_property
+[   96.309995] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   96.310209] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   96.310331] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   96.374851] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   96.385136] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   96.390416] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   96.395971] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   96.406317] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   96.409430] init: untracked pid 4933 exited
+[   96.416572] setting VEN_IOCTL_SET_BASE_CFG failed
+[   96.421364] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   96.436685] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   96.442911] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   96.454478] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   96.460003] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   96.466290] Failed: ddl_set_property
+[   96.471844] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   96.483168] 
+[   96.483198]  err: Unsupported API in client state 1
+[   96.483381] setting VEN_IOCTL_CMD_PAUSE failed
+[   96.512284] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   96.524309] Failed: ddl_set_property
+[   96.524401]  Setting slice delivery mode failed
+[   96.535998] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   96.545734] Failed: ddl_set_property
+[   96.545826] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   96.546101] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   96.550679] setting VEN_IOCTL_SET_BASE_CFG failed
+[   96.556447] 
+[   96.556447]  err: rc = 0x80000003. Failed: ddl start
+[   96.556600] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   96.556752] setting VEN_IOCTL_CMD_START failed
+[   96.563070] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   96.570425] setting VEN_IOCTL_SET_BASE_CFG failed
+[   96.582847] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   96.605981] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   96.618007] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   96.646482] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   96.650938] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   96.651060] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   96.656584] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   96.656706] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   96.666748] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   96.672089] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   96.678589] vid_enc_encode_frame(): kernel_vaddr not found
+[   96.684053] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   96.694094] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   96.698489] Failed: ddl_set_property
+[   96.698580]  Setting slice delivery mode failed
+[   96.740210] 
+[   96.740241]  err: Unsupported API in client state 1
+[   96.740393] setting VEN_IOCTL_CMD_RESUME failed
+[   96.750129] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   96.759957] vid_enc_ioctl(): Unsupported ioctl 0
+[   96.770151] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   96.770273] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   96.776194] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   96.793377] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   96.820448] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   96.843857] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   96.850022] vid_enc_ioctl(): Unsupported ioctl 1977
+[   96.856035] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   96.856157] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   96.869525] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   96.869586] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   96.869708] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   96.881397] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   96.920311] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   96.925469] Failed: ddl_set_property
+[   96.925530]  Setting slice delivery mode failed
+[   96.962612] setting VEN_IOCTL_CMD_FLUSH failed
+[   96.974118] setting VEN_IOCTL_SET_BASE_CFG failed
+[   96.985777] vid_enc_free_buffer(): WNG: user_virt_addr = b6e0d000 has not been set
+[   97.004425] 
+[   97.004425]  err: rc = 0x80000003. Failed: ddl start
+[   97.004761] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   97.004974] setting VEN_IOCTL_CMD_START failed
+[   97.012269] setting VEN_IOCTL_SET_BASE_CFG failed
+[   97.023836] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   97.024050] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   97.024080] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   97.029757] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   97.048069] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   97.048130] Failed: ddl_set_property
+[   97.048130] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   97.048161] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   97.048405] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   97.054143] 
+[   97.054143]  err: rc = 0x80000003. Failed: ddl start
+[   97.054387] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   97.054784] setting VEN_IOCTL_CMD_START failed
+[   97.077643] setting VEN_IOCTL_SET_BASE_CFG failed
+[   97.103219] setting VEN_IOCTL_SET_BASE_CFG failed
+[   97.122600] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   97.125377] VEN_IOCTL_GET_SEQUENCE_HDR: Userspace address verification failed.
+[   97.136365] 
+[   97.136365]  err: rc = 0x80000003. Failed: ddl start
+[   97.136609] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   97.136792] setting VEN_IOCTL_CMD_START failed
+[   97.145032] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   97.145154] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   97.153944] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   97.164535] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   97.179826] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   97.182664] 
+[   97.182664]  err: Unsupported API in client state 1
+[   97.182939] setting VEN_IOCTL_CMD_PAUSE failed
+[   97.209461] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   97.212208] vid_enc_ioctl(): Unsupported ioctl -1070557436
+[   97.230917] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   97.234701] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   97.242575] Failed: ddl_set_property
+[   97.256126] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   97.256310] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   97.263421] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   97.271387] vid_enc_encode_frame(): kernel_vaddr not found
+[   97.323393] 
+[   97.323393]  err: Unsupported API in client state 1
+[   97.323699] setting VEN_IOCTL_CMD_PAUSE failed
+[   97.357210] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   97.365908] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   97.373813] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   97.418861] setting VEN_IOCTL_SET_PROFILE_LEVEL failed
+[   97.425759] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   97.431680] Failed: ddl_set_property
+[   97.431863] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   97.432046] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   97.435037] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   97.448405] setting VEN_IOCTL_SET_BASE_CFG failed
+[   97.453166] Failed: ddl_set_property
+[   97.453258] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   97.453471] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   97.475446] setting VEN_IOCTL_SET_BASE_CFG failed
+[   97.489119] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   97.489974] 
+[   97.489974]  err: Unsupported API in client state 1
+[   97.490157] setting VEN_IOCTL_CMD_PAUSE failed
+[   97.502487] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   97.528246] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   97.541736] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   97.551838] 
+[   97.551838]  err: Unsupported API in client state 1
+[   97.552052] setting VEN_IOCTL_CMD_PAUSE failed
+[   97.557881] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   97.562612] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   97.562704] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   97.582115] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   97.597253] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   97.597375] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   97.608332] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   97.630245] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   97.636075] vid_enc_encode_frame(): kernel_vaddr not found
+[   97.657073] Failed: ddl_set_property
+[   97.657164]  Setting slice delivery mode failed
+[   97.662383] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   97.695711] 
+[   97.695711]  err: Unsupported API in client state 1
+[   97.695864] setting VEN_IOCTL_CMD_PAUSE failed
+[   97.701480] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   97.701541] 
+[   97.701541]  err: Unsupported API in client state 1
+[   97.701571] setting VEN_IOCTL_CMD_RESUME failed
+[   97.713810] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   97.723790] vid_enc_ioctl(): Unsupported ioctl 0
+[   97.733953] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   97.743842] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   97.748328] setting VEN_IOCTL_CMD_FLUSH failed
+[   97.794262] init: untracked pid 4962 exited
+[   97.842331] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   97.847123] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   97.861345] Failed: ddl_set_property
+[   97.861437] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   97.861651] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   97.887837] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   97.887990] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   97.894185] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   97.913902] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   97.913993] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   97.943171] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   97.953242] Failed: ddl_set_property
+[   97.953334] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   97.953639] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   97.958889] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   97.964687] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   97.975614] Failed: ddl_set_property
+[   97.975736]  Setting slice delivery mode failed
+[   97.981687] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   97.994140] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   98.017427] init: untracked pid 4964 exited
+[   98.040775] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   98.047184] setting VEN_IOCTL_CMD_FLUSH failed
+[   98.068060] setting VEN_IOCTL_SET_BASE_CFG failed
+[   98.072638] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   98.083106] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   98.083259] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   98.131573] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   98.131695] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   98.143903] setting VEN_IOCTL_SET_BASE_CFG failed
+[   98.150740] vid_enc_fill_output_buffer(): kernel_vaddr not found
+[   98.150770] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   98.150801] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   98.157179] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   98.163039] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   98.169449] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   98.183488] Failed: ddl_set_property
+[   98.183580] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   98.183732] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   98.211170] setting VEN_IOCTL_SET_BASE_CFG failed
+[   98.233602] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   98.240134] VEN_IOCTL_GET_SEQUENCE_HDR: Userspace address verification failed.
+[   98.240164] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   98.261895] 
+[   98.261925]  err: rc = 0x80000003. Failed: ddl start
+[   98.262078] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   98.262261] setting VEN_IOCTL_CMD_START failed
+[   98.266625] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   98.272607] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   98.272730] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   98.275263] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   98.285457] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   98.291896] vid_enc_ioctl(): Unsupported ioctl 0
+[   98.292781] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   98.330505] 
+[   98.330505]  err: Unsupported API in client state 1
+[   98.330627] setting VEN_IOCTL_CMD_PAUSE failed
+[   98.352144] 
+[   98.352144]  err: Unsupported API in client state 1
+[   98.352296] setting VEN_IOCTL_CMD_RESUME failed
+[   98.358156] vid_enc_ioctl(): Unsupported ioctl -1070557436
+[   98.365878] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   98.371585] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   98.371738] 
+[   98.371738]  err: rc = 0x80000003. Failed: ddl start
+[   98.371768] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   98.371799] setting VEN_IOCTL_CMD_START failed
+[   98.381138] Failed: ddl_set_property
+[   98.387364] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   98.387517] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   98.392827] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   98.398840] vid_enc_encode_frame(): kernel_vaddr not found
+[   98.417060] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   98.429330] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   98.429391] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   98.429391] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   98.465008] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   98.481458] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   98.495193] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   98.500839] Failed: ddl_set_property
+[   98.500900] vid_enc_set_get_qprange(): Set VCD_I_QP_RANGE Failed
+[   98.501052] setting VEN_IOCTL_G(S)ET_QP_RANGE failed
+[   98.506973] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   98.526598] Failed: ddl_set_property
+[   98.526751] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   98.526873] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   98.532397] 
+[   98.532397]  err: Unsupported API in client state 1
+[   98.532549] setting VEN_IOCTL_CMD_PAUSE failed
+[   98.538440] vid_enc_ioctl(): Unsupported ioctl -1072409029
+[   98.538470] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   98.552357]  vid_enc_free_recon_buffers() address  b6d3d000
+[   98.552449]  vid_enc_free_recon_buffers() address not found b6d3d000
+[   98.552723] VEN_IOCTL_FREE_RECON_BUFFER failed
+[   98.564871] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   98.565084] 
+[   98.565084]  err: rc = 0x80000003. Failed: ddl start
+[   98.565359] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   98.565786] setting VEN_IOCTL_CMD_START failed
+[   98.570761] 
+[   98.570761]  err: Unsupported API in client state 1
+[   98.570791] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   98.571036] setting VEN_IOCTL_CMD_PAUSE failed
+[   98.585319] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   98.585472] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   98.602166] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   98.618220] 
+[   98.618220]  err: rc = 0x80000003. Failed: ddl start
+[   98.618434] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   98.618556] setting VEN_IOCTL_CMD_START failed
+[   98.639432] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   98.658538] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   98.658690] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   98.664489] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   98.683045] 
+[   98.683045]  err: Unsupported API in client state 1
+[   98.683229] setting VEN_IOCTL_CMD_PAUSE failed
+[   98.690035] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   98.690126] 
+[   98.690126]  err: rc = 0x80000003. Failed: ddl start
+[   98.690340] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   98.690492] setting VEN_IOCTL_CMD_START failed
+[   98.721623] setting VEN_IOCTL_CMD_FLUSH failed
+[   98.728429] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   98.754158] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   98.784281] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   98.797131] Failed: ddl_set_property
+[   98.797222] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   98.797344] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   98.823012] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   98.838058] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   98.838150] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   98.845139] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   98.866015] Failed: ddl_set_property
+[   98.866107] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   98.866351] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   98.871509] Failed: ddl_set_property
+[   98.871509] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   98.871722] vid_enc_set_get_live_mode(): Set VCD_I_LIVE Failed
+[   98.871814] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   98.878528] vidc_insert_addr_table(): get_ION_handle failed
+[   98.878589] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   98.892812] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   98.904196] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   98.919731] 
+[   98.919731]  err: Unsupported API in client state 1
+[   98.919761] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   98.920006] setting VEN_IOCTL_CMD_RESUME failed
+[   98.944147] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   98.959316] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   98.965328] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   98.992980] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   99.000610] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   99.000701] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[   99.000701] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   99.020143] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   99.020204] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   99.020234] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.020418] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[   99.026796] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   99.039737] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   99.039829] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   99.039859] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.052586] VEN_IOCTL_(G)SET_MULTI_SLICE_CFG failed
+[   99.058660] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   99.058721] vid_enc_ioctl(): Unsupported ioctl 1074266112
+[   99.069983] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   99.091286] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   99.126873] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[   99.155745] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[   99.162795] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[   99.162856] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   99.184007] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   99.190294] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   99.210865] vid_enc_ioctl(): Unsupported ioctl 0
+[   99.252739] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   99.252830] 
+[   99.252830]  err: Unsupported API in client state 1
+[   99.252861] setting VEN_IOCTL_CMD_RESUME failed
+[   99.275995] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   99.282069] 
+[   99.282069]  err: rc = 0x80000003. Failed: ddl start
+[   99.282343] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   99.282588] setting VEN_IOCTL_CMD_START failed
+[   99.304532] 
+[   99.304532]  err: Unsupported API in client state 1
+[   99.304684] setting VEN_IOCTL_CMD_RESUME failed
+[   99.310514] 
+[   99.310544]  err: Unsupported API in client state 1
+[   99.310697] setting VEN_IOCTL_CMD_RESUME failed
+[   99.338287] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   99.338318] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.352540] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   99.352632] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.355074] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   99.360506] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   99.385075] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   99.390752] 
+[   99.390752]  err: Unsupported API in client state 1
+[   99.390996] setting VEN_IOCTL_CMD_PAUSE failed
+[   99.396642] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   99.402777] vid_enc_free_buffer(): WNG: user_virt_addr = b6d3d000 has not been set
+[   99.409217] Failed: ddl_set_property
+[   99.409339] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   99.409461] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   99.452586] vid_enc_ioctl(): Unsupported ioctl -1072409029
+[   99.458171]  vid_enc_free_recon_buffers() address  b6e0f000
+[   99.458293]  vid_enc_free_recon_buffers() address not found b6e0f000
+[   99.458415] VEN_IOCTL_FREE_RECON_BUFFER failed
+[   99.471112] 
+[   99.471112]  err: rc = 0x80000003. Failed: ddl start
+[   99.471387] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   99.471692] setting VEN_IOCTL_CMD_START failed
+[   99.477338] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   99.498580] Failed: ddl_set_property
+[   99.498672] vid_enc_set_get_bitrate(): Set VCD_I_TARGET_BITRATE Failed
+[   99.498794] setting VEN_IOCTL_(G)SET_TARGET_BITRATE failed
+[   99.504379] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   99.519792] 
+[   99.519822]  err: Unsupported API in client state 1
+[   99.519975] setting VEN_IOCTL_CMD_RESUME failed
+[   99.526903] 
+[   99.526903]  err: rc = 0x80000003. Failed: ddl start
+[   99.527086] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   99.527300] setting VEN_IOCTL_CMD_START failed
+[   99.547627] VEN_IOCTL_GET_SEQUENCE_HDR: Userspace address verification failed.
+[   99.559377] setting VEN_IOCTL_(G)SET_RATE_CTRL_CFG failed
+[   99.559438] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   99.559468] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.600335] 
+[   99.600366]  err: Unsupported API in client state 1
+[   99.600518] setting VEN_IOCTL_CMD_RESUME failed
+[   99.606775] 
+[   99.606775]  err: rc = 0x80000003. Failed: ddl start
+[   99.607050] vid_enc_start_stop(): vcd_encode_start failed. vcd_status = 2147483651
+[   99.607233] setting VEN_IOCTL_CMD_START failed
+[   99.654326] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   99.660705] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[   99.667388] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[   99.667450] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   99.674164] setting VEN_IOCTL_SET_BASE_CFG failed
+[   99.686403] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   99.686586] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.694307] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[   99.694643] Failed: ddl_set_property
+[   99.694735] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   99.695009] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   99.702060] Failed: ddl_set_property
+[   99.702182] vid_enc_set_get_intrarefresh(): Set VCD_I_INTRA_REFRESH Failed
+[   99.702395] setting VEN_IOCTL_SET_INTRA_REFRESH failed
+[   99.732031] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   99.732153] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.771677] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[   99.774973] 
+[   99.774973]  err: Unsupported API in client state 1
+[   99.775156] setting VEN_IOCTL_CMD_PAUSE failed
+[   99.782084] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[   99.797527] vid_enc_ioctl(): Unsupported ioctl 1074286634
+[   99.827102] Failed: ddl_set_property
+[   99.827193] vid_enc_set_get_session_qp(): Set VCD_I_SESSION_QP Failed
+[   99.827437] setting VEN_IOCTL_(G)SET_SESSION_QP failed
+[   99.838364] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.852708] vidc_insert_addr_table(): get_ION_handle failed
+[   99.858171] vidc_insert_addr_table(): get_ION_handle failed
+[   99.863116] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[   99.870379] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   99.895803] vid_enc_ioctl(): Unsupported ioctl 0
+[   99.904349] 
+[   99.904349]  err: Unsupported API in client state 1
+[   99.905203] setting VEN_IOCTL_CMD_RESUME failed
+[   99.933526] Failed: ddl_set_property
+[   99.933618] vid_enc_set_get_voptimingcfg(): Set VCD_I_VOP_TIMING Failed
+[   99.933862] VEN_IOCTL_(G)SET_VOP_TIMING_CFG failed
+[   99.948786] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[   99.948969] 
+[   99.948969]  err: Unsupported API in client state 1
+[   99.949122] setting VEN_IOCTL_CMD_PAUSE failed
+[   99.954677] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[   99.970486] vid_enc_encode_frame(): kernel_vaddr not found
+[   99.982450] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[   99.989012] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[   99.989134] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[   99.994689] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[   99.994811] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[  100.018098] vid_enc_ioctl(): Unsupported ioctl -2146938839
+[  100.031893] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[  100.045994] vid_enc_set_get_live_mode(): Get VCD_I_LIVE Failed
+[  100.046116] setting VEN_IOCTL_(G)SET_LIVE_MODE failed
+[  100.082893] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[  100.098947] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[  100.121196] setting VEN_IOCTL_SET_BASE_CFG failed
+[  100.139874] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[  100.140027] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[  100.145643] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[  100.150129] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[  100.175095] vid_enc_ioctl(): Unsupported ioctl -2146938845
+[  100.235006] vid_enc_ioctl(): Unsupported ioctl 1074286626
+[  100.251304] vid_enc_ioctl(): Unsupported ioctl -2146938837
+[  100.292690] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[  100.297878] setting VEN_IOCTL_SET_CODEC_PROFILE failed
+[  100.331634] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[  100.351442] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[  100.542438] init: untracked pid 5007 exited
+[  100.585136] vid_enc_ioctl(): Unsupported ioctl 1074197505
+[  100.645383] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[  100.645719] vid_enc_ioctl(): Unsupported ioctl -2146938841
+[  100.676575] vid_enc_set_get_dbcfg(): Get VCD_I_DEBLOCKING Failed
+[  100.676667] setting VEN_IOCTL_SET_DEBLOCKING_CFG failed
+[  100.697298] 
+[  100.697298]  err: Unsupported API in client state 1
+[  100.697421] setting VEN_IOCTL_CMD_RESUME failed
+[  100.702975] 
+[  100.702975]  err: Unsupported API in client state 1
+[  100.703189] setting VEN_IOCTL_CMD_PAUSE failed
+[  100.703219] 
+[  100.703219]  err: Unsupported API in client state 1
+[  100.703250] setting VEN_IOCTL_CMD_RESUME failed
+[  100.718724] vid_enc_ioctl(): Unsupported ioctl 1074286630
+[  100.766000] init: untracked pid 5009 exited
+[  100.830032] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[  100.971371] setting VEN_IOCTL_SET_BASE_CFG failed
+[  100.971402] vid_enc_ioctl(): Unsupported ioctl 1074266117
+[  100.985899] vid_enc_set_get_entropy_cfg(): Get VCD_I_ENTROPY_CTRL Failed
+[  100.985991] setting VEN_IOCTL_(G)SET_ENTROPY_CFG failed
+[  100.991515] vid_enc_ioctl(): Unsupported ioctl 1074266122
+[  101.014283] vid_enc_ioctl(): Unsupported ioctl 1074286632
+[  101.025820] vid_enc_ioctl(): Unsupported ioctl -2146938864
+[  101.031466] 
+[  101.031497]  err: Unsupported API in client state 1
+[  101.031649] setting VEN_IOCTL_CMD_PAUSE failed
+[  101.098641] vid_enc_free_buffer(): WNG: user_virt_addr = b6e0f000 has not been set
+[  101.158766]  vid_enc_free_recon_buffers() address  b3a3b000
+[  101.158889] Unable to handle kernel paging request at virtual address fffffff2
+[  101.159133] pgd = d2078000
+[  101.159224] [fffffff2] *pgd=a83a3821, *pte=00000000, *ppte=00000000
+[  101.159652] [0:     trinity-c0: 4662] Internal error: Oops: 17 [#1] PREEMPT SMP ARM
+[  101.159743] [0:     trinity-c0: 4662] Modules linked in: wlan(O) adsprpc
+[  101.160140] [0:     trinity-c0: 4662] CPU: 0    Tainted: G        W  O  (3.4.0-3173303 #1)
+[  101.160323] [0:     trinity-c0: 4662] PC is at ion_unmap_kernel+0x14/0x54
+[  101.160445] [0:     trinity-c0: 4662] LR is at mutex_lock+0x18/0x58
+[  101.160628] [0:     trinity-c0: 4662] pc : [<c03da35c>]    lr : [<c087fbf0>]    psr: 60000013
+[  101.160659] [0:     trinity-c0: 4662] sp : d205be68  ip : 00000001  fp : df379c08
+[  101.160903] [0:     trinity-c0: 4662] r10: b443b000  r9 : d205a000  r8 : 00000828
+[  101.161055] [0:     trinity-c0: 4662] r7 : 00002094  r6 : e01c20a0  r5 : e0155494  r4 : ffffffea
+[  101.161239] [0:     trinity-c0: 4662] r3 : d1f5e000  r2 : d205be60  r1 : 00000000  r0 : 00000000
+[  101.161361] [0:     trinity-c0: 4662] Flags: nZCv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+[  101.161544] [0:     trinity-c0: 4662] Control: 10c5787d  Table: 98a7806a  DAC: 00000015
+[  101.161727] [0:     trinity-c0: 4662] 
+[  101.161727] [0:     trinity-c0: 4662] PC: 0xc03da2dc:
+[  101.161971] [0:     trinity-c0: 4662] a2dc  95943018 92833001 95843018 e1a00007 eb1295c2 e1a00006 eb1295c0 eaffffff
+[  101.162826] [0:     trinity-c0: 4662] a2fc  e1a00005 e8bd80f8 c094601b c0be156a c0be180a e92d4038 e1a04000 e5905038
+[  101.163650] [0:     trinity-c0: 4662] a31c  e2455001 e3550000 e5805038 18bd8038 e5900014 e1a01004 e5903014 e5933018
+[  101.164504] [0:     trinity-c0: 4662] a33c  e12fff33 e584503c e8bd8038 e92d4070 e2805014 e1a04001 e1a00005 eb12961e
+[  101.165267] [0:     trinity-c0: 4662] a35c  e5946008 e2866024 e1a00006 eb12961a e5943018 e5940008 e2433001 e3530000
+[  101.166122] [0:     trinity-c0: 4662] a37c  e5843018 1a000000 ebffffe1 e1a00006 eb12959a e1a00005 e8bd4070 ea129597
+[  101.166946] [0:     trinity-c0: 4662] a39c  e92d4038 e5905028 e2854024 e1a00004 eb129609 e1a00005 ebffffd5 e1a00004
+[  101.167800] [0:     trinity-c0: 4662] a3bc  e8bd4038 ea12958d e92d40f8 e1a05001 e5904028 e5943014 e5933014 e593301c
+[  101.168655] [0:     trinity-c0: 4662] 
+[  101.168686] [0:     trinity-c0: 4662] LR: 0xc087fb70:
+[  101.168899] [0:     trinity-c0: 4662] fb70  eb0007ed eb000454 e1a00006 eb000679 eafffff0 e99d000c e1a00006 e5823004
+[  101.169754] [0:     trinity-c0: 4662] fb90  e5832000 e1a0300d e3c35d7f e3c5503f e595300c e5843010 e5943008 e1530007
+[  101.170608] [0:     trinity-c0: 4662] fbb0  03a03000 05843000 eb0007db e5953004 e2433001 e5853004 e5953000 eaffffbc
+[  101.171432] [0:     trinity-c0: 4662] fbd0  e28dd014 e8bd85f0 e92d4010 e3a02000 e1a04000 e3a01055 e59f003c ebe0d23c
+[  101.172287] [0:     trinity-c0: 4662] fbf0  e1943f9f e2433001 e1842f93 e1922003 0a000002 e1a00004 ebffff84 ea000000
+[  101.173203] [0:     trinity-c0: 4662] fc10  f57ff05f e1a0200d e3c23d7f e3c3303f e593300c e5843010 e8bd8010 c0b8a491
+[  101.174057] [0:     trinity-c0: 4662] fc30  e92d41f3 e1a0200d e3c23d7f e1a06000 e59f00b4 e3c3303f e3a08001 e593200c
+[  101.174820] [0:     trinity-c0: 4662] fc50  e1a07003 e5860020 e5862048 e597300c e5838000 f57ff05f e1c621d8 e58d1004
+[  101.175675] [0:     trinity-c0: 4662] 
+[  101.175705] [0:     trinity-c0: 4662] SP: 0xd205bde8:
+[  101.175919] [0:     trinity-c0: 4662] bde8  d2050020 d205bde8 d205bdf0 d205bdf0 00000202 c03da35c 60000013 ffffffff
+[  101.176773] [0:     trinity-c0: 4662] be08  d205be54 00000828 d205a000 b443b000 df379c08 c0882218 00000000 00000000
+[  101.177598] [0:     trinity-c0: 4662] be28  d205be60 d1f5e000 ffffffea e0155494 e01c20a0 00002094 00000828 d205a000
+[  101.178452] [0:     trinity-c0: 4662] be48  b443b000 df379c08 00000001 d205be68 c087fbf0 c03da35c 60000013 ffffffff
+[  101.179307] [0:     trinity-c0: 4662] be68  e01c00b4 00000000 e01c20a0 c038aa4c 0000001b 00000010 00000000 00000000
+[  101.180131] [0:     trinity-c0: 4662] be88  d205a000 e01c00b4 40080015 00000104 b443b000 c0386078 00000000 b663b000
+[  101.180985] [0:     trinity-c0: 4662] bea8  80000020 c1bf9b70 c8ef6cc8 c00aceb8 c1bf9b70 00000000 b3a3b000 b5c3b000
+[  101.181840] [0:     trinity-c0: 4662] bec8  00000005 0000a000 00000001 c02a56c8 c55a7431 00000017 00000000 c00ade88
+[  101.182664] [0:     trinity-c0: 4662] 
+[  101.182694] [0:     trinity-c0: 4662] FP: 0xdf379b88:
+[  101.182878] [0:     trinity-c0: 4662] 9b88  00000001 00000000 df379b90 df379b90 00000000 00000000 00000000 c0911b34
+[  101.183732] [0:     trinity-c0: 4662] 9ba8  000200da c0f46dc0 00000000 df379bb4 df379bb4 00000000 df379bc0 df379bc0
+[  101.184587] [0:     trinity-c0: 4662] 9bc8  00000000 5342188d 00000000 00000000 00000000 00000000 df379be8 dcb07e7e
+[  101.185411] [0:     trinity-c0: 4662] 9be8  00000000 00200000 00000000 00000000 df379bf8 df379bf8 df379c00 df379c00
+[  101.186265] [0:     trinity-c0: 4662] 9c08  000521b0 000003e8 000003ed 00000000 00000000 00000000 c090e740 df7f4000
+[  101.187120] [0:     trinity-c0: 4662] 9c28  df379cd8 df2d8db0 000017a2 00000001 0f600000 5342188d 2761c6b9 5342188d
+[  101.187974] [0:     trinity-c0: 4662] 9c48  2761c6b9 5342188d 2761c6b9 00050005 00000000 00000000 00000000 00000000
+[  101.188799] [0:     trinity-c0: 4662] 9c68  00000000 00000000 00000000 00000007 00000001 00000000 df379c80 df379c80
+[  101.189653] [0:     trinity-c0: 4662] 
+[  101.189684] [0:     trinity-c0: 4662] R2: 0xd205bde0:
+[  101.189897] [0:     trinity-c0: 4662] bde0  3835312e 5d363637 d2050020 d205bde8 d205bdf0 d205bdf0 00000202 c03da35c
+[  101.190752] [0:     trinity-c0: 4662] be00  60000013 ffffffff d205be54 00000828 d205a000 b443b000 df379c08 c0882218
+[  101.191545] [0:     trinity-c0: 4662] be20  00000000 00000000 d205be60 d1f5e000 ffffffea e0155494 e01c20a0 00002094
+[  101.192400] [0:     trinity-c0: 4662] be40  00000828 d205a000 b443b000 df379c08 00000001 d205be68 c087fbf0 c03da35c
+[  101.193254] [0:     trinity-c0: 4662] be60  60000013 ffffffff e01c00b4 00000000 e01c20a0 c038aa4c 0000001b 00000010
+[  101.194079] [0:     trinity-c0: 4662] be80  00000000 00000000 d205a000 e01c00b4 40080015 00000104 b443b000 c0386078
+[  101.194933] [0:     trinity-c0: 4662] bea0  00000000 b663b000 80000020 c1bf9b70 c8ef6cc8 c00aceb8 c1bf9b70 00000000
+[  101.195757] [0:     trinity-c0: 4662] bec0  b3a3b000 b5c3b000 00000005 0000a000 00000001 c02a56c8 c55a7431 00000017
+[  101.196612] [0:     trinity-c0: 4662] 
+[  101.196642] [0:     trinity-c0: 4662] R3: 0xd1f5df80:
+[  101.196856] [0:     trinity-c0: 4662] df80  d1f5df7c 00000000 d1f5df88 d1f5df88 d7402694 c008f098 00000000 00000000
+[  101.197710] [0:     trinity-c0: 4662] dfa0  00000000 00000020 00000000 0000c350 0000c350 00000000 00000000 00000000
+[  101.198565] [0:     trinity-c0: 4662] dfc0  00000000 00000000 00000000 10000000 00000000 00000000 10000000 00000000
+[  101.199389] [0:     trinity-c0: 4662] dfe0  00000000 10000000 00000000 00000000 10000000 00000000 00000000 10000000
+[  101.200244] [0:     trinity-c0: 4662] e000  00000000 d205a000 00000002 00400140 00000000 00000000 00000001 00000001
+[  101.201037] [0:     trinity-c0: 4662] e020  00000078 00000078 00000078 00000000 c090a138 00000000 00000400 00400000
+[  101.201861] [0:     trinity-c0: 4662] e040  00000001 00000000 00000000 c1bfcdc4 c1bfcdc4 00000001 8d8fbcfb 00000017
+[  101.202716] [0:     trinity-c0: 4662] e060  6cfcc9ae 00000000 09e57afc 00000133 6cfcc9ae 00000000 000001bf 00000000
+[  101.203570] [0:     trinity-c0: 4662] 
+[  101.203570] [0:     trinity-c0: 4662] R5: 0xe0155414:
+[  101.203815] [0:     trinity-c0: 4662] 5414  00000000 00000000 00000000 00000000 018568e0 c0fe6b3c 00000000 00000000
+[  101.204639] [0:     trinity-c0: 4662] 5434  80800002 0000266b 00000000 c036318c 00000004 c0f9d270 00000000 00000000
+[  101.205493] [0:     trinity-c0: 4662] 5454  00000051 00000000 00000000 00000000 00000000 c0b698e2 e0105b80 00000000
+[  101.206317] [0:     trinity-c0: 4662] 5474  00000000 00000000 00000000 dfcaa041 e018ee00 e0113980 de157180 d1fe0a4c
+[  101.207172] [0:     trinity-c0: 4662] 5494  00000000 00000000 e015549c e015549c d1f5e000 ffffffff e01554c0 00000000
+[  101.208026] [0:     trinity-c0: 4662] 54b4  00000001 e0418900 00000000 65646976 6c635f6f 746e6569 00000000 00000000
+[  101.208881] [0:     trinity-c0: 4662] 54d4  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.209705] [0:     trinity-c0: 4662] 54f4  00000000 00000000 00000000 e0155500 e0155500 00000000 00000000 e0155510
+[  101.210498] [0:     trinity-c0: 4662] 
+[  101.210529] [0:     trinity-c0: 4662] R6: 0xe01c2020:
+[  101.210773] [0:     trinity-c0: 4662] 2020  00000000 e01c2024 e01c2024 00000000 00480048 e01c2034 e01c2034 00000000
+[  101.211597] [0:     trinity-c0: 4662] 2040  00020002 e01c2044 e01c2044 00000000 00000000 00000000 00000000 00000000
+[  101.212452] [0:     trinity-c0: 4662] 2060  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.213306] [0:     trinity-c0: 4662] 2080  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.214130] [0:     trinity-c0: 4662] 20a0  b3a3b000 00000000 00000000 00000000 b6a3b000 00000000 00000005 0000a000
+[  101.214985] [0:     trinity-c0: 4662] 20c0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.215840] [0:     trinity-c0: 4662] 20e0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.216664] [0:     trinity-c0: 4662] 2100  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.217518] [0:     trinity-c0: 4662] 
+[  101.217549] [0:     trinity-c0: 4662] R9: 0xd2059f80:
+[  101.217701] [0:     trinity-c0: 4662] 9f80  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.218525] [0:     trinity-c0: 4662] 9fa0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.219380] [0:     trinity-c0: 4662] 9fc0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.220204] [0:     trinity-c0: 4662] 9fe0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.221059] [0:     trinity-c0: 4662] a000  00000200 00000002 00000000 d1f5e000 c0fb6180 00000000 00000015 c1bfc900
+[  101.221913] [0:     trinity-c0: 4662] a020  d1f5e000 d6dfe1c0 dfce0c00 00000a11 00000000 c0f00440 d205be24 d205bd98
+[  101.222737] [0:     trinity-c0: 4662] a040  c0880784 00000000 00000000 00000000 00000000 00000000 01010000 00000000
+[  101.223592] [0:     trinity-c0: 4662] a060  b6eaaf24 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  101.224446] [0:     trinity-c0: 4662] Process trinity-c0 (pid: 4662, stack limit = 0xd205a2f0)
+[  101.224629] [0:     trinity-c0: 4662] Stack: (0xd205be68 to 0xd205c000)
+[  101.224721] [0:     trinity-c0: 4662] be60:                   e01c00b4 00000000 e01c20a0 c038aa4c 0000001b 00000010
+[  101.224935] [0:     trinity-c0: 4662] be80: 00000000 00000000 d205a000 e01c00b4 40080015 00000104 b443b000 c0386078
+[  101.225118] [0:     trinity-c0: 4662] bea0: 00000000 b663b000 80000020 c1bf9b70 c8ef6cc8 c00aceb8 c1bf9b70 00000000
+[  101.225301] [0:     trinity-c0: 4662] bec0: b3a3b000 b5c3b000 00000005 0000a000 00000001 c02a56c8 c55a7431 00000017
+[  101.225484] [0:     trinity-c0: 4662] bee0: 00000000 c00ade88 c8ef6cc8 000fffff 00000000 ffffffff 00000003 00000001
+[  101.225667] [0:     trinity-c0: 4662] bf00: 00000000 d6599f00 00000104 40080015 00000104 c015b228 e05c7200 c015bd7c
+[  101.225850] [0:     trinity-c0: 4662] bf20: d205bf44 00000000 00000001 c02a6f84 00000000 00000000 00000001 00000000
+[  101.226033] [0:     trinity-c0: 4662] bf40: 00000000 00000001 00000000 d7066910 e05c7200 d205bf3c 530d1d2e 5f8732fa
+[  101.226216] [0:     trinity-c0: 4662] bf60: d6599f00 00000000 d6599f00 b443b000 40080015 00000104 d205a000 00000200
+[  101.226400] [0:     trinity-c0: 4662] bf80: 00000000 c015be18 00000104 00000000 5f8732fa 229cc10e b722aff8 00000036
+[  101.226583] [0:     trinity-c0: 4662] bfa0: c000e464 c000e43c 5f8732fa 229cc10e 00000104 40080015 b443b000 df7af37e
+[  101.226705] [0:     trinity-c0: 4662] bfc0: 5f8732fa 229cc10e b722aff8 00000036 b6d41000 b6e86394 00000036 00000000
+[  101.226888] [0:     trinity-c0: 4662] bfe0: bef2e718 bef2e708 b6ec7b58 b6e5a124 60000010 00000104 00000000 00000000
+[  101.227102] [0:     trinity-c0: 4662] [<c03da35c>] (ion_unmap_kernel+0x14/0x54) from [<c038aa4c>] (vid_enc_free_recon_buffers+0xd8/0x158)
+[  101.227315] [0:     trinity-c0: 4662] [<c038aa4c>] (vid_enc_free_recon_buffers+0xd8/0x158) from [<c0386078>] (vid_enc_ioctl+0xd3c/0x2f98)
+[  101.227590] [0:     trinity-c0: 4662] [<c0386078>] (vid_enc_ioctl+0xd3c/0x2f98) from [<c015b228>] (vfs_ioctl+0x28/0x3c)
+[  101.227712] [0:     trinity-c0: 4662] [<c015b228>] (vfs_ioctl+0x28/0x3c) from [<c015bd7c>] (do_vfs_ioctl+0x534/0x588)
+[  101.227895] [0:     trinity-c0: 4662] [<c015bd7c>] (do_vfs_ioctl+0x534/0x588) from [<c015be18>] (sys_ioctl+0x48/0x70)
+[  101.228109] [0:     trinity-c0: 4662] [<c015be18>] (sys_ioctl+0x48/0x70) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+[  101.228292] [0:     trinity-c0: 4662] Code: e2805014 e1a04001 e1a00005 eb12961e (e5946008) 
+[  101.229055] [0:     trinity-c0: 4662] ---[ end trace da227214a82491bd ]---
+[  101.229543] [0:     trinity-c0: 4662] Kernel panic - not syncing: Fatal exception
+[  101.229665]I[1:       tmp-mksh: 4571] CPU1: stopping
+[  101.229787]I[1:       tmp-mksh: 4571] [<c0014550>] (unwind_backtrace+0x0/0x11c) from [<c00138a4>] (handle_IPI+0x100/0x1d0)
+[  101.229940]I[1:       tmp-mksh: 4571] [<c00138a4>] (handle_IPI+0x100/0x1d0) from [<c00086f4>] (gic_handle_irq+0x100/0x10c)
+[  101.230093]I[1:       tmp-mksh: 4571] [<c00086f4>] (gic_handle_irq+0x100/0x10c) from [<c0882280>] (__irq_svc+0x40/0x70)
+[  101.230215]I[1:       tmp-mksh: 4571] Exception stack(0xd7529e88 to 0xd7529ed0)
+[  101.230306]I[1:       tmp-mksh: 4571] 9e80:                   d7de28e4 60000013 4aca4aca 00010000 00000079 d7de2800
+[  101.230428]I[1:       tmp-mksh: 4571] 9ea0: d853e800 c0932724 d7c5d180 d7de2b9c d86df800 d7de28e4 00000000 d7529ed0
+[  101.230581]I[1:       tmp-mksh: 4571] 9ec0: c039cf04 c0881ba0 60000013 ffffffff
+[  101.230703]I[1:       tmp-mksh: 4571] [<c0882280>] (__irq_svc+0x40/0x70) from [<c0881ba0>] (_raw_spin_unlock_irqrestore+0x28/0x50)
+[  101.230856]I[1:       tmp-mksh: 4571] [<c0881ba0>] (_raw_spin_unlock_irqrestore+0x28/0x50) from [<c039cf04>] (pty_write+0x50/0x58)
+[  101.231008]I[1:       tmp-mksh: 4571] [<c039cf04>] (pty_write+0x50/0x58) from [<c0398004>] (n_tty_write+0x23c/0x3d4)
+[  101.231161]I[1:       tmp-mksh: 4571] [<c0398004>] (n_tty_write+0x23c/0x3d4) from [<c0394a1c>] (tty_write+0x184/0x230)
+[  101.231313]I[1:       tmp-mksh: 4571] [<c0394a1c>] (tty_write+0x184/0x230) from [<c014c5f0>] (vfs_write+0xa8/0x130)
+[  101.231435]I[1:       tmp-mksh: 4571] [<c014c5f0>] (vfs_write+0xa8/0x130) from [<c014c840>] (sys_write+0x34/0x68)
+[  101.231588]I[1:       tmp-mksh: 4571] [<c014c840>] (sys_write+0x34/0x68) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+[  101.231741] [0:     trinity-c0: 4662] (sec_debug_set_upload_magic) 776655ee
+[  101.231954] [0:     trinity-c0: 4662] (sec_debug_set_upload_cause) c8
+[  101.232137] [0:     trinity-c0: 4662] Rebooting in 5 seconds..
+[  106.239066] [0:     trinity-c0: 4662] Going down for restart now
+
+2 Corrected bytes, 1 unrecoverable blocks

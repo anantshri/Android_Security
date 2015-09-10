@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+
+cd /data/local/tmp
+su -c "./trinity $1 --dangerous" 1> /dev/null

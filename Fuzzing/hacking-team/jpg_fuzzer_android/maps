@@ -1,0 +1,601 @@
+40000000-40001000 r--s 00000000 00:04 3958       /dev/ashmem/SurfaceFlinger read-only heap (deleted)
+40001000-40002000 r--s 00000000 b3:16 949        /system/framework/allshare.jar
+40002000-40003000 r--p 00000000 00:00 0 
+40003000-40004000 r--s 00000000 b3:16 955        /system/framework/android.policy.jar
+40004000-40008000 rw-p 00000000 00:00 0 
+40008000-40009000 r--s 00000000 b3:16 1019       /system/framework/sechardware.jar
+40009000-4000b000 rw-p 00000000 00:04 4060       /dev/ashmem/dalvik-aux-structure (deleted)
+4000b000-4000d000 r-xp 00000000 b3:16 1120       /system/lib/libETC1.so
+4000d000-4000e000 r--p 00001000 b3:16 1120       /system/lib/libETC1.so
+4000e000-4000f000 rw-p 00000000 00:00 0 
+4000f000-40012000 r--p 00000000 b3:16 1020       /system/framework/sechardware.odex
+40012000-40015000 r-xp 00000000 b3:16 1349       /system/lib/libsecnativefeature.so
+40015000-40016000 r--p 00002000 b3:16 1349       /system/lib/libsecnativefeature.so
+40016000-40017000 rw-p 00000000 00:00 0 
+40017000-4001b000 rw-p 00000000 00:00 0 
+4001b000-4001c000 rw-p 00000000 00:04 10355      /dev/ashmem/dalvik-aux-structure (deleted)
+4001c000-4002e000 r-xp 00000000 b3:16 1223       /system/lib/libexpat.so
+4002e000-40030000 r--p 00011000 b3:16 1223       /system/lib/libexpat.so
+40030000-4003a000 rw-p 00000000 00:04 2448       /dev/ashmem/dalvik-aux-structure (deleted)
+4003a000-4003d000 rw-p 00000000 00:00 0 
+4003d000-4003f000 r-xp 00000000 b3:16 1178       /system/lib/libbluedroid.so
+4003f000-40040000 r--p 00001000 b3:16 1178       /system/lib/libbluedroid.so
+40040000-40041000 rw-p 00002000 b3:16 1178       /system/lib/libbluedroid.so
+40041000-40042000 r--s 00000000 b3:16 1015       /system/framework/seccamera.jar
+40042000-40043000 rw-p 00000000 00:00 0 
+40043000-40046000 r-xp 00000000 b3:16 1197       /system/lib/libcorkscrew.so
+40046000-40047000 r--p 00002000 b3:16 1197       /system/lib/libcorkscrew.so
+40047000-40051000 rw-p 00000000 00:00 0 
+40051000-40052000 r--s 00000000 b3:16 1011       /system/framework/sec_feature.jar
+40052000-40053000 r--p 00000000 b3:16 1012       /system/framework/sec_feature.odex
+40053000-40055000 r-xp 00000000 b3:16 1298       /system/lib/libnativehelper.so
+40055000-40056000 r--p 00001000 b3:16 1298       /system/lib/libnativehelper.so
+40056000-40057000 rw-p 00000000 00:00 0 
+40057000-4005b000 rw-p 00000000 00:00 0 
+4005b000-4005c000 rw-p 00000000 00:04 10356      /dev/ashmem/dalvik-aux-structure (deleted)
+4005c000-4005d000 rw-p 00000000 00:00 0 
+4005d000-4005e000 r--s 00000000 b3:16 978        /system/framework/core-junit.jar
+4005e000-40061000 rw-p 00000000 00:00 0 
+40061000-40063000 r-xp 00000000 b3:16 325        /system/bin/app_process
+40063000-40064000 r--p 00001000 b3:16 325        /system/bin/app_process
+40064000-40068000 rw-p 00000000 00:00 0 
+40068000-4006e000 rw-p 00000000 00:00 0 
+4006e000-40073000 r-xp 00000000 b3:16 1300       /system/lib/libnetutils.so
+40073000-40074000 r--p 00004000 b3:16 1300       /system/lib/libnetutils.so
+40074000-40075000 rw-p 00005000 b3:16 1300       /system/lib/libnetutils.so
+40075000-4007b000 rw-p 00000000 00:00 0 
+4007b000-4008e000 r-xp 00000000 b3:16 400        /system/bin/linker
+4008e000-4008f000 r--p 00012000 b3:16 400        /system/bin/linker
+4008f000-40090000 rw-p 00013000 b3:16 400        /system/bin/linker
+40090000-400a0000 rw-p 00000000 00:00 0 
+400a0000-400a1000 r-xp 00000000 b3:16 1414       /system/lib/libstdc++.so
+400a1000-400a2000 r--p 00000000 b3:16 1414       /system/lib/libstdc++.so
+400a2000-400a3000 rw-p 00000000 00:00 0 
+400a3000-400a7000 r-xp 00000000 b3:16 1241       /system/lib/libgccdemangle.so
+400a7000-400a8000 ---p 00000000 00:00 0 
+400a8000-400a9000 r--p 00004000 b3:16 1241       /system/lib/libgccdemangle.so
+400a9000-400aa000 rw-p 00000000 00:00 0 
+400aa000-400be000 r-xp 00000000 b3:16 1469       /system/lib/libz.so
+400be000-400bf000 r--p 00013000 b3:16 1469       /system/lib/libz.so
+400bf000-400c0000 rw-p 00014000 b3:16 1469       /system/lib/libz.so
+400c0000-400c2000 r-xp 00000000 b3:16 1466       /system/lib/libwpa_client.so
+400c2000-400c3000 r--p 00001000 b3:16 1466       /system/lib/libwpa_client.so
+400c3000-400c4000 rw-p 00000000 00:00 0 
+400c4000-400c9000 r-xp 00000000 b3:16 1125       /system/lib/libGLESv2.so
+400c9000-400ca000 r--p 00004000 b3:16 1125       /system/lib/libGLESv2.so
+400ca000-400cb000 rw-p 00000000 00:00 0 
+400cb000-400cc000 r--s 00003000 b3:16 985        /system/framework/framework.jar
+400cc000-400cd000 r--s 00000000 b3:16 1023       /system/framework/services.jar
+400cd000-400d3000 r-xp 00000000 b3:16 1249       /system/lib/libhardware_legacy.so
+400d3000-400d4000 r--p 00005000 b3:16 1249       /system/lib/libhardware_legacy.so
+400d4000-400d5000 rw-p 00006000 b3:16 1249       /system/lib/libhardware_legacy.so
+400d5000-400d6000 rw-p 00000000 00:00 0 
+400d6000-400d8000 r-xp 00000000 b3:16 1219       /system/lib/libemoji.so
+400d8000-400d9000 r--p 00001000 b3:16 1219       /system/lib/libemoji.so
+400d9000-400da000 rw-p 00000000 00:00 0 
+400da000-400dc000 r-xp 00000000 b3:16 1171       /system/lib/libaudioutils.so
+400dc000-400dd000 r--p 00001000 b3:16 1171       /system/lib/libaudioutils.so
+400dd000-400df000 rw-p 00000000 00:00 0 
+400df000-400e2000 r-xp 00000000 b3:16 1269       /system/lib/liblog.so
+400e2000-400e3000 r--p 00002000 b3:16 1269       /system/lib/liblog.so
+400e3000-400e4000 rw-p 00003000 b3:16 1269       /system/lib/liblog.so
+400e4000-40127000 r-xp 00000000 b3:16 1183       /system/lib/libc.so
+40127000-4012a000 rw-p 00043000 b3:16 1183       /system/lib/libc.so
+4012a000-40135000 rw-p 00000000 00:00 0 
+40135000-4014a000 r-xp 00000000 b3:16 1271       /system/lib/libm.so
+4014a000-4014b000 r--p 00014000 b3:16 1271       /system/lib/libm.so
+4014b000-4014c000 rw-p 00000000 00:00 0 
+4014c000-4015b000 r-xp 00000000 b3:16 1201       /system/lib/libcutils.so
+4015b000-4015c000 r--p 0000e000 b3:16 1201       /system/lib/libcutils.so
+4015c000-4015d000 rw-p 0000f000 b3:16 1201       /system/lib/libcutils.so
+4015d000-4016b000 rw-p 00000000 00:00 0 
+4016b000-40183000 r-xp 00000000 b3:16 1450       /system/lib/libutils.so
+40183000-40184000 ---p 00000000 00:00 0 
+40184000-40185000 r--p 00018000 b3:16 1450       /system/lib/libutils.so
+40185000-40186000 rw-p 00019000 b3:16 1450       /system/lib/libutils.so
+40186000-401a4000 r-xp 00000000 b3:16 1176       /system/lib/libbinder.so
+401a4000-401a9000 r--p 0001d000 b3:16 1176       /system/lib/libbinder.so
+401a9000-401aa000 rw-p 00022000 b3:16 1176       /system/lib/libbinder.so
+401aa000-40275000 r-xp 00000000 b3:16 1156       /system/lib/libandroid_runtime.so
+40275000-40279000 r--p 000ca000 b3:16 1156       /system/lib/libandroid_runtime.so
+40279000-40283000 rw-p 000ce000 b3:16 1156       /system/lib/libandroid_runtime.so
+40283000-402a6000 rw-p 00000000 00:00 0 
+402a6000-402d6000 r-xp 00000000 b3:16 1158       /system/lib/libandroidfw.so
+402d6000-402d8000 r--p 0002f000 b3:16 1158       /system/lib/libandroidfw.so
+402d8000-402d9000 rw-p 00031000 b3:16 1158       /system/lib/libandroidfw.so
+402d9000-4041a000 r-xp 00000000 b3:16 1362       /system/lib/libskia.so
+4041a000-4041f000 r--p 00140000 b3:16 1362       /system/lib/libskia.so
+4041f000-40420000 rw-p 00145000 b3:16 1362       /system/lib/libskia.so
+40420000-40426000 rw-p 00000000 00:00 0 
+40426000-40456000 r-xp 00000000 b3:16 1264       /system/lib/libjpeg.so
+40456000-40457000 ---p 00000000 00:00 0 
+40457000-40458000 r--p 00030000 b3:16 1264       /system/lib/libjpeg.so
+40458000-40459000 rw-p 00031000 b3:16 1264       /system/lib/libjpeg.so
+40459000-4048a000 r-xp 00000000 b3:16 1319       /system/lib/libquramimagecodec.so
+4048a000-4048b000 rw-p 00031000 b3:16 1319       /system/lib/libquramimagecodec.so
+4048b000-404bf000 r-xp 00000000 b3:16 1429       /system/lib/libstlport.so
+404bf000-404c1000 r--p 00033000 b3:16 1429       /system/lib/libstlport.so
+404c1000-404c2000 rw-p 00035000 b3:16 1429       /system/lib/libstlport.so
+404c2000-404ca000 r-xp 00000000 b3:16 1447       /system/lib/libui.so
+404ca000-404cb000 r--p 00007000 b3:16 1447       /system/lib/libui.so
+404cb000-404cc000 rw-p 00000000 00:00 0 
+404cc000-404cd000 r-xp 00000000 b3:16 1248       /system/lib/libhardware.so
+404cd000-404ce000 r--p 00000000 b3:16 1248       /system/lib/libhardware.so
+404ce000-404cf000 rw-p 00000000 00:00 0 
+404cf000-404fe000 r-xp 00000000 b3:16 1246       /system/lib/libgui.so
+404fe000-40507000 r--p 0002e000 b3:16 1246       /system/lib/libgui.so
+40507000-40508000 rw-p 00037000 b3:16 1246       /system/lib/libgui.so
+40508000-40525000 r-xp 00000000 b3:16 1119       /system/lib/libEGL.so
+40525000-40526000 ---p 00000000 00:00 0 
+40526000-40528000 r--p 0001d000 b3:16 1119       /system/lib/libEGL.so
+40528000-4052b000 rw-p 0001f000 b3:16 1119       /system/lib/libEGL.so
+4052b000-4052d000 rw-p 00000000 00:00 0 
+4052d000-4056d000 r-xp 00000000 b3:16 1123       /system/lib/libGLES_trace.so
+4056d000-4056e000 r--p 0003f000 b3:16 1123       /system/lib/libGLES_trace.so
+4056e000-4056f000 rw-p 00040000 b3:16 1123       /system/lib/libGLES_trace.so
+4056f000-40577000 r-xp 00000000 b3:16 1321       /system/lib/libremotedesktop_client.so
+40577000-40578000 ---p 00000000 00:00 0 
+40578000-4057a000 r--p 00008000 b3:16 1321       /system/lib/libremotedesktop_client.so
+4057a000-4057b000 rw-p 00000000 00:00 0 
+4057b000-40594000 r-xp 00000000 b3:16 1184       /system/lib/libcamera_client.so
+40594000-40599000 r--p 00018000 b3:16 1184       /system/lib/libcamera_client.so
+40599000-4059a000 rw-p 00000000 00:00 0 
+4059a000-405ec000 r-xp 00000000 b3:16 1383       /system/lib/libsqlite.so
+405ec000-405ed000 ---p 00000000 00:00 0 
+405ed000-405ee000 r--p 00052000 b3:16 1383       /system/lib/libsqlite.so
+405ee000-405ef000 rw-p 00053000 b3:16 1383       /system/lib/libsqlite.so
+405ef000-406da000 r-xp 00000000 b3:16 1254       /system/lib/libicuuc.so
+406da000-406e3000 r--p 000ea000 b3:16 1254       /system/lib/libicuuc.so
+406e3000-406e4000 rw-p 000f3000 b3:16 1254       /system/lib/libicuuc.so
+406e4000-406e8000 rw-p 00000000 00:00 0 
+406e8000-406ec000 r-xp 00000000 b3:16 1240       /system/lib/libgabi++.so
+406ec000-406ed000 r--p 00003000 b3:16 1240       /system/lib/libgabi++.so
+406ed000-406ee000 rw-p 00000000 00:00 0 
+406ee000-407ff000 r-xp 00000000 b3:16 1253       /system/lib/libicui18n.so
+407ff000-40800000 ---p 00000000 00:00 0 
+40800000-40806000 r--p 00111000 b3:16 1253       /system/lib/libicui18n.so
+40806000-40807000 rw-p 00117000 b3:16 1253       /system/lib/libicui18n.so
+40807000-408aa000 r-xp 00000000 b3:16 1217       /system/lib/libdvm.so
+408aa000-408ad000 r--p 000a2000 b3:16 1217       /system/lib/libdvm.so
+408ad000-408b2000 rw-p 000a5000 b3:16 1217       /system/lib/libdvm.so
+408b2000-408b4000 rw-p 00000000 00:00 0 
+408b4000-408b9000 r-xp 00000000 b3:16 1124       /system/lib/libGLESv1_CM.so
+408b9000-408ba000 r--p 00004000 b3:16 1124       /system/lib/libGLESv1_CM.so
+408ba000-408bb000 rw-p 00000000 00:00 0 
+408bb000-40909000 r-xp 00000000 b3:16 1376       /system/lib/libsonivox.so
+40909000-4090a000 ---p 00000000 00:00 0 
+4090a000-4090b000 r--p 0004e000 b3:16 1376       /system/lib/libsonivox.so
+4090b000-4090c000 rw-p 0004f000 b3:16 1376       /system/lib/libsonivox.so
+4090c000-40911000 rw-p 00000000 00:00 0 
+40911000-40a8b000 r-xp 00000000 b3:16 1308       /system/lib/libomadrm.so
+40a8b000-40a8e000 r--p 00179000 b3:16 1308       /system/lib/libomadrm.so
+40a8e000-40a95000 rw-p 0017c000 b3:16 1308       /system/lib/libomadrm.so
+40a95000-40a9c000 rw-p 00000000 00:00 0 
+40a9c000-40b60000 r-xp 00000000 b3:16 1198       /system/lib/libcrypto.so
+40b60000-40b6c000 r--p 000c3000 b3:16 1198       /system/lib/libcrypto.so
+40b6c000-40b72000 rw-p 000cf000 b3:16 1198       /system/lib/libcrypto.so
+40b72000-40b74000 rw-p 00000000 00:00 0 
+40b74000-40ba6000 r-xp 00000000 b3:16 1386       /system/lib/libssl.so
+40ba6000-40ba7000 ---p 00000000 00:00 0 
+40ba7000-40ba9000 r--p 00032000 b3:16 1386       /system/lib/libssl.so
+40ba9000-40bac000 rw-p 00034000 b3:16 1386       /system/lib/libssl.so
+40bac000-40c0e000 r-xp 00000000 b3:16 1289       /system/lib/libmedia.so
+40c0e000-40c1f000 r--p 00061000 b3:16 1289       /system/lib/libmedia.so
+40c1f000-40c20000 rw-p 00072000 b3:16 1289       /system/lib/libmedia.so
+40c20000-40c2a000 r-xp 00000000 b3:16 1391       /system/lib/libstagefright_foundation.so
+40c2a000-40c2b000 ---p 00000000 00:00 0 
+40c2b000-40c2c000 r--p 0000a000 b3:16 1391       /system/lib/libstagefright_foundation.so
+40c2c000-40c2d000 rw-p 0000b000 b3:16 1391       /system/lib/libstagefright_foundation.so
+40c2d000-40c30000 r-xp 00000000 b3:16 1381       /system/lib/libspeexresampler.so
+40c30000-40c31000 r--p 00002000 b3:16 1381       /system/lib/libspeexresampler.so
+40c31000-40c32000 rw-p 00003000 b3:16 1381       /system/lib/libspeexresampler.so
+40c32000-40c33000 r-xp 00000000 b3:16 1291       /system/lib/libmedia_native.so
+40c33000-40c34000 r--p 00000000 b3:16 1291       /system/lib/libmedia_native.so
+40c34000-40c35000 rw-p 00000000 00:00 0 
+40c35000-40c37000 r-xp 00000000 b3:16 1449       /system/lib/libusbhost.so
+40c37000-40c38000 r--p 00001000 b3:16 1449       /system/lib/libusbhost.so
+40c38000-40c39000 rw-p 00000000 00:00 0 
+40c39000-40c6c000 r-xp 00000000 b3:16 1250       /system/lib/libharfbuzz.so
+40c6c000-40c6d000 r--p 00032000 b3:16 1250       /system/lib/libharfbuzz.so
+40c6d000-40c6e000 rw-p 00000000 00:00 0 
+40c6e000-40c93000 r-xp 00000000 b3:16 1252       /system/lib/libhwui.so
+40c93000-40c94000 ---p 00000000 00:00 0 
+40c94000-40c96000 r--p 00025000 b3:16 1252       /system/lib/libhwui.so
+40c96000-40c97000 rw-p 00027000 b3:16 1252       /system/lib/libhwui.so
+40c97000-40c98000 r-xp 00000000 b3:16 1187       /system/lib/libchip_state.so
+40c98000-40c99000 r--p 00000000 b3:16 1187       /system/lib/libchip_state.so
+40c99000-40c9a000 rw-p 00000000 00:00 0 
+40c9a000-40cd5000 r-xp 00000000 b3:16 1202       /system/lib/libdbus.so
+40cd5000-40cd6000 ---p 00000000 00:00 0 
+40cd6000-40cd7000 r--p 0003b000 b3:16 1202       /system/lib/libdbus.so
+40cd7000-40cd8000 rw-p 0003c000 b3:16 1202       /system/lib/libdbus.so
+40cd8000-40ce9000 r--s 00000000 00:0b 3402       /dev/__properties__ (deleted)
+40ce9000-40cea000 r--p 00000000 00:00 0 
+40cea000-410ea000 rw-p 00000000 00:04 3921       /dev/ashmem/dalvik-bitmap-1 (deleted)
+410ea000-410f5000 rw-p 00000000 00:00 0 
+410f5000-410f7000 r--s 00000000 b3:16 980        /system/framework/core.jar
+410f7000-410fe000 r--p 00000000 b3:16 979        /system/framework/core-junit.odex
+410fe000-4111a000 rw-p 00000000 00:04 2438       /dev/ashmem/dalvik-aux-structure (deleted)
+4111a000-4111b000 r--s 00000000 b3:16 987        /system/framework/framework2.jar
+4111b000-41120000 rw-p 00000000 00:00 0 
+41120000-41121000 r--s 00004000 b3:16 959        /system/framework/apache-xml.jar
+41121000-41122000 r--s 00000000 b3:16 1009       /system/framework/sec_edm.jar
+41122000-41126000 rw-p 00000000 00:00 0 
+41126000-4112a000 rw-p 00000000 00:00 0 
+4112a000-4112b000 rw-p 00000000 00:00 0 
+4112b000-41130000 rw-p 00000000 00:00 0 
+41130000-41169000 rw-p 00000000 00:04 2433       /dev/ashmem/dalvik-aux-structure (deleted)
+41169000-4116d000 rw-p 00000000 00:00 0 
+4116d000-4116e000 r-xp 00000000 b3:16 1390       /system/lib/libstagefright_enc_common.so
+4116e000-4116f000 r--p 00000000 b3:16 1390       /system/lib/libstagefright_enc_common.so
+4116f000-41170000 rw-p 00000000 00:00 0 
+41170000-41174000 rw-p 00000000 00:00 0 
+41174000-41175000 rw-p 00000000 00:00 0 
+41175000-41179000 rw-p 00000000 00:00 0 
+41179000-4118b000 rw-p 00000000 00:04 2444       /dev/ashmem/dalvik-aux-structure (deleted)
+4118b000-41194000 rw-p 00000000 00:00 0 
+41194000-41196000 rw-p 00000000 00:00 0 
+41196000-41596000 rw-p 00000000 00:04 3922       /dev/ashmem/dalvik-bitmap-2 (deleted)
+41596000-41797000 rw-p 00000000 00:04 3925       /dev/ashmem/dalvik-card-table (deleted)
+41797000-41798000 rw-p 00000000 00:04 3944       /dev/ashmem/dalvik-aux-structure (deleted)
+41798000-4184a000 rw-p 00000000 00:04 2440       /dev/ashmem/dalvik-aux-structure (deleted)
+4184a000-41885000 rw-p 00000000 00:04 2445       /dev/ashmem/dalvik-aux-structure (deleted)
+41885000-41892000 rw-p 00000000 00:00 0 
+41892000-41894000 rw-p 00000000 00:00 0 
+41894000-41895000 r--s 00000000 b3:16 963        /system/framework/bouncycastle.jar
+41895000-418f0000 rw-p 00000000 00:04 2443       /dev/ashmem/dalvik-aux-structure (deleted)
+418f0000-41908000 rw-p 00000000 00:04 2447       /dev/ashmem/dalvik-aux-structure (deleted)
+41908000-41919000 r--p 00000000 b3:16 1016       /system/framework/seccamera.odex
+41919000-4194d000 r-xp 00000000 b3:16 1258       /system/lib/libjavacore.so
+4194d000-4194e000 r--p 00033000 b3:16 1258       /system/lib/libjavacore.so
+4194e000-41950000 rw-p 00034000 b3:16 1258       /system/lib/libjavacore.so
+41950000-41955000 rw-p 00000000 00:00 0 
+41955000-41960000 rw-p 00000000 00:00 0 
+41960000-41962000 rw-p 00000000 00:00 0 
+41962000-41a52000 r--p 00000000 b3:16 964        /system/framework/bouncycastle.odex
+41a52000-41a5d000 rw-p 00000000 00:00 0 
+41a5d000-41a6e000 r--s 002f0000 b3:16 1027       /system/framework/twframework-res.apk
+41a6e000-41a8c000 rw-p 00000000 00:00 0          [heap]
+41a8c000-41a95000 rw-p 00000000 00:00 0          [heap]
+41a95000-42487000 rw-p 00000000 00:04 3920       /dev/ashmem/dalvik-heap (deleted)
+42487000-42717000 rw-p 009f2000 00:04 3920       /dev/ashmem/dalvik-heap (deleted)
+42717000-51a95000 ---p 00c82000 00:04 3920       /dev/ashmem/dalvik-heap (deleted)
+51a95000-56feb000 rw-p 00000000 00:04 3923       /dev/ashmem/dalvik-mark-stack (deleted)
+56feb000-56fec000 ---p 00000000 00:04 3926       /dev/ashmem/dalvik-LinearAlloc (deleted)
+56fec000-57320000 rw-p 00001000 00:04 3926       /dev/ashmem/dalvik-LinearAlloc (deleted)
+57320000-57396000 rw-p 00335000 00:04 3926       /dev/ashmem/dalvik-LinearAlloc (deleted)
+57396000-57feb000 ---p 003ab000 00:04 3926       /dev/ashmem/dalvik-LinearAlloc (deleted)
+57feb000-58329000 r--p 00000000 b3:16 981        /system/framework/core.odex
+58329000-58339000 rw-p 00000000 00:04 2437       /dev/ashmem/dalvik-aux-structure (deleted)
+58339000-5833d000 rw-p 00000000 00:00 0 
+5833d000-5834c000 rw-p 00000000 00:00 0 
+5834c000-5837e000 r--s 002bf000 b3:16 1027       /system/framework/twframework-res.apk
+5837e000-58388000 rw-p 00000000 00:00 0 
+58388000-5845a000 r--p 00000000 b3:16 956        /system/framework/android.policy.odex
+5845a000-584e2000 r--p 00000000 b3:16 1010       /system/framework/sec_edm.odex
+584e2000-584f2000 rw-p 00000000 00:00 0 
+584f2000-584f4000 rw-p 00000000 00:00 0 
+584f4000-58506000 r--s 0006f000 b3:16 982        /system/framework/ext.jar
+58506000-58675000 r--p 00000000 b3:16 983        /system/framework/ext.odex
+58675000-587d2000 r--p 00000000 b3:16 986        /system/framework/framework.odex
+587d2000-587d3000 r--p 0015d000 b3:16 986        /system/framework/framework.odex
+587d3000-587ef000 r--p 0015e000 b3:16 986        /system/framework/framework.odex
+587ef000-587f0000 r--p 0017a000 b3:16 986        /system/framework/framework.odex
+587f0000-587f2000 r--p 0017b000 b3:16 986        /system/framework/framework.odex
+587f2000-587f3000 r--p 0017d000 b3:16 986        /system/framework/framework.odex
+587f3000-587f8000 r--p 0017e000 b3:16 986        /system/framework/framework.odex
+587f8000-587f9000 r--p 00183000 b3:16 986        /system/framework/framework.odex
+587f9000-587fb000 r--p 00184000 b3:16 986        /system/framework/framework.odex
+587fb000-587fc000 r--p 00186000 b3:16 986        /system/framework/framework.odex
+587fc000-58805000 r--p 00187000 b3:16 986        /system/framework/framework.odex
+58805000-58806000 r--p 00190000 b3:16 986        /system/framework/framework.odex
+58806000-5880a000 r--p 00191000 b3:16 986        /system/framework/framework.odex
+5880a000-5880b000 r--p 00195000 b3:16 986        /system/framework/framework.odex
+5880b000-5880c000 r--p 00196000 b3:16 986        /system/framework/framework.odex
+5880c000-5880d000 r--p 00197000 b3:16 986        /system/framework/framework.odex
+5880d000-58814000 r--p 00198000 b3:16 986        /system/framework/framework.odex
+58814000-58817000 r--p 0019f000 b3:16 986        /system/framework/framework.odex
+58817000-58821000 r--p 001a2000 b3:16 986        /system/framework/framework.odex
+58821000-58822000 r--p 001ac000 b3:16 986        /system/framework/framework.odex
+58822000-5882c000 r--p 001ad000 b3:16 986        /system/framework/framework.odex
+5882c000-5882d000 r--p 001b7000 b3:16 986        /system/framework/framework.odex
+5882d000-58831000 r--p 001b8000 b3:16 986        /system/framework/framework.odex
+58831000-58832000 r--p 001bc000 b3:16 986        /system/framework/framework.odex
+58832000-5885f000 r--p 001bd000 b3:16 986        /system/framework/framework.odex
+5885f000-58860000 r--p 001ea000 b3:16 986        /system/framework/framework.odex
+58860000-58867000 r--p 001eb000 b3:16 986        /system/framework/framework.odex
+58867000-58869000 r--p 001f2000 b3:16 986        /system/framework/framework.odex
+58869000-5886a000 r--p 001f4000 b3:16 986        /system/framework/framework.odex
+5886a000-5886b000 r--p 001f5000 b3:16 986        /system/framework/framework.odex
+5886b000-5886c000 r--p 001f6000 b3:16 986        /system/framework/framework.odex
+5886c000-5886e000 r--p 001f7000 b3:16 986        /system/framework/framework.odex
+5886e000-5886f000 r--p 001f9000 b3:16 986        /system/framework/framework.odex
+5886f000-58870000 r--p 001fa000 b3:16 986        /system/framework/framework.odex
+58870000-58871000 r--p 001fb000 b3:16 986        /system/framework/framework.odex
+58871000-58872000 r--p 001fc000 b3:16 986        /system/framework/framework.odex
+58872000-58874000 r--p 001fd000 b3:16 986        /system/framework/framework.odex
+58874000-58876000 r--p 001ff000 b3:16 986        /system/framework/framework.odex
+58876000-58884000 r--p 00201000 b3:16 986        /system/framework/framework.odex
+58884000-58885000 r--p 0020f000 b3:16 986        /system/framework/framework.odex
+58885000-58887000 r--p 00210000 b3:16 986        /system/framework/framework.odex
+58887000-58888000 r--p 00212000 b3:16 986        /system/framework/framework.odex
+58888000-5888b000 r--p 00213000 b3:16 986        /system/framework/framework.odex
+5888b000-5888c000 r--p 00216000 b3:16 986        /system/framework/framework.odex
+5888c000-5889f000 r--p 00217000 b3:16 986        /system/framework/framework.odex
+5889f000-588a0000 r--p 0022a000 b3:16 986        /system/framework/framework.odex
+588a0000-588a3000 r--p 0022b000 b3:16 986        /system/framework/framework.odex
+588a3000-588a4000 r--p 0022e000 b3:16 986        /system/framework/framework.odex
+588a4000-588a6000 r--p 0022f000 b3:16 986        /system/framework/framework.odex
+588a6000-588a7000 r--p 00231000 b3:16 986        /system/framework/framework.odex
+588a7000-588b2000 r--p 00232000 b3:16 986        /system/framework/framework.odex
+588b2000-588b3000 r--p 0023d000 b3:16 986        /system/framework/framework.odex
+588b3000-58904000 r--p 0023e000 b3:16 986        /system/framework/framework.odex
+58904000-58905000 r--p 0028f000 b3:16 986        /system/framework/framework.odex
+58905000-58907000 r--p 00290000 b3:16 986        /system/framework/framework.odex
+58907000-58908000 r--p 00292000 b3:16 986        /system/framework/framework.odex
+58908000-5890e000 r--p 00293000 b3:16 986        /system/framework/framework.odex
+5890e000-5890f000 r--p 00299000 b3:16 986        /system/framework/framework.odex
+5890f000-5891c000 r--p 0029a000 b3:16 986        /system/framework/framework.odex
+5891c000-5891d000 r--p 002a7000 b3:16 986        /system/framework/framework.odex
+5891d000-58921000 r--p 002a8000 b3:16 986        /system/framework/framework.odex
+58921000-58922000 r--p 002ac000 b3:16 986        /system/framework/framework.odex
+58922000-5894d000 r--p 002ad000 b3:16 986        /system/framework/framework.odex
+5894d000-5894e000 r--p 002d8000 b3:16 986        /system/framework/framework.odex
+5894e000-58955000 r--p 002d9000 b3:16 986        /system/framework/framework.odex
+58955000-58957000 r--p 002e0000 b3:16 986        /system/framework/framework.odex
+58957000-5895d000 r--p 002e2000 b3:16 986        /system/framework/framework.odex
+5895d000-5895f000 r--p 002e8000 b3:16 986        /system/framework/framework.odex
+5895f000-58961000 r--p 002ea000 b3:16 986        /system/framework/framework.odex
+58961000-58962000 r--p 002ec000 b3:16 986        /system/framework/framework.odex
+58962000-58964000 r--p 002ed000 b3:16 986        /system/framework/framework.odex
+58964000-58967000 r--p 002ef000 b3:16 986        /system/framework/framework.odex
+58967000-58974000 r--p 002f2000 b3:16 986        /system/framework/framework.odex
+58974000-58975000 r--p 002ff000 b3:16 986        /system/framework/framework.odex
+58975000-58984000 r--p 00300000 b3:16 986        /system/framework/framework.odex
+58984000-58985000 r--p 0030f000 b3:16 986        /system/framework/framework.odex
+58985000-58991000 r--p 00310000 b3:16 986        /system/framework/framework.odex
+58991000-58992000 r--p 0031c000 b3:16 986        /system/framework/framework.odex
+58992000-58995000 r--p 0031d000 b3:16 986        /system/framework/framework.odex
+58995000-58996000 r--p 00320000 b3:16 986        /system/framework/framework.odex
+58996000-58997000 r--p 00321000 b3:16 986        /system/framework/framework.odex
+58997000-58998000 r--p 00322000 b3:16 986        /system/framework/framework.odex
+58998000-5899b000 r--p 00323000 b3:16 986        /system/framework/framework.odex
+5899b000-5899c000 r--p 00326000 b3:16 986        /system/framework/framework.odex
+5899c000-589a1000 r--p 00327000 b3:16 986        /system/framework/framework.odex
+589a1000-589a2000 r--p 0032c000 b3:16 986        /system/framework/framework.odex
+589a2000-589a3000 r--p 0032d000 b3:16 986        /system/framework/framework.odex
+589a3000-589a4000 r--p 0032e000 b3:16 986        /system/framework/framework.odex
+589a4000-589a8000 r--p 0032f000 b3:16 986        /system/framework/framework.odex
+589a8000-589aa000 r--p 00333000 b3:16 986        /system/framework/framework.odex
+589aa000-589b5000 r--p 00335000 b3:16 986        /system/framework/framework.odex
+589b5000-589b6000 r--p 00340000 b3:16 986        /system/framework/framework.odex
+589b6000-589d3000 r--p 00341000 b3:16 986        /system/framework/framework.odex
+589d3000-589d5000 r--p 0035e000 b3:16 986        /system/framework/framework.odex
+589d5000-589e2000 r--p 00360000 b3:16 986        /system/framework/framework.odex
+589e2000-589e4000 r--p 0036d000 b3:16 986        /system/framework/framework.odex
+589e4000-589e6000 r--p 0036f000 b3:16 986        /system/framework/framework.odex
+589e6000-589e7000 r--p 00371000 b3:16 986        /system/framework/framework.odex
+589e7000-589e8000 r--p 00372000 b3:16 986        /system/framework/framework.odex
+589e8000-589e9000 r--p 00373000 b3:16 986        /system/framework/framework.odex
+589e9000-58a03000 r--p 00374000 b3:16 986        /system/framework/framework.odex
+58a03000-58a04000 r--p 0038e000 b3:16 986        /system/framework/framework.odex
+58a04000-58a10000 r--p 0038f000 b3:16 986        /system/framework/framework.odex
+58a10000-58a11000 r--p 0039b000 b3:16 986        /system/framework/framework.odex
+58a11000-58a18000 r--p 0039c000 b3:16 986        /system/framework/framework.odex
+58a18000-58a19000 r--p 003a3000 b3:16 986        /system/framework/framework.odex
+58a19000-58a23000 r--p 003a4000 b3:16 986        /system/framework/framework.odex
+58a23000-58a24000 r--p 003ae000 b3:16 986        /system/framework/framework.odex
+58a24000-58a37000 r--p 003af000 b3:16 986        /system/framework/framework.odex
+58a37000-58a38000 r--p 003c2000 b3:16 986        /system/framework/framework.odex
+58a38000-58a44000 r--p 003c3000 b3:16 986        /system/framework/framework.odex
+58a44000-58a46000 r--p 003cf000 b3:16 986        /system/framework/framework.odex
+58a46000-58a47000 r--p 003d1000 b3:16 986        /system/framework/framework.odex
+58a47000-58a48000 r--p 003d2000 b3:16 986        /system/framework/framework.odex
+58a48000-58a4e000 r--p 003d3000 b3:16 986        /system/framework/framework.odex
+58a4e000-58a4f000 r--p 003d9000 b3:16 986        /system/framework/framework.odex
+58a4f000-58a51000 r--p 003da000 b3:16 986        /system/framework/framework.odex
+58a51000-58a59000 r--p 003dc000 b3:16 986        /system/framework/framework.odex
+58a59000-58a5a000 r--p 003e4000 b3:16 986        /system/framework/framework.odex
+58a5a000-58a63000 r--p 003e5000 b3:16 986        /system/framework/framework.odex
+58a63000-58a65000 r--p 003ee000 b3:16 986        /system/framework/framework.odex
+58a65000-58a86000 r--p 003f0000 b3:16 986        /system/framework/framework.odex
+58a86000-58a88000 r--p 00411000 b3:16 986        /system/framework/framework.odex
+58a88000-58b22000 r--p 00413000 b3:16 986        /system/framework/framework.odex
+58b22000-58b24000 r--p 004ad000 b3:16 986        /system/framework/framework.odex
+58b24000-58f35000 r--p 004af000 b3:16 986        /system/framework/framework.odex
+58f35000-593e2000 r--p 00000000 b3:16 988        /system/framework/framework2.odex
+593e2000-59741000 r--p 00000000 b3:16 1024       /system/framework/services.odex
+59741000-59892000 r--p 00000000 b3:16 960        /system/framework/apache-xml.odex
+59892000-5a023000 r--s 00000000 b3:16 1729       /system/usr/icu/icudt48l.dat
+5a023000-5a024000 ---p 00000000 00:00 0 
+5a024000-5a123000 rw-p 00000000 00:00 0 
+5a123000-5a124000 ---p 00000000 00:00 0 
+5a124000-5a223000 rw-p 00000000 00:00 0 
+5a223000-5a224000 ---p 00000000 00:00 0 
+5a224000-5a323000 rw-p 00000000 00:00 0 
+5a323000-5a328000 rw-p 00000000 00:00 0 
+5a328000-5a335000 r-xp 00000000 b3:16 1155       /system/lib/libandroid.so
+5a335000-5a337000 r--p 0000c000 b3:16 1155       /system/lib/libandroid.so
+5a337000-5a338000 rw-p 00000000 00:00 0 
+5a338000-5a339000 rw-p 00000000 00:00 0 
+5a339000-5a346000 rw-p 00000000 00:00 0 
+5a346000-5a35b000 r-xp 00000000 b3:16 1215       /system/lib/libdrmframework.so
+5a35b000-5a35e000 r--p 00014000 b3:16 1215       /system/lib/libdrmframework.so
+5a35e000-5a35f000 rw-p 00000000 00:00 0 
+5a35f000-5a371000 r-xp 00000000 b3:16 1392       /system/lib/libstagefright_omx.so
+5a371000-5a372000 ---p 00000000 00:00 0 
+5a372000-5a374000 r--p 00012000 b3:16 1392       /system/lib/libstagefright_omx.so
+5a374000-5a375000 rw-p 00014000 b3:16 1392       /system/lib/libstagefright_omx.so
+5a375000-5a377000 r-xp 00000000 b3:16 1412       /system/lib/libstagefright_yuv.so
+5a377000-5a378000 r--p 00001000 b3:16 1412       /system/lib/libstagefright_yuv.so
+5a378000-5a379000 rw-p 00000000 00:00 0 
+5a379000-5a391000 r-xp 00000000 b3:16 1459       /system/lib/libvorbisidec.so
+5a391000-5a392000 r--p 00017000 b3:16 1459       /system/lib/libvorbisidec.so
+5a392000-5a393000 rw-p 00018000 b3:16 1459       /system/lib/libvorbisidec.so
+5a393000-5a398000 rw-p 00000000 00:00 0 
+5a398000-5a3ad000 r--s 00000000 b3:16 927        /system/fonts/Roboto-Regular.ttf
+5a3ad000-5a3b2000 r-xp 00000000 b3:16 1389       /system/lib/libstagefright_avc_common.so
+5a3b2000-5a3b3000 r--p 00004000 b3:16 1389       /system/lib/libstagefright_avc_common.so
+5a3b3000-5a3b4000 rw-p 00000000 00:00 0 
+5a3b4000-5a3c5000 r-xp 00000000 b3:16 1295       /system/lib/libmtp.so
+5a3c5000-5a3c7000 r--p 00010000 b3:16 1295       /system/lib/libmtp.so
+5a3c7000-5a3db000 rw-p 00000000 00:00 0 
+5a3db000-5a406000 r-xp 00000000 b3:16 1334       /system/lib/libsavscmn.so
+5a406000-5a407000 rw-p 0002b000 b3:16 1334       /system/lib/libsavscmn.so
+5a407000-5a410000 r-xp 00000000 b3:16 1220       /system/lib/libexif.so
+5a410000-5a411000 r--p 00008000 b3:16 1220       /system/lib/libexif.so
+5a411000-5a412000 rw-p 00009000 b3:16 1220       /system/lib/libexif.so
+5a412000-5a413000 rw-p 00000000 00:00 0 
+5a413000-5a41f000 r-xp 00000000 b3:16 1388       /system/lib/libstagefright_amrnb_common.so
+5a41f000-5a420000 r--p 0000b000 b3:16 1388       /system/lib/libstagefright_amrnb_common.so
+5a420000-5a421000 rw-p 00000000 00:00 0 
+5a421000-5a42d000 r--s 008ea000 b3:16 213        /system/app/SecGallery2.apk
+5a42d000-5a434000 rw-p 00000000 00:00 0 
+5a434000-5a485000 r--s 01610000 b3:16 984        /system/framework/framework-res.apk
+5a485000-5ac02000 r--s 00e94000 b3:16 984        /system/framework/framework-res.apk
+5ac02000-5ac5b000 rw-p 00000000 00:00 0 
+5ac5b000-5ac5c000 ---p 00000000 00:00 0 
+5ac5c000-5ad5b000 rw-p 00000000 00:00 0 
+5ad5b000-5ad7b000 rw-p 00000000 00:00 0 
+5ad7b000-5adf2000 r--s 00000000 b3:16 2360       /system/usr/share/zoneinfo/zoneinfo.dat
+5adf2000-5b583000 r--s 00000000 b3:16 1729       /system/usr/icu/icudt48l.dat
+5b583000-5b58d000 rw-p 00000000 00:00 0 
+5b58d000-5b594000 rw-p 00000000 00:00 0 
+5b594000-5b5d9000 rw-p 00000000 00:00 0 
+5b5d9000-5b5de000 rw-p 00000000 00:00 0 
+5b5de000-5b5f0000 rw-p 00000000 00:00 0 
+5b5f0000-5b618000 r-xp 00000000 b3:16 1290       /system/lib/libmedia_jni.so
+5b618000-5b619000 r--p 00028000 b3:16 1290       /system/lib/libmedia_jni.so
+5b619000-5b61a000 rw-p 00029000 b3:16 1290       /system/lib/libmedia_jni.so
+5b61a000-5b711000 r-xp 00000000 b3:16 1387       /system/lib/libstagefright.so
+5b711000-5b712000 ---p 00000000 00:00 0 
+5b712000-5b719000 r--p 000f7000 b3:16 1387       /system/lib/libstagefright.so
+5b719000-5b71a000 rw-p 000fe000 b3:16 1387       /system/lib/libstagefright.so
+5b71a000-5b8bc000 r-xp 00000000 b3:16 1189       /system/lib/libchromium_net.so
+5b8bc000-5b8ca000 r--p 001a1000 b3:16 1189       /system/lib/libchromium_net.so
+5b8ca000-5b8cb000 rw-p 001af000 b3:16 1189       /system/lib/libchromium_net.so
+5b8cb000-5b8dd000 rw-p 00000000 00:00 0 
+5b8dd000-5b919000 r-xp 00000000 b3:16 1335       /system/lib/libsavsff.so
+5b919000-5b91a000 rw-p 0003c000 b3:16 1335       /system/lib/libsavsff.so
+5b91a000-5b91d000 rw-p 00000000 00:00 0 
+5b91d000-5b923000 r-xp 00000000 b3:16 1325       /system/lib/librs_jni.so
+5b923000-5b924000 r--p 00005000 b3:16 1325       /system/lib/librs_jni.so
+5b924000-5b925000 rw-p 00006000 b3:16 1325       /system/lib/librs_jni.so
+5b925000-5b9a6000 r-xp 00000000 b3:16 1133       /system/lib/libRS.so
+5b9a6000-5b9a7000 ---p 00000000 00:00 0 
+5b9a7000-5b9a9000 r--p 00081000 b3:16 1133       /system/lib/libRS.so
+5b9a9000-5b9aa000 rw-p 00083000 b3:16 1133       /system/lib/libRS.so
+5b9aa000-5bdfb000 r-xp 00000000 b3:16 1173       /system/lib/libbcc.so
+5bdfb000-5be24000 r--p 00450000 b3:16 1173       /system/lib/libbcc.so
+5be24000-5be26000 rw-p 00479000 b3:16 1173       /system/lib/libbcc.so
+5be26000-5be49000 rw-p 00000000 00:00 0 
+5be49000-5bf58000 r-xp 00000000 b3:16 1175       /system/lib/libbcinfo.so
+5bf58000-5bf59000 ---p 00000000 00:00 0 
+5bf59000-5bf5d000 r--p 0010f000 b3:16 1175       /system/lib/libbcinfo.so
+5bf5d000-5bf5e000 rw-p 00113000 b3:16 1175       /system/lib/libbcinfo.so
+5bf5e000-5bf7f000 rw-p 00000000 00:00 0 
+5bf7f000-5c6ea000 r-xp 00000000 b3:16 1462       /system/lib/libwebcore.so
+5c6ea000-5c6eb000 ---p 00000000 00:00 0 
+5c6eb000-5c775000 r--p 0076b000 b3:16 1462       /system/lib/libwebcore.so
+5c775000-5c782000 rw-p 007f5000 b3:16 1462       /system/lib/libwebcore.so
+5c782000-5c798000 rw-p 00000000 00:00 0 
+5c798000-5c799000 ---p 00000000 00:00 0 
+5c799000-5c898000 rw-p 00000000 00:00 0 
+5c898000-5c899000 ---p 00000000 00:00 0 
+5c899000-5c998000 rw-p 00000000 00:00 0 
+5c998000-5ca96000 r--p 00000000 00:0b 3461       /dev/binder
+5ca96000-5ca97000 ---p 00000000 00:00 0 
+5ca97000-5cb96000 rw-p 00000000 00:00 0 
+5cb96000-5cb97000 ---p 00000000 00:00 0 
+5cb97000-5cc96000 rw-p 00000000 00:00 0 
+5cc96000-5cce2000 rw-p 00000000 00:00 0 
+5cce2000-5cdf1000 r--s 007dc000 b3:16 213        /system/app/SecGallery2.apk
+5cdf1000-5ce02000 rw-p 00000000 00:00 0 
+5ce02000-5ce59000 r--p 00000000 b3:16 950        /system/framework/allshare.odex
+5ce59000-5ce61000 rw-p 00000000 00:04 10354      /dev/ashmem/dalvik-aux-structure (deleted)
+5ce61000-5ce72000 rw-p 00000000 00:00 0 
+5ce72000-5ce7e000 r--s 008ea000 b3:16 213        /system/app/SecGallery2.apk
+5ce7e000-5cf11000 r--p 00000000 b3:16 214        /system/app/SecGallery2.odex
+5cf11000-5cf14000 r--p 00093000 b3:16 214        /system/app/SecGallery2.odex
+5cf14000-5cf1f000 r--p 00096000 b3:16 214        /system/app/SecGallery2.odex
+5cf1f000-5cf20000 r--p 000a1000 b3:16 214        /system/app/SecGallery2.odex
+5cf20000-5cf34000 r--p 000a2000 b3:16 214        /system/app/SecGallery2.odex
+5cf34000-5cf36000 r--p 000b6000 b3:16 214        /system/app/SecGallery2.odex
+5cf36000-5cf50000 r--p 000b8000 b3:16 214        /system/app/SecGallery2.odex
+5cf50000-5cf51000 r--p 000d2000 b3:16 214        /system/app/SecGallery2.odex
+5cf51000-5cf8a000 r--p 000d3000 b3:16 214        /system/app/SecGallery2.odex
+5cf8a000-5cf8b000 r--p 0010c000 b3:16 214        /system/app/SecGallery2.odex
+5cf8b000-5cf92000 r--p 0010d000 b3:16 214        /system/app/SecGallery2.odex
+5cf92000-5cf95000 r--p 00114000 b3:16 214        /system/app/SecGallery2.odex
+5cf95000-5d087000 r--p 00117000 b3:16 214        /system/app/SecGallery2.odex
+5d087000-5d0b0000 rw-p 00000000 00:04 10357      /dev/ashmem/dalvik-aux-structure (deleted)
+5d0b0000-5d0b1000 ---p 00000000 00:00 0 
+5d0b1000-5d1b0000 rw-p 00000000 00:00 0 
+5d1b0000-5d1c3000 rw-p 00000000 00:00 0 
+5d2c7000-5d2dd000 rw-p 00000000 00:00 0 
+5d2dd000-5d2de000 ---p 00000000 00:00 0 
+5d2de000-5d3dd000 rw-p 00000000 00:00 0 
+5d3dd000-5d3ea000 rw-p 00000000 00:00 0 
+5d3ea000-5d4da000 r--s 00000000 b3:16 922        /system/fonts/Roboto-Bold.ttf
+5d4da000-5d509000 rw-p 00000000 00:00 0 
+5d509000-5d50f000 r-xp 00000000 b3:16 1216       /system/lib/libdrmframework_jni.so
+5d50f000-5d510000 ---p 00000000 00:00 0 
+5d510000-5d511000 r--p 00006000 b3:16 1216       /system/lib/libdrmframework_jni.so
+5d511000-5d512000 rw-p 00007000 b3:16 1216       /system/lib/libdrmframework_jni.so
+5d512000-5d516000 rw-p 00000000 00:00 0 
+5d516000-5d517000 ---p 00000000 00:00 0 
+5d517000-5d616000 rw-p 00000000 00:00 0 
+5d616000-5d61a000 rw-p 00000000 00:00 0 
+5d61a000-5d61b000 ---p 00000000 00:00 0 
+5d61b000-5d71a000 rw-p 00000000 00:00 0 
+5d71a000-5d76b000 rw-p 00000000 00:00 0 
+5d76b000-5d77d000 rw-p 00000000 00:00 0 
+5d77d000-5d77e000 ---p 00000000 00:00 0 
+5d77e000-5d87d000 rw-p 00000000 00:00 0 
+5d87d000-5d88a000 rw-p 00000000 00:00 0 
+5d88a000-5d88b000 ---p 00000000 00:00 0 
+5d88b000-5d98a000 rw-p 00000000 00:00 0 
+5d98a000-5d9a8000 rw-s 00000000 00:11 1101585576  /storage/sdcard0/Android/data/com.sec.android.gallery3d/cache/imgcache.idx
+5d9a8000-5d9a9000 r-xp 00000000 b3:16 1263       /system/lib/libjnigraphics.so
+5d9a9000-5d9aa000 r--p 00000000 b3:16 1263       /system/lib/libjnigraphics.so
+5d9aa000-5d9ab000 rw-p 00000000 00:00 0 
+5d9ab000-5d9c9000 rw-s 00000000 00:11 1101585824  /storage/sdcard0/Android/data/com.sec.android.gallery3d/cache/imgcacheMicro.idx
+5d9c9000-5d9d5000 r--s 00000000 00:11 1101640680  /storage/sdcard0/9.jpg
+5d9d5000-5d9f3000 rw-s 00000000 00:11 1101586088  /storage/sdcard0/Android/data/com.sec.android.gallery3d/cache/imgcacheMini.idx
+5d9f3000-5da11000 rw-s 00000000 00:11 1101586352  /storage/sdcard0/Android/data/com.sec.android.gallery3d/cache/imgInfoCache.idx
+5da11000-5da1e000 rw-p 00000000 00:00 0 
+5da1e000-5da36000 r-xp 00000000 b3:16 1092       /system/lib/egl/libEGL_mali.so
+5da36000-5da37000 r--p 00017000 b3:16 1092       /system/lib/egl/libEGL_mali.so
+5da37000-5da38000 rw-p 00018000 b3:16 1092       /system/lib/egl/libEGL_mali.so
+5da38000-5da48000 rw-p 00000000 00:00 0 
+5da48000-5da4c000 r-xp 00000000 b3:16 1139       /system/lib/libUMP.so
+5da4c000-5da4d000 r--p 00003000 b3:16 1139       /system/lib/libUMP.so
+5da4d000-5da4e000 rw-p 00004000 b3:16 1139       /system/lib/libUMP.so
+5da4e000-5da55000 rw-p 00000000 00:00 0 
+5da55000-5da8b000 r-xp 00000000 b3:16 1095       /system/lib/egl/libGLESv2_mali.so
+5da8b000-5da8c000 ---p 00000000 00:00 0 
+5da8c000-5da8d000 r--p 00036000 b3:16 1095       /system/lib/egl/libGLESv2_mali.so
+5da8d000-5da8e000 rw-p 00037000 b3:16 1095       /system/lib/egl/libGLESv2_mali.so
+5db8e000-5db92000 rw-p 00000000 00:00 0 
+5db92000-5dc8f000 r-xp 00000000 b3:16 1146       /system/lib/libXIVCoder.so
+5dc8f000-5dc94000 rw-p 000fc000 b3:16 1146       /system/lib/libXIVCoder.so
+5dc94000-5dcb6000 rw-p 00000000 00:00 0 
+5dcb6000-5dd73000 r-xp 00000000 b3:16 1127       /system/lib/libMali.so
+5dd73000-5dd74000 ---p 00000000 00:00 0 
+5dd74000-5dd76000 r--p 000bd000 b3:16 1127       /system/lib/libMali.so
+5dd76000-5dd78000 rw-p 000bf000 b3:16 1127       /system/lib/libMali.so
+5dd78000-5ddba000 r-xp 00000000 b3:16 1094       /system/lib/egl/libGLESv1_CM_mali.so
+5ddba000-5ddbb000 r--p 00041000 b3:16 1094       /system/lib/egl/libGLESv1_CM_mali.so
+5ddbb000-5ddbc000 rw-p 00042000 b3:16 1094       /system/lib/egl/libGLESv1_CM_mali.so
+5ddbc000-5ddbd000 ---p 00000000 00:00 0 
+5ddbd000-5debc000 rw-p 00000000 00:00 0 
+5dfbc000-5dfc1000 r-xp 00000000 b3:16 1109       /system/lib/hw/gralloc.montblanc.so
+5dfc1000-5dfc2000 r--p 00004000 b3:16 1109       /system/lib/hw/gralloc.montblanc.so
+5dfc2000-5dfc3000 rw-p 00005000 b3:16 1109       /system/lib/hw/gralloc.montblanc.so
+5e19f000-5e1a1000 rw-p 00000000 00:00 0 
+5e318000-5e418000 r-xp 00000000 00:04 10386      /dev/ashmem/dalvik-jit-code-cache (deleted)
+5e418000-5e428000 rw-p 00000000 00:00 0 
+5e59f000-5e5a0000 rw-p 00000000 00:00 0 
+5e6e0000-5e6e9000 rw-p 00000000 00:00 0 
+bee93000-beeb4000 rw-p 00000000 00:00 0          [stack]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]

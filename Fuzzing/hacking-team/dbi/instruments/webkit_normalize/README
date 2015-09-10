@@ -1,0 +1,20 @@
+info:
+
+ this is an example instrument that logs all UART communication 
+ of the com.android.nfc process to /data/local/tmp/log
+
+ before using touch /data/local/tmp/log
+
+FRAMEWORK info:
+ the main files are: libt.* utils.*
+ in libt.c find my_init() everything happens here
+
+build:
+ fix path to arm gcc compiler in makefile and hijack_func/build.sh 
+
+ type: make
+
+create new hooks:
+ cd hijack_func
+ ../genhijacks.py FUNC_NAME
+ edit FUNC_NAME.c and FUNC_NAME.h

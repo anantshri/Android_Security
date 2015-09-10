@@ -1,0 +1,13 @@
+Hijack.c
+
+ Inject shared library into a running process using ptrace().
+
+ Steps:
+  ptrace process
+  write code on stack
+  make stack executable by calling mprotect
+  code executes on stack and calls dlopen
+  dlopen load library into process and calls _init of library
+  code restores back old register and PC state and process continues
+
+For copyright see: hijack.c

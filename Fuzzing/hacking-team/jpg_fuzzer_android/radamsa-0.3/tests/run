@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo "Testing $@:"
+
+rm tmp/* > /dev/null 2>&1
+
+fail() {
+   echo "ERROR - " $@
+   exit 1
+}
+
+for file in tests/*.sh
+do 
+   echo -n " o $file: "
+   $file $@ || { echo "ERROR"; fail "test $file fails"; }
+   echo "ok"
+done
+

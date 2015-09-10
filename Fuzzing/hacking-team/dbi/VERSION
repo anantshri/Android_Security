@@ -1,0 +1,4 @@
+0.1 - initial version
+0.2 - fixed Thumb support, improved version of hijack
+      - added i2c logger
+      - added nfc card read emulation, read READ_FIRST file!

@@ -1,0 +1,8 @@
+make: Entering directory `/home/diego/android-dev/fuzzer-android/trinity-android19/jni/tmpdir'
+[armeabi] Compile thumb  : test <= test.c
+jni/test.c: In function 'main':
+jni/test.c:7:18: error: storage size of 'test' isn't known
+  struct termios2 test;
+                  ^
+make: *** [obj/local/armeabi/objs/test/test.o] Error 1
+make: Leaving directory `/home/diego/android-dev/fuzzer-android/trinity-android19/jni/tmpdir'

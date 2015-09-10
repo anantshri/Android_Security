@@ -1,0 +1,28 @@
+[*] Starting hooking
+[*] Pid:582
+[*] Base address 0xa8300000 - 0xa8747000
+[*] Hooking finished
+CSSRule::parentStyleSheet obj 0x9f12b8 r4 0x744a70 r0 0xa8718950 r3 0xa8718970
+CSSStyle::~CSSStyle this 0x460ff0
+CSSStyle::~CSSStyle this 0x601dd8
+CSSStyle::~CSSStyle this 0x558210
+CSSStyle::~CSSStyle this 0x983568
+CSSStyle::~CSSStyle this 0x9d13a8
+CSSStyle::~CSSStyle this 0x9ee7a0
+CSSStyle::~CSSStyle this 0x9f43d0
+CSSStyle::~CSSStyle this 0x9e3a30
+CSSStyle::~CSSStyle this 0x220fd0
+CSSStyle::~CSSStyle this 0x377858
+CSSStyle::~CSSStyle this 0x668870
+CSSStyle::~CSSStyle this 0x516bc8
+CSSStyle::~CSSStyle this 0x457dd0
+CSSStyle::~CSSStyle this 0x472ae0
+CSSRule::parentStyleSheet obj 0x9f12b8 r4 0x744a70 r0 0xa8718950 r3 0xa8718970
+CSSRule::parentStyleSheet obj 0x9f12b8 r4 0x744a70 r0 0xa8718950 r3 0xa8718970
+CSSRule::parentStyleSheet obj 0x9e84c8 r4 0x85ada0 r0 0xa8718950 r3 0xa8718970
+CSSStyle::~CSSStyle this 0x744a70
+CSSStyle::~CSSStyle this 0x30e9c0
+CSSRule::parentStyleSheet obj 0x9e84c8 r4 0x85ada0 r0 0xa8718950 r3 0xa8718970
+CSSRule::parentStyleSheet obj 0x9e84c8 r4 0x85ada0 r0 0xa8718950 r3 0xa8718970
+CSSStyleSheet::insertRule obj 0x95c7a0 string 0x455b696c int 0 int 0x455b6978 result 0x0
+CSSStyle::~CSSStyle this 0x95c7a0

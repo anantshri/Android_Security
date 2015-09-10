@@ -1,0 +1,67 @@
+#!/bin/bash
+
+id_gal=""
+start="adb shell am start -a android.intent.action.VIEW -t image/jpg -d file:///storage//sdcard0//jpg_sample//1.jpg"
+
+
+# Check if gallery application is still running or if a crash occurred
+function check_gallery {
+    i=$(adb shell ps | grep com.sec.android.gallery3d)
+    id=$(echo $i | cut -d " " -f 2)
+
+    if [ "$id" != "" ] ;then
+	echo "Gallery running with pid $id"
+    else
+	echo "Gallery not running\n Restarting....\n"
+	$start
+	adb shell input keyevent 4
+	i=$(adb shell ps | grep com.sec.android.gallery3d)
+	id=$(echo $i | cut -d " " -f 2)
+	echo "Gallery restarted with pid $id...\n"
+	sleep 2
+    fi;
+    id_gal=$id
+}
+
+
+# Check the state of the process and wait until sleeping is reached
+function check_state {
+    for i in `seq 0 10`; do
+	state=$(adb shell cat /proc/$id_gal/status | grep State)
+	get_state=$(echo $state | cut -d " " -f 2)
+	if [ "$get_state" != "S" ]; then
+	    echo "Not finished yet... "
+	    sleep $1
+	fi;
+    done;
+}
+
+
+
+check_gallery
+for k in `seq 0 1045`; 
+do 
+    id_cur=$id_gal
+ 
+    exec=$(adb shell am start -a android.intent.action.VIEW -t image/jpg -d file:///storage//sdcard0//jpg_sample//$k.jpg)
+    sleep 1.5
+
+    check_gallery
+
+    if [ "$id_cur" != "$id_gal" ]; then
+	echo "Gallery restarted... "
+	echo "Crashed occured during test case $k" >> log_minset
+	echo "Instrumentation for process $id_gal started..."
+	adb shell 'echo "" > /data/local/tmp/log_start'
+	adb shell "su -c /data/local/tmp/hijack -p $id_gal -l libt.so"
+	sleep 5
+	check_state 20
+	echo "Instrumentation completed! "
+    else
+	check_state 5
+   	adb shell input keyevent 4
+	adb pull /data/local/tmp/log ./logs/$k.log
+	adb shell 'echo "" > /data/local/tmp/log'
+    fi;
+
+done

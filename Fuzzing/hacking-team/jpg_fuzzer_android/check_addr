@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+for i in $(ls logs2); 
+do
+	k=$(strings logs2/$i | grep -i backtrace -A1 | grep -i pc | tr -s " " | cut -d " " -f5)
+	if [ "$k" == "pc" ]; then
+	    k=$(strings logs2/$i | grep -i backtrace -A1 | grep -i pc | tr -s " " | cut -d " " -f6)
+	fi
+	echo $i"!"$k
+
+
+done

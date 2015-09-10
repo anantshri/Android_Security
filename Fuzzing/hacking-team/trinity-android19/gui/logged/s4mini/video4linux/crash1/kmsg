@@ -1,0 +1,2310 @@
+5279] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131622.508941] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131622.511414] PM: resume of devices complete after 44.495 msecs
+<4>[131622.513184] Restarting tasks ... 
+<4>[131622.514801] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131622.514832] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131622.516999] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131622.520966] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131622.520997] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131622.527681] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131622.527711] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131622.529085] update_heartbeat: soc(74/74), v(4000857), i(240300), temp(310), batt(1), absexpr(0), siop(100)
+<4>[131622.529329] done.
+<6>[131622.529451] PM: suspend exit 2014-02-24 23:58:50.599678005 UTC
+<6>[131622.529482] suspend: exit suspend, ret = 0 (2014-02-24 23:58:50.599708497 UTC)
+<6>[131622.529604] active wake lock mmc1_detect
+<6>[131622.529634] active wake lock power-supply
+<6>[131622.529665] active wake lock alarm, time left 498
+<6>[131622.529695] suspend: abort suspend
+<6>[131622.550449] healthd: battery l=74 v=4000 t=31.0 h=2 st=3 c=-252 o=1 ct=0 chg=
+<6>[131622.556614] healthd: battery l=74 v=4001 t=31.0 h=2 st=3 c=-257 o=1 ct=0 chg=
+<3>[131622.560857] mmc1: CMD52: Command timeout
+<3>[131622.566350] mmc1: CMD52: Command timeout
+<3>[131622.575293] mmc1: CMD8: Command timeout
+<3>[131622.581092] mmc1: CMD5: Command timeout
+<3>[131622.586585] mmc1: CMD5: Command timeout
+<3>[131622.592201] mmc1: CMD5: Command timeout
+<3>[131622.597695] mmc1: CMD5: Command timeout
+<3>[131622.603249] mmc1: CMD55: Command timeout
+<3>[131622.608835] mmc1: CMD55: Command timeout
+<3>[131622.614359] mmc1: CMD55: Command timeout
+<3>[131622.619914] mmc1: CMD55: Command timeout
+<3>[131622.625499] mmc1: CMD1: Command timeout
+<6>[131622.633861] PM: suspend entry 2014-02-24 23:58:50.703971704 UTC
+<6>[131622.634319] PM: Syncing filesystems...
+<6>[131622.637768] sync done.
+<4>[131622.694811] Freezing user space processes ... 
+<6>[131622.697344] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131622.720203] (elapsed 0.02 seconds) done.
+<4>[131622.720234] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[131622.740133] Suspending console(s) (use no_console_suspend to debug)
+<6>[131622.742972] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=4:40:51, d/m/y=6/3/70
+<4>[131622.812039] [VIB] Susepend 
+<6>[131623.460933] PM: suspend of devices complete after 719.111 msecs
+<6>[131623.461696] PM: late suspend of devices complete after 0.732 msecs
+<6>[131623.463344] power_suspend_late return 0
+<6>[131623.463375] PM: noirq suspend of devices complete after 1.647 msecs
+<4>[131623.463405] Disabling non-boot CPUs ...
+<6>[131623.469448] msm_pm_enter
+<6>[131623.469448] msm_pm_enter: power collapse
+<6>[131623.469448] Enabled clocks:
+<6>[131623.469448] 	afab_a_clk::1:1 [600000000]
+<6>[131623.469448] 	cfpb_a_clk::1:1 [32000000]
+<6>[131623.469448] 	ebi1_a_clk::1:1 [600000000]
+<6>[131623.469448] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131623.469448] 	sfab_a_clk::1:1 [54000000]
+<6>[131623.469448] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131623.469448] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131623.469448] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131623.469448] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131623.469448] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131623.469448] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131623.469448] 	dma_bam_p_clk:1:1 [0]
+<6>[131623.469448] Enabled clock count: 12
+<6>[131623.469448] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131623.469448] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131623.469448] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131623.469448] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131623.469448] msm_pm_enter: return
+<4>[131623.469448] msm_gpio_show_resume_irq: 104 triggered
+<4>[131623.469448] gic_show_resume_irq: 48 triggered
+<4>[131623.469448] gic_show_resume_irq: 52 triggered
+<6>[131623.469662] Enabling non-boot CPUs ...
+<6>[131623.473843] CPU1 is up
+<6>[131623.475094] PM: noirq resume of devices complete after 1.220 msecs
+<6>[131623.476529] wakeup wake lock: alarm_rtc
+<6>[131623.476559] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131623.477322] PM: early resume of devices complete after 0.671 msecs
+<6>[131623.478055] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131623.511963] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131623.511993] wake_lock: power-supply, stop expire timer
+<4>[131623.515656] [VIB] Resume 
+<6>[131623.515686] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131623.515717] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131623.515839] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131623.519471] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131623.521913] PM: resume of devices complete after 44.525 msecs
+<4>[131623.523652] Restarting tasks ... 
+<4>[131623.525209] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131623.525270] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131623.527162] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131623.531649] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131623.531679] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131623.535555] done.
+<6>[131623.540652] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131623.540713] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131623.541201] PM: suspend exit 2014-02-25 00:08:52.600897675 UTC
+<6>[131623.541263] suspend: exit suspend, ret = 0 (2014-02-25 00:08:52.600928167 UTC)
+<6>[131623.541293] active wake lock mmc1_detect
+<6>[131623.541324] active wake lock sec-charger-monitor
+<6>[131623.541354] active wake lock alarm, time left 498
+<6>[131623.541385] suspend: abort suspend
+<6>[131623.542392] update_heartbeat: soc(74/74), v(3992652), i(296700), temp(310), batt(1), absexpr(0), siop(100)
+<6>[131623.550083] healthd: battery l=74 v=3988 t=31.0 h=2 st=3 c=-296 o=1 ct=0 chg=
+<6>[131623.567418] healthd: battery l=74 v=3998 t=31.0 h=2 st=3 c=-255 o=1 ct=0 chg=
+<3>[131623.568639] mmc1: CMD52: Command timeout
+<3>[131623.574133] mmc1: CMD52: Command timeout
+<3>[131623.582984] mmc1: CMD8: Command timeout
+<3>[131623.588539] mmc1: CMD5: Command timeout
+<3>[131623.594032] mmc1: CMD5: Command timeout
+<3>[131623.599587] mmc1: CMD5: Command timeout
+<3>[131623.605081] mmc1: CMD5: Command timeout
+<3>[131623.610574] mmc1: CMD55: Command timeout
+<3>[131623.616160] mmc1: CMD55: Command timeout
+<3>[131623.621653] mmc1: CMD55: Command timeout
+<3>[131623.627177] mmc1: CMD55: Command timeout
+<3>[131623.632793] mmc1: CMD1: Command timeout
+<6>[131623.641125] PM: suspend entry 2014-02-25 00:08:52.700739516 UTC
+<6>[131623.641217] PM: Syncing filesystems...
+<6>[131623.644727] sync done.
+<4>[131623.704608] Freezing user space processes ... 
+<6>[131623.707141] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131623.730733] (elapsed 0.02 seconds) done.
+<4>[131623.730764] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[131623.750663] Suspending console(s) (use no_console_suspend to debug)
+<6>[131623.753471] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=4:42:43, d/m/y=6/3/70
+<4>[131623.823027] [VIB] Susepend 
+<6>[131624.471462] PM: suspend of devices complete after 719.142 msecs
+<6>[131624.472225] PM: late suspend of devices complete after 0.732 msecs
+<6>[131624.473874] power_suspend_late return 0
+<6>[131624.473904] PM: noirq suspend of devices complete after 1.647 msecs
+<4>[131624.473935] Disabling non-boot CPUs ...
+<6>[131624.479856] msm_pm_enter
+<6>[131624.479856] msm_pm_enter: power collapse
+<6>[131624.479856] Enabled clocks:
+<6>[131624.479856] 	afab_a_clk::1:1 [600000000]
+<6>[131624.479856] 	cfpb_a_clk::1:1 [32000000]
+<6>[131624.479856] 	ebi1_a_clk::1:1 [600000000]
+<6>[131624.479856] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131624.479856] 	sfab_a_clk::1:1 [54000000]
+<6>[131624.479856] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131624.479856] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131624.479856] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131624.479856] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131624.479856] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131624.479856] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131624.479856] 	dma_bam_p_clk:1:1 [0]
+<6>[131624.479856] Enabled clock count: 12
+<6>[131624.479856] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131624.479856] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131624.479856] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131624.479856] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131624.479856] msm_pm_enter: return
+<4>[131624.479856] msm_gpio_show_resume_irq: 104 triggered
+<4>[131624.479856] gic_show_resume_irq: 48 triggered
+<4>[131624.479856] gic_show_resume_irq: 52 triggered
+<6>[131624.480069] Enabling non-boot CPUs ...
+<6>[131624.484250] CPU1 is up
+<6>[131624.485502] PM: noirq resume of devices complete after 1.220 msecs
+<6>[131624.486936] wakeup wake lock: alarm_rtc
+<6>[131624.486967] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131624.487760] PM: early resume of devices complete after 0.701 msecs
+<6>[131624.488493] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131624.522492] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131624.522523] wake_lock: power-supply, stop expire timer
+<4>[131624.526094] [VIB] Resume 
+<6>[131624.526124] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131624.526155] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131624.526185] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131624.529939] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131624.532412] PM: resume of devices complete after 44.587 msecs
+<4>[131624.534182] Restarting tasks ... 
+<4>[131624.535769] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131624.535799] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131624.537722] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131624.542331] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131624.542361] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131624.546024] done.
+<6>[131624.549564] PM: suspend exit 2014-02-25 00:10:44.598763211 UTC
+<6>[131624.549656] suspend: exit suspend, ret = 0 (2014-02-25 00:10:44.598885188 UTC)
+<6>[131624.549717] active wake lock PowerManagerService.WakeLocks
+<6>[131624.549717] active wake lock mmc1_detect
+<6>[131624.549747] active wake lock sec-charger-monitor
+<6>[131624.549778] active wake lock alarm_rtc, time left 94
+<6>[131624.549808] suspend: abort suspend
+<6>[131624.553684] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131624.553715] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131624.555027] update_heartbeat: soc(74/74), v(3997635), i(234000), temp(311), batt(1), absexpr(0), siop(100)
+<6>[131624.566564] healthd: battery l=74 v=3999 t=31.1 h=2 st=3 c=-255 o=1 ct=0 chg=
+<6>[131624.575140] healthd: battery l=74 v=4000 t=31.1 h=2 st=3 c=-223 o=1 ct=0 chg=
+<3>[131624.578772] mmc1: CMD52: Command timeout
+<3>[131624.584296] mmc1: CMD52: Command timeout
+<3>[131624.593056] mmc1: CMD8: Command timeout
+<3>[131624.598610] mmc1: CMD5: Command timeout
+<3>[131624.604165] mmc1: CMD5: Command timeout
+<3>[131624.609659] mmc1: CMD5: Command timeout
+<3>[131624.615213] mmc1: CMD5: Command timeout
+<3>[131624.620707] mmc1: CMD55: Command timeout
+<3>[131624.626292] mmc1: CMD55: Command timeout
+<3>[131624.631786] mmc1: CMD55: Command timeout
+<3>[131624.637280] mmc1: CMD55: Command timeout
+<3>[131624.642926] mmc1: CMD1: Command timeout
+<6>[131624.651288] wake_unlock: mmc1_detect, start expire timer, 499
+<6>[131624.651472] wake_lock: PowerManagerService.WakeLocks, stop expire timer
+<6>[131624.982709] PM: suspend entry 2014-02-25 00:10:45.031664150 UTC
+<6>[131624.982740] PM: Syncing filesystems...
+<4>[131624.985670] Freezing user space processes ... 
+<6>[131624.987531] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131625.011032] (elapsed 0.02 seconds) done.
+<6>[131625.018693] sync done.
+<6>[131625.018723] PM: Syncing filesystems...
+<6>[131625.021012] sync done.
+<4>[131625.260628] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131625.281259] Suspending console(s) (use no_console_suspend to debug)
+<6>[131625.284098] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=4:52:44, d/m/y=6/3/70
+<4>[131625.356919] [VIB] Susepend 
+<6>[131625.360338] PM: suspend of devices complete after 77.666 msecs
+<6>[131625.361070] PM: late suspend of devices complete after 0.701 msecs
+<6>[131625.362688] power_suspend_late return 0
+<6>[131625.362718] PM: noirq suspend of devices complete after 1.616 msecs
+<4>[131625.362749] Disabling non-boot CPUs ...
+<6>[131625.368639] msm_pm_enter
+<6>[131625.368639] msm_pm_enter: power collapse
+<6>[131625.368639] Enabled clocks:
+<6>[131625.368639] 	afab_a_clk::1:1 [600000000]
+<6>[131625.368639] 	cfpb_a_clk::1:1 [32000000]
+<6>[131625.368639] 	ebi1_a_clk::1:1 [600000000]
+<6>[131625.368639] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131625.368639] 	sfab_a_clk::1:1 [54000000]
+<6>[131625.368639] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131625.368639] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131625.368639] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131625.368639] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131625.368639] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131625.368639] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131625.368639] 	dma_bam_p_clk:1:1 [0]
+<6>[131625.368639] Enabled clock count: 12
+<6>[131625.368639] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131625.368639] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131625.368639] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131625.368639] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131625.368639] msm_pm_enter: return
+<4>[131625.368639] msm_gpio_show_resume_irq: 104 triggered
+<4>[131625.368639] gic_show_resume_irq: 48 triggered
+<6>[131625.368822] Enabling non-boot CPUs ...
+<6>[131625.373095] CPU1 is up
+<6>[131625.374316] PM: noirq resume of devices complete after 1.220 msecs
+<6>[131625.375751] wakeup wake lock: alarm_rtc
+<6>[131625.375781] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131625.376544] PM: early resume of devices complete after 0.701 msecs
+<6>[131625.377277] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131625.413169] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131625.413199] wake_lock: power-supply, stop expire timer
+<4>[131625.416831] [VIB] Resume 
+<6>[131625.416861] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131625.416892] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131625.417014] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131625.420554] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131625.422935] PM: resume of devices complete after 46.324 msecs
+<4>[131625.424553] Restarting tasks ... 
+<4>[131625.425896] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131625.425926] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131625.427299] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131625.432488] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131625.432518] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131625.434991] done.
+<6>[131625.439111] PM: suspend exit 2014-02-25 00:20:45.597757480 UTC
+<6>[131625.439141] suspend: exit suspend, ret = 0 (2014-02-25 00:20:45.597787975 UTC)
+<6>[131625.439202] active wake lock mmc1_detect
+<6>[131625.439233] active wake lock sec-charger-monitor
+<6>[131625.439263] active wake lock alarm, time left 499
+<6>[131625.439263] suspend: abort suspend
+<6>[131625.441675] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131625.441705] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131625.443323] update_heartbeat: soc(74/74), v(3992652), i(255100), temp(311), batt(1), absexpr(0), siop(100)
+<6>[131625.456507] healthd: battery l=74 v=3995 t=31.2 h=2 st=3 c=-267 o=1 ct=0 chg=
+<6>[131625.464595] healthd: battery l=74 v=4010 t=31.1 h=2 st=3 c=-236 o=1 ct=0 chg=
+<3>[131625.467067] mmc1: CMD52: Command timeout
+<3>[131625.472592] mmc1: CMD52: Command timeout
+<3>[131625.481351] mmc1: CMD8: Command timeout
+<3>[131625.486906] mmc1: CMD5: Command timeout
+<3>[131625.492430] mmc1: CMD5: Command timeout
+<3>[131625.497893] mmc1: CMD5: Command timeout
+<3>[131625.503448] mmc1: CMD5: Command timeout
+<3>[131625.508941] mmc1: CMD55: Command timeout
+<3>[131625.514435] mmc1: CMD55: Command timeout
+<3>[131625.519959] mmc1: CMD55: Command timeout
+<3>[131625.525453] mmc1: CMD55: Command timeout
+<3>[131625.531038] mmc1: CMD1: Command timeout
+<6>[131625.539370] PM: suspend entry 2014-02-25 00:20:45.697903275 UTC
+<6>[131625.539401] PM: Syncing filesystems...
+<4>[131625.600594] Freezing user space processes ... 
+<6>[131625.602578] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131625.621836] (elapsed 0.02 seconds) done.
+<6>[131625.634136] sync done.
+<6>[131625.634167] PM: Syncing filesystems...
+<6>[131625.646131] sync done.
+<4>[131625.870974] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131625.891667] Suspending console(s) (use no_console_suspend to debug)
+<6>[131625.894475] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=4:54:35, d/m/y=6/3/70
+<4>[131625.970379] [VIB] Susepend 
+<6>[131626.372760] PM: suspend of devices complete after 479.527 msecs
+<6>[131626.373828] PM: late suspend of devices complete after 1.006 msecs
+<6>[131626.376056] power_suspend_late return 0
+<6>[131626.376086] PM: noirq suspend of devices complete after 2.227 msecs
+<4>[131626.376117] Disabling non-boot CPUs ...
+<6>[131626.385761] msm_pm_enter
+<6>[131626.385761] msm_pm_enter: power collapse
+<6>[131626.385761] Enabled clocks:
+<6>[131626.385761] 	afab_a_clk::1:1 [400000000]
+<6>[131626.385761] 	cfpb_a_clk::1:1 [32000000]
+<6>[131626.385761] 	ebi1_a_clk::1:1 [400000000]
+<6>[131626.385761] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131626.385761] 	sfab_a_clk::1:1 [54000000]
+<6>[131626.385761] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [400000000] -> afab_a_clk:1:1 [400000000]
+<6>[131626.385761] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131626.385761] 	ebi1_msmbus_a_clk:msm_bus:1:1 [400000000] -> ebi1_a_clk:1:1 [400000000]
+<6>[131626.385761] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131626.385761] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131626.385761] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131626.385761] 	dma_bam_p_clk:1:1 [0]
+<6>[131626.385761] Enabled clock count: 12
+<6>[131626.385761] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131626.385761] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131626.385761] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131626.385761] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131626.385761] msm_pm_enter: return
+<4>[131626.385761] msm_gpio_show_resume_irq: 104 triggered
+<4>[131626.385761] gic_show_resume_irq: 48 triggered
+<4>[131626.385761] gic_show_resume_irq: 52 triggered
+<6>[131626.386036] Enabling non-boot CPUs ...
+<6>[131626.394246] CPU1 is up
+<6>[131626.395772] PM: noirq resume of devices complete after 1.525 msecs
+<6>[131626.397451] wakeup wake lock: alarm_rtc
+<6>[131626.397481] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131626.398580] PM: early resume of devices complete after 1.006 msecs
+<6>[131626.399465] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131626.433800] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131626.433922] wake_lock: power-supply, stop expire timer
+<4>[131626.438439] [VIB] Resume 
+<6>[131626.438500] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131626.438592] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131626.438684] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131626.445947] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131626.451105] PM: resume of devices complete after 52.424 msecs
+<4>[131626.455744] Restarting tasks ... 
+<4>[131626.460414] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131626.460536] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131626.464290] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131626.476132] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131626.476224] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131626.482328] done.
+<6>[131626.492583] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131626.492705] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131626.493315] PM: suspend exit 2014-02-25 00:22:36.625535582 UTC
+<6>[131626.493407] suspend: exit suspend, ret = 0 (2014-02-25 00:22:36.625627066 UTC)
+<6>[131626.493529] active wake lock mmc1_detect
+<6>[131626.493590] active wake lock sec-charger-monitor
+<6>[131626.493651] active wake lock alarm_rtc, time left 90
+<6>[131626.493742] active wake lock alarm, time left 495
+<6>[131626.493803] suspend: abort suspend
+<6>[131626.494597] update_heartbeat: soc(74/74), v(4025475), i(110400), temp(312), batt(1), absexpr(0), siop(100)
+<6>[131626.504241] healthd: battery l=74 v=4023 t=31.2 h=2 st=3 c=-110 o=1 ct=0 chg=
+<3>[131626.524659] mmc1: CMD52: Command timeout
+<3>[131626.530428] mmc1: CMD52: Command timeout
+<3>[131626.539584] mmc1: CMD8: Command timeout
+<3>[131626.545505] mmc1: CMD5: Command timeout
+<3>[131626.551212] mmc1: CMD5: Command timeout
+<3>[131626.556950] mmc1: CMD5: Command timeout
+<3>[131626.562871] mmc1: CMD5: Command timeout
+<3>[131626.568578] mmc1: CMD55: Command timeout
+<3>[131626.574316] mmc1: CMD55: Command timeout
+<3>[131626.580268] mmc1: CMD55: Command timeout
+<3>[131626.586127] mmc1: CMD55: Command timeout
+<6>[131626.588020] healthd: battery l=74 v=4021 t=31.2 h=2 st=3 c=-117 o=1 ct=0 chg=
+<3>[131626.592140] mmc1: CMD1: Command timeout
+<6>[131626.882511] PM: suspend entry 2014-02-25 00:22:37.014519046 UTC
+<6>[131626.882694] PM: Syncing filesystems...
+<4>[131626.953257] Freezing user space processes ... 
+<6>[131626.956645] wait_for_fb_wake_show, fb_state : 0 ==
+<6>[131626.968853] sync done.
+<4>[131626.982526] (elapsed 0.02 seconds) done.
+<4>[131626.982557] Freezing remaining freezable tasks ... 
+<6>[131626.988325] wake_lock: alarm, start expire timer, 500
+<4>[131627.002303] (elapsed 0.01 seconds) done.
+<4>[131627.002334] Suspending console(s) (use no_console_suspend to debug)
+<6>[131627.002486] wake_unlock: alarm_rtc, start expire timer, 498
+<6>[131627.005538] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:4:36, d/m/y=6/3/70
+<4>[131627.072317] [VIB] Susepend 
+<6>[131627.075918] PM: suspend of devices complete after 72.017 msecs
+<6>[131627.076773] PM: late suspend of devices complete after 0.823 msecs
+<6>[131627.078635] active wake lock alarm, time left 491
+<6>[131627.078665] power_suspend_late return -11
+<3>[131627.078696] dpm_run_callback(): power_suspend_late+0x0/0x58 returns -11
+<3>[131627.078726] PM: Device power.0 failed to suspend noirq: error -11
+<6>[131627.079886] PM: noirq resume of devices complete after 1.128 msecs
+<6>[131627.081778] PM: early resume of devices complete after 0.854 msecs
+<3>[131627.081809] PM: Some devices failed to power down
+<6>[131627.082602] wake_lock: power-supply, stop expire timer
+<4>[131627.086204] [VIB] Resume 
+<6>[131627.086234] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131627.086265] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131627.086295] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131627.090263] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131627.092521] PM: resume of devices complete after 10.676 msecs
+<4>[131627.094994] Restarting tasks ... 
+<4>[131627.096916] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131627.096977] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131627.101800] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131627.104608] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131627.104638] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131627.107385] done.
+<6>[131627.111536] PM: suspend exit 2014-02-25 00:22:37.243435353 UTC
+<6>[131627.111566] suspend: exit suspend, ret = -11 (2014-02-25 00:22:37.243496363 UTC)
+<6>[131627.111627] active wake lock mmc1_detect
+<6>[131627.111658] active wake lock sec-charger-monitor
+<6>[131627.111688] active wake lock alarm, time left 487
+<6>[131627.111719] suspend: abort suspend
+<6>[131627.114038] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131627.114099] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131627.115961] update_heartbeat: soc(74/74), v(4006425), i(191800), temp(312), batt(1), absexpr(0), siop(100)
+<6>[131627.123744] healthd: battery l=74 v=4004 t=31.2 h=2 st=3 c=-200 o=1 ct=0 chg=
+<6>[131627.132137] healthd: battery l=74 v=4015 t=31.2 h=2 st=3 c=-208 o=1 ct=0 chg=
+<3>[131627.141629] mmc1: CMD52: Command timeout
+<3>[131627.147245] mmc1: CMD52: Command timeout
+<3>[131627.156095] mmc1: CMD8: Command timeout
+<3>[131627.161650] mmc1: CMD5: Command timeout
+<3>[131627.167235] mmc1: CMD5: Command timeout
+<3>[131627.172821] mmc1: CMD5: Command timeout
+<3>[131627.178314] mmc1: CMD5: Command timeout
+<3>[131627.183961] mmc1: CMD55: Command timeout
+<3>[131627.189485] mmc1: CMD55: Command timeout
+<3>[131627.195039] mmc1: CMD55: Command timeout
+<3>[131627.200625] mmc1: CMD55: Command timeout
+<3>[131627.206210] mmc1: CMD1: Command timeout
+<6>[131627.214633] PM: suspend entry 2014-02-25 00:22:37.346515324 UTC
+<6>[131627.214664] PM: Syncing filesystems...
+<6>[131627.219639] sync done.
+<6>[131627.219700] PM: Syncing filesystems...
+<6>[131627.221317] msm_thermal: Debug Temp for Sensors (0 --- 31)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<6>[131627.225865] sync done.
+<4>[131627.265694] Freezing user space processes ... 
+<6>[131627.269387] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131627.292705] (elapsed 0.02 seconds) done.
+<4>[131627.292766] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[131627.312482] Suspending console(s) (use no_console_suspend to debug)
+<6>[131627.315656] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:4:37, d/m/y=6/3/70
+<4>[131627.386250] [VIB] Susepend 
+<6>[131627.389851] PM: suspend of devices complete after 75.847 msecs
+<6>[131627.390706] PM: late suspend of devices complete after 0.823 msecs
+<6>[131627.392598] power_suspend_late return 0
+<6>[131627.392628] PM: noirq suspend of devices complete after 1.861 msecs
+<4>[131627.392659] Disabling non-boot CPUs ...
+<6>[131627.399984] msm_pm_enter
+<6>[131627.399984] msm_pm_enter: power collapse
+<6>[131627.399984] Enabled clocks:
+<6>[131627.399984] 	afab_a_clk::1:1 [600000000]
+<6>[131627.399984] 	cfpb_a_clk::1:1 [32000000]
+<6>[131627.399984] 	ebi1_a_clk::1:1 [600000000]
+<6>[131627.399984] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131627.399984] 	sfab_a_clk::1:1 [54000000]
+<6>[131627.399984] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131627.399984] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131627.399984] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131627.399984] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131627.399984] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131627.399984] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131627.399984] 	dma_bam_p_clk:1:1 [0]
+<6>[131627.399984] Enabled clock count: 12
+<6>[131627.399984] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131627.399984] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131627.399984] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131627.399984] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131627.399984] msm_pm_enter: return
+<4>[131627.399984] msm_gpio_show_resume_irq: 104 triggered
+<4>[131627.399984] gic_show_resume_irq: 48 triggered
+<4>[131627.399984] gic_show_resume_irq: 52 triggered
+<6>[131627.400197] Enabling non-boot CPUs ...
+<6>[131627.404775] CPU1 is up
+<6>[131627.406027] PM: noirq resume of devices complete after 1.250 msecs
+<6>[131627.407461] wakeup wake lock: alarm_rtc
+<6>[131627.407492] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131627.408285] PM: early resume of devices complete after 0.701 msecs
+<6>[131627.409018] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131627.443994] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131627.444025] wake_lock: power-supply, stop expire timer
+<4>[131627.447687] [VIB] Resume 
+<6>[131627.447718] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131627.447748] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131627.447870] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131627.451533] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131627.454035] PM: resume of devices complete after 45.690 msecs
+<4>[131627.455775] Restarting tasks ... 
+<4>[131627.457789] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131627.457850] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131627.461665] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131627.464229] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131627.464290] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131627.466610] done.
+<6>[131627.470730] PM: suspend exit 2014-02-25 00:32:38.598367084 UTC
+<6>[131627.470760] suspend: exit suspend, ret = 0 (2014-02-25 00:32:38.598397579 UTC)
+<6>[131627.470821] active wake lock mmc1_detect
+<6>[131627.470852] active wake lock sec-charger-monitor
+<6>[131627.470883] active wake lock alarm, time left 499
+<6>[131627.470913] suspend: abort suspend
+<6>[131627.473812] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131627.473874] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131627.475155] update_heartbeat: soc(74/74), v(4001151), i(205400), temp(312), batt(1), absexpr(0), siop(100)
+<6>[131627.490232] healthd: battery l=74 v=4003 t=31.2 h=2 st=3 c=-219 o=1 ct=0 chg=
+<3>[131627.500365] mmc1: CMD52: Command timeout
+<3>[131627.506011] mmc1: CMD52: Command timeout
+<6>[131627.514649] healthd: battery l=74 v=4007 t=31.2 h=2 st=3 c=-211 o=1 ct=0 chg=
+<3>[131627.514832] mmc1: CMD8: Command timeout
+<3>[131627.520326] mmc1: CMD5: Command timeout
+<3>[131627.525972] mmc1: CMD5: Command timeout
+<3>[131627.531465] mmc1: CMD5: Command timeout
+<3>[131627.536959] mmc1: CMD5: Command timeout
+<3>[131627.542575] mmc1: CMD55: Command timeout
+<3>[131627.548069] mmc1: CMD55: Command timeout
+<3>[131627.553623] mmc1: CMD55: Command timeout
+<3>[131627.559178] mmc1: CMD55: Command timeout
+<3>[131627.564763] mmc1: CMD1: Command timeout
+<6>[131627.579077] PM: suspend entry 2014-02-25 00:32:38.706626288 UTC
+<6>[131627.579138] PM: Syncing filesystems...
+<4>[131627.640850] Freezing user space processes ... 
+<6>[131627.644055] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131627.672470] (elapsed 0.03 seconds) done.
+<6>[131627.676834] sync done.
+<4>[131627.922218] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131627.942727] Suspending console(s) (use no_console_suspend to debug)
+<6>[131627.945535] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:14:38, d/m/y=6/3/70
+<4>[131628.018326] [VIB] Susepend 
+<6>[131628.403585] PM: suspend of devices complete after 459.299 msecs
+<6>[131628.404348] PM: late suspend of devices complete after 0.732 msecs
+<6>[131628.405966] power_suspend_late return 0
+<6>[131628.405996] PM: noirq suspend of devices complete after 1.617 msecs
+<4>[131628.406027] Disabling non-boot CPUs ...
+<6>[131628.413199] msm_pm_enter
+<6>[131628.413199] msm_pm_enter: power collapse
+<6>[131628.413199] Enabled clocks:
+<6>[131628.413199] 	afab_a_clk::1:1 [600000000]
+<6>[131628.413199] 	cfpb_a_clk::1:1 [32000000]
+<6>[131628.413199] 	ebi1_a_clk::1:1 [600000000]
+<6>[131628.413199] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131628.413199] 	sfab_a_clk::1:1 [54000000]
+<6>[131628.413199] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131628.413199] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131628.413199] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131628.413199] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131628.413199] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131628.413199] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131628.413199] 	dma_bam_p_clk:1:1 [0]
+<6>[131628.413199] Enabled clock count: 12
+<6>[131628.413199] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131628.413199] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131628.413199] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131628.413199] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131628.413199] msm_pm_enter: return
+<4>[131628.413199] msm_gpio_show_resume_irq: 104 triggered
+<4>[131628.413199] gic_show_resume_irq: 48 triggered
+<4>[131628.413199] gic_show_resume_irq: 52 triggered
+<6>[131628.413382] Enabling non-boot CPUs ...
+<6>[131628.417624] CPU1 is up
+<6>[131628.418876] PM: noirq resume of devices complete after 1.250 msecs
+<6>[131628.420310] wakeup wake lock: alarm_rtc
+<6>[131628.420341] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131628.421104] PM: early resume of devices complete after 0.701 msecs
+<6>[131628.421928] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131628.454524] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131628.454554] wake_lock: power-supply, stop expire timer
+<4>[131628.458217] [VIB] Resume 
+<6>[131628.458247] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131628.458278] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131628.458400] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131628.462062] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131628.464565] PM: resume of devices complete after 43.410 msecs
+<4>[131628.466335] Restarting tasks ... 
+<4>[131628.468380] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131628.468441] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131628.472286] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131628.476895] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131628.476956] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131628.479642] done.
+<6>[131628.486295] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131628.486326] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131628.487577] update_heartbeat: soc(74/74), v(4003203), i(191900), temp(313), batt(1), absexpr(0), siop(100)
+<6>[131628.488340] PM: suspend exit 2014-02-25 00:42:39.605409739 UTC
+<6>[131628.488371] suspend: exit suspend, ret = 0 (2014-02-25 00:42:39.605440231 UTC)
+<6>[131628.488432] active wake lock power-supply
+<6>[131628.488462] active wake lock mmc1_detect
+<6>[131628.488462] active wake lock alarm, time left 498
+<6>[131628.488493] suspend: abort suspend
+<6>[131628.508819] healthd: battery l=74 v=4001 t=31.3 h=2 st=3 c=-222 o=1 ct=0 chg=
+<3>[131628.515198] mmc1: CMD52: Command timeout
+<3>[131628.520722] mmc1: CMD52: Command timeout
+<3>[131628.529634] mmc1: CMD8: Command timeout
+<3>[131628.535158] mmc1: CMD5: Command timeout
+<3>[131628.540744] mmc1: CMD5: Command timeout
+<3>[131628.546237] mmc1: CMD5: Command timeout
+<3>[131628.551731] mmc1: CMD5: Command timeout
+<3>[131628.557316] mmc1: CMD55: Command timeout
+<3>[131628.562840] mmc1: CMD55: Command timeout
+<3>[131628.568334] mmc1: CMD55: Command timeout
+<3>[131628.573919] mmc1: CMD55: Command timeout
+<3>[131628.579505] mmc1: CMD1: Command timeout
+<6>[131628.586524] healthd: battery l=74 v=4005 t=31.3 h=2 st=3 c=-197 o=1 ct=0 chg=
+<6>[131628.619975] PM: suspend entry 2014-02-25 00:42:39.736938180 UTC
+<6>[131628.620066] PM: Syncing filesystems...
+<6>[131628.623484] sync done.
+<4>[131628.682785] Freezing user space processes ... 
+<6>[131628.686051] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131628.713367] (elapsed 0.03 seconds) done.
+<4>[131628.713397] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[131628.733144] Suspending console(s) (use no_console_suspend to debug)
+<6>[131628.735982] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:24:40, d/m/y=6/3/70
+<4>[131628.801784] [VIB] Susepend 
+<6>[131629.414054] PM: suspend of devices complete after 679.246 msecs
+<6>[131629.414817] PM: late suspend of devices complete after 0.732 msecs
+<6>[131629.416465] power_suspend_late return 0
+<6>[131629.416495] PM: noirq suspend of devices complete after 1.617 msecs
+<4>[131629.416526] Disabling non-boot CPUs ...
+<6>[131629.423515] msm_pm_enter
+<6>[131629.423515] msm_pm_enter: power collapse
+<6>[131629.423515] Enabled clocks:
+<6>[131629.423515] 	afab_a_clk::1:1 [600000000]
+<6>[131629.423515] 	cfpb_a_clk::1:1 [32000000]
+<6>[131629.423515] 	ebi1_a_clk::1:1 [600000000]
+<6>[131629.423515] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131629.423515] 	sfab_a_clk::1:1 [54000000]
+<6>[131629.423515] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131629.423515] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131629.423515] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131629.423515] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131629.423515] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131629.423515] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131629.423515] 	dma_bam_p_clk:1:1 [0]
+<6>[131629.423515] Enabled clock count: 12
+<6>[131629.423515] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131629.423515] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131629.423515] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131629.423515] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131629.423515] msm_pm_enter: return
+<4>[131629.423515] msm_gpio_show_resume_irq: 104 triggered
+<4>[131629.423515] gic_show_resume_irq: 48 triggered
+<4>[131629.423515] gic_show_resume_irq: 52 triggered
+<6>[131629.423698] Enabling non-boot CPUs ...
+<6>[131629.427788] CPU1 is up
+<6>[131629.429039] PM: noirq resume of devices complete after 1.250 msecs
+<6>[131629.430474] wakeup wake lock: alarm_rtc
+<6>[131629.430504] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131629.431298] PM: early resume of devices complete after 0.671 msecs
+<6>[131629.432030] wake_lock: pm8921_soc_lock, stop expire timer
+<4>[131629.468624] [VIB] Resume 
+<6>[131629.468655] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131629.468685] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131629.468807] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131629.472439] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131629.475339] PM: resume of devices complete after 43.990 msecs
+<4>[131629.477444] Restarting tasks ... 
+<4>[131629.479215] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131629.479276] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131629.483701] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131629.487516] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131629.487577] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131629.489042] done.
+<6>[131629.493864] PM: suspend exit 2014-02-25 00:52:41.600439555 UTC
+<6>[131629.493895] suspend: exit suspend, ret = 0 (2014-02-25 00:52:41.600500539 UTC)
+<6>[131629.493956] active wake lock mmc1_detect
+<6>[131629.493986] active wake lock PowerManagerService.WakeLocks
+<6>[131629.494017] active wake lock sec-charger-monitor
+<6>[131629.494078] suspend: abort suspend
+<6>[131629.498595] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131629.498656] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131629.499938] update_heartbeat: soc(73/73), v(3999393), i(209600), temp(313), batt(1), absexpr(0), siop(100)
+<6>[131629.513550] healthd: battery l=73 v=4000 t=31.3 h=2 st=3 c=-226 o=1 ct=0 chg=
+<3>[131629.522828] mmc1: CMD52: Command timeout
+<3>[131629.528444] mmc1: CMD52: Command timeout
+<3>[131629.537325] mmc1: CMD8: Command timeout
+<3>[131629.542880] mmc1: CMD5: Command timeout
+<6>[131629.545383] healthd: battery l=73 v=3997 t=31.3 h=2 st=3 c=-238 o=1 ct=0 chg=
+<3>[131629.548557] mmc1: CMD5: Command timeout
+<3>[131629.554112] mmc1: CMD5: Command timeout
+<3>[131629.559697] mmc1: CMD5: Command timeout
+<3>[131629.565404] mmc1: CMD55: Command timeout
+<6>[131629.567541] healthd: battery l=73 v=3993 t=31.3 h=2 st=3 c=-287 o=1 ct=0 chg=
+<3>[131629.570959] mmc1: CMD55: Command timeout
+<3>[131629.576514] mmc1: CMD55: Command timeout
+<3>[131629.582099] mmc1: CMD55: Command timeout
+<3>[131629.587684] mmc1: CMD1: Command timeout
+<6>[131629.648633] PM: suspend entry 2014-02-25 00:52:41.755115928 UTC
+<6>[131629.648694] PM: Syncing filesystems...
+<4>[131629.648908] Freezing user space processes ... 
+<6>[131629.656996] wait_for_fb_wake_show, fb_state : 0 ==
+<6>[131629.662673] sync done.
+<4>[131629.673874] (elapsed 0.02 seconds) done.
+<4>[131629.673904] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[131629.693651] Suspending console(s) (use no_console_suspend to debug)
+<6>[131629.696489] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:26:38, d/m/y=6/3/70
+<4>[131629.766106] [VIB] Susepend 
+<6>[131630.424614] PM: suspend of devices complete after 729.236 msecs
+<6>[131630.425377] PM: late suspend of devices complete after 0.732 msecs
+<6>[131630.426994] power_suspend_late return 0
+<6>[131630.427025] PM: noirq suspend of devices complete after 1.617 msecs
+<4>[131630.427055] Disabling non-boot CPUs ...
+<6>[131630.434228] msm_pm_enter
+<6>[131630.434228] msm_pm_enter: power collapse
+<6>[131630.434228] Enabled clocks:
+<6>[131630.434228] 	afab_a_clk::1:1 [600000000]
+<6>[131630.434228] 	cfpb_a_clk::1:1 [32000000]
+<6>[131630.434228] 	ebi1_a_clk::1:1 [600000000]
+<6>[131630.434228] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131630.434228] 	sfab_a_clk::1:1 [54000000]
+<6>[131630.434228] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131630.434228] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131630.434228] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131630.434228] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131630.434228] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131630.434228] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131630.434228] 	dma_bam_p_clk:1:1 [0]
+<6>[131630.434228] Enabled clock count: 12
+<6>[131630.434228] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131630.434228] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131630.434228] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131630.434228] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131630.434228] msm_pm_enter: return
+<4>[131630.434228] msm_gpio_show_resume_irq: 104 triggered
+<4>[131630.434228] gic_show_resume_irq: 48 triggered
+<6>[131630.434411] Enabling non-boot CPUs ...
+<6>[131630.438622] CPU1 is up
+<6>[131630.439904] PM: noirq resume of devices complete after 1.220 msecs
+<6>[131630.441308] wakeup wake lock: alarm_rtc
+<6>[131630.441308] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131630.442102] PM: early resume of devices complete after 0.671 msecs
+<6>[131630.442834] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131630.475522] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131630.475552] wake_lock: power-supply, stop expire timer
+<4>[131630.479123] [VIB] Resume 
+<6>[131630.479154] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131630.479184] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131630.479215] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131630.482999] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131630.485471] PM: resume of devices complete after 43.315 msecs
+<4>[131630.487241] Restarting tasks ... 
+<4>[131630.489042] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131630.489134] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131630.493284] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131630.495940] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131630.495970] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131630.498503] done.
+<6>[131630.501952] PM: suspend exit 2014-02-25 00:54:39.598123459 UTC
+<6>[131630.501983] suspend: exit suspend, ret = 0 (2014-02-25 00:54:39.598153954 UTC)
+<6>[131630.502105] active wake lock mmc1_detect
+<6>[131630.502135] active wake lock sec-charger-monitor
+<6>[131630.502166] active wake lock alarm_rtc, time left 94
+<6>[131630.502166] active wake lock alarm, time left 499
+<6>[131630.502196] suspend: abort suspend
+<6>[131630.506195] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131630.506256] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131630.507537] update_heartbeat: soc(73/73), v(3997929), i(214700), temp(313), batt(1), absexpr(0), siop(100)
+<6>[131630.520905] healthd: battery l=73 v=4002 t=31.3 h=2 st=3 c=-221 o=1 ct=0 chg=
+<6>[131630.527681] healthd: battery l=73 v=3999 t=31.3 h=2 st=3 c=-228 o=1 ct=0 chg=
+<3>[131630.531252] mmc1: CMD52: Command timeout
+<3>[131630.536868] mmc1: CMD52: Command timeout
+<3>[131630.545780] mmc1: CMD8: Command timeout
+<3>[131630.551304] mmc1: CMD5: Command timeout
+<3>[131630.557988] mmc1: CMD5: Command timeout
+<3>[131630.563573] mmc1: CMD5: Command timeout
+<3>[131630.569067] mmc1: CMD5: Command timeout
+<3>[131630.574621] mmc1: CMD55: Command timeout
+<3>[131630.580206] mmc1: CMD55: Command timeout
+<3>[131630.586005] mmc1: CMD55: Command timeout
+<3>[131630.591591] mmc1: CMD55: Command timeout
+<3>[131630.597145] mmc1: CMD1: Command timeout
+<6>[131630.887943] PM: suspend entry 2014-02-25 00:54:39.983853437 UTC
+<6>[131630.888218] PM: Syncing filesystems...
+<4>[131630.888218] Freezing user space processes ... 
+<6>[131630.904028] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131630.934426] (elapsed 0.04 seconds) done.
+<6>[131630.943368] sync done.
+<4>[131631.183625] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131631.204348] Suspending console(s) (use no_console_suspend to debug)
+<6>[131631.207187] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:36:39, d/m/y=6/3/70
+<4>[131631.281717] [VIB] Susepend 
+<6>[131631.285105] PM: suspend of devices complete after 79.374 msecs
+<6>[131631.285868] PM: late suspend of devices complete after 0.732 msecs
+<6>[131631.287486] power_suspend_late return 0
+<6>[131631.287516] PM: noirq suspend of devices complete after 1.616 msecs
+<4>[131631.287547] Disabling non-boot CPUs ...
+<6>[131631.293407] msm_pm_enter
+<6>[131631.293407] msm_pm_enter: power collapse
+<6>[131631.293407] Enabled clocks:
+<6>[131631.293407] 	afab_a_clk::1:1 [600000000]
+<6>[131631.293407] 	cfpb_a_clk::1:1 [32000000]
+<6>[131631.293407] 	ebi1_a_clk::1:1 [600000000]
+<6>[131631.293407] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131631.293407] 	sfab_a_clk::1:1 [54000000]
+<6>[131631.293407] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131631.293407] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131631.293407] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131631.293407] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131631.293407] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131631.293407] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131631.293407] 	dma_bam_p_clk:1:1 [0]
+<6>[131631.293407] Enabled clock count: 12
+<6>[131631.293407] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131631.293407] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131631.293407] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131631.293407] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131631.293407] msm_pm_enter: return
+<4>[131631.293407] msm_gpio_show_resume_irq: 104 triggered
+<4>[131631.293407] gic_show_resume_irq: 48 triggered
+<4>[131631.293407] gic_show_resume_irq: 52 triggered
+<6>[131631.293651] Enabling non-boot CPUs ...
+<6>[131631.297801] CPU1 is up
+<6>[131631.299053] PM: noirq resume of devices complete after 1.220 msecs
+<6>[131631.300487] wakeup wake lock: alarm_rtc
+<6>[131631.300518] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131631.301281] PM: early resume of devices complete after 0.701 msecs
+<6>[131631.302044] wake_lock: pm8921_soc_lock, stop expire timer
+<4>[131631.339523] [VIB] Resume 
+<6>[131631.339553] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131631.339584] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131631.339706] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131631.343368] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131631.346237] PM: resume of devices complete after 44.891 msecs
+<4>[131631.348557] Restarting tasks ... 
+<6>[131631.350815] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131631.351914] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131631.351945] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131631.358384] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131631.358415] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131631.360521] done.
+<6>[131631.365679] PM: suspend exit 2014-02-25 01:04:40.601355112 UTC
+<6>[131631.365709] suspend: exit suspend, ret = 0 (2014-02-25 01:04:40.601385605 UTC)
+<6>[131631.365770] active wake lock mmc1_detect
+<6>[131631.365770] active wake lock PowerManagerService.WakeLocks
+<6>[131631.365801] active wake lock sec-charger-monitor
+<6>[131631.365831] suspend: abort suspend
+<6>[131631.367998] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131631.368029] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131631.370165] update_heartbeat: soc(73/73), v(3992946), i(254600), temp(312), batt(1), absexpr(0), siop(100)
+<6>[131631.384296] healthd: battery l=73 v=3991 t=31.2 h=2 st=3 c=-277 o=1 ct=0 chg=
+<6>[131631.392476] healthd: battery l=73 v=4021 t=31.2 h=2 st=3 c=-226 o=1 ct=0 chg=
+<3>[131631.395100] mmc1: CMD52: Command timeout
+<3>[131631.400594] mmc1: CMD52: Command timeout
+<3>[131631.409414] mmc1: CMD8: Command timeout
+<3>[131631.415091] mmc1: CMD5: Command timeout
+<3>[131631.420615] mmc1: CMD5: Command timeout
+<3>[131631.426231] mmc1: CMD5: Command timeout
+<3>[131631.431694] mmc1: CMD5: Command timeout
+<3>[131631.437188] mmc1: CMD55: Command timeout
+<6>[131631.442407] healthd: battery l=73 v=3993 t=31.2 h=2 st=3 c=-247 o=1 ct=0 chg=
+<3>[131631.442743] mmc1: CMD55: Command timeout
+<3>[131631.448236] mmc1: CMD55: Command timeout
+<3>[131631.453822] mmc1: CMD55: Command timeout
+<3>[131631.459346] mmc1: CMD1: Command timeout
+<6>[131631.466945] PM: suspend entry 2014-02-25 01:04:40.702537455 UTC
+<6>[131631.466976] PM: Syncing filesystems...
+<4>[131631.478757] Freezing user space processes ... 
+<6>[131631.481046] wait_for_fb_wake_show, fb_state : 0 ==
+<6>[131631.493742] sync done.
+<6>[131631.493773] PM: Syncing filesystems...
+<6>[131631.496337] sync done.
+<4>[131631.504760] (elapsed 0.02 seconds) done.
+<4>[131631.504791] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[131631.524537] Suspending console(s) (use no_console_suspend to debug)
+<6>[131631.527345] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:46:41, d/m/y=6/3/70
+<4>[131631.596932] [VIB] Susepend 
+<6>[131632.234350] msm_thermal: Debug Temp for Sensors (0 --- 31)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<6>[131632.295451] PM: suspend of devices complete after 769.199 msecs
+<6>[131632.296214] PM: late suspend of devices complete after 0.732 msecs
+<6>[131632.297863] power_suspend_late return 0
+<6>[131632.297863] PM: noirq suspend of devices complete after 1.617 msecs
+<4>[131632.297924] Disabling non-boot CPUs ...
+<6>[131632.303692] msm_pm_enter
+<6>[131632.303692] msm_pm_enter: power collapse
+<6>[131632.303692] Enabled clocks:
+<6>[131632.303692] 	afab_a_clk::1:1 [600000000]
+<6>[131632.303692] 	cfpb_a_clk::1:1 [32000000]
+<6>[131632.303692] 	ebi1_a_clk::1:1 [600000000]
+<6>[131632.303692] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131632.303692] 	sfab_a_clk::1:1 [54000000]
+<6>[131632.303692] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131632.303692] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131632.303692] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131632.303692] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131632.303692] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131632.303692] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131632.303692] 	dma_bam_p_clk:1:1 [0]
+<6>[131632.303692] Enabled clock count: 12
+<6>[131632.303692] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131632.303692] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131632.303692] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131632.303692] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131632.303692] msm_pm_enter: return
+<4>[131632.303692] msm_gpio_show_resume_irq: 104 triggered
+<4>[131632.303692] gic_show_resume_irq: 48 triggered
+<4>[131632.303692] gic_show_resume_irq: 52 triggered
+<6>[131632.303875] Enabling non-boot CPUs ...
+<6>[131632.308056] CPU1 is up
+<6>[131632.309308] PM: noirq resume of devices complete after 1.250 msecs
+<6>[131632.310742] wakeup wake lock: alarm_rtc
+<6>[131632.310773] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131632.311536] PM: early resume of devices complete after 0.701 msecs
+<6>[131632.312299] wake_lock: pm8921_soc_lock, stop expire timer
+<4>[131632.350052] [VIB] Resume 
+<6>[131632.350083] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131632.350205] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131632.350235] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131632.353867] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131632.356736] PM: resume of devices complete after 45.141 msecs
+<4>[131632.359056] Restarting tasks ... 
+<4>[131632.360368] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131632.360399] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131632.362993] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131632.369341] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131632.369372] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131632.371478] done.
+<6>[131632.371600] PM: suspend exit 2014-02-25 01:14:42.596750911 UTC
+<6>[131632.371661] suspend: exit suspend, ret = 0 (2014-02-25 01:14:42.596781405 UTC)
+<6>[131632.371691] active wake lock mmc1_detect
+<6>[131632.371722] active wake lock PowerManagerService.WakeLocks
+<6>[131632.371752] active wake lock sec-charger-monitor
+<6>[131632.371783] active wake lock alarm, time left 499
+<6>[131632.371783] suspend: abort suspend
+<6>[131632.376727] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131632.376788] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131632.378009] update_heartbeat: soc(73/73), v(3978879), i(338900), temp(312), batt(1), absexpr(0), siop(100)
+<6>[131632.389881] healthd: battery l=73 v=3978 t=31.2 h=2 st=3 c=-353 o=1 ct=0 chg=
+<6>[131632.396901] healthd: battery l=73 v=3981 t=31.2 h=2 st=3 c=-347 o=1 ct=0 chg=
+<3>[131632.402975] mmc1: CMD52: Command timeout
+<3>[131632.408499] mmc1: CMD52: Command timeout
+<3>[131632.417319] mmc1: CMD8: Command timeout
+<6>[131632.422599] healthd: battery l=73 v=3980 t=31.2 h=2 st=3 c=-341 o=1 ct=0 chg=
+<3>[131632.422813] mmc1: CMD5: Command timeout
+<3>[131632.428398] mmc1: CMD5: Command timeout
+<3>[131632.433953] mmc1: CMD5: Command timeout
+<3>[131632.439447] mmc1: CMD5: Command timeout
+<3>[131632.445001] mmc1: CMD55: Command timeout
+<3>[131632.450586] mmc1: CMD55: Command timeout
+<3>[131632.456111] mmc1: CMD55: Command timeout
+<3>[131632.461635] mmc1: CMD55: Command timeout
+<3>[131632.467220] mmc1: CMD1: Command timeout
+<6>[131632.510437] PM: suspend entry 2014-02-25 01:14:42.735476494 UTC
+<6>[131632.510467] PM: Syncing filesystems...
+<4>[131632.521821] Freezing user space processes ... 
+<6>[131632.523469] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131632.545261] (elapsed 0.02 seconds) done.
+<6>[131632.555271] sync done.
+<6>[131632.555302] PM: Syncing filesystems...
+<6>[131632.557408] sync done.
+<4>[131632.794612] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131632.815183] Suspending console(s) (use no_console_suspend to debug)
+<6>[131632.817869] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:56:42, d/m/y=6/3/70
+<4>[131632.889805] [VIB] Susepend 
+<6>[131633.305920] PM: suspend of devices complete after 489.169 msecs
+<6>[131633.306622] PM: late suspend of devices complete after 0.671 msecs
+<6>[131633.308148] power_suspend_late return 0
+<6>[131633.308178] PM: noirq suspend of devices complete after 1.525 msecs
+<4>[131633.308209] Disabling non-boot CPUs ...
+<6>[131633.313733] msm_pm_enter
+<6>[131633.313733] msm_pm_enter: power collapse
+<6>[131633.313733] Enabled clocks:
+<6>[131633.313733] 	afab_a_clk::1:1 [600000000]
+<6>[131633.313733] 	cfpb_a_clk::1:1 [32000000]
+<6>[131633.313733] 	ebi1_a_clk::1:1 [600000000]
+<6>[131633.313733] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131633.313733] 	sfab_a_clk::1:1 [54000000]
+<6>[131633.313733] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131633.313733] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131633.313733] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131633.313733] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131633.313733] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131633.313733] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131633.313733] 	dma_bam_p_clk:1:1 [0]
+<6>[131633.313733] Enabled clock count: 12
+<6>[131633.313733] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131633.313733] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131633.313733] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131633.313733] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131633.313733] msm_pm_enter: return
+<4>[131633.313733] msm_gpio_show_resume_irq: 104 triggered
+<4>[131633.313733] gic_show_resume_irq: 48 triggered
+<4>[131633.313733] gic_show_resume_irq: 52 triggered
+<6>[131633.313916] Enabling non-boot CPUs ...
+<6>[131633.318036] CPU1 is up
+<6>[131633.319227] PM: noirq resume of devices complete after 1.159 msecs
+<6>[131633.320631] wakeup wake lock: alarm_rtc
+<6>[131633.320661] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131633.321363] PM: early resume of devices complete after 0.640 msecs
+<6>[131633.322096] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131633.356980] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131633.357011] wake_lock: power-supply, stop expire timer
+<4>[131633.360643] [VIB] Resume 
+<6>[131633.360643] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131633.360673] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131633.360704] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131633.364397] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131633.366747] PM: resume of devices complete after 45.324 msecs
+<4>[131633.368395] Restarting tasks ... 
+<4>[131633.369585] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131633.369677] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131633.372393] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131633.376330] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131633.376391] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131633.379505] done.
+<6>[131633.384785] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131633.384846] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131633.385181] PM: suspend exit 2014-02-25 01:24:43.600013753 UTC
+<6>[131633.385212] suspend: exit suspend, ret = 0 (2014-02-25 01:24:43.600044246 UTC)
+<6>[131633.385273] active wake lock mmc1_detect
+<6>[131633.385303] active wake lock sec-charger-monitor
+<6>[131633.385334] active wake lock alarm, time left 498
+<6>[131633.385364] suspend: abort suspend
+<6>[131633.386311] update_heartbeat: soc(73/73), v(3984153), i(288700), temp(311), batt(1), absexpr(0), siop(100)
+<6>[131633.390675] healthd: battery l=73 v=3980 t=31.1 h=2 st=3 c=-288 o=1 ct=0 chg=
+<6>[131633.402944] healthd: battery l=73 v=3981 t=31.1 h=2 st=3 c=-316 o=1 ct=0 chg=
+<3>[131633.413046] mmc1: CMD52: Command timeout
+<3>[131633.418601] mmc1: CMD52: Command timeout
+<3>[131633.427452] mmc1: CMD8: Command timeout
+<3>[131633.432946] mmc1: CMD5: Command timeout
+<3>[131633.438470] mmc1: CMD5: Command timeout
+<3>[131633.444025] mmc1: CMD5: Command timeout
+<3>[131633.449518] mmc1: CMD5: Command timeout
+<3>[131633.455012] mmc1: CMD55: Command timeout
+<3>[131633.460567] mmc1: CMD55: Command timeout
+<3>[131633.466091] mmc1: CMD55: Command timeout
+<3>[131633.471584] mmc1: CMD55: Command timeout
+<3>[131633.477261] mmc1: CMD1: Command timeout
+<6>[131633.484830] PM: suspend entry 2014-02-25 01:24:43.699580002 UTC
+<6>[131633.484891] PM: Syncing filesystems...
+<4>[131633.504852] Freezing user space processes ... 
+<6>[131633.507110] wait_for_fb_wake_show, fb_state : 0 ==
+<6>[131633.525087] sync done.
+<4>[131633.525422] (elapsed 0.02 seconds) done.
+<4>[131633.525453] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131633.545627] Suspending console(s) (use no_console_suspend to debug)
+<6>[131633.548435] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=5:58:41, d/m/y=6/3/70
+<4>[131633.618265] [VIB] Susepend 
+<6>[131634.316480] PM: suspend of devices complete after 769.169 msecs
+<6>[131634.317243] PM: late suspend of devices complete after 0.732 msecs
+<6>[131634.318891] power_suspend_late return 0
+<6>[131634.318891] PM: noirq suspend of devices complete after 1.617 msecs
+<4>[131634.318952] Disabling non-boot CPUs ...
+<6>[131634.325148] msm_pm_enter
+<6>[131634.325148] msm_pm_enter: power collapse
+<6>[131634.325148] Enabled clocks:
+<6>[131634.325148] 	afab_a_clk::1:1 [600000000]
+<6>[131634.325148] 	cfpb_a_clk::1:1 [32000000]
+<6>[131634.325148] 	ebi1_a_clk::1:1 [600000000]
+<6>[131634.325148] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131634.325148] 	sfab_a_clk::1:1 [54000000]
+<6>[131634.325148] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131634.325148] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131634.325148] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131634.325148] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131634.325148] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131634.325148] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131634.325148] 	dma_bam_p_clk:1:1 [0]
+<6>[131634.325148] Enabled clock count: 12
+<6>[131634.325148] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131634.325148] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131634.325148] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131634.325148] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131634.325148] msm_pm_enter: return
+<4>[131634.325148] msm_gpio_show_resume_irq: 104 triggered
+<4>[131634.325148] gic_show_resume_irq: 48 triggered
+<4>[131634.325148] gic_show_resume_irq: 52 triggered
+<6>[131634.325361] Enabling non-boot CPUs ...
+<6>[131634.329543] CPU1 is up
+<6>[131634.330794] PM: noirq resume of devices complete after 1.220 msecs
+<6>[131634.332259] wakeup wake lock: alarm_rtc
+<6>[131634.332259] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131634.333053] PM: early resume of devices complete after 0.701 msecs
+<6>[131634.333785] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131634.367480] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131634.367510] wake_lock: power-supply, stop expire timer
+<4>[131634.371081] [VIB] Resume 
+<6>[131634.371111] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131634.371142] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131634.371172] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131634.374926] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131634.377399] PM: resume of devices complete after 44.281 msecs
+<4>[131634.379138] Restarting tasks ... 
+<4>[131634.380634] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131634.380695] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131634.383747] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131634.387898] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131634.387959] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131634.390400] done.
+<6>[131634.390553] PM: suspend exit 2014-02-25 01:26:42.594798995 UTC
+<6>[131634.390614] suspend: exit suspend, ret = 0 (2014-02-25 01:26:42.594829489 UTC)
+<6>[131634.390644] active wake lock mmc1_detect
+<6>[131634.390675] active wake lock KeyEvents
+<6>[131634.390706] active wake lock sec-charger-monitor
+<6>[131634.390706] active wake lock event11-912
+<6>[131634.390736] active wake lock event10-912
+<6>[131634.390767] active wake lock event9-912
+<6>[131634.390797] active wake lock event7-912
+<6>[131634.390797] active wake lock event0-912
+<6>[131634.390828] active wake lock alarm_rtc, time left 94
+<6>[131634.390858] active wake lock alarm, time left 499
+<6>[131634.391163] suspend: abort suspend
+<6>[131634.393574] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131634.393635] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131634.394917] update_heartbeat: soc(73/73), v(3997047), i(211800), temp(311), batt(1), absexpr(0), siop(100)
+<6>[131634.408713] healthd: battery l=73 v=3997 t=31.1 h=2 st=3 c=-251 o=1 ct=0 chg=
+<6>[131634.418326] healthd: battery l=73 v=3990 t=31.1 h=2 st=3 c=-280 o=1 ct=0 chg=
+<3>[131634.422386] mmc1: CMD52: Command timeout
+<3>[131634.427910] mmc1: CMD52: Command timeout
+<3>[131634.436761] mmc1: CMD8: Command timeout
+<3>[131634.442285] mmc1: CMD5: Command timeout
+<3>[131634.447779] mmc1: CMD5: Command timeout
+<3>[131634.453364] mmc1: CMD5: Command timeout
+<3>[131634.458919] mmc1: CMD5: Command timeout
+<3>[131634.464412] mmc1: CMD55: Command timeout
+<3>[131634.469997] mmc1: CMD55: Command timeout
+<3>[131634.475491] mmc1: CMD55: Command timeout
+<3>[131634.481015] mmc1: CMD55: Command timeout
+<3>[131634.486601] mmc1: CMD1: Command timeout
+<6>[131634.636913] PM: suspend entry 2014-02-25 01:26:42.840982044 UTC
+<6>[131634.636974] PM: Syncing filesystems...
+<4>[131634.637371] Freezing user space processes ... 
+<6>[131634.646283] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131634.666427] (elapsed 0.02 seconds) done.
+<6>[131634.677444] sync done.
+<4>[131634.915564] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131634.936715] Suspending console(s) (use no_console_suspend to debug)
+<6>[131634.941079] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=6:8:42, d/m/y=6/3/70
+<4>[131635.018052] [VIB] Susepend 
+<6>[131635.021409] PM: suspend of devices complete after 82.666 msecs
+<6>[131635.022111] PM: late suspend of devices complete after 0.671 msecs
+<6>[131635.023729] power_suspend_late return 0
+<6>[131635.023759] PM: noirq suspend of devices complete after 1.586 msecs
+<4>[131635.023790] Disabling non-boot CPUs ...
+<6>[131635.030565] msm_pm_enter
+<6>[131635.030565] msm_pm_enter: power collapse
+<6>[131635.030565] Enabled clocks:
+<6>[131635.030565] 	afab_a_clk::1:1 [600000000]
+<6>[131635.030565] 	cfpb_a_clk::1:1 [32000000]
+<6>[131635.030565] 	ebi1_a_clk::1:1 [600000000]
+<6>[131635.030565] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131635.030565] 	sfab_a_clk::1:1 [54000000]
+<6>[131635.030565] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131635.030565] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131635.030565] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131635.030565] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131635.030565] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131635.030565] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131635.030565] 	dma_bam_p_clk:1:1 [0]
+<6>[131635.030565] Enabled clock count: 12
+<6>[131635.030565] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131635.030565] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131635.030565] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131635.030565] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131635.030565] msm_pm_enter: return
+<4>[131635.030565] msm_gpio_show_resume_irq: 104 triggered
+<4>[131635.030565] gic_show_resume_irq: 48 triggered
+<4>[131635.030565] gic_show_resume_irq: 52 triggered
+<6>[131635.030748] Enabling non-boot CPUs ...
+<6>[131635.034991] CPU1 is up
+<6>[131635.036272] PM: noirq resume of devices complete after 1.281 msecs
+<6>[131635.037707] wakeup wake lock: alarm_rtc
+<6>[131635.037737] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131635.038500] PM: early resume of devices complete after 0.701 msecs
+<6>[131635.041125] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131635.077902] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131635.077933] wake_lock: power-supply, stop expire timer
+<4>[131635.081595] [VIB] Resume 
+<6>[131635.081595] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131635.081626] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131635.081656] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131635.085410] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131635.087882] PM: resume of devices complete after 49.315 msecs
+<4>[131635.089653] Restarting tasks ... 
+<4>[131635.093284] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131635.093407] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131635.095451] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131635.097863] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131635.097893] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131635.101159] done.
+<6>[131635.101311] PM: suspend exit 2014-02-25 01:36:43.595043550 UTC
+<6>[131635.101342] suspend: exit suspend, ret = 0 (2014-02-25 01:36:43.595104541 UTC)
+<6>[131635.101403] active wake lock mmc1_detect
+<6>[131635.101403] active wake lock sec-charger-monitor
+<6>[131635.101433] active wake lock alarm, time left 499
+<6>[131635.101464] suspend: abort suspend
+<6>[131635.103539] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131635.103600] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131635.104821] update_heartbeat: soc(73/73), v(3999687), i(209500), temp(311), batt(1), absexpr(0), siop(100)
+<6>[131635.117823] healthd: battery l=73 v=3996 t=31.1 h=2 st=3 c=-236 o=1 ct=0 chg=
+<6>[131635.130611] healthd: battery l=73 v=3994 t=31.1 h=2 st=3 c=-238 o=1 ct=0 chg=
+<3>[131635.133785] mmc1: CMD52: Command timeout
+<3>[131635.139279] mmc1: CMD52: Command timeout
+<3>[131635.148160] mmc1: CMD8: Command timeout
+<3>[131635.153654] mmc1: CMD5: Command timeout
+<3>[131635.159178] mmc1: CMD5: Command timeout
+<3>[131635.164702] mmc1: CMD5: Command timeout
+<3>[131635.170226] mmc1: CMD5: Command timeout
+<3>[131635.175751] mmc1: CMD55: Command timeout
+<3>[131635.181305] mmc1: CMD55: Command timeout
+<3>[131635.186829] mmc1: CMD55: Command timeout
+<3>[131635.192323] mmc1: CMD55: Command timeout
+<3>[131635.198000] mmc1: CMD1: Command timeout
+<6>[131635.210605] PM: suspend entry 2014-02-25 01:36:43.704278079 UTC
+<6>[131635.210635] PM: Syncing filesystems...
+<4>[131635.272286] Freezing user space processes ... 
+<6>[131635.275125] wait_for_fb_wake_show, fb_state : 0 ==
+<6>[131635.295451] sync done.
+<6>[131635.295482] PM: Syncing filesystems...
+<4>[131635.296703] (elapsed 0.02 seconds) done.
+<6>[131635.299602] sync done.
+<4>[131635.545993] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131635.566655] Suspending console(s) (use no_console_suspend to debug)
+<6>[131635.569494] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=6:18:22, d/m/y=6/3/70
+<4>[131635.642407] [VIB] Susepend 
+<6>[131636.037463] PM: suspend of devices complete after 469.184 msecs
+<6>[131636.038226] PM: late suspend of devices complete after 0.732 msecs
+<6>[131636.039843] power_suspend_late return 0
+<6>[131636.039874] PM: noirq suspend of devices complete after 1.617 msecs
+<4>[131636.039904] Disabling non-boot CPUs ...
+<6>[131636.046436] msm_pm_enter
+<6>[131636.046436] msm_pm_enter: power collapse
+<6>[131636.046436] Enabled clocks:
+<6>[131636.046436] 	afab_a_clk::1:1 [600000000]
+<6>[131636.046436] 	cfpb_a_clk::1:1 [32000000]
+<6>[131636.046436] 	ebi1_a_clk::1:1 [600000000]
+<6>[131636.046436] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131636.046436] 	sfab_a_clk::1:1 [54000000]
+<6>[131636.046436] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [600000000] -> afab_a_clk:1:1 [600000000]
+<6>[131636.046436] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131636.046436] 	ebi1_msmbus_a_clk:msm_bus:1:1 [600000000] -> ebi1_a_clk:1:1 [600000000]
+<6>[131636.046436] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131636.046436] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131636.046436] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131636.046436] 	dma_bam_p_clk:1:1 [0]
+<6>[131636.046436] Enabled clock count: 12
+<6>[131636.046436] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131636.046436] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131636.046436] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131636.046436] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131636.046436] msm_pm_enter: return
+<4>[131636.046436] msm_gpio_show_resume_irq: 104 triggered
+<4>[131636.046436] gic_show_resume_irq: 48 triggered
+<4>[131636.046436] gic_show_resume_irq: 52 triggered
+<6>[131636.046619] Enabling non-boot CPUs ...
+<6>[131636.050892] CPU1 is up
+<6>[131636.052143] PM: noirq resume of devices complete after 1.220 msecs
+<6>[131636.053577] wakeup wake lock: alarm_rtc
+<6>[131636.053608] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131636.054371] PM: early resume of devices complete after 0.701 msecs
+<6>[131636.055103] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131636.088462] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131636.088493] wake_lock: power-supply, stop expire timer
+<4>[131636.092064] [VIB] Resume 
+<6>[131636.092094] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131636.092125] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131636.092155] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131636.095909] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131636.098381] PM: resume of devices complete after 43.959 msecs
+<4>[131636.100121] Restarting tasks ... 
+<4>[131636.101861] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131636.101922] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131636.106622] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131636.107995] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131636.108026] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131636.111353] done.
+<6>[131636.116602] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131636.116633] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<6>[131636.116846] PM: suspend exit 2014-02-25 01:46:23.600104204 UTC
+<6>[131636.116877] suspend: exit suspend, ret = 0 (2014-02-25 01:46:23.600134696 UTC)
+<6>[131636.116938] active wake lock mmc1_detect
+<6>[131636.116968] active wake lock PowerManagerService.WakeLocks
+<6>[131636.116999] active wake lock sec-charger-monitor
+<6>[131636.116999] active wake lock alarm_rtc, time left 93
+<6>[131636.117029] suspend: abort suspend
+<6>[131636.118036] update_heartbeat: soc(73/73), v(3997047), i(213000), temp(312), batt(1), absexpr(0), siop(100)
+<6>[131636.126796] healthd: battery l=73 v=3995 t=31.2 h=2 st=3 c=-222 o=1 ct=0 chg=
+<3>[131636.144894] mmc1: CMD52: Command timeout
+<6>[131636.145291] healthd: battery l=73 v=3993 t=31.2 h=2 st=3 c=-252 o=1 ct=0 chg=
+<3>[131636.150449] mmc1: CMD52: Command timeout
+<3>[131636.159300] mmc1: CMD8: Command timeout
+<3>[131636.164794] mmc1: CMD5: Command timeout
+<3>[131636.170379] mmc1: CMD5: Command timeout
+<3>[131636.175934] mmc1: CMD5: Command timeout
+<3>[131636.181427] mmc1: CMD5: Command timeout
+<3>[131636.186921] mmc1: CMD55: Command timeout
+<3>[131636.192506] mmc1: CMD55: Command timeout
+<3>[131636.198000] mmc1: CMD55: Command timeout
+<3>[131636.203494] mmc1: CMD55: Command timeout
+<3>[131636.209140] mmc1: CMD1: Command timeout
+<6>[131636.227727] wake_unlock: PowerManagerService.WakeLocks, start expire timer, 82
+<6>[131636.490324] wake_lock: alarm, start expire timer, 500
+<6>[131636.490385] wake_unlock: alarm_rtc, start expire timer, 500
+<6>[131636.494017] wake_lock: PowerManagerService.WakeLocks, stop expire timer
+<6>[131636.517335] PM: suspend entry 2014-02-25 01:46:24.000281818 UTC
+<6>[131636.517396] PM: Syncing filesystems...
+<6>[131636.526735] sync done.
+<6>[131636.526826] PM: Syncing filesystems...
+<6>[131636.538088] sync done.
+<4>[131636.590492] Freezing user space processes ... 
+<6>[131636.595467] wait_for_fb_wake_show, fb_state : 0 ==
+<6>[131636.612711] active wake lock PowerManagerService.WakeLocks
+<4>[131636.612802] 
+<3>[131636.612833] Freezing of user space  aborted
+<4>[131636.613107] 
+<4>[131636.613138] Restarting tasks ... 
+<4>[131636.615305] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131636.615427] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131636.621836] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131636.626536] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131636.626659] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131636.629222] done.
+<6>[131636.629619] PM: suspend exit 2014-02-25 01:46:24.112502941 UTC
+<6>[131636.629711] suspend: exit suspend, ret = -16 (2014-02-25 01:46:24.112624959 UTC)
+<3>[131636.659193] mmc1: CMD52: Command timeout
+<3>[131636.665023] mmc1: CMD52: Command timeout
+<3>[131636.674270] mmc1: CMD8: Command timeout
+<3>[131636.680222] mmc1: CMD5: Command timeout
+<3>[131636.685960] mmc1: CMD5: Command timeout
+<3>[131636.691728] mmc1: CMD5: Command timeout
+<3>[131636.698168] mmc1: CMD5: Command timeout
+<3>[131636.703936] mmc1: CMD55: Command timeout
+<3>[131636.709704] mmc1: CMD55: Command timeout
+<3>[131636.715656] mmc1: CMD55: Command timeout
+<3>[131636.721485] mmc1: CMD55: Command timeout
+<3>[131636.727345] mmc1: CMD1: Command timeout
+<6>[131637.152799] PM: suspend entry 2014-02-25 01:46:24.635501113 UTC
+<6>[131637.152830] PM: Syncing filesystems...
+<4>[131637.153165] Freezing user space processes ... 
+<6>[131637.157682] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131637.188050] (elapsed 0.03 seconds) done.
+<6>[131637.209964] sync done.
+<6>[131637.210025] PM: Syncing filesystems...
+<6>[131637.213504] sync done.
+<6>[131637.246955] msm_thermal: Debug Temp for Sensors (0 --- 30)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131637.458217] Suspending console(s) (use no_console_suspend to debug)
+<6>[131637.463741] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=6:28:24, d/m/y=6/3/70
+<4>[131637.545566] [VIB] Susepend 
+<6>[131637.550174] PM: suspend of devices complete after 89.413 msecs
+<6>[131637.551731] PM: late suspend of devices complete after 1.495 msecs
+<6>[131637.554966] power_suspend_late return 0
+<6>[131637.555027] PM: noirq suspend of devices complete after 3.204 msecs
+<4>[131637.555058] Disabling non-boot CPUs ...
+<6>[131637.565099] msm_pm_enter
+<6>[131637.565099] msm_pm_enter: power collapse
+<6>[131637.565099] Enabled clocks:
+<6>[131637.565099] 	afab_a_clk::1:1 [133000000]
+<6>[131637.565099] 	cfpb_a_clk::1:1 [32000000]
+<6>[131637.565099] 	ebi1_a_clk::1:1 [133000000]
+<6>[131637.565099] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131637.565099] 	sfab_a_clk::1:1 [54000000]
+<6>[131637.565099] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [133000000] -> afab_a_clk:1:1 [133000000]
+<6>[131637.565099] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131637.565099] 	ebi1_msmbus_a_clk:msm_bus:1:1 [133000000] -> ebi1_a_clk:1:1 [133000000]
+<6>[131637.565099] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131637.565099] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131637.565099] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131637.565099] 	dma_bam_p_clk:1:1 [0]
+<6>[131637.565099] Enabled clock count: 12
+<6>[131637.565099] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131637.565099] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131637.565099] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131637.565099] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131637.565099] msm_pm_enter: return
+<4>[131637.565099] msm_gpio_show_resume_irq: 104 triggered
+<4>[131637.565099] gic_show_resume_irq: 48 triggered
+<4>[131637.565099] gic_show_resume_irq: 52 triggered
+<6>[131637.565801] Enabling non-boot CPUs ...
+<6>[131637.575049] CPU1 is up
+<6>[131637.577277] PM: noirq resume of devices complete after 2.166 msecs
+<6>[131637.579443] wakeup wake lock: alarm_rtc
+<6>[131637.579505] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131637.581153] PM: early resume of devices complete after 1.494 msecs
+<6>[131637.582221] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131637.619303] wake_unlock: pm8921_soc_lock, start expire timer, 96
+<6>[131637.619364] wake_lock: power-supply, stop expire timer
+<4>[131637.623637] [VIB] Resume 
+<6>[131637.623668] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131637.623729] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131637.623790] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131637.629680] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131637.633709] PM: resume of devices complete after 52.485 msecs
+<4>[131637.637432] Restarting tasks ... 
+<4>[131637.639416] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131637.639477] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131637.644452] wait_for_fb_wake_show, fb_state : 0 ++
+<4>[131637.654035] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131637.654096] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131637.662001] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131637.662093] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<4>[131637.662245] done.
+<6>[131637.667342] update_heartbeat: soc(73/73), v(4011993), i(145200), temp(312), batt(1), absexpr(0), siop(100)
+<6>[131637.667922] PM: suspend exit 2014-02-25 01:56:25.616876478 UTC
+<6>[131637.667983] suspend: exit suspend, ret = 0 (2014-02-25 01:56:25.616937464 UTC)
+<6>[131637.668105] active wake lock power-supply
+<6>[131637.668136] active wake lock mmc1_detect
+<6>[131637.668197] active wake lock PowerManagerService.WakeLocks
+<6>[131637.668227] suspend: abort suspend
+<6>[131637.675918] healthd: battery l=73 v=4008 t=31.2 h=2 st=3 c=-152 o=1 ct=0 chg=
+<6>[131637.685410] healthd: battery l=73 v=4009 t=31.2 h=2 st=3 c=-168 o=1 ct=0 chg=
+<3>[131637.697008] mmc1: CMD52: Command timeout
+<3>[131637.702685] mmc1: CMD52: Command timeout
+<3>[131637.711749] mmc1: CMD8: Command timeout
+<3>[131637.717701] mmc1: CMD5: Command timeout
+<3>[131637.723317] mmc1: CMD5: Command timeout
+<3>[131637.729024] mmc1: CMD5: Command timeout
+<3>[131637.734792] mmc1: CMD5: Command timeout
+<3>[131637.740438] mmc1: CMD55: Command timeout
+<3>[131637.746054] mmc1: CMD55: Command timeout
+<3>[131637.751823] mmc1: CMD55: Command timeout
+<3>[131637.757438] mmc1: CMD55: Command timeout
+<3>[131637.763115] mmc1: CMD1: Command timeout
+<6>[131637.832610] PM: suspend entry 2014-02-25 01:56:25.781471968 UTC
+<6>[131637.832702] PM: Syncing filesystems...
+<6>[131637.837249] sync done.
+<4>[131637.897588] Freezing user space processes ... 
+<6>[131637.900762] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131637.938729] (elapsed 0.04 seconds) done.
+<4>[131637.938790] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[131637.958537] Suspending console(s) (use no_console_suspend to debug)
+<6>[131637.964061] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=6:30:23, d/m/y=6/3/70
+<4>[131638.034594] [VIB] Susepend 
+<6>[131638.589454] PM: suspend of devices complete after 628.087 msecs
+<6>[131638.591072] PM: late suspend of devices complete after 1.525 msecs
+<6>[131638.594307] power_suspend_late return 0
+<6>[131638.594368] PM: noirq suspend of devices complete after 3.234 msecs
+<4>[131638.594429] Disabling non-boot CPUs ...
+<6>[131638.612528] msm_pm_enter
+<6>[131638.612528] msm_pm_enter: power collapse
+<6>[131638.612528] Enabled clocks:
+<6>[131638.612528] 	afab_a_clk::1:1 [133000000]
+<6>[131638.612528] 	cfpb_a_clk::1:1 [32000000]
+<6>[131638.612528] 	ebi1_a_clk::1:1 [133000000]
+<6>[131638.612528] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131638.612528] 	sfab_a_clk::1:1 [54000000]
+<6>[131638.612528] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [133000000] -> afab_a_clk:1:1 [133000000]
+<6>[131638.612528] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131638.612528] 	ebi1_msmbus_a_clk:msm_bus:1:1 [133000000] -> ebi1_a_clk:1:1 [133000000]
+<6>[131638.612528] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131638.612528] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131638.612528] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131638.612528] 	dma_bam_p_clk:1:1 [0]
+<6>[131638.612528] Enabled clock count: 12
+<6>[131638.612528] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131638.612528] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131638.612528] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131638.612528] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131638.612528] msm_pm_enter: return
+<4>[131638.612528] msm_gpio_show_resume_irq: 104 triggered
+<4>[131638.612528] gic_show_resume_irq: 48 triggered
+<4>[131638.612528] gic_show_resume_irq: 52 triggered
+<6>[131638.613168] Enabling non-boot CPUs ...
+<6>[131638.623851] CPU1 is up
+<6>[131638.625773] PM: noirq resume of devices complete after 1.891 msecs
+<6>[131638.627879] wakeup wake lock: alarm_rtc
+<6>[131638.627910] wake_lock: alarm_rtc, start expire timer, 100
+<6>[131638.629436] PM: early resume of devices complete after 1.403 msecs
+<6>[131638.630474] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131638.659743] wake_unlock: pm8921_soc_lock, start expire timer, 97
+<6>[131638.659804] wake_lock: power-supply, stop expire timer
+<4>[131638.663771] [VIB] Resume 
+<6>[131638.663924] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131638.663985] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131638.664046] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131638.669692] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+<6>[131638.673507] PM: resume of devices complete after 43.981 msecs
+<4>[131638.676926] Restarting tasks ... 
+<4>[131638.679459] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131638.679489] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<4>[131638.691423] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131638.691484] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131638.691728] wait_for_fb_wake_show, fb_state : 0 ++
+<6>[131638.699328] tsu6721_monitor lastINT[2][0] lastDev[4][0][2] currDev[0][0][0] callState[0][0]
+<6>[131638.699419] update_heartbeat: health(1),stat(2),chgen(0),fsm(3),cable(0),extchg(0)
+<4>[131638.699572] done.
+<6>[131638.704241] update_heartbeat: soc(73/73), v(3999099), i(218000), temp(312), batt(1), absexpr(0), siop(100)
+<6>[131638.706256] PM: suspend exit 2014-02-25 01:58:24.615320602 UTC
+<6>[131638.706317] suspend: exit suspend, ret = 0 (2014-02-25 01:58:24.615381585 UTC)
+<6>[131638.706408] active wake lock power-supply
+<6>[131638.706439] active wake lock mmc1_detect
+<6>[131638.706469] active wake lock PowerManagerService.WakeLocks
+<6>[131638.706530] active wake lock alarm, time left 497
+<6>[131638.708392] suspend: abort suspend
+<3>[131638.735769] mmc1: CMD52: Command timeout
+<3>[131638.741629] mmc1: CMD52: Command timeout
+<3>[131638.750724] mmc1: CMD8: Command timeout
+<3>[131638.756492] mmc1: CMD5: Command timeout
+<6>[131638.757560] healthd: battery l=73 v=3999 t=31.2 h=2 st=3 c=-174 o=1 ct=0 chg=
+<3>[131638.762108] mmc1: CMD5: Command timeout
+<3>[131638.767724] mmc1: CMD5: Command timeout
+<3>[131638.773492] mmc1: CMD5: Command timeout
+<3>[131638.779108] mmc1: CMD55: Command timeout
+<3>[131638.784724] mmc1: CMD55: Command timeout
+<3>[131638.790461] mmc1: CMD55: Command timeout
+<6>[131638.794490] healthd: battery l=73 v=3998 t=31.2 h=2 st=3 c=-189 o=1 ct=0 chg=
+<3>[131638.796077] mmc1: CMD55: Command timeout
+<3>[131638.801754] mmc1: CMD1: Command timeout
+<6>[131639.075308] PM: suspend entry 2014-02-25 01:58:24.984128832 UTC
+<6>[131639.075430] PM: Syncing filesystems...
+<4>[131639.084098] Freezing user space processes ... 
+<6>[131639.087608] wait_for_fb_wake_show, fb_state : 0 ==
+<4>[131639.119440] (elapsed 0.03 seconds) done.
+<6>[131639.127498] sync done.
+<4>[131639.367876] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[131639.389118] Suspending console(s) (use no_console_suspend to debug)
+<6>[131639.394582] rtc-pm8xxx rtc-pm8xxx: Alarm Set for h:r:s=6:40:24, d/m/y=6/3/70
+<4>[131639.474820] [VIB] Susepend 
+<6>[131639.479428] PM: suspend of devices complete after 87.702 msecs
+<6>[131639.481015] PM: late suspend of devices complete after 1.494 msecs
+<6>[131639.484250] power_suspend_late return 0
+<6>[131639.484281] PM: noirq suspend of devices complete after 3.233 msecs
+<4>[131639.484342] Disabling non-boot CPUs ...
+<6>[131639.494383] msm_pm_enter
+<6>[131639.494383] msm_pm_enter: power collapse
+<6>[131639.494383] Enabled clocks:
+<6>[131639.494383] 	afab_a_clk::1:1 [133000000]
+<6>[131639.494383] 	cfpb_a_clk::1:1 [32000000]
+<6>[131639.494383] 	ebi1_a_clk::1:1 [133000000]
+<6>[131639.494383] 	mmfpb_a_clk::1:1 [38400000]
+<6>[131639.494383] 	sfab_a_clk::1:1 [54000000]
+<6>[131639.494383] 	afab_msmbus_a_clk:msm_apps_fab:1:1 [133000000] -> afab_a_clk:1:1 [133000000]
+<6>[131639.494383] 	cfpb_a_clk:msm_cpss_fpb:1:1 [32000000]
+<6>[131639.494383] 	ebi1_msmbus_a_clk:msm_bus:1:1 [133000000] -> ebi1_a_clk:1:1 [133000000]
+<6>[131639.494383] 	mmfpb_a_clk:clock-8960:1:1 [38400000]
+<6>[131639.494383] 	cfpb_a_clk:clock-8960:1:1 [32000000]
+<6>[131639.494383] 	pmem_clk:msm_sps:1:1 [0]
+<6>[131639.494383] 	dma_bam_p_clk:1:1 [0]
+<6>[131639.494383] Enabled clock count: 12
+<6>[131639.494383] msm_mpm_irqs_detectable: cannot monitor 000000,00000000,00000000,00000000,00000000,00000000,00020000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+<6>[131639.494383] msm_rpmrs_aggregate_pxo: 0 (0x0)
+<6>[131639.494383] msm_rpmrs_aggregate_vdd_mem: vdd 750000 (0xb71b0)
+<6>[131639.494383] msm_rpmrs_aggregate_vdd_dig: vdd 0 (0x0)
+<6>[131639.494383] msm_pm_enter: return
+<4>[131639.494383] msm_gpio_show_resume_irq: 104 triggered
+<4>[131639.494383] gic_show_resume_irq: 48 triggered
+<4>[131639.494383] gic_show_resume_irq: 52 triggered
+<6>[131639.495024] Enabling non-boot CPUs ...
+<6>[131639.504028] CPU1 is up
+<6>[131639.506103] PM: noirq resume of devices complete after 2.043 msecs
+<6>[131639.508178] usbin_valid_irq_handler: usbin_valid_irq_handler: activated =====================
+<6>[131639.508270] wakeup wake lock: sec-charger-cable
+<6>[131639.508300] wake_lock: sec-charger-cable, start expire timer, 500
+<6>[131639.509979] PM: early resume of devices complete after 1.494 msecs
+<6>[131639.511017] wake_lock: pm8921_soc_lock, stop expire timer
+<6>[131639.540316] wake_unlock: pm8921_soc_lock, start expire timer, 497
+<6>[131639.540377] wake_lock: power-supply, stop expire timer
+<4>[131639.544528] [VIB] Resume 
+<6>[131639.544589] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[131639.544650] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[131639.544711] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[131639.550541] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+<6>[131639.550602] tsu6721_attach_dev Save state
+<6>[131639.550632] [MUIC] Incompatible Charger Connected
+<6>[131639.550693] tsu6721_callback Charger is attached
+<6>[131639.550754] handle_cable_insertion_removal: batt_present = 1
+<6>[131639.550846] handle_usb_insertion_removal: handle_usb_insertion_removal : usb_present(1)
+<3>[131639.551090] power_supply usb: driver failed to report `health' property: 4294967274
+<6>[131639.551578] handle_cable_insertion_removal: handle_cable_insertion_removal : TA is inserted, chg_current 1000, batt_present(1)
+<6>[131639.673690] tsu6721_irq_thread is called
+<6>[131639.753074] __pm8921_charger_vbus_draw: __pm8921_charger_vbus_draw: vbus is changed (500)--------
+<3>[131639.753196] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+<3>[131639.753288] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (1500mA)--------
+<6>[131639.753349] pm_chg_ibatmax_set: pm_chg_ibatmax_set : ibat is chagned (1500)---------
+<3>[131639.753715] power_supply usb: driver failed to report `health' property: 4294967274
+<6>[131639.756523] tsu6721 15-0025: tsu6721_irq_thread: intr : 0x1 intr2 : 0x0
+<6>[131639.757957] pm_abs_time_management: pm_abs_time_management: Charging Time : 0 secs (rechg:0)
+<6>[131639.762840] tsu6721_monitor lastINT[1][0] lastDev[0][0][2] currDev[4][0][2] callState[11][0]
+<6>[131639.762901] update_heartbeat: health(1),stat(1),chgen(1),fsm(1),cable(2),extchg(0)
+<6>[131639.764214] update_heartbeat: soc(73/73), v(4037784), i(0), temp(313), batt(1), absexpr(0), siop(100)
+<6>[131639.764641] PM: resume of devices complete after 254.424 msecs
+<4>[131639.771264] Restarting tasks ... 
+<4>[131639.773278] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131639.773339] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131639.776758] wait_for_fb_wake_show, fb_state : 0 ++
+<3>[131639.788539] tsu6721 15-0025: dev1: 0x4, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+<6>[131639.788935] tsu6721_attach_dev Save state
+<6>[131639.788966] [MUIC] USB Connected
+<6>[131639.789027] tsu6721_callback USB Cable is attached
+<6>[131639.789088] handle_cable_insertion_removal: batt_present = 1
+<6>[131639.789149] handle_cable_insertion_removal: handle_cable_insertion_removal : USB is inserted, chg_current 500, batt_present(1)
+<6>[131639.789271] __pm8921_charger_vbus_draw: __pm8921_charger_vbus_draw: vbus is changed (500)--------
+<3>[131639.789393] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+<3>[131639.789668] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (475mA)--------
+<6>[131639.790065] pm_chg_ibatmax_set: pm_chg_ibatmax_set : ibat is chagned (475)---------
+<4>[131639.793788] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+<3>[131639.793849] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+<6>[131639.797634] pm_abs_time_management: pm_abs_time_management: Charging Time : 0 secs (rechg:0)
+<3>[131639.798000] power_supply usb: driver failed to report `health' property: 4294967274
+<6>[131639.799587] msm_hsusb_config_vddcx 189: msm_hsusb_config_vddcx: min_vol:3 max_vol:4
+<6>[131639.799678] msm_otg msm_otg: USB exited from low power mode
+<4>[131639.801449] done.
+<6>[131639.806515] get_prop_batt_status: get_prop_batt_status: Full charged 1,1,1,1
+<3>[131639.806576] get_prop_batt_status: get_prop_batt_status: Not enough charging SOC:73,4038mV
+<6>[131639.809018] tsu6721_monitor lastINT[1][0] lastDev[4][0][2] currDev[4][0][2] callState[0][0]
+<6>[131639.809109] update_heartbeat: health(1),stat(1),chgen(1),fsm(1),cable(1),extchg(0)
+<6>[131639.809506] PM: suspend exit 2014-02-25 02:01:36.630850826 UTC
+<6>[131639.809598] suspend: exit suspend, ret = 0 (2014-02-25 02:01:36.630911813 UTC)
+<6>[131639.809689] active wake lock power-supply
+<6>[131639.809720] active wake lock mmc1_detect
+<6>[131639.809750] active wake lock msm_otg
+<6>[131639.809811] active wake lock PowerManagerService.WakeLocks
+<6>[131639.809842] active wake lock sec-charger-monitor
+<6>[131639.809903] active wake lock sec-charger-cable, time left 470
+<6>[131639.809933] suspend: abort suspend
+<6>[131639.811185] update_heartbeat: soc(73/73), v(4038369), i(-1000), temp(313), batt(1), absexpr(0), siop(100)
+<6>[131639.817686] pm_abs_time_management: pm_abs_time_management: Charging Time : 0 secs (rechg:0)
+<6>[131639.820768] get_prop_batt_status: get_prop_batt_status: Full charged 1,1,1,1
+<3>[131639.820829] get_prop_batt_status: get_prop_batt_status: Not enough charging SOC:73,4039mV
+<6>[131639.823179] tsu6721_monitor lastINT[1][0] lastDev[4][0][2] currDev[4][0][2] callState[0][0]
+<6>[131639.823271] update_heartbeat: health(1),stat(1),chgen(1),fsm(1),cable(1),extchg(0)
+<6>[131639.824705] update_heartbeat: soc(73/73), v(4038369), i(-500), temp(313), batt(1), absexpr(0), siop(100)
+<6>[131639.835540] healthd: battery l=73 v=4038 t=31.3 h=2 st=2 c=0 o=4 ct=0 chg=u
+<3>[131639.837921] mmc1: CMD52: Command timeout
+<3>[131639.843689] mmc1: CMD52: Command timeout
+<3>[131639.852906] mmc1: CMD8: Command timeout
+<3>[131639.858674] mmc1: CMD5: Command timeout
+<3>[131639.864321] mmc1: CMD5: Command timeout
+<3>[131639.870150] mmc1: CMD5: Command timeout
+<3>[131639.875796] mmc1: CMD5: Command timeout
+<3>[131639.881534] mmc1: CMD55: Command timeout
+<3>[131639.887455] mmc1: CMD55: Command timeout
+<3>[131639.893254] mmc1: CMD55: Command timeout
+<3>[131639.898900] mmc1: CMD55: Command timeout
+<3>[131639.904913] mmc1: CMD1: Command timeout
+<6>[131639.911566] !@[ps] Screen__On(wake lock) :  wl: charger plug
+<6>[131639.915442] healthd: battery l=73 v=4039 t=31.3 h=2 st=2 c=0 o=4 ct=0 chg=u
+<3>[131639.915686] accel_open_calibration: Can't open calibration file
+<6>[131639.915961] mpu6500_input_accel_enable_store : enable = 1
+<6>[131639.923133] !@[s] autosuspend_earlysuspend_disable : 14
+<6>[131639.923164] 
+<6>[131639.923194] request_suspend_state: wakeup (3->0) at 131639515535170 (2014-02-25 02:01:36.744420984 UTC)
+<6>[131639.923317] late_resume: call handlers
+<6>[131639.924751] mdp_bus_scale_restore_request: ab=201326592 ib=671088640
+<6>[131639.928017] msm_otg msm_otg: gadget on
+<6>[131639.935281] mdp_bus_scale_restore_request: ab=201326592 ib=671088640
+<6>[131639.941476] healthd: battery l=73 v=4038 t=31.3 h=2 st=2 c=0 o=4 ct=0 chg=u
+<6>[131639.942300] msm_otg_start_peripheral 1489: msm_otg_start_peripheral disable_peripheral: 0
+<6>[131639.942331] usb:: ci13xxx_vbus_session,3326
+<6>[131639.942361] usb:: ci13xxx_vbus_session gadget_ready:1, is_active:1
+<6>[131639.942422] usb:: hw_device_reset
+<6>[131639.942453] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESET_EVENT received
+<6>[131639.942514] usb:: ci13xxx_vbus_session softconnect: 1
+<6>[131639.942544] usb:: hw_device_state dma: a71be000
+<6>[131639.942575] usb:: hw_device_state hw_read(CAP_ENDPTLISTADDR, ~0): a71be000
+<6>[131639.942605] usb:: hw_device_state hw_read(CAP_USBINTR, ~0): 147
+<6>[131639.942636] usb:: hw_device_state hw_read(CAP_USBCMD, USBCMD_RS): 1
+<6>[131639.946146] mpu6500_input_accel_delay_store : delay = 66
+<6>[131639.957377] healthd: battery l=73 v=4038 t=31.3 h=2 st=2 c=0 o=4 ct=0 chg=u
+<6>[131639.982404] healthd: battery l=73 v=4038 t=31.3 h=2 st=2 c=0 o=4 ct=0 chg=u
+<6>[131639.990431] !@ElectronBeam exit
+<4>[131639.992811] ************active_reset**************
+<6>[131640.007675] sec_bat_store_attrs: sec_bat_store_attrs : SIOP level to 100(500mA)
+<6>[131640.019761] active_reset: DISP_RST_GPIO high
+<6>[131640.034838] mipi_samsung_disp_on
+<6>[131640.034868] [lcd] mipi_samsung_disp_on
+<6>[131640.034899] mipi_samsung_disp_send_cmd cmd = 0x2
+<6>[131640.095970] usb:: isr_reset_handler udc: dfbcc000
+<7>[131640.096031] usb: composite_disconnect
+<7>[131640.096062] usb: android_disconnect cable state (1)
+<7>[131640.096153] usb: android_work config=  (null),connected=0,sw_connected=0
+<6>[131640.096214] android_work: android_work: did not send uevent (0 0   (null))
+<7>[131640.165953] usb: GET_DES
+<7>[131640.166106] usb: android_work config=  (null),connected=1,sw_connected=0
+<6>[131640.166411] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[131640.169860] usb:: isr_reset_handler udc: dfbcc000
+<7>[131640.169921] usb: composite_disconnect
+<7>[131640.169952] usb: android_disconnect cable state (1)
+<7>[131640.170043] usb: android_work config=  (null),connected=0,sw_connected=1
+<6>[131640.170348] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[131640.173156] wlan: [2615:E :HDD] hdd_conf_hostarpoffload: 
+<3>[131640.173187] 
+<3>[131640.173553] wlan: [2574:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+<3>[131640.173767] wlan: [2574:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+<7>[131640.257545] usb: GET_DES
+<7>[131640.257698] usb: android_work config=  (null),connected=1,sw_connected=0
+<7>[131640.257759] usb: set_config_number single config
+<7>[131640.257789] usb: set_interface_count next_interface_id=4
+<7>[131640.258003] usb: set_config_number single config
+<7>[131640.258033] usb: set_interface_count next_interface_id=4
+<6>[131640.258369] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[131640.259376] android_usb gadget: high-speed config #1: android_usb
+<7>[131640.259559] usb: SET_CON
+<7>[131640.259682] usb: android_work config=df7e2700,connected=1,sw_connected=1
+<6>[131640.284922] [mipi_samsung_late_init] ID : 0x208007
+<3>[131640.284952] [mdnie lite] is negative Mode On = 0
+<3>[131640.285074] [mdnie lite] negative off when resume, tuning again!
+<3>[131640.285288] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+<3>[131640.285410] [mdnie lite]  = UI MODE =
+<3>[131640.285624] [mdnie lite]  = AUTO MODE =
+<3>[131640.285715] [mdnie lite]  send tuning cmd!!
+<6>[131640.318189] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<6>[131640.330916] msm8930_i2s_enable: clk_set_rate rx_osr rtn = 0, rate = 23040000
+<3>[131640.334792] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+<6>[131640.335036] start_drawing_late_resume, fb_state : cur(0), next(2)
+<6>[131640.335097] [TSP] power on
+<6>[131640.335342] mxts_power_onoff: tsp 3.3V[l31] on is finished.
+<6>[131640.335525] wait_for_fb_wake_show, fb_state : 2 --
+<6>[131640.335586] !@[s] wait_for_fb_wake : 14 (1, 0) -
+<6>[131640.335616] 
+<6>[131640.335769] !@[s] wait_for_fb_sleep : 14 (0, 0) +
+<6>[131640.335799] 
+<6>[131640.335830] mxts_power_onoff: tsp 1.8V[lvs6] on is finished.
+<6>[131640.335860] wait_for_fb_sleep_show, fb_state : 2 ++
+<6>[131640.337112] !@[s] autosuspend_earlysuspend_disable done : 14
+<6>[131640.337173] 
+<6>[131640.337356] !@[s] unblankAllDisplays() : unblankAllDisplaysFromPowerManager
+<6>[131640.338149] tapan_hw_params: dai_name = tapan_i2s_rx1 DAI-ID 0 rate 48000 num_ch 2
+<3>[131640.347336] ACDB=> get_hw_delay Invalid delay/ delay entries
+<3>[131640.347458] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+<6>[131640.354691] tapan_codec_enable_rx_bias 1
+<6>[131640.355088] msm8930_mclk_event: event = 1
+<6>[131640.363756] tapan_codec tapan_codec: wcd9xxx_chargepump_request: Charge Pump enabled, count = 1
+<6>[131640.368731] tapan_codec tapan_codec: wcd9xxx_clsh_fsm: ClassH state transition from STATE_IDLE to STATE_HPH_R
+<6>[131640.370104] tapan_codec tapan_codec: wcd9xxx_clsh_fsm: ClassH state transition from STATE_HPH_R to STATE_HPH_L_R
+<6>[131640.393330] brightness_control mipi_pd.brightness_level : 10 candela : 300
+<6>[131640.393391] mipi_samsung_disp_send_cmd cmd = 0x6
+<6>[131640.408072] handle_usb_insertion_removal: handle_usb_insertion_removal : usb_present(1)
+<6>[131640.418082] mipi_samsung_disp_backlight 255
+<6>[131640.458430] tc360_power: power on
+<6>[131640.458674] tc360_power: tkey 2.2V[l30] on is finished.
+<6>[131640.459529] Atmel MXT336S 3-004a: Reset is ongoing
+<6>[131640.459559] Atmel MXT336S 3-004a: Current state is Charging mode
+<6>[131640.462154] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: got wake lock
+<6>[131640.462215] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 0):
+<3>[131640.516785] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+<6>[131640.528505] Atmel MXT336S 3-004a: set_charger_ <<<MXT_GR_GDC_STATUS_AQUIRED(0x0000)
+<3>[131640.528566] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+<6>[131640.528658] Atmel MXT336S 3-004a: [GDC] GF is Disabled
+<6>[131640.536440] Atmel MXT336S 3-004a: Timer1 Enabled with [0 msec]
+<6>[131640.537295] Atmel MXT336S 3-004a: Timer2 Enabled with [0 msec]
+<6>[131640.537325] Atmel MXT336S 3-004a: Command Calibration!!
+<6>[131640.540652] Atmel MXT336S 3-004a: T72 MSG: 2A 02 12 
+<6>[131640.542117] Atmel MXT336S 3-004a: T6 All Cleared
+<6>[131640.543613] Atmel MXT336S 3-004a:  T61: 0: datas: 15, 0x20, 0x0, 0x0
+<6>[131640.568059] tkey_led_power: on
+<6>[131640.568304] tkey_led_powerTKEY_LED 3.3V[l36] on is finished.
+<6>[131640.568365] tc360 16-0020: tc360_resume
+<6>[131640.568395] [lcd] mipi_samsung_disp_late_resume
+<6>[131640.568456] late_resume: done
+<3>[131640.568883] tc360 16-0020: no button press interrupt(0x0)
+<6>[131640.614176] Atmel MXT336S 3-004a: Calibration is on going  0!!
+<3>[131640.614206] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+<6>[131640.614298] Atmel MXT336S 3-004a: [GDC] GF is Disabled
+<6>[131640.615610] Atmel MXT336S 3-004a: Timer1 Enabled with [0 msec]
+<6>[131640.617136] Atmel MXT336S 3-004a:  T61: 0: datas: 16, 0x20, 0x0, 0x0
+<6>[131640.627513] Atmel MXT336S 3-004a: T6 All Cleared
+<6>[131640.629070] Atmel MXT336S 3-004a:  T61: 0: datas: 15, 0x20, 0x0, 0x0
+<6>[131640.674331] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 1):
+<6>[131640.674514] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: release wake lock, count_irq = 0
+<6>[131640.736807] healthd: battery l=73 v=3977 t=31.3 h=2 st=2 c=-379 o=4 ct=1 chg=u
+<7>[131640.738485] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131640.738516] 
+<7>[131641.242621] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131641.242651] 
+<6>[131641.347275] Atmel MXT336S 3-004a: T72 MSG: 12 02 11 
+<7>[131641.503631] [mtpg_open]	line = [478]
+<7>[131641.503692] [mtpg_ioctl]SET_MTP_USER_PID;pid=25924	line=[938]
+<6>[131641.526277] Atmel MXT336S 3-004a: cmd = not_support_cmd
+<6>[131641.526338] Atmel MXT336S 3-004a: not_support_cmd: "NA(2)"
+<6>[131641.526643] Atmel MXT336S 3-004a: tsp cmd: result: report_rate,0:NA
+<7>[131641.743521] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131641.743582] 
+<6>[131642.200045] Atmel MXT336S 3-004a: T72 MSG: 12 02 11 
+<7>[131642.245703] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131642.245734] 
+<6>[131642.258308] msm_thermal: Debug Temp for Sensors (0 --- 37)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<7>[131642.747000] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131642.747031] 
+<6>[131643.051319] Atmel MXT336S 3-004a: T72 MSG: 12 02 11 
+<7>[131643.253577] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131643.253639] 
+<6>[131643.361894] getprop (31550): undefined instruction: pc=b6e7b4e8
+<6>[131643.361955] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131643.371264] id (31552): undefined instruction: pc=b6e5a4e8
+<6>[131643.371295] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[131643.756248] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131643.756279] 
+<6>[131644.241858] tapan_codec tapan_codec: wcd9xxx_clsh_fsm: ClassH state transition from STATE_HPH_L_R to STATE_HPH_R
+<6>[131644.248694] tapan_codec tapan_codec: wcd9xxx_clsh_fsm: ClassH state transition from STATE_HPH_R to STATE_IDLE
+<6>[131644.256965] tapan_codec_enable_rx_bias 8
+<6>[131644.257331] msm8930_mclk_event: event = 8
+<7>[131644.263680] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131644.263710] 
+<6>[131644.674759] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<7>[131644.770135] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131644.770226] 
+<6>[131644.948526] msm_ta_detect_work 2109: msm_ta_detect_work: USB exit ta detection - frindex
+<7>[131645.272347] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131645.272378] 
+<6>[131645.579138] app_process (31568): undefined instruction: pc=b66294e8
+<6>[131645.579169] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131645.715625] app_process (31568): undefined instruction: pc=40a444e8
+<6>[131645.715656] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[131645.774072] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131645.774102] 
+<6>[131646.075827] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[131646.163451] !@Sync 4387
+<6>[131646.204043] toolbox (31599): undefined instruction: pc=b6e464e8
+<6>[131646.204073] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131646.250098] ls (31605): undefined instruction: pc=b6ded4e8
+<6>[131646.250129] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131646.259285] ls (31606): undefined instruction: pc=b6e734e8
+<6>[131646.259315] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131646.266854] ls (31607): undefined instruction: pc=b6de74e8
+<6>[131646.266884] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[131646.275064] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131646.275094] 
+<3>[131646.291667] init: untracked pid 31565 exited
+<3>[131646.530428] init: untracked pid 31568 exited
+<7>[131646.776147] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131646.776208] 
+<6>[131647.268288] msm_thermal: Debug Temp for Sensors (0 --- 37)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<7>[131647.278024] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131647.278085] 
+<7>[131647.781183] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131647.781275] 
+<7>[131648.290232] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131648.290355] 
+<7>[131648.793147] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131648.793208] 
+<7>[131649.343246] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131649.343307] 
+<7>[131649.847657] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131649.847809] 
+<6>[131650.426079] !@ cam: CaMeRa(1)
+<3>[131650.427513] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+<3>[131650.427544] 
+<7>[131650.428001] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131650.428032] 
+<3>[131650.429924] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+<3>[131650.429955] 
+<3>[131650.431389] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+<3>[131650.431420] 
+<6>[131650.441186] msm_enqueue: queue eventdata new max is 1
+<6>[131650.443719] msm_enqueue: queue control new max is 1
+<4>[131650.445123] [s5k6ayx] Start calibrating....
+<4>[131650.445306] [s5k6ayx] uOPTData[0xa3d] = 0x1...Sum = 1...
+<4>[131650.445490] [s5k6ayx] uOPTData[0xa3e] = 0x3...Sum = 4...
+<4>[131650.445673] [s5k6ayx] uOPTData[0xa3f] = 0x1...Sum = 5...
+<4>[131650.445886] [s5k6ayx] uOPTData[0xa40] = 0x0...Sum = 5...
+<4>[131650.446069] [s5k6ayx] uOPTData[0xa41] = 0x1...Sum = 6...
+<4>[131650.446253] [s5k6ayx] uOPTData[0xa42] = 0x0...Sum = 6...
+<4>[131650.446375] [s5k6ayx] Ajusting Calibration data to the sensor!!
+<6>[131650.474240] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.474392] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.474514] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.474637] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.474759] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.474850] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.474972] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.475064] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.475186] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.475308] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.475400] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.476437] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.476559] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.476681] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.476773] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.476895] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.476987] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.477109] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.477200] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.477292] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.477414] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.477536] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.527620] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.528078] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.528536] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.528932] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.529451] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.538607] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.538973] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.539187] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.539370] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.539614] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.539859] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.540072] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[131650.548557] axi_reset E
+<6>[131650.548557] axi_reset X
+<6>[131650.548740] vfe32_proc_general: cmdID = RESET
+<6>[131650.548954] msm_mctl_set_vfe_output_mode: mctl=0xc11e1f38, vfe output mode =0x1
+<6>[131650.589393] axi_config_buffers: cmd type 8, axi mode 1
+<6>[131650.592232] vfe32_start_common Configuring the OOO Register 
+<3>[131650.699602] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+<7>[131650.933449] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131650.933541] 
+<6>[131650.978833] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<7>[131651.441064] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131651.441125] 
+<6>[131651.679520] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<7>[131651.948496] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131651.948526] 
+<6>[131652.070028] axi_stop E
+<6>[131652.070028] axi_stop X
+<3>[131652.077322] msm_mctl_reserve_free_buf: stream is turned off
+<6>[131652.104455] vfe32_proc_general: cmdID = STOP
+<6>[131652.104516] axi_abort E
+<6>[131652.104546] axi_abort X
+<3>[131652.108606] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+<3>[131652.109613] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+<3>[131652.110712] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+<3>[131652.208896] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+<3>[131652.208957] 
+<3>[131652.210116] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+<3>[131652.210147] 
+<3>[131652.211368] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+<3>[131652.211398] 
+<3>[131652.212650] msm_release_ion_client Calling ion_client_destroy
+<6>[131652.278329] msm_thermal: Debug Temp for Sensors (0 --- 38)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<6>[131652.380481] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<7>[131652.450129] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131652.450251] 
+<7>[131652.960368] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131652.960399] 
+<6>[131653.333632] !@[ps] Screen__Off(2) : timeout (0x4)
+<6>[131653.351975] !@ElectronBeam entry
+<7>[131653.465664] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131653.465725] 
+<6>[131653.586616] brightness_control mipi_pd.brightness_level : 300 candela : 10
+<6>[131653.586677] mipi_samsung_disp_send_cmd cmd = 0x6
+<6>[131653.617563] mipi_samsung_disp_backlight 0
+<6>[131653.624369] !@[s] blankAllDisplays() : blankAllDisplaysFromPowerManage
+<6>[131653.626933] mpu6500_input_accel_enable_store : enable = 0
+<6>[131653.652906] mipi_samsung_disp_send_cmd cmd = 0x3
+<4>[131653.693010] [VIB] OFF
+<4>[131653.693010] [VIB] timed_vibrator_off
+<6>[131653.858339] [lcd] mipi_samsung_disp_off
+<4>[131653.863405] ************active_reset**************
+<6>[131653.863405] active_reset: DISP_RST_GPIO low
+<6>[131653.892003] !@[s] autosuspend_earlysuspend_enable : 14
+<6>[131653.892033] 
+<6>[131653.892064] request_suspend_state: sleep (0->3) at 131653483819427 (2014-02-25 02:01:50.712735739 UTC)
+<6>[131653.892125] early_suspend: call handlers
+<6>[131653.892155] [lcd] mipi_samsung_disp_early_suspend
+<6>[131653.892186] tkey_led_power: off
+<6>[131653.892216] tkey_led_powerTKEY_LED 3.3V[l36] off is finished.
+<6>[131653.892247] tc360_power: power off
+<6>[131653.892277] tc360_power: tkey 2.2V[l30] off is finished.
+<6>[131653.892308] tc360 16-0020: tc360_suspend (0x1)
+<6>[131653.892338] [TSP] power off
+<6>[131653.892369] mxts_power_onoff: tsp 3.3V[l31] off is finished.
+<6>[131653.892827] mxts_power_onoff: tsp 1.8V[lvs6] off is finished.
+<6>[131653.928291] stop_drawing_early_suspend, fb_state : cur(2), next(1)
+<6>[131653.928352] wait_for_fb_sleep_show, fb_state : 1 --
+<6>[131653.928413] !@[s] wait_for_fb_sleep : 14 (1, 0) -
+<6>[131653.928444] 
+<6>[131653.928566] !@[s] wait_for_fb_wake : 14 (0, 0) +
+<6>[131653.928597] 
+<6>[131653.928627] wait_for_fb_wake_show, fb_state : 1 ++
+<6>[131653.928688] !@[s] autosuspend_earlysuspend_enable done : 14
+<6>[131653.928719] 
+<3>[131653.932534] dtv_pipe is not configured yet
+<6>[131653.934182] active wake lock PowerManagerService.Broadcasts
+<6>[131653.934212] active wake lock pm8921_eoc
+<6>[131653.934243] active wake lock msm_otg
+<6>[131653.934273] wake lock sec-charger-cable, expired
+<6>[131653.934304] wake lock bcm2079x_wake_lock, expired
+<6>[131653.934334] wake lock wlan, expired
+<6>[131653.934334] wake lock DS, expired
+<6>[131653.934365] PM: Syncing filesystems...
+<6>[131653.961101] sync done.
+<7>[131653.969372] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131653.969433] 
+<6>[131654.272592] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: got wake lock
+<6>[131654.272622] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 0):
+<6>[131654.394978] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 1):
+<6>[131654.395039] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: release wake lock, count_irq = 0
+<7>[131654.470242] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131654.470272] 
+<7>[131654.976269] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131654.976361] 
+<7>[131655.478543] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131655.478604] 
+<7>[131655.982496] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131655.982587] 
+<6>[131656.194521] ls (31706): undefined instruction: pc=b6ead4e8
+<6>[131656.194612] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131656.200289] grep (31707): undefined instruction: pc=b6e154e8
+<6>[131656.200380] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[131656.487211] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131656.487302] 
+<7>[131656.990980] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131656.991072] 
+<6>[131657.288676] msm_thermal: Debug Temp for Sensors (0 --- 33)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<7>[131657.493010] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131657.493101] 
+<7>[131657.995039] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131657.995131] 
+<7>[131658.497130] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131658.497222] 
+<6>[131658.938333] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131658.938424] [debug_wake_locks]active wake lock msm_otg
+<7>[131658.999892] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131658.999984] 
+<7>[131659.502685] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131659.502776] 
+<7>[131660.004836] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131660.004897] 
+<7>[131660.507080] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131660.507171] 
+<7>[131661.011520] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131661.011612] 
+<7>[131661.514008] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131661.514099] 
+<6>[131661.948313] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131661.948404] [debug_wake_locks]active wake lock msm_otg
+<7>[131662.015946] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131662.016007] 
+<6>[131662.298442] msm_thermal: Debug Temp for Sensors (0 --- 31)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<7>[131662.517975] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131662.518067] 
+<7>[131663.020707] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131663.020799] 
+<7>[131663.543094] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131663.543185] 
+<7>[131664.045306] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131664.045398] 
+<7>[131664.547367] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131664.547458] 
+<6>[131664.958323] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131664.958415] [debug_wake_locks]active wake lock msm_otg
+<7>[131665.050037] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131665.050129] 
+<7>[131665.551914] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131665.552006] 
+<7>[131666.055592] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131666.055714] 
+<7>[131666.557591] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131666.557682] 
+<7>[131667.060628] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131667.060719] 
+<6>[131667.308789] msm_thermal: Debug Temp for Sensors (0 --- 31)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<7>[131667.562566] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131667.562657] 
+<6>[131667.968334] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131667.968426] [debug_wake_locks]active wake lock msm_otg
+<7>[131668.064595] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131668.064687] 
+<7>[131668.566594] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131668.566655] 
+<7>[131669.069265] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131669.069356] 
+<7>[131669.571203] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131669.571264] 
+<7>[131670.072927] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131670.073019] 
+<7>[131670.574957] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131670.575018] 
+<6>[131670.978314] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131670.978406] [debug_wake_locks]active wake lock msm_otg
+<7>[131671.079276] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131671.079367] 
+<7>[131671.581183] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131671.581275] 
+<7>[131672.082969] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131672.083060] 
+<6>[131672.318769] msm_thermal: Debug Temp for Sensors (0 --- 31)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<7>[131672.585120] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131672.585212] 
+<7>[131673.087211] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131673.087333] 
+<7>[131673.589729] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131673.589851] 
+<6>[131673.988325] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131673.988416] [debug_wake_locks]active wake lock msm_otg
+<7>[131674.091606] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131674.091697] 
+<7>[131674.593452] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131674.593513] 
+<7>[131675.095390] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131675.095482] 
+<7>[131675.597756] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131675.597817] 
+<7>[131676.099602] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131676.099694] 
+<6>[131676.164244] !@Sync 4388
+<7>[131676.601449] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131676.601540] 
+<6>[131676.998336] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131676.998397] [debug_wake_locks]active wake lock msm_otg
+<7>[131677.103265] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131677.103326] 
+<6>[131677.328749] msm_thermal: Debug Temp for Sensors (0 --- 31)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<7>[131677.605233] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131677.605325] 
+<7>[131678.107232] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131678.107324] 
+<7>[131678.610605] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131678.610696] 
+<7>[131679.112543] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131679.112634] 
+<6>[131679.499022] healthd: battery l=74 v=4131 t=32.0 h=2 st=2 c=394 o=4 ct=1 chg=u
+<7>[131679.615671] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131679.615793] 
+<6>[131680.008346] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131680.008438] [debug_wake_locks]active wake lock msm_otg
+<7>[131680.118922] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131680.119013] 
+<7>[131680.621867] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131680.621958] 
+<7>[131681.139096] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131681.139187] 
+<6>[131681.275400] id (31732): undefined instruction: pc=b6e264e8
+<6>[131681.275522] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131681.586646] rm (31743): undefined instruction: pc=b6e8f4e8
+<6>[131681.586738] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[131681.648572] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131681.648603] 
+<6>[131681.794826] app_process (31733): undefined instruction: pc=b65da4e8
+<6>[131681.794856] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131681.952921] app_process (31744): undefined instruction: pc=b65b74e8
+<6>[131681.952982] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131681.971935] app_process (31733): undefined instruction: pc=40aa04e8
+<6>[131681.971966] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131682.105035] chmod (31767): undefined instruction: pc=b6e7a4e8
+<6>[131682.105065] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[131682.149350] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131682.149381] 
+<6>[131682.196749] getprop (31772): undefined instruction: pc=b6df74e8
+<6>[131682.196779] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131682.209537] app_process (31744): undefined instruction: pc=40a694e8
+<6>[131682.209567] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131682.296642] getprop (31789): undefined instruction: pc=b6ea44e8
+<6>[131682.298076] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131682.338424] msm_thermal: Debug Temp for Sensors (0 --- 37)(1 --- -89)(2 --- -77)(3 --- -95)(4 --- -85)(5 --- -76)(6 --- -85)(7 --- -97)(8 --- -92)(9 --- -90)
+<6>[131682.629131] ps (31808): undefined instruction: pc=b6e704e8
+<6>[131682.629161] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[131682.650190] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131682.650220] 
+<6>[131682.676163] app_process (31769): undefined instruction: pc=b660b4e8
+<6>[131682.676895] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131682.889683] app_process (31793): undefined instruction: pc=b65354e8
+<6>[131682.889714] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131682.893407] app_process (31796): undefined instruction: pc=b66164e8
+<6>[131682.893437] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[131682.950876] init: untracked pid 31730 exited
+<6>[131683.018265] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131683.018296] [debug_wake_locks]active wake lock msm_otg
+<6>[131683.056050] app_process (31769): undefined instruction: pc=40b134e8
+<6>[131683.056080] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131683.169555] app_process (31796): undefined instruction: pc=40b2a4e8
+<6>[131683.169585] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[131683.226262] app_process (31793): undefined instruction: pc=40a4f4e8
+<6>[131683.226323] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[131683.228520] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131683.228551] 
+<3>[131683.439477] init: untracked pid 31733 exited
+<3>[131683.571569] init: untracked pid 31741 exited
+<7>[131683.758720] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131683.758751] 
+<6>[131683.839538] app_process (31856): undefined instruction: pc=b65814e8
+<6>[131683.839569] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[131683.864290] init: untracked pid 31744 exited
+<3>[131683.910651] init: untracked pid 31766 exited
+<3>[131683.928810] init: untracked pid 31792 exited
+<3>[131683.947641] init: untracked pid 31784 exited
+<6>[131683.998519] app_process (31856): undefined instruction: pc=40a464e8
+<6>[131683.998549] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[131684.133693] init: untracked pid 31769 exited
+<3>[131684.151487] init: untracked pid 31796 exited
+<3>[131684.173034] init: untracked pid 31793 exited
+<7>[131684.259376] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131684.259407] 
+<3>[131684.315076] init: untracked pid 31853 exited
+<3>[131684.538912] init: untracked pid 31856 exited
+<7>[131684.760033] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131684.760063] 
+<7>[131685.261299] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131685.261391] 
+<3>[131685.406301] [CAMERA]][s5k3h5xa_sensor_power_up:460] ----Camera power on ----
+<3>[131685.406790] [CAMERA]][s5k3h5xa_sensor_power_up:463] PMIC_MODEL_PM8917
+<3>[131685.407553] [CAMERA]][s5k3h5xa_sensor_power_up:496] [CAM_SENSOR_A2P8]::SET OK
+<3>[131685.411215] [CAMERA]][s5k3h5xa_sensor_power_up:506] [CAM_CORE_EN::CAM_ISP_CORE_1P2::ret::1]::SET OK
+<3>[131685.413230] [CAMERA]][s5k3h5xa_sensor_power_up:525] [CAM_MCLK0::rc::0]::SET Ok
+<3>[131685.415824] [CAMERA]][s5k3h5xa_sensor_power_up:537] [VREG_CAM_AF_2P8]::SET OK
+<3>[131685.420921] [CAMERA]][s5k3h5xa_sensor_power_up:552] [CAM_SENSOR_IO_1P8]::SET OK
+<3>[131685.423240] [CAMERA]][s5k3h5xa_sensor_power_up:561] [GPIO_CAM1_RST_N]::SET OK
+<3>[131685.426567] [CAMERA]][s5k3h5xa_sensor_power_up:591] [return rc::0]::Success
+<6>[131685.427299] msm_enqueue: queue eventdata new max is 1
+<6>[131685.436852] msm_enqueue: queue control new max is 1
+<7>[131685.763970] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131685.764061] 
+<6>[131686.028246] [debug_wake_locks]active wake lock msm_camera
+<6>[131686.028276] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[131686.028307] [debug_wake_locks]active wake lock msm_otg
+<3>[131686.273141] msm_ioctl_server: Invalid IOCTL = -1070836160
+<3>[131686.287547] msm_ioctl_server: Invalid IOCTL = 1956
+<3>[131686.296855] msm_ioctl_server: Invalid IOCTL = 0
+<7>[131686.299602] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[131686.299663] 
+<1>[131686.399404] Unable to handle kernel NULL pointer dereference at virtual address 00000008
+<1>[131686.399526] pgd = cd3c8000
+<1>[131686.399678] [00000008] *pgd=00000000
+<0>[131686.399862] [0:     trinity-c0:31898] Internal error: Oops: 5 [#1] PREEMPT SMP ARM
+<4>[131686.400014] [0:     trinity-c0:31898] Modules linked in: adsprpc wlan(O)
+<4>[131686.400350] [0:     trinity-c0:31898] CPU: 0    Tainted: G        W  O  (3.4.0-3173303 #1)
+<4>[131686.400533] [0:     trinity-c0:31898] PC is at v4l2_event_subscribe+0x4c/0x168
+<4>[131686.400716] [0:     trinity-c0:31898] LR is at msm_server_v4l2_subscribe_event+0x80/0x1d4
+<4>[131686.400838] [0:     trinity-c0:31898] pc : [<c055dc90>]    lr : [<c05841f0>]    psr: 20070013
+<4>[131686.400869] [0:     trinity-c0:31898] sp : cd3c7d30  ip : 00000000  fp : 00000000
+<4>[131686.401174] [0:     trinity-c0:31898] r10: 4020565a  r9 : cd3c7e54  r8 : 00000046
+<4>[131686.401296] [0:     trinity-c0:31898] r7 : 00000000  r6 : cd3c7e54  r5 : 00000000  r4 : cd3c7e54
+<4>[131686.401449] [0:     trinity-c0:31898] r3 : 08000000  r2 : 00000046  r1 : cd3c7e54  r0 : 00000000
+<4>[131686.401632] [0:     trinity-c0:31898] Flags: nzCv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+<4>[131686.401815] [0:     trinity-c0:31898] Control: 10c5787d  Table: 93dc806a  DAC: 00000015
+<4>[131686.401998] [0:     trinity-c0:31898] 
+<4>[131686.402029] [0:     trinity-c0:31898] PC: 0xc055dc10:
+<4>[131686.402181] [0:     trinity-c0:31898] dc10  1a000007 e7f001f2 e590c008 e15c0001 1a000002 e590c00c e15c0002 012fff1e
+<4>[131686.403036] [0:     trinity-c0:31898] dc30  e5900000 e1500003 1afffff6 e3a00000 e12fff1e e92d41f0 e1a05000 e5913000
+<4>[131686.403890] [0:     trinity-c0:31898] dc50  e1a06001 e1a08002 e3530000 1a000001 e3e00015 e8bd81f0 e3520000 03a08001
+<4>[131686.404714] [0:     trinity-c0:31898] dc70  e3530003 13a07000 1a000004 e590000c e5911004 eb000a21 e2507000 0afffff3
+<4>[131686.405569] [0:     trinity-c0:31898] dc90  e5953008 e3530000 1a000004 e59f10f8 e59f00f8 eb0c5c5b e3e00004 e8bd81f0
+<4>[131686.406423] [0:     trinity-c0:31898] dcb0  e3a00090 e30810d0 e0000890 e2800038 ebef9fb1 e2504000 0a000030 e1a02004
+<4>[131686.407278] [0:     trinity-c0:31898] dcd0  e3a03000 ea000001 e2833001 e5024050 e1530008 e2822090 1afffffa e5962000
+<4>[131686.408102] [0:     trinity-c0:31898] dcf0  e3570000 e5842008 e5962004 e584200c e5962008 e5843028 159f3094 e5845014
+<4>[131686.408957] [0:     trinity-c0:31898] 
+<4>[131686.408957] [0:     trinity-c0:31898] LR: 0xc0584170:
+<4>[131686.409201] [0:     trinity-c0:31898] 4170  e92d41f3 e1a06000 e59f0198 e1a04001 e1d035ba e3130004 0a000006 e5913000
+<4>[131686.410025] [0:     trinity-c0:31898] 4190  e2800048 e59f1180 e59f2180 e58d3000 e1a03006 ebf5ff72 e5942000 e59f0164
+<4>[131686.410879] [0:     trinity-c0:31898] 41b0  e3520000 1a000035 e3a02302 e5842000 e1d037b2 e3130004 0a000002 e2800060
+<4>[131686.411673] [0:     trinity-c0:31898] 41d0  e59f114c ebf5ff66 e59f7138 e59f8144 e1a00006 e1a01004 e3a02046 ebff6694
+<4>[131686.412528] [0:     trinity-c0:31898] 41f0  e2505000 e59f011c aa00000e e1d038ba e3130004 0a000005 e58d5000 e2800078
+<4>[131686.413382] [0:     trinity-c0:31898] 4210  e59f1114 e59f2104 e5943000 ebf5ff54 e3a03000 e1a00006 e1a01004 e5843000
+<4>[131686.414237] [0:     trinity-c0:31898] 4230  ebff66dd ea000035 e1d73ab2 e3130004 0a000005 e58d5000 e2800090 e59f10dc
+<4>[131686.415061] [0:     trinity-c0:31898] 4250  e59f20c8 e5943000 ebf5ff45 e5942000 e2822001 e5842000 e1d73bba e3130004
+<4>[131686.415915] [0:     trinity-c0:31898] 
+<4>[131686.415946] [0:     trinity-c0:31898] SP: 0xcd3c7cb0:
+<4>[131686.416190] [0:     trinity-c0:31898] 7cb0  00000042 c016d8e4 00000000 00000000 c0919341 c055dc90 20070013 ffffffff
+<4>[131686.417014] [0:     trinity-c0:31898] 7cd0  cd3c7d1c 00000046 cd3c7e54 4020565a 00000000 c0882218 00000000 cd3c7e54
+<4>[131686.417838] [0:     trinity-c0:31898] 7cf0  00000046 08000000 cd3c7e54 00000000 cd3c7e54 00000000 00000046 cd3c7e54
+<4>[131686.418693] [0:     trinity-c0:31898] 7d10  4020565a 00000000 00000000 cd3c7d30 c05841f0 c055dc90 20070013 ffffffff
+<4>[131686.419486] [0:     trinity-c0:31898] 7d30  cd3c7e54 00000000 00000000 c104cac8 08000009 c05841f0 00000000 cd3c7e54
+<4>[131686.420310] [0:     trinity-c0:31898] 7d50  c096580c 00000000 dfbadc00 00000000 d67189c0 c055cedc 0000065f 00000000
+<4>[131686.421165] [0:     trinity-c0:31898] 7d70  c22da180 00000000 cd3c7ec0 00000001 00000042 00000000 530bf9af 000009e3
+<4>[131686.421989] [0:     trinity-c0:31898] 7d90  00000000 000009a1 00000000 defca2d8 00000042 cf482cc0 00000000 c0111e90
+<4>[131686.422782] [0:     trinity-c0:31898] 
+<4>[131686.422782] [0:     trinity-c0:31898] R1: 0xcd3c7dd4:
+<4>[131686.423027] [0:     trinity-c0:31898] 7dd4  cd3c7f00 defca3a8 00000001 00000042 fffffffe cd3c7de8 cd3c7de8 cd3c7df0
+<4>[131686.423851] [0:     trinity-c0:31898] 7df4  cd3c7df0 00000002 cd3c7e28 00000000 00000042 00000000 cd3c7ec8 cf482cc0
+<4>[131686.424705] [0:     trinity-c0:31898] 7e14  c02d7ef0 000009a1 4020565a 00000000 cd3c7e54 00000000 b6d42000 00000000
+<4>[131686.425499] [0:     trinity-c0:31898] 7e34  00000000 d67189c0 c0558bc4 df3e1000 00000000 00000001 c0558db0 cf482cc0
+<4>[131686.426323] [0:     trinity-c0:31898] 7e54  08000000 00000000 c0008000 00000000 00000000 00000000 00000000 00000000
+<4>[131686.427177] [0:     trinity-c0:31898] 7e74  c00aa240 00000000 df3e006c c0f50dc0 00000001 de469ec8 000077c4 d4ef8950
+<4>[131686.428032] [0:     trinity-c0:31898] 7e94  c1bf9b7c 000077c4 c02f2e8c 00000000 d4ef8950 00000000 c1bf9b70 c454d84d
+<4>[131686.428886] [0:     trinity-c0:31898] 7eb4  c00aceb8 c1bf9b70 00000000 d4ef8950 c00adcf0 00000000 00000001 00000001
+<4>[131686.429711] [0:     trinity-c0:31898] 
+<4>[131686.429741] [0:     trinity-c0:31898] R4: 0xcd3c7dd4:
+<4>[131686.429985] [0:     trinity-c0:31898] 7dd4  cd3c7f00 defca3a8 00000001 00000042 fffffffe cd3c7de8 cd3c7de8 cd3c7df0
+<4>[131686.430748] [0:     trinity-c0:31898] 7df4  cd3c7df0 00000002 cd3c7e28 00000000 00000042 00000000 cd3c7ec8 cf482cc0
+<4>[131686.431603] [0:     trinity-c0:31898] 7e14  c02d7ef0 000009a1 4020565a 00000000 cd3c7e54 00000000 b6d42000 00000000
+<4>[131686.432427] [0:     trinity-c0:31898] 7e34  00000000 d67189c0 c0558bc4 df3e1000 00000000 00000001 c0558db0 cf482cc0
+<4>[131686.433281] [0:     trinity-c0:31898] 7e54  08000000 00000000 c0008000 00000000 00000000 00000000 00000000 00000000
+<4>[131686.434136] [0:     trinity-c0:31898] 7e74  c00aa240 00000000 df3e006c c0f50dc0 00000001 de469ec8 000077c4 d4ef8950
+<4>[131686.434991] [0:     trinity-c0:31898] 7e94  c1bf9b7c 000077c4 c02f2e8c 00000000 d4ef8950 00000000 c1bf9b70 c454d84d
+<4>[131686.435815] [0:     trinity-c0:31898] 7eb4  c00aceb8 c1bf9b70 00000000 d4ef8950 c00adcf0 00000000 00000001 00000001
+<4>[131686.436669] [0:     trinity-c0:31898] 
+<4>[131686.436700] [0:     trinity-c0:31898] R6: 0xcd3c7dd4:
+<4>[131686.436913] [0:     trinity-c0:31898] 7dd4  cd3c7f00 defca3a8 00000001 00000042 fffffffe cd3c7de8 cd3c7de8 cd3c7df0
+<4>[131686.437768] [0:     trinity-c0:31898] 7df4  cd3c7df0 00000002 cd3c7e28 00000000 00000042 00000000 cd3c7ec8 cf482cc0
+<4>[131686.438622] [0:     trinity-c0:31898] 7e14  c02d7ef0 000009a1 4020565a 00000000 cd3c7e54 00000000 b6d42000 00000000
+<4>[131686.439385] [0:     trinity-c0:31898] 7e34  00000000 d67189c0 c0558bc4 df3e1000 00000000 00000001 c0558db0 cf482cc0
+<4>[131686.440240] [0:     trinity-c0:31898] 7e54  08000000 00000000 c0008000 00000000 00000000 00000000 00000000 00000000
+<4>[131686.441095] [0:     trinity-c0:31898] 7e74  c00aa240 00000000 df3e006c c0f50dc0 00000001 de469ec8 000077c4 d4ef8950
+<4>[131686.441858] [0:     trinity-c0:31898] 7e94  c1bf9b7c 000077c4 c02f2e8c 00000000 d4ef8950 00000000 c1bf9b70 c454d84d
+<4>[131686.442712] [0:     trinity-c0:31898] 7eb4  c00aceb8 c1bf9b70 00000000 d4ef8950 c00adcf0 00000000 00000001 00000001
+<4>[131686.443567] [0:     trinity-c0:31898] 
+<4>[131686.443597] [0:     trinity-c0:31898] R9: 0xcd3c7dd4:
+<4>[131686.443811] [0:     trinity-c0:31898] 7dd4  cd3c7f00 defca3a8 00000001 00000042 fffffffe cd3c7de8 cd3c7de8 cd3c7df0
+<4>[131686.444666] [0:     trinity-c0:31898] 7df4  cd3c7df0 00000002 cd3c7e28 00000000 00000042 00000000 cd3c7ec8 cf482cc0
+<4>[131686.445459] [0:     trinity-c0:31898] 7e14  c02d7ef0 000009a1 4020565a 00000000 cd3c7e54 00000000 b6d42000 00000000
+<4>[131686.446314] [0:     trinity-c0:31898] 7e34  00000000 d67189c0 c0558bc4 df3e1000 00000000 00000001 c0558db0 cf482cc0
+<4>[131686.447138] [0:     trinity-c0:31898] 7e54  08000000 00000000 c0008000 00000000 00000000 00000000 00000000 00000000
+<4>[131686.447992] [0:     trinity-c0:31898] 7e74  c00aa240 00000000 df3e006c c0f50dc0 00000001 de469ec8 000077c4 d4ef8950
+<4>[131686.448847] [0:     trinity-c0:31898] 7e94  c1bf9b7c 000077c4 c02f2e8c 00000000 d4ef8950 00000000 c1bf9b70 c454d84d
+<4>[131686.449671] [0:     trinity-c0:31898] 7eb4  c00aceb8 c1bf9b70 00000000 d4ef8950 c00adcf0 00000000 00000001 00000001
+<0>[131686.450525] [0:     trinity-c0:31898] Process trinity-c0 (pid: 31898, stack limit = 0xcd3c62f0)
+<0>[131686.450617] [0:     trinity-c0:31898] Stack: (0xcd3c7d30 to 0xcd3c8000)
+<0>[131686.450800] [0:     trinity-c0:31898] 7d20:                                     cd3c7e54 00000000 00000000 c104cac8
+<0>[131686.450983] [0:     trinity-c0:31898] 7d40: 08000009 c05841f0 00000000 cd3c7e54 c096580c 00000000 dfbadc00 00000000
+<0>[131686.451166] [0:     trinity-c0:31898] 7d60: d67189c0 c055cedc 0000065f 00000000 c22da180 00000000 cd3c7ec0 00000001
+<0>[131686.451349] [0:     trinity-c0:31898] 7d80: 00000042 00000000 530bf9af 000009e3 00000000 000009a1 00000000 defca2d8
+<0>[131686.451533] [0:     trinity-c0:31898] 7da0: 00000042 cf482cc0 00000000 c0111e90 000009a1 00000000 cd3c7f00 00000042
+<0>[131686.451746] [0:     trinity-c0:31898] 7dc0: 00000000 000000ad 00000000 cd3c7ec8 cd3c7ec0 cd3c7f00 defca3a8 00000001
+<0>[131686.451929] [0:     trinity-c0:31898] 7de0: 00000042 fffffffe cd3c7de8 cd3c7de8 cd3c7df0 cd3c7df0 00000002 cd3c7e28
+<0>[131686.452112] [0:     trinity-c0:31898] 7e00: 00000000 00000042 00000000 cd3c7ec8 cf482cc0 c02d7ef0 000009a1 4020565a
+<0>[131686.452235] [0:     trinity-c0:31898] 7e20: 00000000 cd3c7e54 00000000 b6d42000 00000000 00000000 d67189c0 c0558bc4
+<0>[131686.452357] [0:     trinity-c0:31898] 7e40: df3e1000 00000000 00000001 c0558db0 cf482cc0 08000000 00000000 c0008000
+<0>[131686.452570] [0:     trinity-c0:31898] 7e60: 00000000 00000000 00000000 00000000 00000000 c00aa240 00000000 df3e006c
+<0>[131686.452753] [0:     trinity-c0:31898] 7e80: c0f50dc0 00000001 de469ec8 000077c4 d4ef8950 c1bf9b7c 000077c4 c02f2e8c
+<0>[131686.452937] [0:     trinity-c0:31898] 7ea0: 00000000 d4ef8950 00000000 c1bf9b70 c454d84d c00aceb8 c1bf9b70 00000000
+<0>[131686.453120] [0:     trinity-c0:31898] 7ec0: d4ef8950 c00adcf0 00000000 00000001 00000001 271ae91c c40e860c dfbadc00
+<0>[131686.453303] [0:     trinity-c0:31898] 7ee0: b6d42000 4020565a 4020565a d67189c0 cd3c6000 b6d42000 df384600 c0557d30
+<0>[131686.453486] [0:     trinity-c0:31898] 7f00: 00000000 d67189c0 00000104 4020565a 00000104 c015b228 e05ba480 c015bd7c
+<0>[131686.453669] [0:     trinity-c0:31898] 7f20: cd3c7f44 00000000 00000001 c02a6f84 00000000 00000000 00000001 00000000
+<0>[131686.453852] [0:     trinity-c0:31898] 7f40: 00000000 00000001 00000000 d7f67c10 e05ba480 cd3c7f3c 530bf9af ffffff9f
+<0>[131686.454035] [0:     trinity-c0:31898] 7f60: d67189c0 00000000 d67189c0 b6d42000 4020565a 00000104 cd3c6000 00000200
+<0>[131686.454249] [0:     trinity-c0:31898] 7f80: 00000000 c015be18 00000104 00000000 ffffff9f 80000000 b8eb58a0 00000036
+<0>[131686.454432] [0:     trinity-c0:31898] 7fa0: c000e464 c000e43c ffffff9f 80000000 00000104 4020565a b6d42000 8f85abfa
+<0>[131686.454615] [0:     trinity-c0:31898] 7fc0: ffffff9f 80000000 b8eb58a0 00000036 b6d48000 b6e8d394 00000036 00000000
+<0>[131686.454798] [0:     trinity-c0:31898] 7fe0: bedba728 bedba718 b6ece9d0 b6e61124 60070010 00000104 00000000 00000000
+<4>[131686.455012] [0:     trinity-c0:31898] [<c055dc90>] (v4l2_event_subscribe+0x4c/0x168) from [<c05841f0>] (msm_server_v4l2_subscribe_event+0x80/0x1d4)
+<4>[131686.455226] [0:     trinity-c0:31898] [<c05841f0>] (msm_server_v4l2_subscribe_event+0x80/0x1d4) from [<c055cedc>] (__video_do_ioctl+0x412c/0x458c)
+<4>[131686.455409] [0:     trinity-c0:31898] [<c055cedc>] (__video_do_ioctl+0x412c/0x458c) from [<c0558bc4>] (video_usercopy+0x370/0x4fc)
+<4>[131686.455622] [0:     trinity-c0:31898] [<c0558bc4>] (video_usercopy+0x370/0x4fc) from [<c0557d30>] (v4l2_ioctl+0x74/0x124)
+<4>[131686.455805] [0:     trinity-c0:31898] [<c0557d30>] (v4l2_ioctl+0x74/0x124) from [<c015b228>] (vfs_ioctl+0x28/0x3c)
+<4>[131686.456019] [0:     trinity-c0:31898] [<c015b228>] (vfs_ioctl+0x28/0x3c) from [<c015bd7c>] (do_vfs_ioctl+0x534/0x588)
+<4>[131686.456202] [0:     trinity-c0:31898] [<c015bd7c>] (do_vfs_ioctl+0x534/0x588) from [<c015be18>] (sys_ioctl+0x48/0x70)
+<4>[131686.456385] [0:     trinity-c0:31898] [<c015be18>] (sys_ioctl+0x48/0x70) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+<0>[131686.456568] [0:     trinity-c0:31898] Code: e5911004 eb000a21 e2507000 0afffff3 (e5953008) 

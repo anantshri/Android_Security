@@ -1,0 +1,2431 @@
+[    0.000000] sec_dbg_setup: str=@0x88490004
+[    0.000000] sec_dbg_setup: secdbg_paddr = 0x88490004
+[    0.000000] sec_dbg_setup: secdbg_size = 0x40000
+[    0.152510] set_dload_mode <1> ( c0e12148 )
+[    0.182847] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+[    0.183061] MSM_DCVS: msm_dcvs_early_init: Unable to initialize DCVS err=4
+[    0.185777] sec_debug_init: enable=0
+[    0.185808] sec_debug_init: restart_reason : 0xfa00a65c
+[    0.220998] msm_gpiomux_install: write failure: -22
+[    0.220998] msm_gpiomux_install: write failure: -22
+[    0.220998] msm_gpiomux_install: write failure: -22
+[    0.221028] msm_gpiomux_install: write failure: -22
+[    0.227346] pm8xxx-regulator pm8xxx-regulator.3: Failed to set supply 8921_l29
+[    0.227468] pm8xxx_vreg_probe: regulator_register failed: 8921_l29, rc=-16
+[    0.227498] pm8xxx_vreg_probe: error for 8921_l29, rc=-16
+[    0.234854] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.234884] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.234884] Using interleaved memory by default
+[    0.235098] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235098] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235098] Using interleaved memory by default
+[    0.235312] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235312] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235342] Using interleaved memory by default
+[    0.235525] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235525] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235525] Using interleaved memory by default
+[    0.235739] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235739] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235739] Using interleaved memory by default
+[    0.328429] [CAMERA][msm8930_init_cam:1942] Start
+[    0.328826] [msm_camera_gpio_install:274] [Start]
+[    0.544361] smd_channel_probe_worker: allocation table not initialized
+[    0.564871] msm_iommu_dev: Could not find context <jpegd_src>
+[    0.564993] msm_iommu_dev: Could not find context <jpegd_dst>
+[    0.566885] param_sec_operation: filp_open failed. (-2)
+[    0.566976] sec_open_param PARAM OPEN FAIL
+[    0.765786] tima_uevent_init
+[    0.798168] [mdnie lite] start!
+[    0.798412] [mdnie lite] end!
+[    0.802227] hdmi_msm hdmi_msm.1: external_common_state_create: sysfs group e001e008
+[    0.803174] Inside writeback_driver_init
+[    0.803509] Inside writeback_probe
+[    0.809491] Unknown PM state 0
+[    0.809705] Unknown PM state 3
+[    0.930138] wcd9xxx-i2c-core 8-0077: wcd9xxx_i2c_probe:probe for other slaves
+[    0.930199] devices of codec I2C slave Addr = 77
+[    0.930566] wcd9xxx-i2c-core 8-0066: wcd9xxx_i2c_probe:probe for other slaves
+[    0.930627] devices of codec I2C slave Addr = 66
+[    0.930962] wcd9xxx-i2c-core 8-0055: wcd9xxx_i2c_probe:probe for other slaves
+[    0.930993] devices of codec I2C slave Addr = 55
+[    0.970395] msm_hsusb_host msm_hsusb_host: unable to register with transceiver
+[    1.100839] msm_otg_sm_work 2359: couldn't get usb power supply
+[    1.110697] Atmel MXT336S 3-004a: tsp_atmel/mxt336s_Serrano.fw
+[    1.671326] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[    1.683747] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.698886] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.713840] mpu6050_input_probe: mpu6050 probe failed
+[    1.774088] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.840500] imx175_eeprom_init called 
+[    1.840775] imx175 spi driver probe
+[    1.841355] imx175_spi_read_id: ReadID:0xf8, 0x12
+[    1.841812] imx175_spi_read : Enter - reg_addr : 0x40
+[    1.842240] imx175_spi_read : Enter - reg_addr : 0x1000
+[    1.842698] imx175_spi_read : Enter - reg_addr : 0x2000
+[    1.843399] imx175_spi_read : Enter - reg_addr : 0x300c
+[    1.849137] imx175_spi_read : Enter - reg_addr : 0x1200
+[    1.849717] imx175_spi_read : Enter - reg_addr : 0x1218
+[    1.855516] imx175_format_calibrationdata: is_all_supported= 1
+[    1.855882] [shchang : imx175_format_afdata] Little Endian!!
+[    1.856126] [shchang : imx175_format_wbdata] Little Endian!!
+[    1.857744] msm_sensor_i2c_probe s5k3h5xa probe succeeded
+[    1.857958] [teddy]msm_sensor_i2c_probe s5k3h5xa sensor_create_node
+[    1.858354] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][1]
+[    1.858812] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][2]
+[    1.859423] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][3]
+[    1.860430] msm_eeprom_probe probe_fail
+[    1.862292] msm_sensor_i2c_probe s5k6a3yx probe succeeded
+[    1.862505] msm_eeprom_probe probe_fail
+[    1.909140] mmc0: No card detect facilities available
+[    1.919884] mmc1: No card detect facilities available
+[    1.938837] mmc0: CMD52: Command timeout
+[    1.944391] mmc0: CMD52: Command timeout
+[    1.953212] mmc0: CMD8: Command timeout
+[    1.958797] mmc0: CMD5: Command timeout
+[    1.964321] mmc0: CMD5: Command timeout
+[    1.969815] mmc0: CMD5: Command timeout
+[    1.975431] mmc0: CMD5: Command timeout
+[    1.980955] mmc0: CMD55: Command timeout
+[    1.986479] mmc0: CMD55: Command timeout
+[    1.992095] mmc0: CMD55: Command timeout
+[    1.997588] mmc0: CMD55: Command timeout
+[    2.085731] mmc1: CMD52: Command timeout
+[    2.091347] mmc1: CMD52: Command timeout
+[    2.100198] mmc1: CMD8: Command timeout
+[    2.105753] mmc1: CMD5: Command timeout
+[    2.111338] mmc1: CMD5: Command timeout
+[    2.116862] mmc1: CMD5: Command timeout
+[    2.122386] mmc1: CMD5: Command timeout
+[    2.127971] mmc1: CMD55: Command timeout
+[    2.133526] mmc1: CMD55: Command timeout
+[    2.139050] mmc1: CMD55: Command timeout
+[    2.144636] mmc1: CMD55: Command timeout
+[    2.150221] mmc1: CMD1: Command timeout
+[    2.800946] i2c i2c-21: an30259a_initialize: failure on i2c write (reg = 0x 0)
+[    2.801159] i2c i2c-21: failure on initialization at led channel:0
+[    2.813398] gp2a_setup_irq, start
+[    2.814100] gp2a_setup_irq, success
+[    2.968930] soc-audio soc-audio.0: Failed to add Speaker Function: -16
+[    3.007111] tc360_probe start
+[    3.008972] tc360_init: init done 0
+[    3.011078] read_ocv_trim: program rev reg is 0x19
+[    3.011231] pm8921_is_usb_chg_plugged_in: called before init
+[    3.015016] pm8921_is_usb_chg_plugged_in: called before init
+[    3.015229] pm8921_is_usb_chg_plugged_in: called before init
+[    3.015412] pm8921_is_batfet_closed: called before init
+[    3.042362] pm8921_is_usb_chg_plugged_in: called before init
+[    3.151106] pm8921_is_batfet_closed: called before init
+[    3.182572] pm8921_is_usb_chg_plugged_in: called before init
+[    3.291164] pm8921_is_batfet_closed: called before init
+[    3.322661] pm8921_is_usb_chg_plugged_in: called before init
+[    3.431252] pm8921_is_batfet_closed: called before init
+[    3.462719] pm8921_is_usb_chg_plugged_in: called before init
+[    3.562826] tsu6721 15-0025: dev1: 0x4, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+[    3.563039] tsu6721_callback: fail to get battery ps
+[    3.571219] pm8921_is_batfet_closed: called before init
+[    3.602655] pm8921_is_usb_chg_plugged_in: called before init
+[    3.711643] pm8921_is_batfet_closed: called before init
+[    3.742713] pm8921_is_usb_chg_plugged_in: called before init
+[    3.742804] pm8921_is_batfet_closed: called before init
+[    3.746345] pm8921_usb_ovp_disable: called before init
+[    3.746528] power_supply usb: driver failed to report `present' property: 4294967274
+[    3.746711] power_supply usb: driver failed to report `present' property: 4294967274
+[    3.746864] power_supply ac: driver failed to report `present' property: 4294967274
+[    3.747016] power_supply ac: driver failed to report `present' property: 4294967274
+[    3.759957] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    3.762673] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    3.774607] pm8921_charger_probe: battery(PM8917) cable_type (1)
+[    3.775797] irda_device_init called!
+[    3.776560] barcode_emul_ice4_8930: probe complete barcode_emul_probe
+[    3.781504] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[    3.781626] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (475mA)--------
+[    3.782267] power_supply usb: driver failed to report `health' property: 4294967274
+[    3.825820] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[    3.837295] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    3.928002] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    3.986326] init: /init.qcom.rc: 641: invalid command '/system/bin/log'
+[    3.986662] init: /init.qcom.rc: 781: invalid command 'kill'
+[    3.986815] init: /init.qcom.rc: 783: invalid command 'kill'
+[    3.986876] init: /init.qcom.rc: 785: invalid command 'kill'
+[    3.987028] init: /init.qcom.rc: 787: invalid command 'kill'
+[    3.988982] init: could not import file 'init.mdm.rc' from 'init.target.rc'
+[    3.989470] init: /init.carrier.rc: 117: ignored duplicate definition of service 'TvoutService_C'
+[    3.989745] init: /init.container.rc: 39: invalid option 'start'
+[    3.990874] init: setsebool: could not set debugfs to 1
+[    3.993834] init: invalid uid 'fm_radio'
+[    4.260613] power_supply usb: driver failed to report `health' property: 4294967274
+[    4.264245] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    4.417244] init: could not open /dev/keychord
+[    4.960231] init: Running /dev/block/platform/msm_sdcc.1/by-name/cache on ext4
+[    4.990447] init: Running /dev/block/platform/msm_sdcc.1/by-name/persist on ext4
+[    5.021120] init: Running /dev/block/platform/msm_sdcc.1/by-name/efs on ext4
+[    5.076361] init: Running /dev/block/platform/msm_sdcc.1/by-name/persdata on ext4
+[    5.445383] init: failed to open '/sys/devices/soc0/soc_id'
+[    5.445597] init: failed to open '/sys/devices/soc0/platform_version'
+[    5.445750] init: failed to open '/sys/devices/soc0/hw_platform'
+[    5.445902] init: Detected MSM SOC ID=154 SOC VER=65536 BOARD TYPE=Unknown
+[    5.463055] healthd: wakealarm_init: timerfd_create failed
+[    5.478223] init: cannot find '/system/bin/sec-ril', disabling 'secril-daemon'
+[    5.513840] init: cannot find '/system/bin/sensorhubservice', disabling 'sensorhubservice'
+[    5.518419] init: cannot execve('/system/etc/install-recovery.sh'): Permission denied
+[    5.528948] init: cannot find '/system/bin/rf4ce', disabling 'rf4ce'
+[    5.529131] init: cannot find '/system/bin/qrngd', disabling 'qrngd'
+[    5.553547] Unknown PM state 0
+[    5.557393] QSEECOM: qseecom_release: Unsupported clnt_handle_type 4
+[    5.561300] Unknown PM state 3
+[    5.561544] Unknown PM state 0
+[    5.563497] Unknown PM state 3
+[    5.622493] Unknown PM state 0
+[    5.624172] Unknown PM state 3
+[    5.624324] Unknown PM state 0
+[    5.626522] Unknown PM state 3
+[    6.331725] init: property 'sys.powerctl' doesn't exist while expanding '${sys.powerctl}'
+[    6.331878] init: powerctl: cannot expand '${sys.powerctl}'
+[    6.332000] init: property 'sys.sysctl.extra_free_kbytes' doesn't exist while expanding '${sys.sysctl.extra_free_kbytes}'
+[    6.346680] init: cannot expand '${sys.sysctl.extra_free_kbytes}' while writing to '/proc/sys/vm/extra_free_kbytes'
+[    6.348603] init: cannot find '/system/bin/scranton_RD', disabling 'scranton_RD'
+[    6.353334] init: cannot find '/system/bin/netmgrd', disabling 'netmgrd'
+[    6.695437] wcnss: no space available for smd frame
+[    6.722234] wcnss: no space available for smd frame
+[    6.752235] wcnss: no space available for smd frame
+[    6.782206] wcnss: no space available for smd frame
+[    7.414039] diag: proc 1, msg mask update fail -12, tried 419
+[    9.653258] smd_tty_open: DS open failed -19
+[    9.673828] init: untracked pid 377 exited
+[    9.829207] init: cannot find '/system/bin/quipc_igsn', disabling 'quipc_igsn'
+[    9.858751] init: cannot find '/system/bin/quipc_main', disabling 'quipc_main'
+[    9.892781] init: cannot find '/system/bin/location-mq', disabling 'location_mq'
+[    9.909446] init: cannot find '/system/bin/lowi-server', disabling 'lowi-server'
+[   10.029421] init: cannot find '/system/bin/battery_monitor', disabling 'battery_monitor'
+[   10.284419] Notify: smsm init
+[   10.625728] init: untracked pid 558 exited
+[   10.661895] smd_tty_open: DS open failed -19
+[   11.023348] init: sys_prop: permission denied uid:1013  name:audio.country
+[   11.045658] [mdnie lite] is negative Mode On = 0
+[   11.045658] [mdnie lite] negative off when resume, tuning again!
+[   11.045688] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   11.045719] [mdnie lite]  = UI MODE =
+[   11.045750] [mdnie lite]  = STANDARD MODE =
+[   11.045750] [mdnie lite]  send tuning cmd!!
+[   11.078956] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+[   11.531817] diag: proc 0, msg mask update fail -12, tried 419
+[   11.662383] smd_tty_open: DS open failed -19
+[   12.662749] smd_tty_open: DS open failed -19
+[   13.663360] smd_tty_open: DS open failed -19
+[   13.784983] ACDB=> get_hw_delay Invalid delay/ delay entries
+[   13.785045] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[   18.945521] ACDB=> get_hw_delay Invalid delay/ delay entries
+[   18.945673] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[   18.950190] accel_open_calibration: Can't open calibration file
+[   18.957454] init: sys_prop: permission denied uid:1013  name:audioflinger.bootsnd
+[   19.121898] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[   23.299069] pm_chg_usb_trim: trim_orig 40 write 0x28 index=0 value 0x0 to USB_OVP_TRIM
+[   27.153975] msm_pm_mode_attr_store: spc is blocked (1) from [sh]
+[   27.154158] msm_pm_mode_attr_store: spc is blocked (2) from [sh]
+[   28.773142] [mdnie lite] is negative Mode On = 0
+[   28.773233] [mdnie lite] negative off when resume, tuning again!
+[   28.773416] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   28.773508] [mdnie lite]  = UI MODE =
+[   28.773630] [mdnie lite]  = STANDARD MODE =
+[   28.773721] [mdnie lite]  send tuning cmd!!
+[   28.794811] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+[   32.926323] wlan: [1051:E :HDD] hdd_apply_cfg_ini: Reg Parameter gApKeepAlivePeriod > allowed Maximum [30 > 20]. Enforcing Default= 5
+[   32.937280] wlan: [1051:E :VOS] INFO: NV binary file version=1 Driver default NV version=1, continue...
+[   32.937311] 
+[   32.949671] wlan: [1051:E :HDD] hdd_wlan_startup: Invalid MAC address in NV, using MAC from ini file 00:89:ff
+[   33.159652] wlan: [2632:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[   33.172287] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[   33.251396] wlan: [2632:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[   36.891133] init: sys_prop: permission denied uid:2000  name:ro.csc.country_code
+[   36.891500] init: sys_prop: permission denied uid:2000  name:ro.csc.countryiso_code
+[   36.892140] init: sys_prop: permission denied uid:2000  name:ro.csc.sales_code
+[   36.892537] init: sys_prop: permission denied uid:2000  name:ro.setupwizard.mode
+[   37.560750] init: untracked pid 320 exited
+[   39.311185] dtv_pipe is not configured yet
+[   39.879505] [mdnie lite] is negative Mode On = 0
+[   39.879597] [mdnie lite] negative off when resume, tuning again!
+[   39.879719] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   39.879810] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+[   39.884236] [mdnie lite] set background mode : 4
+[   39.884327] [mdnie lite]  mode_store, input background(4)
+[   39.884907] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[   39.884968] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+[  333.943689] pm_chg_usb_trim: trim_orig 40 write 0x28 index=0 value 0x0 to USB_OVP_TRIM
+[  333.945002] power_supply usb: driver failed to report `health' property: 4294967274
+[  333.955714] power_supply usb: driver failed to report `health' property: 4294967274
+[  333.983091] pm_batt_power_set_property: Same cable type, no need to change
+[  333.997008] [mtpg_read]	527:dev->error so break r=-5
+[  334.483106] power_supply usb: driver failed to report `health' property: 4294967274
+[  334.618739] accel_open_calibration: Can't open calibration file
+[  334.790538] wlan: [2632:E :HDD] hdd_conf_hostarpoffload: 
+[  334.790569] 
+[  334.791149] wlan: [2602:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+[  334.791362] wlan: [2602:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  334.979154] [mdnie lite] is negative Mode On = 0
+[  334.979276] [mdnie lite] negative off when resume, tuning again!
+[  334.979368] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[  334.979490] [mdnie lite]  = UI MODE =
+[  334.979581] [mdnie lite]  = AUTO MODE =
+[  334.979703] [mdnie lite]  send tuning cmd!!
+[  335.012452] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+[  335.201525] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[  335.213184] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[  335.253990] tc360 16-0020: no button press interrupt(0x0)
+[  335.307309] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[  335.847276] android_usb gadget: acm ttyGS0 can't notify serial state, -22
+[  336.757942] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+[  336.757973] 
+[  336.766213] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+[  336.766274] 
+[  336.773080] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+[  336.773111] 
+[  337.055760] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[  338.520952] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[  338.522203] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[  338.530382] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[  338.623470] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+[  338.623500] 
+[  338.624690] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+[  338.624721] 
+[  338.625911] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+[  338.625942] 
+[  338.627163] msm_release_ion_client Calling ion_client_destroy
+[  340.245841] dtv_pipe is not configured yet
+[  343.339264] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  343.367434] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  343.368228] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  343.427804] mmc1: CMD52: Command timeout
+[  343.433847] mmc1: CMD52: Command timeout
+[  343.443125] mmc1: CMD8: Command timeout
+[  343.448863] mmc1: CMD5: Command timeout
+[  343.455119] mmc1: CMD5: Command timeout
+[  343.460827] mmc1: CMD5: Command timeout
+[  343.466595] mmc1: CMD5: Command timeout
+[  343.472485] mmc1: CMD55: Command timeout
+[  343.478284] mmc1: CMD55: Command timeout
+[  343.484083] mmc1: CMD55: Command timeout
+[  343.489943] mmc1: CMD55: Command timeout
+[  343.495803] mmc1: CMD1: Command timeout
+[  343.843369] Freezing of user space  aborted
+[  343.845383] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  343.846757] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  343.874744] mmc1: CMD52: Command timeout
+[  343.880238] mmc1: CMD52: Command timeout
+[  343.889119] mmc1: CMD8: Command timeout
+[  343.894643] mmc1: CMD5: Command timeout
+[  343.900106] mmc1: CMD5: Command timeout
+[  343.905692] mmc1: CMD5: Command timeout
+[  343.911185] mmc1: CMD5: Command timeout
+[  343.916709] mmc1: CMD55: Command timeout
+[  343.922264] mmc1: CMD55: Command timeout
+[  343.927819] mmc1: CMD55: Command timeout
+[  343.933282] mmc1: CMD55: Command timeout
+[  343.938928] mmc1: CMD1: Command timeout
+[  344.357698] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  344.374088] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  344.374332] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  344.417243] mmc1: CMD52: Command timeout
+[  344.422798] mmc1: CMD52: Command timeout
+[  344.431710] mmc1: CMD8: Command timeout
+[  344.437387] mmc1: CMD5: Command timeout
+[  344.442911] mmc1: CMD5: Command timeout
+[  344.448466] mmc1: CMD5: Command timeout
+[  344.454112] mmc1: CMD5: Command timeout
+[  344.459667] mmc1: CMD55: Command timeout
+[  344.465252] mmc1: CMD55: Command timeout
+[  344.470990] mmc1: CMD55: Command timeout
+[  344.476575] mmc1: CMD55: Command timeout
+[  344.482160] mmc1: CMD1: Command timeout
+[  345.278650] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  345.296261] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  345.296627] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  345.341126] mmc1: CMD52: Command timeout
+[  345.346833] mmc1: CMD52: Command timeout
+[  345.355714] mmc1: CMD8: Command timeout
+[  345.361452] mmc1: CMD5: Command timeout
+[  345.367098] mmc1: CMD5: Command timeout
+[  345.372714] mmc1: CMD5: Command timeout
+[  345.378483] mmc1: CMD5: Command timeout
+[  345.384098] mmc1: CMD55: Command timeout
+[  345.389897] mmc1: CMD55: Command timeout
+[  345.395635] mmc1: CMD55: Command timeout
+[  345.401251] mmc1: CMD55: Command timeout
+[  345.406958] mmc1: CMD1: Command timeout
+[  346.284938] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  346.295894] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  346.296139] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  346.341095] mmc1: CMD52: Command timeout
+[  346.346894] mmc1: CMD52: Command timeout
+[  346.355836] mmc1: CMD8: Command timeout
+[  346.361422] mmc1: CMD5: Command timeout
+[  346.367190] mmc1: CMD5: Command timeout
+[  346.372775] mmc1: CMD5: Command timeout
+[  346.378422] mmc1: CMD5: Command timeout
+[  346.384190] mmc1: CMD55: Command timeout
+[  346.389836] mmc1: CMD55: Command timeout
+[  346.395482] mmc1: CMD55: Command timeout
+[  346.401190] mmc1: CMD55: Command timeout
+[  346.406897] mmc1: CMD1: Command timeout
+[  347.303158] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  347.332580] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  347.333221] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  347.393193] mmc1: CMD52: Command timeout
+[  347.399206] mmc1: CMD52: Command timeout
+[  347.408789] mmc1: CMD8: Command timeout
+[  347.414497] mmc1: CMD5: Command timeout
+[  347.420418] mmc1: CMD5: Command timeout
+[  347.426186] mmc1: CMD5: Command timeout
+[  347.431863] mmc1: CMD5: Command timeout
+[  347.437814] mmc1: CMD55: Command timeout
+[  347.443522] mmc1: CMD55: Command timeout
+[  347.449290] mmc1: CMD55: Command timeout
+[  347.455180] mmc1: CMD55: Command timeout
+[  347.461223] mmc1: CMD1: Command timeout
+[  347.968838] Freezing of user space  aborted
+[  347.971280] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  347.971432] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  348.001373] mmc1: CMD52: Command timeout
+[  348.006928] mmc1: CMD52: Command timeout
+[  348.015748] mmc1: CMD8: Command timeout
+[  348.021242] mmc1: CMD5: Command timeout
+[  348.026735] mmc1: CMD5: Command timeout
+[  348.032290] mmc1: CMD5: Command timeout
+[  348.037814] mmc1: CMD5: Command timeout
+[  348.043308] mmc1: CMD55: Command timeout
+[  348.048893] mmc1: CMD55: Command timeout
+[  348.054387] mmc1: CMD55: Command timeout
+[  348.059911] mmc1: CMD55: Command timeout
+[  348.065496] mmc1: CMD1: Command timeout
+[  348.519945] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  348.536426] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  348.536639] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  348.579825] mmc1: CMD52: Command timeout
+[  348.585411] mmc1: CMD52: Command timeout
+[  348.594323] mmc1: CMD8: Command timeout
+[  348.599999] mmc1: CMD5: Command timeout
+[  348.605524] mmc1: CMD5: Command timeout
+[  348.611109] mmc1: CMD5: Command timeout
+[  348.616786] mmc1: CMD5: Command timeout
+[  348.622340] mmc1: CMD55: Command timeout
+[  348.627926] mmc1: CMD55: Command timeout
+[  348.633541] mmc1: CMD55: Command timeout
+[  348.639157] mmc1: CMD55: Command timeout
+[  348.644742] mmc1: CMD1: Command timeout
+[  349.534472] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  349.563650] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  349.564291] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  349.625606] mmc1: CMD52: Command timeout
+[  349.631435] mmc1: CMD52: Command timeout
+[  349.641110] mmc1: CMD8: Command timeout
+[  349.647001] mmc1: CMD5: Command timeout
+[  349.652708] mmc1: CMD5: Command timeout
+[  349.658538] mmc1: CMD5: Command timeout
+[  349.664367] mmc1: CMD5: Command timeout
+[  349.670166] mmc1: CMD55: Command timeout
+[  349.676087] mmc1: CMD55: Command timeout
+[  349.682069] mmc1: CMD55: Command timeout
+[  349.687959] mmc1: CMD55: Command timeout
+[  349.693728] mmc1: CMD1: Command timeout
+[  350.575156] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  350.604608] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  350.605249] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  350.664916] mmc1: CMD52: Command timeout
+[  350.670959] mmc1: CMD52: Command timeout
+[  350.680512] mmc1: CMD8: Command timeout
+[  350.686250] mmc1: CMD5: Command timeout
+[  350.692201] mmc1: CMD5: Command timeout
+[  350.697970] mmc1: CMD5: Command timeout
+[  350.703708] mmc1: CMD5: Command timeout
+[  350.709659] mmc1: CMD55: Command timeout
+[  350.715550] mmc1: CMD55: Command timeout
+[  350.721318] mmc1: CMD55: Command timeout
+[  350.727544] mmc1: CMD55: Command timeout
+[  350.733343] mmc1: CMD1: Command timeout
+[  351.615504] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  351.644742] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  351.645414] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  351.701480] mmc1: CMD52: Command timeout
+[  351.707370] mmc1: CMD52: Command timeout
+[  351.716496] mmc1: CMD8: Command timeout
+[  351.722264] mmc1: CMD5: Command timeout
+[  351.728216] mmc1: CMD5: Command timeout
+[  351.733923] mmc1: CMD5: Command timeout
+[  351.739661] mmc1: CMD5: Command timeout
+[  351.745551] mmc1: CMD55: Command timeout
+[  351.751350] mmc1: CMD55: Command timeout
+[  351.757240] mmc1: CMD55: Command timeout
+[  351.763192] mmc1: CMD55: Command timeout
+[  351.769021] mmc1: CMD1: Command timeout
+[  352.659667] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  352.673584] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  352.673828] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  352.712650] mmc1: CMD52: Command timeout
+[  352.718327] mmc1: CMD52: Command timeout
+[  352.727239] mmc1: CMD8: Command timeout
+[  352.732763] mmc1: CMD5: Command timeout
+[  352.738287] mmc1: CMD5: Command timeout
+[  352.743842] mmc1: CMD5: Command timeout
+[  352.749366] mmc1: CMD5: Command timeout
+[  352.754860] mmc1: CMD55: Command timeout
+[  352.760445] mmc1: CMD55: Command timeout
+[  352.765939] mmc1: CMD55: Command timeout
+[  352.771463] mmc1: CMD55: Command timeout
+[  352.777079] mmc1: CMD1: Command timeout
+[  353.676636] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  353.706088] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  353.706577] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  353.763833] mmc1: CMD52: Command timeout
+[  353.769845] mmc1: CMD52: Command timeout
+[  353.779154] mmc1: CMD8: Command timeout
+[  353.784892] mmc1: CMD5: Command timeout
+[  353.790660] mmc1: CMD5: Command timeout
+[  353.796551] mmc1: CMD5: Command timeout
+[  353.802319] mmc1: CMD5: Command timeout
+[  353.808026] mmc1: CMD55: Command timeout
+[  353.814008] mmc1: CMD55: Command timeout
+[  353.819746] mmc1: CMD55: Command timeout
+[  353.825484] mmc1: CMD55: Command timeout
+[  353.831496] mmc1: CMD1: Command timeout
+[  354.510575] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  354.524065] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  354.524217] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  354.564077] mmc1: CMD52: Command timeout
+[  354.569662] mmc1: CMD52: Command timeout
+[  354.578391] mmc1: CMD8: Command timeout
+[  354.583976] mmc1: CMD5: Command timeout
+[  354.589500] mmc1: CMD5: Command timeout
+[  354.594994] mmc1: CMD5: Command timeout
+[  354.600549] mmc1: CMD5: Command timeout
+[  354.606042] mmc1: CMD55: Command timeout
+[  354.611658] mmc1: CMD55: Command timeout
+[  354.617152] mmc1: CMD55: Command timeout
+[  354.622676] mmc1: CMD55: Command timeout
+[  354.628383] mmc1: CMD1: Command timeout
+[  355.526079] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  355.555714] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  355.556203] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  355.614832] mmc1: CMD52: Command timeout
+[  355.620845] mmc1: CMD52: Command timeout
+[  355.629940] mmc1: CMD8: Command timeout
+[  355.635861] mmc1: CMD5: Command timeout
+[  355.641751] mmc1: CMD5: Command timeout
+[  355.647428] mmc1: CMD5: Command timeout
+[  355.653380] mmc1: CMD5: Command timeout
+[  355.659087] mmc1: CMD55: Command timeout
+[  355.664916] mmc1: CMD55: Command timeout
+[  355.671051] mmc1: CMD55: Command timeout
+[  355.676758] mmc1: CMD55: Command timeout
+[  355.682588] mmc1: CMD1: Command timeout
+[  356.331481] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  356.346436] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  356.346650] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  356.387913] mmc1: CMD52: Command timeout
+[  356.393468] mmc1: CMD52: Command timeout
+[  356.402227] mmc1: CMD8: Command timeout
+[  356.407782] mmc1: CMD5: Command timeout
+[  356.413276] mmc1: CMD5: Command timeout
+[  356.418769] mmc1: CMD5: Command timeout
+[  356.424355] mmc1: CMD5: Command timeout
+[  356.429848] mmc1: CMD55: Command timeout
+[  356.435342] mmc1: CMD55: Command timeout
+[  356.440927] mmc1: CMD55: Command timeout
+[  356.446421] mmc1: CMD55: Command timeout
+[  356.451976] mmc1: CMD1: Command timeout
+[  357.347443] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  357.370669] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  357.371097] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  357.416236] mmc1: CMD52: Command timeout
+[  357.422005] mmc1: CMD52: Command timeout
+[  357.430947] mmc1: CMD8: Command timeout
+[  357.436685] mmc1: CMD5: Command timeout
+[  357.442423] mmc1: CMD5: Command timeout
+[  357.448008] mmc1: CMD5: Command timeout
+[  357.453776] mmc1: CMD5: Command timeout
+[  357.459484] mmc1: CMD55: Command timeout
+[  357.465130] mmc1: CMD55: Command timeout
+[  357.470776] mmc1: CMD55: Command timeout
+[  357.476484] mmc1: CMD55: Command timeout
+[  357.482191] mmc1: CMD1: Command timeout
+[  358.364138] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  358.380161] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  358.380436] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  358.422768] mmc1: CMD52: Command timeout
+[  358.428383] mmc1: CMD52: Command timeout
+[  358.437295] mmc1: CMD8: Command timeout
+[  358.442850] mmc1: CMD5: Command timeout
+[  358.448435] mmc1: CMD5: Command timeout
+[  358.453990] mmc1: CMD5: Command timeout
+[  358.459514] mmc1: CMD5: Command timeout
+[  358.465130] mmc1: CMD55: Command timeout
+[  358.470624] mmc1: CMD55: Command timeout
+[  358.476178] mmc1: CMD55: Command timeout
+[  358.481794] mmc1: CMD55: Command timeout
+[  358.487379] mmc1: CMD1: Command timeout
+[  359.390691] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  359.421547] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  359.422005] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  359.481886] mmc1: CMD52: Command timeout
+[  359.487654] mmc1: CMD52: Command timeout
+[  359.496993] mmc1: CMD8: Command timeout
+[  359.502762] mmc1: CMD5: Command timeout
+[  359.508591] mmc1: CMD5: Command timeout
+[  359.514542] mmc1: CMD5: Command timeout
+[  359.520250] mmc1: CMD5: Command timeout
+[  359.526079] mmc1: CMD55: Command timeout
+[  359.532031] mmc1: CMD55: Command timeout
+[  359.537738] mmc1: CMD55: Command timeout
+[  359.543506] mmc1: CMD55: Command timeout
+[  359.549427] mmc1: CMD1: Command timeout
+[  360.643827] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  360.652678] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  360.665893] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  360.712345] mmc1: CMD52: Command timeout
+[  360.717991] mmc1: CMD52: Command timeout
+[  360.727025] mmc1: CMD8: Command timeout
+[  360.732610] mmc1: CMD5: Command timeout
+[  360.738196] mmc1: CMD5: Command timeout
+[  360.743872] mmc1: CMD5: Command timeout
+[  360.749458] mmc1: CMD5: Command timeout
+[  360.755073] mmc1: CMD55: Command timeout
+[  360.760750] mmc1: CMD55: Command timeout
+[  360.766458] mmc1: CMD55: Command timeout
+[  360.772073] mmc1: CMD55: Command timeout
+[  360.778116] mmc1: CMD1: Command timeout
+[  361.675141] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  361.684083] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  361.700808] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  361.742865] mmc1: CMD52: Command timeout
+[  361.748512] mmc1: CMD52: Command timeout
+[  361.757576] mmc1: CMD8: Command timeout
+[  361.763863] mmc1: CMD5: Command timeout
+[  361.769479] mmc1: CMD5: Command timeout
+[  361.775156] mmc1: CMD5: Command timeout
+[  361.780894] mmc1: CMD5: Command timeout
+[  361.786509] mmc1: CMD55: Command timeout
+[  361.792125] mmc1: CMD55: Command timeout
+[  361.797863] mmc1: CMD55: Command timeout
+[  361.803479] mmc1: CMD55: Command timeout
+[  361.809125] mmc1: CMD1: Command timeout
+[  362.705569] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  362.714451] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  362.730962] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  362.775125] mmc1: CMD52: Command timeout
+[  362.780772] mmc1: CMD52: Command timeout
+[  362.789775] mmc1: CMD8: Command timeout
+[  362.795543] mmc1: CMD5: Command timeout
+[  362.801190] mmc1: CMD5: Command timeout
+[  362.807172] mmc1: CMD5: Command timeout
+[  362.812971] mmc1: CMD5: Command timeout
+[  362.819838] mmc1: CMD55: Command timeout
+[  362.825881] mmc1: CMD55: Command timeout
+[  362.831680] mmc1: CMD55: Command timeout
+[  362.841202] mmc1: CMD55: Command timeout
+[  362.846879] mmc1: CMD1: Command timeout
+[  363.155714] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  363.164596] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  363.180375] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  363.223653] mmc1: CMD52: Command timeout
+[  363.229421] mmc1: CMD52: Command timeout
+[  363.238333] mmc1: CMD8: Command timeout
+[  363.243949] mmc1: CMD5: Command timeout
+[  363.249717] mmc1: CMD5: Command timeout
+[  363.255333] mmc1: CMD5: Command timeout
+[  363.260979] mmc1: CMD5: Command timeout
+[  363.266839] mmc1: CMD55: Command timeout
+[  363.272516] mmc1: CMD55: Command timeout
+[  363.278315] mmc1: CMD55: Command timeout
+[  363.283992] mmc1: CMD55: Command timeout
+[  363.289729] mmc1: CMD1: Command timeout
+[  363.754097] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  363.762337] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  363.769540] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  363.808820] mmc1: CMD52: Command timeout
+[  363.814436] mmc1: CMD52: Command timeout
+[  363.823195] mmc1: CMD8: Command timeout
+[  363.828719] mmc1: CMD5: Command timeout
+[  363.834365] mmc1: CMD5: Command timeout
+[  363.839890] mmc1: CMD5: Command timeout
+[  363.845444] mmc1: CMD5: Command timeout
+[  363.851030] mmc1: CMD55: Command timeout
+[  363.856554] mmc1: CMD55: Command timeout
+[  363.862108] mmc1: CMD55: Command timeout
+[  363.867724] mmc1: CMD55: Command timeout
+[  363.873279] mmc1: CMD1: Command timeout
+[  364.786815] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  364.796215] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  364.811567] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  364.854387] mmc1: CMD52: Command timeout
+[  364.860216] mmc1: CMD52: Command timeout
+[  364.869281] mmc1: CMD8: Command timeout
+[  364.875293] mmc1: CMD5: Command timeout
+[  364.881062] mmc1: CMD5: Command timeout
+[  364.886738] mmc1: CMD5: Command timeout
+[  364.892385] mmc1: CMD5: Command timeout
+[  364.898245] mmc1: CMD55: Command timeout
+[  364.903891] mmc1: CMD55: Command timeout
+[  364.909598] mmc1: CMD55: Command timeout
+[  364.915336] mmc1: CMD55: Command timeout
+[  364.921013] mmc1: CMD1: Command timeout
+[  365.807660] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  365.817335] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  365.833908] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  365.876972] mmc1: CMD52: Command timeout
+[  365.882649] mmc1: CMD52: Command timeout
+[  365.892507] mmc1: CMD8: Command timeout
+[  365.898306] mmc1: CMD5: Command timeout
+[  365.903952] mmc1: CMD5: Command timeout
+[  365.909873] mmc1: CMD5: Command timeout
+[  365.915702] mmc1: CMD5: Command timeout
+[  365.921379] mmc1: CMD55: Command timeout
+[  365.927269] mmc1: CMD55: Command timeout
+[  365.932916] mmc1: CMD55: Command timeout
+[  365.938623] mmc1: CMD55: Command timeout
+[  365.944544] mmc1: CMD1: Command timeout
+[  366.427681] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  366.436899] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  366.453502] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  366.492659] mmc1: CMD52: Command timeout
+[  366.498397] mmc1: CMD52: Command timeout
+[  366.507706] mmc1: CMD8: Command timeout
+[  366.513352] mmc1: CMD5: Command timeout
+[  366.519090] mmc1: CMD5: Command timeout
+[  366.524828] mmc1: CMD5: Command timeout
+[  366.530444] mmc1: CMD5: Command timeout
+[  366.536029] mmc1: CMD55: Command timeout
+[  366.541797] mmc1: CMD55: Command timeout
+[  366.547413] mmc1: CMD55: Command timeout
+[  366.552998] mmc1: CMD55: Command timeout
+[  366.558797] mmc1: CMD1: Command timeout
+[  367.468212] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  367.478223] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  367.496780] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  367.535876] mmc1: CMD52: Command timeout
+[  367.541675] mmc1: CMD52: Command timeout
+[  367.550740] mmc1: CMD8: Command timeout
+[  367.556599] mmc1: CMD5: Command timeout
+[  367.562215] mmc1: CMD5: Command timeout
+[  367.568075] mmc1: CMD5: Command timeout
+[  367.573843] mmc1: CMD5: Command timeout
+[  367.579520] mmc1: CMD55: Command timeout
+[  367.585167] mmc1: CMD55: Command timeout
+[  367.590996] mmc1: CMD55: Command timeout
+[  367.596703] mmc1: CMD55: Command timeout
+[  367.602380] mmc1: CMD1: Command timeout
+[  368.508469] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  368.517137] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  368.533404] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  368.586632] mmc1: CMD52: Command timeout
+[  368.592400] mmc1: CMD52: Command timeout
+[  368.601892] mmc1: CMD8: Command timeout
+[  368.607996] mmc1: CMD5: Command timeout
+[  368.613703] mmc1: CMD5: Command timeout
+[  368.619502] mmc1: CMD5: Command timeout
+[  368.625423] mmc1: CMD5: Command timeout
+[  368.631252] mmc1: CMD55: Command timeout
+[  368.637021] mmc1: CMD55: Command timeout
+[  368.642972] mmc1: CMD55: Command timeout
+[  368.649290] mmc1: CMD55: Command timeout
+[  368.655150] mmc1: CMD1: Command timeout
+[  369.073157] Freezing of user space  aborted
+[  369.074042] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  369.076117] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  369.105600] mmc1: CMD52: Command timeout
+[  369.111155] mmc1: CMD52: Command timeout
+[  369.120036] mmc1: CMD8: Command timeout
+[  369.125530] mmc1: CMD5: Command timeout
+[  369.131054] mmc1: CMD5: Command timeout
+[  369.136548] mmc1: CMD5: Command timeout
+[  369.142041] mmc1: CMD5: Command timeout
+[  369.147779] mmc1: CMD55: Command timeout
+[  369.153273] mmc1: CMD55: Command timeout
+[  369.158827] mmc1: CMD55: Command timeout
+[  369.164382] mmc1: CMD55: Command timeout
+[  369.169967] mmc1: CMD1: Command timeout
+[  372.626857] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  372.632412] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  372.640775] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  372.680024] mmc1: CMD52: Command timeout
+[  372.685548] mmc1: CMD52: Command timeout
+[  372.694460] mmc1: CMD8: Command timeout
+[  372.699954] mmc1: CMD5: Command timeout
+[  372.705447] mmc1: CMD5: Command timeout
+[  372.711002] mmc1: CMD5: Command timeout
+[  372.716465] mmc1: CMD5: Command timeout
+[  372.721959] mmc1: CMD55: Command timeout
+[  372.727514] mmc1: CMD55: Command timeout
+[  372.733007] mmc1: CMD55: Command timeout
+[  372.738501] mmc1: CMD55: Command timeout
+[  372.744117] mmc1: CMD1: Command timeout
+[  373.637356] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  373.642942] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  373.651548] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  373.689180] mmc1: CMD52: Command timeout
+[  373.694674] mmc1: CMD52: Command timeout
+[  373.703525] mmc1: CMD8: Command timeout
+[  373.709018] mmc1: CMD5: Command timeout
+[  373.714512] mmc1: CMD5: Command timeout
+[  373.720067] mmc1: CMD5: Command timeout
+[  373.725560] mmc1: CMD5: Command timeout
+[  373.731145] mmc1: CMD55: Command timeout
+[  373.736700] mmc1: CMD55: Command timeout
+[  373.742194] mmc1: CMD55: Command timeout
+[  373.747779] mmc1: CMD55: Command timeout
+[  373.753364] mmc1: CMD1: Command timeout
+[  374.647733] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  374.654051] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  374.662627] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  374.700076] mmc1: CMD52: Command timeout
+[  374.705600] mmc1: CMD52: Command timeout
+[  374.714573] mmc1: CMD8: Command timeout
+[  374.720158] mmc1: CMD5: Command timeout
+[  374.725774] mmc1: CMD5: Command timeout
+[  374.731298] mmc1: CMD5: Command timeout
+[  374.736944] mmc1: CMD5: Command timeout
+[  374.742713] mmc1: CMD55: Command timeout
+[  374.748237] mmc1: CMD55: Command timeout
+[  374.753792] mmc1: CMD55: Command timeout
+[  374.759407] mmc1: CMD55: Command timeout
+[  374.764932] mmc1: CMD1: Command timeout
+[  375.658415] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  375.663879] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  375.672699] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  375.710392] mmc1: CMD52: Command timeout
+[  375.715916] mmc1: CMD52: Command timeout
+[  375.724736] mmc1: CMD8: Command timeout
+[  375.730413] mmc1: CMD5: Command timeout
+[  375.735907] mmc1: CMD5: Command timeout
+[  375.741431] mmc1: CMD5: Command timeout
+[  375.746986] mmc1: CMD5: Command timeout
+[  375.752479] mmc1: CMD55: Command timeout
+[  375.757973] mmc1: CMD55: Command timeout
+[  375.763528] mmc1: CMD55: Command timeout
+[  375.769052] mmc1: CMD55: Command timeout
+[  375.774606] mmc1: CMD1: Command timeout
+[  376.668792] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  376.674286] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  376.682130] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  376.719151] mmc1: CMD52: Command timeout
+[  376.724736] mmc1: CMD52: Command timeout
+[  376.733557] mmc1: CMD8: Command timeout
+[  376.739081] mmc1: CMD5: Command timeout
+[  376.744635] mmc1: CMD5: Command timeout
+[  376.750099] mmc1: CMD5: Command timeout
+[  376.755592] mmc1: CMD5: Command timeout
+[  376.761178] mmc1: CMD55: Command timeout
+[  376.766671] mmc1: CMD55: Command timeout
+[  376.772165] mmc1: CMD55: Command timeout
+[  376.777720] mmc1: CMD55: Command timeout
+[  376.783274] mmc1: CMD1: Command timeout
+[  377.379276] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  377.386876] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  377.392980] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  377.429421] mmc1: CMD52: Command timeout
+[  377.435006] mmc1: CMD52: Command timeout
+[  377.443796] mmc1: CMD8: Command timeout
+[  377.449320] mmc1: CMD5: Command timeout
+[  377.454875] mmc1: CMD5: Command timeout
+[  377.460369] mmc1: CMD5: Command timeout
+[  377.465862] mmc1: CMD5: Command timeout
+[  377.471448] mmc1: CMD55: Command timeout
+[  377.476941] mmc1: CMD55: Command timeout
+[  377.482465] mmc1: CMD55: Command timeout
+[  377.488020] mmc1: CMD55: Command timeout
+[  377.493575] mmc1: CMD1: Command timeout
+[  378.389836] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  378.395360] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  378.403692] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  378.440103] mmc1: CMD52: Command timeout
+[  378.445597] mmc1: CMD52: Command timeout
+[  378.454600] mmc1: CMD8: Command timeout
+[  378.460125] mmc1: CMD5: Command timeout
+[  378.465618] mmc1: CMD5: Command timeout
+[  378.471234] mmc1: CMD5: Command timeout
+[  378.476758] mmc1: CMD5: Command timeout
+[  378.482435] mmc1: CMD55: Command timeout
+[  378.487990] mmc1: CMD55: Command timeout
+[  378.493483] mmc1: CMD55: Command timeout
+[  378.498977] mmc1: CMD55: Command timeout
+[  378.504593] mmc1: CMD1: Command timeout
+[  379.400274] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  379.408332] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  379.413489] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  379.448924] mmc1: CMD52: Command timeout
+[  379.454539] mmc1: CMD52: Command timeout
+[  379.463360] mmc1: CMD8: Command timeout
+[  379.468975] mmc1: CMD5: Command timeout
+[  379.474530] mmc1: CMD5: Command timeout
+[  379.480085] mmc1: CMD5: Command timeout
+[  379.485640] mmc1: CMD5: Command timeout
+[  379.491286] mmc1: CMD55: Command timeout
+[  379.496871] mmc1: CMD55: Command timeout
+[  379.502395] mmc1: CMD55: Command timeout
+[  379.507919] mmc1: CMD55: Command timeout
+[  379.513566] mmc1: CMD1: Command timeout
+[  380.050785] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  380.058660] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  380.066320] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  380.102884] mmc1: CMD52: Command timeout
+[  380.108408] mmc1: CMD52: Command timeout
+[  380.117228] mmc1: CMD8: Command timeout
+[  380.122844] mmc1: CMD5: Command timeout
+[  380.128338] mmc1: CMD5: Command timeout
+[  380.133892] mmc1: CMD5: Command timeout
+[  380.139386] mmc1: CMD5: Command timeout
+[  380.144910] mmc1: CMD55: Command timeout
+[  380.150465] mmc1: CMD55: Command timeout
+[  380.155989] mmc1: CMD55: Command timeout
+[  380.161574] mmc1: CMD55: Command timeout
+[  380.167160] mmc1: CMD1: Command timeout
+[  381.061254] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  381.067236] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  381.074744] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  381.111551] mmc1: CMD52: Command timeout
+[  381.117228] mmc1: CMD52: Command timeout
+[  381.126171] mmc1: CMD8: Command timeout
+[  381.131756] mmc1: CMD5: Command timeout
+[  381.137341] mmc1: CMD5: Command timeout
+[  381.143018] mmc1: CMD5: Command timeout
+[  381.148695] mmc1: CMD5: Command timeout
+[  381.154219] mmc1: CMD55: Command timeout
+[  381.159713] mmc1: CMD55: Command timeout
+[  381.165298] mmc1: CMD55: Command timeout
+[  381.170822] mmc1: CMD55: Command timeout
+[  381.176407] mmc1: CMD1: Command timeout
+[  382.085884] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  382.101266] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  382.119731] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  382.167129] mmc1: CMD52: Command timeout
+[  382.172958] mmc1: CMD52: Command timeout
+[  382.182114] mmc1: CMD8: Command timeout
+[  382.188341] mmc1: CMD5: Command timeout
+[  382.194201] mmc1: CMD5: Command timeout
+[  382.199938] mmc1: CMD5: Command timeout
+[  382.206042] mmc1: CMD5: Command timeout
+[  382.211902] mmc1: CMD55: Command timeout
+[  382.217671] mmc1: CMD55: Command timeout
+[  382.223714] mmc1: CMD55: Command timeout
+[  382.229452] mmc1: CMD55: Command timeout
+[  382.235281] mmc1: CMD1: Command timeout
+[  383.137311] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  383.151289] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  383.168930] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  383.222157] mmc1: CMD52: Command timeout
+[  383.228231] mmc1: CMD52: Command timeout
+[  383.238333] mmc1: CMD8: Command timeout
+[  383.244376] mmc1: CMD5: Command timeout
+[  383.250266] mmc1: CMD5: Command timeout
+[  383.256096] mmc1: CMD5: Command timeout
+[  383.261834] mmc1: CMD5: Command timeout
+[  383.267877] mmc1: CMD55: Command timeout
+[  383.273737] mmc1: CMD55: Command timeout
+[  383.279810] mmc1: CMD55: Command timeout
+[  383.285853] mmc1: CMD55: Command timeout
+[  383.291713] mmc1: CMD1: Command timeout
+[  384.187913] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  384.200305] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  384.221120] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  384.272638] mmc1: CMD52: Command timeout
+[  384.278681] mmc1: CMD52: Command timeout
+[  384.288325] mmc1: CMD8: Command timeout
+[  384.294185] mmc1: CMD5: Command timeout
+[  384.300137] mmc1: CMD5: Command timeout
+[  384.305936] mmc1: CMD5: Command timeout
+[  384.311643] mmc1: CMD5: Command timeout
+[  384.317717] mmc1: CMD55: Command timeout
+[  384.323515] mmc1: CMD55: Command timeout
+[  384.329558] mmc1: CMD55: Command timeout
+[  384.335540] mmc1: CMD55: Command timeout
+[  384.341370] mmc1: CMD1: Command timeout
+[  385.229085] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  385.242301] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  385.261254] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  385.313108] mmc1: CMD52: Command timeout
+[  385.318998] mmc1: CMD52: Command timeout
+[  385.328917] mmc1: CMD8: Command timeout
+[  385.334686] mmc1: CMD5: Command timeout
+[  385.340363] mmc1: CMD5: Command timeout
+[  385.346223] mmc1: CMD5: Command timeout
+[  385.351930] mmc1: CMD5: Command timeout
+[  385.357637] mmc1: CMD55: Command timeout
+[  385.363497] mmc1: CMD55: Command timeout
+[  385.369204] mmc1: CMD55: Command timeout
+[  385.375186] mmc1: CMD55: Command timeout
+[  385.381199] mmc1: CMD1: Command timeout
+[  385.999816] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  386.013550] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  386.034640] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  386.089455] mmc1: CMD52: Command timeout
+[  386.095345] mmc1: CMD52: Command timeout
+[  386.104684] mmc1: CMD8: Command timeout
+[  386.110422] mmc1: CMD5: Command timeout
+[  386.116282] mmc1: CMD5: Command timeout
+[  386.122172] mmc1: CMD5: Command timeout
+[  386.128032] mmc1: CMD5: Command timeout
+[  386.133862] mmc1: CMD55: Command timeout
+[  386.140210] mmc1: CMD55: Command timeout
+[  386.146039] mmc1: CMD55: Command timeout
+[  386.151808] mmc1: CMD55: Command timeout
+[  386.157881] mmc1: CMD1: Command timeout
+[  387.059514] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  387.072150] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  387.094033] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  387.146894] mmc1: CMD52: Command timeout
+[  387.152632] mmc1: CMD52: Command timeout
+[  387.161879] mmc1: CMD8: Command timeout
+[  387.167831] mmc1: CMD5: Command timeout
+[  387.173508] mmc1: CMD5: Command timeout
+[  387.179276] mmc1: CMD5: Command timeout
+[  387.185228] mmc1: CMD5: Command timeout
+[  387.190996] mmc1: CMD55: Command timeout
+[  387.196825] mmc1: CMD55: Command timeout
+[  387.202960] mmc1: CMD55: Command timeout
+[  387.208789] mmc1: CMD55: Command timeout
+[  387.214924] mmc1: CMD1: Command timeout
+[  388.110605] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  388.123546] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  388.145429] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  388.203814] mmc1: CMD52: Command timeout
+[  388.209644] mmc1: CMD52: Command timeout
+[  388.219441] mmc1: CMD8: Command timeout
+[  388.225667] mmc1: CMD5: Command timeout
+[  388.231619] mmc1: CMD5: Command timeout
+[  388.237417] mmc1: CMD5: Command timeout
+[  388.243613] mmc1: CMD5: Command timeout
+[  388.249473] mmc1: CMD55: Command timeout
+[  388.255150] mmc1: CMD55: Command timeout
+[  388.261071] mmc1: CMD55: Command timeout
+[  388.266778] mmc1: CMD55: Command timeout
+[  388.272607] mmc1: CMD1: Command timeout
+[  388.656401] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  388.663451] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  388.675507] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  388.714085] mmc1: CMD52: Command timeout
+[  388.719731] mmc1: CMD52: Command timeout
+[  388.728643] mmc1: CMD8: Command timeout
+[  388.734198] mmc1: CMD5: Command timeout
+[  388.739996] mmc1: CMD5: Command timeout
+[  388.745643] mmc1: CMD5: Command timeout
+[  388.751197] mmc1: CMD5: Command timeout
+[  388.756752] mmc1: CMD55: Command timeout
+[  388.762307] mmc1: CMD55: Command timeout
+[  388.767984] mmc1: CMD55: Command timeout
+[  388.773538] mmc1: CMD55: Command timeout
+[  388.779246] mmc1: CMD1: Command timeout
+[  389.701052] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  389.713016] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  389.734533] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  389.786052] mmc1: CMD52: Command timeout
+[  389.792339] mmc1: CMD52: Command timeout
+[  389.801648] mmc1: CMD8: Command timeout
+[  389.807446] mmc1: CMD5: Command timeout
+[  389.813337] mmc1: CMD5: Command timeout
+[  389.819227] mmc1: CMD5: Command timeout
+[  389.824904] mmc1: CMD5: Command timeout
+[  389.830978] mmc1: CMD55: Command timeout
+[  389.836868] mmc1: CMD55: Command timeout
+[  389.842911] mmc1: CMD55: Command timeout
+[  389.848924] mmc1: CMD55: Command timeout
+[  389.854784] mmc1: CMD1: Command timeout
+[  390.751106] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  390.763406] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  390.784495] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  390.840012] mmc1: CMD52: Command timeout
+[  390.845902] mmc1: CMD52: Command timeout
+[  390.855028] mmc1: CMD8: Command timeout
+[  390.860796] mmc1: CMD5: Command timeout
+[  390.866839] mmc1: CMD5: Command timeout
+[  390.879597] mmc1: CMD5: Command timeout
+[  390.885334] mmc1: CMD5: Command timeout
+[  390.891255] mmc1: CMD55: Command timeout
+[  390.896993] mmc1: CMD55: Command timeout
+[  390.902731] mmc1: CMD55: Command timeout
+[  390.908621] mmc1: CMD55: Command timeout
+[  390.914451] mmc1: CMD1: Command timeout
+[  391.660918] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  391.675263] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  391.691133] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  391.744208] mmc1: CMD52: Command timeout
+[  391.750068] mmc1: CMD52: Command timeout
+[  391.759438] mmc1: CMD8: Command timeout
+[  391.765176] mmc1: CMD5: Command timeout
+[  391.770883] mmc1: CMD5: Command timeout
+[  391.776743] mmc1: CMD5: Command timeout
+[  391.782450] mmc1: CMD5: Command timeout
+[  391.788890] mmc1: CMD55: Command timeout
+[  391.794780] mmc1: CMD55: Command timeout
+[  391.800518] mmc1: CMD55: Command timeout
+[  391.806256] mmc1: CMD55: Command timeout
+[  391.812269] mmc1: CMD1: Command timeout
+[  392.701510] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  392.715458] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  392.731390] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  392.784037] mmc1: CMD52: Command timeout
+[  392.790355] mmc1: CMD52: Command timeout
+[  392.799755] mmc1: CMD8: Command timeout
+[  392.805493] mmc1: CMD5: Command timeout
+[  392.811353] mmc1: CMD5: Command timeout
+[  392.817396] mmc1: CMD5: Command timeout
+[  392.823256] mmc1: CMD5: Command timeout
+[  392.829055] mmc1: CMD55: Command timeout
+[  392.834976] mmc1: CMD55: Command timeout
+[  392.841446] mmc1: CMD55: Command timeout
+[  392.847214] mmc1: CMD55: Command timeout
+[  392.853227] mmc1: CMD1: Command timeout
+[  393.742835] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  393.755440] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  393.777597] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  393.834518] mmc1: CMD52: Command timeout
+[  393.840500] mmc1: CMD52: Command timeout
+[  393.849839] mmc1: CMD8: Command timeout
+[  393.855821] mmc1: CMD5: Command timeout
+[  393.861529] mmc1: CMD5: Command timeout
+[  393.867266] mmc1: CMD5: Command timeout
+[  393.873401] mmc1: CMD5: Command timeout
+[  393.879169] mmc1: CMD55: Command timeout
+[  393.884877] mmc1: CMD55: Command timeout
+[  393.890920] mmc1: CMD55: Command timeout
+[  393.896841] mmc1: CMD55: Command timeout
+[  393.902792] mmc1: CMD1: Command timeout
+[  394.803296] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  394.815748] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  394.837417] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  394.892507] mmc1: CMD52: Command timeout
+[  394.898275] mmc1: CMD52: Command timeout
+[  394.908011] mmc1: CMD8: Command timeout
+[  394.914054] mmc1: CMD5: Command timeout
+[  394.919914] mmc1: CMD5: Command timeout
+[  394.925621] mmc1: CMD5: Command timeout
+[  394.931512] mmc1: CMD5: Command timeout
+[  394.937250] mmc1: CMD55: Command timeout
+[  394.942957] mmc1: CMD55: Command timeout
+[  394.948878] mmc1: CMD55: Command timeout
+[  394.954616] mmc1: CMD55: Command timeout
+[  394.960567] mmc1: CMD1: Command timeout
+[  395.721959] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  395.731451] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  395.749366] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  395.792980] mmc1: CMD52: Command timeout
+[  395.798809] mmc1: CMD52: Command timeout
+[  395.808118] mmc1: CMD8: Command timeout
+[  395.813856] mmc1: CMD5: Command timeout
+[  395.819807] mmc1: CMD5: Command timeout
+[  395.825514] mmc1: CMD5: Command timeout
+[  395.831252] mmc1: CMD5: Command timeout
+[  395.837112] mmc1: CMD55: Command timeout
+[  395.842850] mmc1: CMD55: Command timeout
+[  395.848557] mmc1: CMD55: Command timeout
+[  395.855302] mmc1: CMD55: Command timeout
+[  395.861101] mmc1: CMD1: Command timeout
+[  396.762063] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  396.771097] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  396.785685] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  396.828048] mmc1: CMD52: Command timeout
+[  396.833938] mmc1: CMD52: Command timeout
+[  396.842942] mmc1: CMD8: Command timeout
+[  396.848710] mmc1: CMD5: Command timeout
+[  396.854692] mmc1: CMD5: Command timeout
+[  396.860369] mmc1: CMD5: Command timeout
+[  396.865984] mmc1: CMD5: Command timeout
+[  396.871814] mmc1: CMD55: Command timeout
+[  396.877430] mmc1: CMD55: Command timeout
+[  396.883045] mmc1: CMD55: Command timeout
+[  396.888814] mmc1: CMD55: Command timeout
+[  396.894491] mmc1: CMD1: Command timeout
+[  397.792613] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  397.801617] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  397.817671] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  397.859819] mmc1: CMD52: Command timeout
+[  397.865527] mmc1: CMD52: Command timeout
+[  397.874744] mmc1: CMD8: Command timeout
+[  397.880451] mmc1: CMD5: Command timeout
+[  397.886097] mmc1: CMD5: Command timeout
+[  397.891896] mmc1: CMD5: Command timeout
+[  397.897512] mmc1: CMD5: Command timeout
+[  397.903128] mmc1: CMD55: Command timeout
+[  397.908744] mmc1: CMD55: Command timeout
+[  397.914359] mmc1: CMD55: Command timeout
+[  397.920097] mmc1: CMD55: Command timeout
+[  397.925774] mmc1: CMD1: Command timeout
+[  398.813062] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  398.822096] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  398.838150] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  398.879169] mmc1: CMD52: Command timeout
+[  398.884907] mmc1: CMD52: Command timeout
+[  398.893941] mmc1: CMD8: Command timeout
+[  398.899587] mmc1: CMD5: Command timeout
+[  398.905203] mmc1: CMD5: Command timeout
+[  398.910972] mmc1: CMD5: Command timeout
+[  398.916557] mmc1: CMD5: Command timeout
+[  398.922203] mmc1: CMD55: Command timeout
+[  398.927971] mmc1: CMD55: Command timeout
+[  398.933587] mmc1: CMD55: Command timeout
+[  398.939203] mmc1: CMD55: Command timeout
+[  398.945032] mmc1: CMD1: Command timeout
+[  399.845994] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  399.860064] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  399.879291] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  399.929650] mmc1: CMD52: Command timeout
+[  399.935540] mmc1: CMD52: Command timeout
+[  399.945124] mmc1: CMD8: Command timeout
+[  399.950892] mmc1: CMD5: Command timeout
+[  399.956935] mmc1: CMD5: Command timeout
+[  399.964443] mmc1: CMD5: Command timeout
+[  399.970151] mmc1: CMD5: Command timeout
+[  399.976041] mmc1: CMD55: Command timeout
+[  399.982023] mmc1: CMD55: Command timeout
+[  399.987822] mmc1: CMD55: Command timeout
+[  399.993682] mmc1: CMD55: Command timeout
+[  399.999877] mmc1: CMD1: Command timeout
+[  400.896566] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  400.909171] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  400.927300] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  400.980558] mmc1: CMD52: Command timeout
+[  400.986632] mmc1: CMD52: Command timeout
+[  400.996429] mmc1: CMD8: Command timeout
+[  401.002746] mmc1: CMD5: Command timeout
+[  401.008545] mmc1: CMD5: Command timeout
+[  401.014588] mmc1: CMD5: Command timeout
+[  401.020540] mmc1: CMD5: Command timeout
+[  401.026583] mmc1: CMD55: Command timeout
+[  401.032504] mmc1: CMD55: Command timeout
+[  401.038821] mmc1: CMD55: Command timeout
+[  401.044773] mmc1: CMD55: Command timeout
+[  401.050755] mmc1: CMD1: Command timeout
+[  401.957088] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  401.969662] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  401.989043] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  402.041507] mmc1: CMD52: Command timeout
+[  402.047245] mmc1: CMD52: Command timeout
+[  402.056371] mmc1: CMD8: Command timeout
+[  402.062292] mmc1: CMD5: Command timeout
+[  402.067999] mmc1: CMD5: Command timeout
+[  402.073737] mmc1: CMD5: Command timeout
+[  402.079627] mmc1: CMD5: Command timeout
+[  402.085518] mmc1: CMD55: Command timeout
+[  402.091286] mmc1: CMD55: Command timeout
+[  402.097329] mmc1: CMD55: Command timeout
+[  402.103280] mmc1: CMD55: Command timeout
+[  402.109140] mmc1: CMD1: Command timeout
+[  403.007446] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  403.019838] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  403.039890] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  403.092079] mmc1: CMD52: Command timeout
+[  403.098000] mmc1: CMD52: Command timeout
+[  403.107126] mmc1: CMD8: Command timeout
+[  403.112894] mmc1: CMD5: Command timeout
+[  403.118815] mmc1: CMD5: Command timeout
+[  403.124523] mmc1: CMD5: Command timeout
+[  403.130230] mmc1: CMD5: Command timeout
+[  403.136151] mmc1: CMD55: Command timeout
+[  403.141889] mmc1: CMD55: Command timeout
+[  403.147596] mmc1: CMD55: Command timeout
+[  403.153456] mmc1: CMD55: Command timeout
+[  403.159285] mmc1: CMD1: Command timeout
+[  404.118205] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  404.130779] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  404.152143] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  404.205585] mmc1: CMD52: Command timeout
+[  404.211536] mmc1: CMD52: Command timeout
+[  404.220936] mmc1: CMD8: Command timeout
+[  404.226979] mmc1: CMD5: Command timeout
+[  404.232900] mmc1: CMD5: Command timeout
+[  404.238730] mmc1: CMD5: Command timeout
+[  404.244559] mmc1: CMD5: Command timeout
+[  404.250480] mmc1: CMD55: Command timeout
+[  404.256310] mmc1: CMD55: Command timeout
+[  404.262261] mmc1: CMD55: Command timeout
+[  404.268365] mmc1: CMD55: Command timeout
+[  404.274500] mmc1: CMD1: Command timeout
+[  405.168808] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  405.181474] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  405.200549] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  405.251945] mmc1: CMD52: Command timeout
+[  405.257713] mmc1: CMD52: Command timeout
+[  405.272607] mmc1: CMD8: Command timeout
+[  405.278376] mmc1: CMD5: Command timeout
+[  405.284205] mmc1: CMD5: Command timeout
+[  405.290096] mmc1: CMD5: Command timeout
+[  405.295803] mmc1: CMD5: Command timeout
+[  405.301510] mmc1: CMD55: Command timeout
+[  405.307370] mmc1: CMD55: Command timeout
+[  405.313077] mmc1: CMD55: Command timeout
+[  405.318785] mmc1: CMD55: Command timeout
+[  405.324736] mmc1: CMD1: Command timeout
+[  406.199175] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  406.211719] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  406.232046] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  406.283778] mmc1: CMD52: Command timeout
+[  406.289699] mmc1: CMD52: Command timeout
+[  406.299709] mmc1: CMD8: Command timeout
+[  406.305508] mmc1: CMD5: Command timeout
+[  406.311246] mmc1: CMD5: Command timeout
+[  406.317289] mmc1: CMD5: Command timeout
+[  406.322997] mmc1: CMD5: Command timeout
+[  406.328887] mmc1: CMD55: Command timeout
+[  406.334869] mmc1: CMD55: Command timeout
+[  406.340607] mmc1: CMD55: Command timeout
+[  406.346436] mmc1: CMD55: Command timeout
+[  406.352784] mmc1: CMD1: Command timeout
+[  406.613703] Freezing of user space  aborted
+[  406.615076] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  406.625392] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  406.654692] mmc1: CMD52: Command timeout
+[  406.660399] mmc1: CMD52: Command timeout
+[  406.669372] mmc1: CMD8: Command timeout
+[  406.675171] mmc1: CMD5: Command timeout
+[  406.680787] mmc1: CMD5: Command timeout
+[  406.686403] mmc1: CMD5: Command timeout
+[  406.692171] mmc1: CMD5: Command timeout
+[  406.697817] mmc1: CMD55: Command timeout
+[  406.703433] mmc1: CMD55: Command timeout
+[  406.709201] mmc1: CMD55: Command timeout
+[  406.714848] mmc1: CMD55: Command timeout
+[  406.720524] mmc1: CMD1: Command timeout
+[  406.947321] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  406.956233] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  406.972012] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  407.012940] mmc1: CMD52: Command timeout
+[  407.018708] mmc1: CMD52: Command timeout
+[  407.027681] mmc1: CMD8: Command timeout
+[  407.033328] mmc1: CMD5: Command timeout
+[  407.039127] mmc1: CMD5: Command timeout
+[  407.044742] mmc1: CMD5: Command timeout
+[  407.050358] mmc1: CMD5: Command timeout
+[  407.056187] mmc1: CMD55: Command timeout
+[  407.061712] mmc1: CMD55: Command timeout
+[  407.067236] mmc1: CMD55: Command timeout
+[  407.072882] mmc1: CMD55: Command timeout
+[  407.078467] mmc1: CMD1: Command timeout
+[  407.955287] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  407.960842] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  407.969693] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  408.005646] mmc1: CMD52: Command timeout
+[  408.011261] mmc1: CMD52: Command timeout
+[  408.020143] mmc1: CMD8: Command timeout
+[  408.025698] mmc1: CMD5: Command timeout
+[  408.031252] mmc1: CMD5: Command timeout
+[  408.036746] mmc1: CMD5: Command timeout
+[  408.042240] mmc1: CMD5: Command timeout
+[  408.047794] mmc1: CMD55: Command timeout
+[  408.053288] mmc1: CMD55: Command timeout
+[  408.059087] mmc1: CMD55: Command timeout
+[  408.064642] mmc1: CMD55: Command timeout
+[  408.070196] mmc1: CMD1: Command timeout
+[  408.977872] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  408.986326] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  409.001159] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  409.043094] mmc1: CMD52: Command timeout
+[  409.048954] mmc1: CMD52: Command timeout
+[  409.058293] mmc1: CMD8: Command timeout
+[  409.063940] mmc1: CMD5: Command timeout
+[  409.069647] mmc1: CMD5: Command timeout
+[  409.075446] mmc1: CMD5: Command timeout
+[  409.081123] mmc1: CMD5: Command timeout
+[  409.087074] mmc1: CMD55: Command timeout
+[  409.092873] mmc1: CMD55: Command timeout
+[  409.098580] mmc1: CMD55: Command timeout
+[  409.104226] mmc1: CMD55: Command timeout
+[  409.110147] mmc1: CMD1: Command timeout
+[  410.011322] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  410.023958] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  410.044559] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  410.096596] mmc1: CMD52: Command timeout
+[  410.102792] mmc1: CMD52: Command timeout
+[  410.112223] mmc1: CMD8: Command timeout
+[  410.118052] mmc1: CMD5: Command timeout
+[  410.123790] mmc1: CMD5: Command timeout
+[  410.129894] mmc1: CMD5: Command timeout
+[  410.135632] mmc1: CMD5: Command timeout
+[  410.141553] mmc1: CMD55: Command timeout
+[  410.147443] mmc1: CMD55: Command timeout
+[  410.153212] mmc1: CMD55: Command timeout
+[  410.158980] mmc1: CMD55: Command timeout
+[  410.165023] mmc1: CMD1: Command timeout
+[  411.052525] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  411.066809] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  411.083228] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  411.133007] mmc1: CMD52: Command timeout
+[  411.138806] mmc1: CMD52: Command timeout
+[  411.147993] mmc1: CMD8: Command timeout
+[  411.153914] mmc1: CMD5: Command timeout
+[  411.159804] mmc1: CMD5: Command timeout
+[  411.165542] mmc1: CMD5: Command timeout
+[  411.171524] mmc1: CMD5: Command timeout
+[  411.177323] mmc1: CMD55: Command timeout
+[  411.183091] mmc1: CMD55: Command timeout
+[  411.189073] mmc1: CMD55: Command timeout
+[  411.194841] mmc1: CMD55: Command timeout
+[  411.201403] mmc1: CMD1: Command timeout
+[  411.748206] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  411.754738] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  411.764779] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  411.802990] mmc1: CMD52: Command timeout
+[  411.808789] mmc1: CMD52: Command timeout
+[  411.818190] mmc1: CMD8: Command timeout
+[  411.823805] mmc1: CMD5: Command timeout
+[  411.829421] mmc1: CMD5: Command timeout
+[  411.834945] mmc1: CMD5: Command timeout
+[  411.840530] mmc1: CMD5: Command timeout
+[  411.846085] mmc1: CMD55: Command timeout
+[  411.851609] mmc1: CMD55: Command timeout
+[  411.857225] mmc1: CMD55: Command timeout
+[  411.862749] mmc1: CMD55: Command timeout
+[  411.868396] mmc1: CMD1: Command timeout
+[  412.757790] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  412.763497] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  412.771371] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  412.808454] mmc1: CMD52: Command timeout
+[  412.814039] mmc1: CMD52: Command timeout
+[  412.822859] mmc1: CMD8: Command timeout
+[  412.828536] mmc1: CMD5: Command timeout
+[  412.834030] mmc1: CMD5: Command timeout
+[  412.839615] mmc1: CMD5: Command timeout
+[  412.845139] mmc1: CMD5: Command timeout
+[  412.850663] mmc1: CMD55: Command timeout
+[  412.856126] mmc1: CMD55: Command timeout
+[  412.861681] mmc1: CMD55: Command timeout
+[  412.867175] mmc1: CMD55: Command timeout
+[  412.872699] mmc1: CMD1: Command timeout
+[  413.768228] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  413.774698] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  413.783518] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  413.819563] mmc1: CMD52: Command timeout
+[  413.825118] mmc1: CMD52: Command timeout
+[  413.834060] mmc1: CMD8: Command timeout
+[  413.839584] mmc1: CMD5: Command timeout
+[  413.845231] mmc1: CMD5: Command timeout
+[  413.850785] mmc1: CMD5: Command timeout
+[  413.856279] mmc1: CMD5: Command timeout
+[  413.861834] mmc1: CMD55: Command timeout
+[  413.867358] mmc1: CMD55: Command timeout
+[  413.872852] mmc1: CMD55: Command timeout
+[  413.878376] mmc1: CMD55: Command timeout
+[  413.883930] mmc1: CMD1: Command timeout
+[  414.778788] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  414.784434] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  414.793529] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  414.827315] mmc1: CMD52: Command timeout
+[  414.832900] mmc1: CMD52: Command timeout
+[  414.841660] mmc1: CMD8: Command timeout
+[  414.847123] mmc1: CMD5: Command timeout
+[  414.852678] mmc1: CMD5: Command timeout
+[  414.858171] mmc1: CMD5: Command timeout
+[  414.863665] mmc1: CMD5: Command timeout
+[  414.869250] mmc1: CMD55: Command timeout
+[  414.874744] mmc1: CMD55: Command timeout
+[  414.880237] mmc1: CMD55: Command timeout
+[  414.885792] mmc1: CMD55: Command timeout
+[  414.891408] mmc1: CMD1: Command timeout
+[  415.789409] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  415.795147] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  415.803784] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  415.839676] mmc1: CMD52: Command timeout
+[  415.845200] mmc1: CMD52: Command timeout
+[  415.854051] mmc1: CMD8: Command timeout
+[  415.859575] mmc1: CMD5: Command timeout
+[  415.865069] mmc1: CMD5: Command timeout
+[  415.870624] mmc1: CMD5: Command timeout
+[  415.876117] mmc1: CMD5: Command timeout
+[  415.881611] mmc1: CMD55: Command timeout
+[  415.887166] mmc1: CMD55: Command timeout
+[  415.892659] mmc1: CMD55: Command timeout
+[  415.898153] mmc1: CMD55: Command timeout
+[  415.903769] mmc1: CMD1: Command timeout
+[  416.799725] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  416.805493] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  416.820570] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  416.855577] mmc1: CMD52: Command timeout
+[  416.861071] mmc1: CMD52: Command timeout
+[  416.869922] mmc1: CMD8: Command timeout
+[  416.875415] mmc1: CMD5: Command timeout
+[  416.880909] mmc1: CMD5: Command timeout
+[  416.886464] mmc1: CMD5: Command timeout
+[  416.891927] mmc1: CMD5: Command timeout
+[  416.897451] mmc1: CMD55: Command timeout
+[  416.903006] mmc1: CMD55: Command timeout
+[  416.908499] mmc1: CMD55: Command timeout
+[  416.913993] mmc1: CMD55: Command timeout
+[  416.919578] mmc1: CMD1: Command timeout
+[  417.340179] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  417.345765] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  417.354616] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  417.390416] mmc1: CMD52: Command timeout
+[  417.395971] mmc1: CMD52: Command timeout
+[  417.404761] mmc1: CMD8: Command timeout
+[  417.410315] mmc1: CMD5: Command timeout
+[  417.415809] mmc1: CMD5: Command timeout
+[  417.421364] mmc1: CMD5: Command timeout
+[  417.426918] mmc1: CMD5: Command timeout
+[  417.432473] mmc1: CMD55: Command timeout
+[  417.437967] mmc1: CMD55: Command timeout
+[  417.443552] mmc1: CMD55: Command timeout
+[  417.449046] mmc1: CMD55: Command timeout
+[  417.454661] mmc1: CMD1: Command timeout
+[  418.350678] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  418.356172] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  418.364474] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  418.403998] mmc1: CMD52: Command timeout
+[  418.409491] mmc1: CMD52: Command timeout
+[  418.418342] mmc1: CMD8: Command timeout
+[  418.423958] mmc1: CMD5: Command timeout
+[  418.429452] mmc1: CMD5: Command timeout
+[  418.434915] mmc1: CMD5: Command timeout
+[  418.440469] mmc1: CMD5: Command timeout
+[  418.445994] mmc1: CMD55: Command timeout
+[  418.451487] mmc1: CMD55: Command timeout
+[  418.457042] mmc1: CMD55: Command timeout
+[  418.462536] mmc1: CMD55: Command timeout
+[  418.468060] mmc1: CMD1: Command timeout
+[  419.383885] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  419.393529] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  419.409125] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  419.450480] mmc1: CMD52: Command timeout
+[  419.456340] mmc1: CMD52: Command timeout
+[  419.465405] mmc1: CMD8: Command timeout
+[  419.471020] mmc1: CMD5: Command timeout
+[  419.476789] mmc1: CMD5: Command timeout
+[  419.482404] mmc1: CMD5: Command timeout
+[  419.488020] mmc1: CMD5: Command timeout
+[  419.493819] mmc1: CMD55: Command timeout
+[  419.499465] mmc1: CMD55: Command timeout
+[  419.505173] mmc1: CMD55: Command timeout
+[  419.510971] mmc1: CMD55: Command timeout
+[  419.516801] mmc1: CMD1: Command timeout
+[  420.436563] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  420.449198] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  420.469830] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  420.521379] mmc1: CMD52: Command timeout
+[  420.527575] mmc1: CMD52: Command timeout
+[  420.537127] mmc1: CMD8: Command timeout
+[  420.543079] mmc1: CMD5: Command timeout
+[  420.548969] mmc1: CMD5: Command timeout
+[  420.554768] mmc1: CMD5: Command timeout
+[  420.560476] mmc1: CMD5: Command timeout
+[  420.566519] mmc1: CMD55: Command timeout
+[  420.572378] mmc1: CMD55: Command timeout
+[  420.578452] mmc1: CMD55: Command timeout
+[  420.584465] mmc1: CMD55: Command timeout
+[  420.590324] mmc1: CMD1: Command timeout
+[  421.147138] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  421.159682] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  421.178513] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  421.229940] mmc1: CMD52: Command timeout
+[  421.235861] mmc1: CMD52: Command timeout
+[  421.245658] mmc1: CMD8: Command timeout
+[  421.251426] mmc1: CMD5: Command timeout
+[  421.257256] mmc1: CMD5: Command timeout
+[  421.263299] mmc1: CMD5: Command timeout
+[  421.269036] mmc1: CMD5: Command timeout
+[  421.275263] mmc1: CMD55: Command timeout
+[  421.281123] mmc1: CMD55: Command timeout
+[  421.287074] mmc1: CMD55: Command timeout
+[  421.292995] mmc1: CMD55: Command timeout
+[  421.298824] mmc1: CMD1: Command timeout
+[  422.185350] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  422.194384] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  422.214069] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  422.251762] mmc1: CMD52: Command timeout
+[  422.257469] mmc1: CMD52: Command timeout
+[  422.266625] mmc1: CMD8: Command timeout
+[  422.272272] mmc1: CMD5: Command timeout
+[  422.278345] mmc1: CMD5: Command timeout
+[  422.284175] mmc1: CMD5: Command timeout
+[  422.289790] mmc1: CMD5: Command timeout
+[  422.295406] mmc1: CMD55: Command timeout
+[  422.301144] mmc1: CMD55: Command timeout
+[  422.306760] mmc1: CMD55: Command timeout
+[  422.312406] mmc1: CMD55: Command timeout
+[  422.318205] mmc1: CMD1: Command timeout
+[  423.225881] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  423.234945] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  423.250846] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  423.288020] mmc1: CMD52: Command timeout
+[  423.293911] mmc1: CMD52: Command timeout
+[  423.303036] mmc1: CMD8: Command timeout
+[  423.308774] mmc1: CMD5: Command timeout
+[  423.314451] mmc1: CMD5: Command timeout
+[  423.320372] mmc1: CMD5: Command timeout
+[  423.326049] mmc1: CMD5: Command timeout
+[  423.331695] mmc1: CMD55: Command timeout
+[  423.337555] mmc1: CMD55: Command timeout
+[  423.343170] mmc1: CMD55: Command timeout
+[  423.348756] mmc1: CMD55: Command timeout
+[  423.354677] mmc1: CMD1: Command timeout
+[  424.246299] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  424.255333] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  424.271783] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  424.312009] mmc1: CMD52: Command timeout
+[  424.317778] mmc1: CMD52: Command timeout
+[  424.326751] mmc1: CMD8: Command timeout
+[  424.332549] mmc1: CMD5: Command timeout
+[  424.338226] mmc1: CMD5: Command timeout
+[  424.343811] mmc1: CMD5: Command timeout
+[  424.349549] mmc1: CMD5: Command timeout
+[  424.355196] mmc1: CMD55: Command timeout
+[  424.360842] mmc1: CMD55: Command timeout
+[  424.366702] mmc1: CMD55: Command timeout
+[  424.372317] mmc1: CMD55: Command timeout
+[  424.378025] mmc1: CMD1: Command timeout
+[  425.089271] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  425.101785] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  425.123943] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  425.171310] mmc1: CMD52: Command timeout
+[  425.177353] mmc1: CMD52: Command timeout
+[  425.186967] mmc1: CMD8: Command timeout
+[  425.192888] mmc1: CMD5: Command timeout
+[  425.198809] mmc1: CMD5: Command timeout
+[  425.204639] mmc1: CMD5: Command timeout
+[  425.210529] mmc1: CMD5: Command timeout
+[  425.216419] mmc1: CMD55: Command timeout
+[  425.222157] mmc1: CMD55: Command timeout
+[  425.228231] mmc1: CMD55: Command timeout
+[  425.234060] mmc1: CMD55: Command timeout
+[  425.239981] mmc1: CMD1: Command timeout
+[  426.149793] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  426.162215] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  426.182847] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  426.231283] mmc1: CMD52: Command timeout
+[  426.237356] mmc1: CMD52: Command timeout
+[  426.246970] mmc1: CMD8: Command timeout
+[  426.252708] mmc1: CMD5: Command timeout
+[  426.258782] mmc1: CMD5: Command timeout
+[  426.264519] mmc1: CMD5: Command timeout
+[  426.270379] mmc1: CMD5: Command timeout
+[  426.276361] mmc1: CMD55: Command timeout
+[  426.282099] mmc1: CMD55: Command timeout
+[  426.287807] mmc1: CMD55: Command timeout
+[  426.293727] mmc1: CMD55: Command timeout
+[  426.299526] mmc1: CMD1: Command timeout
+[  427.175308] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  427.181290] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  427.191332] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  427.227559] mmc1: CMD52: Command timeout
+[  427.233236] mmc1: CMD52: Command timeout
+[  427.242301] mmc1: CMD8: Command timeout
+[  427.247794] mmc1: CMD5: Command timeout
+[  427.253380] mmc1: CMD5: Command timeout
+[  427.258904] mmc1: CMD5: Command timeout
+[  427.264397] mmc1: CMD5: Command timeout
+[  427.269983] mmc1: CMD55: Command timeout
+[  427.275476] mmc1: CMD55: Command timeout
+[  427.281000] mmc1: CMD55: Command timeout
+[  427.286586] mmc1: CMD55: Command timeout
+[  427.292171] mmc1: CMD1: Command timeout
+[  428.185716] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  428.191759] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  428.205920] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  428.239493] mmc1: CMD52: Command timeout
+[  428.244986] mmc1: CMD52: Command timeout
+[  428.254112] mmc1: CMD8: Command timeout
+[  428.259728] mmc1: CMD5: Command timeout
+[  428.265221] mmc1: CMD5: Command timeout
+[  428.270776] mmc1: CMD5: Command timeout
+[  428.276270] mmc1: CMD5: Command timeout
+[  428.281794] mmc1: CMD55: Command timeout
+[  428.287349] mmc1: CMD55: Command timeout
+[  428.292842] mmc1: CMD55: Command timeout
+[  428.298336] mmc1: CMD55: Command timeout
+[  428.303921] mmc1: CMD1: Command timeout
+[  428.776377] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  428.782725] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  428.794353] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  428.829360] mmc1: CMD52: Command timeout
+[  428.834854] mmc1: CMD52: Command timeout
+[  428.843705] mmc1: CMD8: Command timeout
+[  428.849259] mmc1: CMD5: Command timeout
+[  428.854753] mmc1: CMD5: Command timeout
+[  428.860369] mmc1: CMD5: Command timeout
+[  428.865893] mmc1: CMD5: Command timeout
+[  428.871387] mmc1: CMD55: Command timeout
+[  428.876972] mmc1: CMD55: Command timeout
+[  428.882465] mmc1: CMD55: Command timeout
+[  428.887990] mmc1: CMD55: Command timeout
+[  428.893605] mmc1: CMD1: Command timeout
+[  429.786693] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  429.792217] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  429.800823] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  429.838455] mmc1: CMD52: Command timeout
+[  429.843979] mmc1: CMD52: Command timeout
+[  429.852830] mmc1: CMD8: Command timeout
+[  429.858415] mmc1: CMD5: Command timeout
+[  429.863909] mmc1: CMD5: Command timeout
+[  429.869433] mmc1: CMD5: Command timeout
+[  429.874927] mmc1: CMD5: Command timeout
+[  429.880421] mmc1: CMD55: Command timeout
+[  429.886006] mmc1: CMD55: Command timeout
+[  429.891499] mmc1: CMD55: Command timeout
+[  429.897085] mmc1: CMD55: Command timeout
+[  429.902670] mmc1: CMD1: Command timeout
+[  430.797253] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  430.802807] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  430.811048] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  430.846482] mmc1: CMD52: Command timeout
+[  430.852037] mmc1: CMD52: Command timeout
+[  430.860857] mmc1: CMD8: Command timeout
+[  430.866412] mmc1: CMD5: Command timeout
+[  430.871936] mmc1: CMD5: Command timeout
+[  430.877430] mmc1: CMD5: Command timeout
+[  430.882984] mmc1: CMD5: Command timeout
+[  430.888478] mmc1: CMD55: Command timeout
+[  430.894002] mmc1: CMD55: Command timeout
+[  430.899740] mmc1: CMD55: Command timeout
+[  430.905234] mmc1: CMD55: Command timeout
+[  430.910880] mmc1: CMD1: Command timeout
+[  431.807660] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  431.813154] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  431.821333] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  431.856737] mmc1: CMD52: Command timeout
+[  431.862291] mmc1: CMD52: Command timeout
+[  431.871081] mmc1: CMD8: Command timeout
+[  431.876697] mmc1: CMD5: Command timeout
+[  431.882252] mmc1: CMD5: Command timeout
+[  431.887745] mmc1: CMD5: Command timeout
+[  431.893270] mmc1: CMD5: Command timeout
+[  431.898824] mmc1: CMD55: Command timeout
+[  431.904318] mmc1: CMD55: Command timeout
+[  431.909934] mmc1: CMD55: Command timeout
+[  431.915427] mmc1: CMD55: Command timeout
+[  431.921013] mmc1: CMD1: Command timeout
+[  432.308072] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  432.314024] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  432.321470] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  432.356233] mmc1: CMD52: Command timeout
+[  432.361849] mmc1: CMD52: Command timeout
+[  432.370730] mmc1: CMD8: Command timeout
+[  432.376224] mmc1: CMD5: Command timeout
+[  432.381809] mmc1: CMD5: Command timeout
+[  432.387303] mmc1: CMD5: Command timeout
+[  432.392797] mmc1: CMD5: Command timeout
+[  432.398473] mmc1: CMD55: Command timeout
+[  432.403998] mmc1: CMD55: Command timeout
+[  432.409491] mmc1: CMD55: Command timeout
+[  432.415076] mmc1: CMD55: Command timeout
+[  432.420662] mmc1: CMD1: Command timeout
+[  433.318541] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  433.324523] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  433.332336] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  433.368869] mmc1: CMD52: Command timeout
+[  433.374423] mmc1: CMD52: Command timeout
+[  433.383213] mmc1: CMD8: Command timeout
+[  433.388707] mmc1: CMD5: Command timeout
+[  433.394262] mmc1: CMD5: Command timeout
+[  433.399847] mmc1: CMD5: Command timeout
+[  433.405340] mmc1: CMD5: Command timeout
+[  433.414405] mmc1: CMD55: Command timeout
+[  433.419960] mmc1: CMD55: Command timeout
+[  433.425453] mmc1: CMD55: Command timeout
+[  433.431069] mmc1: CMD55: Command timeout
+[  433.436624] mmc1: CMD1: Command timeout
+[  434.329070] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  434.335113] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  434.343384] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  434.379368] mmc1: CMD52: Command timeout
+[  434.384892] mmc1: CMD52: Command timeout
+[  434.393956] mmc1: CMD8: Command timeout
+[  434.399481] mmc1: CMD5: Command timeout
+[  434.404944] mmc1: CMD5: Command timeout
+[  434.410529] mmc1: CMD5: Command timeout
+[  434.416023] mmc1: CMD5: Command timeout
+[  434.421547] mmc1: CMD55: Command timeout
+[  434.427101] mmc1: CMD55: Command timeout
+[  434.432626] mmc1: CMD55: Command timeout
+[  434.438089] mmc1: CMD55: Command timeout
+[  434.444010] mmc1: CMD1: Command timeout
+[  435.339600] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  435.345643] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  435.353792] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  435.389836] mmc1: CMD52: Command timeout
+[  435.395452] mmc1: CMD52: Command timeout
+[  435.404333] mmc1: CMD8: Command timeout
+[  435.409919] mmc1: CMD5: Command timeout
+[  435.415534] mmc1: CMD5: Command timeout
+[  435.421120] mmc1: CMD5: Command timeout
+[  435.426613] mmc1: CMD5: Command timeout
+[  435.432198] mmc1: CMD55: Command timeout
+[  435.437753] mmc1: CMD55: Command timeout
+[  435.443308] mmc1: CMD55: Command timeout
+[  435.448801] mmc1: CMD55: Command timeout
+[  435.454478] mmc1: CMD1: Command timeout
+[  436.375125] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  436.387486] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  436.409339] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  436.461132] mmc1: CMD52: Command timeout
+[  436.466900] mmc1: CMD52: Command timeout
+[  436.476911] mmc1: CMD8: Command timeout
+[  436.483106] mmc1: CMD5: Command timeout
+[  436.488844] mmc1: CMD5: Command timeout
+[  436.494674] mmc1: CMD5: Command timeout
+[  436.500534] mmc1: CMD5: Command timeout
+[  436.506332] mmc1: CMD55: Command timeout
+[  436.512192] mmc1: CMD55: Command timeout
+[  436.518418] mmc1: CMD55: Command timeout
+[  436.524248] mmc1: CMD55: Command timeout
+[  436.530291] mmc1: CMD1: Command timeout
+[  437.435464] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  437.447550] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  437.468914] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  437.522600] mmc1: CMD52: Command timeout
+[  437.528368] mmc1: CMD52: Command timeout
+[  437.537768] mmc1: CMD8: Command timeout
+[  437.543842] mmc1: CMD5: Command timeout
+[  437.549580] mmc1: CMD5: Command timeout
+[  437.555409] mmc1: CMD5: Command timeout
+[  437.561574] mmc1: CMD5: Command timeout
+[  437.567343] mmc1: CMD55: Command timeout
+[  437.573203] mmc1: CMD55: Command timeout
+[  437.579307] mmc1: CMD55: Command timeout
+[  437.585136] mmc1: CMD55: Command timeout
+[  437.591057] mmc1: CMD1: Command timeout
+[  438.437173] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  438.450175] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  438.472485] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  438.516465] mmc1: CMD52: Command timeout
+[  438.522386] mmc1: CMD52: Command timeout
+[  438.531695] mmc1: CMD8: Command timeout
+[  438.537463] mmc1: CMD5: Command timeout
+[  438.543354] mmc1: CMD5: Command timeout
+[  438.549091] mmc1: CMD5: Command timeout
+[  438.554768] mmc1: CMD5: Command timeout
+[  438.560506] mmc1: CMD55: Command timeout
+[  438.566244] mmc1: CMD55: Command timeout
+[  438.572134] mmc1: CMD55: Command timeout
+[  438.577872] mmc1: CMD55: Command timeout
+[  438.583671] mmc1: CMD1: Command timeout
+[  439.487715] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  439.503097] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  439.519365] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  439.568808] mmc1: CMD52: Command timeout
+[  439.575064] mmc1: CMD52: Command timeout
+[  439.584831] mmc1: CMD8: Command timeout
+[  439.590599] mmc1: CMD5: Command timeout
+[  439.596734] mmc1: CMD5: Command timeout
+[  439.602685] mmc1: CMD5: Command timeout
+[  439.608545] mmc1: CMD5: Command timeout
+[  439.614558] mmc1: CMD55: Command timeout
+[  439.620295] mmc1: CMD55: Command timeout
+[  439.626155] mmc1: CMD55: Command timeout
+[  439.632534] mmc1: CMD55: Command timeout
+[  439.638364] mmc1: CMD1: Command timeout
+[  440.538318] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  440.552296] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  440.571402] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  440.622401] mmc1: CMD52: Command timeout
+[  440.628322] mmc1: CMD52: Command timeout
+[  440.637600] mmc1: CMD8: Command timeout
+[  440.643338] mmc1: CMD5: Command timeout
+[  440.649198] mmc1: CMD5: Command timeout
+[  440.654906] mmc1: CMD5: Command timeout
+[  440.660613] mmc1: CMD5: Command timeout
+[  440.666503] mmc1: CMD55: Command timeout
+[  440.672241] mmc1: CMD55: Command timeout
+[  440.677979] mmc1: CMD55: Command timeout
+[  440.683869] mmc1: CMD55: Command timeout
+[  440.689821] mmc1: CMD1: Command timeout
+[  441.573904] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  441.583854] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  441.598321] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  441.639157] mmc1: CMD52: Command timeout
+[  441.644773] mmc1: CMD52: Command timeout
+[  441.653837] mmc1: CMD8: Command timeout
+[  441.659453] mmc1: CMD5: Command timeout
+[  441.665069] mmc1: CMD5: Command timeout
+[  441.670837] mmc1: CMD5: Command timeout
+[  441.676453] mmc1: CMD5: Command timeout
+[  441.682069] mmc1: CMD55: Command timeout
+[  441.687837] mmc1: CMD55: Command timeout
+[  441.693422] mmc1: CMD55: Command timeout
+[  441.699038] mmc1: CMD55: Command timeout
+[  441.704928] mmc1: CMD1: Command timeout
+[  442.484236] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  442.490767] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  442.500869] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  442.537585] mmc1: CMD52: Command timeout
+[  442.543140] mmc1: CMD52: Command timeout
+[  442.552143] mmc1: CMD8: Command timeout
+[  442.557729] mmc1: CMD5: Command timeout
+[  442.563222] mmc1: CMD5: Command timeout
+[  442.568777] mmc1: CMD5: Command timeout
+[  442.574332] mmc1: CMD5: Command timeout
+[  442.579825] mmc1: CMD55: Command timeout
+[  442.585441] mmc1: CMD55: Command timeout
+[  442.590935] mmc1: CMD55: Command timeout
+[  442.596551] mmc1: CMD55: Command timeout
+[  442.602197] mmc1: CMD1: Command timeout
+[  443.493819] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  443.501937] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  443.507340] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  443.545978] mmc1: CMD52: Command timeout
+[  443.551503] mmc1: CMD52: Command timeout
+[  443.561818] mmc1: CMD8: Command timeout
+[  443.567434] mmc1: CMD5: Command timeout
+[  443.572928] mmc1: CMD5: Command timeout
+[  443.578483] mmc1: CMD5: Command timeout
+[  443.584098] mmc1: CMD5: Command timeout
+[  443.589592] mmc1: CMD55: Command timeout
+[  443.595147] mmc1: CMD55: Command timeout
+[  443.600701] mmc1: CMD55: Command timeout
+[  443.606256] mmc1: CMD55: Command timeout
+[  443.611811] mmc1: CMD1: Command timeout
+[  444.516068] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  444.523637] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  444.536944] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  444.574698] mmc1: CMD52: Command timeout
+[  444.580497] mmc1: CMD52: Command timeout
+[  444.589561] mmc1: CMD8: Command timeout
+[  444.595360] mmc1: CMD5: Command timeout
+[  444.601007] mmc1: CMD5: Command timeout
+[  444.606714] mmc1: CMD5: Command timeout
+[  444.612635] mmc1: CMD5: Command timeout
+[  444.618403] mmc1: CMD55: Command timeout
+[  444.624080] mmc1: CMD55: Command timeout
+[  444.629940] mmc1: CMD55: Command timeout
+[  444.635647] mmc1: CMD55: Command timeout
+[  444.641385] mmc1: CMD1: Command timeout
+[  445.537707] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  445.547443] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  445.564901] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  445.615351] mmc1: CMD52: Command timeout
+[  445.621272] mmc1: CMD52: Command timeout
+[  445.630611] mmc1: CMD8: Command timeout
+[  445.636502] mmc1: CMD5: Command timeout
+[  445.642392] mmc1: CMD5: Command timeout
+[  445.648191] mmc1: CMD5: Command timeout
+[  445.654173] mmc1: CMD5: Command timeout
+[  445.660216] mmc1: CMD55: Command timeout
+[  445.666076] mmc1: CMD55: Command timeout
+[  445.671844] mmc1: CMD55: Command timeout
+[  445.677826] mmc1: CMD55: Command timeout
+[  445.683656] mmc1: CMD1: Command timeout
+[  446.257897] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  446.267053] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  446.282282] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  446.324095] mmc1: CMD52: Command timeout
+[  446.330199] mmc1: CMD52: Command timeout
+[  446.339325] mmc1: CMD8: Command timeout
+[  446.344971] mmc1: CMD5: Command timeout
+[  446.350740] mmc1: CMD5: Command timeout
+[  446.356722] mmc1: CMD5: Command timeout
+[  446.362337] mmc1: CMD5: Command timeout
+[  446.368197] mmc1: CMD55: Command timeout
+[  446.373813] mmc1: CMD55: Command timeout
+[  446.379429] mmc1: CMD55: Command timeout
+[  446.385197] mmc1: CMD55: Command timeout
+[  446.390874] mmc1: CMD1: Command timeout
+[  447.288478] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  447.297512] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  447.313718] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  447.353029] mmc1: CMD52: Command timeout
+[  447.358766] mmc1: CMD52: Command timeout
+[  447.368472] mmc1: CMD8: Command timeout
+[  447.374149] mmc1: CMD5: Command timeout
+[  447.379886] mmc1: CMD5: Command timeout
+[  447.385777] mmc1: CMD5: Command timeout
+[  447.391454] mmc1: CMD5: Command timeout
+[  447.397161] mmc1: CMD55: Command timeout
+[  447.402777] mmc1: CMD55: Command timeout
+[  447.408392] mmc1: CMD55: Command timeout
+[  447.414161] mmc1: CMD55: Command timeout
+[  447.419807] mmc1: CMD1: Command timeout
+[  448.318998] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  448.328826] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  448.343811] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  448.382786] mmc1: CMD52: Command timeout
+[  448.388676] mmc1: CMD52: Command timeout
+[  448.397832] mmc1: CMD8: Command timeout
+[  448.403479] mmc1: CMD5: Command timeout
+[  448.409491] mmc1: CMD5: Command timeout
+[  448.415290] mmc1: CMD5: Command timeout
+[  448.420967] mmc1: CMD5: Command timeout
+[  448.426583] mmc1: CMD55: Command timeout
+[  448.432382] mmc1: CMD55: Command timeout
+[  448.438058] mmc1: CMD55: Command timeout
+[  448.443674] mmc1: CMD55: Command timeout
+[  448.449473] mmc1: CMD1: Command timeout
+[  449.339447] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  449.360231] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  449.362520] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  449.402441] mmc1: CMD52: Command timeout
+[  449.408209] mmc1: CMD52: Command timeout
+[  449.417488] mmc1: CMD8: Command timeout
+[  449.423195] mmc1: CMD5: Command timeout
+[  449.428933] mmc1: CMD5: Command timeout
+[  449.434732] mmc1: CMD5: Command timeout
+[  449.441080] mmc1: CMD5: Command timeout
+[  449.446848] mmc1: CMD55: Command timeout
+[  449.452678] mmc1: CMD55: Command timeout
+[  449.458263] mmc1: CMD55: Command timeout
+[  449.463879] mmc1: CMD55: Command timeout
+[  449.469677] mmc1: CMD1: Command timeout
+[  450.090370] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  450.101205] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  450.111979] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  450.157423] mmc1: CMD52: Command timeout
+[  450.163741] mmc1: CMD52: Command timeout
+[  450.172989] mmc1: CMD8: Command timeout
+[  450.178940] mmc1: CMD5: Command timeout
+[  450.184556] mmc1: CMD5: Command timeout
+[  450.190172] mmc1: CMD5: Command timeout
+[  450.195971] mmc1: CMD5: Command timeout
+[  450.201617] mmc1: CMD55: Command timeout
+[  450.207324] mmc1: CMD55: Command timeout
+[  450.213093] mmc1: CMD55: Command timeout
+[  450.218769] mmc1: CMD55: Command timeout
+[  450.224599] mmc1: CMD1: Command timeout
+[  451.122844] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  451.135449] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  451.154341] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  451.201770] mmc1: CMD52: Command timeout
+[  451.207507] mmc1: CMD52: Command timeout
+[  451.217335] mmc1: CMD8: Command timeout
+[  451.223317] mmc1: CMD5: Command timeout
+[  451.229116] mmc1: CMD5: Command timeout
+[  451.234854] mmc1: CMD5: Command timeout
+[  451.240805] mmc1: CMD5: Command timeout
+[  451.246573] mmc1: CMD55: Command timeout
+[  451.252403] mmc1: CMD55: Command timeout
+[  451.258446] mmc1: CMD55: Command timeout
+[  451.264519] mmc1: CMD55: Command timeout
+[  451.270471] mmc1: CMD1: Command timeout
+[  452.173447] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  452.186113] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  452.205859] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  452.256981] mmc1: CMD52: Command timeout
+[  452.263207] mmc1: CMD52: Command timeout
+[  452.272821] mmc1: CMD8: Command timeout
+[  452.278589] mmc1: CMD5: Command timeout
+[  452.284510] mmc1: CMD5: Command timeout
+[  452.290218] mmc1: CMD5: Command timeout
+[  452.295925] mmc1: CMD5: Command timeout
+[  452.301876] mmc1: CMD55: Command timeout
+[  452.307614] mmc1: CMD55: Command timeout
+[  452.313352] mmc1: CMD55: Command timeout
+[  452.319273] mmc1: CMD55: Command timeout
+[  452.325102] mmc1: CMD1: Command timeout
+[  453.223775] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  453.236258] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  453.256554] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  453.305447] mmc1: CMD52: Command timeout
+[  453.311399] mmc1: CMD52: Command timeout
+[  453.321013] mmc1: CMD8: Command timeout
+[  453.326812] mmc1: CMD5: Command timeout
+[  453.332794] mmc1: CMD5: Command timeout
+[  453.338501] mmc1: CMD5: Command timeout
+[  453.344330] mmc1: CMD5: Command timeout
+[  453.350434] mmc1: CMD55: Command timeout
+[  453.356142] mmc1: CMD55: Command timeout
+[  453.361910] mmc1: CMD55: Command timeout
+[  453.367800] mmc1: CMD55: Command timeout
+[  453.374240] mmc1: CMD1: Command timeout
+[  453.974362] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  453.986906] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  454.008026] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  454.059880] mmc1: CMD52: Command timeout
+[  454.065984] mmc1: CMD52: Command timeout
+[  454.075476] mmc1: CMD8: Command timeout
+[  454.081306] mmc1: CMD5: Command timeout
+[  454.087043] mmc1: CMD5: Command timeout
+[  454.093056] mmc1: CMD5: Command timeout
+[  454.098794] mmc1: CMD5: Command timeout
+[  454.104623] mmc1: CMD55: Command timeout
+[  454.110636] mmc1: CMD55: Command timeout
+[  454.116526] mmc1: CMD55: Command timeout
+[  454.122325] mmc1: CMD55: Command timeout
+[  454.128307] mmc1: CMD1: Command timeout
+[  455.024873] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  455.039188] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  455.060735] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  455.114207] mmc1: CMD52: Command timeout
+[  455.120005] mmc1: CMD52: Command timeout
+[  455.129314] mmc1: CMD8: Command timeout
+[  455.135052] mmc1: CMD5: Command timeout
+[  455.140790] mmc1: CMD5: Command timeout
+[  455.146711] mmc1: CMD5: Command timeout
+[  455.152418] mmc1: CMD5: Command timeout
+[  455.158125] mmc1: CMD55: Command timeout
+[  455.164046] mmc1: CMD55: Command timeout
+[  455.169784] mmc1: CMD55: Command timeout
+[  455.175522] mmc1: CMD55: Command timeout
+[  455.181535] mmc1: CMD1: Command timeout
+[  456.085640] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  456.098275] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  456.118174] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  456.171341] mmc1: CMD52: Command timeout
+[  456.177109] mmc1: CMD52: Command timeout
+[  456.186357] mmc1: CMD8: Command timeout
+[  456.192400] mmc1: CMD5: Command timeout
+[  456.198107] mmc1: CMD5: Command timeout
+[  456.203845] mmc1: CMD5: Command timeout
+[  456.209735] mmc1: CMD5: Command timeout
+[  456.215504] mmc1: CMD55: Command timeout
+[  456.221577] mmc1: CMD55: Command timeout
+[  456.227437] mmc1: CMD55: Command timeout
+[  456.233328] mmc1: CMD55: Command timeout
+[  456.239310] mmc1: CMD1: Command timeout
+[  457.145215] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  457.160720] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  457.175430] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  457.223927] mmc1: CMD52: Command timeout
+[  457.229665] mmc1: CMD52: Command timeout
+[  457.239432] mmc1: CMD8: Command timeout
+[  457.245414] mmc1: CMD5: Command timeout
+[  457.251335] mmc1: CMD5: Command timeout
+[  457.257072] mmc1: CMD5: Command timeout
+[  457.263024] mmc1: CMD5: Command timeout
+[  457.268792] mmc1: CMD55: Command timeout
+[  457.274591] mmc1: CMD55: Command timeout
+[  457.280512] mmc1: CMD55: Command timeout
+[  457.286921] mmc1: CMD55: Command timeout
+[  457.292842] mmc1: CMD1: Command timeout
+[  458.180894] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  458.189622] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  458.202075] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  458.236258] mmc1: CMD52: Command timeout
+[  458.242026] mmc1: CMD52: Command timeout
+[  458.251029] mmc1: CMD8: Command timeout
+[  458.256889] mmc1: CMD5: Command timeout
+[  458.262597] mmc1: CMD5: Command timeout
+[  458.268243] mmc1: CMD5: Command timeout
+[  458.274439] mmc1: CMD5: Command timeout
+[  458.280115] mmc1: CMD55: Command timeout
+[  458.285945] mmc1: CMD55: Command timeout
+[  458.291774] mmc1: CMD55: Command timeout
+[  458.297542] mmc1: CMD55: Command timeout
+[  458.303311] mmc1: CMD1: Command timeout
+[  459.205554] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  459.219258] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  459.233145] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  459.285365] mmc1: CMD52: Command timeout
+[  459.291316] mmc1: CMD52: Command timeout
+[  459.301083] mmc1: CMD8: Command timeout
+[  459.307370] mmc1: CMD5: Command timeout
+[  459.313413] mmc1: CMD5: Command timeout
+[  459.319120] mmc1: CMD5: Command timeout
+[  459.324858] mmc1: CMD5: Command timeout
+[  459.330749] mmc1: CMD55: Command timeout
+[  459.336517] mmc1: CMD55: Command timeout
+[  459.342346] mmc1: CMD55: Command timeout
+[  459.348389] mmc1: CMD55: Command timeout
+[  459.354829] mmc1: CMD1: Command timeout
+[  459.987486] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  460.001861] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  460.017213] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  460.072211] mmc1: CMD52: Command timeout
+[  460.078406] mmc1: CMD52: Command timeout
+[  460.087562] mmc1: CMD8: Command timeout
+[  460.093331] mmc1: CMD5: Command timeout
+[  460.099221] mmc1: CMD5: Command timeout
+[  460.104928] mmc1: CMD5: Command timeout
+[  460.110666] mmc1: CMD5: Command timeout
+[  460.116587] mmc1: CMD55: Command timeout
+[  460.122356] mmc1: CMD55: Command timeout
+[  460.128093] mmc1: CMD55: Command timeout
+[  460.133984] mmc1: CMD55: Command timeout
+[  460.139844] mmc1: CMD1: Command timeout
+[  461.058019] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  461.071173] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  461.089149] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  461.143567] mmc1: CMD52: Command timeout
+[  461.150068] mmc1: CMD52: Command timeout
+[  461.159468] mmc1: CMD8: Command timeout
+[  461.165511] mmc1: CMD5: Command timeout
+[  461.171402] mmc1: CMD5: Command timeout
+[  461.177597] mmc1: CMD5: Command timeout
+[  461.183305] mmc1: CMD5: Command timeout
+[  461.189073] mmc1: CMD55: Command timeout
+[  461.195177] mmc1: CMD55: Command timeout
+[  461.201464] mmc1: CMD55: Command timeout
+[  461.207568] mmc1: CMD55: Command timeout
+[  461.213825] mmc1: CMD1: Command timeout
+[  462.089760] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[  462.102761] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  462.123393] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  462.175736] mmc1: CMD52: Command timeout
+[  462.181657] mmc1: CMD52: Command timeout
+[  462.191087] mmc1: CMD8: Command timeout
+[  462.196947] mmc1: CMD5: Command timeout
+[  462.203021] mmc1: CMD5: Command timeout
+[  462.209003] mmc1: CMD5: Command timeout
+[  462.214832] mmc1: CMD5: Command timeout
+[  462.220601] mmc1: CMD55: Command timeout
+[  462.226583] mmc1: CMD55: Command timeout
+[  462.232351] mmc1: CMD55: Command timeout
+[  462.238150] mmc1: CMD55: Command timeout
+[  462.244925] mmc1: CMD1: Command timeout
+[  463.138928] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+[  463.139752] power_supply usb: driver failed to report `health' property: 4294967274
+[  463.342072] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[  463.342224] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (1500mA)--------
+[  463.342804] power_supply usb: driver failed to report `health' property: 4294967274
+[  463.364565] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  463.384526] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[  463.397283] get_prop_batt_status: get_prop_batt_status: Not enough charging SOC:72,4019mV
+[  463.427987] tsu6721 15-0025: dev1: 0x4, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+[  463.429177] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[  463.429696] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (475mA)--------
+[  463.436654] power_supply usb: driver failed to report `health' property: 4294967274
+[  463.443918] get_prop_batt_status: get_prop_batt_status: Not enough charging SOC:72,4020mV
+[  463.446635] mmc1: CMD52: Command timeout
+[  463.452525] mmc1: CMD52: Command timeout
+[  463.461956] mmc1: CMD8: Command timeout
+[  463.467907] mmc1: CMD5: Command timeout
+[  463.473676] mmc1: CMD5: Command timeout
+[  463.479658] mmc1: CMD5: Command timeout
+[  463.485884] mmc1: CMD5: Command timeout
+[  463.491957] mmc1: CMD55: Command timeout
+[  463.497939] mmc1: CMD55: Command timeout
+[  463.504074] mmc1: CMD55: Command timeout
+[  463.510056] mmc1: CMD55: Command timeout
+[  463.516343] mmc1: CMD1: Command timeout
+[  463.652403] accel_open_calibration: Can't open calibration file
+[  463.994231] [mdnie lite] is negative Mode On = 0
+[  463.994323] [mdnie lite] negative off when resume, tuning again!
+[  463.994536] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[  463.994658] [mdnie lite]  = UI MODE =
+[  463.994750] [mdnie lite]  = AUTO MODE =
+[  463.994902] [mdnie lite]  send tuning cmd!!
+[  464.027498] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+[  464.089973] ACDB=> get_hw_delay Invalid delay/ delay entries
+[  464.090218] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[  464.137951] wlan: [2632:E :HDD] hdd_conf_hostarpoffload: 
+[  464.137982] 
+[  464.138257] wlan: [2602:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+[  464.138409] wlan: [2602:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  464.213306] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[  464.225148] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[  464.265527] tc360 16-0020: no button press interrupt(0x0)
+[  464.309232] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[  474.289149] dtv_pipe is not configured yet
+[  506.984159] (sec_debug_set_upload_cause) 85
+[  507.005035] accel_open_calibration: Can't open calibration file
+[  507.099282] wlan: [2632:E :HDD] hdd_conf_hostarpoffload: 
+[  507.099313] 
+[  507.099679] wlan: [2602:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+[  507.099832] wlan: [2602:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  507.142255] (sec_debug_set_upload_cause) cafebabe
+[  507.334503] [mdnie lite] is negative Mode On = 0
+[  507.334594] [mdnie lite] negative off when resume, tuning again!
+[  507.334716] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[  507.334869] [mdnie lite]  = UI MODE =
+[  507.335052] [mdnie lite]  = AUTO MODE =
+[  507.335144] [mdnie lite]  send tuning cmd!!
+[  507.367770] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+[  507.553364] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[  507.564962] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[  507.605646] tc360 16-0020: no button press interrupt(0x0)
+[  507.649046] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[  507.914909] (sec_debug_set_upload_cause) 85
+[  508.085243] (sec_debug_set_upload_cause) cafebabe
+[  508.677704] dtv_pipe is not configured yet
+[ 2190.544391] init: untracked pid 7284 exited
+[ 2190.770333] init: untracked pid 7288 exited
+[ 2325.829940] init: untracked pid 7457 exited
+[ 2326.055912] init: untracked pid 7444 exited
+[ 2326.090736] init: untracked pid 7460 exited
+[ 2326.297329] init: untracked pid 7449 exited
+[ 2326.622126] init: untracked pid 7475 exited
+[ 2326.641324] init: untracked pid 7506 exited
+[ 2326.716282] init: untracked pid 7502 exited
+[ 2326.839126] init: untracked pid 7566 exited
+[ 2326.856584] init: untracked pid 7478 exited
+[ 2326.863054] init: untracked pid 7519 exited
+[ 2326.940118] init: untracked pid 7512 exited
+[ 2327.063970] init: untracked pid 7569 exited
+[ 2328.073553] [CAMERA]][s5k3h5xa_sensor_power_up:460] ----Camera power on ----
+[ 2328.075323] [CAMERA]][s5k3h5xa_sensor_power_up:463] PMIC_MODEL_PM8917
+[ 2328.076056] [CAMERA]][s5k3h5xa_sensor_power_up:496] [CAM_SENSOR_A2P8]::SET OK
+[ 2328.078131] [CAMERA]][s5k3h5xa_sensor_power_up:506] [CAM_CORE_EN::CAM_ISP_CORE_1P2::ret::1]::SET OK
+[ 2328.080115] [CAMERA]][s5k3h5xa_sensor_power_up:525] [CAM_MCLK0::rc::0]::SET Ok
+[ 2328.082679] [CAMERA]][s5k3h5xa_sensor_power_up:537] [VREG_CAM_AF_2P8]::SET OK
+[ 2328.086982] [CAMERA]][s5k3h5xa_sensor_power_up:552] [CAM_SENSOR_IO_1P8]::SET OK
+[ 2328.089271] [CAMERA]][s5k3h5xa_sensor_power_up:561] [GPIO_CAM1_RST_N]::SET OK
+[ 2328.092781] [CAMERA]][s5k3h5xa_sensor_power_up:591] [return rc::0]::Success
+[ 2329.008057] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr b6d57000
+[ 2329.102700] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 800000dd
+[ 2329.146253] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[ 2329.198290] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr ffffffa5
+[ 2329.393041] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c8e4aa10
+[ 2329.446176] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code c0445624
+[ 2329.508041] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1228574720 device_id=0
+[ 2329.518327] kgsl: kgsl_ioctl_map_user_mem: Invalid memory type: c0008000
+[ 2329.560353] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -2147483427 device_id=0
+[ 2329.603509] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0008000
+[ 2329.619380] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0008000
+[ 2329.820173] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0000086
+[ 2329.830916] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr b5c57000
+[ 2329.844162] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 2 device_id=0
+[ 2329.877643] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1245351936 device_id=0
+[ 2329.882923] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1245351936 device_id=0
+[ 2329.917045] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1229619200) failed, pool: general_pool
+[ 2329.917258] kgsl: kgsl_mmu_get_gpuaddr:  [7613] allocated=81920, entries=5
+[ 2329.941858] init: untracked pid 7623 exited
+[ 2329.990965] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -65520 device_id=0
+[ 2330.058934] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0008000
+[ 2330.076147] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[ 2330.076270] kgsl: kgsl_get_phys_file: fget_light failed
+[ 2330.151594] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[ 2330.171646] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr a69db724
+[ 2330.172683] init: untracked pid 7626 exited
+[ 2330.213459] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr b6057000
+[ 2330.248008] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073709056 device_id=0
+[ 2330.267663] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1241157632 device_id=0
+[ 2330.300564] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1241513988 device_id=0
+[ 2330.445291] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 40000000
+[ 2330.449930] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1073741824 device_id=0
+[ 2330.485822] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr ffff72eb
+[ 2330.509140] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr b4e57000
+[ 2330.560628] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004c07
+[ 2330.632137] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000ffe
+[ 2330.659392] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073709056 device_id=0
+[ 2330.709628] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr b5c57000
+[ 2330.720158] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0008000
+[ 2330.763436] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[ 2330.763527] kgsl: kgsl_get_phys_file: fget_light failed
+[ 2330.800976] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr b6057000
+[ 2330.858079] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1249546240 device_id=0
+[ 2330.907614] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[ 2330.907797] kgsl: kgsl_mmu_get_gpuaddr:  [7613] allocated=81920, entries=5
+[ 2330.943292] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[ 2330.943414] kgsl: kgsl_get_phys_file: fget_light failed
+[ 2331.002777] kgsl: kgsl_ioctl_map_user_mem: Invalid memory type: b5857000
+[ 2331.032168] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 177291264 device_id=0
+[ 2331.060613] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1499613404 device_id=0
+[ 2331.085334] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr b4457000
+[ 2331.118601] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1234862080) failed, pool: general_pool
+[ 2331.118723] kgsl: kgsl_mmu_get_gpuaddr:  [7613] allocated=81920, entries=5
+[ 2331.157973] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073709056 device_id=0
+[ 2331.177811] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0008000
+[ 2331.249961] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr ffffffff
+[ 2331.480909] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0008000
+[ 2331.518235] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr ffffefff
+[ 2331.552052] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1083482925 device_id=0
+[ 2331.631496] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0008000
+[ 2331.657744] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr b5857000
+[ 2331.689668] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073709056 device_id=0
+[ 2331.709171] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1555361793 device_id=0
+[ 2331.747809] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[ 2331.747962] kgsl: kgsl_get_phys_file: fget_light failed
+[ 2331.776468] init: untracked pid 7651 exited
+[ 2331.814924] kgsl: kgsl_ioctl_map_user_mem: Invalid memory type: b4e57000
+[ 2331.892476] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[ 2331.892628] kgsl: kgsl_get_phys_file: fget_light failed
+[ 2332.002044] init: untracked pid 7654 exited
+[ 2332.013520] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073709056 device_id=0
+[ 2332.072638] kgsl: kgsl_get_phys_file: framebuffer minor 3 not found
+[ 2332.108621] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1234862080) failed, pool: general_pool
+[ 2332.108743] kgsl: kgsl_mmu_get_gpuaddr:  [7613] allocated=999424, entries=12
+[ 2332.149183] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0008000
+[ 2332.176926] Unable to handle kernel NULL pointer dereference at virtual address 00000000
+[ 2332.177048] pgd = d63a8000
+[ 2332.177109] [00000000] *pgd=00000000
+[ 2332.177261] [1:     trinity-c0: 7613] Internal error: Oops: 5 [#1] PREEMPT SMP ARM
+[ 2332.177384] [1:     trinity-c0: 7613] Modules linked in: wlan(O) adsprpc
+[ 2332.177689] [1:     trinity-c0: 7613] CPU: 1    Tainted: G        W  O  (3.4.0-3173303 #1)
+[ 2332.177780] [1:     trinity-c0: 7613] PC is at sg_init_table+0x1c/0x30
+[ 2332.177902] [1:     trinity-c0: 7613] LR is at _kgsl_sharedmem_page_alloc+0x118/0x3bc
+[ 2332.178024] [1:     trinity-c0: 7613] pc : [<c02f7d28>]    lr : [<c03eade8>]    psr: 400e0013
+[ 2332.178086] [1:     trinity-c0: 7613] sp : d797fe28  ip : a00e0013  fp : 00000000
+[ 2332.178269] [1:     trinity-c0: 7613] r10: 00000000  r9 : 00000000  r8 : 00000000
+[ 2332.178391] [1:     trinity-c0: 7613] r7 : 00000000  r6 : d7249000  r5 : 00000010  r4 : ffffffff
+[ 2332.178543] [1:     trinity-c0: 7613] r3 : 00000000  r2 : c1038650  r1 : 00000000  r0 : 00000010
+[ 2332.178635] [1:     trinity-c0: 7613] Flags: nZcv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+[ 2332.178757] [1:     trinity-c0: 7613] Control: 10c5787d  Table: 9cda806a  DAC: 00000015
+[ 2332.178910] [1:     trinity-c0: 7613] 
+[ 2332.178910] [1:     trinity-c0: 7613] PC: 0xc02f7ca8:
+[ 2332.179093] [1:     trinity-c0: 7613] 7ca8  e5843000 e5843004 e5843008 e584300c e8bd8010 c0bc1192 e92d40f8 e1a05003
+[ 2332.179734] [1:     trinity-c0: 7613] 7cc8  e1a06001 e3a01020 e1a04000 e1a07002 ebffc808 e3a03000 e3150006 e5846010
+[ 2332.180375] [1:     trinity-c0: 7613] 7ce8  e5847014 e5843018 1a000002 e59f000c e3001155 ebf652f0 e584501c e8bd80f8
+[ 2332.180954] [1:     trinity-c0: 7613] 7d08  c0bc1192 e92d4038 e1a04001 e1b01201 e1a05000 0a000000 ebffc7f6 e2444001
+[ 2332.181595] [1:     trinity-c0: 7613] 7d28  e7953204 e3c33001 e3833002 e7853204 e8bd8038 e92d4070 e1a05001 e3a01001
+[ 2332.182206] [1:     trinity-c0: 7613] 7d48  e1a04000 e1a06002 ebffffed e59f3074 e5933000 e3530000 0a000007 e59f2068
+[ 2332.182847] [1:     trinity-c0: 7613] 7d68  e5921000 e2812103 e1550002 22833101 20613003 20833005 2a000001 e2853103
+[ 2332.183488] [1:     trinity-c0: 7613] 7d88  e2833602 e59f1044 e1a03623 e1a05a05 e1a02823 e1a05a25 e5911000 e3510000
+[ 2332.184098] [1:     trinity-c0: 7613] 
+[ 2332.184129] [1:     trinity-c0: 7613] LR: 0xc03ead68:
+[ 2332.184312] [1:     trinity-c0: 7613] ad68  059f12f8 0a000012 e5940024 e1a00100 e3500a01 9a000001 ebf54625 ea000006
+[ 2332.184922] [1:     trinity-c0: 7613] ad88  e59f32dc e5930030 e3500000 0a00000a e3a010d0 e3a02a01 ebf56a1b e3500000
+[ 2332.185563] [1:     trinity-c0: 7613] ada8  e1a06000 1a000005 e59f02b8 e1a0210a e59f12a8 eb122815 ea000029 e3a06010
+[ 2332.186204] [1:     trinity-c0: 7613] adc8  e594001c e3a08000 e1a09007 eb117103 e594001c e1a0a008 e5941024 ebfc33c8
+[ 2332.186845] [1:     trinity-c0: 7613] ade8  e59fb284 ea000049 e1590005 b3a05a01 b3a000d2 ba000003 e3550a01 e59f026c
+[ 2332.187486] [1:     trinity-c0: 7613] ae08  03a000d2 eaffffff e2451001 e59f2260 e3a03000 e1a01621 e16f1f11 e2611020
+[ 2332.188066] [1:     trinity-c0: 7613] ae28  ebf4b1fd e3500000 1086110a 11a0c645 13a03000 158d1004 1a00000b e3550a01
+[ 2332.188707] [1:     trinity-c0: 7613] ae48  1a000031 e0692007 e5848020 e59f0224 e59f1208 e1a03527 e5842014 e1a02522
+[ 2332.189317] [1:     trinity-c0: 7613] 
+[ 2332.189348] [1:     trinity-c0: 7613] SP: 0xd797fda8:
+[ 2332.189531] [1:     trinity-c0: 7613] fda8  00000000 c0111e90 0000ca54 00000000 d797ff00 c02f7d28 400e0013 ffffffff
+[ 2332.190172] [1:     trinity-c0: 7613] fdc8  d797fe14 00000000 00000000 00000000 00000000 c0882218 00000010 00000000
+[ 2332.190782] [1:     trinity-c0: 7613] fde8  c1038650 00000000 ffffffff 00000010 d7249000 00000000 00000000 00000000
+[ 2332.191423] [1:     trinity-c0: 7613] fe08  00000000 00000000 a00e0013 d797fe28 c03eade8 c02f7d28 400e0013 ffffffff
+[ 2332.192064] [1:     trinity-c0: 7613] fe28  00000000 d50b2a04 00001000 c03eade8 00000647 d6306780 00000000 d50b2a00
+[ 2332.192674] [1:     trinity-c0: 7613] fe48  ffffffff d797fe8c d6306780 d50b2a04 00000000 00000000 00000000 c03e53e0
+[ 2332.193315] [1:     trinity-c0: 7613] fe68  00000000 d797feac d7d99300 d9023040 d797feac b6c57000 c03e55c4 c03e55f4
+[ 2332.193956] [1:     trinity-c0: 7613] fe88  d9023040 00000000 d797feac c00c092f 0000000c d9023040 d797feac c03e0d70
+[ 2332.194567] [1:     trinity-c0: 7613] 
+[ 2332.194597] [1:     trinity-c0: 7613] R2: 0xc10385d0:
+[ 2332.194719] [1:     trinity-c0: 7613] 85d0  00000000 00000000 c0c8df49 00000000 00000000 00000000 00000000 c0c8df56
+[ 2332.195360] [1:     trinity-c0: 7613] 85f0  00000000 00000000 00000000 00000000 c0c8df66 00000000 00000000 00000000
+[ 2332.195970] [1:     trinity-c0: 7613] 8610  00000000 c0c8df6c 00000000 00000000 00000000 00000000 c0c8df82 00000000
+[ 2332.196611] [1:     trinity-c0: 7613] 8630  00000000 00000000 00000000 c0c8df8f 00000000 00000000 00000000 00000000
+[ 2332.197252] [1:     trinity-c0: 7613] 8650  c0c8dfa0 00000000 00000000 00000000 00000000 c0c8dfc3 00000000 00000000
+[ 2332.197863] [1:     trinity-c0: 7613] 8670  00000000 00000000 c0c8dfe3 00000000 00000000 00000000 00000000 c0c8dfa8
+[ 2332.198504] [1:     trinity-c0: 7613] 8690  00000000 00000000 00000000 00000000 c0c8e0ae 00000000 00000000 00000000
+[ 2332.199145] [1:     trinity-c0: 7613] 86b0  00000000 c0c8e01d 00000000 00000000 00000000 00000000 c0c8e006 00000000
+[ 2332.199786] [1:     trinity-c0: 7613] 
+[ 2332.199786] [1:     trinity-c0: 7613] R6: 0xd7248f80:
+[ 2332.199969] [1:     trinity-c0: 7613] 8f80  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[ 2332.200549] [1:     trinity-c0: 7613] 8fa0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[ 2332.201189] [1:     trinity-c0: 7613] 8fc0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[ 2332.201830] [1:     trinity-c0: 7613] 8fe0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[ 2332.202441] [1:     trinity-c0: 7613] 9000  00000000 c260c760 c260b900 c260b920 c260b940 c260b960 c260b500 c260b520
+[ 2332.203082] [1:     trinity-c0: 7613] 9020  c260b540 c260b560 c260cf00 c260cf20 c260cf40 c260cf60 c2631600 c2631620
+[ 2332.203723] [1:     trinity-c0: 7613] 9040  c2631640 c2631660 c2631680 c26316a0 c26316c0 c26316e0 c2631700 c2631720
+[ 2332.204333] [1:     trinity-c0: 7613] 9060  c2631740 c2631760 c2631780 c26317a0 c26317c0 c26317e0 c291e800 c291e820
+[ 2332.204974] [1:     trinity-c0: 7613] Process trinity-c0 (pid: 7613, stack limit = 0xd797e2f0)
+[ 2332.205096] [1:     trinity-c0: 7613] Stack: (0xd797fe28 to 0xd7980000)
+[ 2332.205188] [1:     trinity-c0: 7613] fe20:                   00000000 d50b2a04 00001000 c03eade8 00000647 d6306780
+[ 2332.205340] [1:     trinity-c0: 7613] fe40: 00000000 d50b2a00 ffffffff d797fe8c d6306780 d50b2a04 00000000 00000000
+[ 2332.205493] [1:     trinity-c0: 7613] fe60: 00000000 c03e53e0 00000000 d797feac d7d99300 d9023040 d797feac b6c57000
+[ 2332.205645] [1:     trinity-c0: 7613] fe80: c03e55c4 c03e55f4 d9023040 00000000 d797feac c00c092f 0000000c d9023040
+[ 2332.205798] [1:     trinity-c0: 7613] fea0: d797feac c03e0d70 00000001 c0008000 ffffffff 00000000 c1c03b70 00000001
+[ 2332.205951] [1:     trinity-c0: 7613] fec0: d7545b50 c00adcf0 00000000 00000001 00000001 c02a56c8 37ff7579 0000021f
+[ 2332.206073] [1:     trinity-c0: 7613] fee0: 00000000 c00ade88 38525aab 271ae91c 00000000 00000000 d7d99180 00000104
+[ 2332.206225] [1:     trinity-c0: 7613] ff00: c00c092f 00000104 d797e000 b6c57000 df394310 c015b228 dee82b00 c015bd7c
+[ 2332.206378] [1:     trinity-c0: 7613] ff20: d797ff44 00000000 00000001 c02a6f84 00000000 00000000 00000001 00000000
+[ 2332.206531] [1:     trinity-c0: 7613] ff40: 00000000 00000001 00000000 d9035a90 dee82b00 d797ff3c 530cec31 ffffffa3
+[ 2332.206683] [1:     trinity-c0: 7613] ff60: d7d99180 00000000 d7d99180 b6c57000 c00c092f 00000104 d797e000 00000200
+[ 2332.206805] [1:     trinity-c0: 7613] ff80: 00000000 c015be18 00000104 00000000 ffffffa3 aba86000 b8b58548 00000036
+[ 2332.206897] [1:     trinity-c0: 7613] ffa0: c000e464 c000e43c ffffffa3 aba86000 00000104 c00c092f b6c57000 1c100000
+[ 2332.207049] [1:     trinity-c0: 7613] ffc0: ffffffa3 aba86000 b8b58548 00000036 b6d5d000 b6ea2394 00000036 00000000
+[ 2332.207202] [1:     trinity-c0: 7613] ffe0: bef10728 bef10718 b6ee39d0 b6e76124 600e0010 00000104 00000000 00000000
+[ 2332.207355] [1:     trinity-c0: 7613] [<c02f7d28>] (sg_init_table+0x1c/0x30) from [<c03eade8>] (_kgsl_sharedmem_page_alloc+0x118/0x3bc)
+[ 2332.207507] [1:     trinity-c0: 7613] [<c03eade8>] (_kgsl_sharedmem_page_alloc+0x118/0x3bc) from [<c03e53e0>] (_gpumem_alloc+0xb4/0xec)
+[ 2332.207660] [1:     trinity-c0: 7613] [<c03e53e0>] (_gpumem_alloc+0xb4/0xec) from [<c03e55f4>] (kgsl_ioctl_gpumem_alloc+0x30/0x13c)
+[ 2332.207812] [1:     trinity-c0: 7613] [<c03e55f4>] (kgsl_ioctl_gpumem_alloc+0x30/0x13c) from [<c03e0d70>] (kgsl_ioctl+0x210/0x314)
+[ 2332.208026] [1:     trinity-c0: 7613] [<c03e0d70>] (kgsl_ioctl+0x210/0x314) from [<c015b228>] (vfs_ioctl+0x28/0x3c)
+[ 2332.208118] [1:     trinity-c0: 7613] [<c015b228>] (vfs_ioctl+0x28/0x3c) from [<c015bd7c>] (do_vfs_ioctl+0x534/0x588)
+[ 2332.208270] [1:     trinity-c0: 7613] [<c015bd7c>] (do_vfs_ioctl+0x534/0x588) from [<c015be18>] (sys_ioctl+0x48/0x70)
+[ 2332.208423] [1:     trinity-c0: 7613] [<c015be18>] (sys_ioctl+0x48/0x70) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+[ 2332.208575] [1:     trinity-c0: 7613] Code: e1a05000 0a000000 ebffc7f6 e2444001 (e7953204) 
+[ 2332.212268] [1:     trinity-c0: 7613] ---[ end trace da227214a82491bd ]---
+[ 2332.212390] [1:     trinity-c0: 7613] Kernel panic - not syncing: Fatal exception
+[ 2332.212482]I[0:       tmp-mksh: 7286] CPU0: stopping
+[ 2332.212665]I[0:       tmp-mksh: 7286] [<c0014550>] (unwind_backtrace+0x0/0x11c) from [<c00138a4>] (handle_IPI+0x100/0x1d0)
+[ 2332.212848]I[0:       tmp-mksh: 7286] [<c00138a4>] (handle_IPI+0x100/0x1d0) from [<c00086f4>] (gic_handle_irq+0x100/0x10c)
+[ 2332.213062]I[0:       tmp-mksh: 7286] [<c00086f4>] (gic_handle_irq+0x100/0x10c) from [<c0882280>] (__irq_svc+0x40/0x70)
+[ 2332.213245]I[0:       tmp-mksh: 7286] Exception stack(0xd6557eb8 to 0xd6557f00)
+[ 2332.213337]I[0:       tmp-mksh: 7286] 7ea0:                                                       c1118160 00000000
+[ 2332.213520]I[0:       tmp-mksh: 7286] 7ec0: 407e407e 00010000 00000000 00001000 b7394c90 00000017 00000000 c0fb6230
+[ 2332.213703]I[0:       tmp-mksh: 7286] 7ee0: c10f8088 00000020 407d407e d6557f00 c008e0d0 c0881bf0 40000013 ffffffff
+[ 2332.213916]I[0:       tmp-mksh: 7286] [<c0882280>] (__irq_svc+0x40/0x70) from [<c0881bf0>] (_raw_spin_unlock_irq+0x28/0x50)
+[ 2332.214100]I[0:       tmp-mksh: 7286] [<c0881bf0>] (_raw_spin_unlock_irq+0x28/0x50) from [<c008e0d0>] (do_syslog+0x208/0x4dc)
+[ 2332.214313]I[0:       tmp-mksh: 7286] [<c008e0d0>] (do_syslog+0x208/0x4dc) from [<c0192350>] (proc_reg_read+0x80/0x98)
+[ 2332.214496]I[0:       tmp-mksh: 7286] [<c0192350>] (proc_reg_read+0x80/0x98) from [<c014c71c>] (vfs_read+0xa4/0x12c)
+[ 2332.214710]I[0:       tmp-mksh: 7286] [<c014c71c>] (vfs_read+0xa4/0x12c) from [<c014c7d8>] (sys_read+0x34/0x68)
+[ 2332.214893]I[0:       tmp-mksh: 7286] [<c014c7d8>] (sys_read+0x34/0x68) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+[ 2332.215107] [1:     trinity-c0: 7613] (sec_debug_set_upload_magic) 776655ee
+[ 2332.215351] [1:     trinity-c0: 7613] (sec_debug_set_upload_cause) c8
+[ 2332.215473] [1:     trinity-c0: 7613] Rebooting in 5 seconds..
+[ 2337.222126] [1:     trinity-c0: 7613] Going down for restart now
+[ 2337.222310] [1:     trinity-c0: 7613] msm_restart : clear reset flag
+
+No errors detected

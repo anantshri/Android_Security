@@ -1,0 +1,25 @@
+[1]  0x00089908: WINKJ_ProgDecodeMcu_ACScan+80 -> 00000000
+[2]  0x0008ba50: WINKJ_DecodeMcuScan+912 -> 00000128
+[3]  0x00089b24: WINKJ_ProgDecodeMcu_ACScan+620 -> 0000047c
+[4]  0x00089b24: WINKJ_ProgDecodeMcu_ACScan+620 -> 000000b8
+[5]  0x00089b24: WINKJ_ProgDecodeMcu_ACScan+620 -> 00000098
+[7]  0x00089b24: WINKJ_ProgDecodeMcu_ACScan+620 -> 00000470
+[6]  0x00089450: WINKJ_ProgDecodeMcuRefine_ACScan+1104 -> 0000028c
+[8]  0x0008cca8: WINKJ_P_PrepareDerivedTbl+228 -> 000000df
+[9]  0x00089908: WINKJ_ProgDecodeMcu_ACScan+80 -> 00000020
+[10] 0x0008ba50: WINKJ_DecodeMcuScan+912 -> 00000068
+[11] 0x00090790: WINKJ_DoIdct+888 -> 5859c09b
+[12] 0x0007483c: WINKJ_ProgDecodeMcu_DCScan+76 -> 00000000
+[13] 0x00089054: WINKJ_ProgDecodeMcuRefine_ACScan+84 -> 00000000
+[14] 0x0007511c: WINKJ_ProgDecodeMcu_AC+436 -> 0000047c
+[15] 0x0005aa70: WINKJ_ProgDecodeSingleiMcuScan+336: loop con r1
+[16] 0x0008bd38: WINKJ_DecodeMcuScan+1656
+[17] 0x00058a18: WINKJ_InitDecBeforeScan+1372
+[18] 0x00058004: WINKJ_SetupScan+556
+[19] libc free
+[20] libc malloc libMali
+[21] 0x00089054: WINKJ_ProgDecodeMcuRefine_ACScan+84
+[22] 0x0008bd38: WINKJ_DecodeMcuScan+1656
+[23] 0x0008d1c0  WINKJ_PrepareDerivedTbl+192
+
+++ GROUPED LIST

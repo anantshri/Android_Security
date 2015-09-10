@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Peach>
+
+
+
+  <!--*************-->
+  <!--  DATA MODEL -->
+  <!--*************-->
+
+  <DataModel name="TheDataModel">
+    
+    <Block name="asd">
+      <!-- SMSC: We don't need to fuzz this --> 
+      <Blob name="SMSC"  valueType="hex" length="18" mutable="false"/>
+
+      <!-- Protocol identifier (PID) -->
+      <Choice name="PID">
+	<Flags name="PID_flags" size="8">
+	  <Flag name="f0" position="0" size="1" />
+	  <Flag name="f1" position="1" size="1" />
+	  <Flag name="f2" position="2" size="1" />
+	  <Flag name="f3" position="3" size="1" />
+	  <Flag name="f4" position="4" size="1" />
+	  <Flag name="f5" position="5" size="1" />
+	  <Flag name="f6" position="6" size="1" />
+	  <Flag name="f7" position="7" size="1" />
+	</Flags>
+	<Number size="8" endian="big" mutable="false" value="0"/> <!-- Text sms -->
+	<Number size="8" endian="big" mutable="false" valueType="hex" value="04"/> <!-- binary -->
+	<Number size="8" endian="big" mutable="false" valueType="hex" value="08"/> <!-- unicode -->
+	<Number size="8" endian="big" mutable="false" valueType="hex" value="40"/> <!-- Silent sms -->
+	<Number size="8" endian="big" mutable="true"/> 
+      </Choice>
+
+      <!-- Data Coding Scheme (DCS) -->
+      <Choice name="DCS">
+	<Flags name="DCS_flags1" size="8">
+	  <Flag name="f0" position="0" size="1" value="0" mutable="false"/>
+	  <Flag name="f1" position="1" size="1" value="0" mutable="false"/>
+	  <Flag name="f2" position="2" size="1" value="0" mutable="false"/>
+	  <Flag name="f3" position="3" size="1" value="0" mutable="false"/>
+	  <Flag name="f4" position="4" size="1" />
+	  <Flag name="f5" position="5" size="1" />
+	  <Flag name="f6" position="6" size="1" />
+	  <Flag name="f7" position="7" size="1" />
+	</Flags>
+	<Flags name="DCS_flags2" size="8">
+	  <Flag name="f0" position="0" size="1" value="1" mutable="false"/>
+	  <Flag name="f1" position="1" size="1" value="1" mutable="false"/>
+	  <Flag name="f2" position="2" size="1" value="1" mutable="false"/>
+	  <Flag name="f3" position="3" size="1" value="1" mutable="false"/>
+	  <Flag name="f4" position="4" size="1" />
+	  <Flag name="f5" position="5" size="1" />
+	  <Flag name="f6" position="6" size="1" />
+	  <Flag name="f7" position="7" size="1" />
+	</Flags>	
+	<Number size="8" endian="big"/>
+      </Choice>
+
+      <!-- SCTS -->
+      <Blob name="SCTS"  valueType="hex" length="7" mutable="false"/>
+      
+      <!-- User Data Length (UDL) -->
+
+      <Number size="8" endian="big">
+	<Fixup class="ExpressionFixup">
+	  <Param name="ref" value="user_data"/>
+	  <Param name="expression" value="len(data)" />
+	</Fixup>
+      </Number>
+      
+      <!-- User Data (UD) -->
+      
+      <Block name="user_data">
+	<!-- User Data Header (UDH) -->
+
+	<!-- UDH length -->
+	<Choice name="udh_length">
+	  <Number size="8" endian="big">
+	    <Fixup class="ExpressionFixup">
+	      <Param name="ref" value="udh"/>
+	      <Param name="expression" value="len(data) + 1" />
+	    </Fixup>
+	  </Number>
+	  <Number size="8" endian="big"/>
+	</Choice>
+
+	<!-- IEI and rest of header-->
+	<Number size="8" endian="big"/>
+	<Blob length="4" name="udh"/>
+
+	<!-- UD -->
+	<Blob name="ud"/>
+      </Block>
+
+    </Block>
+
+
+
+
+  </DataModel>
+
+
+  <!--**************-->
+  <!--  STATE MODEL -->
+  <!--**************-->
+
+
+  <StateModel name="State" initialState="State1" >
+    <State name="State1"  >
+      <Action type="output" >
+	<DataModel ref="TheDataModel"/>
+	<Data fileName="pdu_udh"/>
+      </Action>
+      <Action type="close" />
+    </State>
+  </StateModel>
+
+  <Test name="Default">
+
+    <StateModel ref="State"/>
+    <Publisher class="FilePdu">
+      <Param name="Append" value="true"/>
+      <Param name="Overwrite" value="false"/>
+      <Param name="FileName" value="/media/KINGSTONE8G/pdu_udh_fuzzed/fuzzed_udh"/>
+    </Publisher>
+    <Strategy class="Random">
+      <Param name="MaxFieldsToMutate" value="15" />
+      <Param name="SwitchCount" value="100" />
+    </Strategy>
+
+  </Test>
+</Peach>
+

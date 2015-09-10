@@ -1,0 +1,664 @@
+#!/bin/bash
+
+source "cfg"
+
+# Trap ctrl C
+trap ctrl_c INT
+
+function ctrl_c() {
+    tput cnorm -- normal
+    pkill -9 kmsg_monitor 2>/dev/null
+    kill_trinity
+    clear
+    exit
+}
+
+########################
+### COLORS and STYLE ###
+########################
+
+bold=`tput bold`
+normal=`tput sgr0`
+
+RESTORE='\033[0m'
+
+RED='\033[00;31m'
+GREEN='\033[00;32m'
+YELLOW='\033[00;33m'
+BLUE='\033[00;34m'
+PURPLE='\033[00;35m'
+CYAN='\033[00;36m'
+LIGHTGRAY='\033[00;37m'
+
+LRED='\033[01;31m'
+LGREEN='\033[01;32m'
+LYELLOW='\033[01;33m'
+LBLUE='\033[01;34m'
+LPURPLE='\033[01;35m'
+LCYAN='\033[01;36m'
+WHITE='\033[01;37m'
+
+b="\u2502"
+tmp_y=0
+
+
+###########################
+### CONTENT VARIABLES #####
+###########################
+trinity_cmd="$1"
+
+mode="kernel system calls"
+target="default kernel"
+
+device=""
+kernel_version=""
+free_mem_mb=""
+free_mem_per=""
+battery_per=""
+cpu_load=""
+is_online=0
+
+crashes=0
+restarted=0
+oops=0
+
+tot_sys=0
+fail_sys=0
+ok_sys=0
+
+global_tot_sys=0
+global_fail_sys=0
+global_ok_sys=0
+
+last_syscalls_str=""
+
+start_time=0
+last_crash=0
+
+trinity_faults=0
+trinity_has_crashed=0
+
+
+# function to print centered
+function print_centered {
+    str="$1"
+    col=$(tput cols) 
+    y=$((($col-${#str})/2))
+    y=$(($y + $3))
+    tput cup $2 $y
+    tmp_y=$y
+    printf "$str"
+}
+
+# print gui
+function print_gui {
+    
+    ###################
+    # print gui ####
+    ###################
+
+    printf "\033c"
+    tput civis -- invisible
+    print_centered "$title" 0 26
+    print_centered "$target_bar" 1 0
+    print_centered "$target_bar2" 2 16
+    print_centered "$target_emp" 3 5
+    print_centered "$target1" 4 14
+    print_centered "$target22" 5 14
+    print_centered "$target2" 6 14
+    
+    # get current horizontal coords
+    final_y=$tmp_y
+
+    print_centered "$target3" 7 14
+    print_centered "$target4" 8 14
+    print_centered "$target5" 9 5
+    print_centered "$fuzzer_bar" 10 16
+    print_centered "$fuzzer_bar2" 11 27
+    print_centered "$target_emp2" 12 8
+    print_centered "$stat1" 13 39
+    print_centered "$stat2" 14 39
+    print_centered "$stat3" 15 39
+    print_centered "$stat4" 16 17
+    print_centered "$stat5" 17 17
+    print_centered "$stat6" 18 17
+    print_centered "$stat7" 19 17
+    print_centered "$target_emp3" 20 8
+    print_centered "$fuzzer_bar3" 21 16
+    print_centered "$target_emp" 22 5
+    print_centered "$time1" 23 14
+    print_centered "$time2" 24 14
+    print_centered "$target5" 25 5
+    print_centered "$target_emp" 26 5
+    print_centered "$credit1" 27 14
+    print_centered "$credit2" 28 14
+    print_centered "$target5" 29 5
+}
+
+
+# start function
+function check_device {
+    ping_device
+    if [ $is_online -ne 1 ]; then
+	echo "Device not connected!"
+	exit
+    fi
+    echo "Device correctly connected!"
+    su=$(adb -s $DEVICE shell su -c id 2> /dev/null)
+    if [[ $su == *"root"* ]]
+    then
+	echo "Root ok"
+    else
+	echo "Unable to get root privileges!"
+	exit
+    fi
+    
+    adb -s $DEVICE shell "su -c rm -rf /data/local/tmp/*" 2> /dev/null
+    adb -s $DEVICE push trinity /data/local/tmp/trinity 2> /dev/null
+    adb -s $DEVICE push trinity_wrp /data/local/tmp/trinity_wrp 2> /dev/null
+    adb -s $DEVICE shell "su -c chmod 777 /data/local/tmp/trinity*" 2> /dev/null
+
+}
+
+# parse trinity command
+function parse_cmd {
+    ok=0
+    for word in $CMD; do
+	
+	if [ $ok -eq 1 ]; then
+            target=$word
+            ok=0
+	fi
+	
+	if [ "$word" == "-R" ]; then
+	    mode="IOCTLs fuzzer"
+            ok=1
+	fi
+    done
+}
+
+# run trinity on the device
+function run_trinity {
+ 
+    adb -s $DEVICE shell /data/local/tmp/trinity_wrp "$CMD" 1> /dev/null &
+   
+}
+
+
+# kill trinity
+function kill_trinity {
+    t_pid=$(adb -s $DEVICE shell ps | grep trinity | head -n1 | tr -s ' ' | cut -d " " -f2 2> /dev/null)
+    adb -s $DEVICE shell su -c "kill -9 $t_pid" > /dev/null
+}
+
+
+################################
+### UPDATE FUNCTIONS ###########
+################################
+
+# device info
+function update_device {
+    tput cup 4 $(($final_y+19))
+    echo "                                                 "
+    tput cup 4 $(($final_y+19))
+    echo "$device"
+}
+
+# kernel version
+function update_kernel_version {
+
+    tput cup 5 $(($final_y+19))
+    echo "                                                 "
+    tput cup 5 $(($final_y+19))
+    echo "$kernel_version"
+}
+
+# memory info
+function update_mem {
+    if [ ! -z $1 ]; then
+	str="n/a"
+    else    
+	get_free_mem
+	str="$free_mem_mb mb ($free_mem_per%)"
+    fi
+
+    tput cup 6 $(($final_y+19))
+    echo "                                                 "
+    tput cup 6 $(($final_y+19))
+    echo "$str"
+}
+
+# cpu info
+function update_cpu {
+    if [ ! -z $1 ]; then
+	cpu_load="n/a"
+    else
+	get_cpu_load
+    fi
+    
+    tput cup 7 $(($final_y+19))
+    echo "                                                 "
+    tput cup 7 $(($final_y+19))
+    echo "$cpu_load"
+}
+
+# battery info
+function update_battery {
+    if [ ! -z $1 ]; then
+	str="n/a"
+    else
+	get_battery
+	if [ ! -z $battery_per ]; then
+	    str="${battery_per::-1}%"
+	fi
+    fi
+
+    tput cup 8 $(($final_y+19))
+    echo "                                                 "
+    tput cup 8 $(($final_y+19))
+    echo "$str"
+}
+
+# current fuzzer state info
+function update_current {
+    if [ $1 -eq 0 ]; then
+	str="${LGREEN}running${RESTORE}"
+    elif [ $1 -eq 1 ]; then
+	str="${LRED}crash detected - restarting${RESTORE}"
+    elif [ $1 -eq 2 ]; then
+	str="${LYELLOW}fuzzer down - restarting${RESTORE}"
+    fi
+	
+    tput cup 13 $(($final_y+22))
+    echo "                            "
+    tput cup 13 $(($final_y+22))
+    printf "$str"
+}
+
+# current fuzzer mode info
+function update_mode {
+    	tput cup 14 $(($final_y+22))
+	echo "                            "
+	tput cup 14 $(($final_y+22))
+	echo "$1"
+}
+
+# fuzzer target info
+function update_target {
+    	tput cup 15 $(($final_y+22))
+	echo "                            "
+	tput cup 15 $(($final_y+22))
+	echo "$1"
+}
+
+# fuzzer total system calls
+function update_tot_sys {
+    	tput cup 16 $(($final_y+22))
+	echo "                            "
+	tput cup 16 $(($final_y+22))	
+	echo "$(($global_tot_sys + $tot_sys))"
+}
+
+# failed system calls
+function update_fail_sys {
+    	tput cup 17 $(($final_y+22))
+	echo "                            "
+	tput cup 17 $(($final_y+22))
+	echo "$(($global_fail_sys + $fail_sys))"
+}
+
+# succeded system calls
+function update_ok_sys {
+    	tput cup 18 $(($final_y+22))
+	echo "                            "
+	tput cup 18 $(($final_y+22))
+	echo "$(($global_ok_sys + $ok_sys))"
+}
+
+# fuzzer crashes
+function update_fuzzer_faults {
+    	tput cup 19 $(($final_y+22))
+	echo "                            "
+	tput cup 19 $(($final_y+22))
+	echo "$trinity_faults"
+}
+
+
+# detected crashes
+function update_tot_crash {
+    	tput cup 13 $(($final_y+75))
+	echo "    "
+	tput cup 13 $(($final_y+75))
+	echo "$crashes"
+}
+
+# detected oops
+function update_oops {
+    	tput cup 14 $(($final_y+75))
+	echo "    "
+	tput cup 14 $(($final_y+75))
+	echo "$oops"
+}
+
+# detected restart
+function update_restart {
+    	tput cup 15 $(($final_y+75))
+	echo "    "
+	tput cup 15 $(($final_y+75))
+	echo "$restarted"
+}
+
+# update start time
+
+function update_start_time {
+   T=$(($(date +%s) - $start_time))
+   D=$((T/60/60/24))
+   H=$((T/60/60%24))
+   M=$((T/60%60))
+   S=$((T%60))
+
+   tput cup 23 $(($final_y+24))
+   echo "                       "
+   tput cup 23 $(($final_y+24))
+
+   printf '%d days, %02d hrs, %02d min, %02d sec' $D $H $M $S
+}
+
+
+function update_last_crash_time {
+   tput cup 24 $(($final_y+24))
+   echo "                       "
+   tput cup 24 $(($final_y+24))
+   if [ $last_crash -eq 0 ]; then
+       echo "no crash yet"
+   else
+       echo "$(date -d @$last_crash)"
+   fi
+
+}
+
+
+###########################################
+### FUNCTION TO RETRIEVE INFO #############
+###########################################
+
+# get device info
+function get_device {
+    device=$(adb -s $DEVICE shell getprop ro.product.model 2> /dev/null)
+    if [ ! -z "$device" ]; then
+	device="${device::-1} - $(adb -s $DEVICE shell getprop ro.build.fingerprint | cut -d ":" -f2 2> /dev/null)"
+    fi
+}
+
+# get kernel info
+function get_kernel_version {
+    kernel_version="$(adb -s $DEVICE shell cat /proc/version | cut -d " " -f3) $(adb -s $DEVICE shell cat /proc/version | rev | cut -d " " -f1-5 | rev 2> /dev/null)"
+}
+
+# get free memory 
+function get_free_mem {
+    tmp_free="$(adb -s $DEVICE shell cat /proc/meminfo | grep MemFree | tr -s ' ' | cut -d " " -f2 2> /dev/null)"
+    tmp_tot="$(adb -s $DEVICE shell cat /proc/meminfo | grep MemTotal | tr -s ' ' | cut -d " " -f2 2> /dev/null)"
+
+    if [ ! -z $tmp_free ]; then
+	free_mem_mb=$(($tmp_free / 1024))
+	if [ ! -z $tmp_tot ]; then
+	    free_mem_per=$(($(($tmp_free * 100)) / $tmp_tot))
+	fi
+    fi
+}
+
+# get battery state
+function get_battery {
+    battery_per="$(adb -s $DEVICE shell dumpsys battery | grep level | tr -s ' ' | cut -d " " -f3 2> /dev/null)"
+}
+
+# get cpu load
+function get_cpu_load {
+    tmp_str="$(adb -s $DEVICE shell dumpsys cpuinfo | tail -n1 2> /dev/null)"
+    tmp_total=$(echo "$tmp_str" | tr -s ' ' | cut -d " " -f1)
+    tmp_user=$(echo "$tmp_str" | tr -s ' ' | cut -d " " -f3)
+    tmp_kernel=$(echo "$tmp_str" | tr -s ' ' | cut -d " " -f6)
+
+    if [ ! -z tmp_str ] || [ ! -z tmp_total ] || [ ! -z tmp_user ] || [ ! -z tmp_kernel ]; then 
+	cpu_load="$tmp_total ($tmp_user user - $tmp_kernel kernel)"
+    fi
+}
+
+# get total syscalls
+function get_tot_syscalls {
+    str=$(adb -s $DEVICE shell su -c "cat /data/local/tmp/trinity.log" | grep watchdog | grep iterations | tail -n1 2> /dev/null)
+
+    if [ "$str" == "$last_syscalls_str" ]; then
+	return
+    fi
+
+    last_syscalls_str=$str
+    tot=$(echo "$str" | cut -d " " -f2)
+    failed=$(echo "$str" | cut -d " " -f4 | cut -d ":" -f2)
+    succeded=$(echo "$str" | cut -d " " -f5 | cut -d ":" -f2)
+
+    # update global values
+    tot_sys=$(($tot + $tot_sys))
+    fail_sys=$(($failed + $fail_sys))
+    ok_sys=$(($succeded + $ok_sys))
+    
+}
+
+
+######################################
+####### MONITORING FUNCTIONS #########
+######################################
+
+# ping the device using adb
+function ping_device {
+    tmp=$(adb -s $DEVICE devices | grep $DEVICE 2> /dev/null)
+    if [ -z "$tmp" ]; then
+        is_online=0
+    else
+	is_online=1
+    fi
+}
+
+# wait a device to come back online
+function wait_for_device {
+    while [ 1 ]; do
+	ping_device
+	if [ $is_online -eq 1 ]; then
+	    sleep 60
+	    break
+	fi    
+	sleep 2
+    done
+}
+
+# save the test case after a crash
+function save_testcase {
+    global_tot_sys=$(($global_tot_sys + $tot_sys))
+    global_fail_sys=$(($global_fail_sys + $fail_sys))
+    global_ok_sys=$(($global_ok_sys + $ok_sys))
+
+    mkdir "crashes/crash$crashes"
+    adb -s $DEVICE shell su -c "chmod 777 /data/local/tmp/*">/dev/null 
+    for i in $(adb -s $DEVICE shell ls /data/local/tmp/*log* 2> /dev/null); do
+	i=`echo -e $i | tr -d "\r\n"`;
+	adb -s $DEVICE pull $i "crashes/crash$crashes" 2>/dev/null
+    done;
+    adb -s $DEVICE shell su -c "cat /proc/last_kmsg">"crashes/crash$crashes/last_kmsg" 2> /dev/null
+    cp kmsg "crashes/crash$crashes"
+    adb -s $DEVICE shell "rm -rf /data/local/tmp/*" 2> /dev/null
+    adb -s $DEVICE push trinity /data/local/tmp/trinity 2> /dev/null
+    adb -s $DEVICE push trinity_wrp /data/local/tmp/trinity_wrp 2> /dev/null
+    adb -s $DEVICE shell "chmod 777 /data/local/tmp/*" 2> /dev/null
+}
+
+# save kernel log
+function start_kernel_log {
+    ./kmsg_monitor & 2> /dev/null
+    
+}
+
+# check the fuzzer status
+function check_trinity {
+    trinity_has_crashed=0
+    status=$(adb -s $DEVICE shell ps | grep trinity 2> /dev/null)
+    if [ -z "$status" ]; then
+	trinity_faults=$(($trinity_faults + 1))
+	trinity_has_crashed=1
+    fi
+}
+
+
+##################################################
+######## STATIC GUI ##############################
+##################################################
+
+
+title="${YELLOW}${bold}====> ${GREEN}${bold}ANDROID SYSTEM CALL FUZZER ${YELLOW}${bold}<====${RESTORE}"
+target_bar="_______________________________________________________________________________"
+target_emp="$b""                                                                               ""$b"
+target_emp2="$b""                                                    ""$b""                          ""$b"
+target_emp3="$b""____________________________________________________""$b""__________________________""$b"
+target_bar2="$b""___________________________________ ${RED}${bold}target${RESTORE} ____________________________________$b"
+target1="$b""${CYAN}         device :${RESTORE}                                                              $b"
+target22="$b""${CYAN} kernel version :${RESTORE}                                                              $b"
+target2="$b""${CYAN}    free memory :${RESTORE}                                                              $b"
+target3="$b""${CYAN}       cpu load :${RESTORE}                                                              $b"
+target4="$b""${CYAN} battery charge :${RESTORE}                                                              $b"
+target5="$b""_______________________________________________________________________________$b"
+fuzzer_bar="$b""___________________________________ ${RED}${bold}fuzzer${RESTORE} ____________________________________$b"
+fuzzer_bar2="$b""___ ${YELLOW}${bold}stat${RESTORE} ___________________________________________|____${YELLOW}${bold}results${RESTORE}_______________$b"
+fuzzer_bar3="$b""_________________________________ ${YELLOW}${bold}fuzz timing${RESTORE} _________________________________$b"
+stat1="$b""${CYAN}           current :${RESTORE}                                ""$b""${CYAN}    total crashes ${RED}\u2620${CYAN}:${RESTORE}      $b"
+stat2="$b""${CYAN}              mode :${RESTORE}                                ""$b""${CYAN}    oops detected ${RED}\u2622${CYAN}:${RESTORE}      $b"
+stat3="$b""${CYAN}            target :${RESTORE}                                ""$b""${CYAN} restart detected ${RED}\u26a0${CYAN}:${RESTORE}      $b"
+stat4="$b""${CYAN}    total syscalls :${RESTORE}                                ""$b""                          $b"
+stat5="$b""${CYAN}   failed syscalls :${RESTORE}                                ""$b""                          $b"
+stat6="$b""${CYAN} succeded syscalls :${RESTORE}                                ""$b""                          $b"
+stat7="$b""${CYAN}     fuzzer faults :${RESTORE}                                ""$b""                          $b"
+time1="$b""${CYAN}            run time :${RESTORE}                                                         $b"
+time2="$b""${CYAN} last crash detected :${RESTORE}                                                         $b"
+credit1="$b""${GREEN} Coded by ** Giubby84 **${RESTORE}                                                       $b"
+credit2="$b""${PURPLE} Based on Trinity fuzzer by Dave Jones${RESTORE}                                         $b"
+
+#############################################################
+
+
+
+#####################
+##### MAIN LOOP #####
+#####################
+
+check_device
+parse_cmd
+run_trinity
+
+final_y=0
+start_cols=$(tput cols)
+start_kernel_log
+start_time=$(date +%s)
+
+get_device
+get_kernel_version
+
+while [ 1 ]; do
+
+    print_gui
+    
+    #########
+    # update the contents
+    #########
+
+    update_device
+    update_kernel_version
+    update_mode "$mode"
+    update_target "$target"
+    
+    ###############
+    # fast loop
+    ###############
+    n=0
+    while [ 1 ]; do
+	
+	ping_device
+	if [ $is_online -ne 1 ]; then
+	    crashes=$(($crashes + 1))
+	    restarted=$(($restarted + 1))
+	    last_crash=$(date +%s)
+
+	    print_gui
+	    	    
+	    update_device
+	    update_kernel_version
+	    update_mode "$mode"
+	    update_target "$target"
+
+	    update_mem 1
+	    update_cpu 1
+	    update_battery 1
+	    update_current 1
+	    update_tot_sys
+	    update_fail_sys
+	    update_ok_sys
+	    update_fuzzer_faults
+	    update_tot_crash
+	    update_oops
+	    update_restart
+	    update_start_time
+	    update_last_crash_time
+	    wait_for_device	    
+
+	    save_testcase
+	    start_kernel_log
+	    run_trinity
+	fi
+
+	if [ $(($n%20)) -eq 0 ]; then
+	    check_trinity
+	    if [ $trinity_has_crashed -eq 1 ]; then
+		trinity_has_crashed=0
+		update_current 2
+		run_trinity
+		sleep 5
+	    fi
+	fi
+
+	update_mem 
+	update_cpu 
+	update_battery 
+	update_current 0
+	if [ $(($n%5)) -eq 0 ]; then
+	    get_tot_syscalls
+	fi
+	update_tot_sys
+	update_fail_sys
+	update_ok_sys
+	update_fuzzer_faults
+	update_tot_crash
+	update_oops
+	update_restart
+
+	update_start_time
+	update_last_crash_time
+
+	sleep 1
+	if [ $n -eq 1000 ]; then
+	    n=0
+	fi	
+
+	n=$(($n+1))
+	if [ $start_cols -ne $(tput cols) ]; then
+	    start_cols=$(tput cols)
+	    break
+	fi
+	
+	if [ $(($n%120)) -eq 0 ]; then
+	    adb -s $DEVICE shell su -c "chmod 777 /data/local/tmp/trinity*" 2> /dev/null
+	    adb -s $DEVICE shell su -c "rm /data/local/tmp/trinity-child0.log"
+	    break
+	fi
+    done;
+    
+    ##################################
+
+done;

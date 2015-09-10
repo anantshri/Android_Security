@@ -1,0 +1,7 @@
+
+
+STRATEGIE DI FUZZING:
+	  [0] incrementale su tutto il minset: n cicli di fuzzing con n random 1 < n <= 5 per un totale di 50
+	  [1] incrementale su singolo file del minset: n cicli di fuzzing su 10 file casuali con n random 0 < n <= 10
+	  [2] incrementale ibrida: n cicli sul minset completo senza esecuzione e successivamente k cicli su 20 file casuali con 0 < n <= 4 && 0 < k <=3 
+	  [3] incrementale ibrida alternata: cicli alternati di fuzzing su minset e su ognuno dei singoli file. n cicli con 0 < n 8

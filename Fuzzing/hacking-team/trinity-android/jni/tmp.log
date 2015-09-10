@@ -1,0 +1,5 @@
+make: Entering directory `/home/diego/android-dev/fuzzer-android/trinity-android/jni/tmpdir'
+[armeabi] Compile thumb  : test <= test.c
+[armeabi] Executable     : test
+[armeabi] Install        : test => libs/armeabi/test
+make: Leaving directory `/home/diego/android-dev/fuzzer-android/trinity-android/jni/tmpdir'

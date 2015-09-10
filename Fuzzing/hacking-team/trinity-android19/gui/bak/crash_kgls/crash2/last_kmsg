@@ -1,0 +1,828 @@
+[    0.000000] sec_dbg_setup: str=@0x88490004
+[    0.000000] sec_dbg_setup: secdbg_paddr = 0x88490004
+[    0.000000] sec_dbg_setup: secdbg_size = 0x40000
+[    0.152510] set_dload_mode <1> ( c0e12148 )
+[    0.182847] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+[    0.183061] MSM_DCVS: msm_dcvs_early_init: Unable to initialize DCVS err=4
+[    0.185777] sec_debug_init: enable=0
+[    0.185808] sec_debug_init: restart_reason : 0xfa00a65c
+[    0.220998] msm_gpiomux_install: write failure: -22
+[    0.220998] msm_gpiomux_install: write failure: -22
+[    0.221028] msm_gpiomux_install: write failure: -22
+[    0.221028] msm_gpiomux_install: write failure: -22
+[    0.227376] pm8xxx-regulator pm8xxx-regulator.3: Failed to set supply 8921_l29
+[    0.227498] pm8xxx_vreg_probe: regulator_register failed: 8921_l29, rc=-16
+[    0.227498] pm8xxx_vreg_probe: error for 8921_l29, rc=-16
+[    0.234884] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.234915] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.234915] Using interleaved memory by default
+[    0.235128] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235128] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235128] Using interleaved memory by default
+[    0.235342] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235342] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235373] Using interleaved memory by default
+[    0.235556] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235556] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235556] Using interleaved memory by default
+[    0.235769] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235769] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235769] Using interleaved memory by default
+[    2.894368] [CAMERA][msm8930_init_cam:1942] Start
+[    2.894796] [msm_camera_gpio_install:274] [Start]
+[    3.107004] smd_channel_probe_worker: allocation table not initialized
+[    3.127514] msm_iommu_dev: Could not find context <jpegd_src>
+[    3.127666] msm_iommu_dev: Could not find context <jpegd_dst>
+[    3.129558] param_sec_operation: filp_open failed. (-2)
+[    3.129650] sec_open_param PARAM OPEN FAIL
+[    3.320128] tima_uevent_init
+[    3.352601] [mdnie lite] start!
+[    3.352815] [mdnie lite] end!
+[    3.358126] hdmi_msm hdmi_msm.1: external_common_state_create: sysfs group dfa26208
+[    3.359682] Inside writeback_driver_init
+[    3.360262] Inside writeback_probe
+[    3.367587] Unknown PM state 0
+[    3.367801] Unknown PM state 3
+[    3.483045] wcd9xxx-i2c-core 8-0077: wcd9xxx_i2c_probe:probe for other slaves
+[    3.483106] devices of codec I2C slave Addr = 77
+[    3.483473] wcd9xxx-i2c-core 8-0066: wcd9xxx_i2c_probe:probe for other slaves
+[    3.483503] devices of codec I2C slave Addr = 66
+[    3.483839] wcd9xxx-i2c-core 8-0055: wcd9xxx_i2c_probe:probe for other slaves
+[    3.483869] devices of codec I2C slave Addr = 55
+[    3.523210] msm_hsusb_host msm_hsusb_host: unable to register with transceiver
+[    3.653898] msm_otg_sm_work 2359: couldn't get usb power supply
+[    3.663634] Atmel MXT336S 3-004a: tsp_atmel/mxt336s_Serrano.fw
+[    4.224172] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[    4.236624] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    4.253013] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    4.263512] mpu6050_input_probe: mpu6050 probe failed
+[    4.320433] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    4.393743] imx175_eeprom_init called 
+[    4.394018] imx175 spi driver probe
+[    4.394506] imx175_spi_read_id: ReadID:0xf8, 0x12
+[    4.394872] imx175_spi_read : Enter - reg_addr : 0x40
+[    4.395299] imx175_spi_read : Enter - reg_addr : 0x1000
+[    4.395757] imx175_spi_read : Enter - reg_addr : 0x2000
+[    4.396337] imx175_spi_read : Enter - reg_addr : 0x300c
+[    4.402075] imx175_spi_read : Enter - reg_addr : 0x1200
+[    4.402655] imx175_spi_read : Enter - reg_addr : 0x1218
+[    4.408515] imx175_format_calibrationdata: is_all_supported= 1
+[    4.408911] [shchang : imx175_format_afdata] Little Endian!!
+[    4.409125] [shchang : imx175_format_wbdata] Little Endian!!
+[    4.410621] msm_sensor_i2c_probe s5k3h5xa probe succeeded
+[    4.410834] [teddy]msm_sensor_i2c_probe s5k3h5xa sensor_create_node
+[    4.411231] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][1]
+[    4.411689] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][2]
+[    4.412299] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][3]
+[    4.413306] msm_eeprom_probe probe_fail
+[    4.415138] msm_sensor_i2c_probe s5k6a3yx probe succeeded
+[    4.415382] msm_eeprom_probe probe_fail
+[    4.462169] mmc0: No card detect facilities available
+[    4.473279] mmc1: No card detect facilities available
+[    4.491896] mmc0: CMD52: Command timeout
+[    4.497451] mmc0: CMD52: Command timeout
+[    4.506241] mmc0: CMD8: Command timeout
+[    4.511857] mmc0: CMD5: Command timeout
+[    4.517381] mmc0: CMD5: Command timeout
+[    4.522875] mmc0: CMD5: Command timeout
+[    4.528460] mmc0: CMD5: Command timeout
+[    4.533984] mmc0: CMD55: Command timeout
+[    4.539508] mmc0: CMD55: Command timeout
+[    4.545124] mmc0: CMD55: Command timeout
+[    4.550618] mmc0: CMD55: Command timeout
+[    4.639005] mmc1: CMD52: Command timeout
+[    4.644620] mmc1: CMD52: Command timeout
+[    4.653471] mmc1: CMD8: Command timeout
+[    4.658995] mmc1: CMD5: Command timeout
+[    4.664581] mmc1: CMD5: Command timeout
+[    4.670105] mmc1: CMD5: Command timeout
+[    4.675629] mmc1: CMD5: Command timeout
+[    4.681214] mmc1: CMD55: Command timeout
+[    4.686769] mmc1: CMD55: Command timeout
+[    4.692263] mmc1: CMD55: Command timeout
+[    4.697878] mmc1: CMD55: Command timeout
+[    4.703464] mmc1: CMD1: Command timeout
+[    5.353792] i2c i2c-21: an30259a_initialize: failure on i2c write (reg = 0x 0)
+[    5.354005] i2c i2c-21: failure on initialization at led channel:0
+[    5.366183] gp2a_setup_irq, start
+[    5.366885] gp2a_setup_irq, success
+[    5.519334] soc-audio soc-audio.0: Failed to add Speaker Function: -16
+[    5.557607] tc360_probe start
+[    5.559468] tc360_init: init done 0
+[    5.561483] read_ocv_trim: program rev reg is 0x19
+[    5.561635] pm8921_is_usb_chg_plugged_in: called before init
+[    5.565450] pm8921_is_usb_chg_plugged_in: called before init
+[    5.565695] pm8921_is_usb_chg_plugged_in: called before init
+[    5.565847] pm8921_is_batfet_closed: called before init
+[    5.595238] pm8921_is_usb_chg_plugged_in: called before init
+[    5.703952] pm8921_is_batfet_closed: called before init
+[    5.735388] pm8921_is_usb_chg_plugged_in: called before init
+[    5.843979] pm8921_is_batfet_closed: called before init
+[    5.875385] pm8921_is_usb_chg_plugged_in: called before init
+[    5.984068] pm8921_is_batfet_closed: called before init
+[    6.015656] pm8921_is_usb_chg_plugged_in: called before init
+[    6.115763] tsu6721 15-0025: dev1: 0x4, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+[    6.115977] tsu6721_callback: fail to get battery ps
+[    6.124065] pm8921_is_batfet_closed: called before init
+[    6.155501] pm8921_is_usb_chg_plugged_in: called before init
+[    6.264336] pm8921_is_batfet_closed: called before init
+[    6.295650] pm8921_is_usb_chg_plugged_in: called before init
+[    6.299191] pm8921_usb_ovp_disable: called before init
+[    6.299404] power_supply usb: driver failed to report `present' property: 4294967274
+[    6.299557] power_supply usb: driver failed to report `present' property: 4294967274
+[    6.299740] power_supply ac: driver failed to report `present' property: 4294967274
+[    6.299893] power_supply ac: driver failed to report `present' property: 4294967274
+[    6.312803] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    6.315458] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    6.316893] pm8921_charger_probe: battery(PM8917) cable_type (1)
+[    6.318022] irda_device_init called!
+[    6.318815] barcode_emul_ice4_8930: probe complete barcode_emul_probe
+[    6.323760] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[    6.323912] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (475mA)--------
+[    6.324645] power_supply usb: driver failed to report `health' property: 4294967274
+[    6.379459] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[    6.391027] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    6.481550] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    6.613398] init: /init.qcom.rc: 641: invalid command '/system/bin/log'
+[    6.613795] init: /init.qcom.rc: 781: invalid command 'kill'
+[    6.613886] init: /init.qcom.rc: 783: invalid command 'kill'
+[    6.614008] init: /init.qcom.rc: 785: invalid command 'kill'
+[    6.614100] init: /init.qcom.rc: 787: invalid command 'kill'
+[    6.616175] init: could not import file 'init.mdm.rc' from 'init.target.rc'
+[    6.616633] init: /init.carrier.rc: 117: ignored duplicate definition of service 'TvoutService_C'
+[    6.616908] init: /init.container.rc: 39: invalid option 'start'
+[    6.618098] init: setsebool: could not set debugfs to 1
+[    6.620235] init: invalid uid 'fm_radio'
+[    6.884083] power_supply usb: driver failed to report `health' property: 4294967274
+[    6.886922] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    7.043979] init: could not open /dev/keychord
+[    7.714176] init: Running /dev/block/platform/msm_sdcc.1/by-name/cache on ext4
+[    7.747382] init: Running /dev/block/platform/msm_sdcc.1/by-name/persist on ext4
+[    7.778666] init: Running /dev/block/platform/msm_sdcc.1/by-name/efs on ext4
+[    7.832443] init: Running /dev/block/platform/msm_sdcc.1/by-name/persdata on ext4
+[    8.157424] init: failed to open '/sys/devices/soc0/soc_id'
+[    8.157576] init: failed to open '/sys/devices/soc0/platform_version'
+[    8.157790] init: failed to open '/sys/devices/soc0/hw_platform'
+[    8.157912] init: Detected MSM SOC ID=154 SOC VER=65536 BOARD TYPE=Unknown
+[    8.175034] healthd: wakealarm_init: timerfd_create failed
+[    8.188066] init: cannot find '/system/bin/sec-ril', disabling 'secril-daemon'
+[    8.193926] init: cannot find '/system/bin/sensorhubservice', disabling 'sensorhubservice'
+[    8.239615] init: cannot execve('/system/etc/install-recovery.sh'): Permission denied
+[    8.241690] init: cannot find '/system/bin/rf4ce', disabling 'rf4ce'
+[    8.241843] init: cannot find '/system/bin/qrngd', disabling 'qrngd'
+[    8.258660] Unknown PM state 0
+[    8.259942] Unknown PM state 3
+[    8.260125] Unknown PM state 0
+[    8.261406] Unknown PM state 3
+[    8.297817] QSEECOM: qseecom_release: Unsupported clnt_handle_type 4
+[    8.335479] Unknown PM state 0
+[    8.337097] Unknown PM state 3
+[    8.337250] Unknown PM state 0
+[    8.338867] Unknown PM state 3
+[    8.984251] init: property 'sys.powerctl' doesn't exist while expanding '${sys.powerctl}'
+[    8.984404] init: powerctl: cannot expand '${sys.powerctl}'
+[    8.984556] init: property 'sys.sysctl.extra_free_kbytes' doesn't exist while expanding '${sys.sysctl.extra_free_kbytes}'
+[    8.984709] init: cannot expand '${sys.sysctl.extra_free_kbytes}' while writing to '/proc/sys/vm/extra_free_kbytes'
+[    9.015412] init: cannot find '/system/bin/scranton_RD', disabling 'scranton_RD'
+[    9.029207] init: cannot find '/system/bin/netmgrd', disabling 'netmgrd'
+[    9.371127] wcnss: no space available for smd frame
+[    9.395147] wcnss: no space available for smd frame
+[    9.425057] wcnss: no space available for smd frame
+[    9.455089] wcnss: no space available for smd frame
+[   10.170212] diag: proc 1, msg mask update fail -12, tried 419
+[   12.395391] smd_tty_open: DS open failed -19
+[   12.435464] init: untracked pid 389 exited
+[   12.533312] init: cannot find '/system/bin/quipc_igsn', disabling 'quipc_igsn'
+[   12.577018] init: cannot find '/system/bin/quipc_main', disabling 'quipc_main'
+[   12.625423] init: cannot find '/system/bin/location-mq', disabling 'location_mq'
+[   12.658141] init: cannot find '/system/bin/lowi-server', disabling 'lowi-server'
+[   12.835098] init: cannot find '/system/bin/battery_monitor', disabling 'battery_monitor'
+[   13.029116] Notify: smsm init
+[   13.337066] init: untracked pid 558 exited
+[   13.398199] smd_tty_open: DS open failed -19
+[   13.495009] [mdnie lite] is negative Mode On = 0
+[   13.495040] [mdnie lite] negative off when resume, tuning again!
+[   13.495070] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   13.495101] [mdnie lite]  = UI MODE =
+[   13.495101] [mdnie lite]  = STANDARD MODE =
+[   13.495131] [mdnie lite]  send tuning cmd!!
+[   13.528338] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+[   13.946314] init: sys_prop: permission denied uid:1013  name:audio.country
+[   14.240988] diag: proc 0, msg mask update fail -12, tried 419
+[   14.399450] smd_tty_open: DS open failed -19
+[   15.399908] smd_tty_open: DS open failed -19
+[   16.551747] ACDB=> get_hw_delay Invalid delay/ delay entries
+[   16.551869] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[   21.435403] init: sys_prop: permission denied uid:1013  name:audioflinger.bootsnd
+[   21.968289] accel_open_calibration: Can't open calibration file
+[   22.148481] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[   26.173203] pm_chg_usb_trim: trim_orig 40 write 0x28 index=0 value 0x0 to USB_OVP_TRIM
+[   29.812696] msm_pm_mode_attr_store: spc is blocked (1) from [sh]
+[   29.812879] msm_pm_mode_attr_store: spc is blocked (2) from [sh]
+[   31.253868] [mdnie lite] is negative Mode On = 0
+[   31.253960] [mdnie lite] negative off when resume, tuning again!
+[   31.254112] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   31.254204] [mdnie lite]  = UI MODE =
+[   31.254326] [mdnie lite]  = STANDARD MODE =
+[   31.254448] [mdnie lite]  send tuning cmd!!
+[   31.294155] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+[   35.043308] wlan: [1036:E :HDD] hdd_apply_cfg_ini: Reg Parameter gApKeepAlivePeriod > allowed Maximum [30 > 20]. Enforcing Default= 5
+[   35.052464] wlan: [1036:E :VOS] INFO: NV binary file version=1 Driver default NV version=1, continue...
+[   35.052495] 
+[   35.059789] wlan: [1036:E :HDD] hdd_wlan_startup: Invalid MAC address in NV, using MAC from ini file 00:89:ff
+[   35.152113] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[   35.363528] wlan: [2591:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[   35.606622] wlan: [2591:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[   37.589806] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+[   37.589836] 
+[   37.592095] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+[   37.592095] 
+[   37.593499] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+[   37.593529] 
+[   37.868487] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[   38.749763] init: sys_prop: permission denied uid:2000  name:ro.csc.country_code
+[   38.752968] init: sys_prop: permission denied uid:2000  name:ro.csc.countryiso_code
+[   38.753670] init: sys_prop: permission denied uid:2000  name:ro.csc.sales_code
+[   38.753975] init: sys_prop: permission denied uid:2000  name:ro.setupwizard.mode
+[   39.302517] msm_mctl_reserve_free_buf: stream is turned off
+[   39.335449] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[   39.336456] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[   39.337738] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[   39.404639] init: untracked pid 225 exited
+[   39.446360] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+[   39.446390] 
+[   39.447581] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+[   39.447611] 
+[   39.448802] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+[   39.448832] 
+[   39.450022] msm_release_ion_client Calling ion_client_destroy
+[   41.118419] dtv_pipe is not configured yet
+[   42.748176] [mdnie lite] is negative Mode On = 0
+[   42.748298] [mdnie lite] negative off when resume, tuning again!
+[   42.748390] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   42.748512] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+[   42.752998] [mdnie lite] set background mode : 4
+[   42.753181] [mdnie lite]  mode_store, input background(4)
+[   42.753273] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[   42.753456] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+[   75.999511] init: untracked pid 4567 exited
+[   76.228811] init: untracked pid 4571 exited
+[   77.210071] init: untracked pid 4630 exited
+[   77.436014] init: untracked pid 4633 exited
+[   79.119487] init: untracked pid 4673 exited
+[   79.142774] init: untracked pid 4669 exited
+[   79.163772] init: untracked pid 4691 exited
+[   79.341583] init: untracked pid 4682 exited
+[   79.366824] init: untracked pid 4681 exited
+[   79.388341] init: untracked pid 4694 exited
+[   81.683808] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1123093 device_id=0
+[   81.695742] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   81.695864] kgsl: kgsl_get_phys_file: fget_light failed
+[   81.701693] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   81.702731] kgsl: kgsl_get_phys_file: fget_light failed
+[   81.743537] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+[   81.751564] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+[   81.784068] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.789531] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.813367] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.820479] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.826705] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.829696] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.838394] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.840592] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.841263] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.847153] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.849839] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.851365] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.860033] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.868151] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.872668] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.874286] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   81.877552] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.879230] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   81.883229] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.884785] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   81.889607] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.891225] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   81.893880] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.898855] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.909262] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.917076] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.922508] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.925560] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.931725] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.932763] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.942499] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 0000ae02
+[   81.943445] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 0000ae02
+[   81.945093] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.946436] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.955806] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.956722] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.958400] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.958797] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.962612] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.963100] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.966305] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.966976] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   81.986387] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40087612
+[   81.986448] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40087612
+[   82.001709] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.001861] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.034884] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.035037] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.045139] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.053624] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.060613] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.070410] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.094826] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1824514048) failed, pool: general_pool
+[   82.094979] kgsl: kgsl_mmu_get_gpuaddr:  [4739] allocated=1531904, entries=15
+[   82.095467] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.130505] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.139630] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+[   82.140759] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+[   82.150984] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.163955] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1824514048) failed, pool: general_pool
+[   82.164108] kgsl: kgsl_mmu_get_gpuaddr:  [4740] allocated=1531904, entries=15
+[   82.169082] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.175644] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.176804] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.178696] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.181413] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1 device_id=0
+[   82.185319] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.222951] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.225545] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+[   82.231466] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.232717] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.250297] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+[   82.251762] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+[   82.270349] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.270898] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.289363] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.292934] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.293697] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000001
+[   82.304837] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.309659] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.310178] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.310605] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.311948] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.314665] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1 device_id=0
+[   82.318602] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.319548] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00005321
+[   82.327453] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+[   82.328979] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.345307] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+[   82.349641] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.354310] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.359926] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+[   82.362154] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   82.376590] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.377384] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+[   82.378910] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.384404] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.386448] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.387150] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.388097] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.391912] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.408789] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.410560] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+[   82.423805] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1878978560) failed, pool: general_pool
+[   82.423927] kgsl: kgsl_mmu_get_gpuaddr:  [4739] allocated=3022848, entries=27
+[   82.427987] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.428322] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c02d4000
+[   82.430672] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1070776320 device_id=0
+[   82.440439] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.446848] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.461925] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.469525] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+[   82.471081] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.481947] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   82.483473] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.486220] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0320000
+[   82.486677] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.491225] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.499069] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000001
+[   82.500015] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+[   82.503677] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+[   82.508621] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.519395] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.529803] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.532031] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.546497] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+[   82.547871] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.552693] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+[   82.568533] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+[   82.581321] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.592858] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.597985] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.600976] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.601861] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.605218] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000006
+[   82.612208] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.612635] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   82.616480] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000001
+[   82.618281] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.624385] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 6 device_id=0
+[   82.627376] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.632473] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.638394] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 64 device_id=0
+[   82.638882] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.640256] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.641080] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00005321
+[   82.648496] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+[   82.649748] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.651609] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.660155] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.663360] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.663665] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.667205] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.667572] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.668914] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.673706] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+[   82.673737] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.674683] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.676667] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   82.677033] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.681550] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+[   82.683900] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 8006f402
+[   82.685518] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.687105] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.687959] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.690614] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.691316] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+[   82.692781] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 64 device_id=0
+[   82.694521] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00007002
+[   82.696200] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.698611] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000006
+[   82.699984] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.700534] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.701602] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.701968] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 8 device_id=0
+[   82.702090] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.705356] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.711185] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   82.711490] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.726232] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1878978560) failed, pool: general_pool
+[   82.726354] kgsl: kgsl_mmu_get_gpuaddr:  [4740] allocated=3014656, entries=26
+[   82.727483] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 80046b02
+[   82.729864] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 6 device_id=0
+[   82.732366] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+[   82.739539] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00100000
+[   82.742194] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.742621] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+[   82.743445] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.745063] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   82.748328] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000008
+[   82.756661] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.762154] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+[   82.768869] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.769418] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+[   82.770914] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.773844] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+[   82.777048] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   82.778513] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.781382] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.783793] kgsl: kgsl_get_phys_file: framebuffer minor 3 not found
+[   82.785594] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.789684] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.793193] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+[   82.794109] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+[   82.798016] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+[   82.802563] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.828872] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.831069] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.841355] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.844925] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+[   82.846696] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.850602] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40340933
+[   82.851670] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+[   82.854082] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+[   82.861193] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+[   82.863024] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.863329] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+[   82.863665] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.864397] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.866351] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.875171] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.884175] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -514654204 device_id=0
+[   82.888936] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+[   82.892018] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.894643] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+[   82.897329] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.898122] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 7 device_id=0
+[   82.898245] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.901876] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000005
+[   82.903891] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+[   82.909537] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.909934] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   82.912650] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000006c
+[   82.914420] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   82.915336] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000008
+[   82.919121] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.919609] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000005
+[   82.921959] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5 device_id=0
+[   82.924828] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   82.927514] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.940729] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 0000ae02
+[   82.943110] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.948328] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000000c
+[   82.949366] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 0000ae02
+[   82.951838] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.961605] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.963528] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+[   82.964077] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.965664] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 41940931
+[   82.967862] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1409288933 device_id=0
+[   82.968411] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.968716] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   82.973325] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.975217] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.977109] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+[   82.981443] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.982847] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+[   82.983335] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.989287] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   82.994994] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   82.998229] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 7 device_id=0
+[   82.998962] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 235 device_id=0
+[   83.000915] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.001007] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+[   83.002472] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.004150] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.005829] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+[   83.007996] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.019014] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.029299] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   83.032534] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40087612
+[   83.042728] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40087612
+[   83.047001] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.047520] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.053135] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.053258] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.061956] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   83.069037] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+[   83.071509] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 8006f402
+[   83.073187] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.073309] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.074683] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.080573] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.092842] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00007002
+[   83.094246] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.094338] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.109354] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.112253] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 194 device_id=0
+[   83.119853] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.132885] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   83.134198] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.144849] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.145215] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 80046b02
+[   83.146894] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.155531] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.176865] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1824514048) failed, pool: general_pool
+[   83.176957] kgsl: kgsl_mmu_get_gpuaddr:  [4737] allocated=1523712, entries=14
+[   83.178513] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00100000
+[   83.188737] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+[   83.201892] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.217305] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.223317] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.225057] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+[   83.234640] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+[   83.242545] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+[   83.256157] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.256645] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+[   83.262749] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 733855744 device_id=0
+[   83.263268] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.271326] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.271600] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1824514048) failed, pool: general_pool
+[   83.271722] kgsl: kgsl_mmu_get_gpuaddr:  [4738] allocated=1523712, entries=14
+[   83.275110] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.278162] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.278284] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.283778] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.297359] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 194 device_id=0
+[   83.320311] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.323027] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+[   83.330535] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.337982] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.355867] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+[   83.357271] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+[   83.367495] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.369113] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.379581] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 01b00000
+[   83.390538] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.394567] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.399114] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40340933
+[   83.402929] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+[   83.405432] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.413062] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+[   83.413428] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.414130] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.420204] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 28311552 device_id=0
+[   83.420753] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.424752] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.426216] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.433267] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.442697] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.443674] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00005321
+[   83.472516] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -514654204 device_id=0
+[   83.486525] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+[   83.490218] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.490340] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.498336] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+[   83.501602] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 7 device_id=0
+[   83.520524] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.521867] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+[   83.525927] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1067753472 device_id=0
+[   83.526079] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+[   83.528918] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c01f8000
+[   83.529894] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.534289] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.555196] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.559346] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+[   83.560262] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.560384] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.561696] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   83.573355] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.576957] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   83.581779] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.585685] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+[   83.588676] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.591179] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.594262] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.594567] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.599969] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.601342] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.607477] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.607935] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.608057] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.634365] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.635189] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00005321
+[   83.636563] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 01b00000
+[   83.650175] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000006
+[   83.676606] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+[   83.688325] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.691194] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1071677440 device_id=0
+[   83.696535] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.701358] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 41940931
+[   83.702640] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1409288933 device_id=0
+[   83.703250] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.703372] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.703708] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   83.711033] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.714817] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.722020] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.731725] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+[   83.739966] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.745063] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+[   83.747993] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.758217] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+[   83.764504] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   83.766458] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.766580] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.767892] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   83.792827] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 7 device_id=0
+[   83.793529] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 194 device_id=0
+[   83.795299] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.802655] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+[   83.804211] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+[   83.817213] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.831130] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.832778] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.834640] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.835220] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   83.835373] kgsl: kgsl_get_phys_file: fget_light failed
+[   83.848832] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 01b00000
+[   83.918785] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   83.921989] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1070784512 device_id=0
+[   83.989073] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   83.995574] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   84.056798] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5242880 device_id=0
+[   84.077704] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   84.079291] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+[   84.080543] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004c06
+[   84.145215] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   84.167984] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000000b
+[   84.174729] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   84.223073] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00500000
+[   84.247764] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   84.249259] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   84.251182] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   84.288722] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   84.406775] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   84.466076] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   84.498702] init: untracked pid 4758 exited
+[   84.503464] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   84.510727] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004616
+[   84.533129] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+[   84.534655] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 11 device_id=0
+[   84.556050] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000009e
+[   84.562246] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 11 device_id=0
+[   84.565054] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   84.605157] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000009e
+[   84.726903] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073209344 device_id=0
+[   84.752083] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073201152 device_id=0
+[   84.752754] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+[   84.754829] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code c21c0915
+[   84.757485] init: untracked pid 4761 exited
+[   84.802655] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 15 device_id=0
+[   84.853258] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5242880 device_id=0
+[   84.864611] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   84.867022] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+[   84.878681] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004c06
+[   84.941828] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   84.943934] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000000b
+[   84.974179] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+[   84.974332] kgsl: kgsl_get_phys_file: fget_light failed
+[   84.998718] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00500000
+[   85.002563] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+[   85.003967] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   85.027346] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+[   85.034518] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   85.140576] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+[   85.195421] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   85.253166] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   85.260033] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004616
+[   85.291042] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+[   85.292568] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 11 device_id=0
+[   85.301388] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000009e
+[   85.319731] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 11 device_id=0
+[   85.322936] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+[   85.346802] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000009e
+[   85.446879] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1064345600 device_id=0
+[   85.488234] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1064337408 device_id=0
+[   85.488997] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+[   85.491408] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code c21c0915
+[   85.508927] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 13 device_id=0
+[   85.807813] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c08f6000
+[   86.825057] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5242880 device_id=0
+[   86.870349] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004611
+[   86.923088] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+[   86.955684] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   86.974179] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   87.020570] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+[   87.024721] kgsl: kgsl_ioctl_map_user_mem: Invalid memory type: ffffffff
+[   87.028811] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 74 device_id=0
+[   87.041812] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+[   87.057805] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+[   87.061315] kgsl: kgsl_ioctl_map_user_mem: Invalid memory type: ffffffff
+[   87.522478] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5242880 device_id=0
+[   87.579520] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004611
+[   87.654051] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1 device_id=0
+[   87.659178] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+[   87.661590] Unable to handle kernel NULL pointer dereference at virtual address 00000000
+[   87.661742] pgd = d5938000
+[   87.661803] [00000000] *pgd=9d2a0831, *pte=00000000, *ppte=00000000
+[   87.662108] [0:     trinity-c1: 4740] Internal error: Oops: 17 [#1] PREEMPT SMP ARM
+[   87.662261] [0:     trinity-c1: 4740] Modules linked in: adsprpc wlan(O)
+[   87.662505] [0:     trinity-c1: 4740] CPU: 0    Tainted: G        W  O  (3.4.0-3173303 #1)
+[   87.662658] [0:     trinity-c1: 4740] PC is at sg_init_table+0x1c/0x30
+[   87.662780] [0:     trinity-c1: 4740] LR is at _kgsl_sharedmem_page_alloc+0x118/0x3bc
+[   87.662902] [0:     trinity-c1: 4740] pc : [<c02f7d28>]    lr : [<c03eade8>]    psr: 40060013
+[   87.662932] [0:     trinity-c1: 4740] sp : d7695e28  ip : a0060013  fp : 00000000
+[   87.663177] [0:     trinity-c1: 4740] r10: 00000000  r9 : 00000000  r8 : 00000000
+[   87.663268] [0:     trinity-c1: 4740] r7 : 00000000  r6 : d62fe000  r5 : 00000010  r4 : ffffffff
+[   87.663421] [0:     trinity-c1: 4740] r3 : 00000000  r2 : c1038650  r1 : 00000000  r0 : 00000010
+[   87.663543] [0:     trinity-c1: 4740] Flags: nZcv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+[   87.663696] [0:     trinity-c1: 4740] Control: 10c5787d  Table: 9c33806a  DAC: 00000015
+[   87.663787] [0:     trinity-c1: 4740] 
+[   87.663787] [0:     trinity-c1: 4740] PC: 0xc02f7ca8:
+[   87.663970] [0:     trinity-c1: 4740] 7ca8  e5843000 e5843004 e5843008 e584300c e8bd8010 c0bc1192 e92d40f8 e1a05003
+[   87.664642] [0:     trinity-c1: 4740] 7cc8  e1a06001 e3a01020 e1a04000 e1a07002 ebffc808 e3a03000 e3150006 e5846010
+[   87.665283] [0:     trinity-c1: 4740] 7ce8  e5847014 e5843018 1a000002 e59f000c e3001155 ebf652f0 e584501c e8bd80f8
+[   87.665954] [0:     trinity-c1: 4740] 7d08  c0bc1192 e92d4038 e1a04001 e1b01201 e1a05000 0a000000 ebffc7f6 e2444001
+[   87.666625] [0:     trinity-c1: 4740] 7d28  e7953204 e3c33001 e3833002 e7853204 e8bd8038 e92d4070 e1a05001 e3a01001
+[   87.667266] [0:     trinity-c1: 4740] 7d48  e1a04000 e1a06002 ebffffed e59f3074 e5933000 e3530000 0a000007 e59f2068
+[   87.667938] [0:     trinity-c1: 4740] 7d68  e5921000 e2812103 e1550002 22833101 20613003 20833005 2a000001 e2853103
+[   87.668609] [0:     trinity-c1: 4740] 7d88  e2833602 e59f1044 e1a03623 e1a05a05 e1a02823 e1a05a25 e5911000 e3510000
+[   87.669281] [0:     trinity-c1: 4740] 
+[   87.669281] [0:     trinity-c1: 4740] LR: 0xc03ead68:
+[   87.669433] [0:     trinity-c1: 4740] ad68  059f12f8 0a000012 e5940024 e1a00100 e3500a01 9a000001 ebf54625 ea000006
+[   87.670074] [0:     trinity-c1: 4740] ad88  e59f32dc e5930030 e3500000 0a00000a e3a010d0 e3a02a01 ebf56a1b e3500000
+[   87.670746] [0:     trinity-c1: 4740] ada8  e1a06000 1a000005 e59f02b8 e1a0210a e59f12a8 eb122815 ea000029 e3a06010
+[   87.671387] [0:     trinity-c1: 4740] adc8  e594001c e3a08000 e1a09007 eb117103 e594001c e1a0a008 e5941024 ebfc33c8
+[   87.672058] [0:     trinity-c1: 4740] ade8  e59fb284 ea000049 e1590005 b3a05a01 b3a000d2 ba000003 e3550a01 e59f026c
+[   87.672730] [0:     trinity-c1: 4740] ae08  03a000d2 eaffffff e2451001 e59f2260 e3a03000 e1a01621 e16f1f11 e2611020
+[   87.673370] [0:     trinity-c1: 4740] ae28  ebf4b1fd e3500000 1086110a 11a0c645 13a03000 158d1004 1a00000b e3550a01
+[   87.674042] [0:     trinity-c1: 4740] ae48  1a000031 e0692007 e5848020 e59f0224 e59f1208 e1a03527 e5842014 e1a02522
+[   87.674683] [0:     trinity-c1: 4740] 
+[   87.674713] [0:     trinity-c1: 4740] SP: 0xd7695da8:
+[   87.674896] [0:     trinity-c1: 4740] 5da8  00000000 c0111e90 0006ca5e 00000000 d7695f00 c02f7d28 40060013 ffffffff
+[   87.675476] [0:     trinity-c1: 4740] 5dc8  d7695e14 00000000 00000000 00000000 00000000 c0882218 00000010 00000000
+[   87.676148] [0:     trinity-c1: 4740] 5de8  c1038650 00000000 ffffffff 00000010 d62fe000 00000000 00000000 00000000
+[   87.676819] [0:     trinity-c1: 4740] 5e08  00000000 00000000 a0060013 d7695e28 c03eade8 c02f7d28 40060013 ffffffff
+[   87.677460] [0:     trinity-c1: 4740] 5e28  00000000 cc0cf604 00001000 c03eade8 00000647 d62b6900 00000000 cc0cf600
+[   87.678132] [0:     trinity-c1: 4740] 5e48  ffffffff d7695e8c d62b6900 cc0cf604 00000000 0dffff00 00000000 c03e53e0
+[   87.678773] [0:     trinity-c1: 4740] 5e68  efffffff d7695eac d576f6c0 d9135e00 d7695eac b6c5e000 c03e55c4 c03e55f4
+[   87.679444] [0:     trinity-c1: 4740] 5e88  d9135e00 00000000 d7695eac c00c092f 0000000c d9135e00 d7695eac c03e0d70
+[   87.680085] [0:     trinity-c1: 4740] 
+[   87.680115] [0:     trinity-c1: 4740] R2: 0xc10385d0:
+[   87.680299] [0:     trinity-c1: 4740] 85d0  00000000 00000000 c0c8df49 00000000 00000000 00000000 00000000 c0c8df56
+[   87.680940] [0:     trinity-c1: 4740] 85f0  00000000 00000000 00000000 00000000 c0c8df66 00000000 00000000 00000000
+[   87.681611] [0:     trinity-c1: 4740] 8610  00000000 c0c8df6c 00000000 00000000 00000000 00000000 c0c8df82 00000000
+[   87.682252] [0:     trinity-c1: 4740] 8630  00000000 00000000 00000000 c0c8df8f 00000000 00000000 00000000 00000000
+[   87.682862] [0:     trinity-c1: 4740] 8650  c0c8dfa0 00000000 00000000 00000000 00000000 c0c8dfc3 00000000 00000000
+[   87.683503] [0:     trinity-c1: 4740] 8670  00000000 00000000 c0c8dfe3 00000000 00000000 00000000 00000000 c0c8dfa8
+[   87.684175] [0:     trinity-c1: 4740] 8690  00000000 00000000 00000000 00000000 c0c8e0ae 00000000 00000000 00000000
+[   87.684816] [0:     trinity-c1: 4740] 86b0  00000000 c0c8e01d 00000000 00000000 00000000 00000000 c0c8e006 00000000
+[   87.685487] [0:     trinity-c1: 4740] 
+[   87.685487] [0:     trinity-c1: 4740] R6: 0xd62fdf80:
+[   87.685670

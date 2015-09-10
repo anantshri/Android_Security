@@ -1,0 +1,1610 @@
+[*] Starting hooking
+[*] Pid:1913
+[*] specified raw address: 44a89
+[*] searching vaddr for function libmedia - target relative address 0x44a89
+[*] Base address 0x401d3000 - 0x4025f000
+[*]	Found address: 0x40217a89
+[D] base address: 0x401d3000
+[*]	+rwx  memory region ok
+[*] Hooking raw address = 40217a89  hook = 41c2f711  target:THUMB
+[*] Saving stolen bytes
+	38 b5 04 46 80 68 e3 6b 0d 18 99 07 08 d5 e2 8e 40 f6 b7 31 
+[*] Patching target address
+	0 - 0x40217a88: ac 
+1 - 0x40217a89: 46 
+2 - 0x40217a8a: 7d 
+3 - 0x40217a8b: 46 
+4 - 0x40217a8c: 08 
+5 - 0x40217a8d: 35 
+6 - 0x40217a8e: 2d 
+7 - 0x40217a8f: 68 
+8 - 0x40217a90: 20 
+9 - 0x40217a91: b4 
+10 - 0x40217a92: 65 
+11 - 0x40217a93: 46 
+12 - 0x40217a94: 00 
+13 - 0x40217a95: bd 
+14 - 0x40217a96: 11 
+15 - 0x40217a97: f7 
+16 - 0x40217a98: c2 
+17 - 0x40217a99: 41 
+18 - 0x40217a9a: 00 
+19 - 0x40217a9b: 00 
+
+hooking finished
+[*] Hooking finished
+enter stepUser - cblk instance: 46c15000, number of frames: 2048 - 800
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 8192
+			bytes written 8192
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 2048 - 800
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 8192
+			bytes written 8192
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 2048 - 800
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 8192
+			bytes written 8192
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c18040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 4
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c17040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 2048 - 800
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 2048 - 800
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 2048 - 800
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 4096
+			bytes written 4096
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 684 - 2ac
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15840 size 1368
+			bytes written 1368
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 340 - 154
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15d98 size 680
+			bytes written 680
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16040 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c16840 size 2048
+			bytes written 2048
+exit stepUser
+enter stepUser - cblk instance: 46c15000, number of frames: 1024 - 400
+		log2 fd open: 88
+		rawBufferStart is at 0x46c15040
+		frame size: 2
+		frame size: 4096
+		sample rate: 44100
+			dumping from 0x46c15040 size 2048
+			bytes written 2048
+exit stepUser

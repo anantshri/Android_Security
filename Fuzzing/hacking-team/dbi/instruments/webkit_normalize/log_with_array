@@ -1,0 +1,37 @@
+[*] Starting hooking
+[*] Pid:3665
+[*] Base address 0xa8300000 - 0xa875a000
+[*] Hooking finished
+RenderArena::RenderArena 4096 bytes @ 0x3eda70
+RenderArena::allocate arena 0x3eda70      216 bytes @ 0x3f5c30 rounded: 216 index 54 : 0x0
+RenderArena::allocate arena 0x3eda70      188 bytes @ 0x3f5d08 rounded: 188 index 47 : 0x0
+RenderArena::allocate arena 0x3eda70      120 bytes @ 0x3f5dc4 rounded: 120 index 30 : 0x0
+RenderArena::allocate arena 0x3eda70      188 bytes @ 0x3f5e3c rounded: 188 index 47 : 0x0
+RenderArena::allocate arena 0x3eda70      120 bytes @ 0x3f5ef8 rounded: 120 index 30 : 0x0
+RenderArena::allocate arena 0x3eda70      120 bytes @ 0x3f5f70 rounded: 120 index 30 : 0x0
+RenderArena::allocate arena 0x3eda70       60 bytes @ 0x3f5fe8 rounded: 60 index 15 : 0x0
+RenderArena::allocate arena 0x3eda70      120 bytes @ 0x3f6024 rounded: 120 index 30 : 0x0
+RenderArena::allocate arena 0x3eda70       28 bytes @ 0x3f609c rounded: 28 index 7 : 0x0
+RenderArena::allocate arena 0x3eda70       52 bytes @ 0x3f60b8 rounded: 52 index 13 : 0x0
+RenderArena::allocate arena 0x3eda70       92 bytes @ 0x3f60ec rounded: 92 index 23 : 0x0
+RenderArena::free  ptr of size 28 @ 0x3f609c : 0x0
+RenderArena::allocate arena 0x3eda70       52 bytes @ 0x3f6148 rounded: 52 index 13 : 0x0
+RenderArena::allocate arena 0x3eda70       40 bytes @ 0x3f617c rounded: 40 index 10 : 0x0
+RenderArena::allocate arena 0x3eda70       40 bytes @ 0x3f61a4 rounded: 40 index 10 : 0x0
+RenderArena::allocate arena 0x3eda70       40 bytes @ 0x3f61cc rounded: 40 index 10 : 0x0
+RenderArena::allocate arena 0x3eda70       40 bytes @ 0x3f61f4 rounded: 40 index 10 : 0x0
+RenderArena::free  ptr of size 92 @ 0x3f60ec : 0x0
+RenderArena::free  ptr of size 52 @ 0x3f60b8 : 0x0
+RenderArena::allocate arena 0x3eda70       28 bytes @ 0x3f609c rounded: 28 index 7 : 0x0
+RenderArena::allocate arena 0x3eda70       52 bytes @ 0x3f60b8 rounded: 52 index 13 : 0x0
+RenderArena::allocate arena 0x3eda70       92 bytes @ 0x3f60ec rounded: 92 index 23 : 0x0
+RenderArena::free  ptr of size 28 @ 0x3f609c : 0x0
+RenderArena::free  ptr of size 40 @ 0x3f61f4 : 0x0
+RenderArena::allocate arena 0x3eda70       40 bytes @ 0x3f61f4 rounded: 40 index 10 : 0x0
+RenderArena::free  ptr of size 40 @ 0x3f61f4 : 0x0
+RenderArena::free  ptr of size 40 @ 0x3f61cc : 0x3f61f4
+RenderArena::free  ptr of size 40 @ 0x3f61a4 : 0x3f61cc
+RenderArena::free  ptr of size 40 @ 0x3f617c : 0x3f61a4
+RenderArena::free  ptr of size 52 @ 0x3f6148 : 0x0
+RenderArena::allocate arena 0x3eda70       52 bytes @ 0x3f6148 rounded: 52 index 13 : 0x0
+-----

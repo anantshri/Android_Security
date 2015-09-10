@@ -1,0 +1,54 @@
+In file included from /home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:1:0:
+/home/diego/Scaricati/android-ndk-r10d/platforms/android-17/arch-arm/usr/include/linux/videodev2.h:270:17: error: field 'timestamp' has incomplete type
+  struct timeval timestamp;
+                 ^
+In file included from /home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:6:0:
+/home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:67:8: error: 'VIDIOC_ENUM_FRAMESIZES' undeclared here (not in a function)
+  IOCTL(VIDIOC_ENUM_FRAMESIZES),
+        ^
+include/ioctls.h:53:15: note: in definition of macro 'IOCTL'
+  { .request = _request, .name = #_request, }
+               ^
+/home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:68:8: error: 'VIDIOC_ENUM_FRAMEINTERVALS' undeclared here (not in a function)
+  IOCTL(VIDIOC_ENUM_FRAMEINTERVALS),
+        ^
+include/ioctls.h:53:15: note: in definition of macro 'IOCTL'
+  { .request = _request, .name = #_request, }
+               ^
+/home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:69:8: error: 'VIDIOC_G_ENC_INDEX' undeclared here (not in a function)
+  IOCTL(VIDIOC_G_ENC_INDEX),
+        ^
+include/ioctls.h:53:15: note: in definition of macro 'IOCTL'
+  { .request = _request, .name = #_request, }
+               ^
+/home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:70:8: error: 'VIDIOC_ENCODER_CMD' undeclared here (not in a function)
+  IOCTL(VIDIOC_ENCODER_CMD),
+        ^
+include/ioctls.h:53:15: note: in definition of macro 'IOCTL'
+  { .request = _request, .name = #_request, }
+               ^
+/home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:71:8: error: 'VIDIOC_TRY_ENCODER_CMD' undeclared here (not in a function)
+  IOCTL(VIDIOC_TRY_ENCODER_CMD),
+        ^
+include/ioctls.h:53:15: note: in definition of macro 'IOCTL'
+  { .request = _request, .name = #_request, }
+               ^
+/home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:72:8: error: 'VIDIOC_DBG_S_REGISTER' undeclared here (not in a function)
+  IOCTL(VIDIOC_DBG_S_REGISTER),
+        ^
+include/ioctls.h:53:15: note: in definition of macro 'IOCTL'
+  { .request = _request, .name = #_request, }
+               ^
+/home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:73:8: error: 'VIDIOC_DBG_G_REGISTER' undeclared here (not in a function)
+  IOCTL(VIDIOC_DBG_G_REGISTER),
+        ^
+include/ioctls.h:53:15: note: in definition of macro 'IOCTL'
+  { .request = _request, .name = #_request, }
+               ^
+/home/diego/android-dev/fuzzer-android/trinity-android19/jni/ioctls/videodev2.c:77:8: error: 'VIDIOC_S_HW_FREQ_SEEK' undeclared here (not in a function)
+  IOCTL(VIDIOC_S_HW_FREQ_SEEK),
+        ^
+include/ioctls.h:53:15: note: in definition of macro 'IOCTL'
+  { .request = _request, .name = #_request, }
+               ^
+make: *** [/home/diego/android-dev/fuzzer-android/trinity-android19/obj/local/armeabi/objs/trinity/ioctls/videodev2.o] Error 1

@@ -1,0 +1,81 @@
+[*] Starting hooking
+[*] Pid:32452
+[*] Base address 0x5c208000 - 0x5ca06000
+[*] Hooking finished
+RenderArena::RenderArena 4096 bytes at 0x5e6a9828
+WebCore::ArenaAllocate allocated at 0x5e679398 pool 0x5e6a9828 - bytes 220
+RenderArena::allocate arena 0x5e6a9828      220 bytes at 0x5e679398 - size rounded: 220 index 55 : 0x5f28e120
+RenderArena::allocate arena 0x5e6a9828      224 bytes at 0x5e679474 - size rounded: 224 index 56 : 0xffffffff
+RenderArena::allocate arena 0x5e6a9828      124 bytes at 0x5e679554 - size rounded: 124 index 31 : 0x0
+RenderArena::allocate arena 0x5e6a9828      224 bytes at 0x5e6795d0 - size rounded: 224 index 56 : 0x0
+RenderArena::allocate arena 0x5e6a9828      124 bytes at 0x5e6796b0 - size rounded: 124 index 31 : 0xffffffff
+RenderArena::free freed ptr of size 124 allocated at 0x5e6796b0 : 0x0
+RenderObject::destroy  0x5e6796b0
+RenderArena::free freed ptr of size 224 allocated at 0x5e6795d0 : 0x0
+RenderArena::free freed ptr of size 124 allocated at 0x5e679554 : 0x5e6796b0
+RenderObject::destroy  0x5e679554
+RenderArena::free freed ptr of size 224 allocated at 0x5e679474 : 0x5e6795d0
+RenderArena::free freed ptr of size 220 allocated at 0x5e679398 : 0x0
+RenderObject::destroy  0x5e679398
+RenderArena::RenderArena 4096 bytes at 0x5eca81c8
+WebCore::ArenaAllocate allocated at 0x5f28b3b0 pool 0x5eca81c8 - bytes 220
+RenderArena::allocate arena 0x5eca81c8      220 bytes at 0x5f28b3b0 - size rounded: 220 index 55 : 0x5d675a10
+RenderArena::allocate arena 0x5eca81c8      224 bytes at 0x5f28b48c - size rounded: 224 index 56 : 0x5f28ae04
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28b56c - size rounded: 124 index 31 : 0x6059ab20
+RenderArena::allocate arena 0x5eca81c8      224 bytes at 0x5f28b5e8 - size rounded: 224 index 56 : 0x14f
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28b6c8 - size rounded: 124 index 31 : 0x58
+RenderArena::allocate arena 0x5eca81c8       56 bytes at 0x5f28b744 - size rounded: 56 index 14 : 0x2e
+RenderArena::allocate arena 0x5eca81c8       64 bytes at 0x5f28b77c - size rounded: 64 index 16 : 0x5e
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28b7bc - size rounded: 124 index 31 : 0x64
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28b838 - size rounded: 124 index 31 : 0x5c9f5570
+RenderArena::allocate arena 0x5eca81c8       56 bytes at 0x5f28b8b4 - size rounded: 56 index 14 : 0x0
+RenderArena::allocate arena 0x5eca81c8       64 bytes at 0x5f28b8ec - size rounded: 64 index 16 : 0x76
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28b92c - size rounded: 124 index 31 : 0x5f28b908
+RenderArena::allocate arena 0x5eca81c8       56 bytes at 0x5f28b9a8 - size rounded: 56 index 14 : 0x5f28b988
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28b9e0 - size rounded: 124 index 31 : 0x19c
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28ba5c - size rounded: 124 index 31 : 0x1a4
+RenderArena::allocate arena 0x5eca81c8       64 bytes at 0x5f28bad8 - size rounded: 64 index 16 : 0x5f28ab40
+RenderArena::allocate arena 0x5eca81c8      188 bytes at 0x5f28bb18 - size rounded: 188 index 47 : 0x5c9f4da0
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28bbd4 - size rounded: 124 index 31 : 0x6059ab8c
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28bc50 - size rounded: 124 index 31 : 0xac
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28bccc - size rounded: 124 index 31 : 0xffffffff
+RenderArena::allocate arena 0x5eca81c8       56 bytes at 0x5f28bd48 - size rounded: 56 index 14 : 0xffffffff
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28bd80 - size rounded: 124 index 31 : 0x1
+RenderArena::allocate arena 0x5eca81c8       64 bytes at 0x5f28bdfc - size rounded: 64 index 16 : 0x0
+RenderArena::allocate arena 0x5eca81c8       64 bytes at 0x5f28be3c - size rounded: 64 index 16 : 0x0
+RenderArena::allocate arena 0x5eca81c8      104 bytes at 0x5f28be7c - size rounded: 104 index 26 : 0x0
+RenderArena::allocate arena 0x5eca81c8      224 bytes at 0x5f28bee4 - size rounded: 224 index 56 : 0x5ca0b270
+RenderArena::allocate arena 0x5eca81c8       64 bytes at 0x5f28bfc4 - size rounded: 64 index 16 : 0x0
+RenderArena::allocate arena 0x5eca81c8      124 bytes at 0x5f28c004 - size rounded: 124 index 31 : 0x1
+RenderArena::allocate arena 0x5eca81c8       64 bytes at 0x5f28c080 - size rounded: 64 index 16 : 0x0
+RenderArena::allocate arena 0x5eca81c8       64 bytes at 0x5f28c0c0 - size rounded: 64 index 16 : 0x0
+RenderArena::free freed ptr of size 64 allocated at 0x5f28bdfc : 0x0
+RenderObject::destroy  0x5f28bdfc
+RenderArena::free freed ptr of size 64 allocated at 0x5f28be3c : 0x5f28bdfc
+RenderObject::destroy  0x5f28be3c
+RenderArena::free freed ptr of size 224 allocated at 0x5f28bee4 : 0x0
+RenderArena::free freed ptr of size 104 allocated at 0x5f28be7c : 0x0
+RenderObject::destroy  0x5f28be7c
+RenderArena::free freed ptr of size 124 allocated at 0x5f28bd80 : 0x0
+RenderObject::destroy  0x5f28bd80
+RenderArena::free freed ptr of size 124 allocated at 0x5f28c004 : 0x5f28bd80
+RenderArena::free freed ptr of size 188 allocated at 0x5f28bb18 : 0x0
+RenderObject::destroy  0x5f28bb18
+RenderArena::free freed ptr of size 64 allocated at 0x5f28b77c : 0x5f28be3c
+RenderObject::destroy  0x5f28b77c
+RenderArena::free freed ptr of size 64 allocated at 0x5f28b8ec : 0x5f28b77c
+RenderObject::destroy  0x5f28b8ec
+RenderArena::free freed ptr of size 56 allocated at 0x5f28b8b4 : 0x0
+RenderObject::destroy  0x5f28b8b4
+RenderArena::free freed ptr of size 124 allocated at 0x5f28bc50 : 0x5f28c004
+RenderArena::free freed ptr of size 56 allocated at 0x5f28bd48 : 0x5f28b8b4
+RenderArena::free freed ptr of size 124 allocated at 0x5f28bccc : 0x5f28bc50
+RenderArena::free freed ptr of size 124 allocated at 0x5f28bbd4 : 0x5f28bccc
+RenderArena::free freed ptr of size 124 allocated at 0x5f28ba5c : 0x5f28bbd4
+RenderArena::free freed ptr of size 124 allocated at 0x5f28b7bc : 0x5f28ba5c
+RenderArena::free freed ptr of size 124 allocated at 0x5f28b92c : 0x5f28b7bc
+RenderObject::destroy  0x5f28b92c
+RenderArena::free freed ptr of size 64 allocated at 0x5f28bad8 : 0x5f28b8ec
+RenderObject::destroy  0x5f28bad8
+RenderArena::free freed ptr of size 64 allocated at 0x5f28bfc4 : 0x5f28bad8
+RenderObject::destroy  0x5f28bfc4

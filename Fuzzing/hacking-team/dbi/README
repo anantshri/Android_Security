@@ -1,0 +1,38 @@
+Collin's Binary Instrumentation Toolkit for Android
+
+We do dynamic binary instrumentation (DBI) of course. For more information
+check the slides at: http://mulliner.org/android/
+
+FILES:
+ hijack/       source code for the library injector
+ instruments/  source code for the instrumentation framework
+
+
+USAGE:
+ #  --- on the host ---
+ compile hijack (see subdir for instructions) 
+ compile instruments (type: cd instruments/loguartrw; make)
+
+ # --- on the phone ---
+ # make /system writable 
+ adb shell
+ mount -o remount,rw /system
+
+ # push tools to phone 
+ adb push hijack /data/local/tmp/
+ adb push instruments/loguartrw/libt.so /system/lib/libt.so
+
+ # run tools 
+ adb shell
+ find PID of target process (type: ps)
+ cd /data/local/tmp
+ # create log file
+ touch /data/local/tmp/log
+ # instrument process
+ ./hijack -p PID -l libt.so [-d (debug)]
+ # inspect log file
+ cat log
+
+Happy hacking!
+ -Collin
+ 

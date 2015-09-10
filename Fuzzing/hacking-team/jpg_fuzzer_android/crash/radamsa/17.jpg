@@ -1,0 +1,371 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime(21605): 
+D/AndroidRuntime(21605): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(21605): CheckJNI is OFF
+D/AndroidRuntime(21605): setted country_code = France
+D/AndroidRuntime(21605): setted countryiso_code = FR
+D/AndroidRuntime(21605): setted sales_code = XEF
+D/AndroidRuntime(21605): readGMSProperty: start
+D/AndroidRuntime(21605): readGMSProperty: already setted!!
+D/AndroidRuntime(21605): readGMSProperty: end
+D/dalvikvm(21605): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(21605): Added shared lib libjavacore.so 0x0
+D/dalvikvm(21605): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(21605): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime(21605): Calling main entry com.android.commands.am.Am
+I/power   ( 2022): *** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+--------- beginning of /dev/log/system
+D/PowerManagerService( 2022): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2022  tag : ActivityManager
+W/ActivityManager( 2022): mDVFSLock.acquire()
+D/dalvikvm( 2022): GC_FOR_ALLOC freed 1692K, 51% free 16726K/33479K, paused 105ms, total 105ms
+D/Launcher.HomeFragment( 2311): onPause
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:1218 [0:0]  fireOP
+D/Launcher( 2311): onPause, Launcher: 1112270272
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:1028 [0:0]  onPause 
+I/libblt_hw( 1675): Library opened (handle = 0, fd = 27)
+D/KeyguardViewMediator( 2022): setHidden false
+D/AndroidRuntime(21605): Shutting down VM
+V/TaskCloserActivity( 3891): TaskCloserActivity onReceive() - com.sec.android.intent.action.HOME_PAUSE
+V/WindowManager( 2022): rotationForOrientationLw(orient=-1, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+D/dalvikvm(21605): GC_CONCURRENT freed 102K, 86% free 578K/4096K, paused 1ms+1ms, total 8ms
+D/KeyguardViewMediator( 2022): setHidden false
+I/AndroidRuntime(21605): NOTE: attach of thread 'Binder_3' failed
+D/WindowManager( 2022): PhoneWindowManager: focusChangedLw
+I/NearbyUtils( 8176): start Nearby framework
+I/AllShareClient( 8176): create service provider : 
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+D/Launcher( 2311): onTrimMemory. Level: 20
+D/AllShareClient( 8176): setDeviceFinderEventListener as pending
+D/KeyguardViewMediator( 2022): setHidden false
+D/Gallery ( 8176): mMotionTutorialMOTION_NONE
+V/StateManager( 8176): startState class com.sec.android.gallery3d.app.PhotoPage
+I/FaceIndicatorView( 8176): thread: 1, add sns view
+W/PowerManagerService( 2022): Timer 0x3->0x3|0x0
+I/PhotoPage( 8176): getCurrentfileUri fileUri 
+I/PhotoPage( 8176): getCurrentfileUri fileUri is null 
+E/ActivityThread( 8176): Failed to find provider info for com.diotek.penmemo.util.PenMemoProvider
+D/ImageDRMUtil( 8176): DrmType is null!
+I/CameraExif( 8176): Orientation not found
+E/WifiP2pStateTracker( 2022): getNetworkInfo : NetworkInfo: type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+D/MotionDetector( 8176): registerMotionListener
+D/MotionEngine( 2022): [@@@ Motion Engine @@@] InitializeMotionManager.... RETURN........ (Already initialized......)
+V/MotionRecognitionManager( 8176):   .registerListener : success. listener count = 0->1, motion_sensors=2, listener=com.sec.android.gallery3d.ui.PhotoView$MyMotionListener@4267c4b8
+D/FaceIndicatorView( 8176): enter checkContactData
+D/PhotoPage( 8176): SecHardwareInterface.setmDNIeUIMode(6)
+I/SecHardwareInterface( 8176): setmDNIeUIMode (6)
+D/DirectShareManger( 8176): Global config - SBeam not supported
+D/MotionRecognitionService( 2022):   .registerCallback : 1, motion_sensors=3, client=com.sec.android.gallery3d.ui.PhotoView$MyMotionListener@4267c4b8
+D/MotionRecognitionService( 2022):   .checkSettingEngineEnabled : false
+D/MotionRecognitionService( 2022):   .checkSettingEngineEnabled : false
+F/libc    ( 8176): Fatal signal 11 (SIGSEGV) at 0x000000c8 (code=1), thread 8245 (thread-pool-0)
+D/SNSSyncAdapter( 8176): startSync
+D/AllShareContext( 8176): resume(), addlistener
+D/AllShareClient( 8176): setDeviceFinderEventListener as pending
+D/SNSSyncAdapter( 8176): perfornSync enter : 1914
+D/SNSSyncAdapter( 8176): syncAlbums start
+D/AspSource( 8176): resume()
+D/Gallery ( 8176): Gallery onResume
+I/AllShareClient( 8176): ServiceProvider Created : ENABLED
+D/AllShareClient( 8176): setDeviceFinderEventListener. provider and imageviewer
+D/AllShareClient( 8176): AllShare : getDeviceList()
+D/SNSSyncAdapter( 8176): syncAlbums end
+D/SNSSyncAdapter( 8176):  sync done : 1914
+I/libblt_hw( 1675): Library opened (handle = 2, fd = 36)
+D/WindowManager( 2022): PhoneWindowManager: focusChangedLw
+D/KeyguardViewMediator( 2022): setHidden false
+D/STATUSBAR-StatusBarManagerService( 2022): setSystemUiVisibility(0x0)
+D/STATUSBAR-StatusBarManagerService( 2022): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+I/libblt_hw( 1675): Library opened (handle = 5, fd = 38)
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+I/GalleryEGLConfigChooser( 8176): Config chosen: R8 G8 B8 A8 D24 S8 ID9 CAVEAT12344 
+D/KeyguardViewMediator( 2022): setHidden false
+I/GLRootView( 8176): onSurfaceChanged: 480x800, gl10: com.google.android.gles_jni.GLImpl@4275af48
+I/GLRootView( 8176): layout content pane 480x800
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+I/DEBUG   (20141): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (20141): Build fingerprint: 'samsung/goldenxx/golden:4.1.1/JRO03H/I8190XXALK6:user/release-keys'
+I/DEBUG   (20141): pid: 8176, tid: 8245, name: thread-pool-0  >>> com.sec.android.gallery3d <<<
+I/DEBUG   (20141): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 000000c8
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+I/power   ( 2022): *** release_dvfs_lock : lockType : 1 
+D/KeyguardViewMediator( 2022): setHidden false
+D/PowerManagerService( 2022): releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+W/ActivityManager( 2022): mDVFSLock.release()
+I/libblt_hw( 1675): Library closed (handle = 1, fd = 31)
+D/KeyguardViewMediator( 2022): setHidden false
+I/DEBUG   (20141):     r0 00000001  r1 00000000  r2 00000002  r3 674289c0
+I/DEBUG   (20141):     r4 5d676840  r5 5d676740  r6 673454c0  r7 000000c8
+I/DEBUG   (20141):     r8 5d6769c0  r9 66be40c8  sl 674289c0  fp 00000001
+I/DEBUG   (20141):     ip 00000000  sp 5d676720  lr 400f9387  pc 5db17a18  cpsr 60000010
+I/DEBUG   (20141):     d0  0000000000000000  d1  0000000000000000
+I/DEBUG   (20141):     d2  0000000000000000  d3  0000000000000000
+I/DEBUG   (20141):     d4  67659c4021a19b5d  d5  000100000000005d
+I/DEBUG   (20141):     d6  67638000003e8000  d7  354b8000003f905d
+I/DEBUG   (20141):     d8  3f80000000000000  d9  0000000000000000
+I/DEBUG   (20141):     d10 0000000000000000  d11 0000000000000000
+I/DEBUG   (20141):     d12 0000000000000000  d13 0000000000000000
+I/DEBUG   (20141):     d14 0000000000000000  d15 0000000000000000
+I/DEBUG   (20141):     d16 0000000200000002  d17 0000000200000002
+I/DEBUG   (20141):     d18 8e8e8d8d8e8e8f90  d19 8f8f8e8e8e8f9090
+I/DEBUG   (20141):     d20 0038002600210024  d21 0018001b00260033
+I/DEBUG   (20141):     d22 fffc7f7bfffc7f7b  d23 fffcde33fffcde33
+I/DEBUG   (20141):     d24 0051003f003c003f  d25 0034003700460053
+I/DEBUG   (20141):     d26 00064f2600064f26  d27 00059bb000059bb0
+I/DEBUG   (20141):     d28 00220010000c000f  d29 00030006000f001c
+I/DEBUG   (20141):     d30 fff87807fff87807  d31 fff95ad9fff95ad9
+I/DEBUG   (20141):     scr 68000010
+I/DEBUG   (20141): 
+I/DEBUG   (20141): backtrace:
+I/DEBUG   (20141):     #00  pc 00058a18  /system/lib/libXIVCoder.so (WINKJ_InitDecBeforeScan+1372)
+I/DEBUG   (20141):     #01  pc 00058dc0  /system/lib/libXIVCoder.so (WINKJ_StartDecompression+348)
+I/DEBUG   (20141):     #02  pc 0005a1bc  /system/lib/libXIVCoder.so (WINKJ_PostInitialize+1224)
+I/DEBUG   (20141):     #03  pc 0005a7c8  /system/lib/libXIVCoder.so (WINKJ_Initialize+48)
+I/DEBUG   (20141):     #04  pc 000987f8  /system/lib/libXIVCoder.so (WINKJ_ScanImage+28)
+I/DEBUG   (20141):     #05  pc 000609e8  /system/lib/libXIVCoder.so (WINKJ_ScanJPEG4Region+220)
+I/DEBUG   (20141):     #06  pc 00060acc  /system/lib/libXIVCoder.so (WINKJ_CreateRegionMap+84)
+I/DEBUG   (20141):     #07  pc 0003c120  /system/lib/libXIVCoder.so (Java_com_quramsoft_qrb_QuramBitmapRegionDecoderNative_nativeNewInstance+640)
+I/DEBUG   (20141):     #08  pc 0001deb0  /system/lib/libdvm.so (dvmPlatformInvoke+112)
+I/DEBUG   (20141):     #09  pc 0004d103  /system/lib/libdvm.so (dvmCallJNIMethod(unsigned int const*, JValue*, Method const*, Thread*)+394)
+I/DEBUG   (20141):     #10  pc 000272e0  /system/lib/libdvm.so
+I/DEBUG   (20141):     #11  pc 0002bbe8  /system/lib/libdvm.so (dvmInterpret(Thread*, Method const*, JValue*)+180)
+I/DEBUG   (20141):     #12  pc 0005f871  /system/lib/libdvm.so (dvmCallMethodV(Thread*, Method const*, Object*, bool, JValue*, std::__va_list)+272)
+I/DEBUG   (20141):     #13  pc 0005f89b  /system/lib/libdvm.so (dvmCallMethod(Thread*, Method const*, Object*, JValue*, ...)+20)
+I/DEBUG   (20141):     #14  pc 00054453  /system/lib/libdvm.so
+I/DEBUG   (20141):     #15  pc 00012d70  /system/lib/libc.so (__thread_entry+48)
+I/DEBUG   (20141):     #16  pc 000124c8  /system/lib/libc.so (pthread_create+172)
+I/DEBUG   (20141): 
+I/DEBUG   (20141): stack:
+I/DEBUG   (20141):          5d6766e0  673eb570  
+I/DEBUG   (20141):          5d6766e4  0a098272  
+I/DEBUG   (20141):          5d6766e8  00000001  
+I/DEBUG   (20141):          5d6766ec  5d676840  
+I/DEBUG   (20141):          5d6766f0  5d676740  
+I/DEBUG   (20141):          5d6766f4  673454c0  
+I/DEBUG   (20141):          5d6766f8  000000c8  
+I/DEBUG   (20141):          5d6766fc  5d6769c0  
+I/DEBUG   (20141):          5d676700  66be40c8  
+I/DEBUG   (20141):          5d676704  00000000  
+I/DEBUG   (20141):          5d676708  00000001  
+I/DEBUG   (20141):          5d67670c  400fae5d  /system/lib/libc.so (malloc+12)
+I/DEBUG   (20141):          5d676710  6734553c  
+I/DEBUG   (20141):          5d676714  5db0ff44  /system/lib/libXIVCoder.so (WINK_FakeMalloc+20)
+I/DEBUG   (20141):          5d676718  df0027ad  
+I/DEBUG   (20141):          5d67671c  00000000  
+I/DEBUG   (20141):     #00  5d676720  00000002  
+I/DEBUG   (20141):          5d676724  6734553c  
+I/DEBUG   (20141):          5d676728  5dbbcbac  /system/lib/libXIVCoder.so
+I/DEBUG   (20141):          5d67672c  00000005  
+I/DEBUG   (20141):          5d676730  aaa9a8a7  
+I/DEBUG   (20141):          5d676734  b5b4b3b2  
+I/DEBUG   (20141):          5d676738  b9b8b7b6  
+I/DEBUG   (20141):          5d67673c  0000012c  
+I/DEBUG   (20141):          5d676740  00000005  
+I/DEBUG   (20141):          5d676744  00000005  
+I/DEBUG   (20141):          5d676748  00000007  
+I/DEBUG   (20141):          5d67674c  0000000e  
+I/DEBUG   (20141):          5d676750  0000001e  
+I/DEBUG   (20141):          5d676754  0000001e  
+I/DEBUG   (20141):          5d676758  0000001e  
+I/DEBUG   (20141):          5d67675c  0000001e  
+I/DEBUG   (20141):          ........  ........
+I/DEBUG   (20141):     #01  5d676a68  673454c0  
+I/DEBUG   (20141):          5d676a6c  673e99c8  
+I/DEBUG   (20141):          5d676a70  5d676b5c  
+I/DEBUG   (20141):          5d676a74  00000140  
+I/DEBUG   (20141):          5d676a78  000000c8  
+I/DEBUG   (20141):          5d676a7c  000000c8  
+I/DEBUG   (20141):          5d676a80  00000140  
+I/DEBUG   (20141):          5d676a84  5db191c0  /system/lib/libXIVCoder.so (WINKJ_PostInitialize+1228)
+I/DEBUG   (20141):     #02  5d676a88  5d676b5c  
+I/DEBUG   (20141):          5d676a8c  00000008  
+I/DEBUG   (20141):          5d676a90  00000001  
+I/DEBUG   (20141):          5d676a94  00000000  
+I/DEBUG   (20141):          5d676a98  673454c0  
+I/DEBUG   (20141):          5d676a9c  673454c0  
+I/DEBUG   (20141):          5d676aa0  5d676b5c  
+I/DEBUG   (20141):          5d676aa4  673e99c8  
+I/DEBUG   (20141):          5d676aa8  5d676b5c  
+I/DEBUG   (20141):          5d676aac  67342010  
+I/DEBUG   (20141):          5d676ab0  00006009  
+I/DEBUG   (20141):          5d676ab4  66d0e000  /storage/sdcard0/fuzzed.jpg
+I/DEBUG   (20141):          5d676ab8  000000c8  
+I/DEBUG   (20141):          5d676abc  5db197cc  /system/lib/libXIVCoder.so (WINKJ_Initialize+52)
+I/DEBUG   (20141): 
+I/DEBUG   (20141): memory near r3:
+I/DEBUG   (20141):     674289a0 00100102 00000088 000000b5 0000012b  ............+...
+I/DEBUG   (20141):     674289b0 674289a8 674289a8 00000000 674289b0  ..Bg..Bg......Bg
+I/DEBUG   (20141):     674289c0 4012d630 00000001 00000001 ffffffff  0..@............
+I/DEBUG   (20141):     674289d0 01000008 7f020101 00000008 00000000  ................
+I/DEBUG   (20141):     674289e0 ffffffff 01000008 7f0c008e 00000008  ................
+I/DEBUG   (20141): 
+I/DEBUG   (20141): memory near r4:
+I/DEBUG   (20141):     5d676820 0000001e 0000001e 0000001e 0000001e  ................
+I/DEBUG   (20141):     5d676830 0000001e 0000001e 0000001e 0000001e  ................
+I/DEBUG   (20141):     5d676840 00000005 00000003 00000003 00000005  ................
+I/DEBUG   (20141):     5d676850 00000007 0000000c 0000000f 00000012  ................
+I/DEBUG   (20141):     5d676860 00000004 00000004 00000004 00000006  ................
+I/DEBUG   (20141): 
+I/DEBUG   (20141): memory near r5:
+I/DEBUG   (20141):     5d676720 00000002 6734553c 5dbbcbac 00000005  ....<U4g...]....
+I/DEBUG   (20141):     5d676730 aaa9a8a7 b5b4b3b2 b9b8b7b6 0000012c  ............,...
+I/DEBUG   (20141):     5d676740 00000005 00000005 00000007 0000000e  ................
+I/DEBUG   (20141):     5d676750 0000001e 0000001e 0000001e 0000001e  ................
+I/DEBUG   (20141):     5d676760 00000005 00000006 00000008 00000014  ................
+I/DEBUG   (20141): 
+I/DEBUG   (20141): memory near r6:
+I/DEBUG   (20141):     673454a0 00000008 00100101 00000018 00000017  ................
+I/DEBUG   (20141):     673454b0 ffffffff 00000005 00000006 000008a3  ................
+I/DEBUG   (20141):     673454c0 10020203 06030310 00c80140 00000000  ........@.......
+I/DEBUG   (20141):     673454d0 00000000 00000000 00000000 00000014  ................
+I/DEBUG   (20141):     673454e0 0000000d 00000000 00000000 00000000  ................
+I/DEBUG   (20141): 
+I/DEBUG   (20141): memory near r8:
+I/DEBUG   (20141):     5d6769a0 00000000 00000000 00000000 00000000  ................
+I/DEBUG   (20141):     5d6769b0 00000000 00000000 00000000 00000000  ................
+I/DEBUG   (20141):     5d6769c0 58c54000 4b42539f 32494000 11a822a3  .@.X.SBK.@I2."..
+I/DEBUG   (20141):     5d6769d0 7b2158c5 686273fc 45bf58c5 187e300b  .X!{.sbh.X.E.0~.
+I/DEBUG   (20141):     5d6769e0 73fc539f 62546d41 41b3539f 17122d41  .S.sAmTb.S.AA-..
+I/DEBUG   (20141): 
+I/DEBUG   (20141): memory near r9:
+I/DEBUG   (20141):     66be40a8 00000001 00000001 00000008 00000001  ................
+I/DEBUG   (20141):     66be40b8 00000001 00000002 6751b910 00000000  ..........Qg....
+I/DEBUG   (20141):     66be40c8 01010203 64010159 00a000a0 662f0064  ....Y..d....d./f
+I/DEBUG   (20141):     66be40d8 00000014 0000000d 00000001 00000001  ................
+I/DEBUG   (20141):     66be40e8 00000001 00000008 00000001 00000001  ................
+I/DEBUG   (20141): 
+I/DEBUG   (20141): memory near sl:
+I/DEBUG   (20141):     674289a0 00100102 00000088 000000b5 0000012b  ............+...
+I/DEBUG   (20141):     674289b0 674289a8 674289a8 00000000 674289b0  ..Bg..Bg......Bg
+I/DEBUG   (20141):     674289c0 4012d630 00000001 00000001 ffffffff  0..@............
+I/DEBUG   (20141):     674289d0 01000008 7f020101 00000008 00000000  ................
+I/DEBUG   (20141):     674289e0 ffffffff 01000008 7f0c008e 00000008  ................
+I/DEBUG   (20141): 
+I/DEBUG   (20141): memory near sp:
+I/DEBUG   (20141):     5d676700 66be40c8 00000000 00000001 400fae5d  .@.f........]..@
+I/DEBUG   (20141):     5d676710 6734553c 5db0ff44 df0027ad 00000000  <U4gD..].'......
+I/DEBUG   (20141):     5d676720 00000002 6734553c 5dbbcbac 00000005  ....<U4g...]....
+I/DEBUG   (20141):     5d676730 aaa9a8a7 b5b4b3b2 b9b8b7b6 0000012c  ............,...
+I/DEBUG   (20141):     5d676740 00000005 00000005 00000007 0000000e  ................
+I/DEBUG   (20141): 
+I/DEBUG   (20141): code around pc:
+I/DEBUG   (20141):     5db179f8 e2433004 e58d3004 1afffee4 eaffff19  .0C..0..........
+I/DEBUG   (20141):     5db17a08 e59330a8 e3530000 1affff59 e5993038  .0....S.Y...80..
+I/DEBUG   (20141):     5db17a18 e19700b1 e18300b1 e2811002 e3510080  ..............Q.
+I/DEBUG   (20141):     5db17a28 1afffffa eaffff08 e59dc008 e3a0b03f  ............?...
+I/DEBUG   (20141):     5db17a38 e59d301c e58d9010 e58d6018 e1a06007  .0.......`...`..
+I/DEBUG   (20141): 
+I/DEBUG   (20141): code around lr:
+I/DEBUG   (20141):     400f9364 e0043508 fab6f7fe 6005250c 48542500  .5.......%.`.%TH
+I/DEBUG   (20141):     400f9374 f8d04478 079a31b4 f500d503 f7fd70dc  xD...1.......p..
+I/DEBUG   (20141):     400f9384 4628e956 e8bdb005 1c6b8ff0 ab38f47f  V.(F......k...8.
+I/DEBUG   (20141):     400f9394 bb5af7ff f7ff46a9 f8dfbb64 490cc128  ..Z..F..d...(..I
+I/DEBUG   (20141):     400f93a4 f8dc44fc f1000008 42420e29 0604eb0e  .D......).BB....
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+I/libblt_hw( 1675): Library closed (handle = 0, fd = 27)
+I/DEBUG   (20141): !@dumpstate -k -t -z -d -o /data/log/dumpstate_app_native -m 8176
+I/dumpstate(21637): begin
+I/BootReceiver( 2022): Copying /data/tombstones/tombstone_03 to DropBox (SYSTEM_TOMBSTONE)
+W/AlarmManager( 2022): FACTORY_ON= 0
+W/AlarmManager( 2022): FACTORY_ON= 0
+W/SignalStrength( 2022): getGsmLevel=4
+W/SignalStrength( 2022): getLevel=4 (SignalStrength: 99 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+W/SignalStrength( 2126): getGsmLevel=4
+W/SignalStrength( 2126): getLevel=4 (SignalStrength: 99 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+W/SignalStrength( 2126): getGsmLevel=4
+W/SignalStrength( 2126): getLevel=4 (SignalStrength: 99 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+W/SignalStrength( 2022): getGsmDbm=-1
+W/SignalStrength( 2022): getDbm=-1
+W/SignalStrength( 2022): getGsmAsuLevel=99
+W/SignalStrength( 2022): getAsuLevel=99
+D/STATUSBAR-NetworkController( 2126): onSignalStrengthsChanged signalStrength=SignalStrength: 99 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4 level=4
+D/STATUSBAR-NetworkController( 2126): refreshSignalCluster: data=-1 bt=false
+D/STATUSBAR-SignalClusterView( 2126): mSeparateMobileGroup=8
+D/STATUSBAR-SignalClusterView( 2126): mSeparateMobileGroup=8
+D/STATUSBAR-SignalClusterView( 2126): mSeparateMobileGroup=8
+W/ProcessStats( 2022): Skipping unknown process pid 21654
+D/BatteryService( 2022): update start
+D/BatteryService( 2022): level:100 scale:100 status:5 health:2 present:true voltage: 4334 temperature: 367 technology: Li-ion AC powered:true USB powered:false icon:17303233 invalid charger:0
+E/MtpService( 2198): In MTPAPP onReceive:android.intent.action.BATTERY_CHANGED
+E/MtpService( 2198): battPlugged Type : 1
+D/STATUSBAR-BatteryController( 2126): onReceive() - ACTION_BATTERY_CHANGED
+D/STATUSBAR-BatteryController( 2126): onReceive() - level:100
+D/STATUSBAR-BatteryController( 2126): onReceive() - plugged:1
+D/STATUSBAR-BatteryController( 2126): onReceive() - BATTERY_STATUS_FULL:
+D/STATUSBAR-PhoneStatusBar( 2126): ACTION_BATTERY_CHANGED
+D/STATUSBAR-PhoneStatusBar( 2126): NORMAL_BATTERY
+D/VoldCmdListener( 1666): asec list
+I/stedump ( 1691): #### MEDIASERVER AND ADMSRV STEDUMP REQUESTED ####
+I/stedump ( 1691): STEDUMP-MM: Retrieving DSP trace buffers...
+I/stedump ( 1691): STEDUMP-MM: Done retrieving dsp buffers
+I/stedump ( 1691): STEDUMP-MM:  ### writing /data/ste-debug/dump/admsrv in dump
+I/Dumper  ( 1696): 7:103185681698: User action was trigged : dump############################################################################
+I/Dumper  ( 1696): 
+E/Dumper  ( 1696): 2:103185681942: User action: dump logging circular buffer and context
+E/Dumper  ( 1696): 5:103185682095: Triggering circular buffer dump in /data/ste-debug
+I/stedump ( 1691): /data/ste-debug/dump/admsrv: Operation not permitted
+I/stedump ( 1691): STEDUMP-MM:  ### writing /data/ste-debug/dump/mediaserver in dump
+I/stedump ( 1691): /data/ste-debug/dump/mediaserver: Operation not permitted
+I/stedump ( 1691): done
+I/stedump ( 1691): #### DUMPING DSP LOGS ####
+I/stedump ( 1691): Dumping sia buffer on request
+I/stedump ( 1691): Dumping sia circular buffer in /data/ste-debug/sia_trace_dump
+I/stedump ( 1691): sia EMPTY buffer will not be dumped
+I/stedump ( 1691): Dumping sva buffer on request
+I/stedump ( 1691): Dumping sva circular buffer in /data/ste-debug/sva_trace_dump
+I/stedump ( 1691): sva EMPTY buffer will not be dumped
+I/STE-SYSLOG-admsrv( 1696): Dumped 1032794 bytes to  /data/ste-debug/STE-SYSLOG-admsrv.txt (buffer size : 1048576)
+I/STE-SYSLOG-admsrv( 1696): gzipping ste-syslog circular buffer to /data/ste-debug/STE-SYSLOG-admsrv.txt.gz
+I/STE-SYSLOG-admsrv( 1696): Dumped circular buffer in /data/ste-debug/STE-SYSLOG-admsrv.txt in 167 milliseconds
+I/dumpstate(21637): done
+D/KeyguardViewMediator( 2022): setHidden false
+I/ActivityManager( 2022): Process com.sec.android.gallery3d (pid 8176) has died.
+D/MotionRecognitionService( 2022):   .binderDied : 0
+D/KeyguardViewMediator( 2022): setHidden false
+D/WindowManager( 2022): PhoneWindowManager: focusChangedLw
+D/KeyguardViewMediator( 2022): setHidden false
+I/libblt_hw( 1675): Library closed (handle = 5, fd = 38)
+I/libblt_hw( 1675): Library closed (handle = 2, fd = 36)
+I/libblt_hw( 1675): Library opened (handle = 0, fd = 27)
+D/WindowManager( 2022): PhoneWindowManager: focusChangedLw
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+D/STATUSBAR-StatusBarManagerService( 2022): setSystemUiVisibility(0x0)
+V/WindowManager( 2022): rotationForOrientationLw(orient=5, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+D/STATUSBAR-StatusBarManagerService( 2022): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+D/Launcher( 2311): onResume, Launcher: 1112270272
+D/KeyguardViewMediator( 2022): setHidden false
+W/InputMethodManagerService( 2022): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@42cc2428 attribute=null
+D/comsamsunglog( 2311): [MSC_HERO_Accu_JB]>>> ====================================================================================================================
+D/comsamsunglog( 2311): [MSC_HERO_Accu_JB]>>> widgetappapheroaccuweatherwidget [Version : 12101501] [ 1 ] 
+D/comsamsunglog( 2311): [MSC_HERO_Accu_JB]>>> Header set to : ===> "widget" <===
+D/comsamsunglog( 2311): [MSC_HERO_Accu_JB]>>> ====================================================================================================================
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:917 [0:0]  onResume :: fU = true  cEUi = true
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:953 [0:0]  onResume :: mFAR = false, cC = false, cEUI = true
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:1265 [0:0]  cUI : cnt = 0, mRC  = true
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:1293 [0:0]  composeEmptyCityUI : true
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> SM:446 [0:0] IR : false, IPR : false
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> SM:1288 [0:0] bTCC WCV = 100
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:1664 [0:0] drw 1nd Tm dt = 1633
+E/Launcher( 2311): Error finding setting, default accessibility to not found: accessibility_enabled
+D/Launcher.HomeFragment( 2311): onResume
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:1226 [0:0]  fireOR
+D/widget  ( 2311): [MSC_HERO_Accu_JB]>>> WC:1244 [0:0]  fireOR, mCityList == NULL
+D/MenuAppsGridFragment( 2311): onResume
+D/AlarmWidget( 3732): [AlarmWidgetProvider] onReceive()@@@ com.sec.android.intent.action.HOME_RESUME
+D/AlarmWidget( 3732): [AlarmWidgetProvider] widgetId = -1, selectId =-1
+D/AlarmWidget( 3732): [AlarmWidgetProvider] ACTION_ALARM_APPWIDGET_UPDATE
+V/TaskCloserActivity( 3891): TaskCloserActivity onReceive() - com.sec.android.intent.action.HOME_RESUME
+D/KeyguardViewMediator( 2022): setHidden false
+D/KeyguardViewMediator( 2022): setHidden false
+D/Zygote  ( 1677): Process 8176 terminated by signal (11)
+E/Watchdog( 2022): !@Sync 3439

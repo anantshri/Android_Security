@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Peach xmlns="http://phed.org/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://phed.org/2012/Peach ../peach.xsd">
+
+
+
+  <!--*************-->
+  <!--  DATA MODEL -->
+  <!--*************-->
+  
+  <!-- 
+  #** template2.jpg **#
+  #
+  -->
+
+  <DataModel name="TheDataModel">
+
+    <!--*** Start of image marker (SOI) ***-->
+    <Blob name="SOI"  valueType="hex" value="FFD8" length="2" token="true" mutable="false"/>   
+    
+    <!--*** Image headers ***-->
+    <Blob name="headers" size="230" mutable="false"/>
+
+    <!--*** StartOfImage ***-->
+    <Blob length="2" value="FFDA" valueType="hex" token="true" mutable="false"/>
+
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="3000"/>
+    <Blob length="731" />
+
+    <Blob length="2" value="FFD9" valueType="hex" token="true" mutable="false"/>
+
+  </DataModel>
+
+
+  <!--**************-->
+  <!--  STATE MODEL -->
+  <!--**************-->
+
+
+  <StateModel name="State" initialState="State1" >
+    <State name="State1"  >
+      <Action type="output" >
+	<DataModel ref="TheDataModel"/>
+	<Data fileName="template2.jpg"/>
+      </Action>
+      <Action type="close" />
+    </State>
+  </StateModel>
+
+  <Test name="Default">
+    <Strategy class="Random">
+      <Param name="MaxFieldsToMutate" value="30"/>
+      <Param name="SwitchCount" value="100"/>
+    </Strategy>
+    <StateModel ref="State"/>
+    <Publisher class="FileIncremental">
+      <Param name="FileName" value="fuzzed_corpus/fuzzfile" />
+      <Param name="Extension" value="jpg" />
+    </Publisher>
+  </Test>
+</Peach>
+

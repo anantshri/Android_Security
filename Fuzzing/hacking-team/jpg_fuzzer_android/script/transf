@@ -1,0 +1,8 @@
+#!/bin/bash
+
+c=0
+for i in $(cat minset/minset_files);
+do
+	cp samples/$i.jpg minset/minset/$c.jpg
+	c=$(($c + 1))
+done

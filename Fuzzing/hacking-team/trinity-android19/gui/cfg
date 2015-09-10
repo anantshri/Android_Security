@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#DEVICE="0bf5c239" #s4mini
+DEVICE="9da35282" 
+#DEVICE="0276da340c0bb2bf" #nexus 4
+
+
+#CMD="-R /dev/null"
+CMD="-C3 -R /dev/jpeg0 -q"

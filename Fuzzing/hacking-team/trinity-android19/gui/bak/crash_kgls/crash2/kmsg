@@ -1,0 +1,2607 @@
+ registered new interface driver xpad
+<6>[    3.537799] input: sec_touchscreen as /devices/i2c-3/3-004a/input/input1
+<6>[    3.538104] Atmel MXT336S 3-004a: mxt_allocate_factory: x=24, y=14, total=336
+<6>[    3.538318] [TSP] power on
+<6>[    3.538348] mxts_power_onoff: tsp 3.3V[l31] is alerady on.
+<6>[    3.538409] mxts_power_onoff: tsp 1.8V[lvs6] is already on.
+<6>[    3.552266] msm_otg msm_otg: phy_reset: success
+<3>[    3.653898] msm_otg_sm_work 2359: couldn't get usb power supply
+<6>[    3.654845] msm_hsusb_config_vddcx 189: msm_hsusb_config_vddcx: min_vol:1 max_vol:4
+<6>[    3.654906] msm_otg msm_otg: USB in low power mode
+<3>[    3.663634] Atmel MXT336S 3-004a: tsp_atmel/mxt336s_Serrano.fw
+<6>[    3.664031] Atmel MXT336S 3-004a: Firmware file consist of header, configuration, firmware
+<6>[    3.664123] Atmel MXT336S 3-004a: fw_config_ver =13052805
+<6>[    3.665405] Atmel MXT336S 3-004a: family: 0x82 variant: 0x23 version: 0x30 build: 0xab matrix X,Y size:  24,14 number of obect: 21
+<6>[    3.689699] Atmel MXT336S 3-004a: ic_config_ver = 13052805
+<6>[    3.689760] Atmel MXT336S 3-004a: config version is latest !!!
+<6>[    3.690981] Atmel MXT336S 3-004a: family: 0x82 variant: 0x23 version: 0x30 build: 0xab matrix X,Y size:  24,14 number of obect: 21
+<6>[    3.763558] Atmel MXT336S 3-004a: Writing Config:[CRC 0xC457DC]
+<6>[    3.821120] Atmel MXT336S 3-004a: Updated configuration
+<6>[    3.821761] Atmel MXT336S 3-004a: data->T66_CtrlVal = 131
+<6>[    4.165817] Atmel MXT336S 3-004a: Reset is ongoing
+<6>[    4.165878] Atmel MXT336S 3-004a: Current state is Battery mode
+<3>[    4.224172] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+<6>[    4.236532] Atmel MXT336S 3-004a: set_charger_ <<<MXT_GR_GDC_STATUS_AQUIRED(0x0000)
+<3>[    4.236624] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+<6>[    4.237021] Atmel MXT336S 3-004a: [GDC] GF is Disabled
+<6>[    4.245383] Atmel MXT336S 3-004a: Timer1 Enabled with [0 msec]
+<6>[    4.246299] Atmel MXT336S 3-004a: Timer2 Enabled with [0 msec]
+<6>[    4.246360] Atmel MXT336S 3-004a: Command Calibration!!
+<6>[    4.249839] Atmel MXT336S 3-004a: T72 MSG: 2A 02 11 
+<6>[    4.251426] Atmel MXT336S 3-004a: T6 All Cleared
+<6>[    4.252922] Atmel MXT336S 3-004a: Mxt touch controller initialized
+<6>[    4.252983] Atmel MXT336S 3-004a: Mxt 336S Probed
+<3>[    4.253013] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+<6>[    4.253135] Atmel MXT336S 3-004a: [GDC] GF is Disabled
+<6>[    4.261010] Atmel MXT336S 3-004a: Timer1 Enabled with [0 msec]
+<6>[    4.261864] Atmel MXT336S 3-004a: Timer2 Enabled with [0 msec]
+<6>[    4.261895] Atmel MXT336S 3-004a: Command Calibration!!
+<3>[    4.263512] mpu6050_input_probe: mpu6050 probe failed
+<4>[    4.263634] mpu6050_input: probe of 12-0068 failed with error -5
+<6>[    4.263757] mpu6050_init()
+<6>[    4.263818] mpu6500_input_probe()
+<6>[    4.320402] Atmel MXT336S 3-004a: Calibration is on going  0!!
+<3>[    4.320433] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+<6>[    4.320830] Atmel MXT336S 3-004a: [GDC] GF is Disabled
+<6>[    4.322203] Atmel MXT336S 3-004a: Timer1 Enabled with [0 msec]
+<6>[    4.323729] Atmel MXT336S 3-004a:  T61: 0: datas: 15, 0x20, 0x0, 0x0
+<6>[    4.325316] Atmel MXT336S 3-004a:  T61: 0: datas: 16, 0x20, 0x0, 0x0
+<6>[    4.381229] mpu6500_input_register_input_device is called
+<6>[    4.381443] input: mpu6k_input as /devices/virtual/input/input2
+<6>[    4.382572] mpu6500_init()
+<6>[    4.384373] using rtc device, pm8xxx_rtc, for alarms
+<6>[    4.384465] rtc-pm8xxx rtc-pm8xxx: rtc core: registered pm8xxx_rtc as rtc0
+<6>[    4.385075] i2c /dev entries driver
+<6>[    4.387669] lirc_dev: IR Remote Control driver registered, major 237 
+<6>[    4.387730] IR NEC protocol handler initialized
+<6>[    4.387791] IR RC5(x) protocol handler initialized
+<6>[    4.387913] IR RC6 protocol handler initialized
+<6>[    4.387974] IR JVC protocol handler initialized
+<6>[    4.388005] IR Sony protocol handler initialized
+<6>[    4.388066] IR RC5 (streamzap) protocol handler initialized
+<6>[    4.388097] IR SANYO protocol handler initialized
+<6>[    4.388158] IR MCE Keyboard/mouse protocol handler initialized
+<6>[    4.388219] IR LIRC bridge handler initialized
+<6>[    4.389378] Atmel MXT336S 3-004a:  T61: 0: datas: 15, 0x20, 0x0, 0x0
+<6>[    4.389867] usbcore: registered new interface driver uvcvideo
+<6>[    4.389928] USB Video Class driver (1.1.1)
+<3>[    4.393743] imx175_eeprom_init called 
+<3>[    4.394018] imx175 spi driver probe
+<3>[    4.394506] imx175_spi_read_id: ReadID:0xf8, 0x12
+<3>[    4.394872] imx175_spi_read : Enter - reg_addr : 0x40
+<3>[    4.395299] imx175_spi_read : Enter - reg_addr : 0x1000
+<3>[    4.395757] imx175_spi_read : Enter - reg_addr : 0x2000
+<3>[    4.396337] imx175_spi_read : Enter - reg_addr : 0x300c
+<3>[    4.402075] imx175_spi_read : Enter - reg_addr : 0x1200
+<3>[    4.402655] imx175_spi_read : Enter - reg_addr : 0x1218
+<6>[    4.402929] Atmel MXT336S 3-004a: T6 All Cleared
+<3>[    4.408515] imx175_format_calibrationdata: is_all_supported= 1
+<3>[    4.408911] [shchang : imx175_format_afdata] Little Endian!!
+<3>[    4.409125] [shchang : imx175_format_wbdata] Little Endian!!
+<3>[    4.410621] msm_sensor_i2c_probe s5k3h5xa probe succeeded
+<3>[    4.410834] [teddy]msm_sensor_i2c_probe s5k3h5xa sensor_create_node
+<3>[    4.411231] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][1]
+<3>[    4.411689] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][2]
+<3>[    4.412299] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][3]
+<3>[    4.413306] msm_eeprom_probe probe_fail
+<6>[    4.414344] msm_server_update_sensor_info mctl_node_name[0] = video1
+<4>[    4.414863] imx175: probe of 4-001a failed with error -14
+<3>[    4.415138] msm_sensor_i2c_probe s5k6a3yx probe succeeded
+<3>[    4.415382] msm_eeprom_probe probe_fail
+<6>[    4.416297] msm_server_update_sensor_info mctl_node_name[1] = video3
+<6>[    4.418312] msm_cam_server_request_irq IRQ Router hw is not present. 
+<6>[    4.418647] msm_cam_server_request_irq IRQ Router hw is not present. 
+<6>[    4.420662] msm_cam_server_request_irq IRQ Router hw is not present. 
+<6>[    4.454478] pm8xxx_tm_probe: OK
+<6>[    4.455272] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+<6>[    4.455486] Bluetooth: HCI UART driver ver 2.2
+<6>[    4.455516] Bluetooth: HCIATH3K protocol initialized
+<6>[    4.456676] cpuidle: using governor ladder
+<6>[    4.456737] cpuidle: using governor menu
+<6>[    4.457927] mmc0: SDCC Version: 0x0000001a
+<6>[    4.459606] mmc0: bam physical base=0x12402000
+<6>[    4.459636] mmc0: bam virtual base=0xe21f0000
+<6>[    4.459667] sps:BAM 0x12402000 is registered.
+<6>[    4.459697] mmc0: BAM device registered. bam_handle=0xdfc9de00
+<6>[    4.461010] sps:BAM 0x12402000 enabled: ver:0x5, number of pipes:6
+<6>[    4.462017] mmc0: Qualcomm MSM SDCC-BAM at 0x0000000012402000 irq 130
+<6>[    4.462108] mmc0: Qualcomm MSM SDCC-DML at 0x0000000012400800
+<3>[    4.462169] mmc0: No card detect facilities available
+<6>[    4.464916] mmc0: Qualcomm MSM SDCC-core at 0x0000000012400000 irq 136,0 dma -1 dmacrcri -1
+<6>[    4.464977] mmc0: Controller capabilities: 0x0000039e
+<6>[    4.465008] mmc0: 8 bit data mode enabled
+<6>[    4.465038] mmc0: 4 bit data mode disabled
+<6>[    4.465069] mmc0: polling status mode disabled
+<6>[    4.465099] mmc0: MMC clock 400000 -> 96000000 Hz, PCLK 0 Hz
+<6>[    4.465160] mmc0: Slot eject status = 0
+<6>[    4.465191] mmc0: Power save feature enable = 1
+<6>[    4.465222] mmc0: SPS-BAM data transfer mode available
+<6>[    4.466778] mmc1: SDCC Version: 0x0000001a
+<6>[    4.470807] mmc1: bam physical base=0x12182000
+<6>[    4.470868] mmc1: bam virtual base=0xe21f8000
+<6>[    4.470898] sps:BAM 0x12182000 is registered.
+<6>[    4.470929] mmc1: BAM device registered. bam_handle=0xdfdc6600
+<6>[    4.472089] sps:BAM 0x12182000 enabled: ver:0x5, number of pipes:6
+<6>[    4.473126] mmc1: Qualcomm MSM SDCC-BAM at 0x0000000012182000 irq 128
+<6>[    4.473187] mmc1: Qualcomm MSM SDCC-DML at 0x0000000012180800
+<3>[    4.473279] mmc1: No card detect facilities available
+<7>[    4.473493] msmsdcc_probe : Change sysfs Card Detect
+<6>[    4.476758] mmc1: Qualcomm MSM SDCC-core at 0x0000000012180000 irq 134,0 dma -1 dmacrcri -1
+<6>[    4.476819] mmc1: Controller capabilities: 0x0000039e
+<6>[    4.476850] mmc1: 8 bit data mode disabled
+<6>[    4.476880] mmc1: 4 bit data mode enabled
+<6>[    4.476911] mmc1: polling status mode disabled
+<6>[    4.476941] mmc1: MMC clock 400000 -> 192000000 Hz, PCLK 0 Hz
+<6>[    4.476972] mmc1: Slot eject status = 0
+<6>[    4.477002] mmc1: Power save feature enable = 1
+<6>[    4.477033] mmc1: SPS-BAM data transfer mode available
+<3>[    4.491896] mmc0: CMD52: Command timeout
+<3>[    4.497451] mmc0: CMD52: Command timeout
+<3>[    4.506241] mmc0: CMD8: Command timeout
+<3>[    4.511857] mmc0: CMD5: Command timeout
+<3>[    4.517381] mmc0: CMD5: Command timeout
+<3>[    4.522875] mmc0: CMD5: Command timeout
+<3>[    4.528460] mmc0: CMD5: Command timeout
+<3>[    4.533984] mmc0: CMD55: Command timeout
+<3>[    4.539508] mmc0: CMD55: Command timeout
+<3>[    4.545124] mmc0: CMD55: Command timeout
+<3>[    4.550618] mmc0: CMD55: Command timeout
+<6>[    4.584922] mmc0: BKOPS_EN bit is not set
+<6>[    4.590355] mmc0: new high speed DDR MMC card at address 0001
+<6>[    4.591057] mmcblk0: mmc0:0001 SEM08G 7.28 GiB 
+<4>[    4.596032] ------------[ cut here ]------------
+<4>[    4.596093] WARNING: at /home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/block/blk.h:211 get_task_io_context+0x84/0xc8()
+<4>[    4.596215] Modules linked in:
+<4>[    4.596276] [<c0014550>] (unwind_backtrace+0x0/0x11c) from [<c008c8ac>] (warn_slowpath_common+0x4c/0x64)
+<4>[    4.596398] [<c008c8ac>] (warn_slowpath_common+0x4c/0x64) from [<c008c8dc>] (warn_slowpath_null+0x18/0x1c)
+<4>[    4.596520] [<c008c8dc>] (warn_slowpath_null+0x18/0x1c) from [<c02da364>] (get_task_io_context+0x84/0xc8)
+<4>[    4.596612] [<c02da364>] (get_task_io_context+0x84/0xc8) from [<c05f8020>] (mmc_request+0x5c/0x100)
+<4>[    4.596734] [<c05f8020>] (mmc_request+0x5c/0x100) from [<c02d20c0>] (__blk_run_queue+0x18/0x1c)
+<4>[    4.596825] [<c02d20c0>] (__blk_run_queue+0x18/0x1c) from [<c02e482c>] (cfq_kick_queue+0x1c/0x28)
+<4>[    4.596917] [<c02e482c>] (cfq_kick_queue+0x1c/0x28) from [<c00a5b34>] (process_one_work+0x248/0x474)
+<4>[    4.597009] [<c00a5b34>] (process_one_work+0x248/0x474) from [<c00a60a0>] (worker_thread+0x198/0x2b8)
+<4>[    4.597100] [<c00a60a0>] (worker_thread+0x198/0x2b8) from [<c00a9a5c>] (kthread+0x84/0x94)
+<4>[    4.597222] [<c00a9a5c>] (kthread+0x84/0x94) from [<c000ee0c>] (kernel_thread_exit+0x0/0x8)
+<4>[    4.597283] ---[ end trace da227214a82491b9 ]---
+<6>[    4.604425]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24
+<3>[    4.639005] mmc1: CMD52: Command timeout
+<3>[    4.644620] mmc1: CMD52: Command timeout
+<3>[    4.653471] mmc1: CMD8: Command timeout
+<3>[    4.658995] mmc1: CMD5: Command timeout
+<3>[    4.664581] mmc1: CMD5: Command timeout
+<3>[    4.670105] mmc1: CMD5: Command timeout
+<3>[    4.675629] mmc1: CMD5: Command timeout
+<3>[    4.681214] mmc1: CMD55: Command timeout
+<3>[    4.686769] mmc1: CMD55: Command timeout
+<3>[    4.692263] mmc1: CMD55: Command timeout
+<3>[    4.697878] mmc1: CMD55: Command timeout
+<3>[    4.703464] mmc1: CMD1: Command timeout
+<6>[    4.908560] Atmel MXT336S 3-004a: T72 MSG: 12 02 11 
+<3>[    5.353792] i2c i2c-21: an30259a_initialize: failure on i2c write (reg = 0x 0)
+<3>[    5.354005] i2c i2c-21: failure on initialization at led channel:0
+<6>[    5.357851] usbcore: registered new interface driver usbhid
+<6>[    5.357881] usbhid: USB HID core driver
+<6>[    5.359133] ashmem: initialized
+<6>[    5.359316] logger: created 1024K log 'log_main'
+<6>[    5.359529] logger: created 512K log 'log_events'
+<6>[    5.359743] logger: created 2048K log 'log_radio'
+<6>[    5.359926] logger: created 512K log 'log_system'
+<6>[    5.359987] sec_getlog_supply_loggerinfo: 0xc11ea3e8 0xc12ea3e8 0xc14ea3e8 0xc156a3e8
+<6>[    5.362612] input: geomagnetic as /devices/i2c-12/12-002e/input/input3
+<6>[    5.363283] input: geomagnetic_raw as /devices/i2c-12/12-002e/input/input4
+<4>[    5.363924] i2c-core: driver [geomagnetic] using legacy suspend method
+<4>[    5.363985] i2c-core: driver [geomagnetic] using legacy resume method
+<6>[    5.364230] gp2a_i2c_probe : probe start!
+<6>[    5.364260] proximity_input_init, 1269 start
+<6>[    5.364626] input: proximity_sensor as /devices/virtual/input/input5
+<6>[    5.364840] proximity_input_init, success
+<6>[    5.364871] light_input_init, 1301 start
+<6>[    5.365206] input: light_sensor as /devices/virtual/input/input6
+<6>[    5.365420] light_input_init, success
+<3>[    5.366183] gp2a_setup_irq, start
+<3>[    5.366885] gp2a_setup_irq, success
+<6>[    5.367434] gp2a_i2c_probe : probe success!
+<4>[    5.367617] [VIB] Init
+<4>[    5.367892] [VIB] Probe function is called
+<6>[    5.368716] usbcore: registered new interface driver snd-usb-audio
+<6>[    5.373294] msm_pcm_probe: dev name msm-voip-dsp
+<6>[    5.375370] msm_pcm_probe: dev name msm-pcm-dsp
+<6>[    5.375919] msm_pcm_probe: dev name msm-multi-ch-pcm-dsp
+<6>[    5.376468] msm_pcm_probe: dev name msm-lowlatency-pcm-dsp
+<6>[    5.378422] msm_compr_probe: dev name msm-compr-dsp
+<6>[    5.379856] msm-pcm-lpa msm-pcm-lpa: msm_pcm_probe: dev name msm-pcm-lpa
+<6>[    5.380131] msm8930_audio_init: wcd9xxx_get_intf_type is 2
+<6>[    5.417579] tapan_codec tapan_codec: tapan_codec_probe()
+<6>[    5.478376] asoc: snd-soc-dummy-dai <-> MultiMedia1 mapping ok
+<6>[    5.479810] asoc: snd-soc-dummy-dai <-> MultiMedia2 mapping ok
+<6>[    5.481214] asoc: snd-soc-dummy-dai <-> CS-VOICE mapping ok
+<6>[    5.482618] asoc: snd-soc-dummy-dai <-> VoIP mapping ok
+<6>[    5.484053] asoc: snd-soc-dummy-dai <-> MultiMedia3 mapping ok
+<6>[    5.485487] asoc: snd-soc-dummy-dai <-> SLIMBUS0_HOSTLESS mapping ok
+<6>[    5.486891] asoc: snd-soc-dummy-dai <-> INT_FM_HOSTLESS mapping ok
+<6>[    5.488234] asoc: msm-stub-rx <-> msm-dai-q6.241 mapping ok
+<6>[    5.489577] asoc: msm-stub-tx <-> msm-dai-q6.240 mapping ok
+<6>[    5.490981] asoc: snd-soc-dummy-dai <-> MultiMedia4 mapping ok
+<6>[    5.492354] asoc: snd-soc-dummy-dai <-> AUXPCM_HOSTLESS mapping ok
+<6>[    5.493728] asoc: snd-soc-dummy-dai <-> HDMI_HOSTLESS mapping ok
+<6>[    5.495131] asoc: snd-soc-dummy-dai <-> VoLTE mapping ok
+<6>[    5.496535] asoc: snd-soc-dummy-dai <-> Voice2 mapping ok
+<6>[    5.497939] asoc: snd-soc-dummy-dai <-> MultiMedia5 mapping ok
+<6>[    5.499221] asoc: msm-stub-rx <-> msm-dai-q6.12288 mapping ok
+<6>[    5.500503] asoc: msm-stub-tx <-> msm-dai-q6.12289 mapping ok
+<6>[    5.501785] asoc: msm-stub-rx <-> msm-dai-q6.12292 mapping ok
+<6>[    5.503036] asoc: msm-stub-tx <-> msm-dai-q6.12293 mapping ok
+<6>[    5.504379] asoc: msm-stub-rx <-> msm-dai-q6-hdmi.8 mapping ok
+<6>[    5.505661] asoc: msm-stub-rx <-> msm-dai-q6.224 mapping ok
+<6>[    5.506821] asoc: msm-stub-tx <-> msm-dai-q6.225 mapping ok
+<6>[    5.508103] asoc: msm-stub-rx <-> msm-dai-q6.2 mapping ok
+<6>[    5.509354] asoc: msm-stub-tx <-> msm-dai-q6.3 mapping ok
+<6>[    5.510636] asoc: msm-stub-rx <-> msm-dai-q6.32773 mapping ok
+<6>[    5.511918] asoc: msm-stub-tx <-> msm-dai-q6.32772 mapping ok
+<6>[    5.513169] asoc: msm-stub-tx <-> msm-dai-q6.32771 mapping ok
+<6>[    5.514359] msm8930_i2s_audrx_init()
+<6>[    5.515214] msm8930_i2s_audrx_init() system_rev=5 CLK_REVISION=0
+<6>[    5.515275] msm8930_i2s_audrx_init: clock name is msm-dai-q6.6 codec_clk = c0f68ecc
+<6>[    5.515397] asoc: tapan_i2s_rx1 <-> msm-dai-q6.0 mapping ok
+<4>[    5.515550] tapan_codec tapan_codec: ASoC: Failed to create Digital Mic1 debugfs file
+<6>[    5.519212] asoc: tapan_i2s_tx1 <-> msm-dai-q6.1 mapping ok
+<3>[    5.519334] soc-audio soc-audio.0: Failed to add Speaker Function: -16
+<6>[    5.523180] input: msm8230-tapan-snd-card Button Jack as /devices/platform/soc-audio.0/sound/card0/input7
+<6>[    5.523515] input: msm8230-tapan-snd-card Headset Jack as /devices/platform/soc-audio.0/sound/card0/input8
+<6>[    5.528551] oprofile: using arm/armv7-krait
+<6>[    5.528734] u32 classifier
+<6>[    5.528765]     Actions configured
+<6>[    5.528795] Netfilter messages via NETLINK v0.30.
+<6>[    5.528918] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+<6>[    5.529681] ctnetlink v0.93: registering with nfnetlink.
+<6>[    5.529772] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    5.529833] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    5.530108] xt_time: kernel timezone is -0000
+<6>[    5.530627] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    5.531115] arp_tables: (C) 2002 David S. Miller
+<6>[    5.531237] TCP: cubic registered
+<6>[    5.531268] Initializing XFRM netlink socket
+<6>[    5.531878] NET: Registered protocol family 10
+<6>[    5.536120] Mobile IPv6
+<6>[    5.536212] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    5.536548] IPv6 over IPv4 tunneling driver
+<6>[    5.537250] NET: Registered protocol family 17
+<6>[    5.537341] NET: Registered protocol family 15
+<5>[    5.537463] Bridge firewalling registered
+<6>[    5.537524] Ebtables v2.0 registered
+<6>[    5.537585] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<5>[    5.537799] Registering the dns_resolver key type
+<6>[    5.539783] VFP support v0.3: implementor 51 architecture 64 part 4d variant 2 rev 0
+<5>[    5.539874] Registering SWP/SWPB emulation handler
+<6>[    5.539905] clock_late_init: Removing enables held for handed-off clocks
+<6>[    5.546864] WDOG handled by TZ:dump @0xdf6bb000 PA:a60bb000
+<6>[    5.547230] MSM Watchdog Initialized
+<6>[    5.551075] sec_debug_subsys_init: msm_shared_ram_phys=80000000 SMEM_ID_VENDOR2=136 size=8756
+<6>[    5.551136] sec_debug_subsys_init: krait(80019130) rpm(800199e8) modem(8001a25c) dsps(8001aad0)
+<6>[    5.555043] zswap: loading zswap
+<6>[    5.555196] zswap: using lzo compressor
+<6>[    5.556050] sec_jack_probe : Registering jack driver
+<6>[    5.556416] sec_jack_detect_work: detect_irq(0)
+<6>[    5.556447] sec_jack: ear micbias off
+<6>[    5.556477] msm8930_enable_ear_micbias disable the codec  pin : 0 with state :0
+<6>[    5.556844] sec_jack: ear micbias off
+<6>[    5.556844] msm8930_enable_ear_micbias disable the codec  pin : 0 with state :0
+<6>[    5.557118] input: gpio-keys as /devices/platform/gpio-keys/input/input9
+<6>[    5.557363] [sec_debug_check_crash_key] code(0x73), value(0)
+<6>[    5.557424] [sec_debug_check_crash_key] code(0x72), value(0)
+<6>[    5.557454] [sec_debug_check_crash_key] code(0xac), value(0)
+<3>[    5.557607] tc360_probe start
+<6>[    5.557698] tc360 16-0020: number of keys= 2
+<6>[    5.557729] tc360 16-0020: keycode[0]= 139
+<6>[    5.557759] tc360 16-0020: keycode[1]= 158
+<6>[    5.557851] input: sec_touchkey as /devices/platform/i2c-gpio.16/i2c-16/16-0020/input/input10
+<6>[    5.558217] coreriver/tc360_serrano_eur.fw!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<6>[    5.558248] tc360 16-0020: the fw 0xb is loaded (size=8960)
+<6>[    5.559194] tc360 16-0020: IC aleady have latest firmware (0xb)
+<7>[    5.559377] Registered led device: button-backlight
+<6>[    5.559407] tc360 16-0020: successfully probed.
+<3>[    5.559468] tc360_init: init done 0
+<6>[    5.559591] rtc-pm8xxx rtc-pm8xxx: setting system clock to 2014-02-10 08:19:49 UTC (1392020389)
+<4>[    5.560811] set_battery_data: invalid battid, palladium 1500 assumed batt_id 8afb
+<3>[    5.561483] read_ocv_trim: program rev reg is 0x19
+<3>[    5.561635] pm8921_is_usb_chg_plugged_in: called before init
+<3>[    5.565450] pm8921_is_usb_chg_plugged_in: called before init
+<3>[    5.565695] pm8921_is_usb_chg_plugged_in: called before init
+<3>[    5.565847] pm8921_is_batfet_closed: called before init
+<3>[    5.595238] pm8921_is_usb_chg_plugged_in: called before init
+<3>[    5.703952] pm8921_is_batfet_closed: called before init
+<3>[    5.735388] pm8921_is_usb_chg_plugged_in: called before init
+<6>[    5.761757] Atmel MXT336S 3-004a: T72 MSG: 12 02 11 
+<3>[    5.843979] pm8921_is_batfet_closed: called before init
+<3>[    5.875385] pm8921_is_usb_chg_plugged_in: called before init
+<3>[    5.984068] pm8921_is_batfet_closed: called before init
+<3>[    6.015656] pm8921_is_usb_chg_plugged_in: called before init
+<7>[    6.054143] [keys] flip_cover_work : 1
+<6>[    6.114176] tsu6721 15-0025: tsu6721_init_detect
+<3>[    6.115763] tsu6721 15-0025: dev1: 0x4, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+<6>[    6.115916] tsu6721_attach_dev Save state
+<6>[    6.115916] [MUIC] USB Connected
+<6>[    6.115946] tsu6721_callback USB Cable is attached
+<3>[    6.115977] tsu6721_callback: fail to get battery ps
+<6>[    6.117289] msm_hsusb_config_vddcx 189: msm_hsusb_config_vddcx: min_vol:3 max_vol:4
+<6>[    6.117320] msm_otg msm_otg: USB exited from low power mode
+<6>[    6.117564] tsu6721 15-0025: tsu6721_init_detect: intr1 : 0x0
+<6>[    6.117991] tsu6721 15-0025: tsu6721_init_detect: intr2 : 0x0
+<3>[    6.124065] pm8921_is_batfet_closed: called before init
+<3>[    6.155501] pm8921_is_usb_chg_plugged_in: called before init
+<6>[    6.244346] msm_otg msm_otg: gadget on
+<6>[    6.247581] msm_otg_start_peripheral 1489: msm_otg_start_peripheral disable_peripheral: 0
+<6>[    6.247611] usb:: ci13xxx_vbus_session,3326
+<6>[    6.247642] usb:: ci13xxx_vbus_session gadget_ready:1, is_active:1
+<6>[    6.247672] usb:: hw_device_reset
+<6>[    6.247703] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESET_EVENT received
+<6>[    6.247733] usb:: ci13xxx_vbus_session softconnect: 0
+<3>[    6.264336] pm8921_is_batfet_closed: called before init
+<3>[    6.295650] pm8921_is_usb_chg_plugged_in: called before init
+<6>[    6.298214] pm8921_bms_probe: OK battery_capacity_at_boot=100 volt = 4324917 ocv = 4330378
+<6>[    6.298458] pm8921_charger_probe: pm8921_charger_probe : board_rev(5)
+<6>[    6.298489] pm8921_charger_probe: battery(PM8917) hw init, board_rev(5)
+<6>[    6.298855] pm_chg_vddmax_set: pm_chg_vddmax_set : steps(0), increase(1), voltage(4350), current_mv(4340)-----
+<6>[    6.298916] pm_chg_ibatmax_set: pm_chg_ibatmax_set : ibat is chagned (2000)---------
+<6>[    6.299099] pm8921_chg_hw_init: [PMIC 8917] Get UVD threshlod(2)
+<3>[    6.299191] pm8921_usb_ovp_disable: called before init
+<6>[    6.299313] pm8921_charger_probe: battery(PM8917) register supply start
+<3>[    6.299404] power_supply usb: driver failed to report `present' property: 4294967274
+<3>[    6.299557] power_supply usb: driver failed to report `present' property: 4294967274
+<3>[    6.299740] power_supply ac: driver failed to report `present' property: 4294967274
+<3>[    6.299893] power_supply ac: driver failed to report `present' property: 4294967274
+<3>[    6.312803] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+<6>[    6.313108] pm8921_charger_probe: battery(PM8917) register supply end
+<6>[    6.314146] Atmel MXT336S 3-004a: charging mode
+<6>[    6.314176] Atmel MXT336S 3-004a: Current state is Charging mode
+<3>[    6.315458] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+<4>[    6.315885] ------------[ cut here ]------------
+<4>[    6.315916] WARNING: at /home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/gpio/gpiolib.c:103 gpio_ensure_requested+0x44/0xa4()
+<4>[    6.315977] autorequest GPIO-2
+<4>[    6.316007] Modules linked in:
+<4>[    6.316038] [<c0014550>] (unwind_backtrace+0x0/0x11c) from [<c008c8ac>] (warn_slowpath_common+0x4c/0x64)
+<4>[    6.316068] [<c008c8ac>] (warn_slowpath_common+0x4c/0x64) from [<c008c944>] (warn_slowpath_fmt+0x2c/0x3c)
+<4>[    6.316130] [<c008c944>] (warn_slowpath_fmt+0x2c/0x3c) from [<c0306e70>] (gpio_ensure_requested+0x44/0xa4)
+<4>[    6.316160] [<c0306e70>] (gpio_ensure_requested+0x44/0xa4) from [<c0307054>] (gpio_direction_input+0x70/0x20c)
+<4>[    6.316221] [<c0307054>] (gpio_direction_input+0x70/0x20c) from [<c0868564>] (pm8921_charger_probe+0x1688/0x17e0)
+<4>[    6.316282] [<c0868564>] (pm8921_charger_probe+0x1688/0x17e0) from [<c040d470>] (platform_drv_probe+0x14/0x18)
+<4>[    6.316313] [<c040d470>] (platform_drv_probe+0x14/0x18) from [<c040c1a0>] (driver_probe_device+0x134/0x334)
+<4>[    6.316374] [<c040c1a0>] (driver_probe_device+0x134/0x334) from [<c040c408>] (__driver_attach+0x68/0x8c)
+<4>[    6.316435] [<c040c408>] (__driver_attach+0x68/0x8c) from [<c040a710>] (bus_for_each_dev+0x48/0x80)
+<4>[    6.316465] [<c040a710>] (bus_for_each_dev+0x48/0x80) from [<c040b79c>] (bus_add_driver+0x100/0x26c)
+<4>[    6.316526] [<c040b79c>] (bus_add_driver+0x100/0x26c) from [<c040c8e0>] (driver_register+0x9c/0x120)
+<4>[    6.316557] [<c040c8e0>] (driver_register+0x9c/0x120) from [<c00087bc>] (do_one_initcall+0x90/0x160)
+<4>[    6.316587] [<c00087bc>] (do_one_initcall+0x90/0x160) from [<c0e00aac>] (kernel_init+0xec/0x1a8)
+<4>[    6.316648] [<c0e00aac>] (kernel_init+0xec/0x1a8) from [<c000ee0c>] (kernel_thread_exit+0x0/0x8)
+<4>[    6.316679] ---[ end trace da227214a82491bb ]---
+<3>[    6.316893] pm8921_charger_probe: battery(PM8917) cable_type (1)
+<6>[    6.317045] pm8921_charger_probe: battery(PM8917) probe end
+<4>[    6.317442] ------------[ cut here ]------------
+<4>[    6.317442] WARNING: at /home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/fs/proc/generic.c:586 proc_register+0x14c/0x1ac()
+<4>[    6.317503] proc_dir_entry '/proc/last_kmsg' already registered
+<4>[    6.317533] Modules linked in:
+<4>[    6.317564] [<c0014550>] (unwind_backtrace+0x0/0x11c) from [<c008c8ac>] (warn_slowpath_common+0x4c/0x64)
+<4>[    6.317594] [<c008c8ac>] (warn_slowpath_common+0x4c/0x64) from [<c008c944>] (warn_slowpath_fmt+0x2c/0x3c)
+<4>[    6.317656] [<c008c944>] (warn_slowpath_fmt+0x2c/0x3c) from [<c01971e0>] (proc_register+0x14c/0x1ac)
+<4>[    6.317686] [<c01971e0>] (proc_register+0x14c/0x1ac) from [<c01974ec>] (create_proc_entry+0x70/0x8c)
+<4>[    6.317747] [<c01974ec>] (create_proc_entry+0x70/0x8c) from [<c0e322c4>] (ram_console_late_init+0x34/0xa4)
+<4>[    6.317778] [<c0e322c4>] (ram_console_late_init+0x34/0xa4) from [<c00087bc>] (do_one_initcall+0x90/0x160)
+<4>[    6.317839] [<c00087bc>] (do_one_initcall+0x90/0x160) from [<c0e00aac>] (kernel_init+0xec/0x1a8)
+<4>[    6.317869] [<c0e00aac>] (kernel_init+0xec/0x1a8) from [<c000ee0c>] (kernel_thread_exit+0x0/0x8)
+<4>[    6.317900] ---[ end trace da227214a82491bc ]---
+<6>[    6.317991] barcode_emul_ice4_8930: barcode_emul_probe probe!
+<3>[    6.318022] irda_device_init called!
+<6>[    6.318144] barcode_emul_ice4_8930: barcode_emul_probe setting gpio config.
+<6>[    6.318174] barcode_gpio_config
+<6>[    6.318205] barcode_emul_poweron onoff : 1
+<6>[    6.318541] barcode_emul_poweron gpio switch on
+<3>[    6.318815] barcode_emul_ice4_8930: probe complete barcode_emul_probe
+<6>[    6.318998] ALSA device list:
+<6>[    6.318998]   #0: msm8230-tapan-snd-card
+<4>[    6.319059] Warning: unable to open an initial console.
+<6>[    6.319090] [secgpio_dvs][msm8x30_check_gpio_status] state : init
+<6>[    6.319243] [secgpio_dvs][msm8x30_check_gpio_status]-
+<6>[    6.319945] Freeing init memory: 1040K
+<4>[    6.321226] !@Boot: Start init process
+<6>[    6.322173] tsu6721_monitor lastINT[0][0] lastDev[4][0][2] currDev[4][0][2] callState[0][0]
+<6>[    6.322203] update_heartbeat: health(1),stat(1),chgen(0),fsm(1),cable(1),extchg(0)
+<6>[    6.323393] update_heartbeat: soc(100/100), v(4325796), i(20900), temp(325), batt(1), absexpr(0), siop(100)
+<6>[    6.323454] handle_cable_insertion_removal: batt_present = 1
+<6>[    6.323515] handle_usb_insertion_removal: handle_usb_insertion_removal : usb_present(1)
+<6>[    6.323576] handle_cable_insertion_removal: handle_cable_insertion_removal : USB is inserted, chg_current 500, batt_present(1)
+<6>[    6.323668] __pm8921_charger_vbus_draw: __pm8921_charger_vbus_draw: vbus is changed (500)--------
+<3>[    6.323760] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+<3>[    6.323912] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (475mA)--------
+<6>[    6.324065] pm_chg_ibatmax_set: pm_chg_ibatmax_set : ibat is chagned (475)---------
+<3>[    6.324645] power_supply usb: driver failed to report `health' property: 4294967274
+<6>[    6.326598] pm_abs_time_management: pm_abs_time_management: Charging Time : 0 secs (rechg:0)
+<7>[    6.328551] SELinux: 2048 avtab hash slots, 115483 rules.
+<6>[    6.330291] tsu6721_monitor lastINT[0][0] lastDev[4][0][2] currDev[4][0][2] callState[0][0]
+<6>[    6.330321] update_heartbeat: health(1),stat(1),chgen(1),fsm(1),cable(1),extchg(0)
+<6>[    6.331512] update_heartbeat: soc(100/100), v(4335753), i(20900), temp(325), batt(1), absexpr(0), siop(100)
+<6>[    6.334167] barcode_emul_ice4_8930: barcode_fpga_fimrware_update_start
+<7>[    6.378818] SELinux: 2048 avtab hash slots, 115483 rules.
+<7>[    6.379215] SELinux:  1 users, 2 roles, 805 types, 9 bools, 1 sens, 1024 cats
+<7>[    6.379246] SELinux:  84 classes, 115483 rules
+<3>[    6.379459] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+<7>[    6.380802] SELinux:  Completing initialization.
+<7>[    6.380833] SELinux:  Setting up existing superblocks.
+<7>[    6.380863] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<7>[    6.380894] SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+<7>[    6.381016] SELinux: initialized (dev bdev, type bdev), not configured for labeling
+<7>[    6.381046] SELinux: initialized (dev proc, type proc), uses genfs_contexts
+<7>[    6.381107] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    6.381138] SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+<7>[    6.387181] SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+<7>[    6.387211] SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+<7>[    6.387242] SELinux: initialized (dev anon_inodefs, type anon_inodefs), not configured for labeling
+<7>[    6.387303] SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+<7>[    6.387364] SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+<7>[    6.387456] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    6.387517] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<6>[    6.390965] Atmel MXT336S 3-004a: set_charger_ <<<MXT_GR_GDC_STATUS_AQUIRED(0x0000)
+<3>[    6.391027] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+<6>[    6.391149] Atmel MXT336S 3-004a: [GDC] GF is Disabled
+<6>[    6.398870] Atmel MXT336S 3-004a: Timer1 Enabled with [0 msec]
+<6>[    6.399725] Atmel MXT336S 3-004a: Timer2 Enabled with [0 msec]
+<6>[    6.399755] Atmel MXT336S 3-004a: Command Calibration!!
+<6>[    6.412574] Atmel MXT336S 3-004a:  T61: 0: datas: 15, 0x20, 0x0, 0x0
+<6>[    6.414039] Atmel MXT336S 3-004a:  T61: 0: datas: 16, 0x20, 0x0, 0x0
+<6>[    6.450572] SELinux: Loaded policy from /sepolicy
+<6>[    6.450602] 
+<6>[    6.454234] msm_thermal: Debug Temp for Sensors (0 --- 39)(1 --- 40)(2 --- 38)(3 --- 37)(4 --- 37)(5 --- 36)(6 --- 42)(7 --- 37)(8 --- 37)(9 --- 44)
+<6>[    6.481519] Atmel MXT336S 3-004a: Calibration is on going  0!!
+<3>[    6.481550] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+<6>[    6.481641] Atmel MXT336S 3-004a: [GDC] GF is Disabled
+<6>[    6.482923] Atmel MXT336S 3-004a: Timer1 Enabled with [0 msec]
+<6>[    6.507858] Atmel MXT336S 3-004a: T6 All Cleared
+<6>[    6.509323] Atmel MXT336S 3-004a:  T61: 0: datas: 15, 0x20, 0x0, 0x0
+<6>[    6.607843] barcode_emul_ice4_8930: CDONE_SUCCESS
+<6>[    6.607874] barcode_emul_ice4_8930: barcode firmware update success
+<6>[    6.607904] barcode_emul_ice4_8930: CDONE_SUCCESS
+<3>[    6.613398] init: /init.qcom.rc: 641: invalid command '/system/bin/log'
+<3>[    6.613795] init: /init.qcom.rc: 781: invalid command 'kill'
+<3>[    6.613886] init: /init.qcom.rc: 783: invalid command 'kill'
+<3>[    6.614008] init: /init.qcom.rc: 785: invalid command 'kill'
+<3>[    6.614100] init: /init.qcom.rc: 787: invalid command 'kill'
+<3>[    6.616175] init: could not import file 'init.mdm.rc' from 'init.target.rc'
+<3>[    6.616633] init: /init.carrier.rc: 117: ignored duplicate definition of service 'TvoutService_C'
+<3>[    6.616908] init: /init.container.rc: 39: invalid option 'start'
+<4>[    6.617182] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<3>[    6.618098] init: setsebool: could not set debugfs to 1
+<3>[    6.620235] init: invalid uid 'fm_radio'
+<3>[    6.884083] power_supply usb: driver failed to report `health' property: 4294967274
+<3>[    6.886922] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+<3>[    7.043979] init: could not open /dev/keychord
+<7>[    7.045200] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<7>[    7.045566] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    7.047581] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    7.048252] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    7.048649] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    7.049015] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    7.050511] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<6>[    7.064306] EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: errors=panic
+<7>[    7.064397] SELinux: initialized (dev mmcblk0p21, type ext4), uses xattr
+<4>[    7.065191] CryptfsCH: Decryption operation succeeded
+<6>[    7.065222] fs_mgr: Running /system/bin/e2fsck on /dev/block/platform/msm_sdcc.1/by-name/userdata
+<6>[    7.356020] pm_abs_time_management: pm_abs_time_management: Charging Time : 1 secs (rechg:0)
+<6>[    7.359591] tsu6721_monitor lastINT[0][0] lastDev[4][0][2] currDev[4][0][2] callState[0][0]
+<6>[    7.359621] update_heartbeat: health(1),stat(1),chgen(1),fsm(7),cable(1),extchg(0)
+<6>[    7.360811] update_heartbeat: soc(100/100), v(4326381), i(-108100), temp(325), batt(1), absexpr(0), siop(100)
+<4>[    7.706241] e2fsck used greatest stack depth: 5376 bytes left
+<6>[    7.706332] e2fsck: e2fsck 1.42.6 (21-Sep-2012)
+<6>[    7.706394] e2fsck: /dev/block/platform/msm_sdcc.1/by-name/userdata: recovering journal
+<6>[    7.706424] e2fsck: Clearing orphaned inode 131282 (uid=10012, gid=10012, mode=0100644, size=8776)
+<6>[    7.706485] e2fsck: Clearing orphaned inode 131255 (uid=10012, gid=10012, mode=0100600, size=3705)
+<6>[    7.706516] e2fsck: Setting free inodes count to 353351 (was 353395)
+<6>[    7.706546] e2fsck: Setting free blocks count to 1324693 (was 1325110)
+<6>[    7.706577] e2fsck: /dev/block/platform/msm_sdcc.1/by-name/userdata: clean, 2169/355520 files, 96610/1421303 blocks
+<6>[    7.713596] EXT4-fs (mmcblk0p24): mounted filesystem with ordered data mode. Opts: noauto_da_alloc,discard,journal_async_commit,errors=panic
+<7>[    7.713688] SELinux: initialized (dev mmcblk0p24, type ext4), uses xattr
+<3>[    7.714176] init: Running /dev/block/platform/msm_sdcc.1/by-name/cache on ext4
+<4>[    7.718419] e2fsck 1.42.6 (21-Sep-2012)
+<4>[    7.722173] /dev/block/platform/msm_sdcc.1/by-name/cache: recovering journal
+<4>[    7.739081] /dev/block/platform/msm_sdcc.1/by-name/cache: clean, 17/12800 files, 1867/51200 blocks
+<6>[    7.747169] EXT4-fs (mmcblk0p22): mounted filesystem with ordered data mode. Opts: noauto_da_alloc,discard,journal_async_commit,errors=panic
+<7>[    7.747230] SELinux: initialized (dev mmcblk0p22, type ext4), uses xattr
+<3>[    7.747382] init: Running /dev/block/platform/msm_sdcc.1/by-name/persist on ext4
+<4>[    7.751533] e2fsck 1.42.6 (21-Sep-2012)
+<4>[    7.758187] /dev/block/platform/msm_sdcc.1/by-name/persist: recovering journal
+<4>[    7.771738] /dev/block/platform/msm_sdcc.1/by-name/persist: clean, 12/512 files, 1063/2048 blocks
+<6>[    7.778452] EXT4-fs (mmcblk0p19): mounted filesystem with ordered data mode. Opts: noauto_da_alloc,discard,journal_async_commit,errors=panic
+<7>[    7.778513] SELinux: initialized (dev mmcblk0p19, type ext4), uses xattr
+<3>[    7.778666] init: Running /dev/block/platform/msm_sdcc.1/by-name/efs on ext4
+<4>[    7.782755] e2fsck 1.42.6 (21-Sep-2012)
+<4>[    7.788646] /dev/block/platform/msm_sdcc.1/by-name/efs: recovering journal
+<4>[    7.808911] /dev/block/platform/msm_sdcc.1/by-name/efs: clean, 53/880 files, 1125/3488 blocks
+<6>[    7.815962] EXT4-fs (mmcblk0p10): mounted filesystem with ordered data mode. Opts: noauto_da_alloc,discard,journal_async_commit,errors=panic
+<7>[    7.816023] SELinux: initialized (dev mmcblk0p10, type ext4), uses xattr
+<6>[    7.816450] FAT-fs (mmcblk0p1[179:1]): trying to mount...
+<6>[    7.826827] FAT-fs (mmcblk0p1[179:1]): mounted successfully!
+<7>[    7.826888] SELinux: initialized (dev mmcblk0p1, type vfat), uses genfs_contexts
+<6>[    7.832137] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: barrier=1
+<7>[    7.832168] SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+<3>[    7.832443] init: Running /dev/block/platform/msm_sdcc.1/by-name/persdata on ext4
+<4>[    7.836624] e2fsck 1.42.6 (21-Sep-2012)
+<4>[    7.840775] /dev/block/platform/msm_sdcc.1/by-name/persdata: recovering journal
+<4>[    7.861193] /dev/block/platform/msm_sdcc.1/by-name/persdata: clean, 19/768 files, 1104/3072 blocks
+<6>[    7.868060] EXT4-fs (mmcblk0p20): mounted filesystem with ordered data mode. Opts: barrier=1
+<7>[    7.868090] SELinux: initialized (dev mmcblk0p20, type ext4), uses xattr
+<7>[    7.877430] SELinux: 2048 avtab hash slots, 115483 rules.
+<7>[    7.927117] SELinux: 2048 avtab hash slots, 115483 rules.
+<7>[    7.927514] SELinux:  1 users, 2 roles, 805 types, 9 bools, 1 sens, 1024 cats
+<7>[    7.927544] SELinux:  84 classes, 115483 rules
+<6>[    8.019014] SELinux: Loaded policy from /sepolicy
+<6>[    8.019044] 
+<7>[    8.123485] [mtpg_open]	line = [478]
+<7>[    8.123515] [mtpg_release_device]	line = [1076]
+<7>[    8.123546] [mtpg_open]	line = [478]
+<7>[    8.123576] [mtpg_release_device]	line = [1076]
+<6>[    8.142347] bcm2079x-i2c 17-0077: dev node major=10, minor=28
+<6>[    8.142408] bcm2079x-i2c 17-0077: dev node major=10, minor=28
+<3>[    8.157424] init: failed to open '/sys/devices/soc0/soc_id'
+<3>[    8.157576] init: failed to open '/sys/devices/soc0/platform_version'
+<3>[    8.157790] init: failed to open '/sys/devices/soc0/hw_platform'
+<3>[    8.157912] init: Detected MSM SOC ID=154 SOC VER=65536 BOARD TYPE=Unknown
+<6>[    8.171463] bcm2079x-i2c 17-0077: dev node major=10, minor=28
+<6>[    8.171524] bcm2079x-i2c 17-0077: dev node major=10, minor=28
+<3>[    8.175034] healthd: wakealarm_init: timerfd_create failed
+<4>[    8.176865] healthd: BatteryCurrentAvgPath not found
+<4>[    8.176896] healthd: BatteryPowerSharingPath not found
+<4>[    8.176926] healthd: batteryPogoOnlnePath not found
+<6>[    8.176957] binder: 167:167 transaction failed 29189, size 0-0
+<3>[    8.188066] init: cannot find '/system/bin/sec-ril', disabling 'secril-daemon'
+<3>[    8.193926] init: cannot find '/system/bin/sensorhubservice', disabling 'sensorhubservice'
+<6>[    8.203723] Adding 1048572k swap on /dev/block/vnswap0.  Priority:-1 extents:1 across:1048572k SSFS
+<3>[    8.239615] init: cannot execve('/system/etc/install-recovery.sh'): Permission denied
+<3>[    8.241690] init: cannot find '/system/bin/rf4ce', disabling 'rf4ce'
+<3>[    8.241843] init: cannot find '/system/bin/qrngd', disabling 'qrngd'
+<3>[    8.258660] Unknown PM state 0
+<6>[    8.258751] (msm_serial_hs) msm_hs_startup - dma wake lock
+<6>[    8.259911] (msm_serial_hs) msm_hs_shutdown - dma wake unlock
+<3>[    8.259942] Unknown PM state 3
+<3>[    8.260125] Unknown PM state 0
+<6>[    8.260247] (msm_serial_hs) msm_hs_startup - dma wake lock
+<4>[    8.261315] msm_serial_hs: Rx break
+<6>[    8.261376] (msm_serial_hs) msm_hs_shutdown - dma wake unlock
+<3>[    8.261406] Unknown PM state 3
+<6>[    8.292965] warning: `rild' uses 32-bit capabilities (legacy support in use)
+<6>[    8.297756] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<4>[    8.297787] QSEECOM: qseecom_release: data->released == false
+<3>[    8.297817] QSEECOM: qseecom_release: Unsupported clnt_handle_type 4
+<6>[    8.305264] wcnss_wlan triggered by userspace
+<3>[    8.335479] Unknown PM state 0
+<6>[    8.335602] (msm_serial_hs) msm_hs_startup - dma wake lock
+<4>[    8.336761] msm_serial_hs: Rx break
+<6>[    8.337036] (msm_serial_hs) msm_hs_shutdown - dma wake unlock
+<3>[    8.337097] Unknown PM state 3
+<3>[    8.337250] Unknown PM state 0
+<6>[    8.337341] (msm_serial_hs) msm_hs_startup - dma wake lock
+<4>[    8.338562] msm_serial_hs: Rx break
+<6>[    8.338806] (msm_serial_hs) msm_hs_shutdown - dma wake unlock
+<3>[    8.338867] Unknown PM state 3
+<6>[    8.369876] pm_abs_time_management: pm_abs_time_management: Charging Time : 2 secs (rechg:0)
+<6>[    8.372409] get_prop_batt_status: get_prop_batt_status: check ui term (cnt:1)
+<6>[    8.373508] tsu6721_monitor lastINT[0][0] lastDev[4][0][2] currDev[4][0][2] callState[0][0]
+<6>[    8.373538] update_heartbeat: health(1),stat(1),chgen(1),fsm(7),cable(1),extchg(0)
+<6>[    8.374698] update_heartbeat: soc(100/100), v(4343661), i(-93300), temp(325), batt(1), absexpr(0), siop(100)
+<6>[    8.450144] npsmobex (184): undefined instruction: pc=b6e8d4e8
+<6>[    8.450175] connfwexe (188): undefined instruction: pc=b6e414e8
+<6>[    8.450206] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.450236] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.450816] installd (195): undefined instruction: pc=b6e554e8
+<6>[    8.450846] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.451335] log (202): undefined instruction: pc=b6e014e8
+<6>[    8.451335] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.451732] ls (199): undefined instruction: pc=b6e374e8
+<6>[    8.451762] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.452006] getprop (200): undefined instruction: pc=b6e054e8
+<6>[    8.452037] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.453532] getprop (201): undefined instruction: pc=b6e6a4e8
+<6>[    8.453563] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.461834] netd (180): undefined instruction: pc=b6ddc4e8
+<6>[    8.461864] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.462169] getprop (230): undefined instruction: pc=b6dcc4e8
+<6>[    8.462200] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.471814] chown (234): undefined instruction: pc=b6ec04e8
+<6>[    8.471875] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.471936] ls (231): undefined instruction: pc=b6e9d4e8
+<6>[    8.471967] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.478803] getprop (235): undefined instruction: pc=b6e5e4e8
+<6>[    8.478834] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.484449] chmod (236): undefined instruction: pc=b6e044e8
+<6>[    8.484480] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.484510] ls (237): undefined instruction: pc=b6e214e8
+<6>[    8.484541] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.502640] ls (240): undefined instruction: pc=b6eb24e8
+<6>[    8.502670] getprop (239): undefined instruction: pc=b6e3b4e8
+<6>[    8.502701] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.502731] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.513077] getprop (241): undefined instruction: pc=b6deb4e8
+<6>[    8.513108] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.520463] getprop (238): undefined instruction: pc=b6e434e8
+<6>[    8.520494] ls (242): undefined instruction: pc=b6e424e8
+<6>[    8.520524] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.520524] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.529436] ls (246): undefined instruction: pc=b6e344e8
+<6>[    8.529467] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.545978] ls (247): undefined instruction: pc=b6e8d4e8
+<6>[    8.546009] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.552601] ls (248): undefined instruction: pc=b6e854e8
+<6>[    8.552632] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.559438] ls (249): undefined instruction: pc=b6e164e8
+<6>[    8.559468] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.564138] getprop (245): undefined instruction: pc=b6e0d4e8
+<6>[    8.564169] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.566030] ls (250): undefined instruction: pc=b6dd04e8
+<6>[    8.566061] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.572897] ls (251): undefined instruction: pc=b6dd44e8
+<6>[    8.572928] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.579703] ls (252): undefined instruction: pc=b6e964e8
+<6>[    8.579734] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.586326] keystore (197): undefined instruction: pc=b6dc14e8
+<6>[    8.586357] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.586448] ls (253): undefined instruction: pc=b6e424e8
+<6>[    8.586479] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.598565] getprop (256): undefined instruction: pc=b6e314e8
+<6>[    8.598596] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.601007] ls (255): undefined instruction: pc=b6e2c4e8
+<6>[    8.601037] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.604791] log (244): undefined instruction: pc=b6e324e8
+<6>[    8.604822] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.608484] getprop (257): undefined instruction: pc=b6ea24e8
+<6>[    8.608515] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.614497] ls (258): undefined instruction: pc=b6e574e8
+<6>[    8.614527] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.623287] getprop (259): undefined instruction: pc=b6e7d4e8
+<6>[    8.623317] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.628872] ls (260): undefined instruction: pc=b6e104e8
+<6>[    8.628902] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.638699] getprop (261): undefined instruction: pc=b6e374e8
+<6>[    8.638730] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.642972] ls (262): undefined instruction: pc=b6e924e8
+<6>[    8.643003] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.660674] getprop (263): undefined instruction: pc=b6dd54e8
+<6>[    8.660705] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.677704] ls (264): undefined instruction: pc=b6e164e8
+<6>[    8.677735] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<4>[    8.678803] ueventd used greatest stack depth: 5304 bytes left
+<6>[    8.689272] ls (266): undefined instruction: pc=b6e684e8
+<6>[    8.689302] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.709629] getprop (265): undefined instruction: pc=b6e6f4e8
+<6>[    8.709659] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.720433] ls (268): undefined instruction: pc=b6e144e8
+<6>[    8.720463] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.741675] rild (185): undefined instruction: pc=b6b1a4e8
+<6>[    8.741706] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.754768] ls (269): undefined instruction: pc=b6e374e8
+<6>[    8.754799] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.781687] ls (270): undefined instruction: pc=b6e924e8
+<6>[    8.781718] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.811048] ls (272): undefined instruction: pc=b6ec94e8
+<6>[    8.811078] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.832809] ls (273): undefined instruction: pc=b6e254e8
+<6>[    8.832809] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.899984] ls (274): undefined instruction: pc=b6eb04e8
+<6>[    8.900015] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.955898] ls (275): undefined instruction: pc=b6e664e8
+<6>[    8.955928] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    8.967709] pil pil3: wcnss: Brought out of reset
+<6>[    8.974729] drmserver (193): undefined instruction: pc=b6b084e8
+<6>[    8.974759] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[    8.984251] init: property 'sys.powerctl' doesn't exist while expanding '${sys.powerctl}'
+<3>[    8.984404] init: powerctl: cannot expand '${sys.powerctl}'
+<3>[    8.984556] init: property 'sys.sysctl.extra_free_kbytes' doesn't exist while expanding '${sys.sysctl.extra_free_kbytes}'
+<3>[    8.984709] init: cannot expand '${sys.sysctl.extra_free_kbytes}' while writing to '/proc/sys/vm/extra_free_kbytes'
+<6>[    8.999450] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[    9.012086] sdcardfs version 2.0
+<6>[    9.012116] sdcardfs: dev_name -> /data/knox/sdcard
+<6>[    9.012147] sdcardfs: options -> uid=1000,gid=1000,wgid=1015
+<6>[    9.012299] sdcardfs: mounted on top of /data/knox/sdcard type ext4
+<7>[    9.012360] SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+<3>[    9.015412] init: cannot find '/system/bin/scranton_RD', disabling 'scranton_RD'
+<3>[    9.029207] init: cannot find '/system/bin/netmgrd', disabling 'netmgrd'
+<7>[    9.030611] usb: enable_store enabled=0, !dev->enabled=1
+<6>[    9.030642] usb:: ci13xxx_pullup is_active: 0
+<6>[    9.030642] usb:: hw_device_state dma: 0
+<6>[    9.030672] usb:: hw_device_state hw_read(CAP_USBINTR, ~0): 0
+<6>[    9.030703] usb:: hw_device_state hw_read(CAP_USBCMD, USBCMD_RS): 0
+<7>[    9.031008] usb: functions_store buff=mtp,acm,adb
+<7>[    9.031039] usb: android_enable_function name=mtp
+<7>[    9.031069] usb: android_enable_function name=acm
+<7>[    9.031069] usb: android_enable_function name=adb
+<7>[    9.031252] usb: enable_store enabled=1, !dev->enabled=1
+<7>[    9.031252] usb: enable_store f:mtp
+<7>[    9.031283] usb: enable_store f:acm
+<7>[    9.031313] usb: acm is enabled. (bcdDevice=0x400)
+<7>[    9.031313] usb: enable_store f:adb
+<7>[    9.031344] usb: enable_store vendor=4e8,product=6860,bcdDevice=400
+<7>[    9.031374] ,Class=0,SubClass=0,Protocol=0
+<7>[    9.031405] usb: enable_store next cmd : usb_add_config
+<4>[    9.040164] QSEECOM: qseecom_load_app: App (keymaste) does'nt exist, loading apps for first time
+<4>[    9.056340] QSEECOM: qseecom_load_app: App with id 1 (keymaste) now loaded
+<6>[    9.077277] sdcardfs version 2.0
+<6>[    9.077308] sdcardfs: dev_name -> /data/media
+<6>[    9.077338] sdcardfs: options -> uid=1023,gid=1023,wgid=1015,derive=legacy,reserved_mb=20
+<6>[    9.083320] ls (276): undefined instruction: pc=b6ecb4e8
+<6>[    9.083351] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.090065] sdcardfs: read_package_list
+<6>[    9.090157] sdcardfs: created packagelist pkgld/313
+<6>[    9.090248] sdcardfs: mounted on top of /data/media type ext4
+<7>[    9.090279] SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+<6>[    9.094918] log (310): undefined instruction: pc=b6dd44e8
+<6>[    9.094948] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.105325] adb_open
+<7>[    9.105325] usb: android_bind_enabled_functions f:mtp
+<7>[    9.105356] [mtpg_function_bind]	line = [1223]
+<7>[    9.105417] usb: android_bind_enabled_functions f:acm
+<6>[    9.111338] getprop (316): undefined instruction: pc=b6ea74e8
+<6>[    9.111368] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.116099] ls (314): undefined instruction: pc=b6e9e4e8
+<6>[    9.116099] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.122936] at_distributor (282): undefined instruction: pc=b6e584e8
+<6>[    9.122966] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[    9.133068] SELinux: 2048 avtab hash slots, 115541 rules.
+<6>[    9.149458] ls (320): undefined instruction: pc=b6dda4e8
+<6>[    9.149488] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.158339] secure_storage_ (305): undefined instruction: pc=b6e294e8
+<6>[    9.158370] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<4>[    9.168625] QSEECOM: qseecom_load_app: App (sshdcpap) does'nt exist, loading apps for first time
+<6>[    9.184434] healthd: battery l=100 v=4310 t=32.5 h=2 st=2 c=-118 o=4 ct=1 chg=u
+<6>[    9.196459] getprop (321): undefined instruction: pc=b6eaa4e8
+<6>[    9.196490] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.198473] ls (322): undefined instruction: pc=b6e9b4e8
+<6>[    9.198504] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<4>[    9.230428] QSEECOM: qseecom_load_app: App with id 2 (sshdcpap) now loaded
+<6>[    9.240195] ls (326): undefined instruction: pc=b6ec84e8
+<6>[    9.240225] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.252769] getprop (327): undefined instruction: pc=b6e4a4e8
+<6>[    9.252800] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[    9.266381] SELinux: 2048 avtab hash slots, 115541 rules.
+<7>[    9.266778] SELinux:  1 users, 2 roles, 805 types, 9 bools, 1 sens, 1024 cats
+<7>[    9.266809] SELinux:  84 classes, 115541 rules
+<6>[    9.271478] cnd (283): undefined instruction: pc=b6a374e8
+<6>[    9.271509] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.287807] ls (329): undefined instruction: pc=b6dfe4e8
+<6>[    9.287837] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.289943] wcnss_wlan_ctrl_probe: SMD ctrl channel up
+<6>[    9.290187] wcnss: version 01040102
+<6>[    9.290218] wcnss: schedule dnld work for riva
+<6>[    9.290248] wcnss: NV download
+<6>[    9.297604] setprop (328): undefined instruction: pc=b6e6e4e8
+<6>[    9.297634] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.304349] ls (330): undefined instruction: pc=b6de84e8
+<6>[    9.304379] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.310331] setprop (332): undefined instruction: pc=b6ea24e8
+<6>[    9.310361] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.346619] ls (333): undefined instruction: pc=b6ea84e8
+<6>[    9.346650] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.365908] setprop (334): undefined instruction: pc=b6e3d4e8
+<6>[    9.365939] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.371097] wcnss: NV bin size: 29772, total_fragments: 10
+<3>[    9.371127] wcnss: no space available for smd frame
+<6>[    9.393834] setprop (336): undefined instruction: pc=b6de14e8
+<6>[    9.393865] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[    9.395147] wcnss: no space available for smd frame
+<6>[    9.400122] ls (335): undefined instruction: pc=b6e314e8
+<6>[    9.400152] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.420570] ls (338): undefined instruction: pc=b6eb64e8
+<6>[    9.420601] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[    9.425057] wcnss: no space available for smd frame
+<6>[    9.426308] setprop (339): undefined instruction: pc=b6e2d4e8
+<6>[    9.426339] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.442148] ls (340): undefined instruction: pc=b6dd04e8
+<6>[    9.442179] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[    9.455089] wcnss: no space available for smd frame
+<6>[    9.457866] ls (342): undefined instruction: pc=b6e5f4e8
+<6>[    9.457897] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.474072] ls (343): undefined instruction: pc=b6e484e8
+<6>[    9.474072] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.516587] ls (345): undefined instruction: pc=b6e1d4e8
+<6>[    9.516618] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.527117] setprop (341): undefined instruction: pc=b6de14e8
+<6>[    9.527147] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.533404] avc:  received policyload notice (seqno=3)
+<6>[    9.533435] 
+<6>[    9.550984] ls (347): undefined instruction: pc=b6e574e8
+<6>[    9.551014] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.567465] setprop (348): undefined instruction: pc=b6e114e8
+<6>[    9.567495] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.590965] ls (351): undefined instruction: pc=b6e914e8
+<6>[    9.590996] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.592186] app_process (192): undefined instruction: pc=b65354e8
+<6>[    9.592217] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.594292] vold (169): undefined instruction: pc=b6da64e8
+<6>[    9.594323] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.606897] setprop (352): undefined instruction: pc=b6e044e8
+<6>[    9.606928] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.618495] toolbox (353): undefined instruction: pc=b6e764e8
+<6>[    9.618525] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.624965] ls (354): undefined instruction: pc=b6e1d4e8
+<6>[    9.625026] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.625148] EXT4-fs (mmcblk0p21): re-mounted. Opts: (null)
+<6>[    9.632382] setprop (355): undefined instruction: pc=b6eaa4e8
+<6>[    9.632412] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.651670] toolbox (356): undefined instruction: pc=b6e144e8
+<6>[    9.651701] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.665618] setprop (358): undefined instruction: pc=b6e254e8
+<6>[    9.665649] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.675660] ls (357): undefined instruction: pc=b6e084e8
+<6>[    9.675660] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.708103] toolbox (360): undefined instruction: pc=b6dde4e8
+<6>[    9.708133] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.714512] ls (361): undefined instruction: pc=b6de94e8
+<6>[    9.714542] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.715336] setprop (359): undefined instruction: pc=b6ea24e8
+<6>[    9.715367] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.723454] ls (363): undefined instruction: pc=b6e5a4e8
+<6>[    9.723485] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.736761] toolbox (362): undefined instruction: pc=b6de64e8
+<6>[    9.736792] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.742987] log (364): undefined instruction: pc=b6e244e8
+<6>[    9.743018] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.760354] toolbox (365): undefined instruction: pc=b6e134e8
+<6>[    9.760384] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.770151] toolbox (366): undefined instruction: pc=b6e644e8
+<6>[    9.770181] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.780528] ls (367): undefined instruction: pc=b6eb34e8
+<6>[    9.780558] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.786235] toolbox (368): undefined instruction: pc=b6e5c4e8
+<6>[    9.786265] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.786906] gsiff_daemon (288): undefined instruction: pc=b64724e8
+<6>[    9.786937] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.822768] toolbox (370): undefined instruction: pc=b6e7d4e8
+<6>[    9.822798] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.832229] EXT4-fs (mmcblk0p21): re-mounted. Opts: (null)
+<6>[    9.834762] ls (369): undefined instruction: pc=b6e344e8
+<6>[    9.834793] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.863543] toolbox (373): undefined instruction: pc=b6e854e8
+<6>[    9.863573] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.870044] ls (374): undefined instruction: pc=b6e4b4e8
+<6>[    9.870074] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.879322] toolbox (375): undefined instruction: pc=b6e5e4e8
+<6>[    9.879352] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.879871] EXT4-fs (mmcblk0p21): re-mounted. Opts: (null)
+<6>[    9.881855] ls (376): undefined instruction: pc=b6ec84e8
+<6>[    9.881886] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.888325] toolbox (377): undefined instruction: pc=b6e7a4e8
+<6>[    9.888356] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.894826] ls (378): undefined instruction: pc=b6e454e8
+<6>[    9.894857] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.900106] toolbox (379): undefined instruction: pc=b6dd24e8
+<6>[    9.900137] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.906790] toolbox (380): undefined instruction: pc=b6ebb4e8
+<6>[    9.906821] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.912650] toolbox (382): undefined instruction: pc=b6de54e8
+<6>[    9.912711] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.919456] toolbox (383): undefined instruction: pc=b6e8d4e8
+<6>[    9.919487] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.939996] toolbox (384): undefined instruction: pc=b6e844e8
+<6>[    9.940027] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[    9.940729] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[    9.941584] ls (381): undefined instruction: pc=b6e934e8
+<6>[    9.941614] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.946925] toolbox (385): undefined instruction: pc=b6e794e8
+<6>[    9.946955] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.953761] ls (386): undefined instruction: pc=b6e054e8
+<6>[    9.953792] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[    9.970517] ls (388): undefined instruction: pc=b6e7c4e8
+<6>[    9.970547] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.010773] ls (390): undefined instruction: pc=b6ec84e8
+<6>[   10.010804] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.032229] ls (392): undefined instruction: pc=b6eab4e8
+<6>[   10.032260] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.050358] app_process (192): undefined instruction: pc=40b394e8
+<6>[   10.050389] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.065862] ls (393): undefined instruction: pc=b6def4e8
+<6>[   10.065893] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.072272] ls (394): undefined instruction: pc=b6e504e8
+<6>[   10.072302] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.078620] ls (395): undefined instruction: pc=b6e224e8
+<6>[   10.078650] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.085121] ls (396): undefined instruction: pc=b6e8a4e8
+<6>[   10.085151] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.091500] ls (397): undefined instruction: pc=b6df84e8
+<6>[   10.091530] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.097878] ls (398): undefined instruction: pc=b6e4a4e8
+<6>[   10.097909] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.104288] ls (399): undefined instruction: pc=b6ea04e8
+<6>[   10.104318] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.110697] ls (400): undefined instruction: pc=b6e514e8
+<6>[   10.110727] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.120830] pil pil0: q6: Brought out of reset
+<6>[   10.123668] ls (401): undefined instruction: pc=b6eb54e8
+<6>[   10.123699] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.135418] ls (403): undefined instruction: pc=b6e314e8
+<6>[   10.135449] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.152754] ls (405): undefined instruction: pc=b6e924e8
+<6>[   10.152784] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.158248] apr_tal:Q6 Is Up
+<6>[   10.168930] ls (409): undefined instruction: pc=b6e034e8
+<6>[   10.168960] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   10.170212] diag: proc 1, msg mask update fail -12, tried 419
+<6>[   10.176743] ls (411): undefined instruction: pc=b6e0a4e8
+<6>[   10.176773] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.184556] ls (412): undefined instruction: pc=b6de64e8
+<6>[   10.184617] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.192980] ls (413): undefined instruction: pc=b6ded4e8
+<6>[   10.193010] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.200061] ls (415): undefined instruction: pc=b6dee4e8
+<6>[   10.200091] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.207080] ls (417): undefined instruction: pc=b6e924e8
+<6>[   10.207111] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.213856] ls (421): undefined instruction: pc=b6e594e8
+<6>[   10.213886] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.223317] ls (423): undefined instruction: pc=b6e1b4e8
+<6>[   10.223348] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.230978] chown (426): undefined instruction: pc=b6ead4e8
+<6>[   10.231008] ls (427): undefined instruction: pc=b6ea94e8
+<6>[   10.231039] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.231069] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.238394] chmod (430): undefined instruction: pc=b6e7c4e8
+<6>[   10.238425] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.238486] ls (429): undefined instruction: pc=b6dfc4e8
+<6>[   10.238516] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.245994] ln (431): undefined instruction: pc=b6ea14e8
+<6>[   10.246024] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.248741] ls (432): undefined instruction: pc=b6e264e8
+<6>[   10.248771] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.258202] ls (435): undefined instruction: pc=b6e074e8
+<6>[   10.258232] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.268640] ls (440): undefined instruction: pc=b6e3b4e8
+<6>[   10.268701] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.275782] ls (442): undefined instruction: pc=b6e534e8
+<6>[   10.275812] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.282313] ls (443): undefined instruction: pc=b6df94e8
+<6>[   10.282343] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.291408] touch (444): undefined instruction: pc=b6e564e8
+<6>[   10.291439] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   10.406592] pil pil1: modem_fw: Brought out of reset
+<6>[   11.101480] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[   11.465038] msm_thermal: Debug Temp for Sensors (0 --- 44)(1 --- 45)(2 --- 41)(3 --- 39)(4 --- 39)(5 --- 39)(6 --- 46)(7 --- 40)(8 --- 41)(9 --- 51)
+<6>[   11.802441] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[   12.395238] pil pil2: modem: Brought out of reset
+<3>[   12.395391] smd_tty_open: DS open failed -19
+<7>[   12.395482] pil_put: modem::pil->count[2]
+<7>[   12.395513] pil_put: modem_fw::pil->count[2]
+<7>[   12.395544] pil_put: q6::pil->count[3]
+<6>[   12.395788] DUN is registerd
+<7>[   12.395818] usb: android_bind_enabled_functions f:adb
+<6>[   12.395849] usb:: ci13xxx_pullup is_active: 1
+<6>[   12.395879] usb:: hw_device_state dma: a71be000
+<6>[   12.395910] usb:: hw_device_state hw_read(CAP_ENDPTLISTADDR, ~0): a71be000
+<6>[   12.395940] usb:: hw_device_state hw_read(CAP_USBINTR, ~0): 147
+<6>[   12.395971] usb:: hw_device_state hw_read(CAP_USBCMD, USBCMD_RS): 1
+<6>[   12.399694] alarm_set_rtc: Failed to set RTC, time will be lost on reboot
+<6>[   12.430703] ls (456): undefined instruction: pc=b6e9a4e8
+<6>[   12.430734] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   12.435464] init: untracked pid 389 exited
+<6>[   12.452128] getprop (455): undefined instruction: pc=b6ddc4e8
+<6>[   12.456157] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<4>[   12.467327] QSEECOM: qseecom_load_app: App (sec_stor) does'nt exist, loading apps for first time
+<6>[   12.480604] getprop (470): undefined instruction: pc=b6dce4e8
+<6>[   12.480634] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   12.503189] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[   12.508988] getprop (471): undefined instruction: pc=b6e3b4e8
+<6>[   12.508988] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   12.529528] start (473): undefined instruction: pc=b6eb04e8
+<6>[   12.529558] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   12.533312] init: cannot find '/system/bin/quipc_igsn', disabling 'quipc_igsn'
+<4>[   12.535144] QSEECOM: qseecom_load_app: App with id 3 (sec_stor) now loaded
+<4>[   12.535449] QSEECOM: qseecom_unload_app: App id 2 now unloaded
+<6>[   12.569845] start (474): undefined instruction: pc=b6dcd4e8
+<6>[   12.569876] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   12.577018] init: cannot find '/system/bin/quipc_main', disabling 'quipc_main'
+<6>[   12.624874] start (478): undefined instruction: pc=b6e334e8
+<6>[   12.624904] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   12.625423] init: cannot find '/system/bin/location-mq', disabling 'location_mq'
+<6>[   12.653593] start (481): undefined instruction: pc=b6e144e8
+<6>[   12.653624] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   12.658141] init: cannot find '/system/bin/lowi-server', disabling 'lowi-server'
+<6>[   12.694704] surfaceflinger (191): undefined instruction: pc=b63bd4e8
+<6>[   12.694735] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   12.704196] chown (484): undefined instruction: pc=b6dfc4e8
+<6>[   12.704227] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   12.746192] chmod (486): undefined instruction: pc=b6e1b4e8
+<6>[   12.746223] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   12.756386] mkdir (490): undefined instruction: pc=b6ec34e8
+<6>[   12.756416] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   12.774057] chown (492): undefined instruction: pc=b6e824e8
+<6>[   12.774088] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   12.784983] usb:: isr_reset_handler udc: dfaec000
+<7>[   12.785014] usb: composite_disconnect
+<7>[   12.785045] usb: android_disconnect cable state (1)
+<7>[   12.785106] usb: android_work config=  (null),connected=0,sw_connected=0
+<6>[   12.785136] android_work: android_work: did not send uevent (0 0   (null))
+<6>[   12.808545] chmod (496): undefined instruction: pc=b6e1d4e8
+<6>[   12.808576] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   12.831222] start (499): undefined instruction: pc=b6e064e8
+<6>[   12.831252] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   12.835098] init: cannot find '/system/bin/battery_monitor', disabling 'battery_monitor'
+<7>[   12.854906] usb: GET_DES
+<7>[   12.855363] usb: android_work config=  (null),connected=1,sw_connected=0
+<6>[   12.855486] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[   12.858843] usb:: isr_reset_handler udc: dfaec000
+<7>[   12.858873] usb: composite_disconnect
+<7>[   12.858904] usb: android_disconnect cable state (1)
+<7>[   12.858965] usb: android_work config=  (null),connected=0,sw_connected=1
+<6>[   12.859087] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<7>[   12.946467] usb: GET_DES
+<7>[   12.946558] usb: android_work config=  (null),connected=1,sw_connected=0
+<6>[   12.946680] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<7>[   12.946772] usb: set_config_number single config
+<7>[   12.946802] usb: set_interface_count next_interface_id=4
+<7>[   12.947138] usb: set_config_number single config
+<7>[   12.947169] usb: set_interface_count next_interface_id=4
+<6>[   12.948756] android_usb gadget: high-speed config #1: android_usb
+<7>[   12.948847] usb: SET_CON
+<7>[   12.948908] usb: android_work config=df27c680,connected=1,sw_connected=1
+<7>[   12.957240] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[   13.005402] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<6>[   13.017610] mdp_bus_scale_restore_request: ab=3080000000 ib=3080000000
+<6>[   13.017701] mdp_bus_scale_restore_request: ab=3080000000 ib=3080000000
+<3>[   13.029116] Notify: smsm init
+<6>[   13.045475] mipi_dsi_controller_cfg: DSI status=3020202 failed
+<6>[   13.075415] mipi_dsi_controller_cfg: FIFO status=3020202 failed
+<4>[   13.120463] ************active_reset**************
+<6>[   13.197436] active_reset: DISP_RST_GPIO high
+<6>[   13.203235] mediaserver (194): undefined instruction: pc=b6ad34e8
+<6>[   13.203265] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   13.204486] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[   13.212513] mipi_samsung_disp_on
+<6>[   13.212513] mipi_samsung_disp_send_cmd cmd = 0x7
+<6>[   13.225484] mipi_samsung_manufacture_id: manufacture_id1=20
+<6>[   13.225606] mipi_samsung_manufacture_id: manufacture_id2=80
+<6>[   13.225698] mipi_samsung_manufacture_id: manufacture_id3=7
+<6>[   13.225728] mipi_samsung_manufacture_id: manufacture_id=208007
+<6>[   13.225759] cmd_set_change : ldi_rev : G 
+<6>[   13.226491] read_reg : C8[33] : 00 2a 00 41 00 48 .61 5f 61 5e 5b 5e .4f 4b 50 57 53 57 .65 63 66 62 5f 64 .5e 5a 5e 49 52 69 .02 03 02 00 00 00 .
+<6>[   13.226918] read_reg : B5[16] : 01 2d 01 2f 01 2d .04 0b 94 0c 6e 36 .0a 7a 7b 7c 00 00 .
+<6>[   13.227254] read_reg : B6[12] : 7b 7b 7b 79 79 79 .7c 7c 7d 7f 7f 7f .
+<6>[   13.227437] read_reg : B6[1] : 12 14 aa 64 2a 03 .
+<6>[   13.227468] coordinate_tunning x : 2964, y : 3182, tune_number : 5
+<6>[   13.227498] gamma_cell_determine ldi_revision: 0x208007
+<6>[   13.227590] generate_gray_scale end
+<6>[   13.228261] [lcd] mipi_samsung_disp_on
+<6>[   13.228414] mipi_samsung_disp_send_cmd cmd = 0x2
+<6>[   13.312162] dbgd (557): undefined instruction: pc=b6dfe4e8
+<6>[   13.312192] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   13.337066] init: untracked pid 558 exited
+<3>[   13.398199] smd_tty_open: DS open failed -19
+<7>[   13.398229] pil_put: modem::pil->count[6]
+<7>[   13.398260] pil_put: modem_fw::pil->count[6]
+<7>[   13.398260] pil_put: q6::pil->count[7]
+<6>[   13.407080] bootanimation (531): undefined instruction: pc=b65164e8
+<6>[   13.407111] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   13.495009] [mipi_samsung_late_init] ID : 0x208007
+<3>[   13.495009] [mdnie lite] is negative Mode On = 0
+<3>[   13.495040] [mdnie lite] negative off when resume, tuning again!
+<3>[   13.495070] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+<3>[   13.495101] [mdnie lite]  = UI MODE =
+<3>[   13.495101] [mdnie lite]  = STANDARD MODE =
+<3>[   13.495131] [mdnie lite]  send tuning cmd!!
+<3>[   13.528338] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+<6>[   13.529223] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: 1
+<6>[   13.575431] samsungpowersou (532): undefined instruction: pc=b6b344e8
+<6>[   13.575461] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   13.748237] !@Boot: beginofpreloadResources()
+<6>[   13.751258] !@Boot: beginofpreloadClasses()
+<6>[   13.828536] msm8930_i2s_enable: clk_set_rate rx_osr rtn = 0, rate = 23040000
+<6>[   13.830795] apr_tal: SMD_EVENT_OPEN
+<6>[   13.836014] tapan_hw_params: dai_name = tapan_i2s_rx1 DAI-ID 0 rate 48000 num_ch 1
+<3>[   13.946314] init: sys_prop: permission denied uid:1013  name:audio.country
+<4>[   14.023714] mdp4_overlay_borderfill_stage_up mixer(0) start
+<4>[   14.023744] mdp4_overlay_borderfill_stage_up mixer(0) end
+<3>[   14.240988] diag: proc 0, msg mask update fail -12, tried 419
+<3>[   14.399450] smd_tty_open: DS open failed -19
+<7>[   14.399572] pil_put: modem::pil->count[10]
+<7>[   14.399603] pil_put: modem_fw::pil->count[10]
+<7>[   14.399633] pil_put: q6::pil->count[12]
+<6>[   14.600671] apr_tal:Modem Is Up
+<6>[   15.119700] !@Boot: End of preloadResources()
+<6>[   15.218556] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 59080000
+<6>[   15.221852] !@prldclss2: 728 classes in 1396ms.
+<3>[   15.399908] smd_tty_open: DS open failed -19
+<7>[   15.399969] pil_put: modem::pil->count[10]
+<7>[   15.399999] pil_put: modem_fw::pil->count[10]
+<7>[   15.400030] pil_put: q6::pil->count[12]
+<6>[   15.489363] !@prldclss1: 690 classes in 1669ms.
+<6>[   15.965725] !@prldclssM: 1459 classes in 2139ms.
+<6>[   16.265740] msm_ta_detect_work 2109: msm_ta_detect_work: USB exit ta detection - frindex
+<6>[   16.372165] !@Boot: EndofpreloadClasses()
+<6>[   16.388005] sps:BAM 0x124c2000 is registered.
+<6>[   16.388737] sps:BAM 0x124c2000 enabled: ver:0x5, number of pipes:6
+<6>[   16.475751] msm_thermal: Debug Temp for Sensors (0 --- 48)(1 --- 48)(2 --- 44)(3 --- 41)(4 --- 42)(5 --- 41)(6 --- 52)(7 --- 43)(8 --- 43)(9 --- 54)
+<6>[   16.537768] msm8930_i2s_enable: clk_set_rate rx_osr rtn = 0, rate = 23040000
+<6>[   16.540119] apr_tal: SMD_EVENT_OPEN
+<6>[   16.542896] tapan_hw_params: dai_name = tapan_i2s_rx1 DAI-ID 0 rate 48000 num_ch 1
+<3>[   16.551747] ACDB=> get_hw_delay Invalid delay/ delay entries
+<3>[   16.551869] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+<6>[   16.555623] msm8930_mclk_event: event = 1
+<6>[   17.069128] !@Boot: Start initAndLoop
+<6>[   18.269586] !@Boot: Start PackageManagerService
+<6>[   19.305783] wcnss_post_bootup: Cancel APPS vote for Iris & Riva
+<6>[   21.358705] sdcardfs: inotify event: 00000400
+<6>[   21.358736] sdcardfs: inotify event: 00008000
+<6>[   21.358950] sdcardfs: read_package_list
+<3>[   21.435403] init: sys_prop: permission denied uid:1013  name:audioflinger.bootsnd
+<7>[   21.436197] TX UART: 0d 0a 2b 55 41 52 54 20 52 45 41 44 59 0d 0a     ..+UART READY..
+<6>[   21.460369] !@Boot: End PackageManagerService
+<6>[   21.485731] msm_thermal: Debug Temp for Sensors (0 --- 48)(1 --- 48)(2 --- 44)(3 --- 41)(4 --- 43)(5 --- 41)(6 --- 52)(7 --- 43)(8 --- 43)(9 --- 54)
+<6>[   21.647215] !@ USE_STATIC_LIGHTS_HAL
+<6>[   21.647215] 
+<6>[   21.647245] !@ lights hal name : Samsung lights Module
+<6>[   21.647276] 
+<6>[   21.647276] !@ initialize_fds : g_lights_file_paths[0][0] : /sys/class/leds/lcd-backlight/brightness 
+<6>[   21.647306] 
+<6>[   21.647428] !@ initialize_fds : FOUND! : 0x6f
+<6>[   21.647428] 
+<6>[   21.647459] !@ initialize_fds : g_lights_file_paths[1][0] : /sys/class/sec/sec_touchkey/brightness 
+<6>[   21.647489] 
+<6>[   21.647550] !@ initialize_fds : g_lights_file_paths[1][1] : /sys/class/leds/button-backlight/brightness 
+<6>[   21.647581] 
+<6>[   21.647672] !@ initialize_fds : FOUND! : 0x70
+<6>[   21.647672] 
+<6>[   21.647703] !@ initialize_fds : g_lights_file_paths[2][0] : /sys/class/sec/sec_keypad/brightness 
+<6>[   21.647733] 
+<6>[   21.647764] !@ initialize_fds : g_lights_file_paths[2][1] : /sys/class/leds/keyboard-backlight/brightness 
+<6>[   21.647825] 
+<6>[   21.647855] !@ initialize_fds : g_lights_file_paths[2][2] : (null) 
+<6>[   21.647886] 
+<6>[   21.647886] !@ initialize_fds : g_lights_file_paths[3][0] : /sys/class/sec/led/led_pattern 
+<6>[   21.647916] 
+<6>[   21.647978] !@ initialize_fds : g_lights_file_paths[3][1] : (null) 
+<6>[   21.648008] 
+<6>[   21.648008] !@ initialize_fds : g_lights_file_paths[4][0] : /sys/class/sec/led/led_blink 
+<6>[   21.648039] 
+<6>[   21.648100] !@ initialize_fds : g_lights_file_paths[4][1] : (null) 
+<6>[   21.648100] 
+<6>[   21.668365] healthd: battery l=100 v=4349 t=32.7 h=2 st=2 c=81 o=4 ct=1 chg=u
+<4>[   21.673950] [VIB] OFF
+<4>[   21.673981] [VIB] timed_vibrator_off
+<6>[   21.707797] request_suspend_state: wakeup (3->0) at 21702125501 (2014-01-01 03:48:36.307460733 UTC)
+<6>[   21.707889] !@[s] Selected early suspend
+<6>[   21.707889] 
+<6>[   21.707981] !@[s] wait_for_fb_wake : 0 (0, 0) +
+<6>[   21.708011] 
+<6>[   21.708042] wait_for_fb_wake_show, fb_state : 2 ++
+<6>[   21.708042] wait_for_fb_wake_show, fb_state : 2 --
+<6>[   21.708103] !@[s] wait_for_fb_wake : 0 (1, 0) -
+<6>[   21.708103] 
+<6>[   21.708255] !@[s] unblankAllDisplays() : unblankAllDisplaysFromPowerManager
+<6>[   21.713779] !@[s] wait_for_fb_sleep : 0 (0, 0) +
+<6>[   21.713779] 
+<6>[   21.713810] wait_for_fb_sleep_show, fb_state : 2 ++
+<3>[   21.968289] accel_open_calibration: Can't open calibration file
+<6>[   21.968411] mpu6500_input_accel_enable_store : enable = 1
+<6>[   21.989134] mpu6500_input_accel_delay_store : delay = 66
+<6>[   22.050694] !@Ignoring sensor_device, nodeNumber: 6, deviceName: light_sensor
+<6>[   22.050724] 
+<6>[   22.050816] !@Ignoring sensor_device, nodeNumber: 5, deviceName: proximity_sensor
+<6>[   22.050816] 
+<4>[   22.131481] lowmem_shrink: convert oom_adj to oom_score_adj:
+<4>[   22.131512] oom_adj 0 => oom_score_adj 0
+<4>[   22.131512] oom_adj 1 => oom_score_adj 58
+<4>[   22.131542] oom_adj 2 => oom_score_adj 117
+<4>[   22.131573] oom_adj 3 => oom_score_adj 176
+<4>[   22.131573] oom_adj 9 => oom_score_adj 529
+<4>[   22.131603] oom_adj 15 => oom_score_adj 1000
+<6>[   22.148420] Atmel MXT336S 3-004a: cmd = clear_cover_mode
+<6>[   22.148451] Atmel MXT336S 3-004a: cmd param 0= 0
+<3>[   22.148481] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+<6>[   22.610010] sdcardfs: inotify event: 00000400
+<6>[   22.610163] sdcardfs: inotify event: 00008000
+<6>[   22.610224] sdcardfs: read_package_list
+<7>[   23.462658] usb: state_show buf=CONFIGURED
+<6>[   23.463879] acc_open
+<6>[   23.463909] acc_release
+<6>[   23.661345] chmod (1080): undefined instruction: pc=401e44e8
+<6>[   23.661376] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<4>[   23.752784] [VIB] OFF
+<4>[   23.752815] [VIB] timed_vibrator_off
+<4>[   23.753212] [VIB] ON
+<4>[   23.753242] [VIB] Duration : 50 msec
+<4>[   23.753242] [VIB] timed_vibrator_on
+<4>[   23.755775] [VIB] OFF
+<4>[   23.755806] [VIB] timed_vibrator_off
+<6>[   23.967984] mipi_samsung_auto_brightness_store : skip first auto brightness store (0) (0)!!
+<6>[   23.972623] !@[s] unblankAllDisplays() : unblankAllDisplaysFromPowerManager
+<6>[   24.011841] brightness_control mipi_pd.brightness_level : 0 candela : 300
+<6>[   24.011872] mipi_samsung_disp_send_cmd cmd = 0x6
+<6>[   24.044651] mipi_samsung_disp_backlight 255
+<6>[   24.587730] msm8930_mclk_event: event = 8
+<6>[   24.626522] !@Sync 0
+<6>[   25.089699] !@ mBooting is set true!
+<6>[   25.112284] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[   25.170822] !@Boot: End initAndLoop
+<6>[   25.812849] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<4>[   26.043827] [VIB] OFF
+<4>[   26.043827] [VIB] timed_vibrator_off
+<6>[   26.173111] __pm8921_charger_vbus_draw: __pm8921_charger_vbus_draw: vbus is changed (0)--------
+<3>[   26.173203] pm_chg_usb_trim: trim_orig 40 write 0x28 index=0 value 0x0 to USB_OVP_TRIM
+<6>[   26.173386] sec_bat_store_attrs: sec_bat_store_attrs : SIOP level to 0(0mA)
+<6>[   26.217030] healthd: battery l=100 v=4219 t=32.8 h=2 st=2 c=-622 o=4 ct=0 chg=u
+<6>[   26.225820] handle_usb_insertion_removal: handle_usb_insertion_removal : usb_present(1)
+<6>[   26.495742] msm_thermal: Debug Temp for Sensors (0 --- 52)(1 --- 49)(2 --- 44)(3 --- 42)(4 --- 43)(5 --- 43)(6 --- 57)(7 --- 43)(8 --- 44)(9 --- 63)
+<6>[   27.025576] bcm2079x-i2c 17-0077: dev node major=10, minor=28
+<6>[   27.025637] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: got wake lock
+<6>[   27.025667] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 0):
+<6>[   27.025728] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_POWER_CTL (fa01, 0):
+<6>[   27.036746] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_POWER_CTL (fa01, 1):
+<6>[   27.297970] mpu6500_input_accel_delay_store : delay = 66
+<6>[   27.332122] mpu6500_input_accel_delay_store : delay = 66
+<6>[   27.546253] mpu6500_input_accel_delay_store : delay = 66
+<6>[   27.814527] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: got wake lock
+<6>[   27.814558] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 0):
+<6>[   28.644407] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 1):
+<6>[   28.644468] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: release wake lock, count_irq = 0
+<6>[   28.677399] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: got wake lock
+<6>[   28.677430] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 0):
+<6>[   28.714176] pm8921-charger pm8921-charger: sec_bat_event_set: ignore duplicated deactivation of same event
+<6>[   28.716618] !@call fb1: post finishBooting() with 1000msec delay
+<6>[   28.723027] !@Boot: Enabling Screen!
+<6>[   28.747474] auditd (1870): undefined instruction: pc=b6e824e8
+<6>[   28.747504] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.753731] freshsebool (1871): undefined instruction: pc=b6e1d4e8
+<6>[   28.753761] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.772195] ln (1876): undefined instruction: pc=b6e534e8
+<6>[   28.772226] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.787761] ln (1877): undefined instruction: pc=b6e3c4e8
+<6>[   28.787791] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.798138] ln (1880): undefined instruction: pc=b6e604e8
+<6>[   28.798168] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.809705] ln (1881): undefined instruction: pc=b6de34e8
+<6>[   28.809735] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.816542] ln (1882): undefined instruction: pc=b6e394e8
+<6>[   28.816572] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.823805] ln (1884): undefined instruction: pc=b6e504e8
+<6>[   28.823836] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.831222] ln (1885): undefined instruction: pc=b6eab4e8
+<6>[   28.831252] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.840744] ln (1886): undefined instruction: pc=b6de54e8
+<6>[   28.840775] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.848954] ln (1887): undefined instruction: pc=b6e394e8
+<6>[   28.848985] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.860003] ln (1888): undefined instruction: pc=b6e9b4e8
+<6>[   28.860033] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.871295] ln (1889): undefined instruction: pc=b6ea14e8
+<6>[   28.871326] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.926598] chown (1894): undefined instruction: pc=b6e374e8
+<6>[   28.926598] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.935602] chown (1897): undefined instruction: pc=b6e474e8
+<6>[   28.935632] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.949580] chown (1898): undefined instruction: pc=b6dd64e8
+<6>[   28.949610] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   28.959743] chown (1904): undefined instruction: pc=b6e504e8
+<6>[   28.959774] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.066168] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 1):
+<6>[   29.066198] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: release wake lock, count_irq = 0
+<4>[   29.421028] Loc_hal_worker used greatest stack depth: 5272 bytes left
+<7>[   29.656737] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   29.656767] 
+<6>[   29.806806] getprop (2055): undefined instruction: pc=b6eb74e8
+<6>[   29.806867] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   29.812696] msm_pm_mode_attr_store: spc is blocked (1) from [sh]
+<3>[   29.812879] msm_pm_mode_attr_store: spc is blocked (2) from [sh]
+<6>[   29.813276] msm_thermal: Core control disabled
+<6>[   29.820845] chown (2056): undefined instruction: pc=b6e6d4e8
+<6>[   29.820906] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.842667] chown (2058): undefined instruction: pc=b6e4d4e8
+<6>[   29.842697] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.858415] chown (2060): undefined instruction: pc=b6e4e4e8
+<6>[   29.858446] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.865374] chown (2062): undefined instruction: pc=b6e1a4e8
+<6>[   29.865405] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.873065] chown (2063): undefined instruction: pc=b6e5d4e8
+<6>[   29.873096] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.879780] chown (2064): undefined instruction: pc=b6e504e8
+<6>[   29.879810] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.887685] chown (2065): undefined instruction: pc=b6e974e8
+<6>[   29.887715] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.900656] chown (2066): undefined instruction: pc=b6e794e8
+<6>[   29.900686] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.910758] chown (2067): undefined instruction: pc=b6e674e8
+<6>[   29.910788] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.926751] chown (2068): undefined instruction: pc=b6e4f4e8
+<6>[   29.926781] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.927330] !@Boot: bootcomplete
+<6>[   29.937677] chown (2070): undefined instruction: pc=b6eb14e8
+<6>[   29.937707] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.945521] chown (2071): undefined instruction: pc=b6e0e4e8
+<6>[   29.945551] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.952235] chown (2075): undefined instruction: pc=b6dfd4e8
+<6>[   29.952266] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.958828] chmod (2076): undefined instruction: pc=b6e494e8
+<6>[   29.958858] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.965328] chmod (2077): undefined instruction: pc=b6dfa4e8
+<6>[   29.965359] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.972562] chmod (2078): undefined instruction: pc=b6e554e8
+<6>[   29.972592] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.979429] chmod (2079): undefined instruction: pc=b6de94e8
+<6>[   29.979459] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.981596] msm_thermal: Core control enabled
+<6>[   29.987517] chown (2080): undefined instruction: pc=b6e7f4e8
+<6>[   29.987547] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   29.994109] chmod (2081): undefined instruction: pc=b6e134e8
+<6>[   29.994140] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.000763] chown (2082): undefined instruction: pc=b6de64e8
+<6>[   30.000793] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.007324] chown (2083): undefined instruction: pc=b6e704e8
+<6>[   30.007355] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.014253] chown (2084): undefined instruction: pc=b6dcd4e8
+<6>[   30.014283] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.016114] Atmel MXT336S 3-004a: T72 MSG: 10 02 13 
+<6>[   30.021059] chmod (2085): undefined instruction: pc=b6eca4e8
+<6>[   30.021089] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.027865] chmod (2086): undefined instruction: pc=b6e964e8
+<6>[   30.027895] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.034518] chmod (2087): undefined instruction: pc=b6e394e8
+<6>[   30.034549] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.040958] chown (2088): undefined instruction: pc=b6e894e8
+<6>[   30.040988] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.047550] chmod (2089): undefined instruction: pc=b6e7e4e8
+<6>[   30.047581] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.055608] chown (2090): undefined instruction: pc=b6e0f4e8
+<6>[   30.055638] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.062139] chown (2091): undefined instruction: pc=b6eac4e8
+<6>[   30.062169] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.068670] chown (2092): undefined instruction: pc=b6e354e8
+<6>[   30.068731] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.075202] chown (2096): undefined instruction: pc=b6eae4e8
+<6>[   30.075263] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.091255] chown (2097): undefined instruction: pc=b6e874e8
+<6>[   30.091286] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.101632] chown (2098): undefined instruction: pc=b6ec74e8
+<6>[   30.101663] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.111307] chmod (2099): undefined instruction: pc=b6eac4e8
+<6>[   30.111307] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.117961] chmod (2103): undefined instruction: pc=b6e204e8
+<6>[   30.118022] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.129589] chmod (2112): undefined instruction: pc=b6e064e8
+<6>[   30.129620] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.141339] chmod (2117): undefined instruction: pc=b6e514e8
+<6>[   30.141370] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.151686] chown (2118): undefined instruction: pc=b6e244e8
+<6>[   30.151716] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.165847] chown (2119): undefined instruction: pc=b6e2c4e8
+<6>[   30.165878] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.181229] chown (2120): undefined instruction: pc=b6def4e8
+<6>[   30.181260] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.191393] chown (2121): undefined instruction: pc=b6df44e8
+<6>[   30.191423] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.201403] chmod (2128): undefined instruction: pc=b6e564e8
+<6>[   30.201434] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.211323] chmod (2135): undefined instruction: pc=b6e0a4e8
+<6>[   30.211353] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.221242] chmod (2136): undefined instruction: pc=b6dde4e8
+<6>[   30.221272] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.233236] chmod (2137): undefined instruction: pc=b6e9b4e8
+<6>[   30.233297] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.247733] chown (2138): undefined instruction: pc=b6e324e8
+<6>[   30.247764] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.254326] chown (2139): undefined instruction: pc=b6df74e8
+<6>[   30.254356] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   30.255608] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   30.255638] 
+<6>[   30.261071] chown (2140): undefined instruction: pc=b6e814e8
+<6>[   30.261101] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.268335] getprop (2141): undefined instruction: pc=b6e424e8
+<6>[   30.268365] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.275110] chown (2142): undefined instruction: pc=b6e664e8
+<6>[   30.275141] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.281733] chown (2143): undefined instruction: pc=b6de64e8
+<6>[   30.281764] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.288234] chown (2144): undefined instruction: pc=b6e514e8
+<6>[   30.288264] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.294765] chown (2145): undefined instruction: pc=b6dda4e8
+<6>[   30.294796] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.303921] start (2147): undefined instruction: pc=b6e5d4e8
+<6>[   30.303952] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   30.332214] msm_thermal: enabled = 0
+<6>[   30.427132] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: got wake lock
+<6>[   30.427163] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 0):
+<6>[   30.665099] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 1):
+<6>[   30.665160] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: release wake lock, count_irq = 0
+<6>[   30.716923] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<7>[   30.762826] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   30.762856] 
+<3>[   31.253868] [mdnie lite] is negative Mode On = 0
+<3>[   31.253960] [mdnie lite] negative off when resume, tuning again!
+<3>[   31.254112] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+<3>[   31.254204] [mdnie lite]  = UI MODE =
+<3>[   31.254326] [mdnie lite]  = STANDARD MODE =
+<3>[   31.254448] [mdnie lite]  send tuning cmd!!
+<7>[   31.268609] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   31.268670] 
+<3>[   31.294155] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+<6>[   31.294307] accessibility_store cmd_value : 0 size : 1
+<6>[   31.417854] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[   31.505753] msm_thermal: Debug Temp for Sensors (0 --- 52)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<7>[   31.771493] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   31.771524] 
+<6>[   32.179368] dexopt (2289): undefined instruction: pc=401b94e8
+<6>[   32.179398] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   32.273279] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   32.273309] 
+<7>[   32.776041] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   32.776072] 
+<7>[   33.277063] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   33.277094] 
+<7>[   33.788005] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   33.788036] 
+<4>[   34.185960] netd used greatest stack depth: 5228 bytes left
+<6>[   34.220814] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<7>[   34.288997] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   34.289027] 
+<4>[   34.686464] TIMA: lkmauth--launch the tzapp to check kernel module; module len is 2858724
+<4>[   34.751747] TIMA: lkmauth -- hdr before kreq is : e8cff000
+<4>[   34.751777] TIMA: lkmauth--send cmd (tima_lkm) cmdlen(304:320), rsplen(264:320) id 0x00050000,                 req (0xE2B06000), rsp(0xE2B06140), module_start_addr(0xE8CFF000) module_len 2858724
+<7>[   34.806073] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   34.806104] 
+<6>[   34.922050] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<4>[   35.022493] TIMA: lkmauth--verification succeeded.
+<6>[   35.039401] wlan: loading driver v3.2.4.122_noLFR.1122
+<4>[   35.043094] [WIFI] gEnableImps: original_value  = 1[WIFI] gEnableImps: sec_control_psm = 1[WIFI] gEnableBmps: original_value  = 1[WIFI] gEnableBmps: sec_control_psm = 1
+<3>[   35.043308] wlan: [1036:E :HDD] hdd_apply_cfg_ini: Reg Parameter gApKeepAlivePeriod > allowed Maximum [30 > 20]. Enforcing Default= 5
+<4>[   35.043522] [WIFI] gEnableFWRssiMonitoring: original_value  = 0[WIFI] gEnableFWRssiMonitoring: sec_control_psm = 0[WIFI] FastRoamEnabled: original_value  = 1[WIFI] FastRoamEnabled: sec_control_psm = 1[WIFI] FastTransitionEnabled: original_value  = 1[WIFI] FastTransitionEnabled: sec_control_psm = 1
+<3>[   35.052464] wlan: [1036:E :VOS] INFO: NV binary file version=1 Driver default NV version=1, continue...
+<3>[   35.052495] 
+<6>[   35.052739] DefaultCountry is GB
+<3>[   35.059789] wlan: [1036:E :HDD] hdd_wlan_startup: Invalid MAC address in NV, using MAC from ini file 00:89:ff
+<6>[   35.151716] __pm8921_charger_vbus_draw: __pm8921_charger_vbus_draw: vbus is changed (500)--------
+<3>[   35.152113] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+<6>[   35.152296] sec_bat_store_attrs: sec_bat_store_attrs : SIOP level to 100(500mA)
+<6>[   35.165573] sdcardfs: the sbi->obbpath is found
+<6>[   35.170273] healthd: battery l=100 v=4270 t=33.0 h=2 st=2 c=-257 o=4 ct=1 chg=u
+<6>[   35.179398] wlan: WCNSS WLAN version 1.4.1.2
+<6>[   35.179764] wlan: WCNSS software version M8930BBAAANAZW132095
+<6>[   35.179795] wlan: WCNSS hardware version WCN v2.0 RadioPhy vIris_TSMC_3.0 with 48MHz XO
+<4>[   35.180436] Assigned Interface Index 0
+<4>[   35.190935] Assigned Interface Index 1
+<6>[   35.196459] handle_usb_insertion_removal: handle_usb_insertion_removal : usb_present(1)
+<6>[   35.201892] wlan: driver loaded
+<6>[   35.284816] cp (2585): undefined instruction: pc=b6e954e8
+<6>[   35.284846] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   35.295681] rm (2588): undefined instruction: pc=b6eb64e8
+<6>[   35.295742] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<4>[   35.307126] init.qcom.post_boot.sh: started mpdecision after 5 sec sleep
+<6>[   35.308530] chmod (2590): undefined instruction: pc=b6e254e8
+<6>[   35.308560] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   35.317381] start (2592): undefined instruction: pc=b6e804e8
+<6>[   35.317411] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   35.326720] insmod (2594): undefined instruction: pc=b6e854e8
+<6>[   35.326751] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   35.327392] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   35.327422] 
+<4>[   35.328063] TIMA: lkmauth--launch the tzapp to check kernel module; module len is 15028
+<4>[   35.328093] TIMA: lkmauth -- hdr before kreq is : e2d61000
+<4>[   35.328124] TIMA: lkmauth--send cmd (tima_lkm) cmdlen(304:320), rsplen(264:320) id 0x00050000,                 req (0xE2B06000), rsp(0xE2B06140), module_start_addr(0xE2D61000) module_len 15028
+<6>[   35.334350] wpa_supplicant (2591): undefined instruction: pc=b6d494e8
+<6>[   35.334381] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<4>[   35.336914] TIMA: lkmauth--verification succeeded.
+<6>[   35.340271] 'created /dev/adsprpc-smd c 232 0'
+<6>[   35.350953] chown (2595): undefined instruction: pc=b6e3f4e8
+<6>[   35.350984] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   35.363528] wlan: [2591:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+<6>[   35.364016] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+<6>[   35.369143] chmod (2602): undefined instruction: pc=b6ec24e8
+<6>[   35.369174] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   35.429391] toolbox (2613): undefined instruction: pc=b6e4f4e8
+<6>[   35.429421] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   35.606622] wlan: [2591:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+<6>[   35.607141] ADDRCONF(NETDEV_UP): p2p0: link is not ready
+<6>[   35.774973] toolbox (2660): undefined instruction: pc=b6e854e8
+<6>[   35.775003] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   35.842759] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   35.842789] 
+<6>[   35.939661] toolbox (2679): undefined instruction: pc=b6e9b4e8
+<6>[   35.939691] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   35.954097] !@RecoverySystem handleAftermath
+<6>[   36.189958] toolbox (2716): undefined instruction: pc=b6dcc4e8
+<6>[   36.189989] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   36.323363] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[   36.400579] toolbox (2747): undefined instruction: pc=b6e684e8
+<6>[   36.400640] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   36.416511] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   36.416542] 
+<6>[   36.462994] ls (2758): undefined instruction: pc=4025f4e8
+<6>[   36.463024] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   36.515763] msm_thermal: Debug Temp for Sensors (0 --- 53)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<6>[   36.541217] top (2717): undefined instruction: pc=402814e8
+<6>[   36.541248] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   36.919426] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   36.919456] 
+<6>[   37.015443] toolbox (2868): undefined instruction: pc=b6df64e8
+<6>[   37.015473] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   37.111277] toolbox (2876): undefined instruction: pc=b6e3c4e8
+<6>[   37.111338] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   37.177781] ls (2881): undefined instruction: pc=b6e484e8
+<6>[   37.177842] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   37.187883] ls (2882): undefined instruction: pc=b6e334e8
+<6>[   37.187913] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   37.195482] ls (2883): undefined instruction: pc=b6e7b4e8
+<6>[   37.195513] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   37.420265] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   37.420296] 
+<6>[   37.588066] !@ cam: CaMeRa(1)
+<3>[   37.589806] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+<3>[   37.589836] 
+<3>[   37.592095] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+<3>[   37.592095] 
+<3>[   37.593499] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+<3>[   37.593529] 
+<6>[   37.602166] msm_enqueue: queue eventdata new max is 1
+<6>[   37.604425] msm_enqueue: queue control new max is 1
+<4>[   37.606134] [s5k6ayx] Start calibrating....
+<4>[   37.606317] [s5k6ayx] uOPTData[0xa3d] = 0x1...Sum = 1...
+<4>[   37.606500] [s5k6ayx] uOPTData[0xa3e] = 0x3...Sum = 4...
+<4>[   37.606683] [s5k6ayx] uOPTData[0xa3f] = 0x1...Sum = 5...
+<4>[   37.606867] [s5k6ayx] uOPTData[0xa40] = 0x0...Sum = 5...
+<4>[   37.607050] [s5k6ayx] uOPTData[0xa41] = 0x1...Sum = 6...
+<4>[   37.607233] [s5k6ayx] uOPTData[0xa42] = 0x0...Sum = 6...
+<4>[   37.607355] [s5k6ayx] Ajusting Calibration data to the sensor!!
+<6>[   37.641233] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.641385] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.641507] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.641629] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.641721] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.641812] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.641934] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642026] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642118] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642209] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642301] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642392] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642484] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642575] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642667] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642759] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642850] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.642942] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.643033] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.643125] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.643216] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.643308] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.708316] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.708744] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.709079] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.709415] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.709720] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.716618] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.717015] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.717259] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.717503] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.717717] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.717930] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.718174] ion_cp_allocate: non-secure allocation disallowed from this heap
+<6>[   37.724675] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<6>[   37.726018] axi_reset E
+<6>[   37.726049] axi_reset X
+<6>[   37.726232] vfe32_proc_general: cmdID = RESET
+<6>[   37.726445] msm_mctl_set_vfe_output_mode: mctl=0xc11e1f38, vfe output mode =0x1
+<6>[   37.767465] axi_config_buffers: cmd type 8, axi mode 1
+<6>[   37.770853] vfe32_start_common Configuring the OOO Register 
+<3>[   37.868487] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+<7>[   37.921104] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   37.921135] 
+<7>[   38.422066] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   38.422096] 
+<6>[   38.584526] app_process (2947): undefined instruction: pc=b660e4e8
+<6>[   38.584556] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   38.734442] app_process (2947): undefined instruction: pc=40aa44e8
+<6>[   38.734472] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   38.749763] init: sys_prop: permission denied uid:2000  name:ro.csc.country_code
+<3>[   38.752968] init: sys_prop: permission denied uid:2000  name:ro.csc.countryiso_code
+<3>[   38.753670] init: sys_prop: permission denied uid:2000  name:ro.csc.sales_code
+<3>[   38.753975] init: sys_prop: permission denied uid:2000  name:ro.setupwizard.mode
+<7>[   38.926079] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   38.926110] 
+<6>[   39.286769] axi_stop E
+<6>[   39.286799] axi_stop X
+<3>[   39.302517] msm_mctl_reserve_free_buf: stream is turned off
+<6>[   39.329650] vfe32_proc_general: cmdID = STOP
+<6>[   39.329711] axi_abort E
+<6>[   39.329742] axi_abort X
+<3>[   39.335449] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+<3>[   39.336456] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+<3>[   39.337738] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+<4>[   39.391790] mm-qcamera-daem used greatest stack depth: 5024 bytes left
+<3>[   39.404639] init: untracked pid 225 exited
+<7>[   39.427315] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   39.427346] 
+<3>[   39.446360] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+<3>[   39.446390] 
+<3>[   39.447581] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+<3>[   39.447611] 
+<3>[   39.448802] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+<3>[   39.448832] 
+<3>[   39.450022] msm_release_ion_client Calling ion_client_destroy
+<6>[   39.826613] Atmel MXT336S 3-004a: T72 MSG: 10 02 12 
+<7>[   39.932641] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   39.932672] 
+<7>[   40.433786] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   40.433816] 
+<6>[   40.524401] !@[ps] Screen__Off(2) : timeout (0x4)
+<6>[   40.529284] !@ElectronBeam entry
+<6>[   40.748359] brightness_control mipi_pd.brightness_level : 300 candela : 10
+<6>[   40.748390] mipi_samsung_disp_send_cmd cmd = 0x6
+<6>[   40.777048] mipi_samsung_disp_backlight 0
+<6>[   40.780009] mpu6500_input_accel_delay_store : delay = 200
+<6>[   40.781870] !@[s] blankAllDisplays() : blankAllDisplaysFromPowerManage
+<6>[   40.794262] mpu6500_input_accel_enable_store : enable = 0
+<4>[   40.810224] [VIB] OFF
+<4>[   40.810254] [VIB] timed_vibrator_off
+<6>[   40.829848] mipi_samsung_disp_send_cmd cmd = 0x3
+<7>[   40.937128] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   40.937158] 
+<6>[   41.035708] [lcd] mipi_samsung_disp_off
+<4>[   41.040805] ************active_reset**************
+<6>[   41.040836] active_reset: DISP_RST_GPIO low
+<6>[   41.080665] !@[s] autosuspend_earlysuspend_enable : 0
+<6>[   41.080695] 
+<6>[   41.080726] request_suspend_state: sleep (0->3) at 41075023384 (2014-01-01 03:48:55.680358616 UTC)
+<6>[   41.081489] early_suspend: call handlers
+<6>[   41.081519] [lcd] mipi_samsung_disp_early_suspend
+<6>[   41.081550] tkey_led_power: off
+<6>[   41.081580] tkey_led_powerTKEY_LED 3.3V[l36] off is finished.
+<6>[   41.081611] tc360_power: power off
+<6>[   41.081641] tc360_power: tkey 2.2V[l30] off is finished.
+<6>[   41.081672] tc360 16-0020: tc360_suspend (0x1)
+<6>[   41.081703] [TSP] power off
+<6>[   41.081733] mxts_power_onoff: tsp 3.3V[l31] off is finished.
+<6>[   41.083595] mxts_power_onoff: tsp 1.8V[lvs6] off is finished.
+<6>[   41.115824] stop_drawing_early_suspend, fb_state : cur(2), next(1)
+<6>[   41.115855] wait_for_fb_sleep_show, fb_state : 1 --
+<6>[   41.115916] !@[s] wait_for_fb_sleep : 0 (1, 0) -
+<6>[   41.115946] 
+<6>[   41.116007] !@[s] wait_for_fb_wake : 0 (0, 0) +
+<6>[   41.116038] 
+<6>[   41.116038] wait_for_fb_wake_show, fb_state : 1 ++
+<6>[   41.117442] !@[s] autosuspend_earlysuspend_enable done : 0
+<6>[   41.117472] 
+<3>[   41.118419] dtv_pipe is not configured yet
+<6>[   41.119975] active wake lock PowerManagerService.WakeLocks
+<6>[   41.120006] active wake lock PowerManagerService.Broadcasts
+<6>[   41.120036] active wake lock pm8921_eoc
+<6>[   41.120067] active wake lock msm_otg
+<6>[   41.120067] wake lock mmc0_detect, expired
+<6>[   41.120097] wake lock sec_jack_det, expired
+<6>[   41.120097] wake lock msm_serial_hs_rx, expired
+<6>[   41.120128] wake lock bam_dmux_wakelock, expired
+<6>[   41.120158] wake lock bcm2079x_wake_lock, expired
+<6>[   41.120189] wake lock wlan, expired
+<6>[   41.120189] wake lock DS, expired
+<6>[   41.120219] PM: Syncing filesystems...
+<6>[   41.125316] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: got wake lock
+<6>[   41.125347] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 0):
+<6>[   41.248222] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl, BCMNFC_WAKE_CTL (fa05, 1):
+<6>[   41.248252] bcm2079x-i2c 17-0077: bcm2079x_dev_unlocked_ioctl: release wake lock, count_irq = 0
+<6>[   41.395696] sync done.
+<7>[   41.438577] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   41.438608] 
+<6>[   41.525774] msm_thermal: Debug Temp for Sensors (0 --- 49)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<7>[   41.939264] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   41.939294] 
+<7>[   42.440347] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   42.440378] 
+<6>[   42.507340] !@start scanning volume internal: [/system/media]
+<6>[   42.742102] mipi_samsung_disp_acl_store : panel is off state. updating state value.
+<6>[   42.742163] mipi_samsung_disp_acl_store : acl_status (1) siop_status (0)
+<3>[   42.748176] [mdnie lite] is negative Mode On = 0
+<3>[   42.748298] [mdnie lite] negative off when resume, tuning again!
+<3>[   42.748390] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+<3>[   42.748512] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+<6>[   42.748603] accessibility_store cmd_value : 0 size : 1
+<3>[   42.752998] [mdnie lite] set background mode : 4
+<3>[   42.753181] [mdnie lite]  mode_store, input background(4)
+<3>[   42.753273] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+<3>[   42.753456] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+<7>[   42.944056] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   42.944086] 
+<6>[   42.985502] !@done scanning volume internal
+<6>[   42.986113] !@start scanning volume external: [/storage/emulated/0, /storage/extSdCard, /storage/UsbDriveA, /storage/UsbDriveB, /storage/UsbDriveC, /storage/UsbDriveD, /storage/UsbDriveE, /storage/UsbDriveF]
+<6>[   43.093667] !@done scanning volume external
+<7>[   43.444956] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   43.444987] 
+<6>[   46.125713] [debug_wake_locks]active wake lock PowerManagerService.WakeLocks
+<6>[   46.125743] [debug_wake_locks]active wake lock wlan
+<6>[   46.125774] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   46.125804] [debug_wake_locks]active wake lock msm_otg
+<6>[   46.535785] msm_thermal: Debug Temp for Sensors (0 --- 45)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<6>[   46.773905] AsyncTask #1 (3609): undefined instruction: pc=63df7628
+<6>[   46.773935] Code: 000aad06 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   49.135724] [debug_wake_locks]active wake lock PowerManagerService.WakeLocks
+<6>[   49.135754] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   49.135785] [debug_wake_locks]active wake lock msm_otg
+<7>[   50.516893] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   50.516954] 
+<6>[   50.596429] Atmel MXT336S 3-004a: cmd = not_support_cmd
+<6>[   50.596459] Atmel MXT336S 3-004a: not_support_cmd: "NA(2)"
+<6>[   50.596856] Atmel MXT336S 3-004a: tsp cmd: result: report_rate,0:NA
+<7>[   51.018464] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   51.018495] 
+<7>[   51.120524] [mtpg_open]	line = [478]
+<7>[   51.120585] [mtpg_ioctl]SET_MTP_USER_PID;pid=4035	line=[938]
+<7>[   51.131115] [mtpg_ioctl:892] MTP_ONLY_ENABLE ioctl:
+<6>[   51.131146] usb:: ci13xxx_pullup is_active: 0
+<6>[   51.131176] usb:: hw_device_state dma: 0
+<6>[   51.131207] usb:: hw_device_state hw_read(CAP_USBINTR, ~0): 0
+<6>[   51.131207] usb:: hw_device_state hw_read(CAP_USBCMD, USBCMD_RS): 0
+<7>[   51.131237] [mtpg_ioctl:896] B4 disconectng gadget
+<6>[   51.155775] usb:: ci13xxx_pullup is_active: 1
+<6>[   51.155806] usb:: hw_device_state dma: a71be000
+<6>[   51.155837] usb:: hw_device_state hw_read(CAP_ENDPTLISTADDR, ~0): a71be000
+<6>[   51.155867] usb:: hw_device_state hw_read(CAP_USBINTR, ~0): 147
+<6>[   51.155898] usb:: hw_device_state hw_read(CAP_USBCMD, USBCMD_RS): 1
+<7>[   51.155928] [mtpg_ioctl:900] after usb_gadget_connect
+<7>[   51.155959] [mtpg_ioctl:904] MTP_ONLY_ENABLE clearing error 0
+<6>[   51.158858] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[   51.316282] usb:: isr_reset_handler udc: dfaec000
+<7>[   51.316313] usb: composite_disconnect
+<7>[   51.316343] [mtpg_function_disable]	line = [1387]
+<7>[   51.316465] usb: android_disconnect cable state (1)
+<7>[   51.316618] usb: android_work config=  (null),connected=0,sw_connected=1
+<6>[   51.316893] adb_release
+<6>[   51.317106] adb_open
+<6>[   51.319273] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<7>[   51.386571] usb: GET_DES
+<7>[   51.386693] usb: android_work config=  (null),connected=1,sw_connected=0
+<6>[   51.387578] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[   51.390630] usb:: isr_reset_handler udc: dfaec000
+<7>[   51.390691] usb: composite_disconnect
+<7>[   51.390721] usb: android_disconnect cable state (1)
+<7>[   51.390782] usb: android_work config=  (null),connected=0,sw_connected=1
+<6>[   51.390996] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<7>[   51.419990] [mtpg_release_device]	line = [1076]
+<7>[   51.478223] usb: GET_DES
+<7>[   51.478284] usb: android_work config=  (null),connected=1,sw_connected=0
+<7>[   51.478437] usb: set_config_number single config
+<7>[   51.478467] usb: set_interface_count next_interface_id=4
+<6>[   51.478650] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<7>[   51.478681] usb: set_config_number single config
+<7>[   51.478712] usb: set_interface_count next_interface_id=4
+<6>[   51.479536] android_usb gadget: high-speed config #1: android_usb
+<7>[   51.479688] usb: SET_CON
+<7>[   51.479902] usb: android_work config=df27c680,connected=1,sw_connected=1
+<7>[   51.519395] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   51.519426] 
+<6>[   51.535937] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<6>[   51.545765] msm_thermal: Debug Temp for Sensors (0 --- 44)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<7>[   52.026216] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   52.026247] 
+<6>[   52.145704] [debug_wake_locks]active wake lock PowerManagerService.WakeLocks
+<6>[   52.145734] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   52.145765] [debug_wake_locks]active wake lock msm_otg
+<6>[   52.145795] [debug_wake_locks]active wake lock DS, time left 14
+<7>[   52.528216] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   52.528246] 
+<7>[   53.030032] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   53.030062] 
+<7>[   53.530871] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   53.530932] 
+<7>[   54.031863] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   54.031893] 
+<7>[   54.169723] TX UART: 42 4f 4f 54 49 4e 47 20 43 4f 4d 50 4c 45 54 45  BOOTING COMPLETE
+<7>[   54.533557] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   54.533587] 
+<6>[   54.626857] !@Sync 1
+<7>[   55.034518] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   55.034549] 
+<7>[   55.102273] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   55.102304] 
+<6>[   55.155714] [debug_wake_locks]active wake lock radio-interface
+<6>[   55.155745] [debug_wake_locks]active wake lock PowerManagerService.WakeLocks
+<6>[   55.155775] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   55.155806] [debug_wake_locks]active wake lock msm_otg
+<6>[   55.269769] !@start scanning volume external: [/storage/emulated/0, /storage/extSdCard, /storage/UsbDriveA, /storage/UsbDriveB, /storage/UsbDriveC, /storage/UsbDriveD, /storage/UsbDriveE, /storage/UsbDriveF]
+<6>[   55.534686] !@done scanning volume external
+<7>[   55.633480] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   55.633511] 
+<7>[   55.658385] [mtpg_open]	line = [478]
+<7>[   55.658415] [mtpg_ioctl]SET_MTP_USER_PID;pid=4428	line=[938]
+<7>[   56.135052] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   56.135113] 
+<6>[   56.557912] msm_thermal: Debug Temp for Sensors (0 --- 41)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<7>[   56.638028] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   56.638150] 
+<7>[   57.141950] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   57.142041] 
+<7>[   57.645139] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   57.645231] 
+<7>[   58.150251] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   58.150343] 
+<6>[   58.165817] [debug_wake_locks]active wake lock wlan
+<6>[   58.165908] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   58.165969] [debug_wake_locks]active wake lock msm_otg
+<7>[   58.652159] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   58.652250] 
+<7>[   59.154677] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   59.154768] 
+<7>[   59.656340] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   59.656371] 
+<7>[   60.157820] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   60.157851] 
+<7>[   60.659850] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   60.659880] 
+<7>[   61.162063] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   61.162093] 
+<6>[   61.175705] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   61.175766] [debug_wake_locks]active wake lock msm_otg
+<6>[   61.565969] msm_thermal: Debug Temp for Sensors (0 --- 39)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<7>[   61.663848] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   61.663940] 
+<7>[   62.165328] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   62.165359] 
+<7>[   62.666290] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   62.666351] 
+<7>[   63.169998] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   63.170028] 
+<7>[   63.671081] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   63.671112] 
+<7>[   64.171768] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   64.171799] 
+<6>[   64.185716] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   64.185746] [debug_wake_locks]active wake lock msm_otg
+<7>[   64.673004] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   64.673126] 
+<7>[   65.176407] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   65.176499] 
+<7>[   65.679047] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   65.679139] 
+<7>[   66.181260] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   66.181352] 
+<6>[   66.576194] msm_thermal: Debug Temp for Sensors (0 --- 36)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<7>[   66.683259] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   66.683351] 
+<7>[   67.185106] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   67.185167] 
+<6>[   67.195757] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   67.195849] [debug_wake_locks]active wake lock msm_otg
+<7>[   67.688570] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   67.688661] 
+<7>[   68.192675] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   68.192766] 
+<7>[   68.695254] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   68.695345] 
+<7>[   69.197894] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   69.197985] 
+<7>[   69.699923] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   69.700015] 
+<7>[   70.201861] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   70.201922] 
+<6>[   70.205798] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   70.205890] [debug_wake_locks]active wake lock msm_otg
+<7>[   70.704440] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   70.704532] 
+<6>[   71.139691] pm_abs_time_management: pm_abs_time_management: Charging Time : 65 secs (rechg:0)
+<6>[   71.142926] get_prop_batt_status: get_prop_batt_status: check ui term (cnt:2)
+<6>[   71.144971] tsu6721_monitor lastINT[0][0] lastDev[4][0][2] currDev[4][0][2] callState[0][0]
+<6>[   71.145093] update_heartbeat: health(1),stat(1),chgen(1),fsm(7),cable(1),extchg(0)
+<6>[   71.146711] update_heartbeat: soc(100/100), v(4348347), i(-114900), temp(336), batt(1), absexpr(0), siop(100)
+<6>[   71.166213] healthd: battery l=100 v=4348 t=33.6 h=2 st=2 c=114 o=4 ct=1 chg=u
+<7>[   71.263665] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   71.263757] 
+<6>[   71.585899] msm_thermal: Debug Temp for Sensors (0 --- 35)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<7>[   71.765878] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   71.765969] 
+<7>[   72.268090] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   72.268151] 
+<7>[   72.770334] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   72.770395] 
+<6>[   73.215809] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   73.215901] [debug_wake_locks]active wake lock msm_otg
+<7>[   73.273462] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   73.273554] 
+<7>[   73.775522] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   73.775614] 
+<6>[   74.193407] chmod (4570): undefined instruction: pc=b6e824e8
+<6>[   74.193499] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   74.286464] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   74.286555] 
+<6>[   74.331115] ls (4574): undefined instruction: pc=b6dfe4e8
+<6>[   74.331237] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   74.780039] app_process (4571): undefined instruction: pc=b65c74e8
+<6>[   74.780100] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   74.789165] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   74.789195] 
+<6>[   75.124767] app_process (4571): undefined instruction: pc=40a604e8
+<6>[   75.124797] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   75.290065] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   75.290126] 
+<7>[   75.791393] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   75.791423] 
+<6>[   75.894246] toolbox (4614): undefined instruction: pc=b6dcd4e8
+<6>[   75.894277] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   75.949641] ls (4619): undefined instruction: pc=b6e964e8
+<6>[   75.949671] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   75.958980] ls (4620): undefined instruction: pc=b6e854e8
+<6>[   75.959011] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   75.968289] ls (4621): undefined instruction: pc=b6e064e8
+<6>[   75.968319] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   75.999511] init: untracked pid 4567 exited
+<6>[   76.225728] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   76.225728] [debug_wake_locks]active wake lock msm_otg
+<3>[   76.228811] init: untracked pid 4571 exited
+<7>[   76.292598] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   76.292629] 
+<6>[   76.545124] app_process (4633): undefined instruction: pc=b662e4e8
+<6>[   76.545154] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   76.595879] msm_thermal: Debug Temp for Sensors (0 --- 38)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<6>[   76.735846] app_process (4633): undefined instruction: pc=40b244e8
+<6>[   76.735907] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   76.793407] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   76.793438] 
+<6>[   77.200366] rm (4645): undefined instruction: pc=b6e774e8
+<6>[   77.200396] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   77.210071] init: untracked pid 4630 exited
+<7>[   77.294552] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   77.294582] 
+<3>[   77.436014] init: untracked pid 4633 exited
+<6>[   77.580589] chmod (4650): undefined instruction: pc=b6e8d4e8
+<6>[   77.580619] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   77.644620] ps (4653): undefined instruction: pc=b6df04e8
+<6>[   77.644651] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   77.795971] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   77.796001] 
+<6>[   78.184861] app_process (4682): undefined instruction: pc=b65fb4e8
+<6>[   78.184892] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   78.326934] app_process (4681): undefined instruction: pc=b65c34e8
+<6>[   78.326964] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   78.481733] app_process (4682): undefined instruction: pc=40b384e8
+<6>[   78.481764] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[   78.486952] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   78.486983] 
+<6>[   78.490645] app_process (4681): undefined instruction: pc=40b1b4e8
+<6>[   78.490676] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   78.509964] app_process (4694): undefined instruction: pc=b653b4e8
+<6>[   78.509995] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<6>[   78.695345] app_process (4694): undefined instruction: pc=40a814e8
+<6>[   78.695376] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   79.119487] init: untracked pid 4673 exited
+<3>[   79.142774] init: untracked pid 4669 exited
+<3>[   79.163772] init: untracked pid 4691 exited
+<6>[   79.235678] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   79.235708] [debug_wake_locks]active wake lock msm_otg
+<3>[   79.341583] init: untracked pid 4682 exited
+<3>[   79.366824] init: untracked pid 4681 exited
+<3>[   79.388341] init: untracked pid 4694 exited
+<7>[   79.506607] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   79.506638] 
+<7>[   80.007324] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   80.007355] 
+<7>[   80.508652] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   80.508744] 
+<7>[   81.011292] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   81.011384] 
+<7>[   81.513016] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   81.513047] 
+<6>[   81.605920] msm_thermal: Debug Temp for Sensors (0 --- 38)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<3>[   81.683808] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1123093 device_id=0
+<3>[   81.695742] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   81.695864] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   81.701693] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   81.702731] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   81.743537] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+<3>[   81.751564] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+<3>[   81.784068] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.789531] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.813367] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.820479] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.826705] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.829696] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.838394] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.840592] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.841263] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.847153] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.849839] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.851365] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.860033] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.868151] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.872668] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.874286] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   81.877552] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.879230] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   81.883229] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.884785] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   81.889607] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.891225] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   81.893880] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.898855] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.909262] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.917076] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.922508] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.925560] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.931725] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.932763] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.942499] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 0000ae02
+<3>[   81.943445] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 0000ae02
+<3>[   81.945093] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.946436] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.955806] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.956722] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.958400] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.958797] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.962612] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.963100] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.966305] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.966976] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   81.986387] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40087612
+<3>[   81.986448] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40087612
+<3>[   82.001709] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.001861] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<7>[   82.013795] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   82.013825] 
+<3>[   82.034884] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.035037] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.045139] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.053624] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.060613] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.070410] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.094826] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1824514048) failed, pool: general_pool
+<3>[   82.094979] kgsl: kgsl_mmu_get_gpuaddr:  [4739] allocated=1531904, entries=15
+<3>[   82.095467] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.130505] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.139630] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+<3>[   82.140759] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+<3>[   82.150984] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.163955] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1824514048) failed, pool: general_pool
+<3>[   82.164108] kgsl: kgsl_mmu_get_gpuaddr:  [4740] allocated=1531904, entries=15
+<3>[   82.169082] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.175644] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.176804] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.178696] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.181413] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1 device_id=0
+<3>[   82.185319] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.222951] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.225545] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+<3>[   82.231466] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.232717] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<6>[   82.245719] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   82.245719] [debug_wake_locks]active wake lock msm_otg
+<3>[   82.250297] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+<3>[   82.251762] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+<3>[   82.270349] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.270898] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.289363] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.292934] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.293697] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000001
+<3>[   82.304837] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.309659] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.310178] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.310605] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.311948] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.314665] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1 device_id=0
+<3>[   82.318602] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.319548] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00005321
+<3>[   82.327453] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+<3>[   82.328979] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.345307] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+<3>[   82.349641] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.354310] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.359926] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+<3>[   82.362154] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   82.376590] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.377384] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+<3>[   82.378910] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.384404] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.386448] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.387150] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.388097] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.391912] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.408789] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.410560] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+<3>[   82.423805] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1878978560) failed, pool: general_pool
+<3>[   82.423927] kgsl: kgsl_mmu_get_gpuaddr:  [4739] allocated=3022848, entries=27
+<3>[   82.427987] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.428322] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c02d4000
+<3>[   82.430672] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1070776320 device_id=0
+<3>[   82.440439] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.446848] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.461925] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.469525] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+<3>[   82.471081] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.481947] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   82.483473] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.486220] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c0320000
+<3>[   82.486677] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.491225] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.499069] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000001
+<3>[   82.500015] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+<3>[   82.503677] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+<3>[   82.508621] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<7>[   82.515916] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   82.515946] 
+<3>[   82.519395] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.529803] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.532031] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.546497] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+<3>[   82.547871] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.552693] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+<3>[   82.568533] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+<3>[   82.581321] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.592858] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.597985] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.600976] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.601861] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.605218] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000006
+<3>[   82.612208] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.612635] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   82.616480] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000001
+<3>[   82.618281] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.624385] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 6 device_id=0
+<3>[   82.627376] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.632473] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.638394] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 64 device_id=0
+<3>[   82.638882] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.640256] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.641080] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00005321
+<3>[   82.648496] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+<3>[   82.649748] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.651609] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.660155] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.663360] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.663665] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.667205] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.667572] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.668914] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.673706] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+<3>[   82.673737] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.674683] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.676667] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   82.677033] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.681550] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+<3>[   82.683900] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 8006f402
+<3>[   82.685518] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.687105] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.687959] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.690614] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.691316] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+<3>[   82.692781] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 64 device_id=0
+<3>[   82.694521] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00007002
+<3>[   82.696200] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.698611] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000006
+<3>[   82.699984] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.700534] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.701602] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.701968] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 8 device_id=0
+<3>[   82.702090] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.705356] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.711185] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   82.711490] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.726232] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1878978560) failed, pool: general_pool
+<3>[   82.726354] kgsl: kgsl_mmu_get_gpuaddr:  [4740] allocated=3014656, entries=26
+<3>[   82.727483] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 80046b02
+<3>[   82.729864] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 6 device_id=0
+<3>[   82.732366] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+<3>[   82.739539] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00100000
+<3>[   82.742194] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.742621] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+<3>[   82.743445] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.745063] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   82.748328] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000008
+<3>[   82.756661] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.762154] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+<3>[   82.768869] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.769418] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+<3>[   82.770914] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.773844] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+<3>[   82.777048] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   82.778513] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.781382] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.783793] kgsl: kgsl_get_phys_file: framebuffer minor 3 not found
+<3>[   82.785594] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.789684] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.793193] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+<3>[   82.794109] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+<3>[   82.798016] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+<3>[   82.802563] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.828872] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.831069] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.841355] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.844925] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+<3>[   82.846696] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.850602] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40340933
+<3>[   82.851670] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+<3>[   82.854082] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+<3>[   82.861193] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+<3>[   82.863024] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.863329] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+<3>[   82.863665] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.864397] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.866351] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.875171] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.884175] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -514654204 device_id=0
+<3>[   82.888936] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000c0
+<3>[   82.892018] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.894643] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+<3>[   82.897329] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.898122] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 7 device_id=0
+<3>[   82.898245] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.901876] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000005
+<3>[   82.903891] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+<3>[   82.909537] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.909934] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   82.912650] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000006c
+<3>[   82.914420] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   82.915336] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000008
+<3>[   82.919121] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.919609] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000005
+<3>[   82.921959] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5 device_id=0
+<3>[   82.924828] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   82.927514] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.940729] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 0000ae02
+<3>[   82.943110] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.948328] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000000c
+<3>[   82.949366] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 0000ae02
+<3>[   82.951838] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.961605] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.963528] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+<3>[   82.964077] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.965664] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 41940931
+<3>[   82.967862] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1409288933 device_id=0
+<3>[   82.968411] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.968716] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   82.973325] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.975217] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.977109] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+<3>[   82.981443] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.982847] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+<3>[   82.983335] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.989287] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   82.994994] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   82.998229] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 7 device_id=0
+<3>[   82.998962] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 235 device_id=0
+<3>[   83.000915] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.001007] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+<3>[   83.002472] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.004150] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.005829] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+<3>[   83.007996] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<7>[   83.016664] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   83.016694] 
+<3>[   83.019014] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.029299] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   83.032534] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40087612
+<3>[   83.042728] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40087612
+<3>[   83.047001] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.047520] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.053135] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.053258] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.061956] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   83.069037] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+<3>[   83.071509] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 8006f402
+<3>[   83.073187] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.073309] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.074683] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.080573] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.092842] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00007002
+<3>[   83.094246] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.094338] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.109354] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.112253] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 194 device_id=0
+<3>[   83.119853] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.132885] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   83.134198] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.144849] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.145215] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 80046b02
+<3>[   83.146894] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.155531] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.176865] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1824514048) failed, pool: general_pool
+<3>[   83.176957] kgsl: kgsl_mmu_get_gpuaddr:  [4737] allocated=1523712, entries=14
+<3>[   83.178513] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00100000
+<3>[   83.188737] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+<3>[   83.201892] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.217305] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.223317] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.225057] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+<3>[   83.234640] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+<3>[   83.242545] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 2bbdc000
+<3>[   83.256157] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.256645] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+<3>[   83.262749] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 733855744 device_id=0
+<3>[   83.263268] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.271326] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.271600] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1824514048) failed, pool: general_pool
+<3>[   83.271722] kgsl: kgsl_mmu_get_gpuaddr:  [4738] allocated=1523712, entries=14
+<3>[   83.275110] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.278162] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.278284] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.283778] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.297359] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 194 device_id=0
+<3>[   83.320311] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.323027] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+<3>[   83.330535] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.337982] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.355867] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+<3>[   83.357271] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+<3>[   83.367495] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.369113] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.379581] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 01b00000
+<3>[   83.390538] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.394567] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.399114] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 40340933
+<3>[   83.402929] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+<3>[   83.405432] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.413062] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+<3>[   83.413428] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.414130] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.420204] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 28311552 device_id=0
+<3>[   83.420753] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.424752] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.426216] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.433267] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.442697] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.443674] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00005321
+<3>[   83.472516] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -514654204 device_id=0
+<3>[   83.486525] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+<3>[   83.490218] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.490340] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.498336] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+<3>[   83.501602] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 7 device_id=0
+<7>[   83.518205] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   83.518235] 
+<3>[   83.520524] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.521867] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+<3>[   83.525927] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1067753472 device_id=0
+<3>[   83.526079] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000be
+<3>[   83.528918] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c01f8000
+<3>[   83.529894] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.534289] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.555196] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.559346] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+<3>[   83.560262] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.560384] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.561696] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   83.573355] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.576957] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   83.581779] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.585685] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+<3>[   83.588676] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.591179] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.594262] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.594567] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.599969] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.601342] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.607477] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.607935] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.608057] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.634365] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.635189] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00005321
+<3>[   83.636563] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 01b00000
+<3>[   83.650175] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000006
+<3>[   83.676606] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00000010
+<3>[   83.688325] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.691194] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1071677440 device_id=0
+<6>[   83.692415] app_process (4761): undefined instruction: pc=b65d54e8
+<6>[   83.692446] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   83.696535] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.701358] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 41940931
+<3>[   83.702640] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1409288933 device_id=0
+<3>[   83.703250] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.703372] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.703708] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   83.711033] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.714817] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.722020] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.731725] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000007
+<3>[   83.739966] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.745063] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 186 device_id=0
+<3>[   83.747993] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.758217] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00300000
+<3>[   83.764504] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   83.766458] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.766580] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.767892] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   83.792827] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 7 device_id=0
+<3>[   83.793529] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 194 device_id=0
+<3>[   83.795299] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.802655] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 133 device_id=0
+<3>[   83.804211] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 108 device_id=0
+<3>[   83.817213] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.831130] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.832778] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.834640] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.835220] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   83.835373] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   83.848832] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 01b00000
+<6>[   83.856584] app_process (4761): undefined instruction: pc=40b424e8
+<6>[   83.856615] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<3>[   83.918785] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   83.921989] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1070784512 device_id=0
+<3>[   83.989073] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   83.995574] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<7>[   84.019227] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   84.019258] 
+<3>[   84.056798] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5242880 device_id=0
+<3>[   84.077704] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   84.079291] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+<3>[   84.080543] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004c06
+<3>[   84.145215] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   84.167984] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000000b
+<3>[   84.174729] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   84.223073] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00500000
+<3>[   84.247764] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   84.249259] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   84.251182] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   84.288722] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   84.406775] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   84.466076] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   84.498702] init: untracked pid 4758 exited
+<3>[   84.503464] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   84.510727] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004616
+<7>[   84.523424] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   84.523454] 
+<3>[   84.533129] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+<3>[   84.534655] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 11 device_id=0
+<3>[   84.556050] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000009e
+<3>[   84.562246] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 11 device_id=0
+<3>[   84.565054] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   84.605157] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000009e
+<6>[   84.627437] !@Sync 2
+<3>[   84.726903] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073209344 device_id=0
+<3>[   84.752083] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1073201152 device_id=0
+<3>[   84.752754] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+<3>[   84.754829] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code c21c0915
+<3>[   84.757485] init: untracked pid 4761 exited
+<3>[   84.802655] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 15 device_id=0
+<3>[   84.853258] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5242880 device_id=0
+<3>[   84.864611] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   84.867022] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+<3>[   84.878681] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004c06
+<3>[   84.941828] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   84.943934] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000000b
+<3>[   84.974179] pmem: get_pmem_file: requested data from file descriptor that doesn't exist.
+<3>[   84.974332] kgsl: kgsl_get_phys_file: fget_light failed
+<3>[   84.998718] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00500000
+<3>[   85.002563] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 000000ba
+<3>[   85.003967] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<7>[   85.026155] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   85.026186] 
+<3>[   85.027346] kgsl: kgsl_get_phys_file: framebuffer minor 8 not found
+<3>[   85.034518] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<6>[   85.099038] pm_chg_vddmax_set: pm_chg_vddmax_set : steps(0), increase(1), voltage(4360), current_mv(4350)-----
+<3>[   85.140576] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 0 device_id=0
+<3>[   85.195421] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   85.253166] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<6>[   85.255730] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[   85.255730] [debug_wake_locks]active wake lock msm_otg
+<3>[   85.260033] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004616
+<3>[   85.291042] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+<3>[   85.292568] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 11 device_id=0
+<3>[   85.301388] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000009e
+<3>[   85.319731] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 11 device_id=0
+<3>[   85.322936] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000085
+<3>[   85.346802] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 0000009e
+<3>[   85.446879] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1064345600 device_id=0
+<3>[   85.488234] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1064337408 device_id=0
+<3>[   85.488997] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+<3>[   85.491408] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code c21c0915
+<3>[   85.508927] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 13 device_id=0
+<7>[   85.536120] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   85.536151] 
+<3>[   85.807813] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr c08f6000
+<7>[   86.068243] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   86.068274] 
+<6>[   86.615809] msm_thermal: Debug Temp for Sensors (0 --- 49)(1 --- 50)(2 --- 46)(3 --- 44)(4 --- 44)(5 --- 44)(6 --- 57)(7 --- 44)(8 --- 45)(9 --- 61)
+<7>[   86.816480] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   86.816511] 
+<3>[   86.825057] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5242880 device_id=0
+<3>[   86.870349] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004611
+<3>[   86.923088] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 158 device_id=0
+<3>[   86.955684] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   86.974179] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<3>[   87.020570] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 3145728 device_id=0
+<3>[   87.024721] kgsl: kgsl_ioctl_map_user_mem: Invalid memory type: ffffffff
+<3>[   87.028811] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 74 device_id=0
+<3>[   87.041812] kgsl kgsl-3d0: |_cmdstream_freememontimestamp| invalid gpuaddr 00000000
+<3>[   87.057805] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 1048576 device_id=0
+<3>[   87.061315] kgsl: kgsl_ioctl_map_user_mem: Invalid memory type: ffffffff
+<4>[   87.256706] send sigkill to 3728 (id.app.sbrowser), adj 1000,				     size 6157, free memory = 4195, reclaimable memory = 30459
+<4>[   87.256889] send sigkill to 4183 (com.android.mms), adj 1000,				     size 4341, free memory = 4195, reclaimable memory = 30459
+<4>[   87.256981] send sigkill to 3593 (le.android.talk), adj 1000,				     size 4236, free memory = 4195, reclaimable memory = 30459
+<4>[   87.307095] send sigkill to 3739 (Binder_2), adj 1000,				     size 6493, free memory = 4193, reclaimable memory = 28559
+<4>[   87.307157] send sigkill to 3805 (m.android.email), adj 1000,				     size 3805, free memory = 4193, reclaimable memory = 28559
+<4>[   87.307309] send sigkill to 3597 (GC), adj 1000,				     size 4271, free memory = 4193, reclaimable memory = 28559
+<4>[   87.399786] send sigkill to 3928 (android.youtube), adj 1000,				     size 3638, free memory = 4205, reclaimable memory = 23284
+<4>[   87.400030] send sigkill to 4225 (droid.gallery3d), adj 1000,				     size 3025, free memory = 4205, reclaimable memory = 23284
+<4>[   87.400122] send sigkill to 3795 (id.app.sbrowser), adj 1000,				     size 5397, free memory = 4205, reclaimable memory = 23284
+<4>[   87.472760] send sigkill to 3934 (Compiler), adj 1000,				     size 3703, free memory = 4181, reclaimable memory = 21009
+<4>[   87.472791] send sigkill to 4131 (emoteDlcProcess), adj 1000,				     size 2735, free memory = 4181, reclaimable memory = 21009
+<4>[   87.472913] send sigkill to 4231 (Compiler), adj 1000,				     size 3043, free memory = 4181, reclaimable memory = 21009
+<3>[   87.522478] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id 5242880 device_id=0
+<7>[   87.536609] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[   87.536639] 
+<3>[   87.579520] kgsl kgsl-3d0: |kgsl_ioctl| Malformed ioctl code 00004611
+<3>[   87.654051] kgsl kgsl-3d0: |adreno_ioctl| invalid drawctxt drawctxt_id -1 device_id=0
+<3>[   87.659178] kgsl: kgsl_get_phys_file: framebuffer minor 0 not found
+<1>[   87.661590] Unable to handle kernel NULL pointer dereference at virtual address 00000000
+<1>[   87.661742] pgd = d5938000
+<1>[   87.661803] [00000000] *pgd=9d2a0831, *pte=00000000, *ppte=00000000
+<0>[   87.662108] [0:     trinity-c1: 4740] Internal error: Oops: 17 [#1] PREEMPT SMP ARM
+<4>[   87.662261] [0:     trinity-c1: 4740] Modules linked in: adsprpc wlan(O)
+<4>[   87.662505] [0:     trinity-c1: 4740] CPU: 0    Tainted: G        W  O  (3.4.0-3173303 #1)
+<4>[   87.662658] [0:     trinity-c1: 4740] PC is at sg_init_table+0x1c/0x30
+<4>[   87.662780] [0:     trinity-c1: 4740] LR is at _kgsl_sharedmem_page_alloc+0x118/0x3bc
+<4>[   87.662902] [0:     trinity-c1: 4740] pc : [<c02f7d28>]    lr : [<c03eade8>]    psr: 40060013
+<4>[   87.662932] [0:     trinity-c1: 4740] sp : d7695e28  ip : a0060013  fp : 00000000
+<4>[   87.663177] [0:     trinity-c1: 4740] r10: 00000000  r9 : 00000000  r8 : 00000000
+<4>[   87.663268] [0:     trinity-c1: 4740] r7 : 00000000  r6 : d62fe000  r5 : 00000010  r4 : ffffffff
+<4>[   87.663421] [0:     trinity-c1: 4740] r3 : 00000000  r2 : c1038650  r1 : 00000000  r0 : 00000010
+<4>[   87.663543] [0:     trinity-c1: 4740] Flags: nZcv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+<4>[   87.663696] [0:     trinity-c1: 4740] Control: 10c5787d  Table: 9c33806a  DAC: 00000015
+<4>[   87.663787] [0:     trinity-c1: 4740] 
+<4>[   87.663787] [0:     trinity-c1: 4740] PC: 0xc02f7ca8:
+<4>[   87.663970] [0:     trinity-c1: 4740] 7ca8  e5843000 e5843004 e5843008 e584300c e8bd8010 c0bc1192 e92d40f8 e1a05003
+<4>[   87.664642] [0:     trinity-c1: 4740] 7cc8  e1a06001 e3a01020 e1a04000 e1a07002 ebffc808 e3a03000 e3150006 e5846010
+<4>[   87.665283] [0:     trinity-c1: 4740] 7ce8  e5847014 e5843018 1a000002 e59f000c e3001155 ebf652f0 e584501c e8bd80f8
+<4>[   87.665954] [0:     trinity-c1: 4740] 7d08  c0bc1192 e92d4038 e1a04001 e1b01201 e1a05000 0a000000 ebffc7f6 e2444001
+<4>[   87.666625] [0:     trinity-c1: 4740] 7d28  e7953204 e3c33001 e3833002 e7853204 e8bd8038 e92d4070 e1a05001 e3a01001
+<4>[   87.667266] [0:     trinity-c1: 4740] 7d48  e1a04000 e1a06002 ebffffed e59f3074 e5933000 e3530000 0a000007 e59f2068
+<4>[   87.667938] [0:     trinity-c1: 4740] 7d68  e5921000 e2812103 e1550002 22833101 20613003 20833005 2a000001 e2853103
+<4>[   87.668609] [0:     trinity-c1: 4740] 7d88  e2833602 e59f1044 e1a03623 e1a05a05 e1a02823 e1a05a25 e5911000 e3510000
+<4>[   87.669281] [0:     trinity-c1: 4740] 
+<4>[   87.669281] [0:     trinity-c1: 4740] LR: 0xc03ead68:
+<4>[   87.669433] [0:     trinity-c1: 4740] ad68  059f12f8 0a000012 e5940024 e1a00100 e3500a01 9a000001 ebf54625 ea000006
+<4>[   87.670074] [0:     trinity-c1: 4740] ad88  e59f32dc e5930030 e3500000 0a00000a e3a010d0 e3a02a01 ebf56a1b e3500000
+<4>[   87.670746] [0:     trinity-c1: 4740] ada8  e1a06000 1a000005 e59f02b8 e1a0210a e59f12a8 eb122815 ea000029 e3a06010
+<4>[   87.671387] [0:     trinity-c1: 4740] adc8  e594001c e3a08000 e1a09007 eb117103 e594001c e1a0a008 e5941024 ebfc33c8
+<4>[   87.672058] [0:     trinity-c1: 4740] ade8  e59fb284 ea000049 e1590005 b3a05a01 b3a000d2 ba000003 e3550a01 e59f026c
+<4>[   87.672730] [0:     trinity-c1: 4740] ae08  03a000d2 eaffffff e2451001 e59f2260 e3a03000 e1a01621 e16f1f11 e2611020
+<4>[   87.673370] [0:     trinity-c1: 4740] ae28  ebf4b1fd e3500000 1086110a 11a0c645 13a03000 158d1004 1a00000b e3550a01
+<4>[   87.674042] [0:     trinity-c1: 4740] ae48  1a000031 e0692007 e5848020 e59f0224 e59f1208 e1a03527 e5842014 e1a02522
+<4>[   87.674683] [0:     trinity-c1: 4740] 
+<4>[   87.674713] [0:     trinity-c1: 4740] SP: 0xd7695da8:
+<4>[   87.674896] [0:     trinity-c1: 4740] 5da8  00000000 c0111e90 0006ca5e 00000000 d7695f00 c02f7d28 40060013 ffffffff
+<4>[   87.675476] [0:     trinity-c1: 4740] 5dc8  d7695e14 00000000 00000000 00000000 00000000 c0882218 00000010 00000000
+<4>[   87.676148] [0:     trinity-c1: 4740] 5de8  c1038650 00000000 ffffffff 00000010 d62fe000 00000000 00000000 00000000
+<4>[   87.676819] [0:     trinity-c1: 4740] 5e08  00000000 00000000 a0060013 d7695e28 c03eade8 c02f7d28 40060013 ffffffff
+<4>[   87.677460] [0:     trinity-c1: 4740] 5e28  00000000 cc0cf604 00001000 c03eade8 00000647 d62b6900 00000000 cc0cf600
+<4>[   87.678132] [0:     trinity-c1: 4740] 5e48  ffffffff d7695e8c d62b6900 cc0cf604 00000000 0dffff00 00000000 c03e53e0
+<4>[   87.678773] [0:     trinity-c1: 4740] 5e68  efffffff d7695eac d576f6c0 d9135e00 d7695eac b6c5e000 c03e55c4 c03e55f4
+<4>[   87.679444] [0:     trinity-c1: 4740] 5e88  d9135e00 00000000 d7695eac c00c092f 0000000c d9135e00 d7695eac c03e0d70
+<4>[   87.680085] [0:     trinity-c1: 4740] 
+<4>[   87.680115] [0:     trinity-c1: 4740] R2: 0xc10385d0:
+<4>[   87.680299] [0:     trinity-c1: 4740] 85d0  00000000 00000000 c0c8df49 00000000 00000000 00000000 00000000 c0c8df56
+<4>[   87.680940] [0:     trinity-c1: 4740] 85f0  00000000 00000000 00000000 00000000 c0c8df66 00000000 00000000 00000000
+<4>[   87.681611] [0:     trinity-c1: 4740] 8610  00000000 c0c8df6c 00000000 00000000 00000000 00000000 c0c8df82 00000000
+<4>[   87.682252] [0:     trinity-c1: 4740] 8630  00000000 00000000 00000000 c0c8df8f 00000000 00000000 00000000 00000000
+<4>[   87.682862] [0:     trinity-c1: 4740] 8650  c0c8dfa0 00000000 00000000 00000000 00000000 c0c8dfc3 00000000 00000000
+<4>[   87.683503] [0:     trinity-c1: 4740] 8670  00000000 00000000 c0c8dfe3 00000000 00000000 00000000 00000000 c0c8dfa8
+<4>[   87.684175] [0:     trinity-c1: 4740] 8690  00000000 00000000 00000000 00000000 c0c8e0ae 00000000 00000000 00000000
+<4>[   87.684816] [0:     trinity-c1: 4740] 86b0  00000000 c0c8e01d 00000000 00000000 00000000 00000000 c0c8e006 00000000
+<4>[   87.685487] [0:     trinity-c1: 4740] 
+<4>[   87.685487] [0:     trinity-c1: 4740] R6: 0xd62fdf80:
+<4>[   87.685670] [0:     trinity-c1: 4740] df80  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   87.686342] [0:     trinity-c1: 4740] dfa0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   87.686983] [0:     trinity-c1: 4740] dfc0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   87.687654] [0:     trinity-c1: 4740] dfe0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   87.688295] [0:     trinity-c1: 4740] e000  00000000 7665642f 73656369 7379732f 2f6d6574 2f757063 30757063 2d71722f
+<4>[   87.688966] [0:     trinity-c1: 4740] e020  74617473 65642f73 69745f66 5f72656d 0000736d 00000000 00000000 00000000
+<4>[   87.689638] [0:     trinity-c1: 4740] e040  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[   87.690248] [0:     trinity-c1: 4740] e060  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<0>[   87.690889] [0:     trinity-c1: 4740] Process trinity-c1 (pid: 4740, stack limit = 0xd76942f0)
+<0>[   87.691042] [0:     trinity-c1: 4740] Stack: (0xd7695e28 to 0xd7696000)
+<0>[   87.691164] [0:     trinity-c1: 4740] 5e20:                   00000000 cc0cf604 00001000 c03eade8 00000647 d62b6900
+<0>[   87.691316] [0:     trinity-c1: 4740] 5e40: 00000000 cc0cf600 ffffffff d7695e8c d62b6900 cc0cf604 00000000 0dffff00
+<0>[   87.691469] [0:     trinity-c1: 4740] 5e60: 00000000 c03e53e0 efffffff d7695eac d576f6c0 d9135e00 d7695eac b6c5e000
+<0>[   87.691622] [0:     trinity-c1: 4740] 5e80: c03e55c4 c03e55f4 d9135e00 00000000 d7695eac c00c092f 0000000c d9135e00
+<0>[   87.691713] [0:     trinity-c1: 4740] 5ea0: d7695eac c03e0d70 00000000 ffffffff ffffffff efffffff c1bf9b70 00000000
+<0>[   87.691866] [0:     trinity-c1: 4740] 5ec0: de64f6d0 c00adcf0 00000000 00000001 00000001 c02a56c8 a44b26e7 00000014
+<0>[   87.692018] [0:     trinity-c1: 4740] 5ee0: 00000000 c00ade88 a44d7b01 271ae91c 00000000 00000000 cee59d80 0000010d
+<0>[   87.692171] [0:     trinity-c1: 4740] 5f00: c00c092f 0000010d d7694000 b6c5e000 df43d4b0 c015b228 dee88e80 c015bd7c
+<0>[   87.692324] [0:     trinity-c1: 4740] 5f20: d7695f44 00000000 00000001 c02a6f84 00000000 00000000 00000001 00000000
+<0>[   87.692476] [0:     trinity-c1: 4740] 5f40: 00000000 00000001 00000000 d7438310 dee88e80 d7695f3c 52c39056 a3000075
+<0>[   87.692629] [0:     trinity-c1: 4740] 5f60: cee59d80 00000000 cee59d80 b6c5e000 c00c092f 0000010d d7694000 00000200
+<0>[   87.692781] [0:     trinity-c1: 4740] 5f80: 00000000 c015be18 0000010d 00000000 a3000075 ffffff41 00f9ee54 00000036
+<0>[   87.692904] [0:     trinity-c1: 4740] 5fa0: c000e464 c000e43c a3000075 ffffff41 0000010d c00c092f b6c5e000 ffffff2f
+<0>[   87.693056] [0:     trinity-c1: 4740] 5fc0: a3000075 ffffff41 00f9ee54 00000036 b6e64000 b6fb6394 00000036 00000000
+<0>[   87.693209] [0:     trinity-c1: 4740] 5fe0: bef09728 bef09718 00013098 b6f8a124 60060010 0000010d 00000000 00000000
+<4>[   87.693392] [0:     trinity-c1: 4740] [<c02f7d28>] (sg_init_table+0x1c/0x30) from [<c03eade8>] (_kgsl_sharedmem_page_alloc+0x118/0x3bc)
+<4>[   87.693544] [0:     trinity-c1: 4740] [<c03eade8>] (_kgsl_sharedmem_page_alloc+0x118/0x3bc) from [<c03e53e0>] (_gpumem_alloc+0xb4/0xec)
+<4>[   87.693728] [0:     trinity-c1: 4740] [<c03e53e0>] (_gpumem_alloc+0xb4/0xec) from [<c03e55f4>] (kgsl_ioctl_gpumem_alloc+0x30/0x13c)
+<4>[   87.693880] [0:     trinity-c1: 4740] [<c03e55f4>] (kgsl_ioctl_gpumem_alloc+0x30/0x13c) from [<c03e0d70>] (kgsl_ioctl+0x210/0x314)
+<4>[   87.694033] [0:     trinity-c1: 4740] [<c03e0d70>] (kgsl_ioctl+0x210/0x314) from [<c015b228>] (vfs_ioctl+0x28/0x3c)
+<4>[   87.694185] [0:     trinity-c1: 4740] [<c015b228>] (vfs_ioctl+0x28/0x3c) from [<c015bd7c>] (do_vfs_ioctl+0x534/0x588)
+<4>[   87.694338] [0:     trinity-c1: 4740] [<c015bd7c>] (do_vfs_ioctl+0x534/0x588) from [<c015be18>] (sys_ioctl+0x48/0x70)
+<4>[   87.694491] [0:     trinity-c1: 4740] [<c015be18>] (sys_ioctl+0x48/0x70) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+<0>[   87.694643] [0:     trinity-c1: 4740] Code: e1a05000 0a000000 ebffc7f6 e2444001 (e7953204) 

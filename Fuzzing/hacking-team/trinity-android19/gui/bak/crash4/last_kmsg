@@ -1,0 +1,748 @@
+[    0.000000] sec_dbg_setup: str=@0x88490004
+[    0.000000] sec_dbg_setup: secdbg_paddr = 0x88490004
+[    0.000000] sec_dbg_setup: secdbg_size = 0x40000
+[    0.152510] set_dload_mode <1> ( c0e12148 )
+[    0.182847] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+[    0.183061] MSM_DCVS: msm_dcvs_early_init: Unable to initialize DCVS err=4
+[    0.185777] sec_debug_init: enable=0
+[    0.185808] sec_debug_init: restart_reason : 0xfa00a65c
+[    0.221089] msm_gpiomux_install: write failure: -22
+[    0.221120] msm_gpiomux_install: write failure: -22
+[    0.221120] msm_gpiomux_install: write failure: -22
+[    0.221120] msm_gpiomux_install: write failure: -22
+[    0.227498] pm8xxx-regulator pm8xxx-regulator.3: Failed to set supply 8921_l29
+[    0.227620] pm8xxx_vreg_probe: regulator_register failed: 8921_l29, rc=-16
+[    0.227620] pm8xxx_vreg_probe: error for 8921_l29, rc=-16
+[    0.235006] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235006] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235037] Using interleaved memory by default
+[    0.235220] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235220] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235251] Using interleaved memory by default
+[    0.235434] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235464] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235464] Using interleaved memory by default
+[    0.235647] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235647] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235678] Using interleaved memory by default
+[    0.235861] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.235861] AXI: msm_bus_rpm_is_mem_interleaved(): Status read for interleaving returned: -22
+[    0.235891] Using interleaved memory by default
+[    0.385685] [CAMERA][msm8930_init_cam:1942] Start
+[    0.386113] [msm_camera_gpio_install:274] [Start]
+[    0.596703] smd_channel_probe_worker: allocation table not initialized
+[    0.617182] msm_iommu_dev: Could not find context <jpegd_src>
+[    0.617335] msm_iommu_dev: Could not find context <jpegd_dst>
+[    0.619227] param_sec_operation: filp_open failed. (-2)
+[    0.619319] sec_open_param PARAM OPEN FAIL
+[    0.807721] tima_uevent_init
+[    0.839615] [mdnie lite] start!
+[    0.839859] [mdnie lite] end!
+[    0.845719] hdmi_msm hdmi_msm.1: external_common_state_create: sysfs group e0159408
+[    0.847306] Inside writeback_driver_init
+[    0.847855] Inside writeback_probe
+[    0.855089] Unknown PM state 0
+[    0.855333] Unknown PM state 3
+[    0.972653] wcd9xxx-i2c-core 8-0077: wcd9xxx_i2c_probe:probe for other slaves
+[    0.972684] devices of codec I2C slave Addr = 77
+[    0.973081] wcd9xxx-i2c-core 8-0066: wcd9xxx_i2c_probe:probe for other slaves
+[    0.973111] devices of codec I2C slave Addr = 66
+[    0.973447] wcd9xxx-i2c-core 8-0055: wcd9xxx_i2c_probe:probe for other slaves
+[    0.973508] devices of codec I2C slave Addr = 55
+[    1.012696] msm_hsusb_host msm_hsusb_host: unable to register with transceiver
+[    1.143323] msm_otg_sm_work 2359: couldn't get usb power supply
+[    1.153181] Atmel MXT336S 3-004a: tsp_atmel/mxt336s_Serrano.fw
+[    1.713779] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[    1.726232] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.745734] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.756233] mpu6050_input_probe: mpu6050 probe failed
+[    1.811628] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    1.883290] imx175_eeprom_init called 
+[    1.883625] imx175 spi driver probe
+[    1.884144] imx175_spi_read_id: ReadID:0xf8, 0x12
+[    1.884510] imx175_spi_read : Enter - reg_addr : 0x40
+[    1.884938] imx175_spi_read : Enter - reg_addr : 0x1000
+[    1.885396] imx175_spi_read : Enter - reg_addr : 0x2000
+[    1.885975] imx175_spi_read : Enter - reg_addr : 0x300c
+[    1.891683] imx175_spi_read : Enter - reg_addr : 0x1200
+[    1.892263] imx175_spi_read : Enter - reg_addr : 0x1218
+[    1.898184] imx175_format_calibrationdata: is_all_supported= 1
+[    1.898580] [shchang : imx175_format_afdata] Little Endian!!
+[    1.898794] [shchang : imx175_format_wbdata] Little Endian!!
+[    1.900289] msm_sensor_i2c_probe s5k3h5xa probe succeeded
+[    1.900503] [teddy]msm_sensor_i2c_probe s5k3h5xa sensor_create_node
+[    1.900900] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][1]
+[    1.901358] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][2]
+[    1.901968] [teddy][/home/dpi/qb5_8814/workspace/SERRANOLTE_EUR_OPEN/android/kernel/drivers/media/video/msm/sensors/s5k3h5xa.c::::S5K3H5XA_create_node][3]
+[    1.903006] msm_eeprom_probe probe_fail
+[    1.904806] msm_sensor_i2c_probe s5k6a3yx probe succeeded
+[    1.905051] msm_eeprom_probe probe_fail
+[    1.951594] mmc0: No card detect facilities available
+[    1.962643] mmc1: No card detect facilities available
+[    1.981321] mmc0: CMD52: Command timeout
+[    1.986876] mmc0: CMD52: Command timeout
+[    1.995666] mmc0: CMD8: Command timeout
+[    2.001251] mmc0: CMD5: Command timeout
+[    2.006806] mmc0: CMD5: Command timeout
+[    2.012299] mmc0: CMD5: Command timeout
+[    2.017915] mmc0: CMD5: Command timeout
+[    2.023439] mmc0: CMD55: Command timeout
+[    2.028933] mmc0: CMD55: Command timeout
+[    2.034549] mmc0: CMD55: Command timeout
+[    2.040073] mmc0: CMD55: Command timeout
+[    2.128948] mmc1: CMD52: Command timeout
+[    2.134564] mmc1: CMD52: Command timeout
+[    2.143415] mmc1: CMD8: Command timeout
+[    2.148939] mmc1: CMD5: Command timeout
+[    2.154524] mmc1: CMD5: Command timeout
+[    2.160048] mmc1: CMD5: Command timeout
+[    2.165573] mmc1: CMD5: Command timeout
+[    2.171188] mmc1: CMD55: Command timeout
+[    2.176712] mmc1: CMD55: Command timeout
+[    2.182237] mmc1: CMD55: Command timeout
+[    2.187822] mmc1: CMD55: Command timeout
+[    2.193438] mmc1: CMD1: Command timeout
+[    2.843430] i2c i2c-21: an30259a_initialize: failure on i2c write (reg = 0x 0)
+[    2.843644] i2c i2c-21: failure on initialization at led channel:0
+[    2.855852] gp2a_setup_irq, start
+[    2.856554] gp2a_setup_irq, success
+[    3.010499] soc-audio soc-audio.0: Failed to add Speaker Function: -16
+[    3.061529] tc360_probe start
+[    3.063360] tc360_init: init done 0
+[    3.065466] read_ocv_trim: program rev reg is 0x19
+[    3.065618] pm8921_is_usb_chg_plugged_in: called before init
+[    3.069525] pm8921_is_usb_chg_plugged_in: called before init
+[    3.069769] pm8921_is_usb_chg_plugged_in: called before init
+[    3.069922] pm8921_is_batfet_closed: called before init
+[    3.094857] pm8921_is_usb_chg_plugged_in: called before init
+[    3.203570] pm8921_is_batfet_closed: called before init
+[    3.235067] pm8921_is_usb_chg_plugged_in: called before init
+[    3.343659] pm8921_is_batfet_closed: called before init
+[    3.375156] pm8921_is_usb_chg_plugged_in: called before init
+[    3.483747] pm8921_is_batfet_closed: called before init
+[    3.515244] pm8921_is_usb_chg_plugged_in: called before init
+[    3.605310] tsu6721 15-0025: dev1: 0x4, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+[    3.605524] tsu6721_callback: fail to get battery ps
+[    3.623714] pm8921_is_batfet_closed: called before init
+[    3.655211] pm8921_is_usb_chg_plugged_in: called before init
+[    3.764108] pm8921_is_batfet_closed: called before init
+[    3.795208] pm8921_is_usb_chg_plugged_in: called before init
+[    3.798718] pm8921_usb_ovp_disable: called before init
+[    3.798931] power_supply usb: driver failed to report `present' property: 4294967274
+[    3.799084] power_supply usb: driver failed to report `present' property: 4294967274
+[    3.799267] power_supply ac: driver failed to report `present' property: 4294967274
+[    3.799450] power_supply ac: driver failed to report `present' property: 4294967274
+[    3.812421] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    3.815107] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    3.816419] pm8921_charger_probe: battery(PM8917) cable_type (1)
+[    3.817518] irda_device_init called!
+[    3.818342] barcode_emul_ice4_8930: probe complete barcode_emul_probe
+[    3.823226] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[    3.823378] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (475mA)--------
+[    3.824111] power_supply usb: driver failed to report `health' property: 4294967274
+[    3.868335] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[    3.879902] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    3.970853] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[    4.068853] init: /init.qcom.rc: 641: invalid command '/system/bin/log'
+[    4.069250] init: /init.qcom.rc: 781: invalid command 'kill'
+[    4.069311] init: /init.qcom.rc: 783: invalid command 'kill'
+[    4.069464] init: /init.qcom.rc: 785: invalid command 'kill'
+[    4.069555] init: /init.qcom.rc: 787: invalid command 'kill'
+[    4.071539] init: could not import file 'init.mdm.rc' from 'init.target.rc'
+[    4.071997] init: /init.carrier.rc: 117: ignored duplicate definition of service 'TvoutService_C'
+[    4.072241] init: /init.container.rc: 39: invalid option 'start'
+[    4.073432] init: setsebool: could not set debugfs to 1
+[    4.076423] init: invalid uid 'fm_radio'
+[    4.343232] power_supply usb: driver failed to report `health' property: 4294967274
+[    4.347260] power_supply fuelgauge: driver failed to report `current_max' property: 4294967274
+[    4.499038] init: could not open /dev/keychord
+[    5.418342] init: Running /dev/block/platform/msm_sdcc.1/by-name/cache on ext4
+[    5.460277] init: Running /dev/block/platform/msm_sdcc.1/by-name/persist on ext4
+[    5.491896] init: Running /dev/block/platform/msm_sdcc.1/by-name/efs on ext4
+[    5.548542] init: Running /dev/block/platform/msm_sdcc.1/by-name/persdata on ext4
+[    5.937341] init: failed to open '/sys/devices/soc0/soc_id'
+[    5.937524] init: failed to open '/sys/devices/soc0/platform_version'
+[    5.937707] init: failed to open '/sys/devices/soc0/hw_platform'
+[    5.937830] init: Detected MSM SOC ID=154 SOC VER=65536 BOARD TYPE=Unknown
+[    5.954799] healthd: wakealarm_init: timerfd_create failed
+[    5.970364] init: cannot find '/system/bin/sec-ril', disabling 'secril-daemon'
+[    6.035861] init: cannot find '/system/bin/sensorhubservice', disabling 'sensorhubservice'
+[    6.038486] init: cannot find '/system/bin/rf4ce', disabling 'rf4ce'
+[    6.038669] init: cannot find '/system/bin/qrngd', disabling 'qrngd'
+[    6.041812] init: cannot execve('/system/etc/install-recovery.sh'): Permission denied
+[    6.043338] QSEECOM: qseecom_release: Unsupported clnt_handle_type 4
+[    7.169998] wcnss: no space available for smd frame
+[    7.194689] wcnss: no space available for smd frame
+[    7.224660] wcnss: no space available for smd frame
+[    7.254723] wcnss: no space available for smd frame
+[    7.647916] diag: proc 1, msg mask update fail -12, tried 419
+[    9.969021] smd_tty_open: DS open failed -19
+[    9.969265] Unknown PM state 0
+[    9.970822] Unknown PM state 3
+[    9.974851] Unknown PM state 0
+[    9.976163] Unknown PM state 3
+[   10.045597] init: untracked pid 435 exited
+[   10.075446] Unknown PM state 0
+[   10.076789] Unknown PM state 3
+[   10.076911] Unknown PM state 0
+[   10.078162] Unknown PM state 3
+[   10.101571] init: property 'sys.powerctl' doesn't exist while expanding '${sys.powerctl}'
+[   10.101632] init: powerctl: cannot expand '${sys.powerctl}'
+[   10.101693] init: property 'sys.sysctl.extra_free_kbytes' doesn't exist while expanding '${sys.sysctl.extra_free_kbytes}'
+[   10.101724] init: cannot expand '${sys.sysctl.extra_free_kbytes}' while writing to '/proc/sys/vm/extra_free_kbytes'
+[   10.102334] init: cannot find '/system/bin/scranton_RD', disabling 'scranton_RD'
+[   10.136029] init: cannot find '/system/bin/netmgrd', disabling 'netmgrd'
+[   10.360781] init: cannot find '/system/bin/quipc_igsn', disabling 'quipc_igsn'
+[   10.417793] init: cannot find '/system/bin/quipc_main', disabling 'quipc_main'
+[   10.458354] init: cannot find '/system/bin/location-mq', disabling 'location_mq'
+[   10.498092] init: cannot find '/system/bin/lowi-server', disabling 'lowi-server'
+[   10.571005] [mdnie lite] is negative Mode On = 0
+[   10.571005] [mdnie lite] negative off when resume, tuning again!
+[   10.571036] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   10.571066] [mdnie lite]  = UI MODE =
+[   10.571097] [mdnie lite]  = STANDARD MODE =
+[   10.571097] [mdnie lite]  send tuning cmd!!
+[   10.603967] Notify: smsm init
+[   10.604181] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+[   10.695223] init: cannot find '/system/bin/battery_monitor', disabling 'battery_monitor'
+[   10.980436] smd_tty_open: DS open failed -19
+[   11.102853] init: sys_prop: permission denied uid:1013  name:audio.country
+[   11.106088] init: untracked pid 553 exited
+[   11.616572] diag: proc 0, msg mask update fail -12, tried 419
+[   11.981199] smd_tty_open: DS open failed -19
+[   12.981687] smd_tty_open: DS open failed -19
+[   14.021822] ACDB=> get_hw_delay Invalid delay/ delay entries
+[   14.021974] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[   19.193743] ACDB=> get_hw_delay Invalid delay/ delay entries
+[   19.193895] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[   19.208972] init: sys_prop: permission denied uid:1013  name:audioflinger.bootsnd
+[   19.448771] accel_open_calibration: Can't open calibration file
+[   19.639981] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[   23.505386] pm_chg_usb_trim: trim_orig 40 write 0x28 index=0 value 0x0 to USB_OVP_TRIM
+[   27.689668] msm_pm_mode_attr_store: spc is blocked (1) from [sh]
+[   27.689851] msm_pm_mode_attr_store: spc is blocked (2) from [sh]
+[   29.201587] [mdnie lite] is negative Mode On = 0
+[   29.201678] [mdnie lite] negative off when resume, tuning again!
+[   29.201831] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   29.201953] [mdnie lite]  = UI MODE =
+[   29.202044] [mdnie lite]  = STANDARD MODE =
+[   29.202136] [mdnie lite]  send tuning cmd!!
+[   29.236624] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(1)
+[   33.427620] wlan: [1032:E :HDD] hdd_apply_cfg_ini: Reg Parameter gApKeepAlivePeriod > allowed Maximum [30 > 20]. Enforcing Default= 5
+[   33.442697] wlan: [1032:E :VOS] INFO: NV binary file version=1 Driver default NV version=1, continue...
+[   33.442759] 
+[   33.449565] wlan: [1032:E :HDD] hdd_wlan_startup: Invalid MAC address in NV, using MAC from ini file 00:89:ff
+[   33.512223] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[   33.715702] wlan: [2622:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[   33.805890] wlan: [2622:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[   37.368106] init: sys_prop: permission denied uid:2000  name:ro.csc.country_code
+[   37.368441] init: sys_prop: permission denied uid:2000  name:ro.csc.countryiso_code
+[   37.369113] init: sys_prop: permission denied uid:2000  name:ro.csc.sales_code
+[   37.369479] init: sys_prop: permission denied uid:2000  name:ro.setupwizard.mode
+[   37.974698] init: untracked pid 299 exited
+[   39.756081] dtv_pipe is not configured yet
+[   40.327483] [mdnie lite] is negative Mode On = 0
+[   40.327544] [mdnie lite] negative off when resume, tuning again!
+[   40.327666] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(1)
+[   40.327788] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+[   40.331023] [mdnie lite] set background mode : 4
+[   40.331146] [mdnie lite]  mode_store, input background(4)
+[   40.331237] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[   40.331359] [mdnie lite] [ERROR] not ST_DSI_RESUME. do not send mipi cmd.
+[   62.276087] init: untracked pid 4577 exited
+[   62.505600] init: untracked pid 4580 exited
+[  126.092476] accel_open_calibration: Can't open calibration file
+[  126.697207] wlan: [2622:E :HDD] hdd_conf_hostarpoffload: 
+[  126.697237] 
+[  126.697726] wlan: [2597:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+[  126.697909] wlan: [2597:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  126.851487] [mdnie lite] is negative Mode On = 0
+[  126.851609] [mdnie lite] negative off when resume, tuning again!
+[  126.851762] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[  126.851884] [mdnie lite]  = UI MODE =
+[  126.851976] [mdnie lite]  = AUTO MODE =
+[  126.852128] [mdnie lite]  send tuning cmd!!
+[  126.884755] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+[  127.073981] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[  127.085640] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[  127.126354] tc360 16-0020: no button press interrupt(0x0)
+[  127.178666] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[  128.532214] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+[  128.532244] 
+[  128.534655] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+[  128.534686] 
+[  128.537280] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+[  128.537311] 
+[  128.809674] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[  130.062566] msm_mctl_reserve_free_buf: stream is turned off
+[  130.082527] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[  130.084663] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[  130.087776] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[  130.186540] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+[  130.186601] 
+[  130.187883] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+[  130.187913] 
+[  130.189195] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+[  130.189256] 
+[  130.190721] msm_release_ion_client Calling ion_client_destroy
+[  146.769418] dtv_pipe is not configured yet
+[  274.098641] power_supply usb: driver failed to report `health' property: 4294967274
+[345242.660786] init: untracked pid 4566 exited
+[345266.848303] [mtpg_read]	527:dev->error so break r=-5
+[345288.781922] [mtpg_read]	527:dev->error so break r=-5
+[349392.329243] [mtpg_read]	527:dev->error so break r=-5
+[349412.567882] [mtpg_read]	527:dev->error so break r=-5
+[353175.427274] init: untracked pid 30047 exited
+[353175.654681] init: untracked pid 30051 exited
+[353196.162357] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[353196.162540] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353196.203224] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1245028352) failed, pool: general_pool
+[353196.203346] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353196.265974] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[353196.266126] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353196.339101] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1227202560) failed, pool: general_pool
+[353196.339253] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353196.393824] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-2147475456) failed, pool: general_pool
+[353196.393915] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353196.444030] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[353196.444182] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353196.479983] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1234542592) failed, pool: general_pool
+[353196.480105] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353196.584271] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[353196.584454] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353196.622787] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-2147475456) failed, pool: general_pool
+[353196.622971] kgsl: kgsl_mmu_get_gpuaddr:  [30196] allocated=49152, entries=4
+[353247.790039] init: untracked pid 30262 exited
+[353248.017233] init: untracked pid 30265 exited
+[421161.166042] power_supply usb: driver failed to report `health' property: 4294967274
+[421161.538940] power_supply usb: driver failed to report `health' property: 4294967274
+[421161.566195] pm_chg_usb_trim: trim_orig 40 write 0x28 index=0 value 0x0 to USB_OVP_TRIM
+[421161.573184] power_supply usb: driver failed to report `health' property: 4294967274
+[421161.580448] [mtpg_read]	527:dev->error so break r=-5
+[421162.340832] accel_open_calibration: Can't open calibration file
+[421162.592534] power_supply usb: driver failed to report `health' property: 4294967274
+[421162.925175] wlan: [2622:E :HDD] hdd_conf_hostarpoffload: 
+[421162.925206] 
+[421162.925816] wlan: [2597:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+[421162.925969] wlan: [2597:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[421162.991984] android_usb gadget: acm ttyGS0 can't notify serial state, -22
+[421163.051835] [mdnie lite] is negative Mode On = 0
+[421163.051926] [mdnie lite] negative off when resume, tuning again!
+[421163.052110] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[421163.052232] [mdnie lite]  = UI MODE =
+[421163.052384] [mdnie lite]  = AUTO MODE =
+[421163.052476] [mdnie lite]  send tuning cmd!!
+[421163.085102] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+[421163.274267] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[421163.285987] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[421163.326244] tc360 16-0020: no button press interrupt(0x0)
+[421163.370193] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[421164.737506] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+[421164.737536] 
+[421164.739856] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+[421164.739886] 
+[421164.741290] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+[421164.741321] 
+[421165.109427] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421166.674511] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421166.678693] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421166.680127] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421166.775992] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+[421166.776022] 
+[421166.777213] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+[421166.777243] 
+[421166.778433] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+[421166.778464] 
+[421166.779624] msm_release_ion_client Calling ion_client_destroy
+[421168.228334] dtv_pipe is not configured yet
+[421172.097585] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421172.109701] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421172.110007] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421172.159541] mmc1: CMD52: Command timeout
+[421172.165126] mmc1: CMD52: Command timeout
+[421172.173977] mmc1: CMD8: Command timeout
+[421172.179502] mmc1: CMD5: Command timeout
+[421172.185056] mmc1: CMD5: Command timeout
+[421172.190580] mmc1: CMD5: Command timeout
+[421172.196135] mmc1: CMD5: Command timeout
+[421172.201751] mmc1: CMD55: Command timeout
+[421172.207275] mmc1: CMD55: Command timeout
+[421172.212799] mmc1: CMD55: Command timeout
+[421172.218415] mmc1: CMD55: Command timeout
+[421172.223970] mmc1: CMD1: Command timeout
+[421173.095326] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421173.106161] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421173.106344] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421173.144922] mmc1: CMD52: Command timeout
+[421173.150446] mmc1: CMD52: Command timeout
+[421173.159206] mmc1: CMD8: Command timeout
+[421173.164699] mmc1: CMD5: Command timeout
+[421173.170254] mmc1: CMD5: Command timeout
+[421173.176022] mmc1: CMD5: Command timeout
+[421173.181516] mmc1: CMD5: Command timeout
+[421173.187040] mmc1: CMD55: Command timeout
+[421173.192503] mmc1: CMD55: Command timeout
+[421173.197966] mmc1: CMD55: Command timeout
+[421173.203521] mmc1: CMD55: Command timeout
+[421173.209045] mmc1: CMD1: Command timeout
+[421173.835720] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421173.843533] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421173.846829] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421173.886506] mmc1: CMD52: Command timeout
+[421173.892122] mmc1: CMD52: Command timeout
+[421173.901217] mmc1: CMD8: Command timeout
+[421173.907931] mmc1: CMD5: Command timeout
+[421173.913455] mmc1: CMD5: Command timeout
+[421173.919102] mmc1: CMD5: Command timeout
+[421173.924626] mmc1: CMD5: Command timeout
+[421173.930242] mmc1: CMD55: Command timeout
+[421173.935766] mmc1: CMD55: Command timeout
+[421173.941290] mmc1: CMD55: Command timeout
+[421173.946875] mmc1: CMD55: Command timeout
+[421173.952430] mmc1: CMD1: Command timeout
+[421174.847013] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421174.854429] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421174.857786] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421174.898928] mmc1: CMD52: Command timeout
+[421174.904452] mmc1: CMD52: Command timeout
+[421174.913272] mmc1: CMD8: Command timeout
+[421174.918766] mmc1: CMD5: Command timeout
+[421174.924260] mmc1: CMD5: Command timeout
+[421174.929814] mmc1: CMD5: Command timeout
+[421174.935308] mmc1: CMD5: Command timeout
+[421174.940832] mmc1: CMD55: Command timeout
+[421174.946387] mmc1: CMD55: Command timeout
+[421174.951911] mmc1: CMD55: Command timeout
+[421174.957466] mmc1: CMD55: Command timeout
+[421174.963021] mmc1: CMD1: Command timeout
+[421175.857512] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421175.865233] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421175.868194] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421175.910495] mmc1: CMD52: Command timeout
+[421175.916019] mmc1: CMD52: Command timeout
+[421175.925023] mmc1: CMD8: Command timeout
+[421175.930547] mmc1: CMD5: Command timeout
+[421175.936041] mmc1: CMD5: Command timeout
+[421175.941687] mmc1: CMD5: Command timeout
+[421175.947180] mmc1: CMD5: Command timeout
+[421175.952705] mmc1: CMD55: Command timeout
+[421175.958320] mmc1: CMD55: Command timeout
+[421175.963875] mmc1: CMD55: Command timeout
+[421175.969491] mmc1: CMD55: Command timeout
+[421175.975046] mmc1: CMD1: Command timeout
+[421176.867980] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421176.873565] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421176.878845] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421176.920200] mmc1: CMD52: Command timeout
+[421176.925755] mmc1: CMD52: Command timeout
+[421176.934667] mmc1: CMD8: Command timeout
+[421176.940283] mmc1: CMD5: Command timeout
+[421176.945777] mmc1: CMD5: Command timeout
+[421176.951514] mmc1: CMD5: Command timeout
+[421176.957008] mmc1: CMD5: Command timeout
+[421176.962685] mmc1: CMD55: Command timeout
+[421176.968331] mmc1: CMD55: Command timeout
+[421176.973886] mmc1: CMD55: Command timeout
+[421176.980051] mmc1: CMD55: Command timeout
+[421176.985667] mmc1: CMD1: Command timeout
+[421177.308328] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421177.313791] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421177.320902] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421177.360213] mmc1: CMD52: Command timeout
+[421177.365706] mmc1: CMD52: Command timeout
+[421177.374557] mmc1: CMD8: Command timeout
+[421177.380081] mmc1: CMD5: Command timeout
+[421177.385575] mmc1: CMD5: Command timeout
+[421177.391160] mmc1: CMD5: Command timeout
+[421177.396654] mmc1: CMD5: Command timeout
+[421177.402209] mmc1: CMD55: Command timeout
+[421177.407763] mmc1: CMD55: Command timeout
+[421177.413318] mmc1: CMD55: Command timeout
+[421177.418842] mmc1: CMD55: Command timeout
+[421177.424458] mmc1: CMD1: Command timeout
+[421178.318888] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421178.324534] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421178.330120] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421178.369155] mmc1: CMD52: Command timeout
+[421178.374679] mmc1: CMD52: Command timeout
+[421178.383683] mmc1: CMD8: Command timeout
+[421178.389238] mmc1: CMD5: Command timeout
+[421178.394701] mmc1: CMD5: Command timeout
+[421178.400286] mmc1: CMD5: Command timeout
+[421178.405810] mmc1: CMD5: Command timeout
+[421178.411334] mmc1: CMD55: Command timeout
+[421178.416920] mmc1: CMD55: Command timeout
+[421178.422444] mmc1: CMD55: Command timeout
+[421178.427937] mmc1: CMD55: Command timeout
+[421178.433584] mmc1: CMD1: Command timeout
+[421179.285590] (sec_debug_set_upload_cause) 85
+[421179.329082] tsu6721 15-0025: dev1: 0x0, dev2: 0x0, dev3: 0x0, ADC: 0x1f Jig:OFF
+[421179.334423] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421179.339978] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[421179.361006] accel_open_calibration: Can't open calibration file
+[421179.381363] mmc1: CMD52: Command timeout
+[421179.386796] mmc1: CMD52: Command timeout
+[421179.395586] mmc1: CMD8: Command timeout
+[421179.400805] (sec_debug_set_upload_cause) cafebabe
+[421179.401110] mmc1: CMD5: Command timeout
+[421179.406604] mmc1: CMD5: Command timeout
+[421179.412036] mmc1: CMD5: Command timeout
+[421179.417469] mmc1: CMD5: Command timeout
+[421179.422963] mmc1: CMD55: Command timeout
+[421179.428426] mmc1: CMD55: Command timeout
+[421179.433919] mmc1: CMD55: Command timeout
+[421179.439444] mmc1: CMD55: Command timeout
+[421179.444968] mmc1: CMD1: Command timeout
+[421179.697402] wlan: [2622:E :HDD] hdd_conf_hostarpoffload: 
+[421179.697432] 
+[421179.697768] wlan: [2597:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+[421179.697890] wlan: [2597:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[421179.777304] [mdnie lite] is negative Mode On = 0
+[421179.777396] [mdnie lite] negative off when resume, tuning again!
+[421179.777518] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[421179.777579] [mdnie lite]  = UI MODE =
+[421179.777640] [mdnie lite]  = AUTO MODE =
+[421179.777762] [mdnie lite]  send tuning cmd!!
+[421179.810510] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+[421179.998211] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[421180.009808] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[421180.050645] tc360 16-0020: no button press interrupt(0x0)
+[421180.089497] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[421181.710251] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+[421181.710281] 
+[421181.712998] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+[421181.713028] 
+[421181.714432] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+[421181.714463] 
+[421181.965951] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421182.431569] tsu6721 15-0025: dev1: 0x4, dev2: 0x0, dev3: 0x2, ADC: 0x1f Jig:OFF
+[421182.432210] pm_chg_usb_trim: trim_orig 40 write 0x32 index=2 value 0xa to USB_OVP_TRIM
+[421182.432363] pm8921_set_max_battery_charge_current: pm8921_set_max_battery_charge_current (475mA)--------
+[421182.433431] power_supply usb: driver failed to report `health' property: 4294967274
+[421182.691237] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[421182.703445] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[421182.794823] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[421182.868133] ACDB=> get_hw_delay Invalid delay/ delay entries
+[421182.868255] ACDB=> get_hw_delay: Path = 0 samplerate = 48000 usec = 3228238952 status -22
+[421183.443777] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421183.455864] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421183.456810] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421183.550751] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+[421183.550782] 
+[421183.552003] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+[421183.552033] 
+[421183.553162] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+[421183.553193] 
+[421183.554414] msm_release_ion_client Calling ion_client_destroy
+[421184.668072] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+[421184.668102] 
+[421184.670330] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+[421184.670361] 
+[421184.671795] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+[421184.671795] 
+[421184.942572] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421186.316050] msm_mctl_reserve_free_buf: stream is turned off
+[421186.358320] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421186.372726] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421186.374679] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421186.470452] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+[421186.470513] 
+[421186.471734] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+[421186.471765] 
+[421186.473016] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+[421186.473046] 
+[421186.474298] msm_release_ion_client Calling ion_client_destroy
+[421188.202697] dtv_pipe is not configured yet
+[421302.598668] accel_open_calibration: Can't open calibration file
+[421303.339581] wlan: [2622:E :HDD] hdd_conf_hostarpoffload: 
+[421303.339611] 
+[421303.340039] wlan: [2597:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist
+[421303.340252] wlan: [2597:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[421303.478784] [mdnie lite] is negative Mode On = 0
+[421303.478937] [mdnie lite] negative off when resume, tuning again!
+[421303.479059] [mdnie lite] mDNIe_Set_Mode start , mode(0), background(4)
+[421303.479242] [mdnie lite]  = UI MODE =
+[421303.479334] [mdnie lite]  = AUTO MODE =
+[421303.479425] [mdnie lite]  send tuning cmd!!
+[421303.512052] [mdnie lite] mDNIe_Set_Mode end , mode(0), background(4)
+[421303.699691] Atmel MXT336S 3-004a: 555clear_cover_enable = 0 
+[421303.712143] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[421303.750873] tc360 16-0020: no button press interrupt(0x0)
+[421303.802728] Atmel MXT336S 3-004a: [GDC] changed gdc_value Init -> Init
+[421305.061052] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_A2P8]::SET OK
+[421305.061113] 
+[421305.065111] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM2_RST_N::ret::1]::Set OK
+[421305.065172] 
+[421305.066759] [S5K6A3YX] s5k6a3yx_sensor_power_up:[CAM_SENSOR_IO_1P8]::SET OK
+[421305.066820] 
+[421305.322947] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421306.806207] msm_mctl_reserve_free_buf: stream is turned off
+[421306.848142] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421306.849424] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421306.850706] init: sys_prop: permission denied uid:1013  name:persist.sys.camera.preview
+[421306.950477] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_IO_1P8]::OFF OK
+[421306.950507] 
+[421306.951728] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM2_RST_N::ret::0]::OFF OK
+[421306.951759] 
+[421306.952979] [S5K6A3YX] s5k6a3yx_sensor_power_down:[CAM_SENSOR_A2P8]::OFF OK
+[421306.953010] 
+[421306.954231] msm_release_ion_client Calling ion_client_destroy
+[421323.324504] dtv_pipe is not configured yet
+[421328.382889] init: untracked pid 8858 exited
+[421328.613166] init: untracked pid 8862 exited
+[421339.164791] init: untracked pid 8938 exited
+[421339.233889] init: untracked pid 8927 exited
+[421339.423085] init: untracked pid 8941 exited
+[421339.482752] init: untracked pid 8930 exited
+[421339.604131] init: untracked pid 8958 exited
+[421339.671948] init: untracked pid 8979 exited
+[421339.751148] init: untracked pid 8980 exited
+[421339.827083] init: untracked pid 8961 exited
+[421339.893953] init: untracked pid 8988 exited
+[421339.974832] init: untracked pid 8987 exited
+[421340.052506] init: untracked pid 9042 exited
+[421340.277258] init: untracked pid 9045 exited
+[421342.017377] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[421342.017499] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=49152, entries=4
+[421342.079120] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[421342.079273] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=49152, entries=4
+[421342.203735] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[421342.203887] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=49152, entries=4
+[421342.339123] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1228939264) failed, pool: general_pool
+[421342.339306] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=49152, entries=4
+[421342.370590] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[421342.370773] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=49152, entries=4
+[421342.461876] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-628596736) failed, pool: general_pool
+[421342.461998] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=49152, entries=4
+[421342.491908] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1228939264) failed, pool: general_pool
+[421342.492091] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=49152, entries=4
+[421342.896364] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1226842112) failed, pool: general_pool
+[421342.896547] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=167825408, entries=5
+[421342.974130] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1226842112) failed, pool: general_pool
+[421342.974344] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=167825408, entries=5
+[421343.081989] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1231638528) failed, pool: general_pool
+[421343.082142] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=167825408, entries=5
+[421343.129540] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1610608640) failed, pool: general_pool
+[421343.129631] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=167825408, entries=5
+[421343.272863] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1226842112) failed, pool: general_pool
+[421343.273077] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=167825408, entries=5
+[421343.317240] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1226825728) failed, pool: general_pool
+[421343.317362] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=167825408, entries=5
+[421343.369643] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+[421343.369857] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=167825408, entries=5
+[421343.388841] Unable to handle kernel NULL pointer dereference at virtual address 00000000
+[421343.388993] pgd = d7d08000
+[421343.389085] [00000000] *pgd=00000000
+[421343.389268] [0:     trinity-c0: 9094] Internal error: Oops: 5 [#1] PREEMPT SMP ARM
+[421343.389390] [0:     trinity-c0: 9094] Modules linked in: wlan(O) adsprpc
+[421343.389726] [0:     trinity-c0: 9094] CPU: 0    Tainted: G        W  O  (3.4.0-3173303 #1)
+[421343.389878] [0:     trinity-c0: 9094] PC is at sg_init_table+0x1c/0x30
+[421343.389970] [0:     trinity-c0: 9094] LR is at _kgsl_sharedmem_page_alloc+0x118/0x3bc
+[421343.390153] [0:     trinity-c0: 9094] pc : [<c02f7d28>]    lr : [<c03eade8>]    psr: 400e0013
+[421343.390184] [0:     trinity-c0: 9094] sp : d6dd7e28  ip : a00e0013  fp : 00000000
+[421343.390397] [0:     trinity-c0: 9094] r10: 00000000  r9 : 00000000  r8 : 00000000
+[421343.390550] [0:     trinity-c0: 9094] r7 : 00000000  r6 : d271b000  r5 : 00000010  r4 : ffffffff
+[421343.390703] [0:     trinity-c0: 9094] r3 : 00000000  r2 : c1038650  r1 : 00000000  r0 : 00000010
+[421343.390855] [0:     trinity-c0: 9094] Flags: nZcv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+[421343.390947] [0:     trinity-c0: 9094] Control: 10c5787d  Table: 9e70806a  DAC: 00000015
+[421343.391099] [0:     trinity-c0: 9094] 
+[421343.391130] [0:     trinity-c0: 9094] PC: 0xc02f7ca8:
+[421343.391343] [0:     trinity-c0: 9094] 7ca8  e5843000 e5843004 e5843008 e584300c e8bd8010 c0bc1192 e92d40f8 e1a05003
+[421343.392015] [0:     trinity-c0: 9094] 7cc8  e1a06001 e3a01020 e1a04000 e1a07002 ebffc808 e3a03000 e3150006 e5846010
+[421343.392747] [0:     trinity-c0: 9094] 7ce8  e5847014 e5843018 1a000002 e59f000c e3001155 ebf652f0 e584501c e8bd80f8
+[421343.393480] [0:     trinity-c0: 9094] 7d08  c0bc1192 e92d4038 e1a04001 e1b01201 e1a05000 0a000000 ebffc7f6 e2444001
+[421343.394243] [0:     trinity-c0: 9094] 7d28  e7953204 e3c33001 e3833002 e7853204 e8bd8038 e92d4070 e1a05001 e3a01001
+[421343.394975] [0:     trinity-c0: 9094] 7d48  e1a04000 e1a06002 ebffffed e59f3074 e5933000 e3530000 0a000007 e59f2068
+[421343.395708] [0:     trinity-c0: 9094] 7d68  e5921000 e2812103 e1550002 22833101 20613003 20833005 2a000001 e2853103
+[421343.396471] [0:     trinity-c0: 9094] 7d88  e2833602 e59f1044 e1a03623 e1a05a05 e1a02823 e1a05a25 e5911000 e3510000
+[421343.397142] [0:     trinity-c0: 9094] 
+[421343.397173] [0:     trinity-c0: 9094] LR: 0xc03ead68:
+[421343.397386] [0:     trinity-c0: 9094] ad68  059f12f8 0a000012 e5940024 e1a00100 e3500a01 9a000001 ebf54625 ea000006
+[421343.398119] [0:     trinity-c0: 9094] ad88  e59f32dc e5930030 e3500000 0a00000a e3a010d0 e3a02a01 ebf56a1b e3500000
+[421343.398851] [0:     trinity-c0: 9094] ada8  e1a06000 1a000005 e59f02b8 e1a0210a e59f12a8 eb122815 ea000029 e3a06010
+[421343.399584] [0:     trinity-c0: 9094] adc8  e594001c e3a08000 e1a09007 eb117103 e594001c e1a0a008 e5941024 ebfc33c8
+[421343.400347] [0:     trinity-c0: 9094] ade8  e59fb284 ea000049 e1590005 b3a05a01 b3a000d2 ba000003 e3550a01 e59f026c
+[421343.401079] [0:     trinity-c0: 9094] ae08  03a000d2 eaffffff e2451001 e59f2260 e3a03000 e1a01621 e16f1f11 e2611020
+[421343.401812] [0:     trinity-c0: 9094] ae28  ebf4b1fd e3500000 1086110a 11a0c645 13a03000 158d1004 1a00000b e3550a01
+[421343.402575] [0:     trinity-c0: 9094] ae48  1a000031 e0692007 e5848020 e59f0224 e59f1208 e1a03527 e5842014 e1a02522
+[421343.403307] [0:     trinity-c0: 9094] 
+[421343.403307] [0:     trinity-c0: 9094] SP: 0xd6dd7da8:
+[421343.403521] [0:     trinity-c0: 9094] 7da8  00000000 c0111e90 00002d6a 00000000 d6dd7f00 c02f7d28 400e0013 ffffffff
+[421343.404193] [0:     trinity-c0: 9094] 7dc8  d6dd7e14 00000000 00000000 00000000 00000000 c0882218 00000010 00000000
+[421343.404894] [0:     trinity-c0: 9094] 7de8  c1038650 00000000 ffffffff 00000010 d271b000 00000000 00000000 00000000
+[421343.405627] [0:     trinity-c0: 9094] 7e08  00000000 00000000 a00e0013 d6dd7e28 c03eade8 c02f7d28 400e0013 ffffffff
+[421343.406390] [0:     trinity-c0: 9094] 7e28  00000000 d535f884 00001000 c03eade8 00000647 d6885400 00000000 d535f880
+[421343.407122] [0:     trinity-c0: 9094] 7e48  ffffffff d6dd7e8c d6885400 d535f884 00000000 00000000 00000000 c03e53e0
+[421343.407855] [0:     trinity-c0: 9094] 7e68  00000000 d6dd7eac d7ccd0c0 d8bf5d80 d6dd7eac b6cfd000 c03e55c4 c03e55f4
+[421343.408587] [0:     trinity-c0: 9094] 7e88  d8bf5d80 00000000 d6dd7eac c00c092f 0000000c d8bf5d80 d6dd7eac c03e0d70
+[421343.409289] [0:     trinity-c0: 9094] 
+[421343.409289] [0:     trinity-c0: 9094] R2: 0xc10385d0:
+[421343.409503] [0:     trinity-c0: 9094] 85d0  00000000 00000000 c0c8df49 00000000 00000000 00000000 00000000 c0c8df56
+[421343.410266] [0:     trinity-c0: 9094] 85f0  00000000 00000000 00000000 00000000 c0c8df66 00000000 00000000 00000000
+[421343.410999] [0:     trinity-c0: 9094] 8610  00000000 c0c8df6c 00000000 00000000 00000000 00000000 c0c8df82 00000000
+[421343.411792] [0:     trinity-c0: 9094] 8630  00000000 00000000 00000000 c0c8df8f 00000000 00000000 00000000 00000000
+[421343.412525] [0:     trinity-c0: 9094] 8650  c0c8dfa0 00000000 00000000 00000000 00000000 c0c8dfc3 00000000 00000000
+[421343.413257] [0:     trinity-c0: 9094] 8670  00000000 00000000 c0c8dfe3 00000000 00000000 00000000 00000000 c0c8dfa8
+[421343.413959] [0:     trinity-c0: 9094] 8690  00000000 00000000 00000000 00000000 c0c8e0ae 00000000 00000000 00000000
+[421343.414722] [0:     trinity-c0: 9094] 86b0  00000000 c0c8e01d 00000000 00000000 00000000 00000000 c0c8e006 00000000
+[421343.415485] [0:     trinity-c0: 9094] 
+[421343.415516] [0:     trinity-c0: 9094] R6: 0xd271af80:
+[421343.415699] [0:     trinity-c0: 9094] af80  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[421343.416462] [0:     trinity-c0: 9094] afa0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[421343.417194] [0:     trinity-c0: 9094] afc0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[421343.417957] [0:     trinity-c0: 9094] afe0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[421343.418690] [0:     trinity-c0: 9094] b000  d2719000 c2180f80 c2180fa0 c2180fc0 c2180fe0 c218d000 c218d020 c218d040
+[421343.419453] [0:     trinity-c0: 9094] b020  c218d060 c218d080 c218d0a0 c218d0c0 c218d0e0 c218d100 c218d120 c218d140
+[421343.420216] [0:     trinity-c0: 9094] b040  c218d160 c218d180 c218d1a0 c218d1c0 c218d1e0 c218d200 c218d220 c218d240
+[421343.420948] [0:     trinity-c0: 9094] b060  c218d260 c218d280 c218d2a0 c218d2c0 c218d2e0 c218d300 c218d320 c218d340
+[421343.421650] [0:     trinity-c0: 9094] Process trinity-c0 (pid: 9094, stack limit = 0xd6dd62f0)
+[421343.421772] [0:     trinity-c0: 9094] Stack: (0xd6dd7e28 to 0xd6dd8000)
+[421343.421925] [0:     trinity-c0: 9094] 7e20:                   00000000 d535f884 00001000 c03eade8 00000647 d6885400
+[421343.422077] [0:     trinity-c0: 9094] 7e40: 00000000 d535f880 ffffffff d6dd7e8c d6885400 d535f884 00000000 00000000
+[421343.422261] [0:     trinity-c0: 9094] 7e60: 00000000 c03e53e0 00000000 d6dd7eac d7ccd0c0 d8bf5d80 d6dd7eac b6cfd000
+[421343.422413] [0:     trinity-c0: 9094] 7e80: c03e55c4 c03e55f4 d8bf5d80 00000000 d6dd7eac c00c092f 0000000c d8bf5d80
+[421343.422596] [0:     trinity-c0: 9094] 7ea0: d6dd7eac c03e0d70 00000000 ffffff2a ffffffff 00000000 c1bf9b70 00000000
+[421343.422749] [0:     trinity-c0: 9094] 7ec0: d915f910 c00adcf0 00000000 00000001 00000001 c02a56c8 dfeae7f8 00017f35
+[421343.422932] [0:     trinity-c0: 9094] 7ee0: 00000000 c00ade88 e208fc49 271ae91c 00000000 00000000 d7ccd300 00000103
+[421343.423115] [0:     trinity-c0: 9094] 7f00: c00c092f 00000103 d6dd6000 b6cfd000 df3be310 c015b228 dee3ae80 c015bd7c
+[421343.423268] [0:     trinity-c0: 9094] 7f20: d6dd7f44 00000000 00000001 c02a6f84 00000000 00000000 00000001 00000000
+[421343.423390] [0:     trinity-c0: 9094] 7f40: 00000000 00000001 00000000 d7969850 dee3ae80 d6dd7f3c 5303b02b ffffff8d
+[421343.423573] [0:     trinity-c0: 9094] 7f60: d7ccd300 00000000 d7ccd300 b6cfd000 c00c092f 00000103 d6dd6000 00000200
+[421343.423726] [0:     trinity-c0: 9094] 7f80: 00000000 c015be18 00000103 00000000 ffffff8d c8010000 b7af93a4 00000036
+[421343.423909] [0:     trinity-c0: 9094] 7fa0: c000e464 c000e43c ffffff8d c8010000 00000103 c00c092f b6cfd000 b410aec0
+[421343.424061] [0:     trinity-c0: 9094] 7fc0: ffffff8d c8010000 b7af93a4 00000036 b6e10000 b6f55394 00000036 00000000
+[421343.424244] [0:     trinity-c0: 9094] 7fe0: be906718 be906708 b6f92328 b6f29124 600e0010 00000103 00000000 00000000
+[421343.424428] [0:     trinity-c0: 9094] [<c02f7d28>] (sg_init_table+0x1c/0x30) from [<c03eade8>] (_kgsl_sharedmem_page_alloc+0x118/0x3bc)
+[421343.424611] [0:     trinity-c0: 9094] [<c03eade8>] (_kgsl_sharedmem_page_alloc+0x118/0x3bc) from [<c03e53e0>] (_gpumem_alloc+0xb4/0xec)
+[421343.424794] [0:     trinity-c0: 9094] [<c03e53e0>] (_gpumem_alloc+0xb4/0xec) from [<c03e55f4>] (kgsl_ioctl_gpumem_alloc+0x30/0x13c)
+[421343.424977] [0:     trinity-c0: 9094] [<c03e55f4>] (kgsl_ioctl_gpumem_alloc+0x30/0x13c) from [<c03e0d70>] (kgsl_ioctl+0x210/0x314)
+[421343.425160] [0:     trinity-c0: 9094] [<c03e0d70>] (kgsl_ioctl+0x210/0x314) from [<c015b228>] (vfs_ioctl+0x28/0x3c)
+[421343.425313] [0:     trinity-c0: 9094] [<c015b228>] (vfs_ioctl+0x28/0x3c) from [<c015bd7c>] (do_vfs_ioctl+0x534/0x588)
+[421343.425496] [0:     trinity-c0: 9094] [<c015bd7c>] (do_vfs_ioctl+0x534/0x588) from [<c015be18>] (sys_ioctl+0x48/0x70)
+[421343.425648] [0:     trinity-c0: 9094] [<c015be18>] (sys_ioctl+0x48/0x70) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+[421343.425831] [0:     trinity-c0: 9094] Code: e1a05000 0a000000 ebffc7f6 e2444001 (e7953204) 
+[421343.434133] [0:     trinity-c0: 9094] ---[ end trace da227214a82491bd ]---
+[421343.434316] [0:     trinity-c0: 9094] Kernel panic - not syncing: Fatal exception
+[421343.434438]I[1:       Binder_4: 1196] CPU1: stopping
+[421343.434621]I[1:       Binder_4: 1196] [<c0014550>] (unwind_backtrace+0x0/0x11c) from [<c00138a4>] (handle_IPI+0x100/0x1d0)
+[421343.434774]I[1:       Binder_4: 1196] [<c00138a4>] (handle_IPI+0x100/0x1d0) from [<c00086f4>] (gic_handle_irq+0x100/0x10c)
+[421343.434957]I[1:       Binder_4: 1196] [<c00086f4>] (gic_handle_irq+0x100/0x10c) from [<c0882280>] (__irq_svc+0x40/0x70)
+[421343.435140]I[1:       Binder_4: 1196] Exception stack(0xdf57fd38 to 0xdf57fd80)
+[421343.435232]I[1:       Binder_4: 1196] fd20:                                                       00000001 c0f03900
+[421343.435384]I[1:       Binder_4: 1196] fd40: 00000000 df4e3000 60000013 df4e3000 df57e000 00000001 00000001 00000000
+[421343.435567]I[1:       Binder_4: 1196] fd60: c0f00440 df57fe2c 00000000 df57fd80 c00ef2d4 c00ef2d8 60000013 ffffffff
+[421343.435720]I[1:       Binder_4: 1196] [<c0882280>] (__irq_svc+0x40/0x70) from [<c00ef2d8>] (rcu_note_context_switch+0x1bc/0x28c)
+[421343.435903]I[1:       Binder_4: 1196] [<c00ef2d8>] (rcu_note_context_switch+0x1bc/0x28c) from [<c088033c>] (__schedule+0x50/0x638)
+[421343.436086]I[1:       Binder_4: 1196] [<c088033c>] (__schedule+0x50/0x638) from [<c062e6fc>] (binder_thread_read+0x3f0/0xed4)
+[421343.436239]I[1:       Binder_4: 1196] [<c062e6fc>] (binder_thread_read+0x3f0/0xed4) from [<c062f590>] (binder_ioctl+0x3b0/0x97c)
+[421343.436422]I[1:       Binder_4: 1196] [<c062f590>] (binder_ioctl+0x3b0/0x97c) from [<c015b228>] (vfs_ioctl+0x28/0x3c)
+[421343.436605]I[1:       Binder_4: 1196] [<c015b228>] (vfs_ioctl+0x28/0x3c) from [<c015bd7c>] (do_vfs_ioctl+0x534/0x588)
+[421343.436758]I[1:       Binder_4: 1196] [<c015bd7c>] (do_vfs_ioctl+0x534/0x588) from [<c015be18>] (sys_ioctl+0x48/0x70)
+[421343.436941]I[1:       Binder_4: 1196] [<c015be18>] (sys_ioctl+0x48/0x70) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+[421343.437124] [0:     trinity-c0: 9094] (sec_debug_set_upload_magic) 776655ee
+[421343.437429] [0:     trinity-c0: 9094] (sec_debug_set_upload_cause) c8
+[421343.437521] [0:     trinity-c0: 9094] Rebooting in 5 seconds..
+[421348.444632] [0:     trinity-c0: 9094] Going down for restart now
+[421348.444815] [0:     trinity-c0: 9094] msm_restart : clear reset flag
+
+No errors detected

@@ -1,0 +1,969 @@
+\input texinfo
+@c %**start of header
+@iftex
+@afourpaper
+@setchapternewpage off
+@end iftex
+@setfilename libcfu.info
+@settitle Libcfu Programmers Guide
+@c %**end of header
+
+@include version.texi
+
+Copyright @copyright{} 2005 Don Owens
+
+This code is released under the BSD license:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+ * Redistributions in binary form must reproduce the above
+   copyright notice, this list of conditions and the following
+   disclaimer in the documentation and/or other materials provided
+   with the distribution.
+
+ * Neither the name of the author nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+@ifinfo
+@dircategory Libraries
+@direntry
+     * Libcfu: (libcfu).                     The cfu library.
+@end direntry
+@end ifinfo
+
+@ifinfo
+This manual describes the external interface to libcfu version @value{VERSION}
+
+Copyright @copyright{} 2005 Don Owens
+All rights reserved.
+
+This code is released under the BSD license:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+ * Redistributions in binary form must reproduce the above
+   copyright notice, this list of conditions and the following
+   disclaimer in the documentation and/or other materials provided
+   with the distribution.
+
+ * Neither the name of the author nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+@end ifinfo
+
+@titlepage
+@title Libcfu Programmers Guide
+@subtitle Version @value{VERSION}
+@author Don Owens
+@page
+@vskip 0pt plus 1filll
+Copyright @copyright{} 2005 Don Owens
+All rights reserved.
+
+This code is released under the BSD license:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+ * Redistributions in binary form must reproduce the above
+   copyright notice, this list of conditions and the following
+   disclaimer in the documentation and/or other materials provided
+   with the distribution.
+
+ * Neither the name of the author nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+@end titlepage
+
+@node   Top, Data structures, (dir), (dir)
+@ifinfo
+This manual describes the interface to libcfu version @value{VERSION}
+
+Copyright @copyright{} 2005 Don Owens
+@end ifinfo
+
+@menu
+* Data structures:: 
+* Conf::         For reading configuration files
+* Options::      For parsing command-line arguments
+* Thread queue:: For queueing up requests for a separate thread
+* Timer::        An easy to use timer
+
+* License::      License under which libcfu is distributed
+
+* Concept index::
+* Function index::
+@end menu
+
+@node Data structures, , Top, Top
+@chapter Data structures
+@cindex data structures
+
+@menu
+* Hash table::  For key/value pairs
+* Linked list:: For unordered data
+* Strings::     For self-extending strings
+@end menu
+
+@node Hash table, Linked list, Data structures, Data structures
+@section Hash table
+@cindex hash tables
+
+@defspec typedef u_int32_t (*cfuhash_function_t)(const void * @var{key}, size_t @var{length})
+ Prototype for a pointer to a hashing function.
+@end defspec
+
+@defspec typedef void (*cfuhash_free_fn_t)(void * @var{data})
+ Prototype for a pointer to a free function.
+@end defspec
+
+@defspec typedef int (*cfuhash_remove_fn_t)(void * @var{key}, size_t @var{key_size}, void * @var{data}, size_t @var{data_size}, void * @var{arg})
+ Prototype for a pointer to a function that determines whether or not to remove an entry from the hash.
+@end defspec
+
+@defspec typedef int (*cfuhash_foreach_fn_t)(void * @var{key}, size_t @var{key_size}, void * @var{data}, size_t @var{data_size}, void * @var{arg})
+ Prototype for a pointer to a function to be called foreach key/value
+ pair in the hash by cfuhash_foreach().  The return value should
+ normally be zero.  A non-zero return value means to stop iterating
+ over the key/value pairs.
+@end defspec
+
+@deftypefun {cfuhash_table_t *} cfuhash_new (size_t @var{size}, u_int32_t @var{flags})
+
+ Creates a new hash table.
+@end deftypefun
+
+@deftypefun {cfuhash_table_t *} cfuhash_new_with_initial_size (size_t @var{size})
+
+ Creates a new hash table with the specified size (number of
+ buckets).
+
+@end deftypefun
+
+@deftypefun {cfuhash_table_t *} cfuhash_new_with_flags (u_int32_t @var{flags})
+
+ Creates a new hash table with the specified flags.  Pass zero
+ for flags if you want the defaults. 
+@end deftypefun
+
+@deftypefun {cfuhash_table_t *} cfuhash_new_with_free_fn (size_t @var{size}, u_int32_t @var{flags}, cfuhash_free_fn_t @var{ff})
+
+ Same as cfuhash_new() except automatically calls cfuhash_set_free_fn(). 
+@end deftypefun
+
+@deftypefun {int} cfuhash_copy (cfuhash_table_t * @var{src}, cfuhash_table_t * @var{dst})
+
+ Copies entries in src to dst 
+@end deftypefun
+
+@deftypefun {cfuhash_table_t *} cfuhash_merge (cfuhash_table_t * @var{ht1}, cfuhash_table_t * @var{ht2}, u_int32_t @var{flags})
+
+ Returns a new hash containing entries from both hash tables.
+ For any entries with the same key, the one from ht2 wins.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_set_hash_function (cfuhash_table_t * @var{ht}, cfuhash_function_t @var{hf})
+
+ Sets the hashing function to use when computing which bucket to add
+ entries to.  It should return a 32-bit unsigned integer.  By
+ default, Perl's hashing algorithm is used.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_set_thresholds (cfuhash_table_t * @var{ht}, float @var{low}, float @var{high})
+
+ Sets the thresholds for when to rehash.  The ratio
+ num_entries/buckets is compared against low and high.  If it is
+ below 'low' or above 'high', the hash will shrink or grow,
+ respectively, unless the flags say to do otherwise.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_set_free_function (cfuhash_table_t * @var{ht}, cfuhash_free_fn_t @var{ff})
+
+ Sets the function to use when removing an entry from the hash,
+ i.e., when replacing an existing entry, deleting an entry, or
+ clearing the hash.  It is passed the value of the entry as a
+ void *.
+ 
+@end deftypefun
+
+@deftypefun {u_int32_t} cfuhash_get_flags (cfuhash_table_t * @var{ht})
+
+ Returns the hash's flags. See below for flag definitions. 
+@end deftypefun
+
+@deftypefun {u_int32_t} cfuhash_set_flag (cfuhash_table_t * @var{ht}, u_int32_t @var{flag})
+
+ Sets a flag. 
+@end deftypefun
+
+@deftypefun {u_int32_t} cfuhash_clear_flag (cfuhash_table_t * @var{ht}, u_int32_t @var{new_flag})
+
+ Clears a flag. 
+@end deftypefun
+
+@deftypefun {int} cfuhash_get_data (cfuhash_table_t * @var{ht}, const void * @var{key}, size_t @var{key_size}, void ** @var{data}, size_t * @var{data_size})
+
+ Returns the value for the entry with given key.  If key_size is -1,
+ key is assumed to be a null-terminated string.  If data_size is not
+ NULL, the size of the value is placed into data_size.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_exists_data (cfuhash_table_t * @var{ht}, const void * @var{key}, size_t @var{key_size})
+
+ Returns 1 if an entry with the given key exists in the hash, 0 otherwise. 
+@end deftypefun
+
+@deftypefun {int} cfuhash_put_data (cfuhash_table_t * @var{ht}, const void * @var{key}, size_t @var{key_size}, void * @var{data}, size_t @var{data_size}, void ** @var{r})
+
+ Inserts the given data value into the hash and associates it with
+ key.  If key_size is -1, key is assumed to be a null-terminated
+ string.  If data_size is -1, it is assumed to be a null-terminated
+ string (it's length will be calculated using strlen).  If
+ data_size is zero, it will be returned as zero when the value is
+ requested.
+ 
+@end deftypefun
+
+@deftypefun {void} cfuhash_clear (cfuhash_table_t * @var{ht})
+
+ Clears the hash table (deletes all entries). 
+@end deftypefun
+
+@deftypefun {void *} cfuhash_delete_data (cfuhash_table_t * @var{ht}, const void * @var{key}, size_t @var{key_size})
+
+ Deletes the entry in the hash associated with key. If the entry
+ existed, it's value will be returned.
+ 
+@end deftypefun
+
+@deftypefun {void} **cfuhash_keys_data (cfuhash_table_t * @var{ht}, size_t * @var{num_keys}, size_t ** @var{key_sizes}, int @var{fast})
+
+ Returns all the keys from the hash.  The number of keys is placed
+ into the value pointed to by num_keys.  If key_sizes is not NULL,
+ it will be set to an array of key sizes.  If fast is zero, copies
+ of the keys are returned.  Otherwise, pointers to the real keys
+ will be returned. 
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_each_data (cfuhash_table_t * @var{ht}, void ** @var{key}, size_t * @var{key_size}, void ** @var{data}, size_t * @var{data_size})
+
+ Initializes a loop over all the key/value pairs in the hash.  It
+ returns the first key/value pair (see cfuhash_next_data()).  1 is
+ returned if there are any entries in the hash.  0 is returned
+ otherwise.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_next_data (cfuhash_table_t * @var{ht}, void ** @var{key}, size_t * @var{key_size}, void ** @var{data}, size_t * @var{data_size})
+
+ Gets the next key/value pair from the hash.  You must initialize
+ the loop using cfuhash_each_data() before calling this function.
+ If a entry is left to return, 1 is returned from the function.  0
+ is returned if there are no more entries in the hash.
+ 
+@end deftypefun
+
+@deftypefun {size_t} cfuhash_foreach_remove (cfuhash_table_t * @var{ht}, cfuhash_remove_fn_t @var{r_fn}, cfuhash_free_fn_t @var{ff}, void * @var{arg})
+
+ Iterates over the key/value pairs in the hash, passing each one
+ to r_fn, and removes all entries for which r_fn returns true.
+ If ff is not NULL, it is the passed the data to be freed.  arg
+ is passed to r_fn.
+ 
+@end deftypefun
+
+@deftypefun {size_t} cfuhash_foreach (cfuhash_table_t * @var{ht}, cfuhash_foreach_fn_t @var{fe_fn}, void * @var{arg})
+
+ Iterates over the key/value pairs in the hash, passing each one
+ to fe_fn, along with arg. This locks the hash, so do not call
+ any operations on the hash from within fe_fn unless you really
+ know what you're doing.
+
+ If the return value from fe_fn() is not zero, the iteration stops.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_destroy (cfuhash_table_t * @var{ht})
+
+ Frees all resources allocated by the hash.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_destroy_with_free_fn (cfuhash_table_t * @var{ht}, cfuhash_free_fn_t @var{ff})
+
+ Frees all resources allocated by the hash.  If ff is not NULL, it
+ is called for each hash entry with the value of the entry passed as
+ its only argument.  If ff is not NULL, it overrides any function
+ set previously with cfuhash_set_free_function().
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_rehash (cfuhash_table_t * @var{ht})
+
+ Rebuild the hash to better accomodate the number of entries. See
+ cfuhash_set_thresholds().
+ 
+@end deftypefun
+
+@deftypefun {size_t} cfuhash_num_entries (cfuhash_table_t * @var{ht})
+
+ Returns the number entries in the hash. 
+@end deftypefun
+
+@deftypefun {size_t} cfuhash_num_buckets (cfuhash_table_t * @var{ht})
+
+ Returns the number of buckets allocated for the hash. 
+@end deftypefun
+
+@deftypefun {size_t} cfuhash_num_buckets_used (cfuhash_table_t * @var{ht})
+
+ Returns the number of buckets actually used out of the total number
+ allocated for the hash.
+ 
+@end deftypefun
+
+@deftypefun {char *} cfuhash_bencode_strings (cfuhash_table_t * @var{ht})
+
+ Assumes all the keys and values are null-terminated strings and
+ returns a bencoded string representing the hash (see
+ http://www.bittorrent.com/protocol.html)
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_lock (cfuhash_table_t * @var{ht})
+
+ Locks the hash.  Use this with the each and next functions for
+ concurrency control.  Note that the hash is locked automatically
+ when doing inserts and deletes, so if you lock the hash and then
+ try to insert something into it, you may get into a deadlock,
+ depending on your system defaults for how mutexes work.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_unlock (cfuhash_table_t * @var{ht})
+
+ Unlocks the hash.  Use this with the each an next functions for
+ concurrency control.  The caveat for cfuhash_lock() also applies to
+ this function.
+ 
+@end deftypefun
+
+@deftypefun {int} cfuhash_pretty_print (cfuhash_table_t * @var{ht}, FILE * @var{fp})
+
+ Pretty print the hash's key/value pairs to the stream fp.  It is
+ assumed that all the keys and values are null-terminated strings.
+ 
+@end deftypefun
+
+ These are like the _data versions of these functions, with the
+ following exceptions:
+
+   1) They assume that the key provided is a null-terminated string.
+
+   2) They don't worry about the size of the data.
+
+   3) Returned keys or values are the return value of the function.
+
+@deftypefun {void *} cfuhash_get (cfuhash_table_t * @var{ht}, const char * @var{key})
+@end deftypefun
+
+@deftypefun int cfuhash_exists (cfuhash_table_t * @var{ht}, const char * @var{key});
+@end deftypefun
+@deftypefun {void *} cfuhash_put (cfuhash_table_t * @var{ht}, const char * @var{key}, void * @var{data});
+@end deftypefun
+@deftypefun {void *} cfuhash_delete (cfuhash_table_t * @var{ht}, const char * @var{key});
+@end deftypefun
+@deftypefun int cfuhash_each (cfuhash_table_t * @var{ht}, char ** @var{key}, void ** @var{data});
+@end deftypefun
+@deftypefun int cfuhash_next (cfuhash_table_t * @var{ht}, char ** @var{key}, void ** @var{data});
+@end deftypefun
+@deftypefun {void **} cfuhash_keys (cfuhash_table_t * @var{ht}, size_t * @var{num_keys}, int @var{fast});
+@end deftypefun
+
+Valid flags for cfuhash_new() or cfuhash_set_flag):
+
+@defvr CFUHASH_NOCOPY_KEYS
+Don't copy the key when adding an entry to the hash table.
+@end defvr
+@defvr CFUHASH_NO_LOCKING
+Don't not use any mutexes.  Beware that this flag makes the hash
+table non thread-safe.
+@end defvr
+@defvr CFUHASH_FROZEN
+Do not rehash (don't grow or shrink the number of buckets in the hash
+table when the thresholds are reached).
+@end defvr
+@defvr CFUHASH_FROZEN_UNTIL_GROWS
+Do not rehash until the upper threshold is reached the first time
+(useful for preallocating a large hash to avoid rehashing while
+filling it).
+@end defvr
+@defvr CFUHASH_FREE_DATA
+Call free() on the values when cfuhash_destroy() is called.
+@end defvr
+@defvr CFUHASH_IGNORE_CASE
+Treat the keys case-insensitively.
+@end defvr
+
+
+@node Linked list, Strings, Hash table, Data structures
+@section Linked list
+@cindex linked list
+@cindex queues
+
+@defspec typedef int (*cfulist_foreach_fn_t)(void * @var{data}, size_t @var{data_size}, void * @var{arg})
+ Function called for each element in the list when passed to
+ cfulist_foreach().  A non-zero return value means to stop iteration.
+@end defspec
+
+
+@defspec typedef {void *} (*cfulist_map_fn_t)(void *@var{data}, size_t @var{data_size}, void *@var{arg}, size_t *@var{new_data_size})
+Function called for each element in the list when passed to
+cfulist_map().  The return value is used to build a new list.
+@end defspec
+
+
+@defspec typedef void (*cfulist_free_fn_t)(void * @var{data})
+ Function called to free the data in an element.
+@end defspec
+
+
+@deftypefun {cfulist_t *} cfulist_new ();
+
+ Returns a new list. 
+@end deftypefun
+
+@deftypefun {size_t} cfulist_num_entries (cfulist_t *@var{list})
+
+ Returns the number of entries in the list.
+
+@end deftypefun
+
+@deftypefun {int} cfulist_push_data (cfulist_t * @var{list}, void * @var{data}, size_t @var{data_size})
+
+ Push a value onto the end of the list. 
+@end deftypefun
+
+@deftypefun {int} cfulist_pop_data (cfulist_t * @var{list}, void ** @var{data}, size_t * @var{data_size})
+
+ Pop a value from the end of the list (removing it from the list).
+@end deftypefun
+
+@deftypefun {int} cfulist_unshift_data (cfulist_t * @var{list}, void * @var{data}, size_t @var{data_size})
+
+ Add a value at the beginning of the list. 
+@end deftypefun
+
+@deftypefun {int} cfulist_shift_data (cfulist_t * @var{list}, void ** @var{data}, size_t * @var{data_size})
+
+ Shift a value off the beginning of the list. 
+@end deftypefun
+
+@deftypefun {int} cfulist_enqueue_data (cfulist_t * @var{list}, void * @var{data}, size_t @var{data_size})
+
+ Add a value at the end of the queue (equivalent to push) 
+@end deftypefun
+
+@deftypefun {int} cfulist_dequeue_data (cfulist_t * @var{list}, void ** @var{data}, size_t * @var{data_size})
+
+ Remove the value at the beginning of the list (equivalent to shift). 
+@end deftypefun
+
+@deftypefun int cfulist_first_data (cfulist_t * @var{list}, void ** @var{data}, size_t * @var{data_size});
+
+ Return the first entry from the list (without removing it from the list).
+@end deftypefun
+
+@deftypefun int cfulist_last_data (cfulist_t * @var{list}, void ** @var{data}, size_t * @var{data_size});
+
+ Return the last entry from the list (without removing it from the list).
+@end deftypefun
+@deftypefun int cfulist_nth_data (cfulist_t * @var{list}, void ** @var{data}, size_t * @var{data_size}, size_t @var{n});
+
+ Return the nth entry from the list (without removing it from the list).  n starts at zero.
+@end deftypefun
+
+
+
+@deftypefun void cfulist_reset_each (cfulist_t * @var{list});
+@end deftypefun
+
+@deftypefun int cfulist_each_data (cfulist_t * @var{list}, void ** @var{data}, size_t * @var{data_size});
+@end deftypefun
+
+@deftypefun int cfulist_next_data (cfulist_t * @var{list}, void ** @var{data}, size_t * @var{data_size});
+@end deftypefun
+
+
+@deftypefun size_t cfulist_foreach (cfulist_t * @var{list}, cfulist_foreach_fn_t @var{fe_fn}, void * @var{arg});
+
+Calls fe_fn() for each element in the list. Also passes arg on each
+call.  Do not try to manipulate the list inside fe_fn(), as the list
+will be locked.
+
+If fe_fn() returns a non-zero value, the iteration over the elements stops.
+@end deftypefun
+
+
+@deftypefun {cfulist_t *}cfulist_map (cfulist_t *@var{list}, cfulist_map_fn_t @var{map_fn}, void *@var{arg});
+Creates a new list from the list passed in.  Calls map_fn() on each
+element in the list.  The return value is placed in the corresponding
+position in the new list.
+@end deftypefun
+
+@deftypefun {void} cfulist_destroy (cfulist_t * @var{list})
+
+ Free all resources used by the list. 
+@end deftypefun
+
+@deftypefun {void} cfulist_destroy (cfulist_t * @var{list}, cfulist_free_fn_t @var{free_fn})
+
+ Free all resources used by the list. If free_fn is not NULL, call it
+for each element of the list, passing the data to it as a void *.
+@end deftypefun
+
+
+When you don't care about the size of the data 
+
+@deftypefun {int} cfulist_push (cfulist_t * @var{list}, void * @var{data})
+@end deftypefun
+
+@deftypefun {void *} cfulist_pop (cfulist_t * @var{list});
+@end deftypefun
+@deftypefun {int} cfulist_unshift (cfulist_t * @var{list}, void * @var{data});
+@end deftypefun
+@deftypefun {void *} cfulist_shift (cfulist_t * @var{list});
+@end deftypefun
+@deftypefun {int} cfulist_enqueue (cfulist_t * @var{ist}, void * @var{data});
+@end deftypefun
+@deftypefun {void *} cfulist_dequeue (cfulist_t * @var{list});
+@end deftypefun
+
+Strings -- assume data is a null-terminated string -- size is calculated by strlen(data) + 1
+
+@deftypefun {int} cfulist_push_string (cfulist_t * @var{list}, char * @var{data})
+@end deftypefun
+
+@deftypefun {char *} cfulist_pop_string (cfulist_t * @var{list});
+@end deftypefun
+@deftypefun {int} cfulist_unshift_string (cfulist_t * @var{list}, char * @var{data});
+@end deftypefun
+@deftypefun {char *} cfulist_shift_string (cfulist_t * @var{list});
+@end deftypefun
+@deftypefun {int} cfulist_enqueue_string (cfulist_t * @var{list}, char * @var{data});
+@end deftypefun
+@deftypefun {char *} cfulist_dequeue_string (cfulist_t * @var{list});
+@end deftypefun
+
+@deftypefun {char *} cfulist_join (cfulist_t * @var{list}, const char * @var{delimiter})
+@end deftypefun
+
+@node Strings, , Linked list, Data structures
+@section Strings
+@cindex strings
+@cindex self-extending strings
+
+@deftypefun {cfustring_t *} cfustring_new (size_t @var{initial_size})
+
+ Returns a new String. 
+@end deftypefun
+
+@deftypefun {cfustring_t *} cfustring_new_from_string (const char * @var{string})
+
+ Returns a new String initalized with the given string. 
+@end deftypefun
+
+@deftypefun {int} cfustring_dup (cfustring_t * @var{cfu_str}, const char * @var{string})
+
+ Overwrite anything currently in cfu_str with string. 
+@end deftypefun
+
+@deftypefun {int} cfustring_clear (cfustring_t * @var{cfu_str})
+
+ Truncate the string. 
+@end deftypefun
+
+@deftypefun {int} cfustring_append (cfustring_t * @var{cfu_str}, const char * @var{str})
+
+ Append str to the end of the buffer in cfu_str. 
+@end deftypefun
+
+@deftypefun {char *} cfustring_get_buffer (cfustring_t * @var{cfu_str})
+
+ Get the buffer used to hold the string.  Do not free() it, as it is
+ used directly by cfustring and will be destroyed when
+ cfustring_destroy() is called.
+ 
+@end deftypefun
+
+@deftypefun {char *} cfustring_get_buffer_copy (cfustring_t * @var{cfu_str})
+
+ Same as cfustring_get_buffer(), except return a copy of the string.
+ Caller is responsible for deallocating the buffer with free().
+ 
+@end deftypefun
+
+@deftypefun {cfustring_t **} cfustring_split (cfustring_t * @var{cfu_str}, size_t * @var{num_strings}, size_t @var{limit},  @var{...})
+
+ Split cfu_str on one or more delimiting strings, e.g.,
+ cfustring_split(cfu_str, 2, 0, "\r\n", "\n").  Use a limit > 0 if
+ you want to only get back a certain number of strings and ignore
+ any extra delimiters.
+ 
+@end deftypefun
+
+@deftypefun {char **} cfustring_split_to_c_str (cfustring_t * @var{cfu_str}, size_t * @var{num_strings}, size_t @var{limit},  @var{...})
+
+ Same as cfustring_split(), except return an array of C-strings.
+ Caller is responsible for deallocating the buffers.
+ 
+@end deftypefun
+
+@deftypefun {int} cfustring_destroy (cfustring_t * @var{cfu_str})
+
+ Free all resources allocated by cfu_str. 
+@end deftypefun
+
+@deftypefun {char *} cfustring_dup_c_str (const char * @var{str})
+
+ Duplicate the C string str.  Caller must free with free(). 
+@end deftypefun
+
+@deftypefun {char *} cfustring_dup_c_str_n (const char * @var{str}, size_t @var{n})
+
+ Same as cfustring_dup_c_str(), but only copy at most n chars 
+@end deftypefun
+
+@deftypefun size_t cfustring_sprintf (cfustring_t * @var{cfu_str}, const char * @var{fmt}, @var{...});
+
+ Like sprintf(), but writes to a self-extending string.
+@end deftypefun
+
+@deftypefun size_t cfustring_vsprintf (cfustring_t * @var{cfu_str}, const char * @var{fmt}, va_list @var{ap});
+ Like vsprintf(), but writes to a self-extending string.
+@end deftypefun
+
+@deftypefun {char *} cfustring_sprintf_c_str (const char * @var{fmt}, @var{...})
+
+ Similar to sprintf(), but allocates a C string of the
+ appropriate size for you and returns it.
+@end deftypefun
+
+@deftypefun {char **} cfustring_c_str_split (const char * @var{c_str}, size_t * @var{num_strings}, size_t @var{limit}, @var{...})
+
+ Like cfustring_split_to_c_str(), but split a char * instead of a cfustring_t *.
+
+@end deftypefun
+
+
+@node Conf, Options, Top, Top
+@chapter Conf
+@cindex configuration file
+@cindex apache configuration file
+
+This needs to be better documented.
+
+
+Apache-style conf files contain directives and containers.
+Directives are simple one line specifications with or without
+arguments, e.g.,
+
+   Doit
+       Expires On
+       LoadModule my_mod modules/my_mod.so
+
+Containers have a type and a name associated with them and they
+in turn contain directives and/or containers, e.g.,
+
+   <MyContainer test1>
+           Expires Off
+               <DB devdb>
+                   DBHost db.example.com
+                       DBUser test_user
+               </DB>
+       </MyContainer>
+
+Values may be quoted, e.g.
+
+   DBUser "test user"
+
+But must be specified on a single line.  To escape quotes
+within a quoted string, use the '\' character.
+
+
+@deftypefun {int} cfuconf_parse_file (char * @var{file_path}, cfuconf_t ** @var{conf}, char ** @var{error})
+
+ Parse the apache-like conf file specified by file_path,
+ returning a pointer to a cfuconf_t structure in conf.  Returns
+ zero on success, less than zero on error.  If an error occurs
+ and error is not NULL, it will be set to an error message
+ (which must be free()'d by the caller).
+ 
+@end deftypefun
+
+@deftypefun {int} cfuconf_parse_buffer (char * @var{buffer}, cfuconf_t ** @var{conf}, char ** @var{error})
+
+ Same as cfuconf_parse_file(), except assume the contents of the
+ file are already in buffer.
+ 
+@end deftypefun
+
+@deftypefun {void} cfuconf_destroy (cfuconf_t * @var{conf})
+
+ Free all resources used by the cfuconf_t structure 
+@end deftypefun
+
+@deftypefun {cfuhash_table_t *} cfuconf_get_containers (cfuconf_t * @var{conf})
+
+ Get a hash of containers at the top level of conf 
+@end deftypefun
+
+@deftypefun {cfuhash_table_t *} cfuconf_get_directives (cfuconf_t * @var{conf})
+
+ Get a hash of directives at the to level 
+@end deftypefun
+
+@deftypefun {int} cfuconf_get_directive_one_arg (cfuconf_t * @var{conf}, char * @var{directive}, char ** @var{rvalue})
+
+ Get the value of the given directive, assuming there is only one argument 
+@end deftypefun
+
+@deftypefun {int} cfuconf_get_directive_two_args (cfuconf_t * @var{conf}, char * @var{directive}, char ** @var{rvalue}, char ** @var{rvalue2})
+
+ Get the value of the given directive, assuming there are two arguments 
+@end deftypefun
+
+@deftypefun {int} cfuconf_get_directive_n_args (cfuconf_t * @var{conf}, char * @var{directive}, size_t @var{n},  @var{...})
+
+ Get the value of the given directives, with n arguments 
+@end deftypefun
+
+@node Options, Thread queue, Conf, Top
+
+@chapter Options
+@cindex options
+@cindex command-line arguments
+@cindex arguments
+
+Command-line arguments can be parsed with the following:
+
+@verbatim
+	cfuopt_t *opt = cfuopt_new();
+	cfuopt_add_entry(opt, "verbose|v!", &verbose, "Verbosity", "");
+	cfuopt_add_entry(opt, "file|f:s", &file, "File to load", "FILE");
+	cfuopt_add_entry(opt, "count|c|n=i", &count, "Count to run", "COUNT");
+	cfuopt_add_entry(opt, "scale|s:f", &scale, "Scaling factor", "SCALE");
+	cfuopt_parse(opt, &argc, &argv, &error);
+        /* do stuff here with the options */
+       	cfuopt_destroy(opt);
+        free(file);
+@end verbatim
+
+@deftypefun {cfuopt_t *}cfuopt_new ()
+Returns a new options context.
+@end deftypefun
+
+@deftypefun void cfuopt_add_entry (cfuopt_t *@var{context}, const char *@var{opt_str}, void *@var{arg_data}, const char *@var{description}, const char *@var{arg_description})
+Adds to the list of known options.
+@end deftypefun
+
+@deftypefun void cfuopt_parse (cfuopt_t *@var{context}, int *@var{argc}, char ***@var{argv}, char **@var{error})
+Parses the command line and modifies argc and argv to account for left over arguments.
+@end deftypefun
+
+@deftypefun {char *}cfuopt_get_help_str (cfuopt_t *@var{context})
+Returns a help string built from the entries added with cfuopt_add_entry().
+@end deftypefun
+
+@deftypefun void cfuopt_destroy (cfuopt_t *@var{context})
+Frees up resources used by the option parser.
+@end deftypefun
+
+
+@node Thread queue, Timer, Options, Top
+@chapter Thread queue
+@cindex threading
+@cindex thread queue
+
+cfuthread_queue provides a way to serialize requests for a resource
+where you want the resource to be accessed from a single thread only.
+For instance, for a database connection where making calls in separate
+threads does not work properly, you can use cfuthread_queue.
+cfuthread_queue_new() creates a new thread that waits for something to
+be added to the queue.  Once something is added, the thread will
+process the data by calling the function you pass as an argument to
+the cfuthread_queue_new() function.
+
+@deftypefun {cfuthread_queue_t *} cfuthread_queue_new (cfuthread_queue_fn_t @var{fn})
+
+ Creates a new thread queue structure that will run the given
+ function when a request is received.
+ 
+@end deftypefun
+
+@deftypefun {cfuthread_queue_t *} cfuthread_queue_new_with_cleanup (cfuthread_queue_fn_t @var{fn}, cfuthread_queue_init_t @var{init_fn}, void * @var{init_arg}, cfuthread_queue_cleanup_t @var{cleanup_fn}, void * @var{cleanup_arg})
+
+ Same as cfuthread_queue_new(), but with an initialization
+ function that gets called with the argument init_arg when the
+ thread is created, and a cleanup function that gets called with
+ the argument cleanup_arg when the thread exits, e.g., when
+ cfuthread_queue_destroy() is called.
+ 
+@end deftypefun
+
+@deftypefun {void *} cfuthread_queue_make_request (cfuthread_queue_t * @var{tq}, void * @var{data})
+
+ Add a request to the queue.  data will get passed to the
+ function fn given to cfuthread_queue_new when it reaches the
+ front of the queue.
+ 
+@end deftypefun
+
+@deftypefun {void} cfuthread_queue_destroy (cfuthread_queue_t * @var{tq})
+
+ Free up resources used by the queue, in addition to canceling
+ the thread.
+ 
+@end deftypefun
+
+
+@node Timer, License, Thread queue, Top
+@chapter Timer
+@cindex timer
+
+@deftypefun {cfutime_t} *cfutime_new ();
+
+ Return a new cfutime structure. 
+@end deftypefun
+
+@deftypefun void cfutime_begin (cfutime_t *@var{time})
+
+ Start the timer.
+@end deftypefun
+
+@deftypefun {void} cfutime_end (cfutime_t * @var{time})
+
+ Stop the timer. 
+@end deftypefun
+
+@deftypefun {double} cfutime_elapsed (cfutime_t * @var{time})
+
+ Return the number of seconds elapsed as a double. 
+@end deftypefun
+
+@deftypefun {void} cfutime_free (cfutime_t * @var{time})
+
+ Deallocate resources allocated for time. 
+@end deftypefun
+
+@node License, , Timer, Top
+@unnumbered License
+@cindex license
+
+Copyright @copyright{} 2005 Don Owens
+All rights reserved.
+
+This code is released under the BSD license:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+ * Redistributions in binary form must reproduce the above
+   copyright notice, this list of conditions and the following
+   disclaimer in the documentation and/or other materials provided
+   with the distribution.
+
+ * Neither the name of the author nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@node   Concept index, Function index, Top, Top
+@unnumbered Concept index
+
+@printindex cp
+
+@node   Function index,  , Concept index, Top
+@unnumbered Function index
+
+@printindex fn
+
+@contents
+
+@bye

@@ -1,0 +1,851 @@
+D/AndroidRuntime(  578): 
+D/AndroidRuntime(  578): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  578): CheckJNI is ON
+D/AndroidRuntime(  578): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=584 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  578): Shutting down VM
+D/jdwp    (  578): adbd disconnected
+I/dalvikvm(  578): JNI: AttachCurrentThread (from ???.???)
+I/AndroidRuntime(  578): NOTE: attach of thread 'Binder Thread #3' failed
+D/dalvikvm(   32): GC_EXPLICIT freed 294 objects / 11152 bytes in 126ms
+D/dalvikvm(   32): GC_EXPLICIT freed 52 objects / 2312 bytes in 81ms
+I/ActivityThread(  584): Publishing provider browser: com.android.browser.BrowserProvider
+D/dalvikvm(   32): GC_EXPLICIT freed 2 objects / 64 bytes in 325ms
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 1101 ms (total 1101 ms)
+D/dalvikvm(  115): GC_EXPLICIT freed 157 objects / 7992 bytes in 59ms
+D/AndroidRuntime(  612): 
+D/AndroidRuntime(  612): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  612): CheckJNI is ON
+D/AndroidRuntime(  612): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  612): Shutting down VM
+D/jdwp    (  612): adbd disconnected
+D/dalvikvm(  584): GC_FOR_MALLOC freed 4280 objects / 242320 bytes in 58ms
+D/dalvikvm(  584): GC_FOR_MALLOC freed 1019 objects / 68440 bytes in 74ms
+I/ActivityManager(   58): Process com.android.browser (pid 584) has died.
+I/WindowManager(   58): WIN DEATH: Window{44041de0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{440277b8 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{44028dd8 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 584 uid 10000
+D/AndroidRuntime(  628): 
+D/AndroidRuntime(  628): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  628): CheckJNI is ON
+D/AndroidRuntime(  628): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=634 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  628): Shutting down VM
+D/jdwp    (  628): adbd disconnected
+I/ActivityThread(  634): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 995 ms (total 995 ms)
+D/dalvikvm(  634): GC_FOR_MALLOC freed 2701 objects / 165744 bytes in 86ms
+D/dalvikvm(  634): GC_FOR_MALLOC freed 760 objects / 53856 bytes in 42ms
+D/AndroidRuntime(  658): 
+D/AndroidRuntime(  658): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  658): CheckJNI is ON
+D/AndroidRuntime(  658): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  658): Shutting down VM
+D/jdwp    (  658): adbd disconnected
+D/dalvikvm(  115): GC_EXPLICIT freed 138 objects / 7296 bytes in 65ms
+I/ActivityManager(   58): Process com.android.browser (pid 634) has died.
+I/WindowManager(   58): WIN DEATH: Window{44002288 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{4400d348 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{4404ec40 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 634 uid 10000
+D/AndroidRuntime(  668): 
+D/AndroidRuntime(  668): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  668): CheckJNI is ON
+D/AndroidRuntime(  668): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=674 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  668): Shutting down VM
+D/jdwp    (  668): adbd disconnected
+I/ActivityThread(  674): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 989 ms (total 989 ms)
+D/AndroidRuntime(  702): 
+D/AndroidRuntime(  702): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  702): CheckJNI is ON
+D/AndroidRuntime(  702): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  702): Shutting down VM
+D/jdwp    (  702): adbd disconnected
+D/dalvikvm(  674): GC_FOR_MALLOC freed 4038 objects / 232984 bytes in 61ms
+D/dalvikvm(  674): GC_FOR_MALLOC freed 952 objects / 65536 bytes in 52ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@44010730
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@44086478
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@44088548
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4408a638
+D/SntpClient(   58): request time failed: java.net.SocketException: Address family not supported by protocol
+I/ActivityManager(   58): Process com.android.browser (pid 674) has died.
+I/WindowManager(   58): WIN DEATH: Window{43ff6930 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{44039df8 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{4408acb0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 674 uid 10000
+D/AndroidRuntime(  723): 
+D/AndroidRuntime(  723): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  723): CheckJNI is ON
+D/AndroidRuntime(  723): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=729 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  723): Shutting down VM
+D/jdwp    (  723): adbd disconnected
+I/ActivityThread(  729): Publishing provider browser: com.android.browser.BrowserProvider
+D/dalvikvm(  115): GC_EXPLICIT freed 285 objects / 15216 bytes in 56ms
+D/AndroidRuntime(  754): 
+D/AndroidRuntime(  754): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  754): CheckJNI is ON
+D/AndroidRuntime(  754): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  754): Shutting down VM
+D/jdwp    (  754): adbd disconnected
+I/dalvikvm(  754): JNI: AttachCurrentThread (from ???.???)
+I/AndroidRuntime(  754): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 47618 ms (total 47618 ms)
+D/dalvikvm(  729): GC_FOR_MALLOC freed 4060 objects / 233928 bytes in 56ms
+D/dalvikvm(  729): GC_FOR_MALLOC freed 1060 objects / 69736 bytes in 52ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@440bcef8
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@440befc8
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@440c1f18
+I/DEBUG   (   30): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (   30): Build fingerprint: 'generic/sdk/generic/:2.2/FRF91/43546:eng/test-keys'
+I/DEBUG   (   30): pid: 729, tid: 741  >>> com.android.browser <<<
+I/DEBUG   (   30): signal 11 (SIGSEGV), fault addr 00000008
+I/DEBUG   (   30):  r0 00000000  r1 00000003  r2 459fcdc8  r3 459fcdc0
+I/DEBUG   (   30):  r4 0096e030  r5 459fcdc8  r6 459fcdc0  r7 455b6928
+I/DEBUG   (   30):  r8 455b6d88  r9 42901f1c  10 42901f04  fp 002ccad8
+I/DEBUG   (   30):  ip a85be879  sp 455b68d8  lr 80a059bd  pc a85be882  cpsr 20000030
+I/DEBUG   (   30):          #00  pc 002be882  /system/lib/libwebcore.so
+I/DEBUG   (   30):          #01  lr 80a059bd  /system/lib/libt.so
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around pc:
+I/DEBUG   (   30): a85be860 1c20582b 60233308 46c0bd70 0018383c 
+I/DEBUG   (   30): a85be870 ffff95b8 00001768 6884b510 d0072c00 
+I/DEBUG   (   30): a85be880 68836820 47981c20 d1012800 e7f568a4 
+I/DEBUG   (   30): a85be890 bd101c20 1c04b510 28006880 6801d006 
+I/DEBUG   (   30): a85be8a0 47986a8b d0012800 e00068a0 bd102000 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around lr:
+I/DEBUG   (   30): 80a0599c 930c6ebb 930d6efb 930e6f3b 930f6f7b 
+I/DEBUG   (   30): 80a059ac 93106fbb 93116ffb 1c2a1c10 47a01c33 
+I/DEBUG   (   30): 80a059bc 617b1c03 1c184b17 efccf7fb 4a184b17 
+I/DEBUG   (   30): 80a059cc 1c111c18 e832f7fc 61fb1c03 330868fb 
+I/DEBUG   (   30): 80a059dc 68fb681d 681b3308 68fb6818 681b3308 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): stack:
+I/DEBUG   (   30):     455b6898  002f1da0  [heap]
+I/DEBUG   (   30):     455b689c  a861c4a3  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68a0  002f1d88  [heap]
+I/DEBUG   (   30):     455b68a4  455b690c  
+I/DEBUG   (   30):     455b68a8  455b690c  
+I/DEBUG   (   30):     455b68ac  a861d0d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b0  a85be88b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b4  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b8  afd41b6c  /system/lib/libc.so
+I/DEBUG   (   30):     455b68bc  000f0002  [heap]
+I/DEBUG   (   30):     455b68c0  455b6928  
+I/DEBUG   (   30):     455b68c4  455b68dc  
+I/DEBUG   (   30):     455b68c8  a8744fec  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68cc  80a09390  
+I/DEBUG   (   30):     455b68d0  df002777  
+I/DEBUG   (   30):     455b68d4  e3a070ad  
+I/DEBUG   (   30): #00 455b68d8  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68dc  80a059bd  /system/lib/libt.so
+I/DEBUG   (   30):     455b68e0  a854e735  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68e4  455b6a50  
+I/DEBUG   (   30):     455b68e8  459fcdc0  
+I/DEBUG   (   30):     455b68ec  a842f509  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f0  a8551e41  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f4  a85462d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f8  457bf084  
+I/DEBUG   (   30):     455b68fc  457bf068  
+I/DEBUG   (   30):     455b6900  00b2bd5c  [heap]
+I/DEBUG   (   30):     455b6904  00a8c880  [heap]
+I/DEBUG   (   30):     455b6908  00b2beb4  [heap]
+I/DEBUG   (   30):     455b690c  455b6a50  
+I/DEBUG   (   30):     455b6910  3fffffff  
+I/DEBUG   (   30):     455b6914  a860e60b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b6918  455b6a64  
+I/DEBUG   (   30):     455b691c  455b6a64  
+I/BootReceiver(   58): Copying /data/tombstones/tombstone_02 to DropBox (SYSTEM_TOMBSTONE)
+D/Zygote  (   32): Process 729 terminated by signal (11)
+D/dalvikvm(   58): GC_FOR_MALLOC freed 11598 objects / 852128 bytes in 99ms
+I/ActivityManager(   58): Process com.android.browser (pid 729) has died.
+I/WindowManager(   58): WIN DEATH: Window{44099ac0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{4409d788 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+D/dalvikvm(   58): GC_FOR_MALLOC freed 781 objects / 298856 bytes in 72ms
+D/dalvikvm(   58): GC_FOR_MALLOC freed 514 objects / 87736 bytes in 67ms
+I/dalvikvm-heap(   58): Grow heap (frag case) to 5.941MB for 196628-byte allocation
+D/dalvikvm(   58): GC_FOR_MALLOC freed 2 objects / 56 bytes in 70ms
+D/dalvikvm(   58): GC_FOR_MALLOC freed 62 objects / 133880 bytes in 95ms
+I/dalvikvm-heap(   58): Grow heap (frag case) to 5.939MB for 131116-byte allocation
+D/dalvikvm(   58): GC_FOR_MALLOC freed 3 objects / 72 bytes in 69ms
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 729 uid 10000
+D/dalvikvm(   58): GC_FOR_MALLOC freed 68 objects / 375392 bytes in 72ms
+D/SntpClient(   58): request time failed: java.net.SocketException: Address family not supported by protocol
+D/SntpClient(   58): request time failed: java.net.SocketException: Address family not supported by protocol
+D/AndroidRuntime(  771): 
+D/AndroidRuntime(  771): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  771): CheckJNI is ON
+D/AndroidRuntime(  771): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=777 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  771): Shutting down VM
+D/jdwp    (  771): adbd disconnected
+I/ActivityThread(  777): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 982 ms (total 982 ms)
+D/dalvikvm(  115): GC_EXPLICIT freed 144 objects / 7512 bytes in 55ms
+D/AndroidRuntime(  802): 
+D/AndroidRuntime(  802): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  802): CheckJNI is ON
+D/AndroidRuntime(  802): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  802): Shutting down VM
+D/jdwp    (  802): adbd disconnected
+I/dalvikvm(  802): JNI: AttachCurrentThread (from ???.???)
+I/AndroidRuntime(  802): NOTE: attach of thread 'Binder Thread #3' failed
+D/dalvikvm(  777): GC_FOR_MALLOC freed 4089 objects / 234944 bytes in 67ms
+D/dalvikvm(  777): GC_FOR_MALLOC freed 1325 objects / 252744 bytes in 68ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43e74f40
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4400f2f0
+I/DEBUG   (   30): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (   30): Build fingerprint: 'generic/sdk/generic/:2.2/FRF91/43546:eng/test-keys'
+I/DEBUG   (   30): pid: 777, tid: 789  >>> com.android.browser <<<
+I/DEBUG   (   30): signal 11 (SIGSEGV), fault addr 00000008
+I/DEBUG   (   30):  r0 00000000  r1 00000003  r2 45a04888  r3 45a04880
+I/DEBUG   (   30):  r4 00b1d648  r5 45a04888  r6 45a04880  r7 455b6928
+I/DEBUG   (   30):  r8 455b6d88  r9 42901f1c  10 42901f04  fp 002de7d8
+I/DEBUG   (   30):  ip a85be879  sp 455b68d8  lr 80a059cd  pc a85be882  cpsr 20000030
+I/DEBUG   (   30):          #00  pc 002be882  /system/lib/libwebcore.so
+I/DEBUG   (   30):          #01  lr 80a059cd  /system/lib/libt.so
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around pc:
+I/DEBUG   (   30): a85be860 1c20582b 60233308 46c0bd70 0018383c 
+I/DEBUG   (   30): a85be870 ffff95b8 00001768 6884b510 d0072c00 
+I/DEBUG   (   30): a85be880 68836820 47981c20 d1012800 e7f568a4 
+I/DEBUG   (   30): a85be890 bd101c20 1c04b510 28006880 6801d006 
+I/DEBUG   (   30): a85be8a0 47986a8b d0012800 e00068a0 bd102000 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around lr:
+I/DEBUG   (   30): 80a059ac 930c6ebb 930d6efb 930e6f3b 930f6f7b 
+I/DEBUG   (   30): 80a059bc 93106fbb 93116ffb 1c2a1c10 47a01c33 
+I/DEBUG   (   30): 80a059cc 617b1c03 1c184b17 efc4f7fb 4a184b17 
+I/DEBUG   (   30): 80a059dc 1c111c18 e82af7fc 61fb1c03 330868fb 
+I/DEBUG   (   30): 80a059ec 68fb681d 681b3308 68fb6818 681b3308 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): stack:
+I/DEBUG   (   30):     455b6898  002f3cf8  [heap]
+I/DEBUG   (   30):     455b689c  a861c4a3  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68a0  002f3ce0  [heap]
+I/DEBUG   (   30):     455b68a4  455b690c  
+I/DEBUG   (   30):     455b68a8  455b690c  
+I/DEBUG   (   30):     455b68ac  a861d0d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b0  a85be88b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b4  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b8  afd41b6c  /system/lib/libc.so
+I/DEBUG   (   30):     455b68bc  000f0002  [heap]
+I/DEBUG   (   30):     455b68c0  455b6928  
+I/DEBUG   (   30):     455b68c4  455b68dc  
+I/DEBUG   (   30):     455b68c8  a8744fec  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68cc  80a09390  
+I/DEBUG   (   30):     455b68d0  df002777  
+I/DEBUG   (   30):     455b68d4  e3a070ad  
+I/DEBUG   (   30): #00 455b68d8  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68dc  80a059cd  /system/lib/libt.so
+I/DEBUG   (   30):     455b68e0  a854e735  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68e4  455b6a50  
+I/DEBUG   (   30):     455b68e8  45a04880  
+I/DEBUG   (   30):     455b68ec  a842f509  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f0  a8551e41  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f4  a85462d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f8  457f2084  
+I/DEBUG   (   30):     455b68fc  457f2068  
+I/DEBUG   (   30):     455b6900  00b9cd4c  [heap]
+I/DEBUG   (   30):     455b6904  00a44650  [heap]
+I/DEBUG   (   30):     455b6908  00b9cea4  [heap]
+I/DEBUG   (   30):     455b690c  455b6a50  
+I/DEBUG   (   30):     455b6910  3fffffff  
+I/DEBUG   (   30):     455b6914  a860e60b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b6918  455b6a64  
+I/DEBUG   (   30):     455b691c  455b6a64  
+I/BootReceiver(   58): Copying /data/tombstones/tombstone_03 to DropBox (SYSTEM_TOMBSTONE)
+D/Zygote  (   32): Process 777 terminated by signal (11)
+D/dalvikvm(   58): GC_FOR_MALLOC freed 6111 objects / 847080 bytes in 96ms
+D/dalvikvm(   58): GC_FOR_MALLOC freed 633 objects / 772256 bytes in 56ms
+I/ActivityManager(   58): Process com.android.browser (pid 777) has died.
+I/WindowManager(   58): WIN DEATH: Window{43fadec0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{44096b98 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 777 uid 10000
+D/SntpClient(   58): request time failed: java.net.SocketException: Address family not supported by protocol
+D/AndroidRuntime(  819): 
+D/AndroidRuntime(  819): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  819): CheckJNI is ON
+D/AndroidRuntime(  819): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=825 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  819): Shutting down VM
+D/jdwp    (  819): adbd disconnected
+I/AndroidRuntime(  819): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityThread(  825): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 996 ms (total 996 ms)
+D/dalvikvm(  115): GC_EXPLICIT freed 138 objects / 7296 bytes in 57ms
+D/AndroidRuntime(  850): 
+D/AndroidRuntime(  850): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  850): CheckJNI is ON
+D/AndroidRuntime(  850): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  850): Shutting down VM
+D/jdwp    (  850): adbd disconnected
+I/dalvikvm(  850): JNI: AttachCurrentThread (from ???.???)
+I/AndroidRuntime(  850): NOTE: attach of thread 'Binder Thread #3' failed
+D/dalvikvm(  825): GC_FOR_MALLOC freed 4123 objects / 236176 bytes in 60ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43e92fb0
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43f2dbb8
+D/dalvikvm(  825): GC_FOR_MALLOC freed 3054 objects / 376504 bytes in 47ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43e6e4b8
+I/DEBUG   (   30): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (   30): Build fingerprint: 'generic/sdk/generic/:2.2/FRF91/43546:eng/test-keys'
+I/DEBUG   (   30): pid: 825, tid: 837  >>> com.android.browser <<<
+I/DEBUG   (   30): signal 11 (SIGSEGV), fault addr 00000008
+I/DEBUG   (   30):  r0 00000000  r1 00000003  r2 45a22868  r3 45a22860
+I/DEBUG   (   30):  r4 007267d8  r5 45a22868  r6 45a22860  r7 455b6928
+I/DEBUG   (   30):  r8 455b6d88  r9 42901f1c  10 42901f04  fp 002de8b0
+I/DEBUG   (   30):  ip a85be879  sp 455b68d8  lr 80a059cd  pc a85be882  cpsr 20000030
+I/DEBUG   (   30):          #00  pc 002be882  /system/lib/libwebcore.so
+I/DEBUG   (   30):          #01  lr 80a059cd  /system/lib/libt.so
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around pc:
+I/DEBUG   (   30): a85be860 1c20582b 60233308 46c0bd70 0018383c 
+I/DEBUG   (   30): a85be870 ffff95b8 00001768 6884b510 d0072c00 
+I/DEBUG   (   30): a85be880 68836820 47981c20 d1012800 e7f568a4 
+I/DEBUG   (   30): a85be890 bd101c20 1c04b510 28006880 6801d006 
+I/DEBUG   (   30): a85be8a0 47986a8b d0012800 e00068a0 bd102000 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around lr:
+I/DEBUG   (   30): 80a059ac 930c6ebb 930d6efb 930e6f3b 930f6f7b 
+I/DEBUG   (   30): 80a059bc 93106fbb 93116ffb 1c2a1c10 47a01c33 
+I/DEBUG   (   30): 80a059cc 617b1c03 1c184b17 efc4f7fb 4a184b17 
+I/DEBUG   (   30): 80a059dc 1c111c18 e82af7fc 61fb1c03 330868fb 
+I/DEBUG   (   30): 80a059ec 68fb681d 681b3308 68fb6818 681b3308 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): stack:
+I/DEBUG   (   30):     455b6898  002f2720  [heap]
+I/DEBUG   (   30):     455b689c  a861c4a3  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68a0  002f2708  [heap]
+I/DEBUG   (   30):     455b68a4  455b690c  
+I/DEBUG   (   30):     455b68a8  455b690c  
+I/DEBUG   (   30):     455b68ac  a861d0d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b0  a85be88b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b4  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b8  afd41b6c  /system/lib/libc.so
+I/DEBUG   (   30):     455b68bc  000f0002  [heap]
+I/DEBUG   (   30):     455b68c0  455b6928  
+I/DEBUG   (   30):     455b68c4  455b68dc  
+I/DEBUG   (   30):     455b68c8  a8744fec  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68cc  80a09390  
+I/DEBUG   (   30):     455b68d0  df002777  
+I/DEBUG   (   30):     455b68d4  e3a070ad  
+I/DEBUG   (   30): #00 455b68d8  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68dc  80a059cd  /system/lib/libt.so
+I/DEBUG   (   30):     455b68e0  a854e735  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68e4  455b6a50  
+I/DEBUG   (   30):     455b68e8  45a22860  
+I/DEBUG   (   30):     455b68ec  a842f509  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f0  a8551e41  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f4  a85462d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f8  457f2084  
+I/DEBUG   (   30):     455b68fc  457f2068  
+I/DEBUG   (   30):     455b6900  00bac32c  [heap]
+I/DEBUG   (   30):     455b6904  00967a70  [heap]
+I/DEBUG   (   30):     455b6908  00bac484  [heap]
+I/DEBUG   (   30):     455b690c  455b6a50  
+I/DEBUG   (   30):     455b6910  3fffffff  
+I/DEBUG   (   30):     455b6914  a860e60b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b6918  455b6a64  
+I/DEBUG   (   30):     455b691c  455b6a64  
+I/BootReceiver(   58): Copying /data/tombstones/tombstone_04 to DropBox (SYSTEM_TOMBSTONE)
+D/Zygote  (   32): Process 825 terminated by signal (11)
+D/dalvikvm(   58): GC_FOR_MALLOC freed 4422 objects / 695232 bytes in 99ms
+I/ActivityManager(   58): Process com.android.browser (pid 825) has died.
+I/WindowManager(   58): WIN DEATH: Window{43fb9648 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{43ff5be0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+D/dalvikvm(   58): GC_FOR_MALLOC freed 836 objects / 870192 bytes in 61ms
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 825 uid 10000
+D/SntpClient(   58): request time failed: java.net.SocketException: Address family not supported by protocol
+D/AndroidRuntime(  866): 
+D/AndroidRuntime(  866): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  866): CheckJNI is ON
+D/AndroidRuntime(  866): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=872 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  866): Shutting down VM
+D/jdwp    (  866): adbd disconnected
+I/AndroidRuntime(  866): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityThread(  872): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 962 ms (total 962 ms)
+D/dalvikvm(  115): GC_EXPLICIT freed 150 objects / 7664 bytes in 58ms
+D/AndroidRuntime(  896): 
+D/AndroidRuntime(  896): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  896): CheckJNI is ON
+D/AndroidRuntime(  896): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  896): Shutting down VM
+D/jdwp    (  896): adbd disconnected
+I/AndroidRuntime(  896): NOTE: attach of thread 'Binder Thread #3' failed
+D/dalvikvm(  872): GC_FOR_MALLOC freed 4148 objects / 237168 bytes in 58ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43ff5450
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43fb84d0
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43e91ef8
+I/DEBUG   (   30): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (   30): Build fingerprint: 'generic/sdk/generic/:2.2/FRF91/43546:eng/test-keys'
+I/DEBUG   (   30): pid: 872, tid: 884  >>> com.android.browser <<<
+I/DEBUG   (   30): signal 11 (SIGSEGV), fault addr 00000008
+I/DEBUG   (   30):  r0 00000000  r1 00000003  r2 45a09fe8  r3 45a09fe0
+I/DEBUG   (   30):  r4 00b481f8  r5 45a09fe8  r6 45a09fe0  r7 455b6928
+I/DEBUG   (   30):  r8 455b6d88  r9 42901f1c  10 42901f04  fp 002dedf0
+I/DEBUG   (   30):  ip a85be879  sp 455b68d8  lr 80a059cd  pc a85be882  cpsr 20000030
+I/DEBUG   (   30):          #00  pc 002be882  /system/lib/libwebcore.so
+I/DEBUG   (   30):          #01  lr 80a059cd  /system/lib/libt.so
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around pc:
+I/DEBUG   (   30): a85be860 1c20582b 60233308 46c0bd70 0018383c 
+I/DEBUG   (   30): a85be870 ffff95b8 00001768 6884b510 d0072c00 
+I/DEBUG   (   30): a85be880 68836820 47981c20 d1012800 e7f568a4 
+I/DEBUG   (   30): a85be890 bd101c20 1c04b510 28006880 6801d006 
+I/DEBUG   (   30): a85be8a0 47986a8b d0012800 e00068a0 bd102000 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around lr:
+I/DEBUG   (   30): 80a059ac 930c6ebb 930d6efb 930e6f3b 930f6f7b 
+I/DEBUG   (   30): 80a059bc 93106fbb 93116ffb 1c2a1c10 47a01c33 
+I/DEBUG   (   30): 80a059cc 617b1c03 1c184b17 efc4f7fb 4a184b17 
+I/DEBUG   (   30): 80a059dc 1c111c18 e82af7fc 61fb1c03 330868fb 
+I/DEBUG   (   30): 80a059ec 68fb681d 681b3308 68fb6818 681b3308 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): stack:
+I/DEBUG   (   30):     455b6898  002f53d0  [heap]
+I/DEBUG   (   30):     455b689c  a861c4a3  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68a0  002f53b8  [heap]
+I/DEBUG   (   30):     455b68a4  455b690c  
+I/DEBUG   (   30):     455b68a8  455b690c  
+I/DEBUG   (   30):     455b68ac  a861d0d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b0  a85be88b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b4  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b8  afd41b6c  /system/lib/libc.so
+I/DEBUG   (   30):     455b68bc  000f0002  [heap]
+I/DEBUG   (   30):     455b68c0  455b6928  
+I/DEBUG   (   30):     455b68c4  455b68dc  
+I/DEBUG   (   30):     455b68c8  a8744fec  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68cc  80a09390  
+I/DEBUG   (   30):     455b68d0  df002777  
+I/DEBUG   (   30):     455b68d4  e3a070ad  
+I/DEBUG   (   30): #00 455b68d8  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68dc  80a059cd  /system/lib/libt.so
+I/DEBUG   (   30):     455b68e0  a854e735  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68e4  455b6a50  
+I/DEBUG   (   30):     455b68e8  45a09fe0  
+I/DEBUG   (   30):     455b68ec  a842f509  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f0  a8551e41  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f4  a85462d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f8  457f2084  
+I/DEBUG   (   30):     455b68fc  457f2068  
+I/DEBUG   (   30):     455b6900  00aea88c  [heap]
+I/DEBUG   (   30):     455b6904  0082baa0  [heap]
+I/DEBUG   (   30):     455b6908  00aea9e4  [heap]
+I/DEBUG   (   30):     455b690c  455b6a50  
+I/DEBUG   (   30):     455b6910  3fffffff  
+I/DEBUG   (   30):     455b6914  a860e60b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b6918  455b6a64  
+I/DEBUG   (   30):     455b691c  455b6a64  
+I/BootReceiver(   58): Copying /data/tombstones/tombstone_05 to DropBox (SYSTEM_TOMBSTONE)
+D/Zygote  (   32): Process 872 terminated by signal (11)
+I/ActivityManager(   58): Process com.android.browser (pid 872) has died.
+I/WindowManager(   58): WIN DEATH: Window{43fadec0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{43fc2330 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+D/dalvikvm(   58): GC_FOR_MALLOC freed 3497 objects / 736544 bytes in 85ms
+D/dalvikvm(   58): GC_FOR_MALLOC freed 620 objects / 771096 bytes in 76ms
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 872 uid 10000
+D/dalvikvm(  111): GC_FOR_MALLOC freed 9994 objects / 476272 bytes in 54ms
+D/SntpClient(   58): request time failed: java.net.SocketException: Address family not supported by protocol
+D/AndroidRuntime(  912): 
+D/AndroidRuntime(  912): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  912): CheckJNI is ON
+D/AndroidRuntime(  912): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=918 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  912): Shutting down VM
+D/jdwp    (  912): adbd disconnected
+I/AndroidRuntime(  912): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityThread(  918): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 1021 ms (total 1021 ms)
+D/dalvikvm(  115): GC_EXPLICIT freed 144 objects / 7480 bytes in 54ms
+D/AndroidRuntime(  942): 
+D/AndroidRuntime(  942): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  942): CheckJNI is ON
+D/AndroidRuntime(  942): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  942): Shutting down VM
+D/jdwp    (  942): adbd disconnected
+I/AndroidRuntime(  942): NOTE: attach of thread 'Binder Thread #3' failed
+D/dalvikvm(  918): GC_FOR_MALLOC freed 4176 objects / 238208 bytes in 67ms
+D/dalvikvm(  918): GC_FOR_MALLOC freed 1102 objects / 71400 bytes in 38ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43e9ff20
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43fdc940
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43eab670
+I/DEBUG   (   30): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (   30): Build fingerprint: 'generic/sdk/generic/:2.2/FRF91/43546:eng/test-keys'
+I/DEBUG   (   30): pid: 918, tid: 930  >>> com.android.browser <<<
+I/DEBUG   (   30): signal 11 (SIGSEGV), fault addr 00000008
+I/DEBUG   (   30):  r0 00000000  r1 00000003  r2 45a49a08  r3 45a49a00
+I/DEBUG   (   30):  r4 00acffd8  r5 45a49a08  r6 45a49a00  r7 455b6928
+I/DEBUG   (   30):  r8 455b6d88  r9 42901f1c  10 42901f04  fp 002df308
+I/DEBUG   (   30):  ip a85be879  sp 455b68d8  lr 80a059cd  pc a85be882  cpsr 20000030
+I/DEBUG   (   30):          #00  pc 002be882  /system/lib/libwebcore.so
+I/DEBUG   (   30):          #01  lr 80a059cd  /system/lib/libt.so
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around pc:
+I/DEBUG   (   30): a85be860 1c20582b 60233308 46c0bd70 0018383c 
+I/DEBUG   (   30): a85be870 ffff95b8 00001768 6884b510 d0072c00 
+I/DEBUG   (   30): a85be880 68836820 47981c20 d1012800 e7f568a4 
+I/DEBUG   (   30): a85be890 bd101c20 1c04b510 28006880 6801d006 
+I/DEBUG   (   30): a85be8a0 47986a8b d0012800 e00068a0 bd102000 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around lr:
+I/DEBUG   (   30): 80a059ac 930c6ebb 930d6efb 930e6f3b 930f6f7b 
+I/DEBUG   (   30): 80a059bc 93106fbb 93116ffb 1c2a1c10 47a01c33 
+I/DEBUG   (   30): 80a059cc 617b1c03 1c184b17 efc4f7fb 4a184b17 
+I/DEBUG   (   30): 80a059dc 1c111c18 e82af7fc 61fb1c03 330868fb 
+I/DEBUG   (   30): 80a059ec 68fb681d 681b3308 68fb6818 681b3308 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): stack:
+I/DEBUG   (   30):     455b6898  002f82d8  [heap]
+I/DEBUG   (   30):     455b689c  a861c4a3  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68a0  002f82c0  [heap]
+I/DEBUG   (   30):     455b68a4  455b690c  
+I/DEBUG   (   30):     455b68a8  455b690c  
+I/DEBUG   (   30):     455b68ac  a861d0d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b0  a85be88b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b4  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b8  afd41b6c  /system/lib/libc.so
+I/DEBUG   (   30):     455b68bc  000f0002  [heap]
+I/DEBUG   (   30):     455b68c0  455b6928  
+I/DEBUG   (   30):     455b68c4  455b68dc  
+I/DEBUG   (   30):     455b68c8  a8744fec  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68cc  80a09390  
+I/DEBUG   (   30):     455b68d0  df002777  
+I/DEBUG   (   30):     455b68d4  e3a070ad  
+I/DEBUG   (   30): #00 455b68d8  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68dc  80a059cd  /system/lib/libt.so
+I/DEBUG   (   30):     455b68e0  a854e735  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68e4  455b6a50  
+I/DEBUG   (   30):     455b68e8  45a49a00  
+I/DEBUG   (   30):     455b68ec  a842f509  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f0  a8551e41  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f4  a85462d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f8  45825084  
+I/DEBUG   (   30):     455b68fc  45825068  
+I/DEBUG   (   30):     455b6900  00ae720c  [heap]
+I/DEBUG   (   30):     455b6904  0086d848  [heap]
+I/DEBUG   (   30):     455b6908  00ae7364  [heap]
+I/DEBUG   (   30):     455b690c  455b6a50  
+I/DEBUG   (   30):     455b6910  3fffffff  
+I/DEBUG   (   30):     455b6914  a860e60b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b6918  455b6a64  
+I/DEBUG   (   30):     455b691c  455b6a64  
+I/BootReceiver(   58): Copying /data/tombstones/tombstone_06 to DropBox (SYSTEM_TOMBSTONE)
+D/Zygote  (   32): Process 918 terminated by signal (11)
+D/dalvikvm(   58): GC_FOR_MALLOC freed 3560 objects / 748304 bytes in 93ms
+I/ActivityManager(   58): Process com.android.browser (pid 918) has died.
+I/WindowManager(   58): WIN DEATH: Window{43fb9648 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{43ff5be0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+D/dalvikvm(   58): GC_FOR_MALLOC freed 966 objects / 788768 bytes in 72ms
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 918 uid 10000
+D/SntpClient(   58): request time failed: java.net.SocketException: Address family not supported by protocol
+D/AndroidRuntime(  960): 
+D/AndroidRuntime(  960): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  960): CheckJNI is ON
+D/AndroidRuntime(  960): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=966 uid=10000 gids={3003, 1015}
+D/AndroidRuntime(  960): Shutting down VM
+D/jdwp    (  960): adbd disconnected
+I/AndroidRuntime(  960): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityThread(  966): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 1002 ms (total 1002 ms)
+D/dalvikvm(  115): GC_EXPLICIT freed 144 objects / 7480 bytes in 59ms
+D/AndroidRuntime(  989): 
+D/AndroidRuntime(  989): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime(  989): CheckJNI is ON
+D/AndroidRuntime(  989): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime(  989): Shutting down VM
+D/jdwp    (  989): adbd disconnected
+D/dalvikvm(  966): GC_FOR_MALLOC freed 4199 objects / 239104 bytes in 64ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43f6be50
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43e6c340
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43f99c10
+I/DEBUG   (   30): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (   30): Build fingerprint: 'generic/sdk/generic/:2.2/FRF91/43546:eng/test-keys'
+I/DEBUG   (   30): pid: 966, tid: 979  >>> com.android.browser <<<
+I/DEBUG   (   30): signal 11 (SIGSEGV), fault addr 00000008
+I/DEBUG   (   30):  r0 00000000  r1 00000003  r2 45a09c28  r3 45a09c20
+I/DEBUG   (   30):  r4 006e3e98  r5 45a09c28  r6 45a09c20  r7 455b6928
+I/DEBUG   (   30):  r8 455b6d88  r9 42901f1c  10 42901f04  fp 002df820
+I/DEBUG   (   30):  ip a85be879  sp 455b68d8  lr 80a059cd  pc a85be882  cpsr 20000030
+I/DEBUG   (   30):          #00  pc 002be882  /system/lib/libwebcore.so
+I/DEBUG   (   30):          #01  lr 80a059cd  /system/lib/libt.so
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around pc:
+I/DEBUG   (   30): a85be860 1c20582b 60233308 46c0bd70 0018383c 
+I/DEBUG   (   30): a85be870 ffff95b8 00001768 6884b510 d0072c00 
+I/DEBUG   (   30): a85be880 68836820 47981c20 d1012800 e7f568a4 
+I/DEBUG   (   30): a85be890 bd101c20 1c04b510 28006880 6801d006 
+I/DEBUG   (   30): a85be8a0 47986a8b d0012800 e00068a0 bd102000 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around lr:
+I/DEBUG   (   30): 80a059ac 930c6ebb 930d6efb 930e6f3b 930f6f7b 
+I/DEBUG   (   30): 80a059bc 93106fbb 93116ffb 1c2a1c10 47a01c33 
+I/DEBUG   (   30): 80a059cc 617b1c03 1c184b17 efc4f7fb 4a184b17 
+I/DEBUG   (   30): 80a059dc 1c111c18 e82af7fc 61fb1c03 330868fb 
+I/DEBUG   (   30): 80a059ec 68fb681d 681b3308 68fb6818 681b3308 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): stack:
+I/DEBUG   (   30):     455b6898  00307f70  [heap]
+I/DEBUG   (   30):     455b689c  a861c4a3  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68a0  00307f58  [heap]
+I/DEBUG   (   30):     455b68a4  455b690c  
+I/DEBUG   (   30):     455b68a8  455b690c  
+I/DEBUG   (   30):     455b68ac  a861d0d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b0  a85be88b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b4  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b8  afd41b6c  /system/lib/libc.so
+I/DEBUG   (   30):     455b68bc  000f0002  [heap]
+I/DEBUG   (   30):     455b68c0  455b6928  
+I/DEBUG   (   30):     455b68c4  455b68dc  
+I/DEBUG   (   30):     455b68c8  a8744fec  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68cc  80a09390  
+I/DEBUG   (   30):     455b68d0  df002777  
+I/DEBUG   (   30):     455b68d4  e3a070ad  
+I/DEBUG   (   30): #00 455b68d8  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68dc  80a059cd  /system/lib/libt.so
+I/DEBUG   (   30):     455b68e0  a854e735  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68e4  455b6a50  
+I/DEBUG   (   30):     455b68e8  45a09c20  
+I/DEBUG   (   30):     455b68ec  a842f509  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f0  a8551e41  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f4  a85462d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f8  457f2084  
+I/DEBUG   (   30):     455b68fc  457f2068  
+I/DEBUG   (   30):     455b6900  00caa8e4  [heap]
+I/DEBUG   (   30):     455b6904  00abd2b0  [heap]
+I/DEBUG   (   30):     455b6908  00caaa30  [heap]
+I/DEBUG   (   30):     455b690c  455b6a50  
+I/DEBUG   (   30):     455b6910  3fffffff  
+I/DEBUG   (   30):     455b6914  a860e60b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b6918  455b6a64  
+I/DEBUG   (   30):     455b691c  455b6a64  
+I/BootReceiver(   58): Copying /data/tombstones/tombstone_07 to DropBox (SYSTEM_TOMBSTONE)
+D/Zygote  (   32): Process 966 terminated by signal (11)
+D/dalvikvm(   58): GC_FOR_MALLOC freed 2887 objects / 710016 bytes in 91ms
+I/ActivityManager(   58): Process com.android.browser (pid 966) has died.
+I/WindowManager(   58): WIN DEATH: Window{43fadec0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{44007188 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 966 uid 10000
+D/dalvikvm(   58): GC_FOR_MALLOC freed 865 objects / 783984 bytes in 62ms
+D/AndroidRuntime( 1005): 
+D/AndroidRuntime( 1005): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime( 1005): CheckJNI is ON
+D/AndroidRuntime( 1005): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=1011 uid=10000 gids={3003, 1015}
+D/AndroidRuntime( 1005): Shutting down VM
+D/jdwp    ( 1005): adbd disconnected
+I/AndroidRuntime( 1005): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityThread( 1011): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 951 ms (total 951 ms)
+D/dalvikvm(  115): GC_EXPLICIT freed 137 objects / 7272 bytes in 56ms
+D/AndroidRuntime( 1037): 
+D/AndroidRuntime( 1037): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime( 1037): CheckJNI is ON
+D/AndroidRuntime( 1037): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime( 1037): Shutting down VM
+D/jdwp    ( 1037): adbd disconnected
+I/dalvikvm( 1037): JNI: AttachCurrentThread (from ???.???)
+I/AndroidRuntime( 1037): NOTE: attach of thread 'Binder Thread #3' failed
+D/dalvikvm( 1011): GC_FOR_MALLOC freed 4228 objects / 240192 bytes in 58ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43f65100
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43eab670
+D/SntpClient(   58): request time failed: java.net.SocketException: Address family not supported by protocol
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43fbf428
+I/DEBUG   (   30): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (   30): Build fingerprint: 'generic/sdk/generic/:2.2/FRF91/43546:eng/test-keys'
+I/DEBUG   (   30): pid: 1011, tid: 1023  >>> com.android.browser <<<
+I/DEBUG   (   30): signal 11 (SIGSEGV), fault addr 00000008
+I/DEBUG   (   30):  r0 00000000  r1 00000003  r2 45a0a108  r3 45a0a100
+I/DEBUG   (   30):  r4 00ad1a60  r5 45a0a108  r6 45a0a100  r7 455b6928
+I/DEBUG   (   30):  r8 455b6d88  r9 42901f1c  10 42901f04  fp 002dfcf0
+I/DEBUG   (   30):  ip a85be879  sp 455b68d8  lr 80a059cd  pc a85be882  cpsr 20000030
+I/DEBUG   (   30):          #00  pc 002be882  /system/lib/libwebcore.so
+I/DEBUG   (   30):          #01  lr 80a059cd  /system/lib/libt.so
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around pc:
+I/DEBUG   (   30): a85be860 1c20582b 60233308 46c0bd70 0018383c 
+I/DEBUG   (   30): a85be870 ffff95b8 00001768 6884b510 d0072c00 
+I/DEBUG   (   30): a85be880 68836820 47981c20 d1012800 e7f568a4 
+I/DEBUG   (   30): a85be890 bd101c20 1c04b510 28006880 6801d006 
+I/DEBUG   (   30): a85be8a0 47986a8b d0012800 e00068a0 bd102000 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around lr:
+I/DEBUG   (   30): 80a059ac 930c6ebb 930d6efb 930e6f3b 930f6f7b 
+I/DEBUG   (   30): 80a059bc 93106fbb 93116ffb 1c2a1c10 47a01c33 
+I/DEBUG   (   30): 80a059cc 617b1c03 1c184b17 efc4f7fb 4a184b17 
+I/DEBUG   (   30): 80a059dc 1c111c18 e82af7fc 61fb1c03 330868fb 
+I/DEBUG   (   30): 80a059ec 68fb681d 681b3308 68fb6818 681b3308 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): stack:
+I/DEBUG   (   30):     455b6898  002f39f0  [heap]
+I/DEBUG   (   30):     455b689c  a861c4a3  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68a0  002f39d8  [heap]
+I/DEBUG   (   30):     455b68a4  455b690c  
+I/DEBUG   (   30):     455b68a8  455b690c  
+I/DEBUG   (   30):     455b68ac  a861d0d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b0  a85be88b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b4  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b8  afd41b6c  /system/lib/libc.so
+I/DEBUG   (   30):     455b68bc  000f0002  [heap]
+I/DEBUG   (   30):     455b68c0  455b6928  
+I/DEBUG   (   30):     455b68c4  455b68dc  
+I/DEBUG   (   30):     455b68c8  a8744fec  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68cc  80a09390  
+I/DEBUG   (   30):     455b68d0  df002777  
+I/DEBUG   (   30):     455b68d4  e3a070ad  
+I/DEBUG   (   30): #00 455b68d8  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68dc  80a059cd  /system/lib/libt.so
+I/DEBUG   (   30):     455b68e0  a854e735  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68e4  455b6a50  
+I/DEBUG   (   30):     455b68e8  45a0a100  
+I/DEBUG   (   30):     455b68ec  a842f509  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f0  a8551e41  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f4  a85462d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f8  457f2084  
+I/DEBUG   (   30):     455b68fc  457f2068  
+I/DEBUG   (   30):     455b6900  00bb116c  [heap]
+I/DEBUG   (   30):     455b6904  008985e0  [heap]
+I/DEBUG   (   30):     455b6908  00bb12b8  [heap]
+I/DEBUG   (   30):     455b690c  455b6a50  
+I/DEBUG   (   30):     455b6910  3fffffff  
+I/DEBUG   (   30):     455b6914  a860e60b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b6918  455b6a64  
+I/DEBUG   (   30):     455b691c  455b6a64  
+I/BootReceiver(   58): Copying /data/tombstones/tombstone_08 to DropBox (SYSTEM_TOMBSTONE)
+D/Zygote  (   32): Process 1011 terminated by signal (11)
+D/dalvikvm(   58): GC_FOR_MALLOC freed 3103 objects / 724208 bytes in 87ms
+I/ActivityManager(   58): Process com.android.browser (pid 1011) has died.
+I/WindowManager(   58): WIN DEATH: Window{43fb9648 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{43ff5be0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+D/dalvikvm(   58): GC_FOR_MALLOC freed 827 objects / 782064 bytes in 59ms
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 1011 uid 10000
+D/AndroidRuntime( 1055): 
+D/AndroidRuntime( 1055): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime( 1055): CheckJNI is ON
+D/AndroidRuntime( 1055): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=about:blank flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+I/ActivityManager(   58): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=1061 uid=10000 gids={3003, 1015}
+D/AndroidRuntime( 1055): Shutting down VM
+D/jdwp    ( 1055): adbd disconnected
+I/AndroidRuntime( 1055): NOTE: attach of thread 'Binder Thread #3' failed
+I/ActivityThread( 1061): Publishing provider browser: com.android.browser.BrowserProvider
+I/ActivityManager(   58): Displayed activity com.android.browser/.BrowserActivity: 972 ms (total 972 ms)
+D/dalvikvm(  115): GC_EXPLICIT freed 145 objects / 7504 bytes in 55ms
+D/AndroidRuntime( 1085): 
+D/AndroidRuntime( 1085): >>>>>>>>>>>>>> AndroidRuntime START <<<<<<<<<<<<<<
+D/AndroidRuntime( 1085): CheckJNI is ON
+D/AndroidRuntime( 1085): --- registering native functions ---
+I/ActivityManager(   58): Starting activity: Intent { act=android.intent.action.VIEW dat=http://192.168.69.127/sploit.html flg=0x10000000 cmp=com.android.browser/.BrowserActivity }
+D/AndroidRuntime( 1085): Shutting down VM
+D/jdwp    ( 1085): adbd disconnected
+I/AndroidRuntime( 1085): NOTE: attach of thread 'Binder Thread #3' failed
+D/dalvikvm( 1061): GC_FOR_MALLOC freed 4259 objects / 241416 bytes in 55ms
+D/dalvikvm( 1061): GC_FOR_MALLOC freed 1109 objects / 71736 bytes in 56ms
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43e77240
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43f69af8
+W/InputManagerService(   58): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@43ec3000
+I/DEBUG   (   30): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (   30): Build fingerprint: 'generic/sdk/generic/:2.2/FRF91/43546:eng/test-keys'
+I/DEBUG   (   30): pid: 1061, tid: 1073  >>> com.android.browser <<<
+I/DEBUG   (   30): signal 4 (SIGILL), fault addr 003c62e0
+I/DEBUG   (   30):  r0 0099b758  r1 00000003  r2 45a09968  r3 003c62c4
+I/DEBUG   (   30):  r4 0099b758  r5 45a09968  r6 45a09960  r7 455b6928
+I/DEBUG   (   30):  r8 455b6d88  r9 42901f1c  10 42901f04  fp 002e0290
+I/DEBUG   (   30):  ip a85be879  sp 455b68d8  lr a85be889  pc 003c62e0  cpsr 00000010
+I/DEBUG   (   30):          #00  pc 003c62e0  [heap]
+I/DEBUG   (   30):          #01  pc 002be886  /system/lib/libwebcore.so
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around pc:
+I/DEBUG   (   30): 003c62c0 00000000 ea000005 00540053 00520041 
+I/DEBUG   (   30): 003c62d0 005f0054 0041004d 004b0052 cccccccc 
+I/DEBUG   (   30): 003c62e0 cccccccc cccccccc cccccccc cccccccc 
+I/DEBUG   (   30): 003c62f0 cccccccc cccccccc cccccccc cccccccc 
+I/DEBUG   (   30): 003c6300 cccccccc cccccccc cccccccc cccccccc 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): code around lr:
+I/DEBUG   (   30): a85be868 46c0bd70 0018383c ffff95b8 00001768 
+I/DEBUG   (   30): a85be878 6884b510 d0072c00 68836820 47981c20 
+I/DEBUG   (   30): a85be888 d1012800 e7f568a4 bd101c20 1c04b510 
+I/DEBUG   (   30): a85be898 28006880 6801d006 47986a8b d0012800 
+I/DEBUG   (   30): a85be8a8 e00068a0 bd102000 4b06b510 49074806 
+I/DEBUG   (   30): 
+I/DEBUG   (   30): stack:
+I/DEBUG   (   30):     455b6898  002f4110  [heap]
+I/DEBUG   (   30):     455b689c  a861c4a3  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68a0  002f40f8  [heap]
+I/DEBUG   (   30):     455b68a4  455b690c  
+I/DEBUG   (   30):     455b68a8  455b690c  
+I/DEBUG   (   30):     455b68ac  a861d0d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b0  a85be88b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b4  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68b8  afd41b6c  /system/lib/libc.so
+I/DEBUG   (   30):     455b68bc  000f0002  [heap]
+I/DEBUG   (   30):     455b68c0  455b6928  
+I/DEBUG   (   30):     455b68c4  455b68dc  
+I/DEBUG   (   30):     455b68c8  a8744fec  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68cc  80a09390  
+I/DEBUG   (   30):     455b68d0  df002777  
+I/DEBUG   (   30):     455b68d4  e3a070ad  
+I/DEBUG   (   30): #01 455b68d8  a85be879  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68dc  80a059cd  /system/lib/libt.so
+I/DEBUG   (   30):     455b68e0  a854e735  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68e4  455b6a50  
+I/DEBUG   (   30):     455b68e8  45a09960  
+I/DEBUG   (   30):     455b68ec  a842f509  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f0  a8551e41  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f4  a85462d5  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b68f8  457f2084  
+I/DEBUG   (   30):     455b68fc  457f2068  
+I/DEBUG   (   30):     455b6900  00c9e9a4  [heap]
+I/DEBUG   (   30):     455b6904  00aa86a0  [heap]
+I/DEBUG   (   30):     455b6908  00c9eaf0  [heap]
+I/DEBUG   (   30):     455b690c  455b6a50  
+I/DEBUG   (   30):     455b6910  3fffffff  
+I/DEBUG   (   30):     455b6914  a860e60b  /system/lib/libwebcore.so
+I/DEBUG   (   30):     455b6918  455b6a64  
+I/DEBUG   (   30):     455b691c  455b6a64  
+I/BootReceiver(   58): Copying /data/tombstones/tombstone_09 to DropBox (SYSTEM_TOMBSTONE)
+D/Zygote  (   32): Process 1061 terminated by signal (4)
+D/dalvikvm(   58): GC_FOR_MALLOC freed 3162 objects / 729520 bytes in 98ms
+I/ActivityManager(   58): Process com.android.browser (pid 1061) has died.
+I/WindowManager(   58): WIN DEATH: Window{43fadec0 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/WindowManager(   58): WIN DEATH: Window{44007188 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/UsageStats(   58): Unexpected resume of com.android.launcher while already resumed in com.android.browser
+W/InputManagerService(   58): Got RemoteException sending setActive(false) notification to pid 1061 uid 10000
+D/dalvikvm(   58): GC_FOR_MALLOC freed 1003 objects / 791048 bytes in 58ms

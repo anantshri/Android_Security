@@ -1,0 +1,27 @@
+#!/bin/bash
+
+source "cfg"
+
+is_online=0
+
+# ping the device using adb     
+function ping_device {
+    tmp=$(adb devices | grep $DEVICE)
+    if [ -z "$tmp" ]; then
+        is_online=0
+    else
+        is_online=1
+    fi
+}
+
+
+
+while [ 1 ]; do
+    ping_device
+    if [ $is_online -ne 1 ]; then
+	exit
+    fi
+    
+    timeout 180 adb -s $DEVICE shell su -c "cat /proc/kmsg" > kmsg
+
+done

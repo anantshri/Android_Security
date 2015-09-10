@@ -1,0 +1,242 @@
+#!/bin/bash
+
+
+id_gal=""
+start="adb -s 4790201fe8dbafae shell am start -a android.intent.action.VIEW -t image/jpg -d file:///storage//sdcard0//jpg_sample//1.jpg"
+
+restarted=0
+c=0
+
+function incremental_minset {
+
+    r=0
+    function rand {
+	for i in `seq 1 10`;
+	do
+	    r=$(($RANDOM%$1))
+	    if [ $r -ne 0 ]; then
+		break
+	    fi;
+	done
+	echo "Chosen random number: $r"
+    }
+
+    echo "Creating first samples pool!"
+    for q in `seq 1 50`;
+    do
+	radamsa /home/diego/fuzzer/jpg/s3mini/minset/minset/* > pool0/$q.jpg
+	exec_test_case pool0/$q.jpg
+    done
+
+
+    rand 4
+    for k in `seq 1 $r`;
+    do
+	echo "Creating samples pool $k!"
+	for f in `seq 1 50`;
+	do
+	    pool_id=$(($k-1))
+	    radamsa pool$pool_id/* > pool$k/$f.jpg
+	    exec_test_case pool$k/$f.jpg
+	done
+    done
+
+
+}
+
+
+function incremental_single {
+
+    r=0
+    function rand {
+	for i in `seq 1 10`;
+	do
+	    r=$(($RANDOM%$1))
+	    if [ $r -ne 0 ]; then
+		break
+	    fi;
+	done
+	echo "Chosen random number: $r"
+    }
+
+    rand 10
+    for q in `seq 0 9`;
+    do
+	img=$(($RANDOM%74))
+	echo "Chosen img $img!"
+	radamsa /home/diego/fuzzer/jpg/s3mini/minset/minset/$img.jpg > pool0/$q-0.jpg
+	exec_test_case pool0/$q-0.jpg
+	for k in `seq 1 $r`;
+	do
+	    n=$(($k-1))
+	    radamsa /home/diego/fuzzer/jpg/s3mini/fuzzers/pool0/$q-$n.jpg > pool0/$q-$k.jpg
+	    exec_test_case pool0/$q-$k.jpg
+	done
+    done
+
+
+}
+
+
+
+
+function incremental_hybrid {
+    
+    r=0
+    function rand {
+	for i in `seq 1 10`;
+	do
+	    r=$(($RANDOM%$1))
+	    if [ $r -ne 0 ]; then
+		break
+	    fi;
+	done
+	echo "Chosen random number: $r"
+    }
+
+    echo "Creating first samples pool!"
+    for q in `seq 1 20`;
+    do
+	radamsa /home/diego/fuzzer/jpg/s3mini/minset/minset/* > pool0/$q.jpg
+    done
+
+
+    rand 3
+    for k in `seq 1 $r`;
+    do
+	echo "Creating samples pool $k!"
+	for i in `seq 1 20`;
+	do
+	    pool_id=$(($k-1))
+	    radamsa pool$pool_id/* > pool$k/$i.jpg
+	    exec_test_case pool$k/$i.jpg
+	done
+    done
+
+    t=$r
+    rand 4
+    h=0
+    for i in $(ls pool$t);
+    do
+	echo "Chosen img $i!"
+	p=$(($t+1))
+	radamsa /home/diego/fuzzer/jpg/s3mini/fuzzers/pool$t/$i > pool$p/$h-0.jpg
+	exec_test_case pool$p/$h-0.jpg
+	for k in `seq 1 $t`;
+	do
+	    n=$(($k-1))
+	    radamsa /home/diego/fuzzer/jpg/s3mini/fuzzers/pool$p/$h-$n.jpg > pool$p/$h-$k.jpg
+	    exec_test_case pool$p/$h-$k.jpg
+	done
+	h=$(($h+1))
+    done
+
+}
+
+
+# Check if gallery application is still running or if a crash occurred                           
+ 
+function check_gallery {
+    i=$(adb -s 4790201fe8dbafae shell ps | grep com.sec.android.gallery3d)
+    id=$(echo $i | cut -d " " -f 2)
+
+    if [ "$id" != "" ] ;then
+        echo "Gallery running with pid $id"
+	if [ "$id" != "$id_gal" ] ; then
+            echo $id_gal
+            echo "Gallery restarted with pid $id"
+	    restarted=1
+        fi;
+    else
+        echo "Gallery not running\n Restarting....\n"
+        $start
+        adb -s 4790201fe8dbafae shell input keyevent 4
+        i=$(adb -s 4790201fe8dbafae shell ps | grep com.sec.android.gallery3d)
+        id=$(echo $i | cut -d " " -f 2)
+	restarted=1
+        echo "Gallery restarted with pid $id...\n"
+        sleep 2
+    fi;
+    id_gal=$id
+}
+
+
+# Check the state of the process and wait until sleeping is reached                                
+function check_state {
+    for i in `seq 0 10`; do
+        state=$(adb -s 4790201fe8dbafae shell cat /proc/$id_gal/status | grep State)
+        get_state=$(echo $state | cut -d " " -f 2)
+        if [ "$get_state" != "S" ]; then
+            echo "Not finished yet... "
+            sleep $1
+        fi;
+    done;
+}
+
+
+
+
+function wait_for_crash {
+    for i in `seq 1 10`;
+    do
+	p=$(adb -s 4790201fe8dbafae shell ps | grep gal)
+	echo $p
+	if [ "$p" == "" ]; then
+	    print $p
+	    return
+	fi;
+	sleep 1
+    done;
+    i=$(adb -s 4790201fe8dbafae shell ps | grep com.sec.android.gallery3d)
+    id=$(echo $i | cut -d " " -f 2)
+    adb -s 4790201fe8dbafae shell su -c kill -9 $id
+}
+
+
+function exec_test_case {
+
+    check_gallery 
+    echo $1
+    check_gallery
+    cp $1 fuzzed.jpg
+    adb -s 4790201fe8dbafae push fuzzed.jpg /sdcard/fuzzed.jpg
+    adb -s 4790201fe8dbafae logcat -c
+    adb -s 4790201fe8dbafae shell am start -a android.intent.action.VIEW -t image/jpg -d file:///storage//sdcard0//fuzzed.jpg
+    sleep 0.2
+    check_state 1
+    crash=$(adb -s 4790201fe8dbafae shell su -c sh /data/local/tmp/crash_check)
+    if [ "$crash" != "" ] || [ $restarted -eq 1 ]; then
+    	echo "Crash detected!"
+	cp ./fuzzed.jpg $c.jpg
+	c=$(($c+1))
+	restarted=0
+    fi;
+    adb -s 4790201fe8dbafae shell input keyevent 4
+}
+
+
+function clean {
+    rm pool0/* > /dev/null
+    rm pool1/* > /dev/null
+    rm pool2/* > /dev/null
+    rm pool3/* > /dev/null
+    rm pool4/* > /dev/null
+    rm pool5/* > /dev/null
+    rm pool6/* > /dev/null
+    rm pool7/* > /dev/null
+    rm pool8/* > /dev/null
+    rm pool9/* > /dev/null
+    rm pool10/* > /dev/null
+}
+
+
+while [ 1 ]; 
+do
+    clean
+    incremental_minset
+    clean
+    incremental_single
+    clean
+    incremental_hybrid
+done
+    

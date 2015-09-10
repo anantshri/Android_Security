@@ -1,0 +1,11 @@
+byte F59: 0x33 -> 0x30
+byte 13D8: 0x23 -> 0x24
+byte 1627: 0x02 -> 0x03 
+add byte 1E48: 0xde -> 00 de 03
+add byte DCAF: 0x2d -> c6 2d 38
+byte DCB0: 0x39 -> 0x38: 2d 38 a4 5a
+add byte DCDD: 0x6a -> c3 6a f0
+add byte DDDD, DDDE: 0x31 0x33 -> f5 31 33 33 9e
+byte DDDF: 0x33 -> 0x32: f5 31 33 32 9e
+byte DCAF: 0x39 -> 0x38: c6 38 a4
+

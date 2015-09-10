@@ -1,0 +1,60 @@
+[init] shm is at 0xb6e3b000
+[init] Kernel was tainted on startup. Will ignore flags that are already set.
+[init] Enabled 1 syscalls. Disabled 386 syscalls.
+[init] mapping[0]: (zeropage PROT_READ | PROT_WRITE) 0xb6e01000 (8KB)
+[init] mapping[1]: (zeropage PROT_READ) 0xb6dff000 (8KB)
+[init] mapping[2]: (zeropage PROT_WRITE) 0xb6dfd000 (8KB)
+[init] mapping[3]: (zeropage PROT_READ | PROT_WRITE) 0xb6cfd000 (1MB)
+[init] mapping[4]: (zeropage PROT_READ) 0xb6bfd000 (1MB)
+[init] mapping[5]: (zeropage PROT_WRITE) 0xb6afd000 (1MB)
+[init] mapping[6]: (zeropage PROT_READ | PROT_WRITE) 0xb68fd000 (2MB)
+[init] mapping[7]: (zeropage PROT_READ) 0xb66fd000 (2MB)
+[init] mapping[8]: (zeropage PROT_WRITE) 0xb64fd000 (2MB)
+[init] mapping[9]: (zeropage PROT_READ | PROT_WRITE) 0xb60fd000 (4MB)
+[init] mapping[10]: (zeropage PROT_READ) 0xb5cfd000 (4MB)
+[init] mapping[11]: (zeropage PROT_WRITE) 0xb58fd000 (4MB)
+[init] mapping[12]: (zeropage PROT_READ | PROT_WRITE) 0xb4efd000 (10MB)
+[init] mapping[13]: (zeropage PROT_READ) 0xb44fd000 (10MB)
+[init] mapping[14]: (zeropage PROT_WRITE) 0xb3afd000 (10MB)
+[init] There are 15 entries in the map table
+[init]  start: 0xb6e01000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb6dff000  name: anon(PROT_READ)
+[init]  start: 0xb6dfd000  name: anon(PROT_WRITE)
+[init]  start: 0xb6cfd000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb6bfd000  name: anon(PROT_READ)
+[init]  start: 0xb6afd000  name: anon(PROT_WRITE)
+[init]  start: 0xb68fd000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb66fd000  name: anon(PROT_READ)
+[init]  start: 0xb64fd000  name: anon(PROT_WRITE)
+[init]  start: 0xb60fd000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb5cfd000  name: anon(PROT_READ)
+[init]  start: 0xb58fd000  name: anon(PROT_WRITE)
+[init]  start: 0xb4efd000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb44fd000  name: anon(PROT_READ)
+[init]  start: 0xb3afd000  name: anon(PROT_WRITE)
+[init] Parsed 45 char devices, 22 block devices, 0 misc devices.
+[init] Using pid_max = 32768
+[init] Started watchdog process, PID is 9079
+[main] Main thread is alive.
+[main] Generating file descriptors
+[main] Something went wrong during nftw(/dev). (2:No such file or directory)
+[main] Something went wrong during nftw(/proc). (2:No such file or directory)
+[main] Something went wrong during nftw(/sys). (2:No such file or directory)
+[main] fd[5] = fopen /sys/devices/i2c-3/3-004a/input/input1/event1/power/runtime_active_time (read-only) flags:0 fcntl_flags:42c00
+[main] fd[7] = fopen /sys/devices/virtual/net/rev_rmnet7/statistics/tx_heartbeat_errors (read-only) flags:0 fcntl_flags:52800
+[main] fd[9] = open /sys/devices/virtual/net/rev_rmnet2/power/runtime_active_time (read-only) flags:0
+[main] fd[10] = fopen /sys/bus/platform/drivers/MBALBRIDGE (read-only) flags:0 fcntl_flags:40400
+[main] fd[11] = open /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq (read-only) flags:0
+[main] fd[12] = fopen /sys/bus/usb/drivers/cdc_acm/bind (write-only) flags:1 fcntl_flags:0
+[main] fd[13] = open /sys/bus/hid/drivers/kye/bind (write-only) flags:1
+[main] fd[15] = open /sys/devices/virtual/net/rev_rmnet3/dormant (read-only) flags:0
+[main] fd[16] = fopen /sys/devices/virtual/bdi/1:0/power/control (read-write) flags:2 fcntl_flags:52c00
+[main] fd[17] = fopen /sys/bus/platform/drivers/bam_dmux_ch_17/uevent (write-only) flags:1 fcntl_flags:10400
+[main] fd[18] = fopen /sys/devices/virtual/bdi/7:3/min_ratio (read-write) flags:2 fcntl_flags:10c00
+[main] fd[19] = fopen /sys/devices/system/cpu/cpu1/cpuidle/state1/disable (read-write) flags:2 fcntl_flags:50000
+[main] fd[20] = open /sys/bus/cpu/drivers (read-only) flags:0
+[main] fd[21] = fopen /sys/devices/virtual/net/rmnet0/statistics/rx_crc_errors (read-only) flags:0 fcntl_flags:50c00
+[main] fd[22] = fopen /sys/devices/virtual/mem/kmem/power/runtime_status (read-only) flags:0 fcntl_flags:40800
+[main] fd[23] = open /sys/bus/hid/drivers/samsung/bind (write-only) flags:1
+[main] fd[24] = open /sys/devices/msm-l2/format/l2_reg (read-only) flags:0
+[main] fd[25] = open /sys/bus/usb/drivers/usbserial (rea

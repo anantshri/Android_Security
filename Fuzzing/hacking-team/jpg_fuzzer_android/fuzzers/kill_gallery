@@ -1,0 +1,6 @@
+#!/bin/bash
+
+i=$(adb -s 4790201fe8dbafae shell ps | grep com.sec.android.gallery3d)
+id=$(echo $i | cut -d " " -f 2)
+
+adb -s 4790201fe8dbafae shell su -c kill -9 $id

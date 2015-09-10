@@ -1,0 +1,184 @@
+#!/bin/bash
+
+DEVICE="304D19096C52FA9E"
+PORT=$2
+
+##### FUNCTIONS ######
+
+
+## Wait for the device
+function wait_for_device {
+    
+    while [ 1 ]; do
+	state=$(adb -s $DEVICE get-state)
+	if [ "$state" != "device" ]; then 
+	    echo "Device offline..."
+	    sleep 2; 
+	else
+	    break
+	fi
+    done
+    adb forward tcp:8888 tcp:$PORT
+
+}
+
+## Reset: Clear logs and restart rild
+function reset_env {
+    i=$(adb -s $DEVICE shell ps | grep rild)
+    id_rild=$(echo $i | cut -d " " -f 2)
+
+    adb -s $DEVICE shell su -c "kill -9 $id_rild"
+    adb -s $DEVICE shell logcat -c
+    adb -s $DEVICE shell logcat -b radio -c
+
+    sleep 5
+}
+
+## Save main and radio logs
+function save_log {
+    mkdir crash$1
+    adb -s $DEVICE shell logcat -b radio -d > crash$1/log_radio
+    adb -s $DEVICE shell logcat -d > crash$1/log_main
+    cp test_case crash$1
+}
+
+## Instrument rild process for sms injection
+function instrument_rild {
+    i=$(adb -s $DEVICE shell ps | grep rild)
+    id_rild=$(echo $i | cut -d " " -f 2)
+    adb -s $DEVICE shell su -c "/data/local/tmp/hijack -p $id_rild -l /system/lib/libinjector.so -d"
+}
+
+## Check if rild crashed
+function check_rild {
+    restarted=0
+    i=$(adb -s $DEVICE shell ps | grep rild)
+    id=$(echo $i | cut -d " " -f 2)
+
+    if [ "$id" != "" ] ;then
+        if [ "$id" != "$id_rild" ] ; then
+            restarted=1
+        fi;    
+    fi;
+    id_rild=$id
+    echo $restarted
+}
+
+## Check if com.android.phone crashed
+function check_phone {
+    restarted=0
+    i=$(adb -s $DEVICE shell ps | grep com.android.phone)
+    id=$(echo $i | cut -d " " -f 2)
+
+    if [ "$id" != "" ] ;then
+        if [ "$id" != "$id_phone" ] ; then
+            restarted=1
+        fi;    
+    fi;
+    id_phone=$id
+    echo $restarted
+}
+
+## Check if something crashed
+function check_crashes {
+    crash=0
+    i=$(adb -s $DEVICE shell logcat -d | grep r0)
+    ii=$(adb -s $DEVICE shell logcat -d | grep r1)
+    iii=$(adb -s $DEVICE shell logcat -d | grep backtrace)
+
+    if [[ "$i" != "" && "$ii" != "" && "$iii" != "" ]] ;then
+        crash=1  
+    fi;
+    echo $crash
+}
+
+
+## Put every check together
+function check_crash {
+    i=$(check_rild)
+    ii=$(check_phone)
+    iii=$(check_crashes)
+
+    ret=0
+
+    if [[ "$i" = 1 || "$ii" = 1 || "$iii" = 1 ]] ;then
+        ret=1  
+    fi;
+    echo $ret
+}
+
+
+
+################
+##### MAIN #####
+################
+
+test_dir=$1
+crashes=0
+
+range=100 # define how many sms you want to send sequentially
+n=$range
+
+wait_for_device
+
+echo "Instrumenting rild..."
+reset_env
+instrument_rild
+
+# Get PIDs for rild and com.android.phone
+k=$(adb -s $DEVICE shell ps | grep rild)
+id_rild=$(echo $k | cut -d " " -f 2)
+
+k=$(adb -s $DEVICE shell ps | grep com.android.phone)
+id_phone=$(echo $k | cut -d " " -f 2)
+
+echo "Starting to fuzz..."
+sleep 1
+# For every file with fuzzed pdu split them into test cases and send them
+for fuzzed_file in $(ls $test_dir); do 
+    l=$(cat $test_dir$fuzzed_file | wc -l);
+    while [ $l -gt 0 ]; do
+	if [ $l -gt $range ] 
+	    then
+	      l=$(($l-$range))
+	    else
+	      n=$l
+	      l=0
+	fi
+	echo "Creating testcase between $l and $(($l+$n)) from $test_dir$fuzzed_file"
+	
+	# Create the testcase with the correct range
+	python create_testcase.py $test_dir$fuzzed_file $l $(($l+$n));
+
+	echo "Sending generated testcases to device..."
+	# process testcase
+	python send_sms.py ./test_case $PORT
+
+	# wait a bit
+	sleep 1
+
+	# check for problems and log results
+	if [[ $(check_crash) = 1 ]]; then 
+	    echo "A crash was detected.... logging..."
+	    save_log $crashes
+	    crashes=$(($crashes+1))
+	fi
+
+	# reset processes and log
+	echo "cleaning up..."
+	wait_for_device
+	reset_env
+	instrument_rild
+	rm test_case
+	
+	# Get PIDs for rild and com.android.phone
+	k=$(adb -s $DEVICE shell ps | grep rild)
+	id_rild=$(echo $k | cut -d " " -f 2)
+
+	k=$(adb -s $DEVICE shell ps | grep com.android.phone)
+	id_phone=$(echo $k | cut -d " " -f 2)
+	
+    done
+    sleep 2
+
+done

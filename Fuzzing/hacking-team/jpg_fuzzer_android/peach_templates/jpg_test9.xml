@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Peach xmlns="http://phed.org/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://phed.org/2012/Peach ../peach.xsd">
+
+
+
+  <!--*************-->
+  <!--  DATA MODEL -->
+  <!--*************-->
+  
+  <!-- 
+  #** template1.jpg **#
+  # SOI -> JFIF -> Comment -> QuantizationTable (2)-> StartOfFrame -> HuffmantTable (4) -> ImgData 
+  #
+  -->
+
+  <DataModel name="TheDataModel">
+
+     <!--*** Start of image marker (SOI) ***-->
+    <Blob name="SOI"  valueType="hex" value="FFD8" length="2" token="true" mutable="false"/>   
+    <Blob length="29" mutable="false"/>    
+
+    <!--*** Quantization table 1  (67 bytes) ***-->
+    <Block name="quant_table">
+      <Blob name="comment_tag" valueType="hex" value="FF DB" length="2" token="true" mutable="false"/>
+      <Number size="16" endian="big">
+	<Fixup class="ExpressionFixup"> 
+	  <Param name="ref" value="q_table" />
+	  <Param name="expression" value="len(data) + 3" />
+	</Fixup>
+      </Number>
+      <Number name="precision" size="8"/>
+      <Block name="q_table" mutable="false">
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>	
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>	
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>	
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>	
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>	
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>	
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+	<Number size="8" endian="big" signed="true"/>
+      </Block>
+    </Block>
+
+    <!--*** Quantization table 2 (67 bytes) ***-->
+    <Block name="quant_table2" ref="quant_table" mutable="false"/>
+
+    <!--** StartOfFrame **-->
+    <Block name="start_frame" >
+      <Blob length="2" value="FFC0" valueType="hex" token="true" mutable="false"/>
+      <Number size="16" endian="big">
+	<Fixup class="ExpressionFixup"> 
+	  <Param name="ref" value="start_frame_data" />
+	  <Param name="expression" value="len(data) + 2" />
+	</Fixup>
+      </Number>
+      <Block name="start_frame_data">
+	<Number size="8" name="precision"/>
+	<Number size="16" name="Y" />
+	<Number size="16" name="X" />
+	<Choice name="nf">
+	  <Number size="8" value ="1" mutable="false" />   <!-- Color -->
+	  <Number size="8" value ="3" mutable="false" />   <!-- Grayscale -->
+	  <Number size="8" />
+	</Choice>
+	<Number size="8" name="comp_ID" />
+	<Number size="8" name="H_V" />
+	<Number size="8" name="quant_table_n" />
+	<Blob size="6" mutable="false" />   <!-- ??? -->
+      </Block>
+    </Block>
+
+    <Blob length="144" mutable="false"/>
+
+    <!--** StartOfImage **-->
+    <Blob length="2" value="FFDA" valueType="hex" token="true" mutable="false"/>
+
+    <!--** ImgData **-->
+    <Blob name="img" valueType="hex" length="44777" mutable="false"/>
+
+    <!--** EndOfImage **-->
+    <Blob length="2" value="FFD9" valueType="hex" token="true" mutable="false"/>
+
+  </DataModel>
+
+
+  <!--**************-->
+  <!--  STATE MODEL -->
+  <!--**************-->
+
+
+  <StateModel name="State" initialState="State1" >
+    <State name="State1"  >
+      <Action type="output" >
+	<DataModel ref="TheDataModel"/>
+	<Data fileName="template1.jpg"/>
+      </Action>
+      <Action type="close" />
+    </State>
+  </StateModel>
+
+  <Test name="Default">
+    <Strategy class="Random">
+      <Param name="MaxFieldsToMutate" value="10"/>
+      <Param name="SwitchCount" value="100"/>
+    </Strategy>
+    <StateModel ref="State"/>
+    <Publisher class="FileIncremental">
+      <Param name="FileName" value="fuzzed/fuzzfile" />
+      <Param name="Extension" value="jpg" />
+    </Publisher>
+  </Test>
+</Peach>
+

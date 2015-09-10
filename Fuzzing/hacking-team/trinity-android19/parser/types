@@ -1,0 +1,79 @@
+time_t
+struct timeval
+struct timezone
+struct timex
+struct tms
+void
+struct timespec
+unsigned int
+uid_t
+gid_t
+pid_t
+int
+const
+char
+cap_user_header_t
+cap_user_data_t
+struct itimerval
+clockid_t
+struct sigevent
+timer_t
+struct itimerspec
+struct sched_param
+unsigned long
+struct kexec_segment
+struct rusage
+struct siginfo
+u32
+sigset_t
+size_t
+siginfo_t
+__sighandler_t
+long
+struct statfs
+struct statfs64
+struct stat
+struct ustat
+struct stat64
+loff_t
+unsigned
+umode_t
+aio_context_t
+struct io_event
+struct iocb
+off_t
+old_uid_t
+old_gid_t
+struct utimbuf
+struct iovec
+u64
+qid_t
+struct linux_dirent
+struct linux_dirent64
+struct sockaddr
+struct msghdr
+struct mmsghdr
+struct pollfd
+fd_set
+struct sel_arg_struct
+struct epoll_event
+struct new_utsname
+struct rlimit
+struct rlimit64
+key_t
+struct msgbuf
+struct msqid_ds
+struct sembuf
+union semun
+struct shmid_ds
+struct mq_attr
+mqd_t
+struct __sysctl_args
+key_serial_t
+__s32
+__u32
+struct robust_list_head
+struct getcpu_cache
+struct perf_event_attr
+struct mmap_arg_struct
+struct file_handle

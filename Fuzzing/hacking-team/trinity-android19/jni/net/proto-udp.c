@@ -1,0 +1,31 @@
+#include <stdlib.h>
+#include <linux/udp.h>
+#include "net.h"
+#include "random.h"
+#include "utils.h"	// ARRAY_SIZE
+#include "compat.h"
+
+#define NR_SOL_UDP_OPTS ARRAY_SIZE(udp_opts)
+static const unsigned int udp_opts[] = { UDP_CORK, UDP_ENCAP };
+
+void udp_setsockopt(struct sockopt *so)
+{
+	unsigned char val;
+	char *optval;
+
+	so->level = SOL_UDP;
+
+	val = rand() % NR_SOL_UDP_OPTS;
+	so->optname = udp_opts[val];
+
+	switch (so->optname) {
+	case UDP_CORK:
+		break;
+	case UDP_ENCAP:
+		optval = (char *) so->optval;
+		optval[0] = rand_range(1, 3);        // Encapsulation types.
+		break;
+	default:
+		break;
+	}
+}

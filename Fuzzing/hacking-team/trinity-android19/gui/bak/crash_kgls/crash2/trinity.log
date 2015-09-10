@@ -1,0 +1,294 @@
+[init] shm is at 0xb6e9c000
+[init] Kernel was tainted on startup. Will ignore flags that are already set.
+[init] Enabled 1 syscalls. Disabled 386 syscalls.
+[init] mapping[0]: (zeropage PROT_READ | PROT_WRITE) 0xb6e62000 (8KB)
+[init] mapping[1]: (zeropage PROT_READ) 0xb6e60000 (8KB)
+[init] mapping[2]: (zeropage PROT_WRITE) 0xb6e5e000 (8KB)
+[init] mapping[3]: (zeropage PROT_READ | PROT_WRITE) 0xb6d5e000 (1MB)
+[init] mapping[4]: (zeropage PROT_READ) 0xb6c5e000 (1MB)
+[init] mapping[5]: (zeropage PROT_WRITE) 0xb6b5e000 (1MB)
+[init] mapping[6]: (zeropage PROT_READ | PROT_WRITE) 0xb695e000 (2MB)
+[init] mapping[7]: (zeropage PROT_READ) 0xb675e000 (2MB)
+[init] mapping[8]: (zeropage PROT_WRITE) 0xb655e000 (2MB)
+[init] mapping[9]: (zeropage PROT_READ | PROT_WRITE) 0xb615e000 (4MB)
+[init] mapping[10]: (zeropage PROT_READ) 0xb5d5e000 (4MB)
+[init] mapping[11]: (zeropage PROT_WRITE) 0xb595e000 (4MB)
+[init] mapping[12]: (zeropage PROT_READ | PROT_WRITE) 0xb4f5e000 (10MB)
+[init] mapping[13]: (zeropage PROT_READ) 0xb455e000 (10MB)
+[init] mapping[14]: (zeropage PROT_WRITE) 0xb3b5e000 (10MB)
+[init] There are 15 entries in the map table
+[init]  start: 0xb6e62000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb6e60000  name: anon(PROT_READ)
+[init]  start: 0xb6e5e000  name: anon(PROT_WRITE)
+[init]  start: 0xb6d5e000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb6c5e000  name: anon(PROT_READ)
+[init]  start: 0xb6b5e000  name: anon(PROT_WRITE)
+[init]  start: 0xb695e000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb675e000  name: anon(PROT_READ)
+[init]  start: 0xb655e000  name: anon(PROT_WRITE)
+[init]  start: 0xb615e000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb5d5e000  name: anon(PROT_READ)
+[init]  start: 0xb595e000  name: anon(PROT_WRITE)
+[init]  start: 0xb4f5e000  name: anon(PROT_READ | PROT_WRITE)
+[init]  start: 0xb455e000  name: anon(PROT_READ)
+[init]  start: 0xb3b5e000  name: anon(PROT_WRITE)
+[init] Parsed 45 char devices, 22 block devices, 0 misc devices.
+[init] Using pid_max = 32768
+[init] Started watchdog process, PID is 4730
+[main] Main thread is alive.
+[main] Generating file descriptors
+[main] Something went wrong during nftw(/dev). (2:No such file or directory)
+[main] Something went wrong during nftw(/proc). (2:No such file or directory)
+[main] Something went wrong during nftw(/sys). (2:No such file or directory)
+[main] fd[5] = open /sys/bus/platform/drivers/mdm2_modem/bind (write-only) flags:1
+[main] fd[7] = fopen /sys/bus/platform/drivers/msm_csiphy (read-only) flags:0 fcntl_flags:10800
+[main] fd[9] = open /sys/devices/virtual/net/rev_rmnet7/power/control (read-write) flags:2
+[main] fd[10] = open /sys/devices/i2c-3/3-004a/object_write (write-only) flags:1
+[main] fd[11] = fopen /sys/devices/virtual/net/rmnet2/power (read-only) flags:0 fcntl_flags:10400
+[main] fd[12] = fopen /sys/bus/usb/drivers/ums-sddr09/unbind (write-only) flags:1 fcntl_flags:0
+[main] fd[13] = open /sys/devices/virtual/net/rev_rmnet2/statistics/tx_aborted_errors (read-only) flags:0
+[main] fd[15] = fopen /sys/bus/platform/drivers/DATA14_CNTL (read-only) flags:0 fcntl_flags:0
+[main] fd[16] = fopen /sys/devices/virtual/ppp/ppp/uevent (read-write) flags:2 fcntl_flags:10800
+[main] fd[17] = open /sys/devices/virtual/net/rmnet6/type (read-only) flags:0
+[main] fd[18] = open /sys/bus/platform/drivers/dcvs/bind (write-only) flags:1
+[main] fd[19] = open /sys/devices/virtual/ppp/ppp/power (read-only) flags:0
+[main] fd[20] = fopen /sys/devices/virtual/net/rmnet5/uevent (read-write) flags:2 fcntl_flags:40000
+[main] fd[21] = open /sys/devices/virtual/net/rmnet_smux0/operstate (read-only) flags:0
+[main] fd[22] = fopen /sys/bus/hid/drivers/logitech (read-only) flags:0 fcntl_flags:0
+[main] fd[23] = fopen /sys/devices/i2c-12/12-002e/input/input3/power/autosuspend_delay_ms (read-write) flags:2 fcntl_flags:50400
+[main] fd[24] = open /sys/devices/virtual/net/rev_rmnet6/statistics/rx_missed_errors (read-only) flags:0
+[main] fd[25] = open /sys/devices/i2c-12/12-002e/input/input3/event3/power/runtime_suspended_time (read-only) flags:0
+[main] fd[26] = open /sys/bus/platform/drivers/secgpio_dvs/uevent (write-only) flags:1
+[main] fd[27] = fopen /sys/bus/hid/drivers/generic-usb (read-only) flags:0 fcntl_flags:42000
+[main] fd[28] = open /sys/devices/virtual/net/rev_rmnet1/statistics/rx_missed_errors (read-only) flags:0
+[main] fd[29] = fopen /sys/bus/hid/drivers/dragonrise/new_id (write-only) flags:1 fcntl_flags:12c00
+[main] fd[30] = fopen /sys/bus/platform/drivers/bam_dmux_ch_4/uevent (write-only) flags:1 fcntl_flags:10c00
+[main] fd[31] = open /sys/bus/platform/drivers/pm8038-core/unbind (write-only) flags:1
+[main] fd[32] = open /sys/bus/platform/drivers/SMUX_DIAG/unbind (write-only) flags:1
+[main] fd[33] = open /sys/devices/virtual/net/rev_rmnet8/statistics (read-only) flags:0
+[main] fd[34] = fopen /sys/bus/platform/drivers/gpio-rc-recv/unbind (write-only) flags:1 fcntl_flags:0
+[main] fd[35] = fopen /sys/devices/virtual/bdi/7:4/power/runtime_status (read-only) flags:0 fcntl_flags:800
+[main] fd[36] = fopen /sys/bus/i2c/drivers/ir-kbd-i2c/bind (write-only) flags:1 fcntl_flags:12000
+[main] fd[37] = fopen /sys/devices/virtual/net/rmnet4/statistics/rx_dropped (read-only) flags:0 fcntl_flags:12400
+[main] fd[38] = open /sys/devices/virtual/bdi/1:2/power/autosuspend_delay_ms (read-write) flags:2
+[main] fd[39] = fopen /sys/devices/system/cpu/cpu1/cpuidle/state0 (read-only) flags:0 fcntl_flags:50000
+[main] fd[40] = open /sys/bus/pci/slots (read-only) flags:0
+[main] fd[41] = open /sys/devices/virtual/net/sit0/operstate (read-only) flags:0
+[main] fd[42] = fopen /sys/devices/virtual/bdi/1:12/power (read-only) flags:0 fcntl_flags:52000
+[main] fd[43] = fopen /sys/fs/ext4/mmcblk0p19/lifetime_write_kbytes (read-only) flags:0 fcntl_flags:400
+[main] fd[44] = open /sys/devices/virtual/net/rev_rmnet8/queues/tx-0/tx_timeout (read-only) flags:0
+[main] fd[45] = fopen /sys/devices/i2c-12/12-0068/power/autosuspend_delay_ms (read-write) flags:2 fcntl_flags:0
+[main] fd[46] = open /sys/devices/virtual/bdi/253:0/max_ratio (read-write) flags:2
+[main] fd[47] = fopen /sys/devices/virtual/net/rev_rmnet0/dormant (read-only) flags:0 fcntl_flags:42c00
+[main] fd[48] = fopen /sys/bus/platform/drivers/matrix-keypad/uevent (write-only) flags:1 fcntl_flags:2000
+[main] fd[49] = fopen /sys/devices/system/cpu/cpu0/uevent (read-write) flags:2 fcntl_flags:50400
+[main] fd[50] = fopen /sys/bus/platform/drivers/msm_dspcrashd/uevent (write-only) flags:1 fcntl_flags:50000
+[main] fd[51] = open /sys/bus/slimbus/uevent (write-only) flags:1
+[main] fd[52] = open /sys/devices/virtual/net/rmnet4/statistics/rx_packets (read-only) flags:0
+[main] fd[53] = open /sys/bus/platform/drivers/IPCRTR (read-only) flags:0
+[main] fd[54] = fopen /sys/devices/i2c-3/3-004a/input/input1/power/control (read-write) flags:2 fcntl_flags:0
+[main] fd[55] = open /sys/devices/virtual/net/rmnet_smux0/tx_queue_len (read-write) flags:2
+[main] fd[56] = open /sys/bus/hid/drivers/apple/unbind (write-only) flags:1
+[main] fd[57] = open /sys/devices/system/cpu/cpu0/cpuidle/state3/latency (read-only) flags:0
+[main] fd[58] = fopen /sys/devices/virtual/net/rev_rmnet2/statistics/collisions (read-only) flags:0 fcntl_flags:2400
+[main] fd[59] = open /sys/bus/i2c/drivers/gp2a020 (read-only) flags:0
+[main] fd[60] = open /sys/devices/virtual/net/rev_rmnet7/queues/tx-0/byte_queue_limits/hold_time (read-write) flags:2
+[main] fd[61] = fopen /sys/bus/platform/drivers/RPCRPY_CNTL/unbind (write-only) flags:1 fcntl_flags:c00
+[main] fd[62] = fopen /sys/devices/i2c-12/12-002e/input/input3/properties (read-only) flags:0 fcntl_flags:12400
+[main] fd[63] = fopen /sys/bus/usb/drivers/diag_bridge/remove_id (write-only) flags:1 fcntl_flags:42800
+[main] fd[64] = fopen /sys/devices/virtual/net/rmnet4/queues/tx-0/byte_queue_limits/limit (read-write) flags:2 fcntl_flags:0
+[main] fd[65] = fopen /sys/bus/usb/drivers/xpad/bind (write-only) flags:1 fcntl_flags:2400
+[main] fd[66] = open /sys/devices/virtual/net/rev_rmnet7/statistics/rx_frame_errors (read-only) flags:0
+[main] fd[67] = fopen /sys/devices/system/soc/soc0 (read-only) flags:0 fcntl_flags:12800
+[main] fd[68] = open /sys/devices/virtual/net/rev_rmnet3/tx_queue_len (read-write) flags:2
+[main] fd[69] = open /sys/devices/i2c-12/12-002e/input/input3/id/product (read-only) flags:0
+[main] fd[70] = open /sys/bus/usb/drivers/ums-sddr09/unbind (write-only) flags:1
+[main] fd[71] = open /sys/devices/virtual/net/rev_rmnet2/statistics/rx_length_errors (read-only) flags:0
+[main] fd[72] = open /sys/bus/hid/drivers/koneplus/uevent (write-only) flags:1
+[main] fd[73] = fopen /sys/bus/platform/drivers/mipi_samsung_oled/unbind (write-only) flags:1 fcntl_flags:50c00
+[main] fd[74] = fopen /sys/devices/virtual/net/rev_rmnet8/statistics/rx_over_errors (read-only) flags:0 fcntl_flags:10c00
+[main] fd[75] = open /sys/devices/virtual/net/rev_rmnet5/statistics/collisions (read-only) flags:0
+[main] fd[76] = fopen /sys/devices/virtual/mem/zero/power/control (read-write) flags:2 fcntl_flags:12000
+[main] fd[77] = fopen /sys/devices/virtual/net/rmnet_smux0/statistics (read-only) flags:0 fcntl_flags:40400
+[main] fd[78] = fopen /sys/bus/platform/drivers/pm8038-core/bind (write-only) flags:1 fcntl_flags:40400
+[main] fd[79] = fopen /sys/devices/system/cpu/cpu1/cpuidle/state0/desc (read-only) flags:0 fcntl_flags:50c00
+[main] fd[80] = open /sys/bus/usb/drivers/cdc_subset (read-only) flags:0
+[main] fd[81] = fopen /sys/devices/virtual/net/rev_rmnet1/queues/rx-0/rps_flow_cnt (read-write) flags:2 fcntl_flags:800
+[main] fd[82] = open /sys/fs/ext4/mmcblk0p20/mb_group_prealloc (read-write) flags:2
+[main] fd[83] = open /proc/msm_pm_stats (read-write) flags:2
+[main] fd[84] = fopen /sys/bus/platform/drivers/bam_dmux_ch_20/uevent (write-only) flags:1 fcntl_flags:12800
+[main] fd[85] = open /sys/devices/msm_cpss_fpb/uevent (read-write) flags:2
+[main] fd[86] = fopen /sys/bus/platform/drivers/DATA8_CNTL/bind (write-only) flags:1 fcntl_flags:40000
+[main] fd[87] = fopen /sys/devices/virtual/net/sit0/ifalias (read-write) flags:2 fcntl_flags:50c00
+[main] fd[88] = fopen /sys/devices/virtual/net/rmnet1/queues/rx-0/rps_flow_cnt (read-write) flags:2 fcntl_flags:2400
+[main] fd[89] = open /sys/devices/virtual/net/sit0/ifalias (read-write) flags:2
+[main] fd[90] = open /sys/devices/virtual/net/rmnet0/carrier (read-only) flags:0
+[main] fd[91] = open /sys/bus/platform/drivers/DATA12_CNTL/uevent (write-only) flags:1
+[main] fd[92] = fopen /sys/devices/virtual/net/rev_rmnet8/queues/tx-0/byte_queue_limits/hold_time (read-write) flags:2 fcntl_flags:52c00
+[main] fd[93] = fopen /sys/devices/msm_apps_fab/power/autosuspend_delay_ms (read-write) flags:2 fcntl_flags:12000
+[main] fd[94] = fopen /sys/devices/virtual/net/rmnet1/ifalias (read-write) flags:2 fcntl_flags:42c00
+[main] fd[95] = open /sys/bus/platform/drivers/msm-stub-codec (read-only) flags:0
+[main] fd[96] = open /sys/devices/virtual/net/rmnet2/statistics/rx_missed_errors (read-only) flags:0
+[main] fd[97] = fopen /sys/bus/hid/drivers/prodikeys (read-only) flags:0 fcntl_flags:0
+[main] fd[98] = open /sys/bus/platform/drivers/soc-audio/bind (write-only) flags:1
+[main] fd[99] = fopen /sys/bus/serio/uevent (write-only) flags:1 fcntl_flags:12000
+[main] fd[100] = fopen /sys/bus/usb-serial (read-only) flags:0 fcntl_flags:c00
+[main] fd[101] = fopen /sys/devices/virtual/net/rmnet1/queues/tx-0/byte_queue_limits/limit_max (read-write) flags:2 fcntl_flags:40000
+[main] fd[102] = open /sys/devices/virtual/bdi/7:5/power/runtime_suspended_time (read-only) flags:0
+[main] fd[103] = fopen /sys/devices/virtual/net/rev_rmnet3/statistics/rx_compressed (read-only) flags:0 fcntl_flags:42400
+[main] fd[104] = open /sys/devices/virtual/net/dummy0/address (read-only) flags:0
+[main] fd[105] = fopen /sys/bus/platform (read-only) flags:0 fcntl_flags:10800
+[main] fd[106] = fopen /sys/devices/i2c-3/3-004a/input/input1 (read-only) flags:0 fcntl_flags:50800
+[main] fd[107] = fopen /sys/devices/virtual/mem/kmem/power (read-only) flags:0 fcntl_flags:2c00
+[main] fd[108] = open /sys/devices/system/cpu/cpu0/cpuidle/state2 (read-only) flags:0
+[main] fd[109] = open /sys/bus/platform/drivers/DIAG_2/uevent (write-only) flags:1
+[main] fd[110] = fopen /sys/bus/platform/drivers/msm_vfe (read-only) flags:0 fcntl_flags:42000
+[main] fd[111] = fopen /sys/bus/platform/drivers/epm_adc (read-only) flags:0 fcntl_flags:52000
+[main] fd[112] = fopen /sys/bus/i2c/drivers/mt9m114/unbind (write-only) flags:1 fcntl_flags:2400
+[main] fd[113] = open /sys/devices/i2c-4/i2c-dev/i2c-4/power (read-only) flags:0
+[main] fd[114] = open /sys/bus/platform/drivers/DIAG_2/uevent (write-only) flags:1
+[main] fd[115] = fopen /sys/bus/clocksource/devices (read-only) flags:0 fcntl_flags:50400
+[main] fd[116] = fopen /sys/devices/virtual/net/rmnet2/statistics/tx_errors (read-only) flags:0 fcntl_flags:400
+[main] fd[117] = open /sys/bus/platform/drivers/bam_dmux_ch_7/unbind (write-only) flags:1
+[main] fd[118] = fopen /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq (read-only) flags:0 fcntl_flags:12000
+[main] fd[119] = fopen /sys/devices/virtual/net/lo/statistics/rx_over_errors (read-only) flags:0 fcntl_flags:40800
+[main] fd[120] = open /sys/bus/platform/drivers/msm_cache_erp/unbind (write-only) flags:1
+[main] fd[121] = fopen /sys/bus/platform/drivers/msm-voip-dsp (read-only) flags:0 fcntl_flags:2000
+[main] fd[122] = open /sys/bus/platform/drivers/gpio-keys/unbind (write-only) flags:1
+[main] fd[123] = open /sys/bus/hid/drivers/cypress/new_id (write-only) flags:1
+[main] fd[124] = open /sys/devices/virtual/net/rmnet6/statistics/rx_length_errors (read-only) flags:0
+[main] fd[125] = fopen /sys/devices/i2c-12/12-002e/power/runtime_active_time (read-only) flags:0 fcntl_flags:12800
+[main] fd[126] = fopen /sys/bus/hid/drivers/cherry (read-only) flags:0 fcntl_flags:52400
+[main] fd[127] = open /sys/devices/i2c-8/8-000d/modalias (read-only) flags:0
+[main] fd[128] = open /sys/bus/platform/drivers/msm_ispif/uevent (write-only) flags:1
+[main] fd[129] = open /sys/devices/system/cpu/cpu1/cpuidle/state1/time (read-only) flags:0
+[main] fd[130] = fopen /sys/devices/virtual/sec/sec_key/power/runtime_status (read-only) flags:0 fcntl_flags:2000
+[main] fd[131] = fopen /sys/devices/i2c-0/name (read-only) flags:0 fcntl_flags:40800
+[main] fd[132] = fopen /sys/bus/pci/drivers/ehci_hcd/uevent (write-only) flags:1 fcntl_flags:52800
+[main] fd[133] = open /sys/bus/hid/drivers/kone/uevent (write-only) flags:1
+[main] fd[134] = fopen /sys/devices/virtual/net/rev_rmnet0/queues/rx-0/rps_flow_cnt (read-write) flags:2 fcntl_flags:12800
+[main] fd[135] = open /sys/devices/slimbus/power/runtime_active_time (read-only) flags:0
+[main] fd[136] = open /sys/bus/hid/drivers/greenasia/unbind (write-only) flags:1
+[main] fd[137] = fopen /sys/devices/virtual/net/rev_rmnet3/statistics/tx_bytes (read-only) flags:0 fcntl_flags:12000
+[main] fd[138] = fopen /sys/bus/usb/drivers/mdm_bridge/unbind (write-only) flags:1 fcntl_flags:10c00
+[main] fd[139] = open /sys/devices/virtual/net/rev_rmnet5/queues/rx-0 (read-only) flags:0
+[main] fd[140] = open /sys/bus/hid/drivers/ntrig/bind (write-only) flags:1
+[main] fd[141] = fopen /sys/bus/i2c/drivers/mt9m114 (read-only) flags:0 fcntl_flags:2000
+[main] fd[142] = fopen /sys/devices/virtual/net/rev_rmnet3/duplex (read-only) flags:0 fcntl_flags:40800
+[main] fd[143] = fopen /sys/devices/virtual/net/rev_rmnet7/speed (read-only) flags:0 fcntl_flags:40c00
+[main] fd[144] = open /sys/devices/virtual/sec/switch/reset_switch (write-only) flags:1
+[main] fd[145] = fopen /sys/devices/virtual/sec/tsp/power/runtime_active_time (read-only) flags:0 fcntl_flags:50000
+[main] fd[146] = fopen /sys/devices/virtual/net/rev_rmnet2/statistics/tx_compressed (read-only) flags:0 fcntl_flags:0
+[main] fd[147] = fopen /sys/bus/platform/drivers/msm_rotator/uevent (write-only) flags:1 fcntl_flags:40800
+[main] fd[148] = fopen /sys/devices/virtual/net/rmnet6/statistics/rx_length_errors (read-only) flags:0 fcntl_flags:40400
+[main] fd[149] = fopen /sys/devices/virtual/bdi/7:5/uevent (read-write) flags:2 fcntl_flags:800
+[main] fd[150] = fopen /sys/devices/i2c-8/8-0055/modalias (read-only) flags:0 fcntl_flags:2c00
+[main] fd[151] = open /sys/devices/i2c-3/3-004a/input/input1/id/version (read-only) flags:0
+[main] fd[152] = fopen /sys/devices/i2c-4/4-0010/video4linux/video2/dev (read-only) flags:0 fcntl_flags:42c00
+[main] fd[153] = fopen /sys/devices/virtual/net/rev_rmnet0/address (read-only) flags:0 fcntl_flags:42400
+[main] fd[154] = open /sys/bus/platform/drivers/bt_power/uevent (write-only) flags:1
+[main] fd[155] = fopen /sys/devices/virtual/net/rmnet3/statistics/multicast (read-only) flags:0 fcntl_flags:2c00
+[main] fd[156] = open /sys/devices/virtual/net/rev_rmnet5/duplex (read-only) flags:0
+[main] fd[157] = open /sys/devices/virtual/net/rmnet_smux0/addr_len (read-only) flags:0
+[main] fd[158] = open /sys/devices/virtual/bdi/1:13/read_ahead_kb (read-write) flags:2
+[main] fd[159] = open /sys/devices/i2c-0/power/autosuspend_delay_ms (read-write) flags:2
+[main] fd[160] = fopen /sys/devices/virtual/bdi/7:4/power (read-only) flags:0 fcntl_flags:800
+[main] fd[161] = fopen /sys/devices/slimbus/power/runtime_active_time (read-only) flags:0 fcntl_flags:0
+[main] fd[162] = open /sys/devices/software/power (read-only) flags:0
+[main] fd[163] = fopen /sys/devices/virtual/net/rmnet5/queues/rx-0/rps_cpus (read-write) flags:2 fcntl_flags:50000
+[main] fd[164] = fopen /sys/bus/hid/drivers/kye/unbind (write-only) flags:1 fcntl_flags:2800
+[main] fd[165] = open /sys/bus/usb/drivers/ums-isd200/unbind (write-only) flags:1
+[main] fd[166] = open /sys/devices/virtual/net/rev_rmnet3/netdev_group (read-write) flags:2
+[main] fd[167] = open /sys/devices/i2c-8/8-000d/tapan_codec/power (read-only) flags:0
+[main] fd[168] = open /sys/devices/i2c-4/i2c-dev/i2c-4/power/control (read-write) flags:2
+[main] fd[169] = open /sys/devices/virtual/sec/sec_barcode_emul/barcode_fw_update (read-write) flags:2
+[main] fd[170] = fopen /sys/bus/slimbus/drivers/taiko-slim/uevent (write-only) flags:1 fcntl_flags:40c00
+[main] fd[171] = open /sys/devices/virtual/net/rmnet4/queues/tx-0/byte_queue_limits/limit_max (read-write) flags:2
+[main] fd[172] = fopen /sys/devices/virtual/sec/sec_powerkey/power/control (read-write) flags:2 fcntl_flags:50000
+[main] fd[173] = fopen /sys/devices/cpu/uevent (read-write) flags:2 fcntl_flags:800
+[main] fd[174] = open /sys/bus/i2c/drivers/bcm2079x-i2c (read-only) flags:0
+[main] fd[175] = fopen /sys/devices/virtual/net/rev_rmnet0/statistics/tx_bytes (read-only) flags:0 fcntl_flags:42400
+[main] fd[176] = fopen /sys/bus/platform/drivers/msm_rpm_rbcpr (read-only) flags:0 fcntl_flags:52000
+[main] fd[177] = open /sys/devices/virtual/net/rev_rmnet2/power/runtime_active_time (read-only) flags:0
+[main] fd[178] = fopen /sys/devices/virtual/bdi (read-only) flags:0 fcntl_flags:52800
+[main] fd[179] = open /sys/devices/virtual/net/rev_rmnet8/queues/rx-0/rps_flow_cnt (read-write) flags:2
+[main] fd[180] = open /sys/bus/platform/drivers/msm-compr-dsp (read-only) flags:0
+[main] fd[181] = fopen /sys/bus/hid/drivers/generic-bluetooth/new_id (write-only) flags:1 fcntl_flags:40000
+[main] fd[182] = open /sys/bus/hid/drivers/prodikeys/uevent (write-only) flags:1
+[main] fd[183] = open /sys/devices/virtual/net/rev_rmnet7/power/runtime_suspended_time (read-only) flags:0
+[main] fd[184] = fopen /sys/devices/virtual/net/rmnet7/duplex (read-only) flags:0 fcntl_flags:12800
+[main] fd[185] = fopen /sys/devices/virtual/net/rev_rmnet4/mtu (read-write) flags:2 fcntl_flags:0
+[main] fd[186] = open /sys/devices/virtual/bdi/1:3/read_ahead_kb (read-write) flags:2
+[main] fd[187] = fopen /sys/devices/virtual/net/rev_rmnet1/power/control (read-write) flags:2 fcntl_flags:12000
+[main] fd[188] = open /sys/devices/virtual/net/rev_rmnet3/statistics/tx_heartbeat_errors (read-only) flags:0
+[main] fd[189] = open /sys/devices/virtual/net/rmnet1/operstate (read-only) flags:0
+[main] fd[190] = fopen /sys/devices/i2c-12/i2c-dev/i2c-12/name (read-only) flags:0 fcntl_flags:40800
+[main] fd[191] = open /sys/devices/i2c-12/12-002e/input/input3/id/product (read-only) flags:0
+[main] fd[192] = open /sys/devices/i2c-12/12-002e/input/input3/power/runtime_suspended_time (read-only) flags:0
+[main] fd[193] = fopen /sys/bus/hid/drivers/kone/bind (write-only) flags:1 fcntl_flags:0
+[main] fd[194] = fopen /sys/devices/i2c-8/8-000d/power/autosuspend_delay_ms (read-write) flags:2 fcntl_flags:2000
+[main] fd[195] = open /sys/bus/mdio_bus/devices (read-only) flags:0
+[main] fd[196] = open /sys/bus/hid/drivers/generic-bluetooth/new_id (write-only) flags:1
+[main] fd[197] = fopen /sys/bus/hid/drivers/prodikeys/new_id (write-only) flags:1 fcntl_flags:10000
+[main] fd[198] = open /sys/bus/usb/devices (read-only) flags:0
+[main] fd[199] = fopen /sys/devices/virtual/net/rev_rmnet7/statistics/rx_over_errors (read-only) flags:0 fcntl_flags:12000
+[main] fd[200] = open /sys/bus/platform/drivers/RPCRPY_CNTL/bind (write-only) flags:1
+[main] fd[201] = open /sys/devices/i2c-3/3-004a/power/autosuspend_delay_ms (read-write) flags:2
+[main] fd[202] = open /sys/devices/virtual/net/rmnet2/statistics/rx_errors (read-only) flags:0
+[main] fd[203] = fopen /sys/devices/virtual/net/rev_rmnet5/dev_id (read-only) flags:0 fcntl_flags:42000
+[main] fd[204] = open /sys/bus/i2c/drivers/tc360/bind (write-only) flags:1
+[main] fd[205] = open /sys/devices/i2c-8/i2c-dev/i2c-8/power/autosuspend_delay_ms (read-write) flags:2
+[main] fd[206] = open /sys/devices/virtual/net/rmnet_smux1/queues/tx-0/byte_queue_limits/limit_max (read-write) flags:2
+[main] fd[207] = fopen /sys/devices/virtual/net/rev_rmnet5/type (read-only) flags:0 fcntl_flags:50800
+[main] fd[208] = open /sys/bus/hid/drivers/greenasia/new_id (write-only) flags:1
+[main] fd[209] = open /sys/bus/platform/drivers/msm_rpm_master_stat/bind (write-only) flags:1
+[main] fd[210] = fopen /sys/devices/virtual/sec/sec_misc/debug_level (read-write) flags:2 fcntl_flags:10000
+[main] fd[211] = open /sys/bus/platform/drivers/smc911x/unbind (write-only) flags:1
+[main] fd[212] = open /sys/devices/virtual/net/rmnet7/statistics/tx_compressed (read-only) flags:0
+[main] fd[213] = open /sys/devices/virtual/net/rev_rmnet0/statistics/rx_missed_errors (read-only) flags:0
+[main] fd[214] = open /sys/devices/i2c-4/4-0010/media2/power (read-only) flags:0
+[main] fd[215] = fopen /sys/bus/i2c/drivers/mt9m114/bind (write-only) flags:1 fcntl_flags:50000
+[main] fd[216] = fopen /sys/bus/platform/drivers/DATA11/bind (write-only) flags:1 fcntl_flags:0
+[main] fd[217] = open /sys/devices/system/cpu/cpu1/cpuidle/state0/name (read-only) flags:0
+[main] fd[218] = open /sys/devices/virtual/net/rev_rmnet8/statistics/rx_crc_errors (read-only) flags:0
+[main] fd[219] = open /sys/bus/usb/drivers/ums-alauda/bind (write-only) flags:1
+[main] fd[220] = open /sys/devices/virtual/net/rev_rmnet0/power/runtime_suspended_time (read-only) flags:0
+[main] fd[221] = open /sys/devices/virtual/mem/random/power/autosuspend_delay_ms (read-write) flags:2
+[main] fd[222] = fopen /sys/devices/virtual/net/rev_rmnet5/statistics/rx_bytes (read-only) flags:0 fcntl_flags:50000
+[main] fd[223] = fopen /sys/devices/slimbus/power/runtime_active_time (read-only) flags:0 fcntl_flags:400
+[main] fd[224] = open /sys/devices/i2c-10/power (read-only) flags:0
+[main] fd[225] = fopen /sys/bus/platform/drivers/reg-dummy/unbind (write-only) flags:1 fcntl_flags:12800
+[main] fd[226] = fopen /sys/devices/virtual/sec/sec_misc/power/runtime_status (read-only) flags:0 fcntl_flags:2c00
+[main] fd[227] = fopen /sys/bus/platform/drivers/bam_dmux_ch_4/unbind (write-only) flags:1 fcntl_flags:40000
+[main] fd[228] = fopen /sys/bus/platform/drivers/dtv/bind (write-only) flags:1 fcntl_flags:0
+[main] fd[229] = fopen /sys/devices/virtual/net/rev_rmnet0/statistics/rx_bytes (read-only) flags:0 fcntl_flags:50400
+[main] fd[230] = fopen /sys/bus/platform/drivers/msm-pcm-voice/unbind (write-only) flags:1 fcntl_flags:10c00
+[main] fd[231] = open /sys/devices/virtual/net/sit0/statistics/rx_dropped (read-only) flags:0
+[main] fd[232] = fopen /sys/bus/hid/drivers/koneplus (read-only) flags:0 fcntl_flags:42800
+[main] fd[233] = fopen /sys/bus/usb/drivers/qc_csvt/bind (write-only) flags:1 fcntl_flags:52000
+[main] fd[234] = fopen /sys/bus/platform/drivers/tz_log/uevent (write-only) flags:1 fcntl_flags:0
+[main] fd[235] = fopen /sys/devices/virtual/net/rmnet3/uevent (read-write) flags:2 fcntl_flags:52800
+[main] fd[236] = open /sys/devices/virtual/net/rmnet3/statistics/rx_crc_errors (read-only) flags:0
+[main] fd[237] = open /sys/bus/usb/drivers/ums-datafab/bind (write-only) flags:1
+[main] fd[238] = fopen /sys/devices/virtual/net/rmnet0/queues/tx-0 (read-only) flags:0 fcntl_flags:2400
+[main] fd[239] = open /sys/devices/virtual/bdi/1:12/uevent (read-write) flags:2
+[main] fd[240] = open /sys/devices/virtual/net/rmnet3/statistics/rx_errors (read-only) flags:0
+[main] fd[241] = open /sys/bus/platform/drivers/timed-gpio (read-only) flags:0
+[main] fd[242] = fopen /sys/devices/virtual/net/rev_rmnet0/statistics/tx_compressed (read-only) flags:0 fcntl_flags:10000
+[main] fd[243] = fopen /sys/devices/virtual/net/rmnet0/duplex (read-only) flags:0 fcntl_flags:40800
+[main] fd[244] = fopen /sys/devices/virtual/sec/sec_powerkey/power/runtime_status (read-only) flags:0 fcntl_flags:10800
+[main] fd[245] = fopen /sys/devices/virtual/net/rmnet_smux1/statistics/tx_aborted_errors (read-only) flags:0 fcntl_flags:2000
+[main] fd[246] = fopen /sys/devices/i2c-8/8-0077 (read-only) flags:0 fcntl_flags:0
+[main] fd[247] = open /sys/devices/virtual/net/rev_rmnet5/statistics/rx_over_errors (read-only) flags:0
+[main] fd[248] = fopen /sys/devices/virtual/net/rev_rmnet6/power (read-only) flags:0 fcntl_flags:12800
+[main] fd[249] = fopen /sys/devices/virtual/bdi/1:8/power/runtime_status (read-only) flags:0 fcntl_flags:12800
+[main] fd[250] = open /sys/devices/msm_cpss_fpb/power/autosuspend_delay_ms (read-write) flags:2
+[main] fd[251] = open /sys/devices/virtual/net/rev_rmnet7/queues/tx-0 (read-only) flags:0
+[main] fd[252] = open /sys/devices/i2c-12/12-002e/input/input3/capabilities/sw (read-only) flags:0
+[main] fd[253] = open /sys/devices/system/cpu/cpu0/cpuidle/state2/usage (read-only) flags:0
+[main] fd[254] = open /sys/devices/virtual/net/rmnet5/queues/tx-0 (read-only) flags:0
+[main] fd[255] = open /sys/devices/virtual/bdi/7:2/power/control (read-write) flags:2
+[main] fd[256] = fopen /sys/devices/virtual/net/rev_rmnet0/statistics/collisions (read-only) flags:0 fcntl_flags:42800
+[main] fd[257] = open /sys/devices/virtual/sec/switch/reset_switch (write-only) flags:1
+[main] Enabled 1 fd providers.
+[watchdog] Watchdog is alive. (pid:4730)

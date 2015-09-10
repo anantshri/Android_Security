@@ -1,0 +1,61 @@
+8etis5<6>[421342.992534] app_process (9108): undefined instruction: pc=40aab4e8
+<6>[421342.992564] Code: ea000002 00000000 f26ee1fe e12fff1e (ee190f1d) 
+<7>[421343.046921] usb: terminal_version_show terminal_mode major 0 minor 0 vendor 0
+<7>[421343.046952] 
+<3>[421343.129540] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1610608640) failed, pool: general_pool
+<3>[421343.129631] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allcae=6850,etis5c26412 ald ol eea_ol<>414.707 gl glmugtgudr [04 loae=6850,etis5<3>[421343.369643] kgsl: kgsl_mmu_get_gpuaddr: gen_pool_alloc(-1073704960) failed, pool: general_pool
+<3>[421343.369857] kgsl: kgsl_mmu_get_gpuaddr:  [9094] allocated=167825408, entries=
+<6>[421343.379898] [debug_wake_locks]active wake lock pm8921_eoc
+<6>[421343.379929] [debug_wake_locks]active wake lock msm_otg
+<1>[421343.388841] Unable to handle kernel NULL pointer dereference at virtual address 00000000
+<1>[421343.388993] pgd = d7d08000
+<1>[421343.389085] [00000000] *pgd=00000000
+<0>[421343.389268] [0:     trinity-c0: 9094] Internal error: Oops: 5 [#1] PREEMPT SMP ARM
+<4>[421343.389390] [0:     trinity-c0: 9094] Modules linked in: wlan(O) adsprpc
+<4>[421343.389726] [0:     trinity-c0: 9094] CPU: 0    Tainted: G        W  O  (3.4.0-3173303 #1)
+<4>[421343.389878] [0:     trinity-c0: 9094] PC is at sg_init_table+0x1c/0x30
+<4>[421343.389970] [0:     trinity-c0: 9094] LR is at _kgsl_sharedmem_page_alloc+0x118/0x3bc
+<4>[421343.390153] 0:  tiiyc:99]p  <0fd8]  r:[c3ae>  pr 0e03<>414.914 0   rnt-0 04 p:dd72 i  0e03 p:0000
+4[233309][:  tiiyc:99]r0 0000 9:0000 r  0000<>414.950 0   rnt-0 04 7:0000 r  2100 5:0001 r  ffff<>414.973 0   rnt-0 04 3:0000 r  1360 1:0000 r  0000<>414.985 0   rnt-0 04 lg:nc IQ n Iso Md V_2 S R Sgetue
+4[233304][:  tiiyc:99]Cnrl 058d al:9786 DC 0005<>414.909 0   rnt-0 04 <>414.910 0   rnt-0 04 C x0fc8
+4[233314][:  tiiyc:99]7a e830 5404e830 540ceb81 0c12e24f 1003<>414.905 0   rnt-0 04 c8 1001ea12 1000ea70 bf88ea30 3506e861
+4[233324][:  tiiyc:99]7e e871 54081000 5f0ce015 b620e851 8d08<>414.940 0   rnt-0 04 d8 0c12e243 1001eb10 10000000 bf76e440
+4[233344][:  tiiyc:99]72 e930 3301e830 7524eb83 9d00ea50 3001<>414.995 0   rnt-0 04 d8 1000ea60 bffde937 5300e500 a007e926
+4[233350][:  tiiyc:99]76 e910 2113e500 23112630 03052000 2513<>414.941 0   rnt-0 04 d8 2362e914 1063ea50 1083ea52 5100e500
+4[233374][:  tiiyc:99]
+4[233377][:  tiiyc:99]L:0c3a6:<>414.936 0   rnt-0 04 d8 5f280001 5404ea00 30a19000 b565e000
+4[233381][:  tiiyc:99]a8 e93d 5300e500 a00aea1d 30a1ef61 3000<>414.981 0   rnt-0 04 d8 10001000 5f28ea20 5f28e121 a009ea61
+4[233398][:  tiiyc:99]ac e901 3000ea90 b113e901 1008e912 bc38<>414.037 0   rnt-0 04 d8 5f24e004 1905ba50 3002b000 35a1e906
+4[233417][:  tiiyc:99]a0 0a0d afffe410 5f20ea30 1061e611 2100<>414.082 0   rnt-0 04 e8 b41de500 061a1ac4 30001810 a00be500
+4[233427][:  tiiyc:99]a4 1003 0907e882 5f24e910 1057e821 1052<>414.037 0   rnt-0 04 <>414.037 0   rnt-0 04 P x6dd8
+4[233432][:  tiiyc:99]7a 0000 01e00026 0000dd70 0fd84001 ffff<>414.013 0   rnt-0 04 d8 6de40000 00000000 0000c821 00000000
+4[2334494] [0:     trinity-c0: 9094] 7de8  c1038650 0000000 ffff0001 21000000 00000000
+4[233452][:  tiiyc:99]70 0000 0000a001 6de8c3ae 0fd84001 ffff<>414.030 0   rnt-0 04 e8 0000d3f8 0000c3ae 0067d850 0000d3f8
+4[233472][:  tiiyc:99]74 ffff 6decd850 55840000 00000000 0e30<>414.085 0   rnt-0 04 e8 0000dd7a 7c00db58 6decbcd0 0e54c35f
+4[233488][:  tiiyc:99]78 db58 0000dd7a 0c9f0000 8fd0dd7a 0ed0<>414.029 0   rnt-0 04 <>414.029 0   rnt-0 04 2 x1350
+4[233490][:  tiiyc:99]8d 0000 0000ccd4 00000000 00000000 08f6<>414.126 0   rnt-0 04 50 00000000 00000000 08f60000 00000000
+4[233409][:  tiiyc:99]81 0000 08fc0000 00000000 0000ccd8 0000<>414.172 0   rnt-0 04 60 00000000 0000ccd8 00000000 00000000
+4[233422][:  tiiyc:99]85 ccda 00000000 00000000 08f30000 0000<>414.127 0   rnt-0 04 60 00000000 08f30000 00000000 0000ccda
+4[233435][:  tiiyc:99]89 0000 00000000 0000ccea 00000000 0000<>414.172 0   rnt-0 04 60 0000cce1 00000000 00000000 08060000
+4[233458][:  tiiyc:99]
+4[233451][:  tiiyc:99]R:0d7a8:<>414.169 0   rnt-0 04 f0 00000000 00000000 00000000 00000000
+4[233466][:  tiiyc:99]aa 0000 00000000 00000000 00000000 0000<>414.114 0   rnt-0 04 f0 00000000 00000000 00000000 00000000
+4[233475][:  tiiyc:99]ae 0000 00000000 00000000 00000000 0000<>414.160 0   rnt-0 04 00 2100c108 28f0c10c 28f0c1d0 2800c1d4
+4[233495][:  tiiyc:99]b2 c1d6 2800c1da 2800c1de 2810c1d2 2810<>414.226 0   rnt-0 04 00 2810c1d8 2810c1dc 2810c1d0 2820c1d4
+4[233404][:  tiiyc:99]b6 c1d6 2820c1da 2820c1de 2830c1d2 2830<>414.260 0   rnt-0 04 rcs rnt-0(i:99,saklmt=0dd6f)<>414.272 0   rnt-0 04 tc:(x6de8t x6d00
+0[233412][:  tiiyc:99]72:         0000 55840010 0ed80004 6840<>414.207 0   rnt-0 04 e0 0000d3f8 ffffdd78 6840d3f8 00000000
+0[233426][:  tiiyc:99]76:0000 0e30] [0:     trinity-c0: 9094] 7f40: 00000000 00000001 00000000 d7969850 dee3ae80 d6dd7f3c 5303b02b ffffff8d
+<0>[421343.423573] [0:     trinity-c0: 9094] 7f60: d7ccd300 00000000 d7ccd300 b6cfd000 c00c092f 00000103 d6dd6000 00000200
+<0>[421343.423726] [0:     trinity-c0: 9094] 7f80: 00000000 c015be18 00000103 00000000 ffffff8d c8010000 b7af93a4 00000036
+<0>[421343.423909] [0:     trinity-c0: 9094] 7fa0: c000e464 c000e43c ffffff8d c8010000 00000103 c00c092f b6cfd000 b410aec0
+<0>[421343.424061] [0:     trinity-c0: 9094] 7fc0: ffffff8d c8010000 b7af93a4 00000036 b6e10000 b6f55394 00000036 00000000
+<0>[421343.424244] [0:     trinity-c0: 9094] 7fe0: be906718 be906708 b6f92328 b6f29124 600e0010 00000103 00000000 00000000
+<4>[421343.424428] [0:     trinity-c0: 9094] [<c02f7d28>] (sg_init_table+0x1c/0x30) from [<c03eade8>] (_kgsl_sharedmem_page_alloc+0x118/0x3bc)
+<4>[421343.424611] [0:     trinity-c0: 9094] [<c03eade8>] (_kgsl_sharedmem_page_alloc+0x118/0x3bc) from [<c03e53e0>] (_gpumem_alloc+0xb4/0xec)
+<4>[421343.424794] [0:     trinity-c0: 9094] [<c03e53e0>] (_gpumem_alloc+0xb4/0xec) from [<c03e55f4>] (kgsl_ioctl_gpumem_alloc+0x30/0x13c)
+<4>[421343.424977] [0:     trinity-c0: 9094] [<c03e55f4>] (kgsl_ioctl_gpumem_alloc+0x30/0x13c) from [<c03e0d70>] (kgsl_ioctl+0x210/0x314)
+<4>[421343.425160] [0:     trinity-c0: 9094] [<c03e0d70>] (kgsl_ioctl+0x210/0x314) from [<c015b228>] (vfs_ioctl+0x28/0x3c)
+<4>[421343.425313] [0:     trinity-c0: 9094] [<c015b228>] (vfs_ioctl+0x28/0x3c) from [<c015bd7c>] (do_vfs_ioctl+0x534/0x588)
+<4>[421343.425496] [0:     trinity-c0: 9094] [<c015bd7c>] (do_vfs_ioctl+0x534/0x588) from [<c015be18>] (sys_ioctl+0x48/0x70)
+<4>[421343.425648] [0:     trinity-c0: 9094] [<c015be18>] (sys_ioctl+0x48/0x70) from [<c000e43c>] (__sys_trace_return+0x0/0x24)
+<0>[421343.425831] [0:     trinity-c0: 9094] Code: e1a05000 0a000000 ebffc7f6 e2444001 (e7953204) 

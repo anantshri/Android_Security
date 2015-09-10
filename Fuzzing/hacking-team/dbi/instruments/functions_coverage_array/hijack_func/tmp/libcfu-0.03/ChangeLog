@@ -1,0 +1,8 @@
+Version 0.03
+	* Added command-line option processing
+	* Added libcfu-config
+	* Added a map function to cfulist: cfulist_map()
+	* Added cfulist_new_with_free_fn()
+Version 0.02
+	* Fixed build problems on FreeBSD
+	* Corrected missing info direntry in the docs
