@@ -1,0 +1,15 @@
+[submodule "libdiagexploit"]
+	path = diagexploit
+	url = git://github.com/android-rooting-tools/libdiagexploit.git
+[submodule "libfb_mem_exploit"]
+	path = fb_mem_exploit
+	url = https://github.com/android-rooting-tools/libfb_mem_exploit.git
+[submodule "libkallsyms"]
+	path = kallsyms
+	url = https://github.com/android-rooting-tools/libkallsyms.git
+[submodule "device_database"]
+	path = device_database
+	url = https://github.com/android-rooting-tools/android_device_database
+[submodule "plugins"]
+	path = plugins
+	url = https://github.com/hiikezoe/mole_plough_plugins

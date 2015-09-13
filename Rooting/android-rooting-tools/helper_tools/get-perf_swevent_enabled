@@ -1,0 +1,23 @@
+#!/bin/sh
+ASM_FILE=$1
+TMP_FILE=/tmp/perf_swevent_enabled-$$.tmp
+
+LINES=`grep -m 1 -n 'ADD[	 ]*R5, R3, R5 ,LSL #2' $ASM_FILE | cut -d ':' -f 1`
+
+if [ -z "$LINES" ]; then
+  exit 1;
+fi
+
+head -n $LINES $ASM_FILE | tail -4 > $TMP_FILE
+
+if ! grep warn_slowpath_null $TMP_FILE >/dev/null; then
+  rm -f $TMP_FILE
+  exit 2
+fi
+
+RESULT=`grep 'LDR[ 	]*R3, =' $TMP_FILE | cut -d '=' -f 2 | cut -c 2-9`
+
+echo $RESULT
+
+rm -f $TMP_FILE
+exit 0

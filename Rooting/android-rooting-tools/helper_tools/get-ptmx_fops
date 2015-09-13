@@ -1,0 +1,37 @@
+#!/bin/sh
+ASM_FILE=$1
+TMP_FILE=/tmp/ptms_fops-$$.tmp
+
+LINES=`grep -m 1 -n '<tty_default_fops>' $ASM_FILE | cut -d ':' -f 1`
+
+if [ -z "$LINES" ]; then
+  exit 1;
+fi
+
+head -$LINES $ASM_FILE | tail -2 | head -1 > $TMP_FILE
+
+if ! grep 'ADD[	 ]*R0, R., #\$' $TMP_FILE >/dev/null; then
+  cat $TMP_FILE
+  rm -f $TMP_FILE
+  exit 2
+fi
+
+REGNAME=`sed -e 's/.*R0, //' $TMP_FILE | cut -c 1-2`
+OFFSET=`sed -e 's/.*#.//' $TMP_FILE | cut -d ' ' -f 1`
+
+if [ -z "$REGNAME" -o -z "$OFFSET" ]; then
+  exit 1;
+fi
+
+head -$LINES $ASM_FILE | grep "LDR[	 ]*$REGNAME, =\\$" | tail -1 > $TMP_FILE
+
+BASEADDR=`sed -e "s/.*, =.//" $TMP_FILE | cut -d ' ' -f 1`
+
+if [ -z "$BASEADDR" ]; then
+  exit 1;
+fi
+
+echo $BASEADDR + $OFFSET
+
+rm -f $TMP_FILE
+exit 0

