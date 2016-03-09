@@ -11,7 +11,7 @@ This repository is a propriotary material of Anant Shrivastava unless and until 
 
 The repository is shared with students with following aggrement
 
-1. The content is shared with students to mintain continuous learning.
+1. The content is shared with students to maintain continuous learning.
 2. The content is only shared with the course participants and should not be shared with any third party.
 3. Any person found voilating this term (item 2) will have his/her access removed.
 4. The access is granted for lifetime.
