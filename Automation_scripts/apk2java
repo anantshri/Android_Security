@@ -4,26 +4,23 @@ echo "This is a script created by Anant Shrivastava"
 echo "http://anantshri.info"
 echo "This script will work on automating the work of extracting the source code out from the apk file"
 # DOWNLOAD HERE 
-# 
-#
 # Path of various required executables
 # this requires executables besides JRE
 # apktool,dex2jar,jad
 # Script designed and Tested on Android Tamer (https://androidtamer.com) 
 echo "Starting APK Decompile"
-PTH="/Users/anant/Tools/android/bin/"
 # JAR KEEP is a variable which allows you to keep jar file converted using dex2jar.
 # 0 is off
 # 1 is on
 JAR_KEEP=1
-exec 1> /tmp/apk2java.log 2> /tmp/apk2java.log
+#exec 1> /tmp/apk2java.log 2> /tmp/apk2java.log
 echo $0 $1
 echo $@
 echo "APK to JAVA/SRC conversion Utility"
 #zenity --progress --text="APK to JAVA/SRC conversion Utility" --percentage=0 --auto-kill
 APK_NAME=`basename $1`
 c=`basename $APK_NAME .apk`
-FULL_PTH=`greadlink -f $1`
+FULL_PTH=`readlink -f $1`
 CDIR=`dirname $FULL_PTH`
 SRC_DIR=$CDIR"/"$APK_NAME"_src/"
 echo $c
@@ -39,31 +36,38 @@ mkdir -p $CDIR"/"$APK_NAME"_src"
 echo "APK TOOLS extracting files"
 #zenity --progress --text="APKTOOL MAGIC" --percentage=20 --auto-kill
 #$PTH/apktool decode -s -f $CDIR"/"$APK_NAME $SRC_DIR
-apktool decode -f $CDIR"/"$APK_NAME $SRC_DIR
+echo "Doing APKtool now"
+echo "apktool decode -f -o $CDIR/$APK_NAME $SRC_DIR"
+apktool decode -f "$CDIR/$APK_NAME" -o $SRC_DIR
 mkdir -p $CDIR"/"$APK_NAME"_src/jar"
-echo "Dex2jar conversion and extraction"
+#echo "Dex2jar conversion and extraction"
 #zenity --progress --text="DEX2JAR conversion and Extraction" --percentage=40 --auto-kill
 #$PTH/dex2jar.sh $CDIR"/"$APK_NAME 
-dex2jar.sh $CDIR"/"$APK_NAME 
-echo "jar file name is "$c"_dex2jar.jar"
-mv $CDIR"/"$c"_dex2jar.jar" $SRC_DIR"/jar/"
+#Removing dex2jar
+#d2j-dex2jar.sh $CDIR"/"$APK_NAME 
+#echo "jar file name is "$c"_dex2jar.jar"
+#mv $CDIR"/"$c"_dex2jar.jar" $SRC_DIR"/jar/"
+echo "Enjarify for decoding back to java classes"
+enjarify -f "$CDIR/$APK_NAME" -o $SRC_DIR"/jar/"$c"_enjarify.jar"
 cd $SRC_DIR"/jar"
-jar -xvf $c"_dex2jar.jar"
-echo "removing jar file" 
+mkdir -p ../src/jadx
+jadx -d ../src/jadx $SRC_DIR"/jar/"$c"_enjarify.jar"
+jar -xvf $c"_enjarify.jar"
 echo "Source Extraction from class files"
 #zenity --progress --text="Source extraction from class files" --percentage=60 --auto-kill
 #$PTH/jad -o -r -sjava -d../src ./**/*.class
 #jad input in single qoute to avoid shell expansion
-jad -o -r -sjava -d../src './**/*.class'
+jad -o -r -sjava -d../src/jad './**/*.class'
 if [ $JAR_KEEP -eq 0 ]
 then
-	rm -rf $c"_dex2jar.jar"
+  echo "removing jar file" 
+	rm -rf $c"_enjarify.jar"
 	cd ..
 	rm -rf ./jar
 fi 
 cd $CDIR"/"$APK_NAME"_src/"
 ls -l
 cd $CDIR
-
+echo "All Done"
 #zenity --progress --text="Done" --percentage=100 --auto-kill
 #zenity --info --text="Conversion done"
