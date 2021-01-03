@@ -4,30 +4,17 @@ This repository has supplementary material for Android Training's done by Anant 
 - Xtreme Android Hacking
 - Android Pentesting
 
+The material was made public on 3rd January 2021 in the spirit of free learning. Author holds no liability for the usage and accuracy of this material and the material is provided as is.
 
-# About Repository
+This repository is a amalgamation of multiple other repository content also, this was done to facilitate easier access for students. Anything which is taken from other sources care has been taken to preserve the copyrights and licenses, if no license is mentioned safe to assume the project's license has been changed to Creative Commons ShareAlike license, from 3rd January 2021. If there is any voilation please raise a pull request or and issue and i will be happy to correct it. 
 
-This repository contains proprietary material prepared by Anant Shrivastava unless and until otherwise specified in specific files.
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-The repository is shared with students with following agreement:
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
+International License][cc-by-sa].
 
-1. The content is shared with students to maintain continuous learning.
-2. The content is only shared with the course participants and should not be shared with any third party.
-3. Any person found violating this term (item 2) will have his/her access removed.
-4. The access is granted for lifetime.
-5. Here lifetime means:
-    1. Lifetime of Anant Shrivastava (author)
-    2. Lifetime of Github
-    3. Lifetime of Student
-    4. Ability of Anant Shrivastava to continue paying Github.
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-## How to collaborate
-
-1. If you have an issue / doubt or concern, add an issue in repository. 
-2. If you have a suggestion / change / correction feel free to suggest via issues section. Do not edit the file directly.
-
-## Direct contact.
-If the need be a student can directly contact Trainer at (anant at anantshri dot info). However, in the interest of ensuring that everyone learns I would suggest we keep the concerns public so that others can also learn from the discussions.
-
-# Up-to-date presentation
-As the presentation will keep on updating and based on course duration the content will vary, however once the access is established the slide deck's will be uploaded on this portal and student can continue learning newer stuff via this.
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
