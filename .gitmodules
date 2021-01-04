@@ -7,3 +7,6 @@
 [submodule "Exploitation/privilege_escalation/PoCForCVE-2015-1528"]
 	path = Exploitation/privilege_escalation/PoCForCVE-2015-1528
 	url = https://github.com/secmob/PoCForCVE-2015-1528
+[submodule "Exploitation/Shell_code_execution/cve-2015-1538-1"]
+	path = Exploitation/Shell_code_execution/cve-2015-1538-1
+	url = https://github.com/jduck/cve-2015-1538-1
