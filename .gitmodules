@@ -1,0 +1,3 @@
+[submodule "Exploitation/privilege_escalation/cansecwest2016-CVE-2015-6764"]
+	path = Exploitation/privilege_escalation/cansecwest2016-CVE-2015-6764
+	url = https://github.com/secmob/cansecwest2016
