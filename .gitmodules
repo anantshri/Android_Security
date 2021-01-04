@@ -1,3 +1,6 @@
 [submodule "Exploitation/privilege_escalation/cansecwest2016-CVE-2015-6764"]
 	path = Exploitation/privilege_escalation/cansecwest2016-CVE-2015-6764
 	url = https://github.com/secmob/cansecwest2016
+[submodule "Exploitation/privilege_escalation/CVE-2015-3636"]
+	path = Exploitation/privilege_escalation/CVE-2015-3636
+	url = https://github.com/fi01/CVE-2015-3636
