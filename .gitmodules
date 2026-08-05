@@ -13,3 +13,6 @@
 [submodule "Exploitation/Android_Kernel_CVE_POCs"]
 	path = Exploitation/Android_Kernel_CVE_POCs
 	url = https://github.com/ScottyBauer/Android_Kernel_CVE_POCs
+[submodule "Exploitation/android_vuln_poc-exp"]
+	path = Exploitation/android_vuln_poc-exp
+	url = https://github.com/jiayy/android_vuln_poc-exp
